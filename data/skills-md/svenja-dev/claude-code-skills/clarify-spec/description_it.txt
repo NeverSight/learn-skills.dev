@@ -1,12 +1,1 @@
-AKTIVIERT SICH AUTOMATISCH bei vagen Auftraegen. LIEBER EINMAL ZU OFT NACHFRAGEN als falsch implementieren.
-
-Erkennungsmerkmale (EINES genuegt!):
-- Auftrag <25 Woerter
-- Keine konkreten Dateinamen/Pfade
-- Vage Verben: besser, optimieren, fixen, machen, aendern, verbessern, anpassen, erweitern, refactoren, aufraumen, ueberarbeiten
-- Unsichere Sprache: irgendwie, vielleicht, mal eben, schnell, einfach, bisschen, koennte, sollte
-- Fehlende Erfolgskriterien: Kein damit, sodass, weil, um zu
-- Relativo Begriffe ohne Kontext: schneller, besser, schoener, einfacher
-
-L'output è STRUKTURIERTES JSON fuer prompt-architect Skill.
-Escape: mach einfach, keine Rueckfragen, entscheide selbst ueberspringt Klaerung.
+Si attiva automaticamente con richieste vaghe. Meglio chiedere chiarimenti che implementare male. Indicatori: richiesta <25 parole, nessun file/path concreto, verbi vaghi (migliorare, ottimizzare, fixare, fare, modificare), linguaggio incerto (forse, un po', veloce, semplice). Output: JSON strutturato per prompt-architect. Escape: "fai semplicemente", "nessuna domanda", "decidi tu" saltano la chiarificazione.
