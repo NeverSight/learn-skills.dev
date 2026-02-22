@@ -1,0 +1,1 @@
+메모리 안전성 검증을 위한 Rust 살균제 및 Miri 기술. Rust 코드에서 AddressSanitizer 또는 ThreadSanitizer를 실행하거나, 새니타이저 보고서를 해석하거나, Miri를 사용하여 안전하지 않은 Rust에서 정의되지 않은 동작을 감지하거나, 안전하지 않은 코드의 정확성을 검증할 때 사용합니다. Rust ASan, Rust TSan, Miri, RUSTFLAGS sanitize, 화물 miri, 안전하지 않은 Rust UB에 대한 쿼리 또는 Rust sanitizer 출력 해석에 대해 활성화됩니다.
