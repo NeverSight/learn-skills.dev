@@ -1,5 +1,5 @@
-Build authentication systems for TypeScript/Cloudflare Workers with social auth, 2FA, passkeys, organizations, and RBAC. Clerk/Auth.js 的自託管替代方案。
+使用社交身份驗證、2FA、金鑰、組織和 RBAC 為 TypeScript/Cloudflare Workers 建立身份驗證系統。 Clerk/Auth.js 的自架替代方案。
 
-IMPORTANT: Requires Drizzle ORM or Kysely for D1 - no direct D1 adapter. v1.4.0 (Nov 2025) adds stateless sessions, ESM-only (breaking), JWT key rotation, SCIM provisioning. v1.3 添加了 SSO/SAML、多團隊支持。
+重要提示：D1 需要 Drizzle ORM 或 Kysely - 無直接 D1 轉接器。 v1.4.0（2025 年 11 月）新增了無狀態會話、僅限 ESM（中斷）、JWT 金鑰輪換、SCIM 配置。 v1.3 新增了 SSO/SAML、多團隊支援。
 
-Use when: self-hosting auth on Cloudflare D1, migrating from Clerk, implementing multi-tenant SaaS, or troubleshooting D1 adapter errors, session serialization, OAuth flows, TanStack Start cookie issues, nanostore session invalidation.
+使用場合：Cloudflare D1 上的自架驗證、從 Clerk 遷移、實作多租戶 SaaS 或排除 D1 適配器錯誤、會話序列化、OAuth 流、TanStack Start cookie 問題、nanostore 會話失效。

@@ -1,1 +1,1 @@
-从 mixdao latest 获取数据 → 用 MiniMax-M2.5 做分类整理（agent loop：至多5组、每组至少3条）并生成分组摘要与每条推荐语 → 按 cachedStoryId 提交推荐语并上传简报到 mixdao。需配置 MIXDAO_API_KEY、ANTHROPIC_API_KEY。自然语言触发示例：「执行 daily briefing」「做今日 mixdao 简报」。
+從 mixdao latest 取得資料 → 用 MiniMax-M2.5 做分類整理（agent loop：至多5組、每組至少3條）並產生分組摘要與每個推薦語 → 按 cachedStoryId 提交推薦語並上傳簡報到 mixdao。需配置 MIXDAO_API_KEY、ANTHROPIC_API_KEY。自然語言觸發範例：「執行 daily briefing」「做今日 mixdao 簡報」。

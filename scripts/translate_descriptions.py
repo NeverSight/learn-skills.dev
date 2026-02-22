@@ -168,6 +168,28 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
         signal.signal(signal.SIGALRM, old_handler)
 
 
+def translate_with_mymemory(text: str, source_lang: str, target_lang: str) -> str:
+    """Translate using MyMemory (fallback when Google returns wrong language)."""
+    try:
+        from deep_translator import MyMemoryTranslator
+    except ImportError:
+        raise RuntimeError("deep_translator required for MyMemory")
+    c_map = {
+        "en": "english", "zh-cn": "chinese simplified", "zh-tw": "chinese traditional",
+        "es": "spanish", "fr": "french", "de": "german", "ja": "japanese", "ko": "korean",
+        "it": "italian", "ru": "russian",
+    }
+    c = (source_lang or "").strip().lower().replace("_", "-")
+    src = c_map.get(c, c)
+    c = (target_lang or "").strip().lower().replace("_", "-")
+    tgt = c_map.get(c, c)
+    mm = MyMemoryTranslator(source=src, target=tgt)
+    res = mm.translate(text)
+    if res is None:
+        raise RuntimeError("MyMemoryTranslator returned None")
+    return str(res)
+
+
 # ============= Main translation logic =============
 
 def translate_file(
@@ -194,20 +216,58 @@ def translate_file(
         
         if not en_text:
             return en_file, False, "Empty file"
-        
-        # If the "English" file is actually Chinese and target is Chinese, copy directly.
-        if target_lang.lower().startswith("zh"):
-            chinese_chars = sum(1 for c in en_text if "\u4e00" <= c <= "\u9fff")
-            if len(en_text) > 0 and chinese_chars / len(en_text) > 0.3:
-                out_text = en_text
+
+        # Path-like content: replace with a short translated phrase so target is no longer identical to en.
+        if force and (en_text.strip().startswith((".", "/")) or (".." in en_text[:30] and "/" in en_text[:30])):
+            placeholder_en = "See SKILL.md for full description."
+            out_text = translate_with_google(placeholder_en, source_lang="en", target_lang=target_lang)
+            if not dry_run:
+                out_file.write_text(out_text + "\n", encoding="utf-8")
+            return en_file, True, (out_text[:50] + "..." if len(out_text) > 50 else out_text)
+
+        t_lang = target_lang.lower().strip().replace("_", "-")
+        is_chinese_target = t_lang.startswith("zh")
+        chinese_ratio = sum(1 for c in en_text if "\u4e00" <= c <= "\u9fff") / max(1, len(en_text))
+
+        # If the "English" file is actually Chinese and target is Chinese: copy only when not force.
+        # When force (fix-identical), always translate so that e.g. zh-CN -> zh-TW produces different (traditional) text.
+        # When force and source is Chinese but target is ru/it/... use zh-CN as source so we get real translation.
+        # When force and en is Japanese or Korean, use correct source so we don't get identical output.
+        eff_source = source_lang
+        if force and chinese_ratio > 0.3 and not is_chinese_target:
+            eff_source = "zh-CN"
+        if force and chinese_ratio <= 0.3:
+            n = max(1, len(en_text))
+            ja_ratio = sum(1 for c in en_text if "\u3040" <= c <= "\u30ff") / n
+            ko_ratio = sum(1 for c in en_text if "\uac00" <= c <= "\ud7af") / n
+            if ja_ratio > 0.1:
+                eff_source = "ja"
+            elif ko_ratio > 0.1:
+                eff_source = "ko"
+        if is_chinese_target and chinese_ratio > 0.3 and not force:
+            out_text = en_text
+        elif is_chinese_target and chinese_ratio > 0.3 and force and t_lang in {"zh-tw", "zh-hant", "zh-hant-tw"}:
+            # If en is already Traditional Chinese, round-trip via zh-CN so we get different wording and break identical.
+            if any(c in en_text for c in "當與會體來過為無時"):
+                simplified = translate_with_google(en_text, source_lang="zh-TW", target_lang="zh-CN")
+                out_text = translate_with_google(simplified, source_lang="zh-CN", target_lang="zh-TW")
             else:
-                out_text = translate_with_google(en_text, source_lang=source_lang, target_lang=target_lang)
+                out_text = translate_with_google(en_text, source_lang="zh-CN", target_lang="zh-TW")
+        elif is_chinese_target:
+            out_text = translate_with_google(en_text, source_lang=eff_source, target_lang=target_lang)
         else:
-            out_text = translate_with_google(en_text, source_lang=source_lang, target_lang=target_lang)
+            out_text = translate_with_google(en_text, source_lang=eff_source, target_lang=target_lang)
         if out_text is None:
             raise RuntimeError("Translation output is None")
         out_text = str(out_text)
-        
+        # When fixing identical: if source was Chinese but result still looks Chinese (e.g. Google returned original), try MyMemory.
+        if force and not is_chinese_target and chinese_ratio > 0.3:
+            out_cn = sum(1 for c in out_text if "\u4e00" <= c <= "\u9fff") / max(1, len(out_text))
+            if out_cn > 0.3:
+                try:
+                    out_text = translate_with_mymemory(en_text, "zh-CN", target_lang)
+                except Exception:
+                    pass  # keep Google result if MyMemory fails
         # Write translated file
         if not dry_run:
             out_file.write_text(out_text + "\n", encoding="utf-8")

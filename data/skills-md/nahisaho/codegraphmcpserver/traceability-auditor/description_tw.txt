@@ -1,17 +1,17 @@
-Validates complete requirements traceability across EARS requirements → design → tasks → code → tests.
+驗證跨 EARS 需求 → 設計 → 任務 → 程式碼 → 測試的完整需求可追溯性。
 
-Trigger terms: traceability, requirements coverage, coverage matrix, traceability matrix,
-requirement mapping, test coverage, EARS coverage, requirements tracking, traceability audit,
-gap detection, orphaned requirements, untested code, coverage validation, traceability analysis.
+觸發術語：可追溯性、需求涵蓋範圍、覆蓋矩陣、可追溯性矩陣、
+需求映射、測試覆蓋率、EARS 覆蓋率、需求追蹤、可追溯性審核、
+差距檢測、孤立需求、未經測試的程式碼、覆蓋率驗證、可追溯性分析。
 
-Enforces Constitutional Article V (Traceability Mandate) with comprehensive validation:
+透過全面驗證執行憲法第五條（可追溯性授權）：
 - 要求 → 設計映射（100% 覆蓋率）
 - 設計 → 任務映射
-- 任務→代碼實現映射
-- 代碼 → 測試映射（100% 覆蓋率）
-- Gap detection (orphaned requirements, untested code)
+- 任務→程式碼實作映射
+- 程式碼 → 測試映射（100% 覆蓋率）
+- 差距檢測（孤立的需求、未經測試的程式碼）
 - 覆蓋率報告
 - 追溯矩陣生成
 
-Use when: user needs traceability validation, coverage analysis, gap detection,
-or requirements tracking across the full development lifecycle.
+使用時：使用者需要可追溯性驗證、覆蓋率分析、間隙檢測、
+或整個開發生命週期的需求追蹤。

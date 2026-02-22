@@ -1,14 +1,14 @@
-将代码项目转换为 Obsidian 知识库。当用户提到 obsidian、项目文档、知识库、分析项目、转换项目时激活.
+Converti progetti di codice in basi di conoscenza Obsidian. Si attiva quando l'utente menziona ossidiana, documentazione di progetto, base di conoscenza, progetto di analisi, progetto di trasformazione.
 
-【激活后必须执行】：
-1. 先完整阅读本 SKILL.md 文件
-2. 理解 AI 写入规则（默认到 00_Inbox/AI/、追加式、统一 Schema）
-3. Passare al PASSO 0: utilizzare AskUserQuestion per ottenere la risposta.
-4. 用户确认后才开始 PASSO 1 项目扫描
-5. 严格按 STEP 0 → 1 → 2 → 3 → 4 顺序执行
+[Deve essere eseguito dopo l'attivazione]:
+1. Prima leggere completamente questo file SKILL.md
+2. Comprendere le regole di scrittura AI (impostazione predefinita su 00_Inbox/AI/, aggiungi, schema unificato)
+3. Eseguire il PASSO 0: utilizzare AskUserQuestion per chiedere conferma all'utente
+4. Avviare la scansione del progetto STEP 1 dopo la conferma dell'utente.
+5. Seguire rigorosamente l'ordine PASSO 0 → 1 → 2 → 3 → 4
 
-【禁止行为】：
-- 禁止不读 SKILL.md 就开始分析项目
-- 禁止跳过 STEP 0 用户确认
-- 禁止直接在 30_Resources 创建（先到 00_Inbox/AI/）
-- 禁止自作主张决定输出位置
+[Comportamento vietato]:
+- È vietato iniziare ad analizzare il progetto senza leggere SKILL.md
+- Disabilita il salto della conferma utente del PASSO 0
+- Proibisci la creazione direttamente in 30_Resources (prima a 00_Inbox/AI/)
+- È vietato decidere autonomamente il luogo di uscita
