@@ -101,6 +101,11 @@ jobs:
             sleep $((i * 2))
           done
       
+      - name: Notify Discord top-10 skills
+        run: python scripts/notify_discord_top_skills.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
       # Translate descriptions (GitHub Actions bot push won't trigger other workflows)
       - name: Install translation dependencies
         run: pip install deep-translator
