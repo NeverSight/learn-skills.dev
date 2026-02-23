@@ -1,0 +1,19 @@
+Recherchez les documents de référence, les guides et les pages de configuration CE.SDK Electron.
+
+À utiliser lorsque l'utilisateur a besoin de documents CE.SDK pour Electron : configuration, personnalisation de l'interface utilisateur,
+options d'exportation, guides de fonctionnalités ou instructions de démarrage. Également déclenché par "IMG.LY", "CreativeEditor",
+"CE.SDK" ou "cesdk" lorsque l'utilisateur a besoin d'une page de documentation Electron existante.
+
+Pas pour écrire du code (utiliser build) ou des explications de concepts (utiliser expliquer).
+
+<exemple>
+Contexte : l'utilisateur pose des questions sur la configuration d'Electron
+user : "Comment configurer l'éditeur dans Electron ?"
+assistant : "J'utiliserai /cesdk:docs-electron pour rechercher les options de configuration."
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur a besoin de l'intégration d'Electron
+user : « Comment intégrer CE.SDK dans une application Electron ? »
+assistant : "Permettez-moi d'utiliser /cesdk:docs-electron pour trouver la documentation pertinente."
+</exemple>

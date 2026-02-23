@@ -1,0 +1,19 @@
+Recherchez les documents de référence, les guides et les pages de configuration CE.SDK SvelteKit.
+
+À utiliser lorsque l'utilisateur a besoin de documents CE.SDK pour SvelteKit : configuration, personnalisation de l'interface utilisateur,
+options d'exportation, guides de fonctionnalités ou instructions de démarrage. Également déclenché par "IMG.LY", "CreativeEditor",
+"CE.SDK" ou "cesdk" lorsque l'utilisateur a besoin d'une page de documentation SvelteKit existante.
+
+Pas pour écrire du code (utiliser build) ou des explications de concepts (utiliser expliquer).
+
+<exemple>
+Contexte : l'utilisateur pose des questions sur la configuration de SvelteKit
+user : "Comment configurer l'éditeur dans SvelteKit ?"
+assistant : "J'utiliserai /cesdk:docs-sveltekit pour rechercher les options de configuration."
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur pose des questions sur SvelteKit SSR
+user : "CE.SDK fonctionne-t-il avec le rendu côté serveur SvelteKit ?"
+assistant : "Permettez-moi d'utiliser /cesdk:docs-sveltekit pour trouver la documentation pertinente."
+</exemple>

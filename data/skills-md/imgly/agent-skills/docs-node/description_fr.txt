@@ -1,0 +1,19 @@
+Recherchez les documents de référence, les guides et les pages de configuration CE.SDK Node.js.
+
+À utiliser lorsque l'utilisateur a besoin de documents CE.SDK pour Node.js : configuration, rendu sans tête,
+options d'exportation, traitement par lots ou instructions de démarrage. Également déclenché par "IMG.LY", "CreativeEditor",
+"CE.SDK" ou "cesdk" lorsque l'utilisateur a besoin d'une page de documentation Node.js existante.
+
+Pas pour écrire du code (utiliser build) ou des explications de concepts (utiliser expliquer).
+
+<exemple>
+Contexte : l'utilisateur pose des questions sur la configuration de Node.js
+user : « Comment configurer le moteur dans Node.js ? »
+assistant : "J'utiliserai /cesdk:docs-node pour rechercher les options de configuration."
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur a besoin d'une génération côté serveur
+user : "Comment utiliser CE.SDK pour la génération d'images côté serveur ?"
+assistant : "Permettez-moi d'utiliser /cesdk:docs-node pour trouver la documentation pertinente."
+</exemple>
