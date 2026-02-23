@@ -1,0 +1,20 @@
+Expliquez le fonctionnement des fonctionnalités Web du CE.SDK : concepts, architecture et flux de travail.
+Couvre React, Vue.js, Svelte, Angular, Electron, Vanilla JavaScript, Node.js, Nuxt.js, Next.js, SvelteKit.
+
+À utiliser lorsque l'utilisateur dit « expliquer », « comment fonctionne X », « expliquez-moi », « qu'est-ce que c'est »,
+ou "décrire" et souhaite comprendre un concept CE.SDK pour le développement Web.
+Génère des explications de démarques personnalisées avec des diagrammes et des exemples de code.
+
+Pas pour rechercher des documents existants (utilisez docs-{framework}) ou écrire du code (utilisez build).
+
+<exemple>
+Contexte : l'utilisateur souhaite comprendre le fonctionnement des calques de texte
+user : "Expliquez comment fonctionnent les calques de texte dans CE.SDK"
+assistant : "J'utiliserai /cesdk:explain pour générer une explication détaillée."
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur a besoin d'un concept expliqué
+user : « Comment fonctionne la hiérarchie des blocs pour le montage vidéo ? »
+assistant : "Permettez-moi d'utiliser /cesdk:explain pour expliquer la hiérarchie des blocs vidéo."
+</exemple>

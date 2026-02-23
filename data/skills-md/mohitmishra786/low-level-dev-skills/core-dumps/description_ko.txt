@@ -1,0 +1,1 @@
+프로덕션 충돌 분류를 위한 코어 덤프 분석 기술입니다. GDB 또는 LLDB에서 코어 파일을 로드하거나, Linux/macOS에서 코어 덤프 생성을 활성화하거나, debuginfo 또는 debuginfod로 기호를 매핑하거나, 프로그램을 다시 실행하지 않고 충돌에서 역추적을 추출할 때 사용합니다. 코어 파일, ulimit, coredumpctl, debuginfod, 충돌 분류 또는 프로덕션 바이너리의 segfault 분석에 대한 쿼리에서 활성화됩니다.

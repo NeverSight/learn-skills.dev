@@ -1,0 +1,1 @@
+C の相互運用性のための Rust FFI スキル。 Rust から C ライブラリを呼び出す場合、bindgen を使用して Rust バインディングを生成する場合、cbindgen を使用して Rust 関数を C にエクスポートする場合、安全でない FFI の周囲に安全なラッパーを作成する場合、またはシステム ライブラリとベンダー ライブラリをリンクする場合に使用します。 bindgen、cbindgen、extern "C"、安全でない FFI、Rust C バインディング、Rust からの C のリンク、または sys crate に関するクエリでアクティブ化されます。

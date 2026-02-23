@@ -1,0 +1,1 @@
+Rust サニタイザーとメモリの安全性を検証するための Miri スキル。 Rust コードで AddressSanitizer または ThreadSanitizer を実行する場合、サニタイザー レポートを解釈する場合、Miri を使用して安全でない Rust での未定義の動作を検出する場合、または安全でないコードの正確性を検証する場合に使用します。 Rust ASan、Rust TSan、Miri、RUSTFLAGS サニタイズ、カーゴ miri、安全でない Rust UB、または Rust サニタイザー出力の解釈に関するクエリでアクティブになります。
