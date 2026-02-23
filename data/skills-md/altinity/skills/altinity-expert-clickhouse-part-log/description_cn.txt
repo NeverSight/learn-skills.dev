@@ -1,0 +1,1 @@
+通过分析 system.part_log（部件创建、合并、突变、下载、删除、移动）来诊断 ClickHouse 问题。用于太多部件/微批量插入、合并积压或缓慢合并、突变风暴（ALTER DELETE/UPDATE）、异常复制 DownloadPart 流失、意外的 RemovePart 峰值或与部件活动相关的 ZooKeeper/Keeper znode 增长。
