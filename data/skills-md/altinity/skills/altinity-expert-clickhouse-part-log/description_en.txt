@@ -1,0 +1,1 @@
+Diagnose ClickHouse issues by analyzing system.part_log (part creation, merges, mutations, downloads, removals, moves). Use for too many parts / micro-batch inserts, merge backlog or slow merges, mutation storms (ALTER DELETE/UPDATE), unusual replication DownloadPart churn, unexpected RemovePart spikes, or ZooKeeper/Keeper znode growth correlated with part activity.

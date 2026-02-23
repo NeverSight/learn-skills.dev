@@ -1,0 +1,1 @@
+Analyze whether ClickHouse indexes (PRIMARY KEY, ORDER BY, skipping indexes, projections) are being used effectively for actual query patterns. Use when investigating index effectiveness, ORDER BY key design, query-to-index alignment, or when queries scan more data than expected.
