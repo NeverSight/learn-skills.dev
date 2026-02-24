@@ -1,13 +1,1 @@
-Claude Code Hook Creation and Management Guide. Implementing hooks such as PreToolUse, PostToolUse, Stop, etc.  
-Usage timing:  
-(1) When you want to block dangerous operations  
-(2) When you want to make suggestions after tool execution  
-(3) When you want to perform cleanup at session end  
-(4) When you want to customize Claude Code  
-
-Trigger examples:  
-"Create a hook"  
-"PreToolUse hook"  
-"Block dangerous operations"  
-"Suggest after commit"  
-"Claude Code hooks"
+Claude Code の Hook 作成・管理ガイド。PreToolUse、PostToolUse、Stop等のフック実装。 使用タイミング: (1) 危険操作をブロックしたい時 (2) ツール実行後に提案を出したい時 (3) セッション終了時にクリーンアップしたい時 (4) Claude Codeをカスタマイズしたい時。 トリガー例: 「フックを作って」「PreToolUseフック」「危険操作をブロック」 「コミット後に提案」「Claude Codeのhooks」

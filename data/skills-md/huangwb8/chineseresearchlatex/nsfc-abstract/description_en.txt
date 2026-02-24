@@ -1,10 +1,10 @@
-When the user explicitly requests “write/polish an NSFC proposal abstract,” “generate both Chinese and English abstracts,” or “translate the Chinese abstract into English.”
+当用户明确要求“写/润色 NSFC 标书摘要”“生成中文摘要和英文摘要”“把中文摘要翻译成英文摘要”时使用。
 
-Output both Chinese and English versions: the English must be a faithful translation of the Chinese (no added information, no omission of key constraints).
-Chinese abstract defaults to ≤400 characters (including punctuation), English abstract defaults to ≤4000 characters (including punctuation); final limits follow `skills/nsfc-abstract/config.yaml:limits`.
+输出中文、英文两个版本：英文必须是中文的忠实翻译版（不新增信息、不删减关键限定）。
+中文摘要默认 ≤400 字符（含标点），英文摘要默认 ≤4000 字符（含标点）；最终以 `skills/nsfc-abstract/config.yaml:limits` 为准。
 
-Output method: write the results into `NSFC-ABSTRACTS.md` in the **working directory** (filename follows `config.yaml:output.filename`), with one `#` heading for Chinese and one `#` heading for English.
+输出方式：将结果写入**工作目录**下的 `NSFC-ABSTRACTS.md`（文件名以 `config.yaml:output.filename` 为准），中文一个 `#` 标题、英文一个 `#` 标题。
 
-⚠️ Not applicable in the following cases:
-- The user only wants to translate a generic text unrelated to the proposal (translate directly)
-- The user only wants to write the rationale/research content/research foundation text (use corresponding nsfc series skill)
+⚠️ 以下情况不适用：
+- 用户只想翻译一段与标书无关的通用文本（应直接翻译）
+- 用户只想写立项依据/研究内容/研究基础正文（应使用对应 nsfc 系列 skill）

@@ -1,9 +1,9 @@
-Git branch naming and workflow guidelines to ensure team collaboration consistency and version control best practices. Includes branch naming formats, commit standards, Pull Request procedures, and safeguards to prevent direct changes to the main branch. Applicable to all development tasks involving file modifications, new features, and bug fixes.
+Git 分支命名與工作流程規範，確保團隊協作一致性和版本控制最佳實踐。包含分支命名格式、提交規範、Pull Request 流程，以及防止直接修改 main 分支的安全機制。適用於所有涉及檔案修改、新增功能、bug 修復的開發任務。
 
-⚠️ Key rules - must be followed:
-1. Never make any changes or commits directly on the main branch
-2. All changes must first create a feature branch (format: <type>/<name>/<description>)
-3. Merge via Pull Request after completion
-4. This guideline applies to all tasks involving file modifications, new features, or bug fixes
+⚠️ 關鍵規則 - 必須遵守：
+1. 絕對不可以直接在 main 分支上進行任何修改或提交
+2. 任何變更都必須先建立功能分支（格式：<type>/<name>/<description>）
+3. 完成後透過 Pull Request 合併
+4. 本技能適用於所有涉及檔案修改、新增功能、bug 修復的任務
 
-Trigger: Any operation requiring project file changes (including adding, editing, or deleting files) must follow this guideline.
+觸發時機：任何需要修改專案檔案的操作（包括新增、編輯、刪除檔案）都必須參考此規範。

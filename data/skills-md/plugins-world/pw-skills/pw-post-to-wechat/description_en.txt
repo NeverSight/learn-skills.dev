@@ -1,18 +1,18 @@
-Automated tool for posting content to WeChat Official Accounts.
+发布内容到微信公众号的自动化工具。
 
-Core features:
-- Image-text post: multi-image with text mode, up to 9 images supported
-- Article post: full Markdown formatting, preserving style and layout
-- Automated workflow: uses Chrome CDP to auto-login, fill, and publish
-- Smart compression: auto-compresses title and content when limits exceeded
-- Theme support: article posts support default, grace, and simple themes
+核心功能:
+- 图文发表: 多图配文模式, 支持最多 9 张图片
+- 文章发表: 完整 Markdown 格式化, 保留样式和排版
+- 自动化流程: 使用 Chrome CDP 自动登录、填充、发布
+- 智能压缩: 标题和内容超限时自动压缩
+- 主题支持: 文章发表支持 default、grace、simple 三种主题
 
-When to use:
-- User explicitly says “post to WeChat Official Account” or “send to Official Account”
-- User provides a Markdown file or content needing publication
-- User needs to batch-post image-text content
+使用时机:
+- 用户明确要求 "发布到微信公众号"、"发送到公众号"
+- 用户提供 markdown 文件或内容需要发布
+- 用户需要批量发布图文内容
 
-Not applicable:
-- User only asks how to post (just give advice)
-- User needs to edit existing Official Account articles (manual operation)
-- User needs to post to other platforms (use respective platform tools)
+不适用场景:
+- 用户只是询问如何发布 (提供建议即可)
+- 用户需要编辑现有公众号文章 (手动操作)
+- 用户需要发布到其他平台 (使用对应平台工具)
