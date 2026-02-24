@@ -1,0 +1,5 @@
+Safe skill installation with supply chain security scanning. Wraps Cisco skill-scanner
+to vet skills before installation. Supports GitHub repos, skills.sh (npx), Claude marketplace
+plugins, and local paths. Configurable scan depth with static and behavioral analysis by default.
+Uses GitHub archive downloads to avoid git execution risks, with hardened git clone fallback.
+Security decisions are made by a deterministic wrapper script, not the LLM agent.
