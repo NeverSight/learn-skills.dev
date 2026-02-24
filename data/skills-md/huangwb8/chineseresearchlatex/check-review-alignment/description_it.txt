@@ -1,1 +1,9 @@
-Verifica/ottimizzazione allineamento citazioni in «{topic}_review.tex». Controllo semantico citazione–riferimento; riscrive solo in caso di errori gravi. Principio: non modificare inutilmente. In caso dubbio si mantiene e si segnala. Non per generare la review (usare systematic-literature-review) né per BibTeX (usare flusso bib).
+Invocare solo quando l'utente richiede esplicitamente di “controllare/ottimizzare le citazioni nel corpo della recensione `{topic}_review.tex`” o di “eseguire check-review-alignment”.
+
+Utilizzando la comprensione semantica dell’IA host, verifica ogni citazione rispetto alla letteratura riga per riga; **solo quando viene trovato un errore di citazione irreversibile**, esegui una riscrittura minima della "frase contenente la citazione" e riutilizza lo script di rendering `systematic-literature-review` per produrre PDF/Word (lo script non chiama un'API LLM localmente).
+
+Principio fondamentale: **non cambiare per il gusto di cambiare**. Se è impossibile determinare se si tratta di un errore irreversibile, lasciarlo così com'è e contrassegnare un avviso nel rapporto.
+
+⚠️ Non si applica a:
+- Utenti che desiderano semplicemente generare testo di revisione sistematica (utilizzare la revisione sistematica della letteratura)
+- Utenti che desiderano solo aggiungere/verificare le voci BibTeX (utilizzare il flusso di lavoro dedicato alla gestione dei pettorali)

@@ -1,9 +1,9 @@
-Il s'agit de « 核查/优化综述 `{主题}_review.tex` et de « Check-review-alignment » par exemple.
+Invoquez uniquement lorsque l'utilisateur demande explicitement de « vérifier/optimiser les citations dans le corps de la revue `{topic}_review.tex` » ou d'« exécuter check-review-alignment ».
 
-AI的语义理解逐条核查引用是否与文献内容吻合，**只在发现致命性引用错误时**对« 包含引用的句子 »做最小化改写，并复用`revue systématique de la littérature` sous forme de PDF/Word（脚本不在本地直接调用 API LLM）。
+À l’aide de la compréhension sémantique de l’IA hôte, vérifiez chaque citation par rapport à la littérature ligne par ligne ; **uniquement lorsqu'une erreur de citation fatale est trouvée**, effectuez une réécriture minimale de la « phrase contenant la citation » et réutilisez le script de rendu `systematic-literature-review` pour produire un PDF/Word (le script n'appelle pas d'API LLM localement).
 
-核心原则：**不为了改而改**。无法确定是否为致命性错误时，保留原样并在报告中警告。
+Principe de base : **ne changez pas pour changer**. S'il est impossible de déterminer s'il s'agit d'une erreur fatale, laissez-la telle quelle et signalez un avertissement dans le rapport.
 
-⚠️ 以下情况不适用：
-- Revue systématique de la littérature
-- BibTeX 条目（应使用专门的 bavoir 管理流程）
+⚠️ Ne s'applique pas à :
+- Les utilisateurs qui souhaitent simplement générer un texte de revue systématique (utilisez une revue systématique de la littérature)
+- Les utilisateurs qui souhaitent uniquement ajouter/vérifier des entrées BibTeX (utiliser le workflow de gestion des dossards dédié)

@@ -1,10 +1,10 @@
-"当用户明确要求"写/润色 NSFC « » » » »
+Lorsque l'utilisateur demande explicitement « d'écrire/ peaufiner un résumé de proposition NSFC », de « générer des résumés en chinois et en anglais » ou de « traduire le résumé chinois en anglais ».
 
-输出中文、英文两个版本：英文必须是中文的忠实翻译版（不新增信息、不删减关键限定）。
-Prix ≤ 400 $ (含标点) ， Prix ≤ 4000 $ `skills/nsfc-abstract/config.yaml:limits` ici.
+Produire à la fois des versions chinoise et anglaise : l'anglais doit être une traduction fidèle du chinois (pas d'informations ajoutées, pas d'omission de contraintes clés).
+Le résumé chinois contient par défaut ≤ 400 caractères (y compris la ponctuation), le résumé anglais est par défaut de ≤ 4 000 caractères (y compris la ponctuation) ; les limites finales suivent `skills/nsfc-abstract/config.yaml:limits`.
 
-Il s'agit d'un fichier `NSFC-ABSTRACTS.md`（文件名以 `config.yaml:output.filename` et `#` `#` 标题。
+Méthode de sortie : écrivez les résultats dans `NSFC-ABSTRACTS.md` dans le **répertoire de travail** (le nom du fichier suit `config.yaml:output.filename`), avec un en-tête `#` pour le chinois et un en-tête `#` pour l'anglais.
 
-⚠️ 以下情况不适用：
-- 用户只想翻译一段与标书无关的通用文本（应直接翻译）
-- 用户只想写立项依据/研究内容/研究基础正文（应使用对应 nsfc 系列 skills）
+⚠️ Non applicable dans les cas suivants :
+- L'utilisateur souhaite uniquement traduire un texte générique sans rapport avec la proposition (traduire directement)
+- L'utilisateur souhaite uniquement rédiger la justification/le contenu de la recherche/le texte de base de la recherche (utiliser la compétence de la série nsfc correspondante)

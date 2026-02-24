@@ -1,1 +1,9 @@
-Usar cuando el usuario pida «comprobar/optimizar las citas del texto de la revisión {tema}_review.tex» o «ejecutar check-review-alignment». Comprueba que cada cita coincida con el contenido de la fuente; solo reescribe frases con citas en caso de errores graves. Usa el script de systematic-literature-review para PDF/Word. No modificar por modificar; si no está claro que sea error grave, dejar el texto y advertir en el informe. No usar para: generar solo el texto de la revisión (usar systematic-literature-review) o gestionar BibTeX (usar el flujo de bib).
+Invocar solo cuando el usuario solicite explícitamente "verificar/optimizar las citas en el cuerpo de la revisión `{topic}_review.tex`" o "ejecutar check-review-alignment".
+
+Utilizando la comprensión semántica de la IA del anfitrión, verifique cada cita con la literatura línea por línea; **solo cuando se encuentre un error fatal en la cita**, realice una reescritura mínima de la “oración que contiene la cita” y reutilice el script de representación `sistematic-literature-review` para generar PDF/Word (el script no llama a una API LLM localmente).
+
+Principio básico: **no cambiar por cambiar**. Si es imposible determinar si se trata de un error grave, déjelo como está y marque una advertencia en el informe.
+
+⚠️ No aplica para:
+- Usuarios que simplemente desean generar texto de revisión sistemática (use revisión de literatura sistemática)
+- Usuarios que solo desean agregar/verificar entradas BibTeX (use el flujo de trabajo de administración de dorsales dedicado)

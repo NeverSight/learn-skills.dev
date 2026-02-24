@@ -1,10 +1,10 @@
-当用户明确要求“写/润色 NSFC标书摘要”“生成中文摘要和英文摘要”“把中文摘要翻译成英文摘要”时使用.
+Cuando el usuario solicita explícitamente "escribir/pulir un resumen de propuesta de NSFC", "generar resúmenes en chino e inglés" o "traducir el resumen en chino al inglés".
 
-输出中文、英文两个版本：英文必须是中文的忠实翻译版（不新增信息、不删减关键限定）。
-中文摘要默认 ≤400 字符（含标点），英文摘要默认 ≤4000 字符（含标点）；最终以`skills/nsfc-abstract/config.yaml:limits` incluido.
+Genere versiones en chino e inglés: el inglés debe ser una traducción fiel del chino (sin información adicional, sin omisión de restricciones clave).
+El resumen en chino tiene por defecto ≤400 caracteres (incluida la puntuación), el resumen en inglés tiene por defecto ≤4000 caracteres (incluida la puntuación); Los límites finales siguen `skills/nsfc-abstract/config.yaml:limits`.
 
-输出方式：将结果写入**工作目录**下的 `NSFC-ABSTRACTS.md`（文件名以 `config.yaml:output.filename` 为准），中文一个 `#`标题、英文一个 `#` 标题。
+Método de salida: escriba los resultados en `NSFC-ABSTRACTS.md` en el **directorio de trabajo** (el nombre del archivo sigue a `config.yaml:output.filename`), con un encabezado `#` para chino y un encabezado `#` para inglés.
 
-⚠️ 以下情况不适用:
-- 用户只想翻译一段与标书无关的通用文本（应直接翻译）
-- 用户只想写立项依据/研究内容/研究基础正文（应使用对应 nsfc 系列 habilidad）
+⚠️ No aplica en los siguientes casos:
+- El usuario sólo quiere traducir un texto genérico ajeno a la propuesta (traducir directamente)
+- El usuario solo desea escribir la justificación/contenido de la investigación/texto fundacional de la investigación (use la habilidad de la serie nsfc correspondiente)

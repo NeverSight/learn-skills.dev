@@ -1,10 +1,10 @@
-当用户明确要求“写/润色 NSFC标书摘要““生成中文摘要和英文摘要““把中文摘要翻译成英文摘要“时使用.
+Wenn der Benutzer ausdrücklich anfordert: „Eine NSFC-Vorschlagszusammenfassung schreiben/polieren“, „sowohl chinesische als auch englische Zusammenfassungen erstellen“ oder „die chinesische Zusammenfassung ins Englische übersetzen“.
 
-输出中文、英文两个版本:英文必须是中文的忠实翻译版（不新增信息、不删减关键限定）.
-Maximal 400 Minuten, ≤ 4000 Minuten `skills/nsfc-abstract/config.yaml:limits` wird verwendet.
+Geben Sie sowohl chinesische als auch englische Versionen aus: Das Englische muss eine getreue Übersetzung des Chinesischen sein (keine zusätzlichen Informationen, keine Auslassung wichtiger Einschränkungen).
+Die chinesische Zusammenfassung beträgt standardmäßig ≤400 Zeichen (einschließlich Satzzeichen), die englische Zusammenfassung beträgt standardmäßig ≤4000 Zeichen (einschließlich Satzzeichen). Die endgültigen Grenzwerte folgen „skills/nsfc-abstract/config.yaml:limits“.
 
-Siehe auch: `NSFC-ABSTRACTS.md` (oder `config.yaml:output.filename`) oder `#`标题、英文一个 `#` 标题。
+Ausgabemethode: Schreiben Sie die Ergebnisse in „NSFC-ABSTRACTS.md“ im **Arbeitsverzeichnis** (Dateiname folgt „config.yaml:output.filename“), mit einer „#“-Überschrift für Chinesisch und einer „#“-Überschrift für Englisch.
 
-⚠️ 以下情况不适用:
-- 用户只想翻译一段与标书无关的通用文本（应直接翻译）
-- 用户只想写立项依据/研究内容/研究基础正文（应使用对应 nsfc 系列 skills）
+⚠️ Gilt nicht in den folgenden Fällen:
+- Der Benutzer möchte nur einen generischen Text übersetzen, der nichts mit dem Vorschlag zu tun hat (direkt übersetzen).
+- Der Benutzer möchte nur die Begründung/den Forschungsinhalt/den Forschungsgrundlagentext schreiben (entsprechende NSFC-Serienfähigkeiten verwenden)

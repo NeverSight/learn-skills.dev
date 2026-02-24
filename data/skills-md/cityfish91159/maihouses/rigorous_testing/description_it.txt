@@ -1,7 +1,7 @@
-嚴格測試協議。強制執行「如果沒測試,就不算完成」原則。
+Protocollo di test rigoroso. Applicare la regola: "Se non è testato, non è fatto".
 
-觸發時機:
-- 修復 bug 時（必須新增回歸測試）
-- 實作新功能時（必須有對應測試）
-- 修改現有代碼時（確保測試仍通過）
-- 用戶提到「測試」、「test」、「驗證功能」
+Punti trigger:
+- Quando si corregge un bug (è necessario aggiungere il test di regressione)
+- Quando si implementa una nuova funzionalità (deve avere un test corrispondente)
+- Quando si modifica il codice esistente (assicurarsi che i test continuino a passare)
+- Quando l'utente menziona "test", "test" o "verifica funzionalità"
