@@ -308,24 +308,21 @@ def translate_file(
         is_chinese_target = t_lang.startswith("zh")
         chinese_ratio = sum(1 for c in en_text if "\u4e00" <= c <= "\u9fff") / max(1, len(en_text))
 
-        # ── Non-English source: route to LLM ──────────────────────────────────
-        # If description_en.txt is actually written in a non-English language
-        # (e.g. the skill author wrote the description in Chinese), Google
-        # Translate with source="en" produces garbage.  Detect this case and
-        # use the LLM API instead.
+        # ── Non-English source: fix description_en.txt first, then treat as English ─
+        # If description_en.txt is actually in another language, translate it to English
+        # and overwrite the file (same as fix_non_english_descriptions.py); then proceed
+        # with normal Google translation to target.
         if not is_english_text(en_text):
-            # Special case: source is already the target language family → just copy
-            # (e.g. source is Chinese and target is zh-CN, no need to translate)
-            if is_chinese_target and chinese_ratio > 0.3 and not force:
-                out_text = en_text
-            else:
-                out_text = translate_with_llm(en_text, target_lang)
-            if out_text is None:
-                raise RuntimeError("LLM translation output is None")
-            out_text = str(out_text)
-            if not dry_run:
-                out_file.write_text(out_text + "\n", encoding="utf-8")
-            return en_file, True, "[LLM] " + (out_text[:47] + "..." if len(out_text) > 47 else out_text)
+            try:
+                en_text = translate_with_llm(en_text, "en")
+                if en_text is None:
+                    raise RuntimeError("LLM returned None")
+                en_text = str(en_text)
+                if not dry_run:
+                    en_file.write_text(en_text + "\n", encoding="utf-8")
+            except Exception as e:
+                return en_file, False, f"Fix en (LLM): {e}"
+            chinese_ratio = sum(1 for c in en_text if "\u4e00" <= c <= "\u9fff") / max(1, len(en_text))
 
         # ── English source: use Google Translate (existing logic) ──────────────
         # If the "English" file is actually Chinese and target is Chinese: copy only when not force.
