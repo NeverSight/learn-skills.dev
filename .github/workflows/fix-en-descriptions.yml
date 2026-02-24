@@ -99,6 +99,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+          # Stage everything under data/skills-md/ (fixed en + new translations)
           git add data/skills-md/
 
           if git diff --staged --quiet; then
@@ -109,13 +111,21 @@ jobs:
           FIXED=$(git diff --staged --name-only | grep 'description_en\.txt' | wc -l | tr -d ' ')
           git commit -m "fix: translate ${FIXED} non-English description_en.txt to English and retranslate"
 
+          # After commit, working tree may still have leftover modifications
+          # (e.g. description_en.txt files fixed inline by translate_descriptions.py
+          # beyond the explicit --limit). Stash them so rebase can proceed cleanly.
+          git stash --include-untracked 2>/dev/null || true
+
           git fetch origin main
           git rebase origin/main -X theirs
+          git stash pop 2>/dev/null || true
 
           for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying ($i/5)..."
+            git stash --include-untracked 2>/dev/null || true
             git fetch origin main
             git rebase origin/main -X theirs
+            git stash pop 2>/dev/null || true
             sleep $((i * 2))
           done
