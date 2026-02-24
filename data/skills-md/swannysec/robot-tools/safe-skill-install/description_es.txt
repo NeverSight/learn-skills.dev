@@ -1,0 +1,5 @@
+Instalación segura de habilidades con escaneo de seguridad de la cadena de suministro. Envuelve el escáner de habilidades de Cisco
+examinar las habilidades antes de la instalación. Admite repositorios de GitHub, skills.sh (npx), Claude Marketplace
+complementos y rutas locales. Profundidad de escaneo configurable con análisis estático y de comportamiento de forma predeterminada.
+Utiliza descargas de archivos de GitHub para evitar riesgos de ejecución de git, con respaldo de clonación de git reforzado.
+Las decisiones de seguridad las toma un script contenedor determinista, no el agente LLM.
