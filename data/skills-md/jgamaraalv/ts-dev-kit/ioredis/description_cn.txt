@@ -1,0 +1,1 @@
+Node.js Redis 客户端的 ioredis v5 参考 — 连接设置、RedisOptions、管道、事务、Pub/Sub、Lua 脚本、集群和 Sentinel。在以下情况下使用：(1) 创建或配置 Redis 连接（独立、集群、sentinel）、(2) 使用 ioredis 编写 Redis 命令（get/set、管道、multi/exec）、(3) 设置 Pub/Sub 或 Streams、(4) 配置 retryStrategy、TLS 或自动管道传输、(5) 使用 Redis 集群选项（scaleReads、NAT 映射）或 (6) 调试 ioredis 连接问题。重要提示：使用命名导入 `import { Redis } from 'ioredis'` 来获取 NodeNext 的正确 TypeScript 类型。

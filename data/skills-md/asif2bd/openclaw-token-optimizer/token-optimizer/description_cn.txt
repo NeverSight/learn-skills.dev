@@ -1,0 +1,1 @@
+通过智能模型路由、心跳优化、预算跟踪和本机 2026.2.15 功能（会话修剪、引导程序大小限制、缓存 TTL 对齐）减少 OpenClaw 令牌使用和 API 成本。当令牌成本很高、达到 API 速率限制或大规模托管多个代理时使用。 4 个可执行脚本（context_optimizer、model_router、heartbeat_optimizer、token_tracker）仅限本地 — 无网络请求、无子进程调用、无系统修改。参考文件（PROVIDERS.md、config-patches.json）记录了可选的多提供商策略，如果您选择使用它们，则需要外部 API 密钥和网络访问权限。请参阅 SECURITY.md 了解完整详细信息。
