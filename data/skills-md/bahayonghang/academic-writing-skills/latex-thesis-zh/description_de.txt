@@ -1,18 +1,18 @@
-中文学位论文 LaTeX 助手（博士/硕士论文）.
-Zum Verfassen, Überprüfen oder Verbessern chinesischer LaTeX-Dissertationen (PhD/Master).
-Wird verwendet, wenn der Benutzer 编译, 格式, 去AI化, 标题, 参考文献, 模板, 一致性,
-oder irgendeine chinesische Abschlussarbeitsqualitätsaufgabe.
-支持多种学校模板和 GB/T 7714 国标格式.
+Chinesischer LaTeX-Assistent für Abschlussarbeiten (PhD/Master).  
+Zum Verfassen, Überprüfen oder Verbessern chinesischer LaTeX-Dissertationen (PhD/Master).  
+Wird verwendet, wenn der Benutzer Kompilierung, Format, De-AI, Titel, Referenzen, Vorlage, Konsistenz usw. erwähnt.  
+oder irgendeine chinesische Abschlussarbeitsqualitätsaufgabe.  
+Unterstützt mehrere Universitätsvorlagen und nationale Standardformate GB/T 7714.
 
-触发词（可独立调用任意模块）：
-- „compile“, „编译“, „xelatex“ → 编译模块
-- „Struktur“, „结构“, „映射“ → 结构映射模块
-- „Format“, „格式“, „国标“, „GB/T“ → 国标格式检查模块
-- „Ausdruck“, „表达“, „润色“, „学术表达“ → 学术表达模块
-- „Logik“, „Kohärenz“, „逻辑“, „衔接“, „Methodologie“, „方法论“ → 逻辑衔接与方法论深度模块
-- „langer Satz“, „长句“, „拆解“ → 长难句分析模块
-- „Bib“, „Bibliographie“, „参考文献“ → 参考文献模块
-- „template“, „模板“, „thuthesis“, „pkuthss“ → 模板检测模块
-- „deai“, „去AI化“, „人性化“, „降低AI痕迹“ → 去AI化编辑模块
-- „Titel“, „标题“, „标题优化“, „生成标题“ → 标题优化模块
-- „Konsistenz“, „一致性“, „术语“ → 一致性检查模块
+Triggerwörter (Module können unabhängig voneinander aufgerufen werden):
+- „compile“, „compile“, „xelatex“ → Modul kompilieren  
+- „Struktur“, „Struktur“, „Mapping“ → Struktur-Mapping-Modul  
+- „format“, „format“, „GB“, „GB/T“ → Modul zur GB-Formatprüfung  
+- „Ausdruck“, „Ausdruck“, „Polnisch“, „Akademischer Ausdruck“ → Modul „Akademischer Ausdruck“.  
+- „Logik“, „Kohärenz“, „Logik“, „Kohäsion“, „Methodik“, „Methodologie“ → Tiefenmodul Logik & Methodik  
+- „langer Satz“, „langer Satz“, „Aufschlüsselung“ → Modul zur Analyse komplexer Sätze  
+- „bib“, „bibliography“, „references“ → Modul „Referenzen“.  
+- „template“, „template“, „thuthesis“, „pkuthss“ → Template-Erkennungsmodul  
+- „deai“, „de-AI“, „humanize“, „reduce AI Trace“ → De-AI-Bearbeitungsmodul  
+- „Titel“, „Titel“, „Titeloptimierung“, „Titel generieren“ → Titeloptimierungsmodul  
+- „Konsistenz“, „Konsistenz“, „Terminologie“ → Modul Konsistenzprüfung

@@ -1,18 +1,18 @@
-中文学位论文 LaTeX 助手（博士/硕士论文）。
-À utiliser lors de la rédaction, de la révision ou de l'amélioration de thèses LaTeX chinoises (PhD/Master).
-À utiliser lorsque l'utilisateur mentionne 编译, 格式, 去AI化, 标题, 参考文献, 模板, 一致性,
-ou toute tâche de qualité de thèse chinoise.
-支持多种学校模板和 GB/T 7714 国标格式。
+Assistant de thèse chinoise LaTeX (PhD/Master).  
+À utiliser lors de la rédaction, de la révision ou de l'amélioration de thèses LaTeX chinoises (PhD/Master).  
+À utiliser lorsque l'utilisateur mentionne la compilation, le format, la de-AI, le titre, les références, le modèle, la cohérence,  
+ou toute tâche de qualité de thèse chinoise.  
+Prend en charge plusieurs modèles universitaires et les formats standard nationaux GB/T 7714.
 
-触发词（可独立调用任意模块）：
-- "compile", "编译", "xelatex" → 编译模块
-- "structure", "结构", "映射" → 结构映射模块
-- "format", "格式", "国标", "GB/T" → 国标格式检查模块
-- "expression", "表达", "润色", "学术表达" → 学术表达模块
-- "logique", "cohérence", "逻辑", "衔接", "méthodologie", "方法论" → 逻辑衔接与方法论深度模块
-- "phrase longue", "长句", "拆解" → 长难句分析模块
-- "bavoir", "bibliographie", "参考文献" → 参考文献模块
-- "modèle", "模板", "thuthèse", "pkuthss" → 模板检测模块
-- "deai", "去AI化", "人性化", "降低AI痕迹" → 去AI化编辑模块
-- "titre", "标题", "标题优化", "生成标题" → 标题优化模块
-- "cohérence", "一致性", "术语" → 一致性检查模块
+Mots déclencheurs (les modules peuvent être appelés indépendamment) :
+- "compiler", "compiler", "xelatex" → Module Compiler  
+- "structure", "structure", "cartographie" → Module de cartographie de structure  
+- "format", "format", "GB", "GB/T" → module de vérification du format GB  
+- "expression", "expression", "polish", "expression académique" → Module expression académique  
+- "logique", "cohérence", "logique", "cohésion", "méthodologie", "méthodologie" → Module de profondeur logique & méthodologie  
+- "phrase longue", "phrase longue", "panne" → Module d'analyse de phrases complexes  
+- "bib", "bibliographie", "références" → module Références  
+- "template", "template", "thuthesis", "pkuthss" → Module de détection de modèle  
+- "deai", "de-AI", "humanize", "reduce AI trace" → module d'édition De-AI  
+- "titre", "titre", "optimisation du titre", "générer le titre" → Module d'optimisation du titre  
+- "cohérence", "cohérence", "terminologie" → Module de contrôle de cohérence

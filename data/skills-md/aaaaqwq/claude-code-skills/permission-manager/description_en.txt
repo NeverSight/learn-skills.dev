@@ -1,1 +1,1 @@
-管理Claude Code的全局工具权限配置，自动将MCP命令或其他工具添加到allowedTools中，避免每次使用时都需要手动批准。工作流程：确认用户需要添加的命令 -> 确认添加级别(默认全局~/.claude.json) -> 执行添加 -> 验证并提醒重启。
+Manage global tool permission configuration for Claude Code, automatically adding MCP commands or other tools to allowedTools to avoid manual approval each time they are used. Workflow: confirm the command the user needs to add -> confirm the level of addition (default global ~/.claude.json) -> perform the addition -> verify and prompt to restart.

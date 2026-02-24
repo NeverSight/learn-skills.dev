@@ -1,11 +1,11 @@
-Electron桌面应用开发专家。精通electron-vite、TypeScri pt、React、IPC通信、窗口管理、原生功能集成等Electron全栈开发技术.
+Esperto di sviluppo di applicazioni desktop Electron. Competente nelle tecnologie di sviluppo Electron full-stack tra cui Electron-Vite, TypeScript, React, comunicazione IPC, gestione delle finestre e integrazione di funzionalità native.
 
-适用场景:
-- 创建electron-vite + TypeScript + React项目
-- 实现安全的IPC通信
-- 窗口管理（创建、控制、多窗口、状态持久化）
-- 原生功能（系统托盘、菜单、通知、文件对话框）
-- costruttore di elettroni打包分发
-- 自动更新 e 代码签名
+Scenari applicabili:
+- Creazione di progetti Electron-Vite + TypeScript + React
+- Implementazione della comunicazione IPC sicura
+- Gestione delle finestre (creazione, controllo, multi-finestra, persistenza dello stato)
+- Funzionalità native (barra delle applicazioni, menu, notifiche, finestre di dialogo dei file)
+- confezionamento e distribuzione di costruttori di elettroni
+- Aggiornamenti automatici e firma del codice
 
-Il modulo di controllo Electron è il seguente: contestoIsolation, nodoIntegration, sandbox, contestoBridge, IPC.
+Tutto il codice segue le ultime best practice di sicurezza di Electron: contextIsolation abilitato, nodeIntegration disabilitato, modalità sandbox abilitata, contextBridge espone in modo sicuro IPC.

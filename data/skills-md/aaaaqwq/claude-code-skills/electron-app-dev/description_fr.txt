@@ -1,11 +1,11 @@
-Electron est un produit électronique.
+Expert en développement d'applications de bureau électroniques. Maîtrise des technologies de développement Electron full-stack, notamment Electron-Vite, TypeScript, React, la communication IPC, la gestion des fenêtres et l'intégration de fonctionnalités natives.
 
-适用场景:
-- 创建electron-vite + TypeScript + React项目
-- Code IPC
-- 窗口管理（创建、控制、多窗口、状态持久化）
-- 原生功能（系统托盘、菜单、通知、文件对话框）
-- constructeur d'électrons打包分发
-- 自动更新和代码签名
+Scénarios applicables :
+- Création de projets electron-vite + TypeScript + React
+- Mise en place d'une communication IPC sécurisée
+- Gestion des fenêtres (création, contrôle, multi-fenêtre, persistance d'état)
+- Fonctionnalités natives (barre d'état système, menu, notifications, boîtes de dialogue de fichiers)
+- conditionnement et distribution de constructeurs d'électrons
+- Mises à jour automatiques et signature de code
 
-Il s'agit d'un exemple d'Electron : contexteIsolation, nodeIntegration, sandbox, contextBridge, IPC.
+Tout le code suit les dernières meilleures pratiques de sécurité Electron : contextIsolation activé, nodeIntegration désactivé, mode sandbox activé, contextBridge expose IPC en toute sécurité.

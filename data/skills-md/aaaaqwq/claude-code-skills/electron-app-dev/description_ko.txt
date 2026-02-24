@@ -1,11 +1,11 @@
-Electron은 Electron-vite、TypeScript、React、IPC통신、窗口管理、原生功能集成等Electron전체栈开发技术。
+Electron 데스크탑 애플리케이션 개발 전문가. Electron-vite, TypeScript, React, IPC 통신, 창 관리 및 기본 기능 통합을 포함한 풀 스택 Electron 개발 기술에 능숙합니다.
 
-용용场景:
-- 创建electron-vite + TypeScript + React项目
-- 보안이 철저한 IPC 통신
-- 窗口管理(创建、控管、多窗口、状态持久化)
-- 原生功能(系统托盘、菜单、통지、文件对话框)
-- 전자 빌더打包分发
-- 自动更新和代码签name
+적용 가능한 시나리오:
+- 전자 vite + TypeScript + React 프로젝트 만들기
+- 안전한 IPC 통신 구현
+- 창 관리(생성, 제어, 다중 창, 상태 지속성)
+- 기본 기능(시스템 트레이, 메뉴, 알림, 파일 대화 상자)
+- 전자 빌더 포장 및 유통
+- 자동 업데이트 및 코드 서명
 
-所有代码遵循最新Electron안전最佳实践：contextIsolation开启、nodeIntegration关闭、sandbox模式开启、contextBridge안전暴露IPC。
+모든 코드는 최신 Electron 보안 모범 사례를 따릅니다. contextIsolation 활성화, nodeIntegration 비활성화, 샌드박스 모드 활성화, contextBridge는 IPC를 안전하게 노출합니다.

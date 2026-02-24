@@ -1,1 +1,13 @@
-Asistente de papers académicos con Typst (inglés/chino, congresos y revistas). Áreas: deep learning, series temporales, control industrial, informática. Módulos: compilar, formato, gramática, frases largas, tono académico, traducir, bibliografía, de-AI, plantillas (IEEE, ACM).
+Asistente de artículos académicos Typst (admite artículos en chino/inglés, presentaciones de conferencias/revistas).
+Campos: aprendizaje profundo, series temporales, control industrial, informática.
+
+Palabras desencadenantes (cualquier módulo se puede llamar de forma independiente):
+- "compilar", "compilar tipado" → Compilar módulo
+- "formato", "lint" → Módulo de verificación de formato
+- "gramática", "revisión" → Módulo de análisis gramatical
+- "oración larga", "simplificar" → Módulo de análisis de oraciones complejas
+- "tono académico", "mejorar la escritura" → Módulo de expresión académica
+- "traducir", "中译英" → Módulo de traducción
+- "babero", "bibliografía" → módulo de bibliografía
+- "deai", "humanizar" → Módulo de edición De-AI
+- "plantilla", "IEEE", "ACM" → Módulo de configuración de plantilla

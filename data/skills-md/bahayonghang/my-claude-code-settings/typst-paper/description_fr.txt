@@ -1,1 +1,13 @@
-Assistant pour articles académiques en Typst (articles EN/ZH, soumissions conférence/journal). Domaines : deep learning, séries temporelles, contrôle industriel, informatique. Modules : compile, format/lint, grammaire/proofread, longues phrases, ton académique, traduction, bib, deai, template (IEEE, ACM).
+Typst Academic Paper Assistant (prend en charge les articles en chinois/anglais, les soumissions à des conférences/revues).
+Domaines : deep learning, séries temporelles, contrôle industriel, informatique.
+
+Mots déclencheurs (n'importe quel module peut être appelé indépendamment) :
+- "compiler", "compiler typst" → module Compiler
+- "format", "lint" → Module de vérification du format
+- "grammaire", "relecture" → module d'analyse grammaticale
+- "phrase longue", "simplifier" → Module d'analyse de phrases complexes
+- "ton académique", "améliorer l'écriture" → module d'expression académique
+- "traduire", "中译英" → Module de traduction
+- "bib", "bibliographie" → module Bibliographie
+- "deai", "humanize" → module d'édition De-AI
+- "modèle", "IEEE", "ACM" → Module de configuration des modèles
