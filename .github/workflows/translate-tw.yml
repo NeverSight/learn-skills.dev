@@ -74,15 +74,19 @@ jobs:
           git commit -m "chore: auto-translate description_en.txt to description_tw.txt"
           
           # Pull latest code first, rebase to avoid conflicts
+          git stash --include-untracked 2>/dev/null || true
           git fetch origin main
           git rebase origin/main -X theirs
+          git stash pop 2>/dev/null || true
           
           # Retry push, handle concurrent situations
           for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying ($i/5)..."
+            git stash --include-untracked 2>/dev/null || true
             git fetch origin main
             git rebase origin/main -X theirs
+            git stash pop 2>/dev/null || true
             sleep $((i * 2))
           done
 

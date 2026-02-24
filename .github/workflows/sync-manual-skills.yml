@@ -67,14 +67,18 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "chore: sync manual skills data $(date +'%Y-%m-%d %H:%M:%S')"
 
+          git stash --include-untracked 2>/dev/null || true
           git fetch origin main
           git rebase origin/main -X theirs
+          git stash pop 2>/dev/null || true
 
           for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying ($i/5)..."
+            git stash --include-untracked 2>/dev/null || true
             git fetch origin main
             git rebase origin/main -X theirs
+            git stash pop 2>/dev/null || true
             sleep $((i * 2))
           done
 
@@ -105,14 +109,18 @@ jobs:
           else
             git commit -m "chore: translate manual skill descriptions"
 
+            git stash --include-untracked 2>/dev/null || true
             git fetch origin main
             git rebase origin/main -X theirs
+            git stash pop 2>/dev/null || true
 
             for i in 1 2 3 4 5; do
               git push && break
               echo "Push failed, retrying ($i/5)..."
+              git stash --include-untracked 2>/dev/null || true
               git fetch origin main
               git rebase origin/main -X theirs
+              git stash pop 2>/dev/null || true
               sleep $((i * 2))
             done
           fi
