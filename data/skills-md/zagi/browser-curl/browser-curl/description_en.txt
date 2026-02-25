@@ -1,0 +1,1 @@
+Use when curl gets 403/503 from WAFs (Cloudflare, Akamai, DataDome). Wraps curl with Chrome 145 browser headers, Client Hints, and Sec-Fetch metadata to bypass header fingerprinting.

@@ -1,0 +1,7 @@
+Provides 3-tier validation approach for Home Assistant dashboards including pre-publish
+validation (entity checks, config structure), post-publish verification (log analysis),
+and visual validation (browser console, rendering). Use when validating HA dashboards,
+checking dashboard configs, verifying entity IDs, debugging rendering issues, or before
+deploying dashboard changes. Triggers on "validate dashboard", "check HA config", "dashboard
+errors", "entity not found", or "test dashboard". Works with Home Assistant WebSocket/REST APIs,
+Chrome extension MCP tools, Python dashboard builders, and YAML dashboard configurations.

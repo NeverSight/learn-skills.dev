@@ -1,0 +1,9 @@
+Validates Clean Architecture layer boundaries by detecting import violations across domain,
+application, infrastructure, and interfaces layers using grep-based analysis.
+
+Use when asked to "validate architecture", "check layer boundaries", "verify Clean Architecture",
+"validate my changes follow Clean Architecture", or before committing architectural changes.
+layer, interfaces layer, dependency rules, architectural validation.
+
+Works with Python files in layered architecture projects (domain/, application/, infrastructure/,
+interfaces/ directories).

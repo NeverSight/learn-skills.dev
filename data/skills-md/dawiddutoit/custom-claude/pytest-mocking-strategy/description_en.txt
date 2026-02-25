@@ -1,0 +1,3 @@
+Master mocking strategy for pytest: when to use autospec=True vs manual mocks, AsyncMock patterns for async code, mock builders and factories, and what should NEVER be mocked. Includes type-safe mock creation patterns and decision matrix for mocking vs real objects.
+
+Use when: Creating unit tests with mocked dependencies, deciding whether to mock or use real objects, setting up test isolation, testing use cases with external service boundaries, or building reusable mock factories.

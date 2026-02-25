@@ -1,0 +1,5 @@
+Optimize agent skills to reduce context bloat while preserving answer coverage. Use when:
+(1) A skill's SKILL.md body exceeds ~250 lines or duplicates its references/ files
+(2) A skill's YAML description is verbose or triggers false positives from sibling skills
+(3) Planning or executing a body/reference split for a skill
+(4) Auditing skill token efficiency

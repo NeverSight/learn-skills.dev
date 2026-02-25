@@ -1,0 +1,6 @@
+Implements Google Cloud Pub/Sub integration in Python by configuring topics, subscriptions,
+publishing/subscribing, dead letter queues, and local emulator setup. Use when building
+event-driven architectures, implementing message queuing, or managing high-throughput systems.
+Triggers on "setup Pub/Sub", "publish messages", "create subscription", "configure DLQ",
+or "test with emulator". Works with google-cloud-pubsub library and includes reliability,
+idempotency, and testing patterns.

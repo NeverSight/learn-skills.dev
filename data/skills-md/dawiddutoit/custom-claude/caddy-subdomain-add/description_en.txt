@@ -1,0 +1,6 @@
+Interactively adds a new subdomain to the network infrastructure by gathering service
+details, configuring domains.toml, and applying changes. Use when you need to add a
+new service, create a subdomain, expose a new application, or set up reverse proxy
+for a service. Triggers on "add subdomain", "new subdomain", "add service to network",
+"expose service", "create domain for", "set up reverse proxy", or "add [name] to
+infrastructure". Works with domains.toml, manage-domains.sh, and Cloudflare Tunnel.

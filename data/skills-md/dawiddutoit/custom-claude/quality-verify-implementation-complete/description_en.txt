@@ -1,0 +1,7 @@
+Verifies that implemented code is actually integrated into the system and executes at runtime,
+preventing "done but not integrated" failures. Use when marking features complete, before moving
+ADRs to completed status, after implementing new modules/nodes/services, or when claiming "feature
+works". Triggers on "verify implementation", "is this integrated", "check if code is wired",
+"prove it runs", or before declaring work complete. Works with Python modules, LangGraph nodes,
+CLI commands, API endpoints, and service classes. Enforces Creation-Connection-Verification (CCV)
+principle.

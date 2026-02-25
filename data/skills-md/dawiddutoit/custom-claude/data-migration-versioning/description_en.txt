@@ -1,0 +1,7 @@
+Provides systematic data format migration and versioning for backward-compatible schema changes.
+Use when "add data versioning", "migrate data format", "backward compatible file format",
+"upgrade v1 to v2", "schema migration", "support old file format", or "migrate JSON structure".
+Covers version numbering strategies (semantic, dotted, integer, date-based), backward compatibility
+patterns (auto-convert, explicit migration, dual-format), auto-upgrade timing, field deprecation,
+testing checklists, and common pitfalls like partial data preservation. Works with JSON, YAML,
+database schemas, and configuration files in Python, JavaScript, Go, Rust.

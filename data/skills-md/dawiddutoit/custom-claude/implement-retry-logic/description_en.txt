@@ -1,0 +1,5 @@
+Implements retry logic with exponential backoff and jitter for async operations. Use when implementing
+external service calls, database operations, network requests, or any operation that
+may fail transiently. Follows project patterns for ServiceResult wrapping, configuration
+injection, and resilience patterns. Triggers on "add retry logic for X", "implement exponential
+backoff", "make Z resilient", or "handle transient errors".

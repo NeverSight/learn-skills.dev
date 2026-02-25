@@ -1,0 +1,4 @@
+Prevent OutOfMemoryError from unbounded metric tags by implementing cardinality limits.
+Use when adding tags to Micrometer metrics, normalizing URIs or IDs to bounded categories,
+monitoring metric explosion, or avoiding high-cardinality fields like user IDs and request IDs.
+Critical for production microservices in GKE with cost-sensitive monitoring backends.

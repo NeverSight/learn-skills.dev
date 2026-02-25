@@ -1,0 +1,3 @@
+Provision new NixOS servers on Proxmox for this nix flake project. Guides through the complete workflow: creating Proxmox LXC containers, SSH setup, Colmena configuration (init/full pattern), and application deployment with nginx proxy, PostgreSQL, and container images.
+
+Use when: (1) Creating a new server/container on Proxmox, (2) Setting up a new NixOS host with Colmena, (3) Deploying applications with nginx SSL proxy and/or PostgreSQL database, (4) Adding new container images to the repository.

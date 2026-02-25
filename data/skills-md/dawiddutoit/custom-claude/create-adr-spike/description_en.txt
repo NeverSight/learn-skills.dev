@@ -1,0 +1,13 @@
+Creates Architecture Decision Records (ADRs) and conducts research spikes for technical decisions
+using a structured 5-phase workflow: Research, Analysis, Decision, Documentation, and Memory Storage.
+
+Use when asked to "create an ADR", "architectural decision for", "research spike on", "evaluate
+options for", "document technical decision", "should we use X or Y", or when comparing technical
+alternatives.
+
+Provides systematic evaluation (minimum 2-3 alternatives), trade-off analysis, consequence
+documentation, and memory graph persistence. Manages ADR lifecycle across not_started, in_progress,
+and implemented directories with proper numbering and status tracking.
+
+Works with docs/adr/ directories, ADR templates, memory MCP tools, and external research tools
+(WebSearch, WebFetch, context7 library docs).

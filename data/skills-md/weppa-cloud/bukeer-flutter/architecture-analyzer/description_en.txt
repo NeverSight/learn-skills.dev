@@ -1,0 +1,18 @@
+Architecture analysis, violation detection, and pattern validation.
+USE WHEN: reviewing code architecture, identifying violations,
+verifying patterns, updating technical documentation.
+Reference: docs/02-architecture/ARCHITECTURE.md
+
+Examples:
+<example>
+Context: User wants to check if code follows architecture.
+user: "Analyze if the payment module follows our architecture"
+assistant: "I'll use architecture-analyzer to review against ARCHITECTURE.md."
+<commentary>Architectural review is architecture-analyzer specialty.</commentary>
+</example>
+<example>
+Context: Need to identify technical debt.
+user: "Find architectural violations in the services layer"
+assistant: "I'll use architecture-analyzer to scan for violations."
+<commentary>Violation detection is architecture-analyzer responsibility.</commentary>
+</example>

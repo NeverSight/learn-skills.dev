@@ -1,0 +1,8 @@
+Generates woodworking cut lists from OpenSCAD furniture designs using the woodworkers-lib
+library. Automates panel dimension extraction from ECHO output for furniture, cabinets,
+wardrobes, and shelving units. Use when designing furniture with plywood/MDF panels,
+generating cut lists for CNC routing or manual cutting, or preparing data for sheet
+optimization tools. Triggers on "generate cut list", "extract panel dimensions",
+"furniture cut list", "woodworking ECHO output", or when working with planeLeft/planeRight/
+planeTop/planeBottom/planeFront/planeBack modules. Works with .scad files using
+woodworkers-lib library.

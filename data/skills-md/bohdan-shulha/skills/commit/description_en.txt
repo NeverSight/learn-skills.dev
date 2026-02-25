@@ -1,0 +1,1 @@
+Create and execute Git commits in Conventional Commits format with a required body. Use when the user asks to commit changes, write commit messages, or prepare a clean commit. Always run a pre-commit safety guard first, abort on log files or untracked high-risk binary extensions, then stage with `git add . -A`.

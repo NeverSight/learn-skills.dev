@@ -1,0 +1,5 @@
+Safe experimentation framework for AI agents. Creates isolated sandbox environments for trying new features, testing approaches, and exploring solutions without polluting the main codebase.
+USE WHEN: Agent needs to try something uncertain, explore multiple approaches, test a new library, prototype a feature, or run a technical spike before committing to implementation.
+PRIMARY TRIGGERS: "experiment with" = Setup sandbox + run experiment "try this approach" = Quick experiment in sandbox "spike" / "POC" / "prototype" = Time-boxed technical investigation "tinker" / "tinkering mode" = Enter experimentation workflow "explore options" = Multi-approach comparison in sandbox
+NOT FOR: Debugging (use debugger), testing (use test runner), or committed feature work (use git branches).
+DIFFERENTIATOR: Unlike git branches (for committed direction), tinkering is for "I don't know if this will work" exploration. Try 5 things in sandbox before committing to a branch. Faster feedback, zero codebase pollution.

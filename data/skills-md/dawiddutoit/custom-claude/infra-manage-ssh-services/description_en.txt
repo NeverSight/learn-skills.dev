@@ -1,0 +1,7 @@
+Discovers, tests, and manages remote SSH infrastructure hosts and Docker services across
+5 hosts (infra.local, deus, homeassistant, pi4-motor, armitage). Use when checking
+infrastructure status, verifying service connectivity, managing Docker containers,
+troubleshooting remote services, or before using remote resources (MongoDB, Langfuse,
+OTLP, Neo4j). Triggers on "check infrastructure", "connect to infra/deus/ha",
+"test MongoDB on infra", "view Docker services", "verify connectivity", "troubleshoot
+remote service", "what services are running", or when remote connections fail.

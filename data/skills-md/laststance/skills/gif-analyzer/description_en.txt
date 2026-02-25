@@ -1,0 +1,19 @@
+Analyze animated GIF files by extracting and viewing frames as sequential video.
+
+Use when:
+- User mentions a GIF file path (e.g., "./demo.gif", "~/Downloads/animation.gif")
+- User wants to analyze or understand a GIF animation
+- User asks about motion, changes, or content in a GIF
+- User attaches or references a .gif file for analysis
+- User wants to examine a screen recording in GIF format
+- User invokes /gif slash command
+
+Keywords: "GIF", ".gif", "animation", "animated", "frames", "screen recording",
+"analyze gif", "gif analysis", "view gif", "gif content", "gif motion"
+
+Trigger patterns:
+- Natural language: "Analyze this GIF: ./demo.gif"
+- Slash command: `/gif <path>` or `/gif <path> <message>`
+
+When triggered, extract frames using the Python script, view frames in order,
+and interpret as continuous video sequence.

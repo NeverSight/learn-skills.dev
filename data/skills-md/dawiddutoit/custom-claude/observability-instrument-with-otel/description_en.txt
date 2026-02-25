@@ -1,0 +1,5 @@
+Adds OpenTelemetry instrumentation to service methods by applying @traced decorators, structured logging,
+and trace/span ID propagation for distributed tracing. Use when adding new service methods, debugging
+complex flows, investigating performance issues, or need distributed tracing across application layers.
+Triggers on "add tracing", "instrument this method", "add observability", "debug with traces", or
+"track execution flow".

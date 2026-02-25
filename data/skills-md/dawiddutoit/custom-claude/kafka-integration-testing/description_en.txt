@@ -1,0 +1,4 @@
+Write integration tests for Kafka producers and consumers using testcontainers.
+Use when testing producer/consumer workflows, verifying message ordering, testing
+error scenarios, and validating exactly-once semantics. Creates test Kafka brokers
+and validates end-to-end streaming behavior without mocking.

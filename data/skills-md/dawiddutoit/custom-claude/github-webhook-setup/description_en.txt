@@ -1,0 +1,6 @@
+Configures GitHub webhooks for auto-deployment by verifying secrets, checking endpoint
+accessibility, and guiding configuration. Use when you need to add a new repo for
+auto-deploy, configure GitHub webhooks, set up continuous deployment, or troubleshoot
+webhook issues. Triggers on "setup webhook", "add webhook for [repo]", "configure
+auto-deploy", "GitHub deployment", or "webhook not working". Works with config/hooks.json,
+.env (WEBHOOK_SECRET), and webhook.temet.ai endpoint.

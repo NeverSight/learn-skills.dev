@@ -1,0 +1,5 @@
+Fix ServiceResult pattern mistakes causing test failures and type errors.
+Use when seeing "dict object has no attribute success", "mock not returning ServiceResult",
+mock assertions failing, or type errors with ServiceResult. Analyzes .py test files
+and service implementations. Covers async/await patterns, monad operations (map, bind, flatmap),
+and proper mock configuration.

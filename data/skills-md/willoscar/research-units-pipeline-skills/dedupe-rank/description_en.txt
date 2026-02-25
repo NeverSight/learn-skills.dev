@@ -1,1 +1,6 @@
-去重并排序原始论文集（`papers/papers_raw.jsonl`），生成 `papers/papers_dedup.jsonl` 与 `papers/core_set.csv`。
+Dedupe and rank a raw paper set (`papers/papers_raw.jsonl`) to produce `papers/papers_dedup.jsonl` and `papers/core_set.csv`.
+**Trigger**: dedupe, rank, core set, 去重, 排序, 精选论文, 核心集合.
+**Use when**: 检索后需要把广覆盖集合收敛成可管理的 core set（用于 taxonomy/outline/mapping）。
+**Skip if**: 已经有人手工整理了稳定的 `papers/core_set.csv`（无需再次 churn）。
+**Network**: none.
+**Guardrail**: 偏 deterministic；输出应可重复（稳定 paper_id、字段规范）。

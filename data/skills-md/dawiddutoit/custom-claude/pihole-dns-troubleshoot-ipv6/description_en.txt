@@ -1,0 +1,7 @@
+Diagnoses and fixes IPv6 DNS issues causing clients to connect to Cloudflare OAuth
+instead of using local network access. Use when services show OAuth login prompt on
+local WiFi, slow initial connection followed by authentication, or Chrome shows "error
+with retry". Triggers on "connecting to Cloudflare instead of local", "OAuth prompt on
+WiFi", "IPv6 DNS issue", "clients prefer IPv6", "disable IPv6 DNS", or "fix local access".
+Works with Pi-hole FTLCONF_misc_dnsmasq_lines filter-AAAA configuration and client DNS
+cache management.

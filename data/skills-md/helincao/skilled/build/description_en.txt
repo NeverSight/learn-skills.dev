@@ -1,0 +1,1 @@
+Internal utility skill for regenerating site output. Use after any change to `src/`, `_partials/`, or `site.config.json`, or whenever another skill requires refreshed `dist/` artifacts. Runs `scripts/build.mjs` from the installed skill directory.

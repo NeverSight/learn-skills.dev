@@ -1,0 +1,1 @@
+盗版检测与后置处理编排器。Use when wechat-search-collector 综合页任务完成后，需要基于 capture_results 进行盗版检测、创建子任务、写入 webhook 计划，或在子任务终态后执行 webhook dispatch/reconcile。支持 sqlite/supabase 二选一作为 capture_results 数据源。

@@ -1,0 +1,7 @@
+Creates automated backup procedures, executes restoration operations, and implements disaster
+recovery workflows for network infrastructure. Use when backing up infrastructure before
+changes, preparing for disaster recovery, migrating to new server, or restoring after failure.
+Triggers on "backup infrastructure", "restore from backup", "disaster recovery", "backup before
+upgrade", or "migrate infrastructure". Works with Docker volumes (caddy_data, pihole_data),
+configuration files (docker-compose.yml, domains.toml), and .env secrets using tar archives
+and docker compose commands.

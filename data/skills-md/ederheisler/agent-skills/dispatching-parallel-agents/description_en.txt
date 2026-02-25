@@ -1,0 +1,1 @@
+Dispatch subagents in parallel when there are 2+ independent problem domains (separate failures/subsystems) that can be investigated without shared state or sequential dependencies; avoid when work is tightly coupled, ambiguous, or requires main-agent decisions.

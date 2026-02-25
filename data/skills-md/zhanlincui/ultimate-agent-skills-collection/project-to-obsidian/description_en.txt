@@ -1,14 +1,14 @@
-Convert the code project into an Obsidian knowledge base. Activate when the user mentions obsidian, project documentation, knowledge base, analyze project, convert project.
+将代码项目转换为 Obsidian 知识库。当用户提到 obsidian、项目文档、知识库、分析项目、转换项目 时激活。
 
-【Must execute after activation】:
-1. First read the entire SKILL.md file in full
-2. Understand AI writing rules (default to 00_Inbox/AI/, append mode, unified Schema)
-3. Execute STEP 0: use AskUserQuestion to ask user for confirmation
-4. Only after user confirmation start STEP 1 project scan
-5. Strictly follow the order STEP 0 → 1 → 2 → 3 → 4
+【激活后必须执行】：
+1. 先完整阅读本 SKILL.md 文件
+2. 理解 AI 写入规则（默认到 00_Inbox/AI/、追加式、统一 Schema）
+3. 执行 STEP 0: 使用 AskUserQuestion 询问用户确认
+4. 用户确认后才开始 STEP 1 项目扫描
+5. 严格按 STEP 0 → 1 → 2 → 3 → 4 顺序执行
 
-【Prohibited actions】:
-- Do not analyze the project without reading SKILL.md
-- Do not skip STEP 0 user confirmation
-- Do not create directly in 30_Resources (go to 00_Inbox/AI/ first)
-- Do not decide output location on your own
+【禁止行为】：
+- 禁止不读 SKILL.md 就开始分析项目
+- 禁止跳过 STEP 0 用户确认
+- 禁止直接在 30_Resources 创建（先到 00_Inbox/AI/）
+- 禁止自作主张决定输出位置

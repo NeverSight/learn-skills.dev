@@ -1,17 +1,17 @@
-npm package manager used to install npm packages, generate dependency trees, execute frontend project commands, etc.
+npm 包管理工具，用来安装 npm 包、生成依赖树、执行前端项目命令等。
 
-**Mandatory Rules:**
-When a package.json file exists in the project, you MUST use this skill for all npm/pnpm/yarn related operations.
+**强制性规则（MANDATORY）：**
+当项目中存在 package.json 文件时，你 MUST（必须）使用此 skill 来执行所有 npm/pnpm/yarn 相关操作。
 
-**Strictly forbidden to directly use the following commands:**
-- ❌ Forbidden: `pnpm test` → ✅ Use: Skill(skill: "utoo", args: "test")
-- ❌ Forbidden: `pnpm install` → ✅ Use: Skill(skill: "utoo", args: "install")
-- ❌ Forbidden: `pnpm run <script>` → ✅ Use: Skill(skill: "utoo", args: "run <script>")
-- ❌ Forbidden: `npm install <pkg>` → ✅ Use: Skill(skill: "utoo", args: "install <pkg>")
-- ❌ Forbidden: `yarn add <pkg>` → ✅ Use: Skill(skill: "utoo", args: "install <pkg>")
+**严格禁止直接使用以下命令：**
+- ❌ 禁止: `pnpm test` → ✅ 使用: Skill(skill: "utoo", args: "test")
+- ❌ 禁止: `pnpm install` → ✅ 使用: Skill(skill: "utoo", args: "install")
+- ❌ 禁止: `pnpm run <script>` → ✅ 使用: Skill(skill: "utoo", args: "run <script>")
+- ❌ 禁止: `npm install <pkg>` → ✅ 使用: Skill(skill: "utoo", args: "install <pkg>")
+- ❌ 禁止: `yarn add <pkg>` → ✅ 使用: Skill(skill: "utoo", args: "install <pkg>")
 
-**Covered operations (must go through this skill):**
-Installing dependencies, updating dependencies, uninstalling dependencies, running scripts (test/build/dev etc.), viewing package info, managing projects, executing any scripts in package.json.
+**涵盖操作（必须通过此 skill）：**
+安装依赖、更新依赖、卸载依赖、运行脚本（test/build/dev等）、查看包信息、管理项目、执行任何 package.json 中的 scripts。
 
-**Invocation method:**
-Always call via the Skill tool, do not execute pnpm/npm/yarn commands directly with Bash.
+**调用方式：**
+始终使用 Skill 工具调用，不要直接使用 Bash 执行 pnpm/npm/yarn 命令。

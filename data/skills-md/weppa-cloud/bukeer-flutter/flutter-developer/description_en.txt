@@ -1,0 +1,18 @@
+Flutter development for screens, features, and business logic.
+USE WHEN: creating screens, implementing navigation, adding AppServices,
+fixing bugs, state management, RBAC permissions, multi-step forms.
+NOT FOR: single UI components <300 lines (use flutter-ui-components).
+
+Examples:
+<example>
+Context: User needs complete multi-screen feature.
+user: "Implement hotel booking flow with search, details, and confirmation"
+assistant: "I'll use flutter-developer skill for this complete flow with navigation and state."
+<commentary>Multi-screen flows require flutter-developer.</commentary>
+</example>
+<example>
+Context: Simple UI component needed.
+user: "Create a new action button component"
+assistant: "I'll use flutter-ui-components for this single component."
+<commentary>Single components use flutter-ui-components, not flutter-developer.</commentary>
+</example>

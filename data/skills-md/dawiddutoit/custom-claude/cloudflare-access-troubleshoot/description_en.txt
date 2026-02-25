@@ -1,0 +1,7 @@
+Diagnoses and fixes Cloudflare Access authentication issues including Google OAuth
+errors, access denied after login, login loops, CookieMismatch errors, and "can only
+be used within its organization" errors. Use when authentication fails, access denied
+after Google login, redirect failures, or Pi-hole blocking Google domains. Triggers on
+"access denied", "OAuth not working", "login loop", "CookieMismatch", "can only be used
+within organization", or "fix Cloudflare Access authentication". Works with Cloudflare
+Access, Google OAuth, Pi-hole whitelist, and ACCESS_ALLOWED_EMAIL configuration.

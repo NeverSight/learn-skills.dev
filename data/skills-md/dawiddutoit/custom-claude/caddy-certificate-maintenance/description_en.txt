@@ -1,0 +1,7 @@
+Manages SSL certificate operations including checking expiry, monitoring renewal,
+forcing manual renewal, and backing up certificates. Use when checking certificate
+validity, monitoring auto-renewal, certificates expiring soon, or need to backup
+certificate data. Triggers on "check certificate expiry", "certificate renewal",
+"SSL certificate status", "backup certificates", or "force certificate renewal".
+Works with Let's Encrypt certificates, Caddy auto-renewal, and caddy_data Docker
+volume.

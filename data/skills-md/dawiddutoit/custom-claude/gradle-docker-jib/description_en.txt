@@ -1,0 +1,5 @@
+Configures and builds optimized Docker images using Google's Jib plugin without Docker daemon or Dockerfile.
+Use when containerizing Spring Boot microservices, building multi-architecture images,
+or pushing to registries. Triggers on "setup Jib", "build Docker image", "containerize
+with Jib", or "multi-arch image". Works with build.gradle.kts and includes Jib plugin
+setup, multi-module configuration, and CI/CD integration.

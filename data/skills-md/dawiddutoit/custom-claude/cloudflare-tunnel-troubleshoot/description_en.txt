@@ -1,0 +1,7 @@
+Diagnoses and fixes Cloudflare Tunnel connectivity issues including stuck tunnels,
+failed connections, Error 1033, and tunnel registration problems. Use when remote
+access not working, tunnel shows disconnected in dashboard, Error 1033 on tunnel
+connection, or cloudflared container restarting. Triggers on "tunnel not connecting",
+"tunnel down", "Error 1033", "remote access broken", "fix tunnel", or "cloudflared
+not working". Works with Cloudflare Tunnel (cloudflared), QUIC connection health,
+and tunnel registration verification.

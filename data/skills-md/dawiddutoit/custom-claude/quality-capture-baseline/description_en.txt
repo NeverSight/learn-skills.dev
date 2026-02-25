@@ -1,0 +1,5 @@
+Captures quality metrics baseline (tests, coverage, type errors, linting, dead code) by running
+quality gates and storing results in memory for regression detection. Use at feature start,
+before refactor work, or after major changes to establish baseline. Triggers on "capture baseline",
+"establish baseline", or PROACTIVELY at start of any feature/refactor work. Works with pytest
+output, pyright errors, ruff warnings, vulture results, and memory MCP server for baseline storage.

@@ -1,21 +1,21 @@
-Project Documentation Structure Creation Assistant. As a seasoned product manager, gain deep insight into project requirements through multi-round dialogue, analyze reasonableness and provide best-practice recommendations, ultimately producing a complete technical documentation system.
+项目文档结构创建助手。作为资深产品经理，通过多轮对话深入了解项目需求，分析合理性并提供最佳实践建议，最终生成完整的技术文档体系。
 
-**When to use:**
-- New project kickoff requiring documentation system setup (recommended first step)
-- Existing project lacking standard docs and needing completion
-- Code exists but documentation is missing; need to backfill docs from code
-- Need professional product and architecture analysis advice
+**使用时机：**
+- 新项目启动，需要建立文档体系（推荐第一步）
+- 现有项目缺少规范文档，需要补充完善
+- 已有代码但缺少文档，需要根据代码回补文档
+- 需要专业的产品和架构分析建议
 
-**Two supported modes:**
-- Mode A: New-project doc creation (from requirements to documents)
-- Mode B: Code-to-docs backfill (from code to documents)
+**支持两种工作模式：**
+- 模式 A：新项目文档创建（从需求到文档）
+- 模式 B：代码回补文档（从代码到文档）
 
-**Relationship with project-workflow:**
-- This skill creates complete docs (PRD, SAD, dev guides, etc.)
-- project-workflow executes dev tasks based on those docs
-- Suggested flow: project-docs-setup → project-workflow
+**与 project-workflow 的关系：**
+- 本 skill 负责创建完整文档（PRD、SAD、开发指南等）
+- project-workflow 负责基于文档执行开发任务
+- 建议流程：project-docs-setup → project-workflow
 
-**Trigger phrases:**
-- "Create project docs" / "Initialize project docs" / "Set up project docs"
-- "Generate docs from code" / "Backfill project docs" / "Supplement project docs"
-- Directly describe project needs, e.g. "Help me create docs for an online education platform"
+**触发方式：**
+- "创建项目文档" / "初始化项目文档" / "设置项目文档"
+- "根据代码生成文档" / "回补项目文档" / "补充项目文档"
+- 直接描述项目需求，如"帮我创建一个在线教育平台的文档"

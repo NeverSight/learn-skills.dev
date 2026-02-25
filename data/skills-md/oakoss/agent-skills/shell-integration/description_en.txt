@@ -1,0 +1,3 @@
+Shell scripting and terminal integration patterns for building tools that integrate with Zsh, Bash, and Fish. Covers completion systems (compdef/compadd, complete/compgen, fish complete), ZLE widgets, hooks (precmd/preexec/chpwd, PROMPT_COMMAND), readline, bindkey, parameter expansion, ZDOTDIR loading order, event systems, abbreviations, POSIX shell scripting, terminal control codes (ANSI/CSI escape sequences), tput, stty, signal handling, process management (job control, traps), and shell plugin distribution patterns.
+
+Use when building shell plugins, writing completion scripts, implementing terminal UI with escape sequences, managing dotfiles, creating installation scripts, handling signals and process management, or integrating native binaries with shell wrappers.

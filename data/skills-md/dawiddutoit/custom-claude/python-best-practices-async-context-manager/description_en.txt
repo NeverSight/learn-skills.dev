@@ -1,0 +1,4 @@
+Create async context managers for resource management using @asynccontextmanager decorator.
+Use when managing async resources, database sessions, file handles, connections, or any
+resource requiring automatic cleanup. Works with Python async/await patterns. Analyzes
+.py files with async with statements, AsyncIterator type hints, and try/finally patterns.

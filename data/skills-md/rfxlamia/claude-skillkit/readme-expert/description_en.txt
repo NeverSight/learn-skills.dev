@@ -1,0 +1,5 @@
+Create comprehensive, accurate README.md files with anti-hallucination validation.
+USE WHEN: Creating new README, updating existing README, validating README accuracy, or ensuring documentation matches actual codebase.
+PRIMARY TRIGGERS: "create README" → Full creation workflow (scan → generate → validate → test) "update README" → Partial update with validation "validate README" → Validation-only workflow "check README accuracy" → Anti-hallucination audit
+KEY FEATURES: - Codebase scanning for accurate facts - 5-layer anti-hallucination validation - Script execution testing - Citation tracking for all claims - Template-based structure selection
+DIFFERENTIATOR: Every claim verified against actual codebase. No assumptions, no hallucinations. Script execution testing ensures examples work.

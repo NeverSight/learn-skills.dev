@@ -1,0 +1,7 @@
+Auto-generate constructor validation tests from service class signatures.
+Use when creating tests for new services, validating fail-fast principle,
+ensuring constructor validation, or testing required parameters. Analyzes
+service __init__ methods and generates pytest.raises(ValueError) tests
+for each required parameter. Works with Python service classes following
+dependency injection pattern. High automation opportunity (100+ test classes
+use this pattern).

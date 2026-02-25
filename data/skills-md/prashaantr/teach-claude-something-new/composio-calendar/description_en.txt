@@ -1,0 +1,6 @@
+Google Calendar via Composio API. Use when:
+(1) Creating calendar events with correct durations
+(2) Finding/searching events
+(3) Updating or deleting events
+(4) Finding free time slots
+CRITICAL: CREATE and UPDATE use DIFFERENT duration parameters. This skill prevents the common 30-minute default bug.

@@ -1,0 +1,6 @@
+Creates immutable domain value objects using frozen dataclass pattern with validation.
+Use when implementing domain value objects, creating immutable data structures, or
+adding validation to values. Covers @dataclass(frozen=True), object.__setattr__()
+pattern in __post_init__, factory methods (from_string, from_dict, from_content),
+and validation in frozen context. Triggers on "create value object for X", "implement
+immutable Y value", "add validation to Z value", or "build value object".

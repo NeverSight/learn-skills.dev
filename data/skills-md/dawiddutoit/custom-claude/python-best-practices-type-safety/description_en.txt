@@ -1,0 +1,5 @@
+Systematic resolution of pyright/mypy type errors with categorization and fix templates.
+Use when pyright fails, type errors are reported, adding type annotations, or enforcing
+type safety. Analyzes Python type errors, categorizes them (missing annotations, incorrect
+types, generic issues, Optional/None handling), and applies fix patterns. Works with .py
+files and pyright output.

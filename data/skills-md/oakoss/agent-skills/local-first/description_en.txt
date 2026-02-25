@@ -1,0 +1,3 @@
+Local-first architecture decision framework for web applications. Covers when to go local-first vs server-based vs hybrid, sync engine selection (ElectricSQL, Zero, PowerSync, Replicache, LiveStore, Triplit), client-side storage options (IndexedDB, OPFS, SQLite WASM, PGlite), and conflict resolution strategies (LWW, CRDTs, server-wins, field-level merge).
+
+Use when deciding whether to adopt local-first architecture, choosing a sync engine, selecting client storage, or designing conflict resolution strategies.

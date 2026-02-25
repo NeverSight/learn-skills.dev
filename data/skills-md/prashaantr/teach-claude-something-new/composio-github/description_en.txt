@@ -1,0 +1,6 @@
+GitHub via Composio API. Use when:
+(1) Reading repository contents, README, or downloading repos
+(2) Creating, updating, or listing issues
+(3) Creating, listing, or merging pull requests
+(4) Listing repositories or branches
+DO NOT use `gh` CLI - it will fail with auth errors. Use Composio HTTP API only.

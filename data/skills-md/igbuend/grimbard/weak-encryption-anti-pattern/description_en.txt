@@ -1,0 +1,1 @@
+Security anti-pattern for weak encryption (CWE-326, CWE-327). Use when generating or reviewing code that encrypts data, handles encryption keys, or uses cryptographic modes. Detects DES, ECB mode, static IVs, and custom crypto implementations.

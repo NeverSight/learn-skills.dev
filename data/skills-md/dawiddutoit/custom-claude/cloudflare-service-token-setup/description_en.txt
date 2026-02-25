@@ -1,0 +1,6 @@
+Creates and manages Cloudflare Access service tokens for automated infrastructure
+verification and non-human access. Use when setting up automation, verification scripts,
+monitoring systems, or need to test services without Google OAuth. Triggers on "create
+service token", "setup automation access", "verify without OAuth", "automated monitoring",
+or "service token for testing". Works with Cloudflare Access Service Auth, .env credential
+storage, and cf-service-token.sh script for testing and management.

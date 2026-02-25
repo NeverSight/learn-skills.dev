@@ -1,0 +1,6 @@
+Creates animated GIFs optimized for Slack with proper dimensions (128x128 emoji, 480x480 message),
+FPS control, color optimization, and file size constraints. Use when asked to "make a GIF for
+Slack", "create an animated emoji", "design a Slack GIF", or "animate this for Slack". Provides
+GIFBuilder utilities, frame management, color palette reduction, and validation tools ensuring
+GIFs meet Slack requirements. Works with Python Pillow (PIL) for frame generation, color
+quantization, and GIF export with FPS 10-30 and duration under 3 seconds for emoji.

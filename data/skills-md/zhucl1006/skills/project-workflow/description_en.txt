@@ -1,15 +1,15 @@
-Document-driven project development workflow. Intelligently determines task type, executes existing plans or uses feature-dev to generate new ones.
+文档驱动的项目开发工作流。智能判断任务类型，执行已有计划或使用 feature-dev 生成新计划。
 
-**Use cases:**
-- Project documents are complete and a development task needs to be executed
-- User specifies to execute a certain plan (e.g., "execute plan 001")
-- User requests to develop a new feature (automatically uses feature-dev to generate a plan)
+**使用场景：**
+- 已有完整项目文档，需要执行开发任务
+- 用户指定执行某个计划（如"执行 plan 001"）
+- 用户请求开发新功能（自动使用 feature-dev 生成计划）
 
-**Prerequisites:**
-- The project should already have a docs/ structure (PRD, SAD, etc.)
-- For new projects, it's recommended to first use the project-docs-setup skill to create complete documentation
+**前置条件：**
+- 项目应该已有 docs/ 文档结构（PRD、SAD 等）
+- 如果是新项目，建议先使用 project-docs-setup skill 创建完整文档
 
-**Trigger methods:**
-- "Execute plan 001" / "continue 001-user-authentication"
-- "Start development" / "Execute plan" / "Continue last task"
-- "Implement user authentication feature" / "Add XXX module"
+**触发方式：**
+- "执行 plan 001" / "继续 001-user-authentication"
+- "开始开发" / "执行计划" / "继续上次的任务"
+- "实现用户认证功能" / "添加 XXX 模块"

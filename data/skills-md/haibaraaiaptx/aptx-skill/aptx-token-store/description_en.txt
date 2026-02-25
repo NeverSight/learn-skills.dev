@@ -1,0 +1,1 @@
+使用 @aptx/token-store 定义或实现 token 持久化。用于：实现 TokenStore 接口、支持同步/异步 API（getToken/setToken/clearToken）、可选的元数据方法、实现不同存储后端（cookie、localStorage、小程序、内存）、配合 @aptx/api-plugin-auth 使用。当代码需要实现自定义 TokenStore 时触发。

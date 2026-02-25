@@ -1,0 +1,6 @@
+Detects orphaned code (files/functions that exist but are never imported or called in production),
+preventing "created but not integrated" failures. Use before marking features complete, before moving
+ADRs to completed, during code reviews, or as part of quality gates. Triggers on "detect orphaned code",
+"find dead code", "check for unused modules", "verify integration", or proactively before completion.
+Works with Python modules, functions, classes, and LangGraph nodes. Catches the ADR-013 failure pattern
+where code exists and tests pass but is never integrated.

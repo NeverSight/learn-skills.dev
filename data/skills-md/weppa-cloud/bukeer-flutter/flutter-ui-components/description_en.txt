@@ -1,0 +1,18 @@
+M3-compliant UI components (buttons, cards, forms, inputs).
+USE WHEN: creating components <300 lines, M3 migrations, Design System work.
+NOT FOR: complete screens, features with business logic (use flutter-developer).
+Always validate M3 components with MCP tools before creating custom.
+
+Examples:
+<example>
+Context: Need to migrate a button component to M3.
+user: "Migrate BukeerButton to Material Design 3"
+assistant: "I'll use flutter-ui-components to migrate BukeerButton to M3."
+<commentary>UI component migration is flutter-ui-components specialty.</commentary>
+</example>
+<example>
+Context: Create a new reusable form field.
+user: "Create a new date picker input component following M3"
+assistant: "I'll use flutter-ui-components to create the M3-compliant date picker."
+<commentary>Single UI components should be handled by flutter-ui-components.</commentary>
+</example>

@@ -1,0 +1,1 @@
+Automated code review loop with progressive reasoning levels. Runs n parallel Codex reviews (configurable via -n), Claude addresses issues, climbs from low→xhigh reasoning until fixed point (all n clean). Human approval at each iteration.

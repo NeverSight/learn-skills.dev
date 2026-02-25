@@ -1,0 +1,8 @@
+Detects and visualizes geometric intersections in OpenSCAD models using built-in
+techniques (intersection(), debug modifiers), BOSL2 utilities (debug_this, ghost),
+and reusable collision check patterns. Use when checking drawer clearances, door
+swing interference, shelf spacing, hinge collisions, or any geometric overlap in
+woodworking projects. Triggers on "check collision", "detect interference",
+"drawer clearance", "door swing", "check overlap", "assembly interference", or
+"fits in cabinet". Works with .scad files, woodworkers-lib patterns, BOSL2
+attachments, and OpenSCAD 2025 Manifold engine.

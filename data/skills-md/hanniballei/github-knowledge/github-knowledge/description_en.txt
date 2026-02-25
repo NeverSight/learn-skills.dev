@@ -1,0 +1,14 @@
+GitHub knowledge base manager for storing, indexing, and querying GitHub repositories locally.
+Maintains a BASE.md index file with summaries of all saved repos.
+
+Trigger this skill when the user asks a question or makes a request related to:
+- A specific GitHub repository (download, query, analyze, summarize, compare)
+- GitHub issues, PRs, releases, or repository search
+- 仓库、GitHub项目、开源项目 的下载、查询、分析等操作
+
+Do NOT trigger for unrelated git operations (e.g., "init a local git repo", "git commit").
+
+Core actions:
+1. Explicit download request → require URL → clone or pull → summarize → update BASE.md
+2. Query + repo exists locally → pull → maybe update summary → answer question
+3. Query + repo NOT local → search GitHub via gh/curl → answer question (do NOT clone)
