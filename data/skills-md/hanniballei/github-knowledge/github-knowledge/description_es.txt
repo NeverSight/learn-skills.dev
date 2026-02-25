@@ -1,0 +1,14 @@
+Administrador de la base de conocimientos de GitHub para almacenar, indexar y consultar repositorios de GitHub localmente.
+Mantiene un archivo de índice BASE.md con resúmenes de todos los repositorios guardados.
+
+Active esta habilidad cuando el usuario haga una pregunta o realice una solicitud relacionada con:
+- Un repositorio de GitHub específico (descargar, consultar, analizar, resumir, comparar)
+- Problemas de GitHub, relaciones públicas, lanzamientos o búsqueda de repositorios
+- 仓库、GitHub项目、开源项目 的下载、查询、分析等操作
+
+NO active operaciones de git no relacionadas (por ejemplo, "iniciar un repositorio de git local", "compromiso de git").
+
+Acciones principales:
+1. Solicitud de descarga explícita → requerir URL → clonar o extraer → resumir → actualizar BASE.md
+2. Consulta + repositorio existe localmente → extraer → tal vez actualizar resumen → responder pregunta
+3. Consulta + repositorio NO local → buscar en GitHub a través de gh/curl → responder pregunta (NO clonar)

@@ -1,0 +1,4 @@
+Implemente productores Kafka con seguridad de tipos para la transmisión de eventos con serialización msgspec.
+Úselo al crear productores asíncronos/en espera que publiquen eventos de dominio (órdenes, transacciones, etc.)
+con validación de esquemas, manejo de errores, lógica de reintento y seguimiento distribuido.
+Maneja la configuración del productor, escrituras idempotentes y cierre ordenado.

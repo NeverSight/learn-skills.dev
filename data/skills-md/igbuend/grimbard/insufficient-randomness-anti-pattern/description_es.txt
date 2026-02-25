@@ -1,0 +1,1 @@
+Antipatrón de seguridad para vulnerabilidades de aleatoriedad insuficiente (CWE-330). Úselo al generar o revisar código que crea tokens de seguridad, ID de sesión, claves de cifrado, nonces o cualquier valor aleatorio crítico para la seguridad. Detecta el uso de Math.random() o semillas predecibles.

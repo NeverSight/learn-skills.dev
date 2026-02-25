@@ -1,0 +1,11 @@
+Asistente de codificación diario que se activa automáticamente al escribir/modificar código y proporciona una lista de verificación básica.
+
+✅ Escenarios desencadenantes:
+- Implementar nuevas funciones, agregar código, modificar el código existente
+- El usuario solicita "escribir un...", "implementar...", "añadir...", "modificar..."
+- Cualquier tarea de codificación que involucre herramientas de edición/escritura.
+
+❌ No desencadena:
+- Código puro de lectura/comprensión (sin intención de modificación)
+- Ya cubierto por habilidades especializadas (detección de errores, diseño de arquitectura, guía tdd)
+- Cambios en archivos de configuración, redacción de documentación.

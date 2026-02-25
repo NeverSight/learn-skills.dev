@@ -1,0 +1,5 @@
+Corrija los errores del patrón ServiceResult que causan fallas en las pruebas y errores de tipo.
+Úselo cuando vea "el objeto dict no tiene ningún atributo exitoso", "simulacro de no devolver ServiceResult",
+las afirmaciones simuladas fallan o escriben errores con ServiceResult. Analiza archivos de prueba .py
+e implementaciones de servicios. Cubre patrones asíncronos/en espera, operaciones de mónadas (mapa, enlace, mapa plano),
+y configuración simulada adecuada.

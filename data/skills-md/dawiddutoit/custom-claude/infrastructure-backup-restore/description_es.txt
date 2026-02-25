@@ -1,0 +1,7 @@
+Crea procedimientos de respaldo automatizados, ejecuta operaciones de restauración e implementa desastres.
+Flujos de trabajo de recuperación para infraestructura de red. Úselo antes de realizar copias de seguridad de la infraestructura
+cambios, preparación para la recuperación ante desastres, migración a un nuevo servidor o restauración después de una falla.
+Activadores de "infraestructura de respaldo", "restauración desde respaldo", "recuperación ante desastres", "respaldo antes
+actualizar" o "migrar infraestructura". Funciona con volúmenes Docker (caddy_data, pihole_data),
+archivos de configuración (docker-compose.yml, domains.toml) y secretos .env usando archivos tar
+y comandos de composición de Docker.

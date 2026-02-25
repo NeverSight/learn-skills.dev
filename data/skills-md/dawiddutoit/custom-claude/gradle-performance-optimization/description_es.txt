@@ -1,0 +1,6 @@
+Optimiza el rendimiento de la compilación de Gradle a través de estrategias de almacenamiento en caché, caché de configuración y paralelo.
+ejecución y ajuste de memoria para lograr compilaciones entre un 50 y un 80 % más rápidas para proyectos grandes. Usar cuando
+las compilaciones son lentas (>2 minutos), optimizan las canalizaciones de CI/CD o configuran nuevos proyectos de Gradle.
+Activadores para "acelerar Gradle", "compilaciones lentas", "optimizar CI/CD", "reducir el tiempo de compilación" o
+"configurar el rendimiento de Gradle". Funciona con gradle.properties, build.gradle.kts, acciones de GitHub,
+y configuraciones de GitLab CI utilizando caché de compilación, caché de configuración y ejecución paralela.

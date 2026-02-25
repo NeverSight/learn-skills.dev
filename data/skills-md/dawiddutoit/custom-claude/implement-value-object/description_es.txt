@@ -1,0 +1,6 @@
+Crea objetos de valor de dominio inmutables utilizando un patrón de clase de datos congelado con validación.
+Úselo al implementar objetos de valor de dominio, crear estructuras de datos inmutables o
+agregando validación a los valores. Cubre @dataclass(frozen=True), object.__setattr__()
+patrón en __post_init__, métodos de fábrica (from_string, from_dict, from_content),
+y validación en contexto congelado. Activadores en "crear objeto de valor para X", "implementar
+valor Y inmutable", "agregar validación al valor Z" o "construir objeto de valor".

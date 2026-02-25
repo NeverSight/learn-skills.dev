@@ -1,0 +1,7 @@
+Gestiona las operaciones de certificados SSL, incluida la comprobación de la caducidad, la supervisión de la renovación,
+forzar la renovación manual y realizar copias de seguridad de los certificados. Usar al verificar el certificado
+validez, supervisión de la renovación automática, certificados que caducan pronto o necesidad de realizar una copia de seguridad
+datos del certificado. Activadores en "verificar vencimiento del certificado", "renovación del certificado",
+"Estado del certificado SSL", "certificados de respaldo" o "forzar renovación del certificado".
+Funciona con certificados Let's Encrypt, renovación automática de Caddy y caddy_data Docker
+volumen.

@@ -1,0 +1,7 @@
+Genere automáticamente pruebas de validación de constructores a partir de firmas de clases de servicio.
+Úselo al crear pruebas para nuevos servicios, validar el principio de falla rápida,
+asegurar la validación del constructor o probar los parámetros requeridos. Análisis
+servicio __init__ métodos y genera pruebas pytest.raises (ValueError)
+para cada parámetro requerido. Funciona con las siguientes clases de servicio de Python
+patrón de inyección de dependencia. Alta oportunidad de automatización (más de 100 clases de prueba)
+utilizar este patrón).

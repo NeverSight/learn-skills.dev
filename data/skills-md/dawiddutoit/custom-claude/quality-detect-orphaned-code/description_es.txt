@@ -1,0 +1,6 @@
+Detecta código huérfano (archivos/funciones que existen pero que nunca se importan ni se llaman en producción),
+evitando fallos "creados pero no integrados". Úselo antes de marcar las características completas, antes de moverse
+ADR para completar, durante revisiones de código o como parte de puertas de calidad. Activadores al "detectar código huérfano",
+"buscar código inactivo", "verificar módulos no utilizados", "verificar integración" o de forma proactiva antes de completar.
+Funciona con módulos, funciones, clases y nodos LangGraph de Python. Detecta el patrón de falla ADR-013
+donde existe código y las pruebas pasan pero nunca se integran.

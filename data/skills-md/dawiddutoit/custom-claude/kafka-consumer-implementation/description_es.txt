@@ -1,0 +1,4 @@
+Implemente consumidores Kafka con seguridad de tipos para el consumo de eventos con deserialización de msgspec.
+Úselo al crear consumidores asíncronos que procesen eventos de dominio (mensajes de pedidos, transacciones)
+con gestión de compensaciones, recuperación de errores, cierre ordenado y seguimiento distribuido.
+Maneja la configuración del consumidor, confirmaciones manuales y estrategias de reequilibrio.

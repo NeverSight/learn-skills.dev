@@ -1,0 +1,7 @@
+Proporciona un enfoque de validación de 3 niveles para los paneles de Home Assistant, incluida la publicación previa.
+validación (verificaciones de entidades, estructura de configuración), verificación posterior a la publicación (análisis de registros),
+y validación visual (consola del navegador, renderizado). Úselo al validar paneles de HA,
+comprobar las configuraciones del panel, verificar los ID de las entidades, depurar problemas de representación o antes
+Implementación de cambios en el panel. Activadores en "validar panel", "verificar configuración de HA", "panel
+errores", "entidad no encontrada" o "panel de prueba". Funciona con las API WebSocket/REST de Home Assistant,
+Herramientas MCP de extensión de Chrome, creadores de paneles de Python y configuraciones de paneles de YAML.

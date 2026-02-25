@@ -1,0 +1,6 @@
+Carga archivos OpenSCAD con contexto de dependencia total analizando declaraciones de uso/inclusión,
+resolver rutas de biblioteca y extraer superficie API (módulos, funciones, parámetros).
+Úselo cuando trabaje con archivos OpenSCAD, depure problemas de renderizado y comprenda el módulo
+dependencias, o antes de refactorizar. Activadores al "cargar scad", "scad-load [archivo]",
+"cargar contexto de openscad", "mostrar dependencias de scad" o al investigar archivos .scad.
+Funciona con archivos .scad, BOSL2, woodworkers-lib, NopSCADlib y bibliotecas específicas del proyecto.

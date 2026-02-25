@@ -1,0 +1,7 @@
+Diagnostica y soluciona problemas de DNS de IPv6 que provocan que los clientes se conecten a Cloudflare OAuth
+en lugar de utilizar el acceso a la red local. Úselo cuando los servicios muestren el mensaje de inicio de sesión de OAuth activado
+WiFi local, conexión inicial lenta seguida de autenticación o Chrome muestra "error
+con reintento". Activadores al "conectarse a Cloudflare en lugar de local", "indicador de OAuth activado
+WiFi", "Problema de DNS de IPv6", "los clientes prefieren IPv6", "deshabilitar DNS de IPv6" o "arreglar el acceso local".
+Funciona con el filtro Pi-hole FTLCONF_misc_dnsmasq_lines, configuración AAAA y DNS del cliente
+gestión de caché.

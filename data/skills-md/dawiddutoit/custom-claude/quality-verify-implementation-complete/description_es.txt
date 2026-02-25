@@ -1,0 +1,7 @@
+Verifica que el código implementado esté realmente integrado en el sistema y se ejecute en tiempo de ejecución.
+evitando fallos "hechos pero no integrados". Úselo cuando marque características completas, antes de moverse
+ADR al estado completado, después de implementar nuevos módulos/nodos/servicios, o al reclamar "función
+funciona". Activadores en "verificar implementación", "está integrado", "verificar si el código está cableado",
+"probar que se ejecuta", o antes de declarar el trabajo completo. Funciona con módulos Python, nodos LangGraph,
+Comandos CLI, puntos finales API y clases de servicio. Hace cumplir la creación-conexión-verificación (CCV)
+principio.

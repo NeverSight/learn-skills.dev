@@ -1,0 +1,6 @@
+Encuentra todos los marcadores REFACTOR en la base de código, valida la existencia de ADR asociados, identifica marcadores obsoletos
+(más de 30 días) y detecta marcadores huérfanos (sin referencia de ADR). Úselo durante las comprobaciones de estado, antes
+finalización de funciones o para auditorías de estado de refactorización. Activadores en "verificar estado de refactorización", "marcador
+salud", "cuál es el estado" o PROACTIVAMENTE antes de marcar las funciones como completadas. Funciona con
+Archivos Python (.py), TypeScript (.ts) y JavaScript (.js) que utilizan patrones grep para localizar marcadores
+y validar con archivos ADR en los directorios docs/adr/.
