@@ -1,24 +1,24 @@
-Text and image generation via reverse-engineered Gemini Web API.
+通过逆向工程的 Gemini Web API 进行文本和图像生成。
 
-Core capabilities:
-- Text generation: generate text responses using the Gemini model
-- Image generation: create images from text prompts and save them locally
-- Visual input: support reference images for image-to-image or image-to-text
-- Multi-turn dialogue: maintain context continuity through sessionId
+核心能力:
+- 文本生成: 使用 Gemini 模型生成文本响应
+- 图像生成: 从文本提示生成图像并保存到本地
+- 视觉输入: 支持参考图像进行图生图或图生文
+- 多轮对话: 通过 sessionId 保持上下文连续性
 
-When to use:
-- When you need to generate high-quality AI images (covers, illustrations, etc.)
-- When you need text generation via the Gemini model
-- When you want to create variants or descriptions based on a reference image
-- As an image-generation backend for other skills (pw-cover-image, pw-redbook-image)
+使用时机:
+- 需要生成高质量 AI 图像时 (封面图、配图、插画等)
+- 需要 Gemini 模型进行文本生成时
+- 需要基于参考图像生成变体或描述时
+- 作为其他技能 (pw-cover-image、pw-redbook-image) 的图像生成后端
 
-Not suitable for:
-- Production environments requiring official API support and stability guarantees
-- Critical business processes sensitive to API changes
-- High-frequency batch calls (may trigger rate limits)
+不适用场景:
+- 需要官方 API 支持和稳定性保证的生产环境
+- 对 API 变更敏感的关键业务流程
+- 需要批量高频调用的场景 (可能触发限流)
 
-Important reminders:
-- First-time use requires user consent to disclaimer
-- Google account authentication required (browser login auto-opens)
-- Proxy configuration needed in mainland China
-- This is an unofficial API and may break at any time
+重要提醒:
+- 首次使用需要用户同意免责声明
+- 需要 Google 账号认证 (自动打开浏览器登录)
+- 在中国大陆需要配置代理访问
+- 这是非官方 API, 可能随时失效

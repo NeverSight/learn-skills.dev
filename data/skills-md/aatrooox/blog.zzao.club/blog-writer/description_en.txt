@@ -1,16 +1,15 @@
-Blog-post writing assistance skills.  
-Core goal: through writing drills raise the user’s writing level, cognitive level, and knowledge-absorption ability.
+博客文章写作辅助技能。核心目标：通过写作训练提升用户的写作水平、认知水平、知识吸收能力。
 
-Trigger scenarios:  
-- User says “write an article,” “draft one,” “help me write,” “polish,” “revise the article”  
-- User says “pick a topic and chat,” “discuss around xx,” “turn the dialogue into an article”  
-- User says “search the latest xx,” “write a popular-science piece,” “write an intro,” “press release”  
-- User says “expand this,” “help me add more,” “pad it to 1000 words”  
-- User submits a markdown file for review  
+触发场景：
+- 用户说"写文章"、"写一篇"、"帮我写"、"润色"、"修改文章"
+- 用户说"定个主题聊聊"、"围绕xx展开讨论"、"把对话整理成文章"
+- 用户说"搜一下最新的xx"、"写个科普"、"写个介绍"、"新闻稿"
+- 用户说"扩展一下"、"帮我补充"、"凑到1000字"
+- 用户提交了markdown文件让你review
 
-Core functions:  
-- Mode 1 (Review): Critique finished articles with strict standards, log writing weaknesses and track improvement  
-- Mode 2 (Dialogue): Guide thinking, give light feedback, preserve personal voice  
-- Mode 3 (Search-Write): Fetch accurate info, adopt user tone, no writing critique  
-- Mode 4 (Expand): Add evidence, keep consistent style, no judgment of original text  
-- All modes: strictly follow user tone traits (refer to user-profile.md)
+核心功能：
+- **模式一（审阅模式）**：用严格标准点评已完成的文章，记录写作弱点并追踪改善
+- **模式二（对话模式）**：引导思考，轻度点评，保留个人声音
+- **模式三（搜索写作）**：获取准确信息，应用用户语气，不做写作点评
+- **模式四（扩展模式）**：补充论据，保持风格一致，不评价原文
+- **所有模式**：严格遵循用户语气特征（参考 user-profile.md）
