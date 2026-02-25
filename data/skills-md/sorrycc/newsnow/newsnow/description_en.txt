@@ -1,0 +1,9 @@
+CLI tool to fetch trending news and hot topics from 66 sources across 44 platforms. Returns structured news items with titles, URLs, and metadata.
+
+USE FOR:
+- Fetching trending/hot news from Chinese and international platforms
+- Monitoring hot topics across social media, tech, finance, and news sites
+- Getting structured news data as JSON for further processing
+- Listing available news sources
+
+Requires npm install. Some sources need env vars (PRODUCTHUNT_API_TOKEN). Some sources may be blocked by Cloudflare (linuxdo).
