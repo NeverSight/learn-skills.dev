@@ -1,0 +1,1 @@
+メモリ リークと使い捨ての問題についてコードを監査します。イベント リスナー、DOM ハンドラー、ライフサイクル コールバックを確認するとき、またはリーク レポートを修正するときに使用します。 addDisposableListener、Event.once、MutableDisposable、DisposableStore、および onWillDispose パターンをカバーします。
