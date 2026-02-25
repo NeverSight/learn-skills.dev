@@ -1,0 +1,7 @@
+Contrôle et automatisation de Unity Editor, communication en temps réel basée sur WebSocket.
+
+Caractéristiques : contrôle GameObject, manipulation des transformations, gestion des composants, gestion des scènes, intégration de la base de données SQLite, persistance basée sur GUID, synchronisation multi-scènes, modèle de commande avec Undo/Redo, exécution du menu, gestion ScriptableObject, manipulation des tableaux/listes, prise en charge de tous les types de champs, matériel/rendu, système préfabriqué, base de données d'actifs, animation, physique, journalisation de la console, gestion EditorPrefs, automatisation de l'éditeur, pipeline de construction, éclairage, caméra, audio, navigation, particules, chronologie, Boîte à outils d'interface utilisateur, profileur, testeur.
+
+Protocole : JSON-RPC 2.0 sur WebSocket (port 9500-9600). Plus de 500 commandes, 25 catégories. Communication bidirectionnelle en temps réel.
+
+Sécurité : Défense en profondeur (protection contre la traversée de chemin, défense par injection de commandes, prévention des injections JSON, prévention des injections SQL, sécurité des transactions). Connexions localhost uniquement. Multiplateforme (Windows, macOS, Linux).

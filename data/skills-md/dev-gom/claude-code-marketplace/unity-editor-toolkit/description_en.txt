@@ -1,7 +1,7 @@
-Unity Editor control and automation, WebSocket-based real-time communication. 유니티에디터제어및자동화, WebSocket기반실시간통신.
+Unity Editor control and automation, WebSocket-based real-time communication.
 
-Features/기능: GameObject control 게임오브젝트제어, Transform manipulation 트랜스폼조작, Component management 컴포넌트관리, Scene management 씬관리, SQLite database integration SQLite데이터베이스통합, GUID-based persistence GUID기반영구식별, Multi-scene synchronization 멀티씬동기화, Command Pattern with Undo/Redo 명령패턴실행취소재실행, Menu execution 메뉴실행, ScriptableObject management 스크립터블오브젝트관리, Array/List manipulation 배열리스트조작, All field types support 모든필드타입지원, Material/Rendering 머티리얼/렌더링, Prefab system 프리팹시스템, Asset Database 애셋데이터베이스, Animation 애니메이션, Physics 물리, Console logging 콘솔로깅, EditorPrefs management 에디터프리퍼런스관리, Editor automation 에디터자동화, Build pipeline 빌드파이프라인, Lighting 라이팅, Camera 카메라, Audio 오디오, Navigation 네비게이션, Particles 파티클, Timeline 타임라인, UI Toolkit, Profiler 프로파일러, Test Runner 테스트러너.
+Features: GameObject control, Transform manipulation, Component management, Scene management, SQLite database integration, GUID-based persistence, Multi-scene synchronization, Command Pattern with Undo/Redo, Menu execution, ScriptableObject management, Array/List manipulation, All field types support, Material/Rendering, Prefab system, Asset Database, Animation, Physics, Console logging, EditorPrefs management, Editor automation, Build pipeline, Lighting, Camera, Audio, Navigation, Particles, Timeline, UI Toolkit, Profiler, Test Runner.
 
-Protocol 프로토콜: JSON-RPC 2.0 over WebSocket (port 9500-9600). 500+ commands 명령어, 25 categories 카테고리. Real-time bidirectional communication 실시간양방향통신.
+Protocol: JSON-RPC 2.0 over WebSocket (port 9500-9600). 500+ commands, 25 categories. Real-time bidirectional communication.
 
-Security 보안: Defense-in-depth 심층방어 (path traversal protection 경로순회방지, command injection defense 명령어인젝션방어, JSON injection prevention JSON인젝션방지, SQL injection prevention SQL인젝션방지, transaction safety 트랜잭션안전성). Localhost-only connections 로컬호스트전용. Cross-platform 크로스플랫폼 (Windows, macOS, Linux).
+Security: Defense-in-depth (path traversal protection, command injection defense, JSON injection prevention, SQL injection prevention, transaction safety). Localhost-only connections. Cross-platform (Windows, macOS, Linux).
