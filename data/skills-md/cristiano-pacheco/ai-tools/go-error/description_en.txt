@@ -1,0 +1,1 @@
+Generate custom Go errors following GO modular architecture conventions using bricks errs.New(code, message, httpStatus, details). Use when creating new domain errors, extending internal/modules/<module>/errs/errs.go, or standardizing error codes/messages/statuses across modules.

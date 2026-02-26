@@ -1,0 +1,19 @@
+Use ONLY when creating NEW registrable components in ML projects that require Factory/Registry patterns.
+
+✅ USE when:
+- Creating a new Dataset class (needs @register_dataset)
+- Creating a new Model class (needs @register_model)
+- Creating a new module directory with __init__.py factory
+- Initializing a new ML project structure from scratch
+- Adding new component types (Augmentation, CollateFunction, Metrics)
+
+❌ DO NOT USE when:
+- Modifying existing functions or methods
+- Fixing bugs in existing code
+- Adding helper functions or utilities
+- Refactoring without adding new registrable components
+- Simple code changes to a single file
+- Modifying configuration files
+- Reading or understanding existing code
+
+Key indicator: Does the task require @register_* decorator or Factory pattern? If no, skip this skill.

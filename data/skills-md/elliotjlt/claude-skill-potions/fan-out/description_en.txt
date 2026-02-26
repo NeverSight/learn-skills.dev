@@ -1,0 +1,4 @@
+Orchestration pattern for parallelizable tasks. When facing work that can be
+split into independent subtasks (research multiple topics, analyze multiple
+files, test multiple scenarios), spawn parallel agents and aggregate results.
+Use when subtasks have no dependencies on each other.

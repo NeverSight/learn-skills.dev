@@ -1,0 +1,128 @@
+---
+name: pachca-profile
+description: >
+  Получение и обновление профиля текущего пользователя, управление статусом,
+  кастомные поля сотрудников. Используй когда нужно: получить свой профиль,
+  обновить статус, узнать дополнительные поля. НЕ используй для: управления
+  другими сотрудниками (→ pachca-users).
+---
+
+# pachca-profile
+
+Base URL: `https://api.pachca.com/api/shared/v1`
+Авторизация: `Authorization: Bearer <ACCESS_TOKEN>`
+Токен: бот (Автоматизации → Интеграции → API) или пользователь (Автоматизации → API).
+Если токен неизвестен — спроси у пользователя перед выполнением запросов.
+
+## Когда использовать
+
+- получить профиль
+- мой профиль
+- установить статус
+- обновить статус
+- сбросить статус
+- кастомные поля
+- дополнительные поля
+
+## Когда НЕ использовать
+
+- найти сотрудника, создать пользователя, список сотрудников → **pachca-users**
+- создать канал, создать беседу, создать чат → **pachca-chats**
+- отправить сообщение, ответить в тред, прикрепить файл → **pachca-messages**
+- настроить бота, вебхук, webhook → **pachca-bots**
+- показать форму, интерактивная форма, модальное окно → **pachca-forms**
+- создать задачу, список задач, напоминание → **pachca-tasks**
+- аудит, журнал событий, безопасность → **pachca-security**
+
+## Пошаговые сценарии
+
+### Установить статус
+
+1. PUT /profile/status с `emoji` и `title`
+2. Чтобы включить режим «Нет на месте» — добавь `is_away: true`
+
+```bash
+curl -X PUT "https://api.pachca.com/api/shared/v1/profile/status" \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"status":{"emoji":"🏖️","title":"В отпуске до 10 марта","is_away":true}}'
+```
+
+### Сбросить статус
+
+1. DELETE /profile/status
+
+```bash
+curl -X DELETE "https://api.pachca.com/api/shared/v1/profile/status" \
+  -H "Authorization: Bearer $TOKEN"
+```
+
+### Получить кастомные поля профиля
+
+1. GET /custom_properties?entity_type=User — список дополнительных полей для сотрудников (`id`, `name`, `data_type`)
+2. GET /profile — в ответе поле `custom_properties` содержит значения для текущего пользователя
+
+> Параметр `entity_type=User` фильтрует поля по типу сущности. Кастомные поля настраиваются администратором пространства. Значения хранятся в массиве `custom_properties` объекта `user`.
+
+## Обработка ошибок
+
+| Код | Причина | Что делать |
+|-----|---------|------------|
+| 422 | Неверные параметры | Проверь обязательные поля, типы данных, допустимые значения enum |
+| 429 | Rate limit | Подожди и повтори. Лимит: ~50 req/sec, сообщения ~4 req/sec |
+| 403 | Нет доступа | Недостаточно скоупов (`insufficient_scope`), бот не в чате, или endpoint только для админов/владельцев |
+| 404 | Не найдено | Неверный id. Проверь что сущность существует |
+| 401 | Не авторизован | Проверь токен в заголовке Authorization |
+
+## Доступные операции
+
+### Список дополнительных полей
+
+`GET /custom_properties`
+
+> скоуп: `custom_properties:read`
+
+### Информация о токене
+
+`GET /oauth/token/info`
+
+### Информация о профиле
+
+`GET /profile`
+
+> скоуп: `profile:read`
+
+### Текущий статус
+
+`GET /profile/status`
+
+> скоуп: `profile_status:read`
+
+### Новый статус
+
+`PUT /profile/status`
+
+> скоуп: `profile_status:write`
+
+```json
+{
+  "status": {
+    "emoji": "",
+    "title": ""
+  }
+}
+```
+
+### Удаление статуса
+
+`DELETE /profile/status`
+
+> скоуп: `profile_status:write`
+
+## Ограничения и gotchas
+
+- Пагинация: cursor-based (limit + cursor), НЕ page-based
+
+## Подробнее
+
+см. [references/endpoints.md](references/endpoints.md)
