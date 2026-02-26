@@ -1,0 +1,18 @@
+Sviluppo Flutter per schermate, funzionalità e logica aziendale.
+USARE QUANDO: creazione schermate, implementazione navigazione, aggiunta AppServices,
+correzione di bug, gestione dello stato, autorizzazioni RBAC, moduli in più passaggi.
+NON PER: singoli componenti dell'interfaccia utente <300 righe (utilizzare flutter-ui-components).
+
+Esempi:
+<esempio>
+Contesto: l'utente necessita della funzionalità multischermo completa.
+utente: "Implementa il flusso di prenotazione dell'hotel con ricerca, dettagli e conferma"
+assistente: "Utilizzerò l'abilità di sviluppo flutter per questo flusso completo con navigazione e stato."
+<commentary>I flussi multischermo richiedono flutter-developer.</commentary>
+</esempio>
+<esempio>
+Contesto: è necessario un semplice componente dell'interfaccia utente.
+utente: "Crea un nuovo componente pulsante di azione"
+assistente: "Utilizzerò i componenti flutter-ui per questo singolo componente."
+<commentary>I singoli componenti utilizzano flutter-ui-components, non flutter-developer.</commentary>
+</esempio>

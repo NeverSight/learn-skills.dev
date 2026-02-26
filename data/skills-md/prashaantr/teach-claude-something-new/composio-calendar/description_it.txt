@@ -1,0 +1,6 @@
+Google Calendar tramite l'API Composio. Utilizzare quando:
+(1) Creazione di eventi del calendario con durate corrette
+(2) Ricerca/ricerca di eventi
+(3) Aggiornamento o eliminazione di eventi
+(4) Trovare fasce orarie libere
+CRITICO: CREATE e UPDATE utilizzano parametri di durata DIVERSI. Questa abilità previene il comune bug predefinito di 30 minuti.

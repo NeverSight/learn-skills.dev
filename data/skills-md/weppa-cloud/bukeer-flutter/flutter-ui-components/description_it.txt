@@ -1,0 +1,18 @@
+Componenti dell'interfaccia utente conformi a M3 (pulsanti, schede, moduli, input).
+USARE QUANDO: creazione componenti <300 linee, migrazioni M3, lavori Design System.
+NON PER: schermate complete, funzionalità con logica aziendale (usa flutter-developer).
+Convalida sempre i componenti M3 con gli strumenti MCP prima di crearli personalizzati.
+
+Esempi:
+<esempio>
+Contesto: è necessario migrare un componente pulsante su M3.
+utente: "Migra BukeerButton a Material Design 3"
+assistente: "Utilizzerò i componenti flutter-ui per migrare BukeerButton su M3."
+<commentary>La migrazione dei componenti dell'interfaccia utente è la specialità di flutter-ui-components.</commentary>
+</esempio>
+<esempio>
+Contesto: crea un nuovo campo modulo riutilizzabile.
+utente: "Crea un nuovo componente di input per la selezione della data seguendo M3"
+assistente: "Utilizzerò i componenti flutter-ui per creare il selettore di date compatibile con M3."
+<commentary>I singoli componenti dell'interfaccia utente dovrebbero essere gestiti da flutter-ui-components.</commentary>
+</esempio>

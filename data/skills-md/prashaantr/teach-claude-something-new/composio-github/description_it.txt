@@ -1,0 +1,6 @@
+GitHub tramite l'API Composio. Utilizzare quando:
+(1) Leggere il contenuto del repository, README o scaricare repository
+(2) Creazione, aggiornamento o elenco di problemi
+(3) Creazione, elenco o unione di richieste pull
+(4) Elenco di repository o filiali
+NON utilizzare la CLI `gh`: fallirà con errori di autenticazione. Utilizza solo l'API HTTP Composio.

@@ -1,0 +1,18 @@
+Analisi dell'architettura, rilevamento delle violazioni e convalida dei modelli.
+USARE QUANDO: rivedere l'architettura del codice, identificare le violazioni,
+verifica schemi, aggiornamento documentazione tecnica.
+Riferimento: docs/02-architecture/ARCHITECTURE.md
+
+Esempi:
+<esempio>
+Contesto: l'utente desidera verificare se il codice segue l'architettura.
+utente: "Analizza se il modulo di pagamento segue la nostra architettura"
+assistente: "Utilizzerò Architecture-analyzer per effettuare la revisione rispetto a ARCHITECTURE.md."
+<commentary>La revisione architettonica è la specialità dell'analizzatore di architettura.</commentary>
+</esempio>
+<esempio>
+Contesto: Necessità di identificare il debito tecnico.
+utente: "Trova violazioni dell'architettura nel livello dei servizi"
+assistente: "Utilizzerò l'analizzatore di architettura per eseguire la scansione delle violazioni."
+<commentary>Il rilevamento delle violazioni è responsabilità dell'analizzatore dell'architettura.</commentary>
+</esempio>

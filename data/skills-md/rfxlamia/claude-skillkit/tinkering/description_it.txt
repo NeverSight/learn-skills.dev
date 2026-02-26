@@ -1,0 +1,5 @@
+Quadro di sperimentazione sicuro per agenti IA. Crea ambienti sandbox isolati per provare nuove funzionalità, testare approcci ed esplorare soluzioni senza inquinare la codebase principale.
+DA USARE QUANDO: L'agente deve provare qualcosa di incerto, esplorare più approcci, testare una nuova libreria, prototipare una funzionalità o eseguire un picco tecnico prima di impegnarsi nell'implementazione.
+TRIGGER PRIMARI: "sperimenta con" = imposta sandbox + esegui esperimento "prova questo approccio" = esperimento rapido in sandbox "spike" / "POC" / "prototipo" = indagine tecnica con limiti di tempo "armeggiare" / "modalità armeggiare" = accedere al flusso di lavoro di sperimentazione "esplora opzioni" = confronto multi-approccio in sandbox
+NON PER: debug (usa il debugger), test (usa il test runner) o lavoro con funzionalità impegnate (usa i rami git).
+DIFFERENZIATORE: A differenza dei rami git (per la direzione impegnata), armeggiare è per l'esplorazione "Non so se funzionerà". Prova 5 cose nella sandbox prima di impegnarti in un ramo. Feedback più rapido, zero inquinamento della base di codice.
