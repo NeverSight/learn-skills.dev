@@ -1,0 +1,19 @@
+Úselo ÚNICAMENTE cuando cree NUEVOS componentes registrables en proyectos de aprendizaje automático que requieran patrones de fábrica/registro.
+
+✅ UTILIZAR cuando:
+- Crear una nueva clase de conjunto de datos (necesita @register_dataset)
+- Crear una nueva clase de modelo (necesita @register_model)
+- Creando un nuevo directorio de módulo con __init__.py factory
+- Inicializar una nueva estructura de proyecto ML desde cero.
+- Agregar nuevos tipos de componentes (Aumento, CollateFunction, Métricas)
+
+❌ NO UTILIZAR cuando:
+- Modificar funciones o métodos existentes.
+- Corrección de errores en el código existente.
+- Agregar funciones o utilidades auxiliares
+- Refactorización sin agregar nuevos componentes registrables
+- Cambios de código simples en un solo archivo.
+- Modificar archivos de configuración
+- Leer o comprender el código existente.
+
+Indicador clave: ¿La tarea requiere el decorador @register_* o el patrón Factory? Si no, omita esta habilidad.
