@@ -1,0 +1,1 @@
+Riavvia la sessione corrente di Claude Code da tmux. Scrive un file di handoff, lancia uno script di riavvio in una nuova finestra tmux, che arresta l'attuale Claude e riprende con --resume. Trigger: /reload, "reload", "restart", "reboot", "再起動"

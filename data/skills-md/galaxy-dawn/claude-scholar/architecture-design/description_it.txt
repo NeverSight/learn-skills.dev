@@ -1,0 +1,19 @@
+Da utilizzare SOLO quando si creano NUOVI componenti registrabili in progetti ML che richiedono modelli di fabbrica/registro.
+
+✅UTILIZZARE quando:
+- Creazione di una nuova classe Dataset (è necessario @register_dataset)
+- Creazione di una nuova classe Modello (è necessario @register_model)
+- Creazione di una nuova directory del modulo con __init__.py factory
+- Inizializzazione di una nuova struttura di progetto ML da zero
+- Aggiunta di nuovi tipi di componenti (Augmentation, CollateFunction, Metrics)
+
+❌ NON UTILIZZARE quando:
+- Modifica di funzioni o metodi esistenti
+- Correzione di bug nel codice esistente
+- Aggiunta di funzioni o utilità di supporto
+- Refactoring senza aggiungere nuovi componenti registrabili
+- Semplici modifiche al codice in un singolo file
+- Modifica dei file di configurazione
+- Leggere o comprendere il codice esistente
+
+Indicatore chiave: l'attività richiede il decoratore @register_* o il modello Factory? In caso contrario, salta questa abilità.

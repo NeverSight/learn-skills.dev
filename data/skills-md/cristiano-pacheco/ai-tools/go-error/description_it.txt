@@ -1,0 +1,1 @@
+Genera errori Go personalizzati seguendo le convenzioni dell'architettura modulare GO utilizzando i mattoni errs.New (codice, messaggio, httpStatus, dettagli). Da utilizzare durante la creazione di nuovi errori di dominio, l'estensione di internal/modules/<module>/errs/errs.go o la standardizzazione di codici/messaggi/stati di errore tra i moduli.
