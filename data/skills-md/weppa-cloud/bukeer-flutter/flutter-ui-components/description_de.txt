@@ -1,0 +1,18 @@
+M3-kompatible UI-Komponenten (Schaltflächen, Karten, Formulare, Eingaben).
+VERWENDEN SIE WANN: Erstellen von Komponenten <300 Zeilen, M3-Migrationen, Design-System-Arbeit.
+NICHT FÜR: vollständige Bildschirme, Funktionen mit Geschäftslogik (Flutter-Developer verwenden).
+Validieren Sie M3-Komponenten immer mit MCP-Tools, bevor Sie benutzerdefinierte erstellen.
+
+Beispiele:
+<Beispiel>
+Kontext: Eine Schaltflächenkomponente muss nach M3 migriert werden.
+Benutzer: „BukeerButton nach Material Design 3 migrieren“
+Assistent: „Ich werde flutter-ui-components verwenden, um BukeerButton auf M3 zu migrieren.“
+<commentary>Die Migration von UI-Komponenten ist eine Spezialität von flutter-ui-components.</commentary>
+</Beispiel>
+<Beispiel>
+Kontext: Erstellen Sie ein neues wiederverwendbares Formularfeld.
+Benutzer: „Erstellen Sie eine neue Eingabekomponente für die Datumsauswahl nach M3.“
+Assistent: „Ich werde flutter-ui-components verwenden, um die M3-kompatible Datumsauswahl zu erstellen.“
+<commentary>Einzelne UI-Komponenten sollten von flutter-ui-components verarbeitet werden.</commentary>
+</Beispiel>

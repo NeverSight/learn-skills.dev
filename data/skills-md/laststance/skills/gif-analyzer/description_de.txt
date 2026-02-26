@@ -1,0 +1,19 @@
+Analysieren Sie animierte GIF-Dateien, indem Sie Frames extrahieren und als sequentielles Video anzeigen.
+
+Verwenden Sie, wenn:
+– Der Benutzer erwähnt einen GIF-Dateipfad (z. B. „./demo.gif“, „~/Downloads/animation.gif“).
+- Der Benutzer möchte eine GIF-Animation analysieren oder verstehen
+– Der Benutzer fragt nach Bewegungen, Änderungen oder Inhalten in einem GIF
+- Der Benutzer hängt eine GIF-Datei zur Analyse an oder verweist darauf
+- Der Benutzer möchte eine Bildschirmaufnahme im GIF-Format untersuchen
+– Der Benutzer ruft den Slash-Befehl /gif auf
+
+Schlüsselwörter: „GIF“, „.gif“, „Animation“, „animiert“, „Frames“, „Bildschirmaufzeichnung“,
+„GIF analysieren“, „GIF-Analyse“, „GIF anzeigen“, „GIF-Inhalt“, „GIF-Bewegung“
+
+Auslösemuster:
+- Natürliche Sprache: „Analysiere dieses GIF: ./demo.gif“
+- Slash-Befehl: `/gif <Pfad>` oder `/gif <Pfad> <Nachricht>`
+
+Wenn es ausgelöst wird, extrahieren Sie Frames mit dem Python-Skript, zeigen Sie Frames der Reihe nach an,
+und als kontinuierliche Videosequenz interpretieren.

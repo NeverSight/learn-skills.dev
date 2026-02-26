@@ -1,0 +1,1 @@
+Wird verwendet, wenn Curl 403/503 von WAFs (Cloudflare, Akamai, DataDome) erhält. Umschließt Curl mit Chrome 145-Browser-Headern, Client-Hinweisen und Sec-Fetch-Metadaten, um das Header-Fingerprinting zu umgehen.
