@@ -1,0 +1,1 @@
+透過有狀態 REPL 會話在 Databricks 叢集上執行 Python 程式碼。當使用者想要在 Databricks 上執行 Python、使用 Spark 執行資料分析、在叢集上訓練模型、查詢 Unity Catalog 表、使用 sub_llm() 進行遞歸 LM 呼叫或任何需要持久 Databricks 執行上下文的任務時，請使用此技能。始終使用專用的 --project-dir （例如，examples/my-task/）來隔離每個任務的 session.json 和 repl_outputs。涵蓋會話生命週期（創建、執行、等待、取消、銷毀）、輸出檔案管理和驅逐恢復。

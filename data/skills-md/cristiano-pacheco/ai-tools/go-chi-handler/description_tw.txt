@@ -1,0 +1,1 @@
+遵循 Go 模組化架構約定（請求/回應 DTO、用例編排、錯誤處理、swagger 註解、Fx DI）產生 Chi HTTP 處理程序。在內部/modules/<module>/http/chi/handler/中為需要解碼請求、呼叫用例、映射回應以及透過適當的日誌記錄和追蹤處理錯誤的 REST 操作（清單、建立、更新、刪除、取得）建立 HTTP 端點處理程序時使用。

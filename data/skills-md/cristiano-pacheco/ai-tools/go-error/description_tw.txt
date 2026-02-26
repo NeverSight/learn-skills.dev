@@ -1,0 +1,1 @@
+使用bricks errs.New（code，message，httpStatus，details）依照GO模組化架構約定產生自訂Go錯誤。在建立新的域錯誤、擴展internal/modules/<module>/errs/errs.go 或跨模組標準化錯誤代碼/訊息/狀態時使用。

@@ -1,0 +1,1 @@
+依照 Go 模組化架構約定產生 Chi 路由器實作（來自 bricks 套件的 Chi 路由器、具有 chi.Route 介面的 Fx DI、REST 端點）。在內部/modules/<module>/http/chi/router/ 中建立或修改 HTTP 路由註冊時，請務必使用此技能，包括任何新的路由器檔案、CRUD 路由（GET、POST、PUT、DELETE）、自訂操作端點、版本化 API、具有中間件的路由組或將路由器連接到模組的 fx.go。
