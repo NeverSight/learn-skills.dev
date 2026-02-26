@@ -1,0 +1,7 @@
+Genera automaticamente test di convalida del costruttore dalle firme delle classi di servizio.
+Utilizzare durante la creazione di test per nuovi servizi, la convalida del principio fail-fast,
+garantire la convalida del costruttore o testare i parametri richiesti. Analisi
+service metodi __init__ e genera test pytest.raises(ValueError).
+per ogni parametro richiesto. Funziona con le classi di servizio Python seguenti
+modello di iniezione delle dipendenze. Elevate opportunità di automazione (oltre 100 classi di test
+usa questo schema).

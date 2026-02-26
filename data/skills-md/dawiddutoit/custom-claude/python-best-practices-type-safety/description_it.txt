@@ -1,0 +1,5 @@
+Risoluzione sistematica degli errori di tipo pyright/mypy con categorizzazione e modelli di correzione.
+Da utilizzare quando pyright fallisce, vengono segnalati errori di tipo, aggiunta di annotazioni di tipo o applicazione
+tipo di sicurezza. Analizza gli errori di tipo Python, li classifica (annotazioni mancanti, errori
+tipi, problemi generici, gestione Facoltativo/Nessuno) e applica modelli di correzione. Funziona con .py
+file e output di Pyright.

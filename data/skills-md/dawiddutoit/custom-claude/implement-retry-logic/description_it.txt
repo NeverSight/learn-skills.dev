@@ -1,0 +1,5 @@
+Implementa la logica dei tentativi con backoff esponenziale e jitter per le operazioni asincrone. Utilizzare durante l'implementazione
+chiamate di servizio esterne, operazioni di database, richieste di rete o qualsiasi operazione che
+potrebbe fallire temporaneamente. Segue i modelli di progetto per il wrapper e la configurazione di ServiceResult
+modelli di iniezione e resilienza. Si attiva "aggiungi logica di ripetizione per X", "implementa esponenziale
+backoff", "rendere Z resiliente" o "gestire errori temporanei".

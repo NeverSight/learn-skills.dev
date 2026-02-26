@@ -1,0 +1,5 @@
+Aggiunge la strumentazione OpenTelemetry ai metodi di servizio applicando decoratori @traced, registrazione strutturata,
+e propagazione dell'ID traccia/span per la traccia distribuita. Da utilizzare quando si aggiungono nuovi metodi di servizio, debug
+flussi complessi, analisi di problemi di prestazioni o necessità di tracciabilità distribuita tra i livelli dell'applicazione.
+Si attiva su "aggiungi traccia", "strumenta questo metodo", "aggiungi osservabilità", "debug con tracce" o
+"tracciare il flusso di esecuzione".

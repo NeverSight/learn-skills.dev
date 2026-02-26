@@ -1,0 +1,6 @@
+Trova tutti i marcatori REFACTOR nella codebase, convalida l'esistenza degli ADR associati, identifica i marcatori obsoleti
+(30+ giorni) e rileva marcatori orfani (nessun riferimento ADR). Utilizzare durante i controlli di stato, prima
+completamento delle funzionalità o per controlli sull'integrità del refactoring. Si attiva su "controlla stato del refactoring", "marker
+salute", "qual è lo stato" o in modo PROATTIVO prima di contrassegnare le funzionalità come completate. Funziona con
+File Python (.py), TypeScript (.ts) e JavaScript (.js) che utilizzano modelli grep per individuare i marcatori
+e convalidare rispetto ai file ADR nelle directory docs/adr/.

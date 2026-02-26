@@ -1,0 +1,14 @@
+Gestore della knowledge base GitHub per l'archiviazione, l'indicizzazione e l'esecuzione di query sui repository GitHub in locale.
+Mantiene un file indice BASE.md con i riepiloghi di tutti i repository salvati.
+
+Attiva questa abilità quando l'utente pone una domanda o effettua una richiesta relativa a:
+- Un repository GitHub specifico (scarica, interroga, analizza, riepiloga, confronta)
+- Problemi di GitHub, PR, versioni o ricerca nel repository
+- 仓库、GitHub项目、开源项目 的下载、查询、分析等操作
+
+NON eseguire l'attivazione per operazioni git non correlate (ad esempio, "init a local git repo", "git commit").
+
+Azioni principali:
+1. Richiesta di download esplicita → richiedi URL → clona o estrai → riepiloga → aggiorna BASE.md
+2. Query + repository esiste localmente → pull → forse aggiorna il riepilogo → rispondi alla domanda
+3. Query + repository NON locale → cerca GitHub tramite gh/curl → rispondi alla domanda (NON clonare)

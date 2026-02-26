@@ -1,0 +1,3 @@
+Testare adattatori e gateway: quando utilizzare mock di test unitari rispetto a contenitori di test, deridere le risposte HTTP (aiorisposte, risposte), deridere i messaggi Kafka, deridere le risposte ClickHouse, testare percorsi di errore e casi limite.
+
+Da utilizzare quando: testare gateway e adattatori, testare integrazioni di servizi esterni, decidere tra contenitori fittizi e reali, testare la gestione degli errori negli adattatori, testare l'integrazione con servizi reali.

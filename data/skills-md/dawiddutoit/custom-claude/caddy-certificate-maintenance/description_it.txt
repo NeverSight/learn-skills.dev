@@ -1,0 +1,7 @@
+Gestisce le operazioni dei certificati SSL tra cui il controllo della scadenza, il monitoraggio del rinnovo,
+forzare il rinnovo manuale ed eseguire il backup dei certificati. Utilizzare durante il controllo del certificato
+validità, monitoraggio del rinnovo automatico, certificati in scadenza o necessità di backup
+dati del certificato. Trigger su "verifica scadenza certificato", "rinnovo certificato",
+"Stato del certificato SSL", "certificati di backup" o "rinnovo forzato del certificato".
+Funziona con i certificati Let's Encrypt, il rinnovo automatico di Caddy e il Docker caddy_data
+volume.

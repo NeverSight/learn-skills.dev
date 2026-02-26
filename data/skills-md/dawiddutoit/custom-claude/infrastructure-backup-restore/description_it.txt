@@ -1,0 +1,7 @@
+Crea procedure di backup automatizzate, esegue operazioni di ripristino e implementa le emergenze
+flussi di lavoro di ripristino per l'infrastruttura di rete. Da utilizzare prima quando si esegue il backup dell'infrastruttura
+modifiche, preparazione al ripristino di emergenza, migrazione a un nuovo server o ripristino dopo un errore.
+Trigger su "infrastruttura di backup", "ripristino da backup", "ripristino di emergenza", "backup prima
+aggiornamento" o "migrazione dell'infrastruttura". Funziona con volumi Docker (caddy_data, pihole_data),
+file di configurazione (docker-compose.yml, domains.toml) e segreti .env utilizzando archivi tar
+e la finestra mobile compone i comandi.

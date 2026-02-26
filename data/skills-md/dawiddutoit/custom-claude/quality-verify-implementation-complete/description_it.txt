@@ -1,0 +1,7 @@
+Verifica che il codice implementato sia effettivamente integrato nel sistema e venga eseguito in fase di runtime,
+prevenire i guasti "fatti ma non integrati". Utilizzare quando si contrassegnano le funzionalità come completate, prima dello spostamento
+ADR allo stato completato, dopo l'implementazione di nuovi moduli/nodi/servizi o quando si rivendica "feature
+funziona". Si attiva su "verifica implementazione", "è integrato", "controlla se il codice è cablato",
+"provare che funzioni" o prima di dichiarare il lavoro completato. Funziona con moduli Python, nodi LangGraph,
+Comandi CLI, endpoint API e classi di servizio. Applica la creazione-connessione-verifica (CCV)
+principio.

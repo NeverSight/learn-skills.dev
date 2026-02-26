@@ -1,0 +1,3 @@
+Strategia di mocking principale per pytest: quando utilizzare autospec=True rispetto ai mock manuali, pattern AsyncMock per codice asincrono, builder e factory di mock e cosa non dovrebbe MAI essere deriso. Include modelli di creazione simulata indipendenti dal tipo e matrice decisionale per oggetti simulati rispetto a oggetti reali.
+
+Da utilizzare quando: creare unit test con dipendenze fittizie, decidere se simulare o utilizzare oggetti reali, impostare l'isolamento dei test, testare casi d'uso con limiti di servizio esterni o costruire factory fittizie riutilizzabili.

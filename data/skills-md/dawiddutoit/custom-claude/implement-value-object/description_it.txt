@@ -1,0 +1,6 @@
+Crea oggetti valore di dominio immutabili utilizzando il modello di classe dati congelato con convalida.
+Utilizzare quando si implementano oggetti valore di dominio, si creano strutture dati immutabili o
+aggiungendo convalida ai valori. Copre @dataclass(frozen=True), object.__setattr__()
+pattern in __post_init__, metodi factory (from_string, from_dict, from_content),
+e validazione in un contesto congelato. Trigger su "crea oggetto valore per X", "implement
+valore Y immutabile", "aggiungi convalida al valore Z" o "oggetto valore di creazione".

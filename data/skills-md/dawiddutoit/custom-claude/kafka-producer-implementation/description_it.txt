@@ -1,0 +1,4 @@
+Implementa produttori Kafka indipendenti dai tipi per lo streaming di eventi con serializzazione msgspec.
+Da utilizzare durante la creazione di produttori asincroni/in attesa che pubblicano eventi del dominio (ordini, transazioni, ecc.)
+con convalida dello schema, gestione degli errori, logica dei tentativi e traccia distribuita.
+Gestisce la configurazione del produttore, le scritture idempotenti e l'arresto regolare.

@@ -1,0 +1,4 @@
+Implementare consumer Kafka indipendenti dal tipo per il consumo di eventi con la deserializzazione msgspec.
+Da utilizzare durante la creazione di consumatori asincroni che elaborano eventi del dominio (messaggi di ordine, transazioni)
+con gestione dell'offset, ripristino degli errori, arresto regolare e tracciabilità distribuita.
+Gestisce la configurazione del consumatore, i commit manuali e le strategie di ribilanciamento.

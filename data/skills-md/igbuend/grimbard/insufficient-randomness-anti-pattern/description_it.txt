@@ -1,0 +1,1 @@
+Anti-pattern di sicurezza per vulnerabilità di casualità insufficiente (CWE-330). Da utilizzare durante la generazione o la revisione del codice che crea token di sicurezza, ID di sessione, chiavi di crittografia, nonce o qualsiasi valore casuale critico per la sicurezza. Rileva l'uso di Math.random() o seed prevedibili.

@@ -1,0 +1,13 @@
+Crea record di decisioni sull'architettura (ADR) e conduce picchi di ricerca per decisioni tecniche
+utilizzando un flusso di lavoro strutturato in 5 fasi: ricerca, analisi, decisione, documentazione e archiviazione della memoria.
+
+Utilizzare quando viene richiesto di "creare un ADR", "decisione architettonica per", "picco di ricerca su", "valutare
+opzioni per", "documentare la decisione tecnica", "dovremmo usare X o Y" o quando si confrontano i dati tecnici
+alternative.
+
+Fornisce una valutazione sistematica (minimo 2-3 alternative), analisi dei compromessi, conseguenze
+documentazione e persistenza del grafico della memoria. Gestisce il ciclo di vita ADR tra not_started, in_progress,
+e directory implementate con numerazione corretta e monitoraggio dello stato.
+
+Funziona con docs/adr/directory, modelli ADR, strumenti MCP di memoria e strumenti di ricerca esterni
+(WebSearch, WebFetch, documenti della libreria context7).

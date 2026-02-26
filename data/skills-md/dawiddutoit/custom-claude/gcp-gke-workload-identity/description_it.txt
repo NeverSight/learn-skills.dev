@@ -1,0 +1,5 @@
+Implementa Workload Identity per un'autenticazione sicura e senza chiave tra i pod GKE
+e servizi Google Cloud. Da utilizzare quando si configura l'autenticazione pod su Pub/Sub,
+Cloud SQL, Secret Manager o altri servizi GCP. Elimina la chiave dell'account di servizio
+gestione, riduce il raggio d'azione della sicurezza e implementa l'accesso con privilegi minimi
+modelli. Funziona con applicazioni Spring Boot e associazioni IAM.

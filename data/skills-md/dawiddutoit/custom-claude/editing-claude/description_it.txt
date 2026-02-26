@@ -1,0 +1,7 @@
+Convalida e ottimizza i file CLAUDE.md utilizzando le migliori pratiche di Anthropic per sessioni mirate.
+Rileva contraddizioni, ridondanza, lunghezza eccessiva (oltre 200 righe), uso eccessivo dell'enfasi (densità 2%+),
+collegamenti interrotti e sezioni orfane. Segna salute da 0 a 50 punti. Suggerisce correzioni automatizzate sicure
+e opportunità di estrazione. Da utilizzare durante la modifica di CLAUDE.md, prima dei commit, quando il documento cresce
+ultime 200 righe, l'utente dice "ottimizza CLAUDE.md", "verifica contraddizioni", "convalida documentazione",
+o durante le revisioni trimestrali. Funziona con file di progetto e globali CLAUDE.md (estensione .md).
+Basato sulle migliori pratiche di ingegneria del contesto Anthropic 2025.

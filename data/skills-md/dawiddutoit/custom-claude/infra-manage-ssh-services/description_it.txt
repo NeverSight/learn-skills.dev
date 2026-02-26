@@ -1,0 +1,7 @@
+Individua, testa e gestisce gli host dell'infrastruttura SSH remota e i servizi Docker
+5 host (infra.local, deus, homeassistant, pi4-motor, armitage). Utilizzare durante il controllo
+stato dell'infrastruttura, verifica della connettività del servizio, gestione dei contenitori Docker,
+risoluzione dei problemi relativi ai servizi remoti o prima di utilizzare risorse remote (MongoDB, Langfuse,
+OTLP, Neo4j). Si attiva su "controlla infrastruttura", "connetti a infra/deus/ha",
+"testare MongoDB su infra", "visualizzare i servizi Docker", "verificare la connettività", "risolvere i problemi
+servizio remoto", "quali servizi sono in esecuzione" o quando le connessioni remote falliscono.

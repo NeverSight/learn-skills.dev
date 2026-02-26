@@ -1,0 +1,6 @@
+Test di regressione visiva per applicazioni TUI testuali utilizzando pytest-textual-snapshot.
+Cattura screenshot SVG e confronta le esecuzioni di test per rilevare regressioni visive.
+Utilizzare quando: testare l'aspetto visivo, rilevare regressioni del layout, testare la risposta reattiva
+progettazioni su tutte le dimensioni del terminale, verificando gli effetti di stile CSS o impostando CI/CD
+per test visivi. Copre snap_compare fixture, run_before callbacks, snapshot
+gestione, gestione instabile dei test (animazioni, cursori, timestamp) e integrazione CI.

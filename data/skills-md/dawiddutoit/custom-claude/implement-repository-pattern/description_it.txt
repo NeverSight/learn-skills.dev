@@ -1,0 +1,6 @@
+Crea un repository seguendo un'architettura pulita con protocollo nel livello di dominio e implementazione
+nel livello infrastrutturale. Da utilizzare quando si aggiunge un nuovo livello di accesso ai dati, si crea l'interazione con il database,
+implementare la persistenza o necessità di archiviare/recuperare modelli di dominio. Applica il modello Protocollo/ABC
+con ServiceResult, ciclo di vita ManagedResource e corretta separazione dei livelli. Trigger su "crea
+repository per X", "implementa l'accesso ai dati per Y", "aggiungi livello di persistenza" o "memorizza/recupera
+modello di dominio".

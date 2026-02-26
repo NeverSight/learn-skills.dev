@@ -1,0 +1,5 @@
+Acquisisce la base delle metriche di qualità (test, copertura, errori di tipo, linting, codice morto) eseguendo
+gate di qualità e memorizzazione dei risultati in memoria per il rilevamento della regressione. Utilizzare all'avvio della funzione,
+prima del lavoro di refactoring o dopo modifiche importanti per stabilire la linea di base. Trigger su "cattura linea di base",
+"stabilire la linea di base" o PROATTIVAMENTE all'inizio di qualsiasi lavoro di funzionalità/refactoring. Funziona con pytest
+output, errori pyright, avvisi ruff, risultati avvoltoio e server MCP di memoria per l'archiviazione di base.

@@ -1,0 +1,6 @@
+Rileva il codice orfano (file/funzioni che esistono ma non vengono mai importati o richiamati in produzione),
+prevenire guasti “creati ma non integrati”. Utilizzare prima di contrassegnare le funzionalità come completate e prima dello spostamento
+ADR da completare, durante le revisioni del codice o come parte dei controlli di qualità. Trigger su "rileva codice orfano",
+"trova codice morto", "controlla i moduli non utilizzati", "verifica l'integrazione" o in modo proattivo prima del completamento.
+Funziona con moduli, funzioni, classi e nodi LangGraph Python. Rileva il modello di errore ADR-013
+dove il codice esiste e i test passano ma non viene mai integrato.

@@ -1,0 +1,7 @@
+Esegue operazioni DNS Cloudflare di basso livello tra cui aggiunta, aggiornamento ed eliminazione DNS
+record, gestione delle impostazioni di zona e aggiornamenti DNS dinamici tramite API Cloudflare. Utilizzare quando
+necessitano di gestione manuale dei record DNS, aggiornamenti DNS dinamici, configurazione delle impostazioni di zona o
+operazioni esterne al sistema di gestione del dominio. Si attiva su "aggiungi record DNS", "aggiorna DNS",
+"elimina record DNS", "DNS dinamico", "API Cloudflare" o "gestione DNS manuale". Funziona
+con API Cloudflare v4, script helper cf-dns.sh e cf-settings.sh e direct curl
+Chiamate API.

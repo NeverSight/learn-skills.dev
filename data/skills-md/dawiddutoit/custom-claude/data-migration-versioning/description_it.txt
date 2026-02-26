@@ -1,0 +1,7 @@
+Fornisce la migrazione sistematica del formato dei dati e il controllo delle versioni per modifiche dello schema compatibili con le versioni precedenti.
+Utilizzare quando "aggiungi il controllo delle versioni dei dati", "migra il formato dei dati", "formato file compatibile con le versioni precedenti",
+"aggiornamento da v1 a v2", "migrazione dello schema", "supporta il vecchio formato di file" o "migra la struttura JSON".
+Copre le strategie di numerazione delle versioni (semantica, puntata, intera, basata sulla data), compatibilità con le versioni precedenti
+modelli (conversione automatica, migrazione esplicita, doppio formato), tempistica dell'aggiornamento automatico, deprecazione dei campi,
+test di liste di controllo e insidie ​​comuni come la conservazione parziale dei dati. Funziona con JSON, YAML,
+schemi di database e file di configurazione in Python, JavaScript, Go, Rust.

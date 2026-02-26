@@ -1,0 +1,7 @@
+Fornisce un approccio di convalida a 3 livelli per i dashboard di Home Assistant, inclusa la pre-pubblicazione
+validazione (controlli delle entità, struttura della configurazione), verifica post-pubblicazione (analisi dei log),
+e convalida visiva (console del browser, rendering). Da utilizzare durante la convalida dei dashboard HA,
+controllo delle configurazioni del dashboard, verifica degli ID entità, debug dei problemi di rendering o prima
+distribuzione delle modifiche alla dashboard. Si attiva su "convalida dashboard", "controlla configurazione HA", "dashboard
+errori", "entità non trovata" o "dashboard di test". Funziona con le API WebSocket/REST di Home Assistant,
+Strumenti MCP di estensione Chrome, builder di dashboard Python e configurazioni di dashboard YAML.
