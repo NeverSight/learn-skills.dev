@@ -1,0 +1,6 @@
+管理此 nix flake 项目的 NixOS 基础设施。使用 Colmena 部署配置、管理 Proxmox LXC 容器、排除服务故障并维护服务器。
+
+在下列情況下使用：(1) 使用 colmena 部署 NixOS 配置，(2) 管理 Proxmox LXC 容器（啟動、停止、重新啟動、狀態），(3) 透過 SSH 或 pct exec 排除伺服器問題，(4) 檢查主機之間的服務狀態，(5) 任何基礎設施維護任務。
+
+重要的架構說明：
+- 所有服务器都是 Proxmox LXC 容器。

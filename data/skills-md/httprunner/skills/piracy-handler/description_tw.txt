@@ -1,0 +1,1 @@
+盜版檢測和後處理協調器。在 wechat-search-collector 常規頁面任務完成後使用，對 capture_results 執行盜版偵測、建立子任務、安排 webhook 寫入或在子任務達到最終狀態後調度/協調 webhook。支援 sqlite 或 supabase 作為 capture_results 資料來源。

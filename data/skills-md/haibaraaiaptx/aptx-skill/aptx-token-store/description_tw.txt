@@ -1,0 +1,1 @@
+使用 @aptx/token-store 定義或實現令牌持久性。用於：實作TokenStore接口，支援同步/非同步API（getToken/setToken/clearToken），可選元資料方法，實現不同的儲存後端（cookie，localStorage，小程序，記憶體），並與@aptx/api-plugin-auth一起使用。當程式碼需要實作自訂TokenStore時觸發。

@@ -1,0 +1,1 @@
+使用@aptx/api-plugin-retry實作請求重試。用於：配置重試計數、設定固定或動態延遲策略、定義 retryOn 函數（NetworkError/TimeoutError）、防止非冪等請求重試、追蹤重試計數、createRetryMiddleware API。當需要重試功能或 createRetryMiddleware 時觸發。

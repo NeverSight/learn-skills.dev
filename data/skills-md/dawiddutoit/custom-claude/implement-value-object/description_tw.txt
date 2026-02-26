@@ -1,0 +1,6 @@
+使用帶有驗證的凍結資料類模式建立不可變域值物件。
+在實現域值物件、建立不可變資料結構或
+為值新增驗證。涵蓋@dataclass(frozen=True)、object.__setattr__()
+__post_init__ 中的模式，工廠方法（from_string、from_dict、from_content）、
+並在凍結環境中進行驗證。觸發「為 X 建立值物件」、「實現
+不可變的 Y 值」、「新增驗證到 Z 值」或「建置值物件」。

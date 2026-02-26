@@ -1,0 +1,1 @@
+使用 gh CLI 或基於 gh 的技能時，使用 gh-checkproxy 作為檢查 API 橋接器，並且只有細粒度的 PAT 可用。使用它透過 GH_CHECKPROXY_URL 取得/監視 PR 檢查（檢查運行和狀態），然後使用正常的 gh 命令繼續使用者要求的工作流程。

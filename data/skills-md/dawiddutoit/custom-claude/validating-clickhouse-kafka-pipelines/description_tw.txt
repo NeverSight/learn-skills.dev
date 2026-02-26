@@ -1,0 +1,1 @@
+為 ClickHouse + Kafka 資料管道實現深度防禦驗證模式。涵蓋生產者驗證（msgspec 模式）、消費者驗證（反腐敗層）、ClickHouse 錯誤流（kafka_handle_error_mode='stream'）、ReplacingMergeTree 的冪等性、模式演化和監控。在實作資料管道、處理 Kafka 錯誤、設定驗證層、管理重複/冪等性或監控 Kafka 消耗時使用。觸發「驗證 kafka 管道」、「clickhouse 錯誤處理」、「kafka 重複資料刪除」或「實施反腐敗層」。

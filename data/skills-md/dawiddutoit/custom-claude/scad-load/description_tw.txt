@@ -1,0 +1,6 @@
+透過解析 use/include 語句載入具有完整依賴上下文的 OpenSCAD 文件，
+解析庫路徑，並擷取API表面（模組、函數、參數）。
+在處理 OpenSCAD 檔案、調試渲染問題、理解模組時使用
+依賴關係，或重構之前。觸發“load scad”、“scad-load [file]”、
+「載入 openscad 上下文」、「顯示 scad 依賴項」或調查 .scad 檔案時。
+適用於 .scad 檔案、BOSL2、woodworkers-lib、NopSCADlib 和特定於專案的函式庫。

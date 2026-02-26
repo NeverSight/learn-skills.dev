@@ -1,0 +1,4 @@
+使用 @asynccontextmanager 裝飾器建立用於資源管理的非同步上下文管理器。
+在管理非同步資源、資料庫會話、檔案句柄、連線或任何其他資源時使用
+需要自動清理的資源。適用於 Python 非同步/等待模式。分析
+包含 async with 語句、AsyncIterator 類型提示和 try/finally 模式的 .py 檔案。

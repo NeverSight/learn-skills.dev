@@ -1,0 +1,5 @@
+實作 Workload Identity，以在 GKE Pod 之間進行安全、無金鑰的身份驗證
+和谷歌雲端服務。設定 Pod 身份驗證到 Pub/Sub 時使用，
+Cloud SQL、Secret Manager 或其他 GCP 服務。消除服務帳戶金鑰
+管理，減少安全爆炸半徑，實現最小權限訪問
+模式。適用於 Spring Boot 應用程式和 IAM 綁定。

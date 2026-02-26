@@ -1,0 +1,1 @@
+使用 @aptx/api-plugin-auth 實作基於令牌的身份驗證中間件和控制器。支援自動新增授權標頭、令牌刷新（主動/被動 401 處理）、防止重複刷新嘗試和失敗回呼。當使用者請求身份驗證功能（配置中間件、處理 401 刷新、管理令牌）或程式碼涉及 createAuthMiddleware/createAuthController 時觸發。

@@ -1,0 +1,7 @@
+透過更新 .env 中的 ACCESS_ALLOWED_EMAIL 將新使用者新增至 Cloudflare Access 驗證
+並將策略同步到所有受保護的服務。當您需要授予新的存取權限時使用
+使用者、將某人新增至網路、共用服務存取權或更新允許的電子郵件。觸發器
+關於「新增使用者存取權」、「授予對 [電子郵件] 的存取權」、「將 [電子郵件] 新增至 cloudflare」、「共享
+存取方式」、「允許[電子郵件]進行身份驗證」或「更新存取使用者」。與 .env 一起使用，
+update-access-emails.sh 和 Cloudflare pihole、jaeger、langfuse 的存取策略
+灑水器、HA 和 temet.ai 服務。
