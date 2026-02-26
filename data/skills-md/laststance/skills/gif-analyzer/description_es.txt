@@ -1,0 +1,19 @@
+Analice archivos GIF animados extrayendo y viendo fotogramas como vídeo secuencial.
+
+Úselo cuando:
+- El usuario menciona una ruta de archivo GIF (por ejemplo, "./demo.gif", "~/Downloads/animation.gif")
+- El usuario quiere analizar o comprender una animación GIF.
+- El usuario pregunta sobre movimiento, cambios o contenido en un GIF.
+- El usuario adjunta o hace referencia a un archivo .gif para su análisis.
+- El usuario quiere examinar una grabación de pantalla en formato GIF.
+- El usuario invoca el comando de barra diagonal /gif
+
+Palabras clave: "GIF", ".gif", "animación", "animado", "cuadros", "grabación de pantalla",
+"analizar gif", "análisis de gif", "ver gif", "contenido gif", "movimiento gif"
+
+Patrones de activación:
+- Lenguaje natural: "Analiza este GIF: ./demo.gif"
+- Comando de barra diagonal: `/gif <ruta>` o `/gif <ruta> <mensaje>`
+
+Cuando se active, extraiga fotogramas utilizando el script Python, vea los fotogramas en orden,
+e interpretar como una secuencia de vídeo continua.

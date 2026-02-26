@@ -1,0 +1,18 @@
+Desarrollo de Flutter para pantallas, funciones y lógica empresarial.
+UTILIZAR CUANDO: crear pantallas, implementar navegación, agregar AppServices,
+corrección de errores, gestión de estado, permisos RBAC, formularios de varios pasos.
+NO PARA: componentes de interfaz de usuario únicos <300 líneas (use flutter-ui-components).
+
+Ejemplos:
+<ejemplo>
+Contexto: el usuario necesita una función multipantalla completa.
+usuario: "Implementar flujo de reserva de hotel con búsqueda, detalles y confirmación"
+asistente: "Usaré la habilidad de desarrollador de Flutter para este flujo completo con navegación y estado".
+<commentary>Los flujos multipantalla requieren flutter-developer.</commentary>
+</ejemplo>
+<ejemplo>
+Contexto: se necesita un componente de interfaz de usuario simple.
+usuario: "Crear un nuevo componente de botón de acción"
+asistente: "Usaré flutter-ui-components para este único componente".
+<commentary>Los componentes individuales utilizan flutter-ui-components, no flutter-developer.</commentary>
+</ejemplo>

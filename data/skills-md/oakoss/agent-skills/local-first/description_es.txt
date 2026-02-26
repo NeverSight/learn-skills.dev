@@ -1,0 +1,3 @@
+Marco de decisión de arquitectura local para aplicaciones web. Cubre cuándo ir primero a lo local, a lo basado en servidor o a lo híbrido, la selección del motor de sincronización (ElectricSQL, Zero, PowerSync, Replicache, LiveStore, Triplit), opciones de almacenamiento del lado del cliente (IndexedDB, OPFS, SQLite WASM, PGlite) y estrategias de resolución de conflictos (LWW, CRDT, server-wins, fusión a nivel de campo).
+
+Úselo al decidir si adoptar una arquitectura local primero, elegir un motor de sincronización, seleccionar el almacenamiento del cliente o diseñar estrategias de resolución de conflictos.

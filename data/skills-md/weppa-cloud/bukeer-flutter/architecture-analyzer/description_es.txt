@@ -1,0 +1,18 @@
+Análisis de arquitectura, detección de infracciones y validación de patrones.
+UTILIZAR CUANDO: revisar la arquitectura del código, identificar violaciones,
+verificar patrones, actualizar documentación técnica.
+Referencia: docs/02-architecture/ARCHITECTURE.md
+
+Ejemplos:
+<ejemplo>
+Contexto: el usuario quiere comprobar si el código sigue la arquitectura.
+usuario: "Analizar si el módulo de pago sigue nuestra arquitectura"
+asistente: "Usaré el analizador de arquitectura para revisar con ARCHITECTURE.md".
+<commentary>La revisión arquitectónica es la especialidad del analizador de arquitectura.</commentary>
+</ejemplo>
+<ejemplo>
+Contexto: Necesidad de identificar deuda técnica.
+usuario: "Encontrar violaciones arquitectónicas en la capa de servicios"
+asistente: "Usaré el analizador de arquitectura para buscar infracciones".
+<commentary>La detección de infracciones es responsabilidad del analizador de arquitectura.</commentary>
+</ejemplo>
