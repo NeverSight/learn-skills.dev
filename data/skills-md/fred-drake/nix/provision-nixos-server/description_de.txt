@@ -1,0 +1,3 @@
+Stellen Sie für dieses Nix-Flake-Projekt neue NixOS-Server auf Proxmox bereit. Führt durch den gesamten Arbeitsablauf: Erstellen von Proxmox LXC-Containern, SSH-Einrichtung, Colmena-Konfiguration (Init/vollständiges Muster) und Anwendungsbereitstellung mit Nginx-Proxy, PostgreSQL und Container-Images.
+
+Verwenden Sie Folgendes: (1) Erstellen eines neuen Servers/Containers auf Proxmox, (2) Einrichten eines neuen NixOS-Hosts mit Colmena, (3) Bereitstellen von Anwendungen mit Nginx-SSL-Proxy und/oder PostgreSQL-Datenbank, (4) Hinzufügen neuer Container-Images zum Repository.

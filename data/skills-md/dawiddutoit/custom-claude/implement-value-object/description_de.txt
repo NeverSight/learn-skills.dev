@@ -1,0 +1,6 @@
+Erstellt unveränderliche Domänenwertobjekte mithilfe eines eingefrorenen Datenklassenmusters mit Validierung.
+Verwendung beim Implementieren von Domänenwertobjekten, beim Erstellen unveränderlicher Datenstrukturen oder
+Hinzufügen einer Validierung zu Werten. Deckt @dataclass(frozen=True), object.__setattr__() ab
+Muster in __post_init__, Factory-Methoden (from_string, from_dict, from_content),
+und Validierung im eingefrorenen Kontext. Löst auf „Wertobjekt für X erstellen“, „implementieren“ aus
+unveränderlicher Y-Wert“, „Validierung zum Z-Wert hinzufügen“ oder „Wertobjekt erstellen“.

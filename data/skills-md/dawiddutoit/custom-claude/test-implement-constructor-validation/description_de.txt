@@ -1,0 +1,7 @@
+Generieren Sie automatisch Konstruktorvalidierungstests aus Serviceklassensignaturen.
+Verwendung beim Erstellen von Tests für neue Dienste, Validieren des Fail-Fast-Prinzips,
+Sicherstellen der Konstruktorvalidierung oder Testen erforderlicher Parameter. Analysen
+service __init__-Methoden und generiert pytest.raises(ValueError)-Tests
+für jeden erforderlichen Parameter. Funktioniert mit den folgenden Python-Serviceklassen
+Abhängigkeitsinjektionsmuster. Hohe Automatisierungsmöglichkeiten (über 100 Testklassen).
+Verwenden Sie dieses Muster).

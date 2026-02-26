@@ -1,0 +1,7 @@
+Fügt neue Benutzer zur Cloudflare Access-Authentifizierung hinzu, indem ACCESS_ALLOWED_EMAIL in .env aktualisiert wird
+und Synchronisierung von Richtlinien für alle geschützten Dienste. Verwenden Sie diese Option, wenn Sie einem neuen Zugriff gewähren müssen
+Benutzer hinzufügen, jemanden zum Netzwerk hinzufügen, Dienstzugriff freigeben oder erlaubte E-Mails aktualisieren. Auslöser
+auf „Benutzer zum Zugriff hinzufügen“, „Zugriff auf [E-Mail] gewähren“, „[E-Mail] zu Cloudflare hinzufügen“, „Teilen“.
+Zugriff mit“, „Authentifizierung von [E-Mail] zulassen“ oder „Zugriffsbenutzer aktualisieren“. Funktioniert mit .env,
+update-access-emails.sh und Cloudflare-Zugriffsrichtlinien für Pihole, Jaeger, Langfuse,
+Sprinkler-, ha- und temet.ai-Dienste.

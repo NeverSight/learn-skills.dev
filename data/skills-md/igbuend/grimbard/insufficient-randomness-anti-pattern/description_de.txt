@@ -1,0 +1,1 @@
+Sicherheits-Anti-Pattern für Schwachstellen aufgrund unzureichender Zufälligkeit (CWE-330). Wird zum Generieren oder Überprüfen von Code verwendet, der Sicherheitstoken, Sitzungs-IDs, Verschlüsselungsschlüssel, Nonces oder andere sicherheitskritische Zufallswerte erstellt. Erkennt die Verwendung von Math.random() oder vorhersehbaren Seeds.

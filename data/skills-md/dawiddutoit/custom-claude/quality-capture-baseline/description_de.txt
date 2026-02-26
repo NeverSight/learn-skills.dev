@@ -1,0 +1,5 @@
+Erfasst die Basisqualitätsmetriken (Tests, Abdeckung, Typfehler, Flusen, toter Code) durch Ausführen
+Qualitätstore und Speicherung der Ergebnisse im Speicher zur Regressionserkennung. Verwendung beim Funktionsstart,
+vor Refaktorierungsarbeiten oder nach größeren Änderungen zur Festlegung der Basislinie. Triggert auf „Basislinie erfassen“,
+„Basislinie festlegen“ oder PROAKTIV zu Beginn einer Feature-/Refactor-Arbeit. Funktioniert mit Pytest
+Ausgabe, Urheberrechtsfehler, Ruff-Warnungen, Geier-Ergebnisse und Speicher-MCP-Server für die Basisspeicherung.

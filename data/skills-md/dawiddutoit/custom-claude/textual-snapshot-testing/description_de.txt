@@ -1,0 +1,6 @@
+Visueller Regressionstest für textuelle TUI-Anwendungen mit pytest-textual-snapshot.
+Erfasst SVG-Screenshots und vergleicht mehrere Testläufe, um visuelle Regressionen zu erkennen.
+Verwendung: Testen des visuellen Erscheinungsbilds, Erkennen von Layout-Regressionen, Testen der Reaktionsfähigkeit
+Entwerfen von Designs über Terminalgrößen hinweg, Überprüfen von CSS-Stylingeffekten oder Einrichten von CI/CD
+zur visuellen Prüfung. Deckt snap_compare-Fixture, run_before-Callbacks und Snapshot ab
+Verwaltung, Handhabung flockiger Tests (Animationen, Cursor, Zeitstempel) und CI-Integration.

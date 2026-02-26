@@ -1,0 +1,7 @@
+Diagnostiziert und behebt IPv6-DNS-Probleme, die dazu führen, dass Clients eine Verbindung zu Cloudflare OAuth herstellen
+anstatt den lokalen Netzwerkzugriff zu nutzen. Wird verwendet, wenn Dienste die OAuth-Anmeldeaufforderung anzeigen
+lokales WLAN, langsame Erstverbindung mit anschließender Authentifizierung oder Chrome zeigt „Fehler“ an
+mit Wiederholung". Löst aus bei „Verbindung zu Cloudflare statt lokal herstellen“, „OAuth-Eingabeaufforderung aktiviert“.
+WLAN“, „IPv6-DNS-Problem“, „Clients bevorzugen IPv6“, „IPv6-DNS deaktivieren“ oder „Lokalen Zugriff beheben“.
+Funktioniert mit der Pi-hole FTLCONF_misc_dnsmasq_lines Filter-AAAA-Konfiguration und Client-DNS
+Cache-Verwaltung.

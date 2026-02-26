@@ -1,0 +1,6 @@
+Erkennt verwaisten Code (Dateien/Funktionen, die vorhanden sind, aber nie importiert oder in der Produktion aufgerufen werden),
+Vermeidung von „erstellten, aber nicht integrierten“ Fehlern. Verwenden Sie es, bevor Sie die Merkmale vollständig markieren und bevor Sie es bewegen
+ADRs müssen abgeschlossen werden, während Codeüberprüfungen oder als Teil von Quality Gates. Löst auf „verwaisten Code erkennen“ aus.
+„toten Code finden“, „auf ungenutzte Module prüfen“, „Integration überprüfen“ oder proaktiv vor der Fertigstellung.
+Funktioniert mit Python-Modulen, -Funktionen, -Klassen und LangGraph-Knoten. Fängt das ADR-013-Fehlermuster ab
+wo Code vorhanden ist und Tests bestanden werden, aber nie integriert wird.

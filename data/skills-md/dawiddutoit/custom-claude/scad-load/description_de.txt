@@ -1,0 +1,6 @@
+Lädt OpenSCAD-Dateien mit vollständigem Abhängigkeitskontext durch Parsen von use/include-Anweisungen,
+Auflösen von Bibliothekspfaden und Extrahieren der API-Oberfläche (Module, Funktionen, Parameter).
+Verwenden Sie es, wenn Sie mit OpenSCAD-Dateien arbeiten, Rendering-Probleme beheben und das Modul verstehen
+Abhängigkeiten oder vor dem Refactoring. Löst aus bei „load scad“, „scad-load [file]“,
+„openscad-Kontext laden“, „scad-Abhängigkeiten anzeigen“ oder beim Untersuchen von .scad-Dateien.
+Funktioniert mit .scad-Dateien, BOSL2, woodworkers-lib, NopSCADlib und projektspezifischen Bibliotheken.

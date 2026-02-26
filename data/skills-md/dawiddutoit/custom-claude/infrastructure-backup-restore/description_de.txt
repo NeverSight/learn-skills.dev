@@ -1,0 +1,7 @@
+Erstellt automatisierte Sicherungsverfahren, führt Wiederherstellungsvorgänge aus und implementiert Katastrophen
+Wiederherstellungsworkflows für die Netzwerkinfrastruktur. Verwenden Sie diese Option, wenn Sie zuvor die Infrastruktur sichern
+Änderungen, Vorbereitung auf die Notfallwiederherstellung, Migration auf einen neuen Server oder Wiederherstellung nach einem Ausfall.
+Löst auf „Backup-Infrastruktur“, „Wiederherstellung aus Backup“, „Notfallwiederherstellung“ und „Backup vor“ aus
+„Upgrade“ oder „Infrastruktur migrieren“. Funktioniert mit Docker-Volumes (caddy_data, pihole_data),
+Konfigurationsdateien (docker-compose.yml, domains.toml) und .env-Geheimnisse mithilfe von TAR-Archiven
+und Docker-Compose-Befehle.

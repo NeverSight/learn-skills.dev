@@ -1,0 +1,7 @@
+Bietet eine systematische Migration und Versionierung von Datenformaten für abwärtskompatible Schemaänderungen.
+Verwendung bei „Datenversionierung hinzufügen“, „Datenformat migrieren“, „abwärtskompatibles Dateiformat“,
+„v1 auf v2 aktualisieren“, „Schemamigration“, „altes Dateiformat unterstützen“ oder „JSON-Struktur migrieren“.
+Behandelt Versionsnummerierungsstrategien (semantisch, punktiert, ganzzahlig, datumsbasiert) und Abwärtskompatibilität
+Muster (automatische Konvertierung, explizite Migration, Dual-Format), automatisches Upgrade-Timing, veraltete Felder,
+Testchecklisten und häufige Fallstricke wie die teilweise Datenerhaltung. Funktioniert mit JSON, YAML,
+Datenbankschemata und Konfigurationsdateien in Python, JavaScript, Go, Rust.

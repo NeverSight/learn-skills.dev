@@ -1,0 +1,5 @@
+Beheben Sie ServiceResult-Musterfehler, die zu Testfehlern und Typfehlern führen.
+Wird verwendet, wenn Folgendes angezeigt wird: „Diktobjekt hat kein Attribut erfolgreich“, „Schein gibt ServiceResult nicht zurück“
+Scheinzusicherungen schlagen fehl oder geben Fehler mit ServiceResult ein. Analysiert .py-Testdateien
+und Service-Implementierungen. Behandelt Async/Wait-Muster, Monadenoperationen (Map, Bind, Flatmap),
+und richtige Scheinkonfiguration.

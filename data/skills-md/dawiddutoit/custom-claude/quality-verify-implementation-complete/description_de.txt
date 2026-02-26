@@ -1,0 +1,7 @@
+Überprüft, ob implementierter Code tatsächlich in das System integriert ist und zur Laufzeit ausgeführt wird.
+Vermeidung von „erledigt, aber nicht integriert“-Fehlern. Verwenden Sie diese Funktion, wenn Sie Features vor dem Verschieben als vollständig markieren
+ADRs werden in den abgeschlossenen Status versetzt, nachdem neue Module/Knoten/Dienste implementiert wurden oder wenn „Feature“ beansprucht wird
+funktioniert". Löst aus bei „Implementierung überprüfen“, „Ist dies integriert“, „Überprüfen, ob Code verkabelt ist“,
+„Beweisen Sie, dass es funktioniert“ oder bevor Sie die Arbeit für abgeschlossen erklären. Funktioniert mit Python-Modulen, LangGraph-Knoten,
+CLI-Befehle, API-Endpunkte und Serviceklassen. Erzwingt die Erstellung-Verbindung-Verifizierung (CCV)
+Prinzip.

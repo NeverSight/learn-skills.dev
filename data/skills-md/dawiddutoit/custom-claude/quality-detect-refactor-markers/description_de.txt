@@ -1,0 +1,6 @@
+Findet alle REFACTOR-Marker in der Codebasis, überprüft das Vorhandensein zugehöriger ADRs und identifiziert veraltete Marker
+(30+ Tage alt) und erkennt verwaiste Marker (keine ADR-Referenz). Wird vorher bei Statusprüfungen verwendet
+Funktionsvervollständigung oder für Refaktor-Gesundheitsprüfungen. Wird ausgelöst bei „Refactor-Status prüfen“, „Marker
+„Gesundheit“, „Wie ist der Status“ oder PROAKTIV, bevor Sie Funktionen als abgeschlossen markieren. Funktioniert mit
+Python- (.py), TypeScript- (.ts) und JavaScript- (.js) Dateien verwenden grep-Muster zum Auffinden von Markierungen
+und anhand von ADR-Dateien in docs/adr/-Verzeichnissen validieren.

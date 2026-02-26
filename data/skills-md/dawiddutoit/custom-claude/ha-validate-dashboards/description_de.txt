@@ -1,0 +1,7 @@
+Bietet einen dreistufigen Validierungsansatz für Home Assistant-Dashboards, einschließlich Vorveröffentlichung
+Validierung (Entitätsprüfungen, Konfigurationsstruktur), Überprüfung nach der Veröffentlichung (Protokollanalyse),
+und visuelle Validierung (Browserkonsole, Rendering). Verwendung bei der Validierung von HA-Dashboards,
+Überprüfen von Dashboard-Konfigurationen, Überprüfen von Entitäts-IDs, Debuggen von Rendering-Problemen usw
+Bereitstellung von Dashboard-Änderungen. Löst auf „Dashboard validieren“, „HA-Konfiguration prüfen“, „Dashboard“ aus
+Fehler“, „Entität nicht gefunden“ oder „Test-Dashboard“. Funktioniert mit Home Assistant WebSocket/REST APIs,
+Chrome-Erweiterungs-MCP-Tools, Python-Dashboard-Builder und YAML-Dashboard-Konfigurationen.

@@ -1,0 +1,6 @@
+Verwalten Sie die NixOS-Infrastruktur für dieses Nix-Flake-Projekt. Stellen Sie Konfigurationen mit Colmena bereit, verwalten Sie Proxmox LXC-Container, beheben Sie Fehler bei Diensten und warten Sie Server.
+
+Verwenden Sie, wenn: (1) NixOS-Konfigurationen mit colmena bereitstellen, (2) Proxmox LXC-Container verwalten (Start, Stopp, Neustart, Status), (3) Serverprobleme über SSH oder pct exec beheben, (4) den Dienststatus auf allen Hosts überprüfen, (5) jede Infrastrukturwartungsaufgabe.
+
+WICHTIGE Hinweise zur Architektur:
+- Alle Server sind Proxmox LXC-Container.
