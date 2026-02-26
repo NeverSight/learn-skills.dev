@@ -1,0 +1,19 @@
+Analysez les fichiers GIF animés en extrayant et en visualisant les images sous forme de vidéo séquentielle.
+
+À utiliser lorsque :
+- L'utilisateur mentionne un chemin de fichier GIF (par exemple, "./demo.gif", "~/Downloads/animation.gif")
+- L'utilisateur souhaite analyser ou comprendre une animation GIF
+- L'utilisateur pose des questions sur le mouvement, les modifications ou le contenu d'un GIF
+- L'utilisateur joint ou référence un fichier .gif pour analyse
+- L'utilisateur souhaite examiner un enregistrement d'écran au format GIF
+- L'utilisateur appelle la commande slash /gif
+
+Mots clés : "GIF", ".gif", "animation", "animé", "images", "enregistrement d'écran",
+"analyser le gif", "analyse du gif", "afficher le gif", "contenu gif", "mouvement gif"
+
+Modèles de déclenchement :
+- Langage naturel : "Analyser ce GIF : ./demo.gif"
+- Commande Slash : `/gif <chemin>` ou `/gif <chemin> <message>`
+
+Une fois déclenché, extrayez les images à l'aide du script Python, affichez les images dans l'ordre,
+et interpréter comme une séquence vidéo continue.

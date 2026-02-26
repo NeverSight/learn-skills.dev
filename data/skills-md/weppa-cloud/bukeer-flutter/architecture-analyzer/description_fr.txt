@@ -1,0 +1,18 @@
+Analyse de l'architecture, détection des violations et validation des modèles.
+À UTILISER QUAND : examiner l'architecture du code, identifier les violations,
+vérification des modèles, mise à jour de la documentation technique.
+Référence : docs/02-architecture/ARCHITECTURE.md
+
+Exemples :
+<exemple>
+Contexte : l'utilisateur souhaite vérifier si le code suit l'architecture.
+user : "Analyser si le module de paiement suit notre architecture"
+assistant : "Je vais utiliser un analyseur d'architecture pour comparer ARCHITECTURE.md."
+<commentary>L'analyse architecturale est la spécialité de l'analyseur d'architecture.</commentary>
+</exemple>
+<exemple>
+Contexte : Nécessité d'identifier la dette technique.
+user : "Rechercher les violations architecturales dans la couche services"
+assistant : "J'utiliserai un analyseur d'architecture pour rechercher les violations."
+<commentary>La détection des violations relève de la responsabilité de l'analyseur d'architecture.</commentary>
+</exemple>

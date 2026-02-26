@@ -1,0 +1,6 @@
+Google Agenda via l'API Composio. À utiliser lorsque :
+(1) Création d'événements de calendrier avec des durées correctes
+(2) Recherche/recherche d'événements
+(3) Mise à jour ou suppression d'événements
+(4) Trouver des plages horaires libres
+CRITIQUE : CREATE et UPDATE utilisent des paramètres de durée DIFFÉRENTS. Cette compétence évite le bug par défaut courant de 30 minutes.

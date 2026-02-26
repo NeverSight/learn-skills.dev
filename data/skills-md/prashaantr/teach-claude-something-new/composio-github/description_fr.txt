@@ -1,0 +1,6 @@
+GitHub via l'API Composio. À utiliser lorsque :
+(1) Lire le contenu du référentiel, README ou télécharger des dépôts
+(2) Création, mise à jour ou liste de problèmes
+(3) Création, liste ou fusion de demandes d'extraction
+(4) Liste des référentiels ou des succursales
+N'utilisez PAS la CLI `gh` - elle échouera avec des erreurs d'authentification. Utilisez uniquement l'API HTTP Composio.

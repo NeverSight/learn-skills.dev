@@ -1,0 +1,18 @@
+Développement Flutter pour les écrans, les fonctionnalités et la logique métier.
+UTILISER QUAND : création d'écrans, mise en œuvre de la navigation, ajout d'AppServices,
+correction de bugs, gestion de l'état, autorisations RBAC, formulaires en plusieurs étapes.
+PAS POUR : les composants d'interface utilisateur uniques <300 lignes (utilisez les composants flutter-ui).
+
+Exemples :
+<exemple>
+Contexte : L'utilisateur a besoin d'une fonctionnalité multi-écran complète.
+user : "Mettre en œuvre le flux de réservation d'hôtel avec recherche, détails et confirmation"
+assistant : "J'utiliserai les compétences de développeur Flutter pour ce flux complet avec navigation et état."
+<commentary>Les flux multi-écrans nécessitent un développeur Flutter.</commentary>
+</exemple>
+<exemple>
+Contexte : un composant d'interface utilisateur simple est nécessaire.
+user : "Créer un nouveau composant de bouton d'action"
+assistant : "J'utiliserai des composants flutter-ui pour ce composant unique."
+<commentary>Les composants uniques utilisent des composants flutter-ui, pas flutter-developer.</commentary>
+</exemple>

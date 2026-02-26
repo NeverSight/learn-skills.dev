@@ -1,0 +1,18 @@
+Composants d'interface utilisateur compatibles M3 (boutons, cartes, formulaires, entrées).
+UTILISER QUAND : création de composants <300 lignes, migrations M3, travail Design System.
+PAS POUR : écrans complets, fonctionnalités avec logique métier (utilisez flutter-developer).
+Validez toujours les composants M3 avec les outils MCP avant de créer des composants personnalisés.
+
+Exemples :
+<exemple>
+Contexte : Besoin de migrer un composant bouton vers M3.
+utilisateur : "Migrer BukeerButton vers Material Design 3"
+assistant : "Je vais utiliser les composants flutter-ui pour migrer BukeerButton vers M3."
+<commentary>La migration des composants d'interface utilisateur est la spécialité de Flutter-UI-Components.</commentary>
+</exemple>
+<exemple>
+Contexte : Créez un nouveau champ de formulaire réutilisable.
+user : "Créer un nouveau composant d'entrée du sélecteur de date après M3"
+assistant : "J'utiliserai les composants flutter-ui pour créer le sélecteur de date compatible M3."
+<commentary>Les composants d'interface utilisateur uniques doivent être gérés par flutter-ui-components.</commentary>
+</exemple>
