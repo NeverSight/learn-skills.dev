@@ -1,0 +1,8 @@
+End-to-end application deployment orchestration for the Kubernetes homelab.
+
+Use when: (1) Deploying a new application to the cluster, (2) Adding a new Helm release to the platform,
+(3) Setting up monitoring, alerting, and health checks for a new service, (4) Research before deploying,
+(5) Testing deployment on dev cluster before GitOps promotion.
+
+Triggers: "deploy app", "add new application", "deploy to kubernetes", "install helm chart",
+"/deploy-app", "set up new service", "add monitoring for", "deploy with monitoring"

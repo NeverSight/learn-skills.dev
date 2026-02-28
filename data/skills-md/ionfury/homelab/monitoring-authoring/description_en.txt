@@ -1,0 +1,11 @@
+Author monitoring resources: PrometheusRules, ServiceMonitors, PodMonitors,
+AlertmanagerConfig, Silence CRs, and canary-checker health checks.
+
+Use when: (1) Creating or modifying alert rules (PrometheusRule), (2) Adding scrape targets
+(ServiceMonitor/PodMonitor), (3) Configuring Alertmanager routing or silences,
+(4) Writing canary-checker health checks, (5) Creating recording rules,
+(6) Adding monitoring for a new application or platform component.
+
+Triggers: "create alert", "add alerting", "PrometheusRule", "ServiceMonitor", "PodMonitor",
+"AlertmanagerConfig", "silence alert", "canary check", "recording rule", "add monitoring",
+"scrape target", "alert rule", "prometheus rule", "health check canary"

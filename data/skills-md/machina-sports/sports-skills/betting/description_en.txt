@@ -1,0 +1,4 @@
+Betting analysis — odds conversion, de-vigging, edge detection, Kelly criterion, arbitrage detection, parlay analysis, and line movement. Pure computation, no API calls. Works with odds from any source: ESPN (American odds), Polymarket (decimal probabilities), Kalshi (integer probabilities).
+
+Use when: user asks about bet sizing, expected value, edge analysis, Kelly criterion, arbitrage, parlays, line movement, odds conversion, or comparing odds across sources. Also use when you have odds from ESPN and a prediction market price and want to evaluate whether a bet has positive expected value.
+Don't use when: user asks for live odds or market data — use polymarket, kalshi, or the sport-specific skill to fetch odds first, then use this skill to analyze them.

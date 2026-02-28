@@ -1,0 +1,1 @@
+Manage PostgreSQL extensions and pgpm modules in a pgpm workspace. Use when asked to "add an extension", "install a module", "add a dependency", "use pgcrypto/uuid-ossp", or when working with .control files and the extensions/ directory. CRITICAL — never run CREATE EXTENSION directly; pgpm handles extension creation during deploy.

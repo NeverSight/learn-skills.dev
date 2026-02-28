@@ -1,0 +1,9 @@
+Gateway API routing, TLS certificates, and WAF configuration for the homelab Kubernetes platform.
+
+Use when: (1) Exposing a service via HTTPRoute, (2) Choosing between internal and external gateways,
+(3) Setting up TLS certificates with cert-manager, (4) Debugging TLS or routing issues,
+(5) Understanding WAF (Coraza) behavior and tuning, (6) Testing WAF-protected endpoints.
+
+Triggers: "httproute", "gateway", "expose service", "add route", "certificate", "tls",
+"coraza", "waf", "internal gateway", "external gateway", "dns", "ingress",
+"routing", "cert-manager", "letsencrypt", "homelab-ca"

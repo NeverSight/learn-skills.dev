@@ -1,0 +1,14 @@
+SRE debugging methodology for Kubernetes incident investigation, root cause analysis,
+and failure diagnosis.
+
+Use when: (1) Pods not starting, stuck, or failing (CrashLoopBackOff, ImagePullBackOff, OOMKilled, Pending),
+(2) Debugging Kubernetes errors or investigating "why is my pod...", (3) Service degradation or unavailability,
+(4) Root cause analysis for any Kubernetes incident, (5) Network policy blocking traffic,
+(6) Stalled HelmReleases or Flux failures that need troubleshooting.
+
+Triggers: "pod not starting", "pod stuck", "CrashLoopBackOff", "ImagePullBackOff", "OOMKilled",
+"Pending pod", "why is my pod", "kubernetes error", "k8s error", "service not available",
+"can't reach service", "debug kubernetes", "troubleshoot k8s", "what's wrong with my pod",
+"deployment not working", "helm install failed", "flux not reconciling", "root cause",
+"5 whys", "incident", "network policy blocking", "hubble dropped", "stalled helmrelease",
+"live not updating", "promotion pipeline stuck", "artifact not promoted"

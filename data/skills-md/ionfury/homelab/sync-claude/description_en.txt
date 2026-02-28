@@ -1,0 +1,13 @@
+Synchronize and validate Claude documentation (CLAUDE.md files and skills) before commits.
+Ensures documentation accuracy by validating all claims against actual codebase state.
+
+Use when: (1) Before creating a PR to ensure docs are accurate, (2) After making changes
+that might invalidate documentation claims, (3) When explicitly syncing Claude docs,
+(4) When reviewing documentation for staleness.
+
+Triggers: "sync claude", "validate claude docs", "check documentation", "update CLAUDE.md",
+"before commit", "docs out of sync", "/sync-claude", "stale documentation"
+
+Two modes:
+- full: Exhaustive validation of all Claude docs in repository
+- changed: Smart detection of docs affected by current branch changes

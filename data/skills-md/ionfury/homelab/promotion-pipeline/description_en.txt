@@ -1,0 +1,10 @@
+OCI artifact promotion pipeline from PR merge through integration validation to live deployment.
+
+Use when: (1) Tracing why a change has not reached a cluster, (2) Debugging artifacts stuck in integration,
+(3) Understanding the build/validate/promote lifecycle, (4) Performing manual promotion or rollback,
+(5) Investigating GitHub Actions workflow failures, (6) Checking OCI artifact tags in GHCR.
+
+Triggers: "promotion", "pipeline", "artifact", "oci", "integration deploy", "live deploy",
+"stuck in integration", "not deploying", "ghcr", "build artifact", "tag validated",
+"repository_dispatch", "canary-checker", "rollback", "semver", "image policy",
+"promotion pipeline", "why isn't live updating"
