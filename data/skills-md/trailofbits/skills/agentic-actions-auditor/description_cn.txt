@@ -1,0 +1,1 @@
+审核 GitHub Actions 工作流程中是否存在 AI 代理集成中的安全漏洞，包括 Claude Code Action、Gemini CLI、OpenAI Codex 和 GitHub AI Inference。检测攻击者控制的输入到达 CI/CD 管道中运行的 AI 代理的攻击向量，包括环境变量中介模式、直接表达式注入、危险的沙箱配置和通配符用户白名单。在检查调用 AI 编码代理的工作流文件、审核 CI/CD 管道安全性以查找提示注入风险或评估代理操作配置时使用。
