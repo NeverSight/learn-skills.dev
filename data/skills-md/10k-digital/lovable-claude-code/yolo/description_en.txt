@@ -1,0 +1,9 @@
+Browser automation skill for Lovable deployments. Activates when:
+- yolo_mode: on in CLAUDE.md
+- Running /deploy-edge or /apply-migration commands
+- After git push when auto_deploy: on (automatic detection)
+- Any mention of "yolo mode", "automate Lovable", "browser automation"
+
+Automatically navigates to Lovable.dev and submits deployment prompts.
+Runs verification tests based on configuration.
+Auto-deploys after git push when enabled.
