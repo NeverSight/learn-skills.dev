@@ -1,0 +1,14 @@
+用於 Kubernetes 事件調查、根本原因分析的 SRE 調試方法，
+和故障診斷。
+
+在以下情況下使用：(1) Pod 未啟動、卡住或失敗（CrashLoopBackOff、ImagePullBackOff、OOMKilled、Pending），
+(2) 調試 Kubernetes 錯誤或調查“為什麼我的 pod...”，(3) 服務降級或不可用，
+(4) 任何 Kubernetes 事件的根本原因分析，(5) 網路策略阻止流量，
+(6) HelmReleases 停滯或 Flux 故障需要排除故障。
+
+觸發器：「pod 未啟動」、「pod 卡住」、「CrashLoopBackOff」、「ImagePullBackOff」、「OOMKilled」、
+「待處理的 pod」、「為什麼我的 pod 是」、「kubernetes 錯誤」、「k8s 錯誤」、「服務不可用」、
+「無法存取服務」、「調試 kubernetes」、「排除 k8s 故障」、「我的 pod 出了什麼問題」、
+「部署無法正常運作」、「helm 安裝失敗」、「flux 未協調」、「根本原因」、
+「5個為什麼」、「事件」、「網路策略阻止」、「哈伯掉落」、「停滯的 helmrelease」、
+“直播不更新”、“推廣管道卡住”、“神器不推廣”

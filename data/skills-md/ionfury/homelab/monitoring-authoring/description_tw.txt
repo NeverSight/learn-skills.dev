@@ -1,0 +1,11 @@
+作者監控資源：PrometheusRules、ServiceMonitors、PodMonitors、
+AlertmanagerConfig、Silence CR 和金絲雀檢查器健康檢查。
+
+在下列情況下使用：(1) 建立或修改警報規則 (PrometheusRule)，(2) 新增抓取目標
+（ServiceMonitor/PodMonitor），（3）配置Alertmanager路由或靜默，
+(4) 編寫金絲雀檢查器健康檢查，(5) 建立記錄規則，
+(6) 新增對新應用程式或平台組件的監控。
+
+觸發器：「建立警報」、「新增警報」、「PrometheusRule」、「ServiceMonitor」、「PodMonitor」、
+"AlertmanagerConfig"、"靜音警報"、"金絲雀檢查"、"記錄規則"、"新增監控"、
+“抓取目標”、“警報規則”、“普羅米修斯規則”、“健康檢查金絲雀”

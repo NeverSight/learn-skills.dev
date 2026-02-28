@@ -1,0 +1,9 @@
+Homelab Kubernetes 平台的閘道 API 路由、TLS 憑證和 WAF 設定。
+
+在下列情況下使用：(1) 透過 HTTPRoute 公開服務，(2) 在內部和外部網關之間進行選擇，
+(3) 使用 cert-manager 設定 TLS 證書，(4) 調試 TLS 或路由問題，
+(5) 了解 WAF (Coraza) 行為和調整，(6) 測試受 WAF 保護的端點。
+
+觸發器：「httproute」、「網關」、「公開服務」、「新增路由」、「憑證」、「tls」、
+“coraza”，“waf”，“內部網關”，“外部網關”，“dns”，“入口”，
+“路由”、“證書管理器”、“letencrypt”、“homelab-ca”
