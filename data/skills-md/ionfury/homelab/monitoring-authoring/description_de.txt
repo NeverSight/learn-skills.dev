@@ -1,0 +1,11 @@
+Autorenüberwachungsressourcen: PrometheusRules, ServiceMonitors, PodMonitors,
+AlertmanagerConfig, Silence CRs und Canary-Checker-Gesundheitsprüfungen.
+
+Wird verwendet, wenn: (1) Warnregeln erstellt oder geändert werden (PrometheusRule), (2) Scrape-Ziele hinzugefügt werden
+(ServiceMonitor/PodMonitor), (3) Konfigurieren von Alertmanager-Routing oder Stummschaltungen,
+(4) Canary-Checker-Gesundheitschecks schreiben, (5) Aufzeichnungsregeln erstellen,
+(6) Hinzufügen einer Überwachung für eine neue Anwendungs- oder Plattformkomponente.
+
+Auslöser: „Benachrichtigung erstellen“, „Benachrichtigung hinzufügen“, „PrometheusRule“, „ServiceMonitor“, „PodMonitor“,
+„AlertmanagerConfig“, „Alarm stummschalten“, „Canary Check“, „Aufzeichnungsregel“, „Überwachung hinzufügen“,
+„Scrape Target“, „Alert Rule“, „Prometheus Rule“, „Health Check Canary“

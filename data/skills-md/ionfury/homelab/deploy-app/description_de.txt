@@ -1,0 +1,8 @@
+End-to-End-Orchestrierung der Anwendungsbereitstellung für das Kubernetes-Homelab.
+
+Wird verwendet, wenn: (1) eine neue Anwendung im Cluster bereitgestellt wird, (2) eine neue Helm-Version zur Plattform hinzugefügt wird,
+(3) Einrichten von Überwachung, Warnungen und Gesundheitsprüfungen für einen neuen Dienst, (4) Recherche vor der Bereitstellung,
+(5) Testen der Bereitstellung auf dem Entwicklungscluster vor der GitOps-Werbung.
+
+Auslöser: „App bereitstellen“, „Neue Anwendung hinzufügen“, „Auf Kubernetes bereitstellen“, „Helm-Chart installieren“,
+„/deploy-app“, „Neuen Dienst einrichten“, „Überwachung hinzufügen für“, „Mit Überwachung bereitstellen“

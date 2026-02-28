@@ -1,0 +1,13 @@
+Synchronisieren und validieren Sie die Claude-Dokumentation (CLAUDE.md-Dateien und -Skills) vor dem Festschreiben.
+Stellt die Genauigkeit der Dokumentation sicher, indem alle Ansprüche anhand des tatsächlichen Codebasisstatus validiert werden.
+
+Verwenden Sie dies, wenn: (1) vor dem Erstellen einer PR, um sicherzustellen, dass die Dokumente korrekt sind, (2) nach dem Vornehmen von Änderungen
+Dies könnte Dokumentationsansprüche ungültig machen. (3) Bei der expliziten Synchronisierung von Claude-Dokumenten,
+(4) Bei der Überprüfung der Dokumentation auf Verjährung.
+
+Auslöser: „claude synchronisieren“, „claude-Dokumente validieren“, „Dokumentation prüfen“, „CLAUDE.md aktualisieren“,
+„vor dem Festschreiben“, „Dokumente nicht synchron“, „/sync-claude“, „veraltete Dokumentation“
+
+Zwei Modi:
+- voll: Umfassende Validierung aller Claude-Dokumente im Repository
+- geändert: Intelligente Erkennung von Dokumenten, die von aktuellen Zweigänderungen betroffen sind
