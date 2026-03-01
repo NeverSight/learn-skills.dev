@@ -1,0 +1,1 @@
+يوجه الوكيل لتطوير عمليات مخصصة على نمط GMM لمحول AscendC (مثل grouped_matmul_finalize_routing) وأمثلة CANN aclnn الخاصة به عن طريق اتباع الأنماط الموجودة ضمن ops-transformer/gmm وtention/example_op/examples. يُستخدم عند إضافة أو تعديل هذه العمليات أو نواتها أو منطق التبليط/الشكل الداخلي أو أمثلة CANN API.
