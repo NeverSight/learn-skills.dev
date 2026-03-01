@@ -1,0 +1,1 @@
+Documentez les API publiques non documentées dans PyTorch en supprimant les fonctions de cover_ignore_functions et cover_ignore_classes dans docs/source/conf.py, en exécutant la couverture Sphinx et en ajoutant les directives autodoc appropriées aux fichiers doc .md ou .rst corrects. À utiliser lorsqu'un utilisateur demande de supprimer des fonctions des listes d'ignorer conf.py.
