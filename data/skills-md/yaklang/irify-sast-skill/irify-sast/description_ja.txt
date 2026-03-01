@@ -1,0 +1,1 @@
+IRify SAST — AI を活用した静的アプリケーションのセキュリティ テスト。ソース コードを SSA IR にコンパイルし、SyntaxFlow DSL を使用して関数境界を越えたデータ フローをトレースし、脆弱性 (SQLi、RCE、XXE) を検出し、「ユーザー入力はどこに行くのか?」などの質問に答えます。 7 つの言語 (Java、PHP、JS、Go、Python、C、Yak) と ProgramOverLay によるインクリメンタル コンパイルをサポートします。 yaklang MCP サーバーが必要です: yak mcp -t ssa
