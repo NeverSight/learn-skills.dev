@@ -1,0 +1,1 @@
+在处理任何可能包含跟踪参数、重定向包装器、区域设置前缀或不透明共享链接的 URL 时使用 - 以生成干净、规范的形式。当代理在清洁性很重要的上下文中使用 URL 时主动触发（保存到 Notion、在文档中引用、创建超链接）。当用户说“canonicalize”、“clean this URL”、“strip Tracking params”或调用 /canonicalize 时也会显式触发。

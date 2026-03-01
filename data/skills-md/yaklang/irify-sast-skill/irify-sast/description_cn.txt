@@ -1,0 +1,1 @@
+IRify SAST — AI 驱动的静态应用程序安全测试。将源代码编译到 SSA IR，然后使用 SyntaxFlow DSL 跟踪跨函数边界的数据流，检测漏洞（SQLi、RCE、XXE），并回答诸如“用户输入去了哪里？”之类的问题。支持7种语言（Java、PHP、JS、Go、Python、C、Yak）并通过ProgramOverLay进行增量编译。需要 yaklang MCP 服务器： yak mcp -t ssa

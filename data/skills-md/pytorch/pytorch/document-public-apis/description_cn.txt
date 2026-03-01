@@ -1,0 +1,1 @@
+通过从 docs/source/conf.py 中的coverage_ignore_functions和coverage_ignore_classes中删除函数、运行Sphinxcoverage以及将适当的autodoc指令添加到正确的.md或.rst文档文件中，在PyTorch中记录未记录的公共API。当用户要求从 conf.py 忽略列表中删除函数时使用。
