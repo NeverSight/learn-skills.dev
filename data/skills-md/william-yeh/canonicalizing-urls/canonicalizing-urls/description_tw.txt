@@ -1,0 +1,1 @@
+在處理任何可能包含追蹤參數、重定向包裝器、區域設定前綴或不透明共享連結的 URL 時使用 - 以產生乾淨、規範的形式。當代理程式在清潔性很重要的上下文中使用 URL 時主動觸發（儲存到 Notion、在文件中引用、建立超連結）。當使用者說「canonicalize」、「clean this URL」、「strip Tracking params」或呼叫 /canonicalize 時也會明確觸發。
