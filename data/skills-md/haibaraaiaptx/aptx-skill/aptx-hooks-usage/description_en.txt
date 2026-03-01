@@ -1,0 +1,1 @@
+指导 LLM 正确使用 aptx 代码生成器生成的 React Query 和 Vue Query hooks。当 LLM 在项目中使用生成的 useXxxQuery 或 useXxxMutation hooks，需要修改传参（如添加 enabled、staleTime 等配置）时触发。

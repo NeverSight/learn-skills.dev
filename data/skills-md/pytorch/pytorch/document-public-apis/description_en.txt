@@ -1,0 +1,1 @@
+Document undocumented public APIs in PyTorch by removing functions from coverage_ignore_functions and coverage_ignore_classes in docs/source/conf.py, running Sphinx coverage, and adding the appropriate autodoc directives to the correct .md or .rst doc files. Use when a user asks to remove functions from conf.py ignore lists.

@@ -1,0 +1,3 @@
+Optimize token cost by routing Agent tool delegations to the cheapest sufficient model.
+TRIGGER when: about to use the Agent tool, any multi-step task, implementation, debugging, refactoring, search, exploration, test writing, code review, or any task that could be decomposed into subtasks.
+DO NOT TRIGGER when: single-line fix, trivial question, or user says 'no routing'.

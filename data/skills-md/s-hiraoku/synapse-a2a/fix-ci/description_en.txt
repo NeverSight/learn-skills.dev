@@ -1,0 +1,1 @@
+Automatically diagnose and fix CI failures in the current PR. Retrieves failed logs from GitHub Actions, categorizes the failure (lint, format, type-check, test), applies targeted fixes, verifies locally, and commits/pushes. Use when CI fails after push.
