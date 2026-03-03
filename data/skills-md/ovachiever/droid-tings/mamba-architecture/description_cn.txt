@@ -1,0 +1,1 @@
+状态空间模型的复杂度为 O(n)，而 Transformer 的复杂度为 O(n²)。推理速度提高 5 倍，百万个令牌序列，无 KV 缓存。具有硬件感知设计的选择性 SSM。 Mamba-1 (d_state=16) 和 Mamba-2 (d_state=128，多头)。 HuggingFace 上的型号 130M-2.8B。
