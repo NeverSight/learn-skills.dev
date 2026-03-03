@@ -1,0 +1,1 @@
+Modèle espace d'états avec complexité O(n) par rapport à O(n²) des transformateurs. Inférence 5 fois plus rapide, séquences d'un million de jetons, pas de cache KV. SSM sélectif avec une conception sensible au matériel. Mamba-1 (d_state=16) et Mamba-2 (d_state=128, multi-tête). Modèles 130M-2.8B sur HuggingFace.

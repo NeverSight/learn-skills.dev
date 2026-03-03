@@ -1,0 +1,6 @@
+Encode une boucle d'amélioration continue pour les agents en quête d'objectifs : EVAL, ANALYZE,
+RECHERCHE (hypothèse + preuves + contre-arguments), AMÉLIORER, RÉÉVALUER, DÉCIDER.
+Valide automatiquement les améliorations (+2 % nets, aucune régression >5 %) et annule les échecs.
+Fonctionne avec les 4 implémentations du SDK.
+S'active automatiquement sur "Amélioration de l'agent", "Boucle d'auto-amélioration", "Boucle d'évaluation de l'agent",
+"agents de référence", "exécuter un cycle d'amélioration".
