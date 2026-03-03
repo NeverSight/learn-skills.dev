@@ -1,0 +1,1 @@
+Fornisce LLM con throughput elevato utilizzando PagedAttention di vLLM e batch continuo. Da utilizzare quando si distribuiscono API LLM di produzione, si ottimizza la latenza/velocità effettiva di inferenza o si servono modelli con memoria GPU limitata. Supporta endpoint compatibili con OpenAI, quantizzazione (GPTQ/AWQ/FP8) e parallelismo tensore.
