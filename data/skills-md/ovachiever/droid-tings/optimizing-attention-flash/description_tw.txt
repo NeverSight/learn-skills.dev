@@ -1,0 +1,1 @@
+透過 Flash Attention 優化變壓器注意力，可實現 2-4 倍加速和 10-20 倍記憶體減少。當使用長序列（> 512 個標記）訓練/運行 Transformer、遇到需要注意的 GPU 記憶體問題或需要更快的推理時使用。支援 PyTorch 原生 SDPA、flash-attn 函式庫、H100 FP8 和滑動視窗注意力。
