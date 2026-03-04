@@ -1,0 +1,1 @@
+Resolver automáticamente conflictos de fusión en el PR actual. Recupera la rama base, intenta una fusión, identifica archivos en conflicto, analiza ambos lados, resuelve conflictos, verifica localmente y empuja. Úselo cuando PR tenga conflictos de fusión detectados por poll-pr-status.sh.
