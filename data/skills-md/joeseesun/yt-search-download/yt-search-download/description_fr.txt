@@ -1,0 +1,12 @@
+Recherche de vidéos YouTube, téléchargement de vidéos et outil de téléchargement de sous-titres. Intègre l'API YouTube Data v3 pour les recherches avancées et yt-dlp pour télécharger des vidéos/audio/sous-titres.  
+Capacités de base : recherche par mot-clé sur l'ensemble du site, navigation sur les chaînes, tri par heure/nombre de vues/pertinence, téléchargement vidéo, extraction audio (MP3), téléchargement de sous-titres (chinois/anglais), détails de la vidéo.  
+
+Scénarios de déclenchement (utilisez cette compétence pour toute action liée à YouTube) :  
+- Recherche : "rechercher sur YouTube", "rechercher sur YouTube", "trouver des vidéos YouTube", "rechercher les dernières vidéos de [chaîne]", "trouver le YouTube de [nom]", "les mises en ligne récentes de [nom] sur YouTube", "Vidéos YouTube sur XXX"  
+- Parcourir les chaînes : "parcourir la chaîne", "vérifier les dernières vidéos de [chaîne]", "quelles vidéos [nom] a-t-il publiées récemment", "[nom] mises à jour YouTube", "afficher la liste des vidéos de [chaîne]"  
+- Téléchargement vidéo : "télécharger YouTube", "télécharger cette vidéo", "télécharger la vidéo YouTube", "enregistrer cette vidéo"  
+- Téléchargement audio : « extraire l'audio », « télécharger l'audio », « YouTube vers MP3 », « audio uniquement »  
+- Téléchargement de sous-titres : "télécharger les sous-titres", "extraire les sous-titres", "obtenir les sous-titres", "télécharger les sous-titres YouTube", "sous-titres chinois", "sous-titres anglais", "extraire le texte", "vidéo vers texte", "obtenir le texte vidéo"  
+- Informations vidéo : « détails de la vidéo », « informations sur la vidéo », « combien de temps dure cette vidéo »  
+
+Correspondance des mots clés : déclenchez cette compétence chaque fois que le message de l'utilisateur contient « YouTube », « 油管 », « YT » ou « yt » ainsi que des mots d'action tels que recherche/téléchargement/sous-titre/chaîne/vidéo.
