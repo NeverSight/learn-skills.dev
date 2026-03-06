@@ -1,0 +1,1 @@
+Starknet 上の OpenZeppelin の UpgradeableComponent を使用して Cairo スマート コントラクトをアップグレードします。ユーザーが以下を行う必要がある場合に使用します: (1) replace_class_syscall 経由で Cairo コントラクトをアップグレード可能にする、(2) OpenZeppelin UpgradeableComponent を統合する、(3) Starknet のクラスベースのアップグレード モデルと EVM プロキシ パターンを理解する、(4) アップグレード間でのストレージの互換性を確保する、(5) アクセス コントロールでアップグレード機能を保護する、または (6) Cairo コントラクトのアップグレード パスをテストする。
