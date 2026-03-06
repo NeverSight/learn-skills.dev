@@ -1,10 +1,10 @@
-YouTube-Videosuche, Herunterladen von Videos und Untertitel-Tool. Integriert YouTube Data API v3 für erweiterte Suchen und verwendet yt-dlp zum Herunterladen von Videos/Audio/Untertiteln.  
-Kernfunktionen: Websiteweite Stichwortsuche, Kanal-Browsing, Sortieren nach Zeit/Ansichten/Relevanz, Video-Download, Audio-Extraktion (MP3), Untertitel-Download (Chinesisch/Englisch), Videodetails.  
-Auslöseszenarien (verwenden Sie diesen Skill für alle YouTube-bezogenen Aktionen):  
-- Suche: „YouTube durchsuchen“, „YouTube-Suche“, „YouTube-Videos finden“, „Neueste Videos von [Kanal] suchen“, „YouTube von [Name] finden“, „Letzte YouTube-Uploads von [Name]“, „YouTube-Videos über XXX“  
-- Kanal durchsuchen: „Kanal durchsuchen“, „Neueste Videos von [Kanal] prüfen“, „Was hat [Name] kürzlich hochgeladen“, „YouTube-Updates von [Name]“, „Videoliste von [Kanal] anzeigen“  
-- Video-Download: „YouTube herunterladen“, „Dieses Video herunterladen“, „YouTube-Video herunterladen“, „Dieses Video speichern“  
-- Audio-Download: „Audio extrahieren“, „Audio herunterladen“, „YouTube zu MP3“, „Nur Audio“  
-- Untertitel herunterladen: „Untertitel herunterladen“, „Untertitel extrahieren“, „Untertitel abrufen“, „YouTube-Untertitel herunterladen“, „Chinesische Untertitel“, „Englische Untertitel“, „Text extrahieren“, „Video in Text“, „Videotranskript abrufen“  
-- Videoinfo: „Videodetails“, „Videoinfo“, „Wie lang ist dieses Video“  
-Keyword-Übereinstimmung: Lösen Sie diesen Skill aus, wenn die Benutzernachricht „YouTube“, „油管“, „YT“ oder „yt“ sowie Aktionswörter wie „Suche/Download/Untertitel/Kanal/Video“ enthält.
+YouTube-Videosuche, Video-Download, Untertitel-Download-Tool. Integriert YouTube Data API v3 für die erweiterte Suche und yt-dlp zum Herunterladen von Videos/Audio/Untertiteln.
+Kernfunktionen: Stichwortsuche auf der gesamten Website, Durchsuchen von Kanälen, Sortieren nach Zeit/Anzahl/Relevanz der Aufrufe, Video-Download, Audio-Extraktion (MP3), Untertitel-Download (Chinesisch und Englisch), Ansicht von Videodetails.
+Triggerszenarien (verwenden Sie diesen Skill für jeden YouTube-Vorgang):
+- Suche: „YouTube durchsuchen“, „YouTube-Suche“, „YouTube-Videos finden“, „Neueste Videos von [Kanal] suchen“, „YouTube von [Name] finden“, „Letzte YouTube-Updates von [Name]“, „YouTube-Videos über XXX“
+- Kanal durchsuchen: „Kanal durchsuchen“, „Neueste Videos von [Kanal] prüfen“, „Welche Videos hat [Name] kürzlich gepostet“, „[Name] YouTube-Updates“, „Videoliste von [Kanal] anzeigen“
+- Video-Download: „YouTube herunterladen“, „Dieses Video herunterladen“, „YouTube-Video herunterladen“, „Dieses Video speichern“, „Video speichern“
+- Audio-Download: „Audio extrahieren“, „Audio herunterladen“, „YouTube zu MP3“, „Nur Audio“
+- Untertitel herunterladen: „Untertitel herunterladen“, „Untertitel extrahieren“, „Untertitel abrufen“, „YouTube-Untertitel herunterladen“, „Chinesische Untertitel“, „Englische Untertitel“, „Text extrahieren“, „Video in Text“, „Videotext abrufen“
+- Videoinfo: „Videodetails“, „Videoinfo“, „Wie lang ist dieses Video“
+Keyword-Übereinstimmung: Lösen Sie diesen Skill aus, wenn die Benutzernachricht „YouTube“, „油管“, „YT“, „yt“ sowie Aktionswörter wie „Suche/Download/Untertitel/Kanal/Video“ enthält.

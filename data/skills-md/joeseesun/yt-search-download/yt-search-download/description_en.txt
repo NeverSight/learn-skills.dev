@@ -1,10 +1,10 @@
-YouTube video search, download videos, and subtitle download tool. Integrates YouTube Data API v3 for advanced searches and uses yt-dlp to download video/audio/subtitles.
-Core capabilities: site-wide keyword search, channel browsing, sort by time/view count/relevance, video download, audio extraction (MP3), subtitle download (Chinese/English), video details.
-Trigger scenarios (use this skill for any YouTube-related operation):
-- Search: "search YouTube", "YouTube search", "find YouTube video", "search [channel] latest video", "find [person]'s YouTube", "[person] recent YouTube", "YouTube about XXX"
-- Channel browse: "browse channel", "view [channel] latest video", "[person] recent uploads", "[person] YouTube updates", "view [channel] video list"
-- Download video: "download YouTube", "download this video", "download YouTube video", "save this video", "save video"
-- Download audio: "extract audio", "download audio", "YouTube to MP3", "audio only"
-- Download subtitle: "download subtitle", "extract subtitle", "get subtitle", "download YouTube subtitle", "Chinese subtitle", "English subtitle", "extract text", "video to text", "get video text"
-- Video info: "video details", "video info", "how long is this video"
-Keyword match: trigger this skill whenever the user message contains "YouTube", "油管", "YT", "yt" plus action words like search/download/subtitle/channel/video.
+YouTube video search, video download, subtitle download tool. Integrates YouTube Data API v3 for advanced search and yt-dlp to download video/audio/subtitles.
+Core capabilities: whole-site keyword search, channel browsing, sort by time/view count/relevance, video download, audio extraction (MP3), subtitle download (Chinese & English), video details view.
+Trigger scenarios (use this skill for any YouTube operation):
+- Search: “search YouTube”, “YouTube search”, “find YouTube videos”, “search [channel] latest videos”, “find [name]’s YouTube”, “[name] recent YouTube updates”, “YouTube videos about XXX”
+- Channel browse: “browse channel”, “check [channel] latest videos”, “what videos did [name] post recently”, “[name] YouTube updates”, “view [channel] video list”
+- Video download: “download YouTube”, “download this video”, “download YouTube video”, “save this video”, “save video”
+- Audio download: “extract audio”, “download audio”, “YouTube to MP3”, “audio only”
+- Subtitle download: “download subtitles”, “extract subtitles”, “get subtitles”, “download YouTube subtitles”, “Chinese subtitles”, “English subtitles”, “extract text”, “video to text”, “get video text”
+- Video info: “video details”, “video info”, “how long is this video”
+Keyword match: trigger this skill whenever user message contains “YouTube”, “油管”, “YT”, “yt” plus action words like search/download/subtitle/channel/video.
