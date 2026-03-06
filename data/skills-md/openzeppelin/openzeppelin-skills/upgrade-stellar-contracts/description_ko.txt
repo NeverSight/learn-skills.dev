@@ -1,0 +1,1 @@
+OpenZeppelin의 업그레이드 가능한 모듈을 사용하여 Stellar/Soroban 스마트 계약을 업그레이드하세요. 사용자가 (1) 기본 WASM 교체를 통해 Soroban 계약을 업그레이드할 수 있도록 만들고, (2) Upgradeable 또는 UpgradeableMigratable 파생 매크로를 사용하고, (3) Upgrader 계약으로 원자성 업그레이드 및 마이그레이션 패턴을 구현하고, (4) 업그레이드 전반에 걸쳐 스토리지 키 호환성을 보장하거나, (5) Soroban 계약에 대한 업그레이드 경로를 테스트해야 하는 경우에 사용합니다.

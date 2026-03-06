@@ -1,0 +1,1 @@
+Arbitrum에서 OpenZeppelin 프록시 패턴을 사용하여 Stylus 스마트 계약을 업그레이드하세요. 사용자가 (1) UUPS 또는 Beacon 프록시를 사용하여 Stylus Rust 계약을 업그레이드할 수 있게 만들고, (2) Stylus 관련 프록시 메커니즘(logic_flag, WASM 재활성화)을 이해하고, (3) UUPSUpgradeable을 액세스 제어와 통합하고, (4) 업그레이드 전반에 걸쳐 저장소 호환성을 보장하거나, (5) Stylus 계약에 대한 업그레이드 경로를 테스트해야 하는 경우에 사용합니다.

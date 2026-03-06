@@ -1,0 +1,1 @@
+Starknet에서 OpenZeppelin의 UpgradeableComponent를 사용하여 Cairo 스마트 계약을 업그레이드하세요. 사용자가 다음 작업을 수행해야 하는 경우에 사용합니다. (1) replacement_class_syscall을 통해 Cairo 계약을 업그레이드 가능하게 만들고, (2) OpenZeppelin UpgradeableComponent를 통합하고, (3) Starknet의 클래스 기반 업그레이드 모델과 EVM 프록시 패턴을 이해하고, (4) 업그레이드 간 스토리지 호환성을 보장하고, (5) 액세스 제어를 통해 업그레이드 기능을 보호하거나, (6) Cairo 계약에 대한 업그레이드 경로를 테스트합니다.
