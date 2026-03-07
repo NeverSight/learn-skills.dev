@@ -2,7 +2,7 @@
   "title": "Skills.sh Feed",
   "description": "Latest skill data from skills.sh",
   "link": "https://skills.sh",
-  "updatedAt": "2026-03-07T13:01:27.849Z",
+  "updatedAt": "2026-03-07T18:44:55.016Z",
   "providers": [
     {
       "id": "skills.sh",
@@ -15,7 +15,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 439405,
+      "installs": 442700,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -24,7 +24,7 @@
       "id": "vercel-labs/agent-skills/vercel-react-best-practices",
       "title": "vercel-react-best-practices",
       "source": "vercel-labs/agent-skills",
-      "installs": 181562,
+      "installs": 182383,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "providerId": "skills.sh",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
@@ -33,7 +33,7 @@
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 141562,
+      "installs": 142314,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
@@ -42,7 +42,7 @@
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 129177,
+      "installs": 130023,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
@@ -51,7 +51,7 @@
       "id": "remotion-dev/skills/remotion-best-practices",
       "title": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "installs": 128959,
+      "installs": 129470,
       "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "providerId": "skills.sh",
       "description": "Best practices for Remotion - Video creation in React"
@@ -60,7 +60,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-ai",
       "title": "azure-ai",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117638,
+      "installs": 118050,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-ai",
       "providerId": "skills.sh",
       "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech. DO NOT USE FOR: Function apps/Functions (use azure-functions), databases (azure-postgres/azure-kusto), general Azure resources."
@@ -69,7 +69,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-storage",
       "title": "azure-storage",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117453,
+      "installs": 117864,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-storage",
       "providerId": "skills.sh",
       "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management."
@@ -78,7 +78,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-deploy",
       "title": "azure-deploy",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117446,
+      "installs": 117854,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy",
       "providerId": "skills.sh",
       "description": "Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.\nUSE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy container app, deploy static site, deploy Azure Functions, bicep deploy, terraform apply.\nDO NOT USE FOR: creating or building apps (use azure-prepare), validating before deploy (use azure-validate)."
@@ -87,7 +87,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-cost-optimization",
       "title": "azure-cost-optimization",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117436,
+      "installs": 117847,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization",
       "providerId": "skills.sh",
       "description": "Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,\nutilization metrics, and generating actionable optimization recommendations. USE FOR:\noptimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,\nfind cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,\ncost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis\ncosts. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics\n(use azure-diagnostics), security issues (use azure-security)"
@@ -96,7 +96,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-diagnostics",
       "title": "azure-diagnostics",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117392,
+      "installs": 117802,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics",
       "providerId": "skills.sh",
       "description": "Debug and troubleshoot production issues on Azure. Covers Container Apps diagnostics, log analysis with KQL, health checks, and common issue resolution for image pulls, cold starts, and health probes.\nUSE FOR: debug production issues, troubleshoot container apps, analyze logs with KQL, fix image pull failures, resolve cold start issues, investigate health probe failures, check resource health, view application logs, find root cause of errors\nDO NOT USE FOR: deploying applications (use azure-deploy), creating new resources (use azure-prepare), setting up monitoring (use azure-observability), cost optimization (use azure-cost-optimization)"
@@ -105,7 +105,7 @@
       "id": "microsoft/github-copilot-for-azure/microsoft-foundry",
       "title": "microsoft-foundry",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117383,
+      "installs": 117790,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry",
       "providerId": "skills.sh",
       "description": "Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy AI models from catalog, build RAG applications with knowledge indexes, create and evaluate AI agents, manage RBAC permissions and role assignments, manage quotas and capacity, create Foundry resources.\nUSE FOR: Microsoft Foundry, AI Foundry, deploy model, model catalog, RAG, knowledge index, create agent, evaluate agent, agent monitoring, create Foundry project, new Foundry project, set up Foundry, onboard to Foundry, provision Foundry infrastructure, create Foundry resource, create AI Services, multi-service resource, AIServices kind, register resource provider, enable Cognitive Services, setup AI Services account, create resource group for Foundry, RBAC, role assignment, managed identity, service principal, permissions, quota, capacity, TPM, deployment failure, QuotaExceeded.\nDO NOT USE FOR: Azure Functions (use azure-functions), App Service (use azure-create-app), generic Azure resource creation (use azure-create-app)."
@@ -114,7 +114,7 @@
       "id": "microsoft/github-copilot-for-azure/entra-app-registration",
       "title": "entra-app-registration",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117336,
+      "installs": 117743,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration",
       "providerId": "skills.sh",
       "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.\nUSE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication.\nDO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security)."
@@ -123,7 +123,7 @@
       "id": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
       "title": "appinsights-instrumentation",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117325,
+      "installs": 117732,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation",
       "providerId": "skills.sh",
       "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references.\nUSE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.\nDO NOT USE FOR: adding App Insights to my app (use azure-prepare), add telemetry to my project (use azure-prepare), add monitoring (use azure-prepare). This skill provides guidance—azure-prepare orchestrates component changes."
@@ -132,7 +132,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-resource-visualizer",
       "title": "azure-resource-visualizer",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117319,
+      "installs": 117724,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer",
       "providerId": "skills.sh",
       "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.\nUSE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure\nDO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)"
@@ -141,7 +141,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-compliance",
       "title": "azure-compliance",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117315,
+      "installs": 117721,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance",
       "providerId": "skills.sh",
       "description": "Comprehensive Azure compliance and security auditing capabilities including best practices assessment,\nKey Vault expiration monitoring, and resource configuration validation.\nUSE FOR: compliance scan, security audit, azqr, Azure best practices, Key Vault expiration check,\ncompliance assessment, resource review, configuration validation, expired certificates, expiring secrets,\norphaned resources, policy compliance, security posture evaluation.\nDO NOT USE FOR: deploying resources (use azure-deploy), cost analysis alone (use azure-cost-optimization),\nactive security hardening (use azure-security-hardening), general Azure Advisor queries (use azure-observability)."
@@ -150,7 +150,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-rbac",
       "title": "azure-rbac",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117312,
+      "installs": 117717,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac",
       "providerId": "skills.sh",
       "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it.\nUSE FOR: \"what role should I assign\", \"least privilege role\", \"RBAC role for\", \"role to read blobs\", \"role for managed identity\", \"custom role definition\", \"assign role to identity\".\nDO NOT USE FOR: creating or configuring managed identities, or general Azure security hardening; those are out of scope for this role-selection skill."
@@ -159,7 +159,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-prepare",
       "title": "azure-prepare",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117311,
+      "installs": 117717,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare",
       "providerId": "skills.sh",
       "description": "Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment by generating infrastructure code (Bicep/Terraform), azure.yaml configuration, and Dockerfiles.\nUSE FOR: create an app, build a web app, create API, create frontend, create backend, add a feature, build a service, make an application, develop a project, migrate my app, modernize my code, update my application, add database, add authentication, add caching, deploy to Azure, host on Azure, Azure with Terraform (defaults to azd+Terraform), Azure with azd, generate azure.yaml, generate Bicep or Terraform, prepare Azure Functions.\nDO NOT USE FOR: only validating an already-prepared app (use azure-validate), only running azd up/deploy (use azure-deploy), pure Terraform without azd (prefer azd+Terraform)."
@@ -168,7 +168,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-kusto",
       "title": "azure-kusto",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117311,
+      "installs": 117716,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-kusto",
       "providerId": "skills.sh",
       "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis.\nUSE FOR: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection\nDO NOT USE FOR: SQL databases (use azure-postgres), NoSQL queries (use azure-storage), Elasticsearch, AWS analytics tools"
@@ -177,7 +177,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-validate",
       "title": "azure-validate",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117306,
+      "installs": 117711,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-validate",
       "providerId": "skills.sh",
       "description": "Pre-deployment validation checkpoint. Run deep checks to ensure your application is ready for Azure deployment. Validates configuration, infrastructure, permissions, and prerequisites.\nUSE FOR: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors.\nDO NOT USE FOR: creating or building apps (use azure-prepare), executing deployments (use azure-deploy)."
@@ -186,7 +186,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-aigateway",
       "title": "azure-aigateway",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117304,
+      "installs": 117711,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway",
       "providerId": "skills.sh",
       "description": "Configure Azure API Management (APIM) as AI Gateway to secure, observe, control AI models, MCP servers, agents. Helps with rate limiting, semantic caching, content safety, load balancing.\nUSE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model gateway, MCP server, rate limit, token limit, semantic cache, content safety, load balance, OpenAPI import, convert API to MCP.\nDO NOT USE FOR: deploy models (use microsoft-foundry), Azure Functions (use azure-functions), databases (use azure-postgres)."
@@ -195,7 +195,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-resource-lookup",
       "title": "azure-resource-lookup",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 117297,
+      "installs": 117702,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup",
       "providerId": "skills.sh",
       "description": "List, find, and show Azure resources. Answers \"list my VMs\", \"show my storage accounts\", \"list websites\",\n\"find container apps\", \"what resources do I have\", and similar queries for any Azure resource type.\nUSE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps,\nlist container apps, show resources, find resources, what resources do I have, list resources in resource group,\nlist resources in subscription, find resources by tag, find orphaned resources, resource inventory,\ncount resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery,\nlist container registries, list SQL servers, list Key Vaults, show resource groups, list app services,\nfind resources across subscriptions, find unattached disks, tag analysis.\nDO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources,\ncost optimization (use azure-cost-optimization), writing application code, non-Azure clouds."
@@ -213,7 +213,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-messaging",
       "title": "azure-messaging",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 106153,
+      "installs": 106538,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging",
       "providerId": "skills.sh",
       "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)"
@@ -222,7 +222,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
       "title": "azure-hosted-copilot-sdk",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 88486,
+      "installs": 88817,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
       "providerId": "skills.sh",
       "description": "Build and deploy GitHub Copilot SDK apps to Azure. USE FOR: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, DefaultAzureCredential, self-hosted model, copilot SDK service, chat app with copilot, copilot-sdk-service template, azd init copilot, CopilotClient, createSession, sendAndWait, GitHub Models API. DO NOT USE FOR: using Copilot (not building with it), Copilot Extensions, Azure Functions without Copilot, general web apps without copilot SDK, Foundry agent hosting (use microsoft-foundry skill), agent evaluation (use microsoft-foundry skill)."
@@ -231,7 +231,7 @@
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 79253,
+      "installs": 79788,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
@@ -240,7 +240,7 @@
       "id": "vercel-labs/agent-skills/vercel-composition-patterns",
       "title": "vercel-composition-patterns",
       "source": "vercel-labs/agent-skills",
-      "installs": 72360,
+      "installs": 72704,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns",
       "providerId": "skills.sh",
       "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture."
@@ -249,7 +249,7 @@
       "id": "sleekdotdesign/agent-skills/sleek-design-mobile-apps",
       "title": "sleek-design-mobile-apps",
       "source": "sleekdotdesign/agent-skills",
-      "installs": 68892,
+      "installs": 72219,
       "link": "https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps",
       "providerId": "skills.sh",
       "description": "Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests (\"design an app that does X\") and specific ones (\"list my projects\", \"create a new project\", \"screenshot that screen\")."
@@ -258,7 +258,7 @@
       "id": "anthropics/skills/skill-creator",
       "title": "skill-creator",
       "source": "anthropics/skills",
-      "installs": 65890,
+      "installs": 66357,
       "link": "https://skills.sh/anthropics/skills/skill-creator",
       "providerId": "skills.sh",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations."
@@ -267,7 +267,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-compute",
       "title": "azure-compute",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 57767,
+      "installs": 58044,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compute",
       "providerId": "skills.sh",
       "description": "Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. USE FOR: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration. DO NOT USE FOR: deploying VMs or VMSS, deploying apps (use azure-deploy), looking up existing VMs (use azure-resource-lookup), cost optimization of running VMs (use azure-cost-optimization), non-VM services like App Service or AKS."
@@ -276,7 +276,7 @@
       "id": "vercel-labs/agent-skills/vercel-react-native-skills",
       "title": "vercel-react-native-skills",
       "source": "vercel-labs/agent-skills",
-      "installs": 50583,
+      "installs": 50880,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
       "providerId": "skills.sh",
       "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs."
@@ -285,7 +285,7 @@
       "id": "nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
       "title": "ui-ux-pro-max",
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "installs": 49657,
+      "installs": 49956,
       "link": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
       "providerId": "skills.sh",
       "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples."
@@ -294,7 +294,7 @@
       "id": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
       "title": "azure-cloud-migrate",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 47775,
+      "installs": 48023,
       "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate",
       "providerId": "skills.sh",
       "description": "Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: \"migrate Lambda to Azure Functions\", \"migrate AWS to Azure\", \"Lambda migration assessment\", \"convert AWS serverless to Azure\", \"migration readiness report\", \"migrate from AWS\", \"migrate from GCP\", \"cross-cloud migration\"."
@@ -303,7 +303,7 @@
       "id": "browser-use/browser-use/browser-use",
       "title": "browser-use",
       "source": "browser-use/browser-use",
-      "installs": 45791,
+      "installs": 45862,
       "link": "https://skills.sh/browser-use/browser-use/browser-use",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages."
@@ -312,7 +312,7 @@
       "id": "obra/superpowers/brainstorming",
       "title": "brainstorming",
       "source": "obra/superpowers",
-      "installs": 43178,
+      "installs": 43480,
       "link": "https://skills.sh/obra/superpowers/brainstorming",
       "providerId": "skills.sh",
       "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
@@ -321,7 +321,7 @@
       "id": "coreyhaines31/marketingskills/seo-audit",
       "title": "seo-audit",
       "source": "coreyhaines31/marketingskills",
-      "installs": 35276,
+      "installs": 35495,
       "link": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
       "providerId": "skills.sh",
       "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup."
@@ -339,7 +339,7 @@
       "id": "squirrelscan/skills/audit-website",
       "title": "audit-website",
       "source": "squirrelscan/skills",
-      "installs": 32556,
+      "installs": 32622,
       "link": "https://skills.sh/squirrelscan/skills/audit-website",
       "providerId": "skills.sh",
       "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health."
@@ -348,7 +348,7 @@
       "id": "anthropics/skills/pdf",
       "title": "pdf",
       "source": "anthropics/skills",
-      "installs": 30399,
+      "installs": 30638,
       "link": "https://skills.sh/anthropics/skills/pdf",
       "providerId": "skills.sh",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
@@ -357,7 +357,7 @@
       "id": "supabase/agent-skills/supabase-postgres-best-practices",
       "title": "supabase-postgres-best-practices",
       "source": "supabase/agent-skills",
-      "installs": 29208,
+      "installs": 29355,
       "link": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices",
       "providerId": "skills.sh",
       "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
@@ -366,7 +366,7 @@
       "id": "coreyhaines31/marketingskills/copywriting",
       "title": "copywriting",
       "source": "coreyhaines31/marketingskills",
-      "installs": 28310,
+      "installs": 28531,
       "link": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
       "providerId": "skills.sh",
       "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro."
@@ -375,7 +375,7 @@
       "id": "vercel-labs/next-skills/next-best-practices",
       "title": "next-best-practices",
       "source": "vercel-labs/next-skills",
-      "installs": 27949,
+      "installs": 28127,
       "link": "https://skills.sh/vercel-labs/next-skills/next-best-practices",
       "providerId": "skills.sh",
       "description": "Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling"
@@ -384,7 +384,7 @@
       "id": "anthropics/skills/pptx",
       "title": "pptx",
       "source": "anthropics/skills",
-      "installs": 26160,
+      "installs": 26402,
       "link": "https://skills.sh/anthropics/skills/pptx",
       "providerId": "skills.sh",
       "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
@@ -393,7 +393,7 @@
       "id": "obra/superpowers/systematic-debugging",
       "title": "systematic-debugging",
       "source": "obra/superpowers",
-      "installs": 24125,
+      "installs": 24322,
       "link": "https://skills.sh/obra/superpowers/systematic-debugging",
       "providerId": "skills.sh",
       "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
@@ -402,7 +402,7 @@
       "id": "anthropics/skills/docx",
       "title": "docx",
       "source": "anthropics/skills",
-      "installs": 23577,
+      "installs": 23752,
       "link": "https://skills.sh/anthropics/skills/docx",
       "providerId": "skills.sh",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
@@ -411,7 +411,7 @@
       "id": "obra/superpowers/writing-plans",
       "title": "writing-plans",
       "source": "obra/superpowers",
-      "installs": 22240,
+      "installs": 22415,
       "link": "https://skills.sh/obra/superpowers/writing-plans",
       "providerId": "skills.sh",
       "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
@@ -420,7 +420,7 @@
       "id": "anthropics/skills/xlsx",
       "title": "xlsx",
       "source": "anthropics/skills",
-      "installs": 22145,
+      "installs": 22309,
       "link": "https://skills.sh/anthropics/skills/xlsx",
       "providerId": "skills.sh",
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
@@ -429,7 +429,7 @@
       "id": "coreyhaines31/marketingskills/marketing-psychology",
       "title": "marketing-psychology",
       "source": "coreyhaines31/marketingskills",
-      "installs": 20591,
+      "installs": 20730,
       "link": "https://skills.sh/coreyhaines31/marketingskills/marketing-psychology",
       "providerId": "skills.sh",
       "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
@@ -438,7 +438,7 @@
       "id": "zaddy6/agent-email-skill/agent-email-cli",
       "title": "agent-email-cli",
       "source": "zaddy6/agent-email-skill",
-      "installs": 20115,
+      "installs": 20136,
       "link": "https://skills.sh/zaddy6/agent-email-skill/agent-email-cli",
       "providerId": "skills.sh",
       "description": "Operate the agent-email CLI to create disposable inboxes, poll for new mail, retrieve full message details, and manage local mailbox profiles. Use when the user needs terminal-based email inbox access for LLM or agent automation workflows."
@@ -447,7 +447,7 @@
       "id": "obra/superpowers/test-driven-development",
       "title": "test-driven-development",
       "source": "obra/superpowers",
-      "installs": 19870,
+      "installs": 20039,
       "link": "https://skills.sh/obra/superpowers/test-driven-development",
       "providerId": "skills.sh",
       "description": "Use when implementing any feature or bugfix, before writing implementation code"
@@ -456,7 +456,7 @@
       "id": "anthropics/skills/webapp-testing",
       "title": "webapp-testing",
       "source": "anthropics/skills",
-      "installs": 19559,
+      "installs": 19705,
       "link": "https://skills.sh/anthropics/skills/webapp-testing",
       "providerId": "skills.sh",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
@@ -467,7 +467,7 @@
       "id": "sleekdotdesign/agent-skills/sleek-design-mobile-apps",
       "title": "sleek-design-mobile-apps",
       "source": "sleekdotdesign/agent-skills",
-      "installs": 13991,
+      "installs": 14083,
       "link": "https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps",
       "providerId": "skills.sh",
       "description": "Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests (\"design an app that does X\") and specific ones (\"list my projects\", \"create a new project\", \"screenshot that screen\")."
@@ -476,196 +476,43 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 12138,
+      "installs": 11883,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
     },
     {
-      "id": "microsoft/github-copilot-for-azure/azure-ai",
-      "title": "azure-ai",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3654,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-ai",
-      "providerId": "skills.sh",
-      "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech. DO NOT USE FOR: Function apps/Functions (use azure-functions), databases (azure-postgres/azure-kusto), general Azure resources."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-deploy",
-      "title": "azure-deploy",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3639,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy",
-      "providerId": "skills.sh",
-      "description": "Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.\nUSE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy container app, deploy static site, deploy Azure Functions, bicep deploy, terraform apply.\nDO NOT USE FOR: creating or building apps (use azure-prepare), validating before deploy (use azure-validate)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-storage",
-      "title": "azure-storage",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3633,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-storage",
-      "providerId": "skills.sh",
-      "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-cost-optimization",
-      "title": "azure-cost-optimization",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3629,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization",
-      "providerId": "skills.sh",
-      "description": "Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,\nutilization metrics, and generating actionable optimization recommendations. USE FOR:\noptimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,\nfind cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,\ncost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis\ncosts. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics\n(use azure-diagnostics), security issues (use azure-security)"
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-diagnostics",
-      "title": "azure-diagnostics",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3628,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics",
-      "providerId": "skills.sh",
-      "description": "Debug and troubleshoot production issues on Azure. Covers Container Apps diagnostics, log analysis with KQL, health checks, and common issue resolution for image pulls, cold starts, and health probes.\nUSE FOR: debug production issues, troubleshoot container apps, analyze logs with KQL, fix image pull failures, resolve cold start issues, investigate health probe failures, check resource health, view application logs, find root cause of errors\nDO NOT USE FOR: deploying applications (use azure-deploy), creating new resources (use azure-prepare), setting up monitoring (use azure-observability), cost optimization (use azure-cost-optimization)"
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/entra-app-registration",
-      "title": "entra-app-registration",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3626,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration",
-      "providerId": "skills.sh",
-      "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.\nUSE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication.\nDO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/microsoft-foundry",
-      "title": "microsoft-foundry",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3625,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry",
-      "providerId": "skills.sh",
-      "description": "Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy AI models from catalog, build RAG applications with knowledge indexes, create and evaluate AI agents, manage RBAC permissions and role assignments, manage quotas and capacity, create Foundry resources.\nUSE FOR: Microsoft Foundry, AI Foundry, deploy model, model catalog, RAG, knowledge index, create agent, evaluate agent, agent monitoring, create Foundry project, new Foundry project, set up Foundry, onboard to Foundry, provision Foundry infrastructure, create Foundry resource, create AI Services, multi-service resource, AIServices kind, register resource provider, enable Cognitive Services, setup AI Services account, create resource group for Foundry, RBAC, role assignment, managed identity, service principal, permissions, quota, capacity, TPM, deployment failure, QuotaExceeded.\nDO NOT USE FOR: Azure Functions (use azure-functions), App Service (use azure-create-app), generic Azure resource creation (use azure-create-app)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-rbac",
-      "title": "azure-rbac",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3622,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac",
-      "providerId": "skills.sh",
-      "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it.\nUSE FOR: \"what role should I assign\", \"least privilege role\", \"RBAC role for\", \"role to read blobs\", \"role for managed identity\", \"custom role definition\", \"assign role to identity\".\nDO NOT USE FOR: creating or configuring managed identities, or general Azure security hardening; those are out of scope for this role-selection skill."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-resource-visualizer",
-      "title": "azure-resource-visualizer",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3621,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer",
-      "providerId": "skills.sh",
-      "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.\nUSE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure\nDO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)"
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-compliance",
-      "title": "azure-compliance",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3621,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance",
-      "providerId": "skills.sh",
-      "description": "Comprehensive Azure compliance and security auditing capabilities including best practices assessment,\nKey Vault expiration monitoring, and resource configuration validation.\nUSE FOR: compliance scan, security audit, azqr, Azure best practices, Key Vault expiration check,\ncompliance assessment, resource review, configuration validation, expired certificates, expiring secrets,\norphaned resources, policy compliance, security posture evaluation.\nDO NOT USE FOR: deploying resources (use azure-deploy), cost analysis alone (use azure-cost-optimization),\nactive security hardening (use azure-security-hardening), general Azure Advisor queries (use azure-observability)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
-      "title": "appinsights-instrumentation",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3621,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation",
-      "providerId": "skills.sh",
-      "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references.\nUSE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.\nDO NOT USE FOR: adding App Insights to my app (use azure-prepare), add telemetry to my project (use azure-prepare), add monitoring (use azure-prepare). This skill provides guidance—azure-prepare orchestrates component changes."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-prepare",
-      "title": "azure-prepare",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3620,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare",
-      "providerId": "skills.sh",
-      "description": "Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment by generating infrastructure code (Bicep/Terraform), azure.yaml configuration, and Dockerfiles.\nUSE FOR: create an app, build a web app, create API, create frontend, create backend, add a feature, build a service, make an application, develop a project, migrate my app, modernize my code, update my application, add database, add authentication, add caching, deploy to Azure, host on Azure, Azure with Terraform (defaults to azd+Terraform), Azure with azd, generate azure.yaml, generate Bicep or Terraform, prepare Azure Functions.\nDO NOT USE FOR: only validating an already-prepared app (use azure-validate), only running azd up/deploy (use azure-deploy), pure Terraform without azd (prefer azd+Terraform)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-validate",
-      "title": "azure-validate",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3620,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-validate",
-      "providerId": "skills.sh",
-      "description": "Pre-deployment validation checkpoint. Run deep checks to ensure your application is ready for Azure deployment. Validates configuration, infrastructure, permissions, and prerequisites.\nUSE FOR: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors.\nDO NOT USE FOR: creating or building apps (use azure-prepare), executing deployments (use azure-deploy)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-kusto",
-      "title": "azure-kusto",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3620,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-kusto",
-      "providerId": "skills.sh",
-      "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis.\nUSE FOR: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection\nDO NOT USE FOR: SQL databases (use azure-postgres), NoSQL queries (use azure-storage), Elasticsearch, AWS analytics tools"
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-aigateway",
-      "title": "azure-aigateway",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3619,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway",
-      "providerId": "skills.sh",
-      "description": "Configure Azure API Management (APIM) as AI Gateway to secure, observe, control AI models, MCP servers, agents. Helps with rate limiting, semantic caching, content safety, load balancing.\nUSE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model gateway, MCP server, rate limit, token limit, semantic cache, content safety, load balance, OpenAPI import, convert API to MCP.\nDO NOT USE FOR: deploy models (use microsoft-foundry), Azure Functions (use azure-functions), databases (use azure-postgres)."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-resource-lookup",
-      "title": "azure-resource-lookup",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3618,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup",
-      "providerId": "skills.sh",
-      "description": "List, find, and show Azure resources. Answers \"list my VMs\", \"show my storage accounts\", \"list websites\",\n\"find container apps\", \"what resources do I have\", and similar queries for any Azure resource type.\nUSE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps,\nlist container apps, show resources, find resources, what resources do I have, list resources in resource group,\nlist resources in subscription, find resources by tag, find orphaned resources, resource inventory,\ncount resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery,\nlist container registries, list SQL servers, list Key Vaults, show resource groups, list app services,\nfind resources across subscriptions, find unattached disks, tag analysis.\nDO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources,\ncost optimization (use azure-cost-optimization), writing application code, non-Azure clouds."
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-messaging",
-      "title": "azure-messaging",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3454,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging",
-      "providerId": "skills.sh",
-      "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)"
-    },
-    {
-      "id": "microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
-      "title": "azure-hosted-copilot-sdk",
-      "source": "microsoft/github-copilot-for-azure",
-      "installs": 3180,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
-      "providerId": "skills.sh",
-      "description": "Build and deploy GitHub Copilot SDK apps to Azure. USE FOR: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, DefaultAzureCredential, self-hosted model, copilot SDK service, chat app with copilot, copilot-sdk-service template, azd init copilot, CopilotClient, createSession, sendAndWait, GitHub Models API. DO NOT USE FOR: using Copilot (not building with it), Copilot Extensions, Azure Functions without Copilot, general web apps without copilot SDK, Foundry agent hosting (use microsoft-foundry skill), agent evaluation (use microsoft-foundry skill)."
-    },
-    {
-      "id": "vercel-labs/agent-skills/vercel-react-best-practices",
-      "title": "vercel-react-best-practices",
-      "source": "vercel-labs/agent-skills",
-      "installs": 3176,
-      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
-      "providerId": "skills.sh",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
-    },
-    {
       "id": "toolshell/skills/agent-tools",
       "title": "agent-tools",
       "source": "toolshell/skills",
-      "installs": 3155,
+      "installs": 7920,
       "link": "https://skills.sh/toolshell/skills/agent-tools",
       "providerId": "skills.sh",
       "description": "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok"
     },
     {
+      "id": "shadcn/ui/shadcn",
+      "title": "shadcn",
+      "source": "shadcn/ui",
+      "installs": 3179,
+      "link": "https://skills.sh/shadcn/ui/shadcn",
+      "providerId": "skills.sh",
+      "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\"."
+    },
+    {
+      "id": "vercel-labs/agent-skills/vercel-react-best-practices",
+      "title": "vercel-react-best-practices",
+      "source": "vercel-labs/agent-skills",
+      "installs": 3025,
+      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "providerId": "skills.sh",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+    },
+    {
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 3068,
+      "installs": 2896,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
@@ -674,61 +521,187 @@
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 2747,
+      "installs": 2690,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
     },
     {
-      "id": "microsoft/github-copilot-for-azure/azure-compute",
-      "title": "azure-compute",
+      "id": "microsoft/github-copilot-for-azure/azure-ai",
+      "title": "azure-ai",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 2565,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compute",
+      "installs": 2298,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-ai",
       "providerId": "skills.sh",
-      "description": "Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. USE FOR: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration. DO NOT USE FOR: deploying VMs or VMSS, deploying apps (use azure-deploy), looking up existing VMs (use azure-resource-lookup), cost optimization of running VMs (use azure-cost-optimization), non-VM services like App Service or AKS."
+      "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech. DO NOT USE FOR: Function apps/Functions (use azure-functions), databases (azure-postgres/azure-kusto), general Azure resources."
     },
     {
-      "id": "shadcn/ui/shadcn",
-      "title": "shadcn",
-      "source": "shadcn/ui",
-      "installs": 2429,
-      "link": "https://skills.sh/shadcn/ui/shadcn",
+      "id": "microsoft/github-copilot-for-azure/azure-deploy",
+      "title": "azure-deploy",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2283,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy",
       "providerId": "skills.sh",
-      "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\"."
+      "description": "Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.\nUSE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy container app, deploy static site, deploy Azure Functions, bicep deploy, terraform apply.\nDO NOT USE FOR: creating or building apps (use azure-prepare), validating before deploy (use azure-validate)."
     },
     {
-      "id": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
-      "title": "azure-cloud-migrate",
+      "id": "microsoft/github-copilot-for-azure/azure-storage",
+      "title": "azure-storage",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 2256,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate",
+      "installs": 2281,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-storage",
       "providerId": "skills.sh",
-      "description": "Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: \"migrate Lambda to Azure Functions\", \"migrate AWS to Azure\", \"Lambda migration assessment\", \"convert AWS serverless to Azure\", \"migration readiness report\", \"migrate from AWS\", \"migrate from GCP\", \"cross-cloud migration\"."
+      "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-cost-optimization",
+      "title": "azure-cost-optimization",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2278,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization",
+      "providerId": "skills.sh",
+      "description": "Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,\nutilization metrics, and generating actionable optimization recommendations. USE FOR:\noptimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,\nfind cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,\ncost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis\ncosts. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics\n(use azure-diagnostics), security issues (use azure-security)"
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-diagnostics",
+      "title": "azure-diagnostics",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2278,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics",
+      "providerId": "skills.sh",
+      "description": "Debug and troubleshoot production issues on Azure. Covers Container Apps diagnostics, log analysis with KQL, health checks, and common issue resolution for image pulls, cold starts, and health probes.\nUSE FOR: debug production issues, troubleshoot container apps, analyze logs with KQL, fix image pull failures, resolve cold start issues, investigate health probe failures, check resource health, view application logs, find root cause of errors\nDO NOT USE FOR: deploying applications (use azure-deploy), creating new resources (use azure-prepare), setting up monitoring (use azure-observability), cost optimization (use azure-cost-optimization)"
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/entra-app-registration",
+      "title": "entra-app-registration",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2274,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration",
+      "providerId": "skills.sh",
+      "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.\nUSE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication.\nDO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security)."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/microsoft-foundry",
+      "title": "microsoft-foundry",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2273,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry",
+      "providerId": "skills.sh",
+      "description": "Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy AI models from catalog, build RAG applications with knowledge indexes, create and evaluate AI agents, manage RBAC permissions and role assignments, manage quotas and capacity, create Foundry resources.\nUSE FOR: Microsoft Foundry, AI Foundry, deploy model, model catalog, RAG, knowledge index, create agent, evaluate agent, agent monitoring, create Foundry project, new Foundry project, set up Foundry, onboard to Foundry, provision Foundry infrastructure, create Foundry resource, create AI Services, multi-service resource, AIServices kind, register resource provider, enable Cognitive Services, setup AI Services account, create resource group for Foundry, RBAC, role assignment, managed identity, service principal, permissions, quota, capacity, TPM, deployment failure, QuotaExceeded.\nDO NOT USE FOR: Azure Functions (use azure-functions), App Service (use azure-create-app), generic Azure resource creation (use azure-create-app)."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-compliance",
+      "title": "azure-compliance",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2271,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance",
+      "providerId": "skills.sh",
+      "description": "Comprehensive Azure compliance and security auditing capabilities including best practices assessment,\nKey Vault expiration monitoring, and resource configuration validation.\nUSE FOR: compliance scan, security audit, azqr, Azure best practices, Key Vault expiration check,\ncompliance assessment, resource review, configuration validation, expired certificates, expiring secrets,\norphaned resources, policy compliance, security posture evaluation.\nDO NOT USE FOR: deploying resources (use azure-deploy), cost analysis alone (use azure-cost-optimization),\nactive security hardening (use azure-security-hardening), general Azure Advisor queries (use azure-observability)."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
+      "title": "appinsights-instrumentation",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2271,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation",
+      "providerId": "skills.sh",
+      "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references.\nUSE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.\nDO NOT USE FOR: adding App Insights to my app (use azure-prepare), add telemetry to my project (use azure-prepare), add monitoring (use azure-prepare). This skill provides guidance—azure-prepare orchestrates component changes."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-aigateway",
+      "title": "azure-aigateway",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2270,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway",
+      "providerId": "skills.sh",
+      "description": "Configure Azure API Management (APIM) as AI Gateway to secure, observe, control AI models, MCP servers, agents. Helps with rate limiting, semantic caching, content safety, load balancing.\nUSE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model gateway, MCP server, rate limit, token limit, semantic cache, content safety, load balance, OpenAPI import, convert API to MCP.\nDO NOT USE FOR: deploy models (use microsoft-foundry), Azure Functions (use azure-functions), databases (use azure-postgres)."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-rbac",
+      "title": "azure-rbac",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2269,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac",
+      "providerId": "skills.sh",
+      "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it.\nUSE FOR: \"what role should I assign\", \"least privilege role\", \"RBAC role for\", \"role to read blobs\", \"role for managed identity\", \"custom role definition\", \"assign role to identity\".\nDO NOT USE FOR: creating or configuring managed identities, or general Azure security hardening; those are out of scope for this role-selection skill."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-resource-visualizer",
+      "title": "azure-resource-visualizer",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2269,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer",
+      "providerId": "skills.sh",
+      "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.\nUSE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure\nDO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)"
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-prepare",
+      "title": "azure-prepare",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2269,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare",
+      "providerId": "skills.sh",
+      "description": "Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment by generating infrastructure code (Bicep/Terraform), azure.yaml configuration, and Dockerfiles.\nUSE FOR: create an app, build a web app, create API, create frontend, create backend, add a feature, build a service, make an application, develop a project, migrate my app, modernize my code, update my application, add database, add authentication, add caching, deploy to Azure, host on Azure, Azure with Terraform (defaults to azd+Terraform), Azure with azd, generate azure.yaml, generate Bicep or Terraform, prepare Azure Functions.\nDO NOT USE FOR: only validating an already-prepared app (use azure-validate), only running azd up/deploy (use azure-deploy), pure Terraform without azd (prefer azd+Terraform)."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-validate",
+      "title": "azure-validate",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2269,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-validate",
+      "providerId": "skills.sh",
+      "description": "Pre-deployment validation checkpoint. Run deep checks to ensure your application is ready for Azure deployment. Validates configuration, infrastructure, permissions, and prerequisites.\nUSE FOR: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors.\nDO NOT USE FOR: creating or building apps (use azure-prepare), executing deployments (use azure-deploy)."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-kusto",
+      "title": "azure-kusto",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2268,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-kusto",
+      "providerId": "skills.sh",
+      "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis.\nUSE FOR: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection\nDO NOT USE FOR: SQL databases (use azure-postgres), NoSQL queries (use azure-storage), Elasticsearch, AWS analytics tools"
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-resource-lookup",
+      "title": "azure-resource-lookup",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2265,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup",
+      "providerId": "skills.sh",
+      "description": "List, find, and show Azure resources. Answers \"list my VMs\", \"show my storage accounts\", \"list websites\",\n\"find container apps\", \"what resources do I have\", and similar queries for any Azure resource type.\nUSE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps,\nlist container apps, show resources, find resources, what resources do I have, list resources in resource group,\nlist resources in subscription, find resources by tag, find orphaned resources, resource inventory,\ncount resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery,\nlist container registries, list SQL servers, list Key Vaults, show resource groups, list app services,\nfind resources across subscriptions, find unattached disks, tag analysis.\nDO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources,\ncost optimization (use azure-cost-optimization), writing application code, non-Azure clouds."
+    },
+    {
+      "id": "microsoft/github-copilot-for-azure/azure-messaging",
+      "title": "azure-messaging",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 2167,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging",
+      "providerId": "skills.sh",
+      "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. USE FOR: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter DO NOT USE FOR: creating Event Hub or Service Bus resources (use azure-prepare), monitoring metrics (use azure-observability), cost analysis (use azure-cost-optimization)"
     },
     {
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 2031,
+      "installs": 2019,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
     },
     {
-      "id": "microsoft/github-copilot-for-azure/azure-observability",
-      "title": "azure-observability",
+      "id": "microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
+      "title": "azure-hosted-copilot-sdk",
       "source": "microsoft/github-copilot-for-azure",
-      "installs": 1860,
-      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-observability",
+      "installs": 1962,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
       "providerId": "skills.sh",
-      "description": "Azure Observability Services including Azure Monitor, Application Insights, Log Analytics, Alerts, and Workbooks. Provides metrics, APM, distributed tracing, KQL queries, and interactive reports."
+      "description": "Build and deploy GitHub Copilot SDK apps to Azure. USE FOR: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, DefaultAzureCredential, self-hosted model, copilot SDK service, chat app with copilot, copilot-sdk-service template, azd init copilot, CopilotClient, createSession, sendAndWait, GitHub Models API. DO NOT USE FOR: using Copilot (not building with it), Copilot Extensions, Azure Functions without Copilot, general web apps without copilot SDK, Foundry agent hosting (use microsoft-foundry skill), agent evaluation (use microsoft-foundry skill)."
     },
     {
       "id": "remotion-dev/skills/remotion-best-practices",
       "title": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "installs": 1850,
+      "installs": 1802,
       "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "providerId": "skills.sh",
       "description": "Best practices for Remotion - Video creation in React"
@@ -737,70 +710,97 @@
       "id": "anthropics/skills/skill-creator",
       "title": "skill-creator",
       "source": "anthropics/skills",
-      "installs": 1786,
+      "installs": 1652,
       "link": "https://skills.sh/anthropics/skills/skill-creator",
       "providerId": "skills.sh",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations."
     },
     {
+      "id": "microsoft/github-copilot-for-azure/azure-compute",
+      "title": "azure-compute",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 1612,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compute",
+      "providerId": "skills.sh",
+      "description": "Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. USE FOR: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration. DO NOT USE FOR: deploying VMs or VMSS, deploying apps (use azure-deploy), looking up existing VMs (use azure-resource-lookup), cost optimization of running VMs (use azure-cost-optimization), non-VM services like App Service or AKS."
+    },
+    {
+      "id": "pexoai/pexo-skills/videoagent-video-studio",
+      "title": "videoagent-video-studio",
+      "source": "pexoai/pexo-skills",
+      "installs": 1577,
+      "link": "https://skills.sh/pexoai/pexo-skills/videoagent-video-studio",
+      "providerId": "skills.sh",
+      "description": "Generate short AI videos from text or images — text-to-video, image-to-video, and reference-based generation — with zero API key setup. Use when the user wants to create a video clip, animate an image, or generate video from a description."
+    },
+    {
       "id": "am-will/codex-skills/context7",
       "title": "context7",
       "source": "am-will/codex-skills",
-      "installs": 1567,
+      "installs": 1470,
       "link": "https://skills.sh/am-will/codex-skills/context7",
       "providerId": "skills.sh",
       "description": "Fetch up-to-date library documentation via Context7 API. Use PROACTIVELY when:\n(1) Working with ANY external library (React, Next.js, Supabase, etc.)\n(2) User asks about library APIs, patterns, or best practices\n(3) Implementing features that rely on third-party packages\n(4) Debugging library-specific issues\n(5) Need current documentation beyond training data cutoff\n(6) AND MOST IMPORTANTLY, when you are installing dependencies, libraries, or frameworks you should ALWAYS check the docs to see what the latest versions are. Do not rely on outdated knowledge.\nAlways prefer this over guessing library APIs or using outdated knowledge."
     },
     {
+      "id": "pexoai/pexo-skills/videoagent-image-studio",
+      "title": "videoagent-image-studio",
+      "source": "pexoai/pexo-skills",
+      "installs": 1460,
+      "link": "https://skills.sh/pexoai/pexo-skills/videoagent-image-studio",
+      "providerId": "skills.sh",
+      "description": "Tired of juggling 8 API keys? This skill gives you one-command access to Midjourney, Flux, Ideogram, and more, with zero setup. Use when you want to generate any image without worrying about API keys."
+    },
+    {
       "id": "am-will/codex-skills/planner",
       "title": "planner",
       "source": "am-will/codex-skills",
-      "installs": 1533,
+      "installs": 1449,
       "link": "https://skills.sh/am-will/codex-skills/planner",
       "providerId": "skills.sh",
       "description": "Create comprehensive, phased implementation plans with sprints and atomic tasks. Use when user says: \"make a plan\", \"create a plan\", \"plan this out\", \"plan the implementation\", \"help me plan\", \"design a plan\", \"draft a plan\", \"write a plan\", \"outline the steps\", \"break this down into tasks\", \"what's the plan for\", or any similar planning request. Also triggers on explicit \"/planner\" or \"/plan\" commands."
     },
     {
-      "id": "am-will/codex-skills/frontend-design",
-      "title": "frontend-design",
-      "source": "am-will/codex-skills",
-      "installs": 1531,
-      "link": "https://skills.sh/am-will/codex-skills/frontend-design",
-      "providerId": "skills.sh",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics."
-    },
-    {
       "id": "am-will/codex-skills/read-github",
       "title": "read-github",
       "source": "am-will/codex-skills",
-      "installs": 1515,
+      "installs": 1442,
       "link": "https://skills.sh/am-will/codex-skills/read-github",
       "providerId": "skills.sh",
       "description": "Read and search GitHub repository documentation via gitmcp.io MCP service.\n\n**WHEN TO USE:**\n- User provides a GitHub URL\n- User mentions a specific repo in owner/repo format\n- User asks \"what does this repo do?\", \"read the docs for X repo\", or similar\n- User wants to search code or docs within a repo"
     },
     {
+      "id": "am-will/codex-skills/frontend-design",
+      "title": "frontend-design",
+      "source": "am-will/codex-skills",
+      "installs": 1441,
+      "link": "https://skills.sh/am-will/codex-skills/frontend-design",
+      "providerId": "skills.sh",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics."
+    },
+    {
       "id": "am-will/codex-skills/tdd-test-writer",
       "title": "tdd-test-writer",
       "source": "am-will/codex-skills",
-      "installs": 1507,
+      "installs": 1427,
       "link": "https://skills.sh/am-will/codex-skills/tdd-test-writer",
       "providerId": "skills.sh",
       "description": "Writes failing tests first for test-driven development and hands off a strict implementation contract that requires agents to make those tests pass without weakening the tests. Use when users ask for test-first workflows, RED/GREEN cycles, or behavior-gating tasks with automated tests."
     },
     {
-      "id": "am-will/codex-skills/openai-docs-skill",
-      "title": "openai-docs-skill",
-      "source": "am-will/codex-skills",
-      "installs": 1505,
-      "link": "https://skills.sh/am-will/codex-skills/openai-docs-skill",
+      "id": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
+      "title": "azure-cloud-migrate",
+      "source": "microsoft/github-copilot-for-azure",
+      "installs": 1423,
+      "link": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate",
       "providerId": "skills.sh",
-      "description": "Query the OpenAI developer documentation via the OpenAI Docs MCP server using CLI (curl/jq). Use whenever a task involves the OpenAI API (Responses, Chat Completions, Realtime, etc.), OpenAI SDKs, ChatGPT Apps SDK, Codex, MCP integrations, endpoint schemas, parameters, limits, or migrations and you need up-to-date official guidance."
+      "description": "Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: \"migrate Lambda to Azure Functions\", \"migrate AWS to Azure\", \"Lambda migration assessment\", \"convert AWS serverless to Azure\", \"migration readiness report\", \"migrate from AWS\", \"migrate from GCP\", \"cross-cloud migration\"."
     },
     {
       "id": "am-will/codex-skills/parallel-task",
       "title": "parallel-task",
       "source": "am-will/codex-skills",
-      "installs": 1503,
+      "installs": 1423,
       "link": "https://skills.sh/am-will/codex-skills/parallel-task",
       "providerId": "skills.sh",
       "description": "Execute plan files by launching multiple parallel subagents to complete tasks simultaneously. Triggers on explicit \"/parallel-task\" commands."
@@ -809,34 +809,34 @@
       "id": "am-will/codex-skills/plan-harder",
       "title": "plan-harder",
       "source": "am-will/codex-skills",
-      "installs": 1501,
+      "installs": 1421,
       "link": "https://skills.sh/am-will/codex-skills/plan-harder",
       "providerId": "skills.sh",
       "description": "Use when user specfically says 'plan harder'."
     },
     {
-      "id": "am-will/codex-skills/vercel-react-best-practices",
-      "title": "vercel-react-best-practices",
+      "id": "am-will/codex-skills/openai-docs-skill",
+      "title": "openai-docs-skill",
       "source": "am-will/codex-skills",
-      "installs": 1495,
-      "link": "https://skills.sh/am-will/codex-skills/vercel-react-best-practices",
+      "installs": 1417,
+      "link": "https://skills.sh/am-will/codex-skills/openai-docs-skill",
       "providerId": "skills.sh",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+      "description": "Query the OpenAI developer documentation via the OpenAI Docs MCP server using CLI (curl/jq). Use whenever a task involves the OpenAI API (Responses, Chat Completions, Realtime, etc.), OpenAI SDKs, ChatGPT Apps SDK, Codex, MCP integrations, endpoint schemas, parameters, limits, or migrations and you need up-to-date official guidance."
     },
     {
-      "id": "am-will/codex-skills/llm-council",
-      "title": "llm-council",
+      "id": "am-will/codex-skills/swarm-planner",
+      "title": "swarm-planner",
       "source": "am-will/codex-skills",
-      "installs": 1494,
-      "link": "https://skills.sh/am-will/codex-skills/llm-council",
+      "installs": 1413,
+      "link": "https://skills.sh/am-will/codex-skills/swarm-planner",
       "providerId": "skills.sh",
-      "description": "Orchestrate a configurable, multi-member CLI planning council (Codex, Claude Code, Gemini, OpenCode, or custom) to produce independent implementation plans, anonymize and randomize them, then judge and merge into one final plan. Use when you need a robust, bias-resistant planning workflow, structured JSON outputs, retries, and failure handling across multiple CLI agents."
+      "description": "[EXPLICIT INVOCATION ONLY] Creates dependency-aware implementation plans optimized for parallel multi-agent execution."
     },
     {
       "id": "am-will/codex-skills/gemini-computer-use",
       "title": "gemini-computer-use",
       "source": "am-will/codex-skills",
-      "installs": 1494,
+      "installs": 1413,
       "link": "https://skills.sh/am-will/codex-skills/gemini-computer-use",
       "providerId": "skills.sh",
       "description": "Build and run Gemini 2.5 Computer Use browser-control agents with Playwright. Use when a user wants to automate web browser tasks via the Gemini Computer Use model, needs an agent loop (screenshot → function_call → action → function_response), or asks to integrate safety confirmation for risky UI actions."
@@ -845,7 +845,7 @@
       "id": "am-will/codex-skills/markdown-url",
       "title": "markdown-url",
       "source": "am-will/codex-skills",
-      "installs": 1494,
+      "installs": 1413,
       "link": "https://skills.sh/am-will/codex-skills/markdown-url",
       "providerId": "skills.sh",
       "description": "Route any website you need to visit through markdown.new by prefixing the URL.\n\n**WHEN TO USE:**\n- You would normally open a website link to read content (docs, blog posts, changelogs, GitHub issues, etc.)\n- You need a cleaner, Markdown-friendly view for copying notes or summarizing"
@@ -854,64 +854,64 @@
       "id": "am-will/codex-skills/agent-browser",
       "title": "agent browser",
       "source": "am-will/codex-skills",
-      "installs": 1493,
+      "installs": 1411,
       "link": "https://skills.sh/am-will/codex-skills/agent-browser",
       "providerId": "skills.sh",
       "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands."
     },
     {
-      "id": "am-will/codex-skills/swarm-planner",
-      "title": "swarm-planner",
+      "id": "am-will/codex-skills/vercel-react-best-practices",
+      "title": "vercel-react-best-practices",
       "source": "am-will/codex-skills",
-      "installs": 1490,
-      "link": "https://skills.sh/am-will/codex-skills/swarm-planner",
+      "installs": 1411,
+      "link": "https://skills.sh/am-will/codex-skills/vercel-react-best-practices",
       "providerId": "skills.sh",
-      "description": "[EXPLICIT INVOCATION ONLY] Creates dependency-aware implementation plans optimized for parallel multi-agent execution."
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
     },
     {
-      "id": "am-will/codex-skills/role-creator",
-      "title": "role-creator",
+      "id": "am-will/codex-skills/llm-council",
+      "title": "llm-council",
       "source": "am-will/codex-skills",
-      "installs": 1487,
-      "link": "https://skills.sh/am-will/codex-skills/role-creator",
+      "installs": 1410,
+      "link": "https://skills.sh/am-will/codex-skills/llm-council",
       "providerId": "skills.sh",
-      "description": "Create and install Codex custom agent roles in ~/.codex/config.toml, generate role config files, enforce supported keys, and guide users through required role inputs (model, reasoning effort, developer_instructions)."
-    },
-    {
-      "id": "am-will/codex-skills/parallel-task-spark",
-      "title": "parallel-task-spark",
-      "source": "am-will/codex-skills",
-      "installs": 1486,
-      "link": "https://skills.sh/am-will/codex-skills/parallel-task-spark",
-      "providerId": "skills.sh",
-      "description": "Only to be triggered by explicit /parallel-task-spark commands."
+      "description": "Orchestrate a configurable, multi-member CLI planning council (Codex, Claude Code, Gemini, OpenCode, or custom) to produce independent implementation plans, anonymize and randomize them, then judge and merge into one final plan. Use when you need a robust, bias-resistant planning workflow, structured JSON outputs, retries, and failure handling across multiple CLI agents."
     },
     {
       "id": "am-will/codex-skills/super-swarm-spark",
       "title": "super-swarm-spark",
       "source": "am-will/codex-skills",
-      "installs": 1486,
+      "installs": 1404,
       "link": "https://skills.sh/am-will/codex-skills/super-swarm-spark",
       "providerId": "skills.sh",
       "description": "Only to be triggered by explicit super-swarm-spark commands."
     },
     {
-      "id": "pexoai/pexo-skills/videoagent-image-studio",
-      "title": "videoagent-image-studio",
-      "source": "pexoai/pexo-skills",
-      "installs": 1456,
-      "link": "https://skills.sh/pexoai/pexo-skills/videoagent-image-studio",
+      "id": "am-will/codex-skills/parallel-task-spark",
+      "title": "parallel-task-spark",
+      "source": "am-will/codex-skills",
+      "installs": 1403,
+      "link": "https://skills.sh/am-will/codex-skills/parallel-task-spark",
       "providerId": "skills.sh",
-      "description": "Tired of juggling 8 API keys? This skill gives you one-command access to Midjourney, Flux, Ideogram, and more, with zero setup. Use when you want to generate any image without worrying about API keys."
+      "description": "Only to be triggered by explicit /parallel-task-spark commands."
     },
     {
-      "id": "imbue-ai/vet/vet",
-      "title": "vet",
-      "source": "imbue-ai/vet",
-      "installs": 1446,
-      "link": "https://skills.sh/imbue-ai/vet/vet",
+      "id": "am-will/codex-skills/role-creator",
+      "title": "role-creator",
+      "source": "am-will/codex-skills",
+      "installs": 1402,
+      "link": "https://skills.sh/am-will/codex-skills/role-creator",
       "providerId": "skills.sh",
-      "description": "Run vet immediately after ANY logical unit of code changes. Do not batch your changes, do not wait to be asked to run vet, make sure you are proactive."
+      "description": "Create and install Codex custom agent roles in ~/.codex/config.toml, generate role config files, enforce supported keys, and guide users through required role inputs (model, reasoning effort, developer_instructions)."
+    },
+    {
+      "id": "supercent-io/skills-template/security-best-practices",
+      "title": "security-best-practices",
+      "source": "supercent-io/skills-template",
+      "installs": 1360,
+      "link": "https://skills.sh/supercent-io/skills-template/security-best-practices",
+      "providerId": "skills.sh",
+      "description": "Implement security best practices for web applications and infrastructure. Use when securing APIs, preventing common vulnerabilities, or implementing security policies. Handles HTTPS, CORS, XSS, SQL Injection, CSRF, rate limiting, and OWASP Top 10."
     }
   ],
   "topHot": [
@@ -919,304 +919,88 @@
       "id": "toolshell/skills/agent-tools",
       "title": "agent-tools",
       "source": "toolshell/skills",
-      "installs": 1119,
+      "installs": 596,
       "link": "https://skills.sh/toolshell/skills/agent-tools",
       "providerId": "skills.sh",
       "description": "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok"
     },
     {
-      "id": "toolshell/skills/python-sdk",
-      "title": "python-sdk",
-      "source": "toolshell/skills",
-      "installs": 159,
-      "link": "https://skills.sh/toolshell/skills/python-sdk",
-      "providerId": "skills.sh",
-      "description": "Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python"
-    },
-    {
       "id": "pexoai/pexo-skills/videoagent-video-studio",
       "title": "videoagent-video-studio",
       "source": "pexoai/pexo-skills",
-      "installs": 150,
+      "installs": 151,
       "link": "https://skills.sh/pexoai/pexo-skills/videoagent-video-studio",
       "providerId": "skills.sh",
       "description": "Generate short AI videos from text or images — text-to-video, image-to-video, and reference-based generation — with zero API key setup. Use when the user wants to create a video clip, animate an image, or generate video from a description."
     },
     {
-      "id": "toolshell/skills/javascript-sdk",
-      "title": "javascript-sdk",
-      "source": "toolshell/skills",
-      "installs": 144,
-      "link": "https://skills.sh/toolshell/skills/javascript-sdk",
-      "providerId": "skills.sh",
-      "description": "JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration"
-    },
-    {
       "id": "toolshell/skills/widgets-ui",
       "title": "widgets-ui",
       "source": "toolshell/skills",
-      "installs": 131,
+      "installs": 88,
       "link": "https://skills.sh/toolshell/skills/widgets-ui",
       "providerId": "skills.sh",
       "description": "Declarative UI widgets from JSON for React/Next.js from ui.inference.sh. Render rich interactive UIs from structured agent responses. Capabilities: forms, buttons, cards, layouts, inputs, selects, checkboxes. Use for: agent-generated UIs, dynamic forms, data display, interactive cards. Triggers: widgets, declarative ui, json ui, widget renderer, agent widgets, dynamic ui, form widgets, card widgets, shadcn widgets, structured output ui"
     },
     {
-      "id": "toolshell/skills/chat-ui",
-      "title": "chat-ui",
+      "id": "toolshell/skills/javascript-sdk",
+      "title": "javascript-sdk",
       "source": "toolshell/skills",
-      "installs": 126,
-      "link": "https://skills.sh/toolshell/skills/chat-ui",
+      "installs": 79,
+      "link": "https://skills.sh/toolshell/skills/javascript-sdk",
       "providerId": "skills.sh",
-      "description": "Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicators, avatars. Capabilities: chat interfaces, message lists, input handling, streaming. Use for: building custom chat UIs, messaging interfaces, AI assistants. Triggers: chat ui, chat component, message list, chat input, shadcn chat,  react chat, chat interface, messaging ui, conversation ui, chat building blocks"
-    },
-    {
-      "id": "shadcn/ui/shadcn",
-      "title": "shadcn",
-      "source": "shadcn/ui",
-      "installs": 123,
-      "link": "https://skills.sh/shadcn/ui/shadcn",
-      "providerId": "skills.sh",
-      "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\"."
-    },
-    {
-      "id": "toolshell/skills/agent-ui",
-      "title": "agent-ui",
-      "source": "toolshell/skills",
-      "installs": 117,
-      "link": "https://skills.sh/toolshell/skills/agent-ui",
-      "providerId": "skills.sh",
-      "description": "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS copilots, assistants. Triggers: agent component, agent ui, chat agent, shadcn agent, react agent,  agentic ui, ai assistant ui, copilot ui, inference ui, human in the loop"
+      "description": "JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration"
     },
     {
       "id": "toolshell/skills/tools-ui",
       "title": "tools-ui",
       "source": "toolshell/skills",
-      "installs": 116,
+      "installs": 75,
       "link": "https://skills.sh/toolshell/skills/tools-ui",
       "providerId": "skills.sh",
       "description": "Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval required, results. Capabilities: tool status, progress indicators, approval flows, results display. Use for: showing agent tool calls, human-in-the-loop approvals, tool output. Triggers: tool ui, tool calls, tool status, tool approval, tool results, agent tools, mcp tools ui, function calling ui, tool lifecycle, tool pending"
     },
     {
-      "id": "jimliu/baoyu-skills/baoyu-post-to-wechat",
-      "title": "baoyu-post-to-wechat",
-      "source": "jimliu/baoyu-skills",
-      "installs": 55,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat",
+      "id": "toolshell/skills/python-sdk",
+      "title": "python-sdk",
+      "source": "toolshell/skills",
+      "installs": 75,
+      "link": "https://skills.sh/toolshell/skills/python-sdk",
       "providerId": "skills.sh",
-      "description": "Posts content to WeChat Official Account (微信公众号) via Chrome CDP automation. Supports article posting (文章) with full markdown formatting and image-text posting (图文) with multiple images. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"图文/文章\"."
+      "description": "Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python"
     },
     {
-      "id": "jimliu/baoyu-skills/baoyu-xhs-images",
-      "title": "baoyu-xhs-images",
-      "source": "jimliu/baoyu-skills",
-      "installs": 50,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images",
+      "id": "toolshell/skills/chat-ui",
+      "title": "chat-ui",
+      "source": "toolshell/skills",
+      "installs": 67,
+      "link": "https://skills.sh/toolshell/skills/chat-ui",
       "providerId": "skills.sh",
-      "description": "Generates Xiaohongshu (Little Red Book) infographic series with 9 visual styles and 6 layouts. Breaks content into 1-10 cartoon-style images optimized for XHS engagement. Use when user mentions \"小红书图片\", \"XHS images\", \"RedNote infographics\", \"小红书种草\", or wants social media infographics for Chinese platforms."
+      "description": "Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicators, avatars. Capabilities: chat interfaces, message lists, input handling, streaming. Use for: building custom chat UIs, messaging interfaces, AI assistants. Triggers: chat ui, chat component, message list, chat input, shadcn chat,  react chat, chat interface, messaging ui, conversation ui, chat building blocks"
     },
     {
-      "id": "jimliu/baoyu-skills/baoyu-post-to-weibo",
-      "title": "baoyu-post-to-weibo",
-      "source": "jimliu/baoyu-skills",
-      "installs": 43,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-weibo",
+      "id": "toolshell/skills/agent-ui",
+      "title": "agent-ui",
+      "source": "toolshell/skills",
+      "installs": 65,
+      "link": "https://skills.sh/toolshell/skills/agent-ui",
       "providerId": "skills.sh",
-      "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-image-gen",
-      "title": "baoyu-image-gen",
-      "source": "jimliu/baoyu-skills",
-      "installs": 57,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen",
-      "providerId": "skills.sh",
-      "description": "AI image generation with OpenAI and Google APIs. Supports text-to-image, reference images, aspect ratios, and parallel generation (recommended 4 concurrent subagents). Use when user asks to generate, create, or draw images."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-cover-image",
-      "title": "baoyu-cover-image",
-      "source": "jimliu/baoyu-skills",
-      "installs": 50,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image",
-      "providerId": "skills.sh",
-      "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 9 color palettes and 6 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", \"make cover\", or mentions \"封面图\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-article-illustrator",
-      "title": "baoyu-article-illustrator",
-      "source": "jimliu/baoyu-skills",
-      "installs": 48,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator",
-      "providerId": "skills.sh",
-      "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-slide-deck",
-      "title": "baoyu-slide-deck",
-      "source": "jimliu/baoyu-skills",
-      "installs": 47,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-slide-deck",
-      "providerId": "skills.sh",
-      "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-comic",
-      "title": "baoyu-comic",
-      "source": "jimliu/baoyu-skills",
-      "installs": 44,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-comic",
-      "providerId": "skills.sh",
-      "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-post-to-x",
-      "title": "baoyu-post-to-x",
-      "source": "jimliu/baoyu-skills",
-      "installs": 44,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-x",
-      "providerId": "skills.sh",
-      "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\"."
-    },
-    {
-      "id": "vercel-labs/agent-skills/deploy-to-vercel",
-      "title": "deploy-to-vercel",
-      "source": "vercel-labs/agent-skills",
-      "installs": 36,
-      "link": "https://skills.sh/vercel-labs/agent-skills/deploy-to-vercel",
-      "providerId": "skills.sh",
-      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-infographic",
-      "title": "baoyu-infographic",
-      "source": "jimliu/baoyu-skills",
-      "installs": 44,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-infographic",
-      "providerId": "skills.sh",
-      "description": "Generates professional infographics with 20 layout types and 17 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", or \"可视化\"."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-url-to-markdown",
-      "title": "baoyu-url-to-markdown",
-      "source": "jimliu/baoyu-skills",
-      "installs": 43,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown",
-      "providerId": "skills.sh",
-      "description": "Fetch any URL and convert to markdown using Chrome CDP. Supports two modes - auto-capture on page load, or wait for user signal (for pages requiring login). Use when user wants to save a webpage as markdown."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-danger-gemini-web",
-      "title": "baoyu-danger-gemini-web",
-      "source": "jimliu/baoyu-skills",
-      "installs": 41,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-danger-gemini-web",
-      "providerId": "skills.sh",
-      "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-markdown-to-html",
-      "title": "baoyu-markdown-to-html",
-      "source": "jimliu/baoyu-skills",
-      "installs": 41,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-markdown-to-html",
-      "providerId": "skills.sh",
-      "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, and infographics. Use when user asks for \"markdown to html\", \"convert md to html\", \"md转html\", or needs styled HTML output from markdown."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-format-markdown",
-      "title": "baoyu-format-markdown",
-      "source": "jimliu/baoyu-skills",
-      "installs": 40,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-format-markdown",
-      "providerId": "skills.sh",
-      "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-compress-image",
-      "title": "baoyu-compress-image",
-      "source": "jimliu/baoyu-skills",
-      "installs": 40,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-compress-image",
-      "providerId": "skills.sh",
-      "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size."
-    },
-    {
-      "id": "jimliu/baoyu-skills/baoyu-danger-x-to-markdown",
-      "title": "baoyu-danger-x-to-markdown",
-      "source": "jimliu/baoyu-skills",
-      "installs": 39,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown",
-      "providerId": "skills.sh",
-      "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion."
+      "description": "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS copilots, assistants. Triggers: agent component, agent ui, chat agent, shadcn agent, react agent,  agentic ui, ai assistant ui, copilot ui, inference ui, human in the loop"
     },
     {
       "id": "pbakaus/impeccable/frontend-design",
       "title": "frontend-design",
       "source": "pbakaus/impeccable",
-      "installs": 51,
+      "installs": 41,
       "link": "https://skills.sh/pbakaus/impeccable/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications. Generates creative, polished code that avoids generic AI aesthetics."
     },
     {
-      "id": "jimliu/baoyu-skills/baoyu-translate",
-      "title": "baoyu-translate",
-      "source": "jimliu/baoyu-skills",
-      "installs": 48,
-      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-translate",
-      "providerId": "skills.sh",
-      "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent."
-    },
-    {
-      "id": "pbakaus/impeccable/adapt",
-      "title": "adapt",
-      "source": "pbakaus/impeccable",
-      "installs": 49,
-      "link": "https://skills.sh/pbakaus/impeccable/adapt",
-      "providerId": "skills.sh",
-      "description": "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Ensures consistent experience across varied environments."
-    },
-    {
-      "id": "pbakaus/impeccable/onboard",
-      "title": "onboard",
-      "source": "pbakaus/impeccable",
-      "installs": 48,
-      "link": "https://skills.sh/pbakaus/impeccable/onboard",
-      "providerId": "skills.sh",
-      "description": "Design or improve onboarding flows, empty states, and first-time user experiences. Helps users get started successfully and understand value quickly."
-    },
-    {
-      "id": "pbakaus/impeccable/animate",
-      "title": "animate",
-      "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/animate",
-      "providerId": "skills.sh",
-      "description": "Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight."
-    },
-    {
-      "id": "jimliu/baoyu-skills/release-skills",
-      "title": "release-skills",
-      "source": "jimliu/baoyu-skills",
-      "installs": 37,
-      "link": "https://skills.sh/jimliu/baoyu-skills/release-skills",
-      "providerId": "skills.sh",
-      "description": "Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says \"release\", \"发布\", \"new version\", \"bump version\", \"push\", \"推送\"."
-    },
-    {
-      "id": "pbakaus/impeccable/audit",
-      "title": "audit",
-      "source": "pbakaus/impeccable",
-      "installs": 48,
-      "link": "https://skills.sh/pbakaus/impeccable/audit",
-      "providerId": "skills.sh",
-      "description": "Perform comprehensive audit of interface quality across accessibility, performance, theming, and responsive design. Generates detailed report of issues with severity ratings and recommendations."
-    },
-    {
       "id": "pbakaus/impeccable/polish",
       "title": "polish",
       "source": "pbakaus/impeccable",
-      "installs": 48,
+      "installs": 39,
       "link": "https://skills.sh/pbakaus/impeccable/polish",
       "providerId": "skills.sh",
       "description": "Final quality pass before shipping. Fixes alignment, spacing, consistency, and detail issues that separate good from great."
@@ -1225,145 +1009,361 @@
       "id": "pbakaus/impeccable/optimize",
       "title": "optimize",
       "source": "pbakaus/impeccable",
-      "installs": 48,
+      "installs": 39,
       "link": "https://skills.sh/pbakaus/impeccable/optimize",
       "providerId": "skills.sh",
       "description": "Improve interface performance across loading speed, rendering, animations, images, and bundle size. Makes experiences faster and smoother."
     },
     {
-      "id": "pbakaus/impeccable/normalize",
-      "title": "normalize",
+      "id": "pbakaus/impeccable/animate",
+      "title": "animate",
       "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/normalize",
+      "installs": 38,
+      "link": "https://skills.sh/pbakaus/impeccable/animate",
       "providerId": "skills.sh",
-      "description": "Normalize design to match your design system and ensure consistency"
+      "description": "Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight."
     },
     {
-      "id": "pbakaus/impeccable/harden",
-      "title": "harden",
+      "id": "pbakaus/impeccable/audit",
+      "title": "audit",
       "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/harden",
+      "installs": 37,
+      "link": "https://skills.sh/pbakaus/impeccable/audit",
       "providerId": "skills.sh",
-      "description": "Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case management. Makes interfaces robust and production-ready."
+      "description": "Perform comprehensive audit of interface quality across accessibility, performance, theming, and responsive design. Generates detailed report of issues with severity ratings and recommendations."
     },
     {
-      "id": "pbakaus/impeccable/delight",
-      "title": "delight",
-      "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/delight",
+      "id": "jimliu/baoyu-skills/baoyu-post-to-weibo",
+      "title": "baoyu-post-to-weibo",
+      "source": "jimliu/baoyu-skills",
+      "installs": 19,
+      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-weibo",
       "providerId": "skills.sh",
-      "description": "Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful."
-    },
-    {
-      "id": "pbakaus/impeccable/distill",
-      "title": "distill",
-      "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/distill",
-      "providerId": "skills.sh",
-      "description": "Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean."
-    },
-    {
-      "id": "pbakaus/impeccable/teach-impeccable",
-      "title": "teach-impeccable",
-      "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/teach-impeccable",
-      "providerId": "skills.sh",
-      "description": "One-time setup that gathers design context for your project and saves it to your AI config file. Run once to establish persistent design guidelines."
+      "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\"."
     },
     {
       "id": "pbakaus/impeccable/extract",
       "title": "extract",
       "source": "pbakaus/impeccable",
-      "installs": 46,
+      "installs": 37,
       "link": "https://skills.sh/pbakaus/impeccable/extract",
       "providerId": "skills.sh",
       "description": "Extract and consolidate reusable components, design tokens, and patterns into your design system. Identifies opportunities for systematic reuse and enriches your component library."
     },
     {
-      "id": "pbakaus/impeccable/clarify",
-      "title": "clarify",
-      "source": "pbakaus/impeccable",
-      "installs": 47,
-      "link": "https://skills.sh/pbakaus/impeccable/clarify",
-      "providerId": "skills.sh",
-      "description": "Improve unclear UX copy, error messages, microcopy, labels, and instructions. Makes interfaces easier to understand and use."
-    },
-    {
-      "id": "pbakaus/impeccable/bolder",
-      "title": "bolder",
-      "source": "pbakaus/impeccable",
-      "installs": 46,
-      "link": "https://skills.sh/pbakaus/impeccable/bolder",
-      "providerId": "skills.sh",
-      "description": "Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability."
-    },
-    {
-      "id": "pbakaus/impeccable/quieter",
-      "title": "quieter",
-      "source": "pbakaus/impeccable",
-      "installs": 46,
-      "link": "https://skills.sh/pbakaus/impeccable/quieter",
-      "providerId": "skills.sh",
-      "description": "Tone down overly bold or visually aggressive designs. Reduces intensity while maintaining design quality and impact."
-    },
-    {
       "id": "pbakaus/impeccable/colorize",
       "title": "colorize",
       "source": "pbakaus/impeccable",
-      "installs": 46,
+      "installs": 37,
       "link": "https://skills.sh/pbakaus/impeccable/colorize",
       "providerId": "skills.sh",
       "description": "Add strategic color to features that are too monochromatic or lack visual interest. Makes interfaces more engaging and expressive."
     },
     {
+      "id": "pbakaus/impeccable/clarify",
+      "title": "clarify",
+      "source": "pbakaus/impeccable",
+      "installs": 37,
+      "link": "https://skills.sh/pbakaus/impeccable/clarify",
+      "providerId": "skills.sh",
+      "description": "Improve unclear UX copy, error messages, microcopy, labels, and instructions. Makes interfaces easier to understand and use."
+    },
+    {
       "id": "pbakaus/impeccable/critique",
       "title": "critique",
       "source": "pbakaus/impeccable",
-      "installs": 46,
+      "installs": 37,
       "link": "https://skills.sh/pbakaus/impeccable/critique",
       "providerId": "skills.sh",
       "description": "Evaluate design effectiveness from a UX perspective. Assesses visual hierarchy, information architecture, emotional resonance, and overall design quality with actionable feedback."
     },
     {
+      "id": "pbakaus/impeccable/delight",
+      "title": "delight",
+      "source": "pbakaus/impeccable",
+      "installs": 36,
+      "link": "https://skills.sh/pbakaus/impeccable/delight",
+      "providerId": "skills.sh",
+      "description": "Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful."
+    },
+    {
+      "id": "pbakaus/impeccable/adapt",
+      "title": "adapt",
+      "source": "pbakaus/impeccable",
+      "installs": 37,
+      "link": "https://skills.sh/pbakaus/impeccable/adapt",
+      "providerId": "skills.sh",
+      "description": "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Ensures consistent experience across varied environments."
+    },
+    {
+      "id": "pbakaus/impeccable/bolder",
+      "title": "bolder",
+      "source": "pbakaus/impeccable",
+      "installs": 36,
+      "link": "https://skills.sh/pbakaus/impeccable/bolder",
+      "providerId": "skills.sh",
+      "description": "Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability."
+    },
+    {
+      "id": "pbakaus/impeccable/normalize",
+      "title": "normalize",
+      "source": "pbakaus/impeccable",
+      "installs": 36,
+      "link": "https://skills.sh/pbakaus/impeccable/normalize",
+      "providerId": "skills.sh",
+      "description": "Normalize design to match your design system and ensure consistency"
+    },
+    {
+      "id": "pbakaus/impeccable/onboard",
+      "title": "onboard",
+      "source": "pbakaus/impeccable",
+      "installs": 36,
+      "link": "https://skills.sh/pbakaus/impeccable/onboard",
+      "providerId": "skills.sh",
+      "description": "Design or improve onboarding flows, empty states, and first-time user experiences. Helps users get started successfully and understand value quickly."
+    },
+    {
+      "id": "pbakaus/impeccable/teach-impeccable",
+      "title": "teach-impeccable",
+      "source": "pbakaus/impeccable",
+      "installs": 35,
+      "link": "https://skills.sh/pbakaus/impeccable/teach-impeccable",
+      "providerId": "skills.sh",
+      "description": "One-time setup that gathers design context for your project and saves it to your AI config file. Run once to establish persistent design guidelines."
+    },
+    {
+      "id": "pbakaus/impeccable/distill",
+      "title": "distill",
+      "source": "pbakaus/impeccable",
+      "installs": 35,
+      "link": "https://skills.sh/pbakaus/impeccable/distill",
+      "providerId": "skills.sh",
+      "description": "Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean."
+    },
+    {
       "id": "tavily-ai/skills/search",
       "title": "search",
       "source": "tavily-ai/skills",
-      "installs": 37,
+      "installs": 35,
       "link": "https://skills.sh/tavily-ai/skills/search",
       "providerId": "skills.sh",
       "description": "Search the web using Tavily's LLM-optimized search API. Returns relevant results with content snippets, scores, and metadata. Use when you need to find web content on any topic without writing code."
     },
     {
-      "id": "joeseesun/defuddle-skill/defuddle",
-      "title": "defuddle",
-      "source": "joeseesun/defuddle-skill",
-      "installs": 17,
-      "link": "https://skills.sh/joeseesun/defuddle-skill/defuddle",
+      "id": "pbakaus/impeccable/quieter",
+      "title": "quieter",
+      "source": "pbakaus/impeccable",
+      "installs": 34,
+      "link": "https://skills.sh/pbakaus/impeccable/quieter",
       "providerId": "skills.sh",
-      "description": "Extract clean article content from web pages or local HTML files. Removes clutter (ads, sidebars, nav) and returns readable content with metadata."
+      "description": "Tone down overly bold or visually aggressive designs. Reduces intensity while maintaining design quality and impact."
+    },
+    {
+      "id": "pbakaus/impeccable/harden",
+      "title": "harden",
+      "source": "pbakaus/impeccable",
+      "installs": 34,
+      "link": "https://skills.sh/pbakaus/impeccable/harden",
+      "providerId": "skills.sh",
+      "description": "Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case management. Makes interfaces robust and production-ready."
+    },
+    {
+      "id": "expo/skills/expo-api-routes",
+      "title": "expo-api-routes",
+      "source": "expo/skills",
+      "installs": 17,
+      "link": "https://skills.sh/expo/skills/expo-api-routes",
+      "providerId": "skills.sh",
+      "description": "Guidelines for creating API routes in Expo Router with EAS Hosting"
+    },
+    {
+      "id": "remotion-dev/skills/remotion-best-practices",
+      "title": "remotion-best-practices",
+      "source": "remotion-dev/skills",
+      "installs": 94,
+      "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
+      "providerId": "skills.sh",
+      "description": "Best practices for Remotion - Video creation in React"
+    },
+    {
+      "id": "expo/skills/building-native-ui",
+      "title": "building-native-ui",
+      "source": "expo/skills",
+      "installs": 22,
+      "link": "https://skills.sh/expo/skills/building-native-ui",
+      "providerId": "skills.sh",
+      "description": "Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs."
+    },
+    {
+      "id": "expo/skills/expo-tailwind-setup",
+      "title": "expo-tailwind-setup",
+      "source": "expo/skills",
+      "installs": 17,
+      "link": "https://skills.sh/expo/skills/expo-tailwind-setup",
+      "providerId": "skills.sh",
+      "description": "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
+    },
+    {
+      "id": "jimliu/baoyu-skills/baoyu-post-to-wechat",
+      "title": "baoyu-post-to-wechat",
+      "source": "jimliu/baoyu-skills",
+      "installs": 27,
+      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat",
+      "providerId": "skills.sh",
+      "description": "Posts content to WeChat Official Account (微信公众号) via Chrome CDP automation. Supports article posting (文章) with full markdown formatting and image-text posting (图文) with multiple images. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"图文/文章\"."
+    },
+    {
+      "id": "google-labs-code/stitch-skills/stitch-loop",
+      "title": "stitch-loop",
+      "source": "google-labs-code/stitch-skills",
+      "installs": 19,
+      "link": "https://skills.sh/google-labs-code/stitch-skills/stitch-loop",
+      "providerId": "skills.sh",
+      "description": "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern"
+    },
+    {
+      "id": "vercel-labs/agent-browser/electron",
+      "title": "electron",
+      "source": "vercel-labs/agent-browser",
+      "installs": 17,
+      "link": "https://skills.sh/vercel-labs/agent-browser/electron",
+      "providerId": "skills.sh",
+      "description": "Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs to interact with an Electron app, automate a desktop app, connect to a running app, control a native app, or test an Electron application. Triggers include \"automate Slack app\", \"control VS Code\", \"interact with Discord app\", \"test this Electron app\", \"connect to desktop app\", or any task requiring automation of a native Electron application."
+    },
+    {
+      "id": "expo/skills/upgrading-expo",
+      "title": "upgrading-expo",
+      "source": "expo/skills",
+      "installs": 16,
+      "link": "https://skills.sh/expo/skills/upgrading-expo",
+      "providerId": "skills.sh",
+      "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
+    },
+    {
+      "id": "am-will/codex-skills/frontend-design",
+      "title": "frontend-design",
+      "source": "am-will/codex-skills",
+      "installs": 68,
+      "link": "https://skills.sh/am-will/codex-skills/frontend-design",
+      "providerId": "skills.sh",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics."
+    },
+    {
+      "id": "jimliu/baoyu-skills/baoyu-image-gen",
+      "title": "baoyu-image-gen",
+      "source": "jimliu/baoyu-skills",
+      "installs": 24,
+      "link": "https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen",
+      "providerId": "skills.sh",
+      "description": "AI image generation with OpenAI and Google APIs. Supports text-to-image, reference images, aspect ratios, and parallel generation (recommended 4 concurrent subagents). Use when user asks to generate, create, or draw images."
+    },
+    {
+      "id": "expo/skills/expo-dev-client",
+      "title": "expo-dev-client",
+      "source": "expo/skills",
+      "installs": 16,
+      "link": "https://skills.sh/expo/skills/expo-dev-client",
+      "providerId": "skills.sh",
+      "description": "Build and distribute Expo development clients locally or via TestFlight"
+    },
+    {
+      "id": "expo/skills/expo-cicd-workflows",
+      "title": "expo-cicd-workflows",
+      "source": "expo/skills",
+      "installs": 14,
+      "link": "https://skills.sh/expo/skills/expo-cicd-workflows",
+      "providerId": "skills.sh",
+      "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation."
     },
     {
       "id": "zhjiang22/openclaw-xhs/xiaohongshu",
       "title": "xiaohongshu",
       "source": "zhjiang22/openclaw-xhs",
-      "installs": 27,
+      "installs": 12,
       "link": "https://skills.sh/zhjiang22/openclaw-xhs/xiaohongshu",
       "providerId": "skills.sh",
       "description": "小红书内容工具。使用场景：\n- 搜索小红书内容\n- 获取首页推荐列表\n- 获取帖子详情（包括互动数据和评论）\n- 发表评论到帖子\n- 获取用户个人主页\n- \"跟踪一下小红书上的XX热点\"\n- \"分析小红书上关于XX的讨论\"\n- \"小红书XX话题报告\"\n- \"生成XX的小红书舆情报告\""
     },
     {
-      "id": "sleekdotdesign/agent-skills/sleek-design-mobile-apps",
-      "title": "sleek-design-mobile-apps",
-      "source": "sleekdotdesign/agent-skills",
-      "installs": 582,
-      "link": "https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps",
+      "id": "expo/skills/use-dom",
+      "title": "use-dom",
+      "source": "expo/skills",
+      "installs": 12,
+      "link": "https://skills.sh/expo/skills/use-dom",
       "providerId": "skills.sh",
-      "description": "Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests (\"design an app that does X\") and specific ones (\"list my projects\", \"create a new project\", \"screenshot that screen\")."
+      "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally."
+    },
+    {
+      "id": "expo/skills/native-data-fetching",
+      "title": "native-data-fetching",
+      "source": "expo/skills",
+      "installs": 17,
+      "link": "https://skills.sh/expo/skills/native-data-fetching",
+      "providerId": "skills.sh",
+      "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, axios, React Query, SWR, error handling, caching strategies, offline support."
+    },
+    {
+      "id": "expo/skills/expo-deployment",
+      "title": "expo-deployment",
+      "source": "expo/skills",
+      "installs": 15,
+      "link": "https://skills.sh/expo/skills/expo-deployment",
+      "providerId": "skills.sh",
+      "description": "Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes"
+    },
+    {
+      "id": "vercel-labs/agent-browser/slack",
+      "title": "slack",
+      "source": "vercel-labs/agent-browser",
+      "installs": 11,
+      "link": "https://skills.sh/vercel-labs/agent-browser/slack",
+      "providerId": "skills.sh",
+      "description": "Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search conversations, or automate any Slack task. Triggers include \"check my Slack\", \"what channels have unreads\", \"send a message to\", \"search Slack for\", \"extract from Slack\", \"find who said\", or any task requiring programmatic Slack interaction."
+    },
+    {
+      "id": "addyosmani/web-quality-skills/accessibility",
+      "title": "accessibility",
+      "source": "addyosmani/web-quality-skills",
+      "installs": 8,
+      "link": "https://skills.sh/addyosmani/web-quality-skills/accessibility",
+      "providerId": "skills.sh",
+      "description": "Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\"."
+    },
+    {
+      "id": "addyosmani/web-quality-skills/core-web-vitals",
+      "title": "core-web-vitals",
+      "source": "addyosmani/web-quality-skills",
+      "installs": 8,
+      "link": "https://skills.sh/addyosmani/web-quality-skills/core-web-vitals",
+      "providerId": "skills.sh",
+      "description": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\"."
+    },
+    {
+      "id": "addyosmani/web-quality-skills/seo",
+      "title": "seo",
+      "source": "addyosmani/web-quality-skills",
+      "installs": 8,
+      "link": "https://skills.sh/addyosmani/web-quality-skills/seo",
+      "providerId": "skills.sh",
+      "description": "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\"."
+    },
+    {
+      "id": "supercent-io/skills-template/database-schema-design",
+      "title": "database-schema-design",
+      "source": "supercent-io/skills-template",
+      "installs": 60,
+      "link": "https://skills.sh/supercent-io/skills-template/database-schema-design",
+      "providerId": "skills.sh",
+      "description": "Design and optimize database schemas for SQL and NoSQL databases. Use when creating new databases, designing tables, defining relationships, indexing strategies, or database migrations. Handles PostgreSQL, MySQL, MongoDB, normalization, and performance optimization."
+    },
+    {
+      "id": "github/awesome-copilot/project-workflow-analysis-blueprint-generator",
+      "title": "project-workflow-analysis-blueprint-generator",
+      "source": "github/awesome-copilot",
+      "installs": 45,
+      "link": "https://skills.sh/github/awesome-copilot/project-workflow-analysis-blueprint-generator",
+      "providerId": "skills.sh",
+      "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures."
     }
   ]
 }
