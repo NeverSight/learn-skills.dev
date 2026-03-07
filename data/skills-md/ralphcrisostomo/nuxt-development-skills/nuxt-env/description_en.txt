@@ -1,0 +1,1 @@
+Use when setting up SOPS + age encryption for environment variables. Checks dependencies, creates config, copies scripts, and adds package.json commands. Triggers on: setup sops, setup env encryption, add age encryption, env:pull, env:push.
