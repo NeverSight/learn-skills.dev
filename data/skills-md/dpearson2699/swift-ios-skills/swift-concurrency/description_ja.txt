@@ -1,0 +1,1 @@
+Swift 同時実行コンパイラ エラーを解決し、Swift 6.2 のアプローチ可能な同時実行 (SE-0466) を採用し、データ競合に安全な非同期コードを作成します。 Sendable 適合エラー、アクター分離警告、または厳密な同時実行性診断を修正するときに使用します。デフォルトの MainActor 分離、@concurrent、nonisoulated(nonsending)、または Task.immediate を採用する場合。アクターベースのアーキテクチャ、TaskGroup との構造化された同時実行性、またはバックグラウンド作業のオフロードを設計する場合。または @preconcurrency から完全な Swift 6 厳密な同時実行に移行する場合。
