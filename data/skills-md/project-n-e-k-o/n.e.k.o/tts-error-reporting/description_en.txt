@@ -1,0 +1,1 @@
+Convention for reporting errors from multiprocessing TTS workers to the main process frontend. Use this skill when modifying, adding, or debugging TTS workers in tts_client.py to ensure connection errors, quotas, and API limits correctly display Toast notifications to the user rather than failing silently.

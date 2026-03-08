@@ -1,0 +1,1 @@
+Build and deploy XerahS Android apps (Kotlin/Mobile.Kt, Avalonia, MAUI) to emulator/device via adb. Covers JAVA_HOME for Gradle, Compose KeyboardOptions/foundation, file locks, EmbedAssembliesIntoApk, init white-screen, single-node builds (-m:1), and cold-boot emulator. Never wait more than 5 minutes for a build—if it exceeds that, treat as failure and fix locks or parallelism.
