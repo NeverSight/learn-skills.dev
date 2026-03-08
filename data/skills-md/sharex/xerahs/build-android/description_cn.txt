@@ -1,0 +1,1 @@
+通过 adb 构建 XerahS Android 应用程序（Kotlin/Mobile.Kt、Avalonia、MAUI）并将其部署到模拟器/设备。涵盖 Gradle 的 JAVA_HOME、Compose KeyboardOptions/foundation、文件锁、EmbedAssembliesIntoApk、init 白屏、单节点构建 (-m:1) 和冷启动模拟器。构建的等待时间切勿超过 5 分钟——如果超过该时间，则视为失败并修复锁或并行性。

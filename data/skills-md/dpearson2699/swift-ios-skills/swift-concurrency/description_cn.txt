@@ -1,0 +1,1 @@
+解决 Swift 并发编译器错误，采用 Swift 6.2 平易近人的并发 (SE-0466)，并编写数据争用安全的异步代码。在修复 Sendable 一致性错误、参与者隔离警告或严格并发诊断时使用；当采用默认的 MainActor 隔离、@concurrent、nonisolated(nonsending) 或 Task.immediate 时；在设计基于参与者的架构、与任务组的结构化并发或后台工作卸载时；或者从 @preconcurrency 迁移到完整的 Swift 6 严格并发时。
