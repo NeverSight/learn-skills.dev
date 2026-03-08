@@ -1,0 +1,1 @@
+解決 Swift 並發編譯器錯誤，採用 Swift 6.2 平易近人的同時 (SE-0466)，並編寫資料爭用安全的非同步程式碼。在修復 Sendable 一致性錯誤、參與者隔離警告或嚴格並發診斷時使用；當採用預設的 MainActor 隔離、@concurrent、nonisolated(nonsending) 或 Task.immediate 時；在設計基於參與者的架構、與任務組的結構化並發或後台工作卸載時；或從 @preconcurrency 遷移到完整的 Swift 6 時。
