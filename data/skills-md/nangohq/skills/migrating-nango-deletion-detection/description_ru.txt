@@ -1,0 +1,1 @@
+Переносит синхронизацию Nango из deleteRecordsFromPreviousExecutions()/trackDeletes в trackDeletesStart/trackDeletesEnd для автоматического обнаружения удаления (включая полное обновление на основе контрольных точек). Используйте при обновлении существующего кода createSync.
