@@ -1,0 +1,6 @@
+Una habilidad de convención de nombres para evitar el abuso de captadores.  
+Cuando un captador es inevitable en el modelo de dominio (para persistencia, mapeo JSON, etc.), prefijele `breachEncapsulationOf` para indicar que la encapsulación se está rompiendo.  
+Esto hace que las violaciones de Tell-Don't-Ask sean obvias y disuade el uso involuntario de getters.  
+Aplicar durante revisiones de código, código nuevo o refactorización siempre que se requiera un captador.  
+Idiomas de destino: Java, Kotlin, Scala, TypeScript, Python, Go, Rust.  
+Activado por solicitudes sobre "nombramiento de captadores", "captadores que rompen la encapsulación", "captadores de persistencia", "breachEncapsulation" o "Necesito un captador pero quiero detener el abuso".

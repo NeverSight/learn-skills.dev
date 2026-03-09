@@ -1,0 +1,16 @@
+Utilice herramientas en modo contexto (ctx_execute, ctx_execute_file) en lugar de Bash/cat al procesar
+grandes producciones. Frases de activación: "analizar registros", "resumir resultados", "procesar datos",
+"analizar JSON", "filtrar resultados", "extraer errores", "verificar el resultado de la compilación",
+"analizar dependencias", "procesar respuesta API", "análisis de archivos grandes",
+"extraer elementos", "instantánea de página", "instantánea del navegador", "tomar una instantánea",
+"Estructura DOM", "inspeccionar página", "campos de formulario", "selectores de elementos",
+"estructura de la página web", "árbol de accesibilidad", "instantánea del dramaturgo",
+"ejecutar pruebas", "resultado de la prueba", "informe de cobertura", "registro de git", "confirmaciones recientes",
+"diferencia entre ramas", "lista de contenedores", "estado del pod", "uso del disco",
+"buscar documentos", "referencia de API", "indexar documentación", "llegar al punto final",
+"llamar API", "verificar respuesta", "resultados de consulta", "mostrar tablas",
+"buscar TODO", "contar líneas", "estadísticas de base de código", "auditoría de seguridad",
+"paquetes obsoletos", "árbol de dependencias", "recursos de la nube", "salida CI/CD".
+También se activa en CUALQUIER salida de herramienta MCP (Playwright, Context7, GitHub API) que
+puede exceder las 20 líneas y cualquier operación donde el tamaño de salida sea incierto.
+El enrutamiento de subagente se maneja automáticamente a través del enlace PreToolUse; no se necesitan nombres de herramientas manuales en las indicaciones.
