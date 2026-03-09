@@ -1,0 +1,1 @@
+자동화된 삭제 감지(체크포인트 기반 전체 새로 고침 포함)를 위해 Nango 동기화를 deleteRecordsFromPreviousExecutions()/trackDeletes에서 trackDeletesStart/trackDeletesEnd로 마이그레이션합니다. 기존 createSync 코드를 업데이트할 때 사용합니다.
