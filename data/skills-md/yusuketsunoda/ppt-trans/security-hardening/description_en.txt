@@ -1,4 +1,1 @@
-A security-hardening workflow for specific threat scenarios.  
-Input a single concrete threat such as “prevent IDOR,” “design CSRF countermeasures,” or “strengthen RLS,” and it consistently delivers artifacts from threat modeling → mitigation design → implementation plan → testing/logging → release-gate.  
-Use it for targeted fixes: IDOR, replay attacks, CSRF, XSS, path traversal, open redirect, rate-limit design, etc.  
-For “scan the entire codebase,” use security-audit-quick; for “holistic app assessment,” use security-threat-review.
+特定の脅威シナリオに対するセキュリティ強化ワークフロー。「IDORを防ぎたい」 「CSRFの対策を設計したい」「RLSを強化したい」のように、単一の具体的な脅威を入力に、 脅威モデル→緩和設計→実装方針→テスト/ログ→release-gate化まで一貫して成果物を出力する。 IDOR、リプレイ攻撃、CSRF、XSS、パストラバーサル、オープンリダイレクト、 レート制限設計など、特定の脆弱性への対処で使うこと。 「コードベース全体をスキャンしたい」場合はsecurity-audit-quickを、 「アプリ全体を包括評価したい」場合はsecurity-threat-reviewを使うこと。

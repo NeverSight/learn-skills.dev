@@ -1,5 +1,1 @@
-Support design decisions for cross-aggregate constraint checks ("in aggregate A's use-case I want to check aggregate B's state").  
-Includes Saga misuse detection, revisiting business requirements, understanding technical constraints in CQRS/ES, and deciding whether to allow inconsistent data.  
-Use when facing cross-aggregate constraint issues during code review, architecture design, or requirements analysis.  
-Target language: language-agnostic.  
-Trigger: activated by cross-aggregate constraint requests such as "cross-aggregate constraint check", "want to check another aggregate's state", "constraint check in Saga", "verify if brand has linked products", "cross-aggregate validation", "reverse lookup with event sourcing", "business rules spanning aggregates", "CQRS/ES constraints", "may the command side reference the read model?", "referencing other aggregates in a use-case".
+集約間の制約チェック（「集約Aのユースケースで集約Bの状態を確認したい」）に対する 設計判断を支援する。Sagaの誤用検出、ビジネス要件の問い直し、CQRS/ESにおける 技術的制約の理解、不整合データの許容判断を含む。 コードレビュー、アーキテクチャ設計、要件分析時に集約間の制約問題に直面した場合に使用。 対象言語: 言語非依存。 トリガー：「集約間の制約チェック」「他の集約の状態を確認したい」「Sagaで制約チェック」 「ブランドに商品が紐づいているか確認」「集約間のバリデーション」 「イベントソーシングで逆引き」「集約をまたぐビジネスルール」「CQRS/ESの制約」 「コマンド側からリードモデルを参照していい？」「ユースケースで他の集約を参照」 といった集約間制約関連リクエストで起動。
