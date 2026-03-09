@@ -1,0 +1,13 @@
+Esegui la revisione del codice, il supporto alla progettazione e il refactoring per gli aggregati basati sulle regole di progettazione degli aggregati DDD.  
+Guidato in modo completo da Evans Rules, Vernon's 4 Rules e Design by Contract, che copre la definizione dei confini aggregati, la convalida invariante, la progettazione immutabile, i riferimenti ID, la coerenza finale e l'integrazione degli eventi del dominio.  
+
+Utilizza sempre questa abilità ogni volta che si verifica una delle seguenti condizioni:  
+- Nuova progettazione, implementazione o refactoring aggregato (qualsiasi linguaggio)  
+- Revisione del codice degli aggregati o delle classi di entità esistenti dal punto di vista DDD  
+- Decidere i confini dell'aggregato ("A e B dovrebbero essere nello stesso aggregato?", "Questo aggregato è troppo grande?")  
+- Progettazione di invarianti e confini di consistenza all'interno di un aggregato  
+- Scelta della modalità di collaborazione degli aggregati (eventi del dominio, eventuale coerenza, modello Saga)  
+- Refactoring del codice aggregato mutabile in un design immutabile  
+- Rilevamento e correzione delle violazioni di incapsulamento come campi pubblici, riferimenti diretti, push/append  
+
+Parole chiave: aggregato, confine aggregato, radice aggregata, progettazione di entità, implementazione DDD, Regole di Vernon, Regole di Evans, suddivisione degli aggregati, invarianti reali

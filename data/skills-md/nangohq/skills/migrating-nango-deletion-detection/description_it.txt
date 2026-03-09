@@ -1,0 +1,1 @@
+Migra le sincronizzazioni Nango da deleteRecordsFromPreviousExecutions()/trackDeletes a trackDeletesStart/trackDeletesEnd per il rilevamento automatico delle eliminazioni (incluso l'aggiornamento completo basato su checkpoint). Da utilizzare durante l'aggiornamento del codice createSync esistente.
