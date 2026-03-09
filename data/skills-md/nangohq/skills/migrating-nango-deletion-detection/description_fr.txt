@@ -1,0 +1,1 @@
+Migre les synchronisations Nango de deleteRecordsFromPreviousExecutions()/trackDeletes vers trackDeletesStart/trackDeletesEnd pour la détection automatisée des suppressions (y compris l'actualisation complète basée sur les points de contrôle). À utiliser lors de la mise à jour du code createSync existant.
