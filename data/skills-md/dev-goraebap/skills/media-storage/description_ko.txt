@@ -1,0 +1,1 @@
+파일 업로드, 저장, 첨부파일 관리 패턴입니다. 작업: 파일 업로드, 이미지 업로드, 파일 처리, 스토리지 통합, 썸네일 첨부, 색상 추출. 패턴: 활성 저장소, Blob 테이블, 첨부 파일 테이블, 다형성 첨부 파일, 중복 파일 감지. 저장소: Cloudflare R2, AWS S3, @aws-sdk/client-s3, UUID 키, 2레벨 디렉터리, CDN URL, 미리 서명된 URL. DB: Drizzle ORM, blob, 체크섬, MD5, 메타데이터 JSON, MIME, byte_size. 색상: 주요 색상 추출, Gemini API, hex, blobs.metadata. 쿼리: 썸네일 조회, 하위 쿼리, leftJoin, 뷰 모델, CDN URL 변환.
