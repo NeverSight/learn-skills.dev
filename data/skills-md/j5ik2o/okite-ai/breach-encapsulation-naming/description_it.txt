@@ -1,0 +1,6 @@
+Un'abilità di convenzione di denominazione per prevenire l'abuso di getter.  
+Quando un getter è inevitabile nel modello di dominio (ad esempio, per la persistenza o la conversione JSON), prefisso con `breachEncapsulationOf` per contrassegnare che l'incapsulamento è stato interrotto.  
+Ciò impedisce violazioni del principio Tell-Don’t-Ask e scoraggia l’uso involontario dei getter.  
+Da utilizzare durante la progettazione di getter durante revisioni del codice, nuove implementazioni o refactoring.  
+Linguaggi di destinazione: Java, Kotlin, Scala, TypeScript, Python, Go, Rust.  
+Trigger: si attiva su richieste di denominazione getter come "convenzione di denominazione getter", "getter che rompe l'incapsulamento", "getter persistenza", "breachEncapsulation" o "Voglio un getter ma voglio prevenire un uso improprio".

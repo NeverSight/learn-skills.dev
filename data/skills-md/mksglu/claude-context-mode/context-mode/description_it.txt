@@ -1,0 +1,16 @@
+Utilizza strumenti in modalità contesto (ctx_execute, ctx_execute_file) invece di Bash/cat durante l'elaborazione
+grandi uscite. Frasi trigger: "analizzare i registri", "riepilogare l'output", "elaborare i dati",
+"analizza JSON", "filtra risultati", "estrae errori", "controlla l'output della build",
+"analizzare le dipendenze", "elaborare la risposta API", "analisi di file di grandi dimensioni",
+"estrai elementi", "istantanea della pagina", "istantanea del browser", "scatta un'istantanea",
+"Struttura DOM", "ispeziona pagina", "campi modulo", "selettori di elementi",
+"struttura della pagina web", "albero dell'accessibilità", "istantanea del drammaturgo",
+"esegui test", "output del test", "rapporto di copertura", "log git", "commit recenti",
+"differenza tra rami", "elenco contenitori", "stato del pod", "utilizzo del disco",
+"recupera documenti", "riferimento API", "documentazione indice", "hit endpoint",
+"chiama API", "controlla risposta", "risultati della query", "mostra tabelle",
+"trova TODO", "righe di conteggio", "statistiche codebase", "controllo di sicurezza",
+"pacchetti obsoleti", "albero delle dipendenze", "risorse cloud", "output CI/CD".
+Si attiva anche su QUALSIASI output dello strumento MCP (Playwright, Context7, GitHub API) che
+può superare le 20 righe e qualsiasi operazione in cui la dimensione dell'output è incerta.
+Il routing dei subagent viene gestito automaticamente tramite l'hook PreToolUse: non sono necessari nomi di strumenti manuali nei prompt.
