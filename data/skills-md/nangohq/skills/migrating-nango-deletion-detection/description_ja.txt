@@ -1,0 +1,1 @@
+自動削除検出 (チェックポイントベースの完全更新を含む) のために、Nango 同期を deleteRecordsFromPreviousExecutions()/trackDeletes から trackDeletesStart/trackDeletesEnd に移行します。既存の createSync コードを更新するときに使用します。

@@ -1,0 +1,1 @@
+BGTaskScheduler を使用して、iOS でバックグラウンド作業をスケジュールして実行します。短期間のバックグラウンド取得には BGAppRefreshTask、長時間実行メンテナンスには BGProcessingTask、バックグラウンドで継続するフォアグラウンドで開始された作業には BGContinuedProcessingTask (iOS 26 以降)、バックグラウンド URLSession ダウンロード、またはバックグラウンド プッシュ通知を登録するときに使用します。 Info.plist の構成、有効期限の処理、タスクの完了、シミュレートされた起動によるデバッグについて説明します。
