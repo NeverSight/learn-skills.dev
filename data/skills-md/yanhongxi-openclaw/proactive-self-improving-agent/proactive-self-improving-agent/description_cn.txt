@@ -1,0 +1,1 @@
+自动捕捉经验并安全发展。触发条件： (1) 命令/操作失败 → 记录到 ERRORS.md (2) 用户更正（“错误”/“应该”） → 记录到 LEARNINGS.md (3) 用户需要不存在的能力 → 记录到 FEATURE_REQUESTS.md (4) 外部 API/工具错误 → 记录到 ERRORS.md (5) 发现知识过时/不正确 → 记录到 LEARNINGS.md (6) 找到更好的练习 → 记录到 LEARNINGS.md (7) 每个任务结束 → 回顾流程，将新课程记录到 LEARNINGS.md。重复数据删除：如果没有新的见解或已经涵盖，请跳过。每次写入时将 JSONL 条目附加到 .learnings/CHANGELOG.md。将重复经验提升至 AGENTS.md/TOOLS.md/SOUL.md ≥3 次。详细信息请参阅正文。
