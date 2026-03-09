@@ -1,0 +1,16 @@
+Utilisez les outils en mode contextuel (ctx_execute, ctx_execute_file) au lieu de Bash/cat lors du traitement
+gros rendements. Phrases de déclenchement : « analyser les journaux », « résumer les résultats », « données de processus »,
+"analyser JSON", "filtrer les résultats", "extraire les erreurs", "vérifier la sortie de build",
+"analyser les dépendances", "traiter la réponse de l'API", "analyser les fichiers volumineux",
+"extraire des éléments", "instantané de page", "instantané du navigateur", "prendre un instantané",
+"Structure DOM", "page d'inspection", "champs de formulaire", "sélecteurs d'éléments",
+"Structure de la page Web", "Arbre d'accessibilité", "Instantané du dramaturge",
+"exécuter des tests", "sortie de test", "rapport de couverture", "git log", "commits récents",
+"diff entre branches", "liste des conteneurs", "état du pod", "utilisation du disque",
+"récupérer les documents", "référence API", "documentation d'index", "atteindre le point final",
+"appeler l'API", "vérifier la réponse", "résultats de la requête", "afficher les tables",
+"trouver des TODO", "compter les lignes", "statistiques de base de code", "audit de sécurité",
+"packages obsolètes", "arborescence des dépendances", "ressources cloud", "sortie CI/CD".
+Se déclenche également sur TOUTE sortie de l'outil MCP (Playwright, Context7, API GitHub) qui
+peut dépasser 20 lignes et toute opération où la taille de sortie est incertaine.
+Le routage des sous-agents est géré automatiquement via le hook PreToolUse : aucun nom d'outil manuel n'est nécessaire dans les invites.

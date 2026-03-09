@@ -1,0 +1,4 @@
+Un flux de travail renforçant la sécurité pour des scénarios de menaces spécifiques.  
+Saisissez une seule menace concrète, par ex. « empêcher l'IDOR », « concevoir des contre-mesures CSRF », « renforcer le RLS » — et il produit systématiquement des livrables issus de la modélisation des menaces → conception d'atténuation → plan de mise en œuvre → tests/journalisation → automatisation des portes de publication.  
+Utilisez-le pour des correctifs ciblés sur des vulnérabilités individuelles : IDOR, attaques par relecture, CSRF, XSS, traversée de chemin, redirection ouverte, conception de limite de débit, etc.  
+Pour « analyser l'intégralité de la base de code », utilisez security-audit-quick ; pour une « évaluation complète à l’échelle de l’application », utilisez security-threat-review.
