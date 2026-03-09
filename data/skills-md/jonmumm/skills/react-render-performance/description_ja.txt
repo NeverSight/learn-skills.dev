@@ -1,0 +1,1 @@
+外部状態 (XState、@xstate/store、Zustand、Redux、Nanostore、context) を使用する際の不要な React の再レンダリングを最小限に抑えます。 useState(wholeObject) よりもセレクターベースのサブスクリプションを優先します。 React で外部状態を処理する場合、再レンダリングを最適化する場合、状態パターンを選択する場合、またはこれらのライブラリと統合する場合に使用します。
