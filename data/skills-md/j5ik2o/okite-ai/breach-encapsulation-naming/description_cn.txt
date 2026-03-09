@@ -1,0 +1,1 @@
+防止 getter 滥用的命名约定技巧。当域模型中不可避免地需要 getter 时（用于持久性、JSON 序列化等），请在其前面加上 `breachEncapsulationOf` 前缀来标记封装正在被破坏。这可以防止违反“告诉-不要-询问”原则，并阻止无意中使用吸气剂。在代码审查、新实现或重构期间需要 getter 时使用。目标语言：Java、Kotlin、Scala、TypeScript、Python、Go、Rust。由有关 getter 命名、破坏封装的 getter、持久性 getter、“破坏封装”或“我需要一个 getter 但想阻止其滥用”的请求触发。

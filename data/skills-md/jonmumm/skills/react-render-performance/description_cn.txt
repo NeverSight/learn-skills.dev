@@ -1,0 +1,1 @@
+在使用外部状态（XState、@xstate/store、Zustand、Redux、Nanostores、上下文）时最大程度地减少不必要的 React 重新渲染。优先选择基于选择器的订阅而不是 useState(wholeObject)。在处理 React 中的外部状态、优化重新渲染、选择状态模式或与这些库集成时使用。

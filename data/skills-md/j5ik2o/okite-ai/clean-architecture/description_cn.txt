@@ -1,0 +1,1 @@
+设计和审查对采用清洁架构的项目的支持。基于四层结构（领域、用例、接口适配器、基础设施）。特别是，基础设施层应该只包含横切关注点（日志记录、配置管理），而持久性和 RPC 属于接口适配器层。触发器：仅在明确提及 Clean Architecture 时激活，例如“使用 Clean Architecture”、“根据 Clean Architecture”、“Clean Architecture review”。不激活一般“设计审查”或“架构咨询”。
