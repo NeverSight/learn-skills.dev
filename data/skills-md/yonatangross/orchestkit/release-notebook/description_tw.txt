@@ -1,0 +1,1 @@
+為目前 OrchestKit 版本建立版本化的 NotebookLM 筆記本。從 package.json 讀取版本，提取匹配的 CHANGELOG 部分，上傳 CHANGELOG + CLAUDE.md + manifests/ork.json 作為來源，產生音訊概述並共用筆記本。在剪切版本以建立版本 KB 時使用。
