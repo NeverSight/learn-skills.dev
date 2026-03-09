@@ -1,0 +1,1 @@
+Migriert Nango-Synchronisierungen von deleteRecordsFromPreviousExecutions()/trackDeletes nach trackDeletesStart/trackDeletesEnd für die automatische Löscherkennung (einschließlich Checkpoint-basierter vollständiger Aktualisierung). Wird zum Aktualisieren des vorhandenen createSync-Codes verwendet.
