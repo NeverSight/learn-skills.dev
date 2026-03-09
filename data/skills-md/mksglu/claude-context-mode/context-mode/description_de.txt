@@ -1,0 +1,16 @@
+Verwenden Sie bei der Verarbeitung Kontextmodus-Tools (ctx_execute, ctx_execute_file) anstelle von Bash/cat
+große Leistungen. Auslösephrasen: „Protokolle analysieren“, „Ausgabe zusammenfassen“, „Daten verarbeiten“,
+„JSON analysieren“, „Ergebnisse filtern“, „Fehler extrahieren“, „Build-Ausgabe prüfen“,
+„Abhängigkeiten analysieren“, „API-Antwort verarbeiten“, „Analyse großer Dateien“,
+„Elemente extrahieren“, „Seiten-Snapshot“, „Browser-Snapshot“, „Snapshot erstellen“,
+„DOM-Struktur“, „Seite prüfen“, „Formularfelder“, „Elementselektoren“,
+„Webseitenstruktur“, „Barrierefreiheitsbaum“, „Playwright-Snapshot“,
+„Tests ausführen“, „Testausgabe“, „Abdeckungsbericht“, „Git-Protokoll“, „Letzte Commits“,
+„Unterschied zwischen Zweigen“, „Container auflisten“, „Pod-Status“, „Festplattennutzung“,
+„Dokumente abrufen“, „API-Referenz“, „Dokumentation indizieren“, „Endpunkt treffen“,
+„API aufrufen“, „Antwort prüfen“, „Ergebnisse abfragen“, „Tabellen anzeigen“,
+„TODOs finden“, „Zeilen zählen“, „Codebasisstatistik“, „Sicherheitsaudit“,
+„Veraltete Pakete“, „Abhängigkeitsbaum“, „Cloud-Ressourcen“, „CI/CD-Ausgabe“.
+Löst das auch bei JEDEM MCP-Tool-Ausgang (Playwright, Context7, GitHub API) aus
+kann 20 Zeilen überschreiten, und jede Operation, bei der die Ausgabegröße ungewiss ist.
+Das Subagenten-Routing erfolgt automatisch über den PreToolUse-Hook – es sind keine manuellen Tool-Namen in Eingabeaufforderungen erforderlich.

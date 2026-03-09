@@ -1,0 +1,4 @@
+Ein Arbeitsablauf zur Erhöhung der Sicherheit für bestimmte Bedrohungsszenarien.  
+Füttere es mit einer einzelnen, konkreten Bedrohung – etwa „IDOR verhindern“, „CSRF-Gegenmaßnahmen entwerfen“ oder „RLS stärken“ – und es liefert konsistent Artefakte aus dem Bedrohungsmodell → Abwehrentwurf → Implementierungsplan → Tests/Protokollierung → Release-Gate.  
+Verwenden Sie es für Korrekturen, die auf bestimmte Schwachstellen abzielen: IDOR, Replay-Angriffe, CSRF, XSS, Path Traversal, Open Redirect, Rate-Limit-Design usw.  
+Wenn Sie „die gesamte Codebasis scannen“ müssen, verwenden Sie security-audit-quick; Wenn Sie eine „umfassende App-weite Bewertung“ wünschen, verwenden Sie security-threat-review.
