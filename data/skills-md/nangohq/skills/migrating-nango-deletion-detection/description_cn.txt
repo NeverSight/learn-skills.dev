@@ -1,0 +1,1 @@
+将 Nango 同步从 deleteRecordsFromPreviousExecutions()/trackDeletes 迁移到 trackDeletesStart/trackDeletesEnd 以进行自动删除检测（包括基于检查点的完全刷新）。更新现有 createSync 代码时使用。

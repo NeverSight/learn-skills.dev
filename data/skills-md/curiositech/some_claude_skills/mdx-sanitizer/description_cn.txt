@@ -1,0 +1,1 @@
+清理 Docusaurus 构建的 MDX 内容。修复了未转义的尖括号（<、>、<=、>=）、Liquid/Nunjucks 模板语法 ({{ }})、TypeScript 泛型 (Promise<T>) 和内联代码反引号边缘情况。当预提交挂钩在括号或 Liquid 验证上失败时，或者当 MDX/JSX 构建错误引用意外标记时使用。不适用于一般的 Markdown linting 或散文编辑。
