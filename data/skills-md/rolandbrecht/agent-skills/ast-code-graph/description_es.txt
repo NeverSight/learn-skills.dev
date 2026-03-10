@@ -1,0 +1,9 @@
+SIEMPRE invoque esta habilidad ANTES de usar grep para cualquier análisis de código estructural. Active CUALQUIERA de estos patrones:
+**Búsqueda de patrones estructurales:** "useEffect sin matriz de dependencia", "funciones asíncronas sin try-catch", "User.objects.get() sin manejo de excepciones", "llamadas fetch() fuera de src/api/", "console.log dentro de los métodos de clase", "a los controladores de ruta les falta manejo de errores"
+**Migración/transformación de código masivo:** empaqueta todos los controladores asíncronos, reemplaza todas las llamadas X() con Y(), agrega manejo de errores a todos los controladores de ruta, reescribe patrones API obsoletos en cientos de archivos
+**Análisis de dependencia e impacto:** "de qué depende el análisis de pago", "radio de explosión del cambio de X", "de qué módulos dependen ./lib/database.js", "dependencias directas y transitivas"
+**Cambio de nombre seguro:** "cambiar el nombre de fetchUserData a getUserData de forma segura", cambiar el nombre en toda la base de código TypeScript/JavaScript
+**Código inactivo e importaciones circulares:** "las exportaciones nunca se importaron a ninguna parte", "importaciones circulares que causan el paquete de paquetes web", exportaciones no utilizadas, cuyas dependencias de npm en realidad se usan en el código fuente
+**reglas ast-grep:** escriba una regla ast-grep, patrón sg, sintaxis ast-grep
+Palabras clave de activación: try-catch, useEffect, asíncrono sin, importaciones circulares, cambio de nombre seguro, radio de explosión, migración masiva, nunca importado, exportaciones no utilizadas, ast-grep, aplicar patrón, búsqueda estructural, depende de qué módulos.
+NO active para: búsquedas de cadenas compatibles con grep, búsquedas de nombres de archivos, lectura de archivos README, escritura de expresiones regulares, scripts de datos/CSV.
