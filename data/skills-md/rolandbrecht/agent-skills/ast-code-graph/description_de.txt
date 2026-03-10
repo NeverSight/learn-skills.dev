@@ -1,0 +1,9 @@
+Rufen Sie diesen Skill IMMER auf, BEVOR Sie grep für eine strukturelle Codeanalyse verwenden. Triggern Sie auf JEDES dieser Muster:
+**Strukturmustersuche:** „useEffect ohne Abhängigkeitsarray“, „asynchrone Funktionen ohne Try-Catch“, „User.objects.get() ohne Ausnahmebehandlung“, „fetch()-Aufrufe außerhalb von src/api/“, „console.log innerhalb von Klassenmethoden“, „Routenhandlern fehlt Fehlerbehandlung“
+**Massencodemigration/-transformation:** Alle asynchronen Handler umschließen, alle X()-Aufrufe durch Y() ersetzen, Fehlerbehandlung zu allen Routenhandlern hinzufügen, veraltete API-Muster in Hunderten von Dateien neu schreiben
+**Abhängigkeits- und Auswirkungsanalyse:** „Wovon hängt die Zahlung ab“, „Explosionsradius der Änderung von X“, „Welche Module hängen von ./lib/database.js ab“, „direkte und transitive Abhängigkeiten“
+**Sicheres Umbenennen:** „fetchUserData sicher in getUserData umbenennen“, in der gesamten TypeScript/JavaScript-Codebasis umbenennen
+**Toter Code und zirkuläre Importe:** „Exporte wurden nie irgendwo importiert“, „zirkuläre Importe verursachen ein Webpack-Bundle“, ungenutzte Exporte, deren NPM-Abhängigkeiten tatsächlich in der Quelle verwendet werden
+**Ast-Grep-Regeln:** Schreiben Sie eine Ast-Grep-Regel, ein SG-Muster und eine Ast-Grep-Syntax
+Trigger-Schlüsselwörter: try-catch, useEffect, async without, zirkuläre Importe, sicheres Umbenennen, Blast-Radius, Massenmigration, nie importiert, nicht verwendete Exporte, ast-grep, Muster erzwingen, strukturelle Suche, hängt davon ab, welche Module.
+NICHT auslösen für: grep-fähige String-Suchen, Dateinamen-Suchen, Lesen von READMEs, Schreiben von Regex, CSV/Datenskripts.

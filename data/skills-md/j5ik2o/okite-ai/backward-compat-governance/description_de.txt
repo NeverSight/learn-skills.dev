@@ -1,0 +1,5 @@
+Eine Fähigkeit, die die Struktur erkennt, in der die Abwärtskompatibilität massenhaft Müllcode produziert, und eine Governance unterstützt, die die Kompatibilität als „Vertrags- und Entfernungsplan“ verwaltet.  
+Dazu gehören die Klärung öffentlicher API-Grenzen, die Institutionalisierung von Abwertungszyklen, die Lokalisierung von Kompatibilitätsebenen (Adapter/Strangler Abb), die Validierung der Kompatibilität über Vertragstests (CDC) und das Entwerfen von Kompatibilitäts-Gates für KI-generierten Code.  
+Wird bei Codeüberprüfungen, API-Design, Refactoring und Legacy-Migration verwendet, um technische Schulden aufgrund von Kompatibilität zu vermeiden.  
+Zielsprachen: sprachunabhängig (Java, TypeScript, Go, Python, Rust usw.).  
+Auslöser: Aktiviert durch Kompatibilitätsverwaltungsanfragen wie „Ich möchte die Abwärtskompatibilität aufrechterhalten“, „Was tun mit veralteten APIs“, „Die Kompatibilitätsebenen nehmen zu“, „Legacy-Migrationsstrategie“, „Überprüfung des API-Designs“, „Zu viel Kompatibilitätscode“, „Ich möchte eine veraltete Richtlinie erstellen“ oder „Breaking Changes verwalten“.
