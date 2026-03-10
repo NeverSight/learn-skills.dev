@@ -1,0 +1,22 @@
+PostgreSQL 18+ best practice complete per lo sviluppo di database aziendali. Fornisce lo schema
+modelli di architettura, progettazione di API di tabelle, standard di codifica PL/pgSQL, migrazioni e data warehousing.
+
+UTILIZZA QUESTA ABILITÀ QUANDO L'UTENTE:
+- Crea schemi, tabelle, funzioni, procedure o trigger PostgreSQL
+- Chiede informazioni sui tipi di dati PostgreSQL (uuid, testo, timestamptz, jsonb, numerico)
+- Scrive codice PL/pgSQL e necessita di convenzioni di denominazione (prefissi l_, in_, io_, co_)
+- Implementa il modello API della tabella (funzioni SECURITY DEFINER, separazione dello schema)
+- Imposta le migrazioni del database o il controllo delle versioni dello schema
+- Richiede l'ottimizzazione dell'indice, la progettazione dei vincoli o l'aiuto sulle prestazioni delle query
+- Chiede informazioni sulle funzionalità di PostgreSQL 18+ (uuidv7, colonne virtuali, vincoli temporali)
+- Costruisce data warehouse con architettura Medaglione (Bronzo/Argento/Oro)
+- Richiede il monitoraggio della derivazione dei dati, modelli ETL o registrazione di controllo
+- Revisiona il codice del database per individuare le migliori pratiche o anti-modelli
+- Migra da Oracle PL/SQL a PostgreSQL PL/pgSQL
+- Configura pipeline CI/CD per le modifiche al database
+
+MODELLI PRINCIPALI:
+- Separazione di tre schemi: dati (tabelle) → privato (interno) → api (esterno)
+- API tabella: tutti gli accessi tramite le funzioni SECURITY DEFINER con SET search_path
+- Sistema di migrazione nativo: pura alternativa PL/pgSQL a Flyway/Liquibase
+- Denominazione Trivadis: l_ (locale), in_ (input), io_ (inout), co_ (costante)
