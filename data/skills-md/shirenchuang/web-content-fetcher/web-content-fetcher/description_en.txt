@@ -1,1 +1,1 @@
-Web body content extraction. Supports three fallback levels: Jina Reader, Scrapling+html2text, and web_fetch, automatically returning clean Markdown-formatted body, preserving titles, links, image URLs, and list structures. Can read WeChat Official Account articles (scenarios where Jina fails). Trigger condition: user wants to grab body content from a URL, read an article, extract webpage content, etc.
+网页正文内容提取。支持 Jina Reader / Scrapling+html2text / web_fetch 三级降级策略， 自动返回干净的 Markdown 格式正文，保留标题、链接、图片 URL、列表结构。 能读取微信公众号文章（Jina 做不到的场景）。 触发条件：用户要抓取某个 URL 的正文内容、读取某篇文章、提取网页内容等。

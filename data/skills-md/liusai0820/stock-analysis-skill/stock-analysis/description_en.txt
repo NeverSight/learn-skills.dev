@@ -1,10 +1,9 @@
-AI-powered stock analysis skill. Input a stock code (A-shares/Hong Kong stocks/US stocks), and it automatically:
+股票智能分析技能。输入股票代码（A股/港股/美股），自动完成：
+1. 获取实时行情 + 历史K线数据
+2. 计算技术指标（MA/MACD/RSI/量能/乖离率）
+3. 综合评分（100分制）+ 买卖信号
+4. 搜索最新新闻消息面
+5. AI综合分析，输出决策看板
 
-1. Fetches real-time quotes + historical candlestick data  
-2. Calculates technical indicators (MA/MACD/RSI/volume/bias ratio)  
-3. Gives a composite score (out of 100) + buy/sell signals  
-4. Searches the latest news and sentiment  
-5. Uses AI to synthesize everything and outputs a decision dashboard  
-
-Trigger scenarios: user provides a stock code for analysis, asks how a certain stock is doing, requests a chart review, etc.  
-Sample inputs: “Analyze TSLA PLTR” “How’s 600519?” “Check HK00700 for me”
+触发场景：用户提供股票代码要求分析、问某只股票怎么样、要求看盘分析等。
+示例输入：「分析下 TSLA PLTR」「600519怎么样」「帮我看看HK00700」
