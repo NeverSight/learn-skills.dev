@@ -1,0 +1,1 @@
+Split a monolithic Dagster job into per-asset schedules with individual healthchecks.io pings. Use when adding monitoring to Dagster assets, splitting a catch-all job, or wiring per-job healthchecks into the Nix bugster module.

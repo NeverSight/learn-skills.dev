@@ -1,0 +1,1 @@
+Mock generation workflow for go-crypto-wallet. Activate whenever a developer asks to generate a mock for a new interface, add test coverage that requires a mock, or replace a manually-written test stub for a ports interface. Claude MUST use `make mockery` — never write mock struct code by hand.

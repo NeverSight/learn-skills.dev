@@ -1,0 +1,9 @@
+ALWAYS invoke this skill BEFORE using grep for any structural code analysis. Trigger on ANY of these patterns:
+**Structural pattern search:** "useEffect without dependency array", "async functions without try-catch", "User.objects.get() without exception handling", "fetch() calls outside src/api/", "console.log inside class methods", "route handlers missing error handling"
+**Bulk code migration/transformation:** wrap all async handlers, replace all X() calls with Y(), add error handling to all route handlers, rewrite deprecated API patterns across hundreds of files
+**Dependency & impact analysis:** "what does analyzePayment depend on", "blast radius of changing X", "which modules depend on ./lib/database.js", "direct and transitive dependencies"
+**Safe renaming:** "rename fetchUserData to getUserData safely", rename across TypeScript/JavaScript codebase
+**Dead code & circular imports:** "exports never imported anywhere", "circular imports causing webpack bundle", unused exports, which npm dependencies are actually used in source
+**ast-grep rules:** write an ast-grep rule, sg pattern, ast-grep syntax
+Trigger keywords: try-catch, useEffect, async without, circular imports, safe rename, blast radius, bulk migration, never imported, unused exports, ast-grep, enforce pattern, structural search, depends on, which modules.
+Do NOT trigger for: grep-able string searches, file-name lookups, reading READMEs, writing regex, CSV/data scripts.

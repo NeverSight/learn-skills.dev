@@ -1,0 +1,3 @@
+Scaffold a new integration-type "seed skill" — a SKILL.md with reference assets and prompts.jsonl entries that teach an agent to generate working, testable integration code from scratch.
+- Use when: developer wants to create a new skill for an SDK or framework integration that agents should be able to implement and test
+- Ask first: Is this an integration skill (code generation + tests) or a tool skill (CLI wrapper with no tests)? Only proceed with this skill for integration-type skills.

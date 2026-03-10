@@ -1,0 +1,1 @@
+Audit story statuses across filesystem, KB, and git worktrees. Detects stale statuses, duplicate directories, orphaned worktrees, unprocessed deferred KB writes, and missing KB artifacts. Resolves conflicts by picking the furthest-progressed directory as ground truth.

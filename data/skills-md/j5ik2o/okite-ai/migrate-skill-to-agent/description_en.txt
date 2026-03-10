@@ -1,0 +1,1 @@
+スキルディレクトリを `.claude/skills/{name}` から `.agents/skills/{name}` へ移動し、 `.claude/skills/{name}` と `.codex/skills/{name}` の両方からシンボリックリンクを作成するマイグレーションスキル。 スキルの実体を `.agents/skills/` に一元化し、Claude Code と Codex CLI の両方から 参照可能にするディレクトリ構成を実現する。引数としてスキル名が必須。 トリガー：「スキルを .agents に移動」「スキルをマイグレート」「シンボリックリンクを作成」 「migrate skill」「スキルの配置を統一」といったスキル配置変更リクエストで起動。

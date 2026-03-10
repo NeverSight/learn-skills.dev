@@ -1,0 +1,9 @@
+Workleap's shared web configuration packages (@workleap/eslint-configs, typescript-configs, rsbuild-configs, rslib-configs, stylelint-configs, browserslist-config).
+
+Use when:
+(1) Setting up or customizing shared web tooling configs in a Workleap project
+(2) Configuring ESLint by project type (web app, React library, TS library, monorepo)
+(3) Configuring TypeScript by project type (web-application, library, monorepo-workspace)
+(4) Configuring Rsbuild or Rslib bundling (dev, build, Storybook)
+(5) Configuring Stylelint, Browserslist, or monorepo (Turborepo) vs polyrepo strategies
+(6) Extending or customizing shared configs, troubleshooting ESM/ESNext constraints

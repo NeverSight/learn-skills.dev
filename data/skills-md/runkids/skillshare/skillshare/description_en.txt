@@ -1,0 +1,9 @@
+Manages and syncs AI CLI skills across 50+ tools from a single source.
+Use this skill whenever the user mentions "skillshare", runs skillshare commands,
+manages skills (install, update, uninstall, sync, audit, check, diff, search),
+or troubleshoots skill configuration (orphaned symlinks, broken targets, sync
+issues). Covers both global (~/.config/skillshare/) and project (.skillshare/)
+modes. Also use when: adding new AI tool targets (Claude, Cursor, Windsurf, etc.),
+setting target include/exclude filters or copy vs symlink mode, using backup/restore
+or trash recovery, piping skillshare output to scripts (--json), setting up CI/CD
+audit pipelines, or building/sharing skill hubs (hub index, hub add).
