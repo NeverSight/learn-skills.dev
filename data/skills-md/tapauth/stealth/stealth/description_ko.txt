@@ -1,0 +1,1 @@
+AI 에이전트용 안티봇 탐지 툴킷. 에이전트가 차단되는 이유를 진단하고 해결합니다. 사용 시기: 에이전트가 403/429 오류 발생, CAPTCHA(hCaptcha, reCAPTCHA, Cloudflare Turnstile) 발생, 봇으로 감지됨, 웹 사이트에서 가짜/빈 데이터 수신, Cloudflare 문제 발생, IP 블록 우회 필요 또는 데이터 센터/클라우드 IP에서 실행 중인 경우. 포함 사항: 주거용 프록시 설정, CAPTCHA 솔버 구성, 스텔스 브라우저 지문 인식. 웹 스크래핑, 브라우저 자동화, 양식 작성 및 봇 감지가 문제가 되는 모든 작업에 사용됩니다. Puppeteer, Playwright, Selenium 및 헤드리스 Chrome과 호환됩니다.

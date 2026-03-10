@@ -1,0 +1,9 @@
+Workleap의 공유 웹 구성 패키지(@workleap/eslint-configs, typescript-configs, rsbuild-configs, rslib-configs, stylelint-configs, browserslist-config).
+
+다음과 같은 경우에 사용하세요:
+(1) Workleap 프로젝트에서 공유 웹 도구 구성 설정 또는 사용자 정의
+(2) 프로젝트 유형별 ESLint 구성(웹앱, React 라이브러리, TS 라이브러리, monorepo)
+(3) 프로젝트 유형별 TypeScript 구성(웹 애플리케이션, 라이브러리, monorepo-workspace)
+(4) Rsbuild 또는 Rslib 번들링 구성(dev, build, Storybook)
+(5) Stylelint, Browserslist 또는 monorepo(Turborepo) 대 Polyrepo 전략 구성
+(6) 공유 구성 확장 또는 사용자 정의, ESM/ESNext 제약 문제 해결

@@ -1,0 +1,11 @@
+자동 상관 ID를 사용하여 Honeycomb, LogRocket 및 Mixpanel을 연결하는 Workleap의 통합 원격 측정인 @workleap/telemetry에 대한 가이드입니다.
+
+다음과 같은 경우에 이 기술을 사용하십시오.
+(1) 프런트엔드 애플리케이션에서 wl-telemetry 초기화
+(2) 상관 값(Telemetry Id, Device Id) 및 도구 간 데이터 상관 관계
+(3) 허니콤 추적, OpenTelemetry 범위 및 성능 모니터링
+(4) LogRocket 세션 재생, 사용자 식별 및 개인 정보 보호 제어
+(5) 믹스패널 분석, 이벤트 추적, 제품 간 추적
+(6) wl-telemetry 진단 로거 구성(LogRocketLogger)
+(7) Noop 원격 측정 클라이언트를 사용한 스토리북/테스트 설정
+(8) 원격 측정 계측 검토 또는 문제 해결

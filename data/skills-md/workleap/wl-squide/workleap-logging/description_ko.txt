@@ -1,0 +1,8 @@
+Workleap 프런트엔드 TypeScript 애플리케이션을 위한 구조화된 로깅 라이브러리인 @workleap/logging에 대한 가이드입니다.
+
+다음과 같은 경우에 이 기술을 사용하십시오.
+(1) @workleap/logging 로거 설정 또는 구성(BrowserConsoleLogger, CompositeLogger)
+(2) @workleap/logging API 사용: 로그 수준, 연결된 세그먼트, 범위, 스타일이 지정된 출력
+(3) 다중 대상 로깅을 위한 @workleap/logging 로거 구성 또는 필터링
+(4) CompositeLogger를 통해 @workleap/logging을 LogRocket과 통합
+(5) PR 검토 또는 @workleap/logging 사용 문제 해결

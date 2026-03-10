@@ -1,0 +1,1 @@
+Nginx, Traefik 및 ShinyProxy를 포함한 여러 도구에서 역방향 프록시 패턴을 구성합니다. WebSocket 프록시, 경로 기반 및 호스트 기반 라우팅, SSL 종료, Docker 레이블 자동 검색을 다룹니다. 단일 진입점 뒤에서 여러 서비스를 라우팅하거나, WebSocket 연결(Shiny, Socket.IO)을 프록시하거나, Traefik 레이블을 사용하여 Docker 서비스를 자동 검색하거나, 기본적으로 TLS를 처리하지 않는 서비스에 SSL 종료를 추가할 때 사용합니다.

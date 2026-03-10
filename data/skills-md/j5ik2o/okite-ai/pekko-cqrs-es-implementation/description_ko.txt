@@ -1,0 +1,5 @@
+Apache Pekko + Scala 3을 사용한 CQRS/이벤트 소싱 구현 가이드. PersistenceEffector가 포함된 집계 행위자, 행위자로부터 도메인 모델 분리, 유형 안전 상태 전환, 이벤트 디자인, 프로토콜 버퍼 직렬화, ZIO 기반 사용 사례 계층 및 읽기 모델 업데이트 패턴을 제공합니다.  
+대상 언어: Scala 3만 해당. CQRS/이벤트 소싱 아키텍처를 가정하는 경우에만 사용하십시오.  
+트리거 조건: 요청에 "Scala" 및 ("CQRS" 또는 "Event Sourcing" 또는 "Pekko")가 포함된 경우에만 활성화됩니다. 이 스킬은 Scala 이외의 언어나 CQRS/ES 이외의 아키텍처에 사용하면 안 됩니다.  
+트리거: "Pekko로 CQRS/ES를 구현하고 싶습니다", "Scala에서 집계 행위자를 작성하고 싶습니다", "PersistenceEffector 사용 방법", "Pekko 이벤트 소싱", "Scala에서 CQRS의 명령 측 구현", "Pekko로 상태 전환 관리"와 같은 요청.  
+비트리거: Scala/Pekko와 관련되지 않은 "CQRS trade-offs", "이벤트 소싱이란 무엇입니까?", "Java의 CQRS", "Go의 이벤트 소싱", "CQRS 개념 설명" 등과 같은 개념적 질문에 대해 활성화하면 안 됩니다.

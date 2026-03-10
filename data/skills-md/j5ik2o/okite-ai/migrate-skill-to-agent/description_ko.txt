@@ -1,0 +1,1 @@
+기술 디렉터리를 `.claude/skills/{name}`에서 `.agents/skills/{name}`으로 이동하고 `.claude/skills/{name}` 및 `.codex/skills/{name}` 모두에서 기호 링크를 생성하는 마이그레이션 기술입니다. 이 디렉터리 구조는 `.agents/skills/`에 실제 기술 파일을 중앙 집중화하고 Claude Code 및 Codex CLI에서 액세스할 수 있도록 합니다. 인수로 스킬 이름이 필요합니다. 트리거: ".agents로 스킬 이동", "스킬 마이그레이션", "심볼릭 링크 생성", "스킬 마이그레이션" 또는 "스킬 배치 통합"과 같은 스킬 재배치 요청에 의해 활성화됩니다.

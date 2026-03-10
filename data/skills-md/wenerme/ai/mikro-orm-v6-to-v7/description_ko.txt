@@ -1,0 +1,1 @@
+@mikro-orm 패키지를 v6에서 v7로 업그레이드할 때, v7 런타임/유형 오류 수정(데코레이터 SyntaxError, persistAndFlush 제거, NativeInsert 찾을 수 없음), knex를 kysely로 조정하거나 better-sqlite를 새로운 SQLite 드라이버로 조정, Edge/Bun/node:sqlite 환경에서 MikroORM 실행, 또는 DefineEntity와 데코레이터 엔터티 정의 중에서 선택할 때 사용합니다. "mikro-orm v7", "persistAndFlush", "@mikro-orm/ decorators", "@mikro-orm/sql", "defineEntity", "bun:sqlite mikro-orm"에서 트리거됩니다.
