@@ -1,0 +1,7 @@
+Strumento di esecuzione degli ordini. Regole severe:  
+(1) Tutti gli ordini devono essere effettuati tramite `node scripts/exchange.mjs create_order`; è vietato il codice personalizzato per l'effettuazione dell'ordine.  
+(2) `create_order` viene eseguito in due passaggi: la prima chiamata restituisce un'anteprima per la revisione dell'utente; dopo che l'utente ha detto "conferma", la seconda chiamata viene eseguita con "confirmed=true".  
+(3) L'autoconferma è vietata; è vietato saltare l'anteprima.  
+(4) Le posizioni di chiusura devono utilizzare "close_position"; è vietato utilizzare "create_order" per costruire un ordine di chiusura.  
+
+Trigger: 'acquista', 'vendi', 'ordine', 'lungo', 'corto', 'leva', 'chiudi posizione', '买', '卖', '下单', '做多', '做空', '杠杆', '开仓', '平仓', '平掉', '关仓'.

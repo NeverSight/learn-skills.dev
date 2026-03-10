@@ -1,0 +1,9 @@
+Richiama SEMPRE questa abilità PRIMA di utilizzare grep per qualsiasi analisi del codice strutturale. Trigger su QUALSIASI di questi pattern:
+**Ricerca di pattern strutturali:** "useEffect senza array di dipendenze", "funzioni asincrone senza try-catch", "User.objects.get() senza gestione delle eccezioni", "chiamate fetch() all'esterno di src/api/", "console.log all'interno dei metodi della classe", "gestori di route senza gestione degli errori"
+**Migrazione/trasformazione del codice in blocco:** esegui il wrap di tutti i gestori asincroni, sostituisci tutte le chiamate X() con Y(), aggiungi la gestione degli errori a tutti i gestori di route, riscrivi modelli API deprecati su centinaia di file
+**Analisi delle dipendenze e dell'impatto:** "da cosa dipende analyzePayment", "raggio di esplosione della modifica di X", "quali moduli dipendono da ./lib/database.js", "dipendenze dirette e transitive"
+**Rinominazione sicura:** "rinomina fetchUserData in getUserData in modo sicuro", rinomina nella codebase TypeScript/JavaScript
+**Codice morto e importazioni circolari:** "esportazioni mai importate da nessuna parte", "importazioni circolari che causano bundle di webpack", esportazioni inutilizzate, le cui dipendenze npm vengono effettivamente utilizzate nel codice sorgente
+**regole ast-grep:** scrivi una regola ast-grep, modello sg, sintassi ast-grep
+Parole chiave di attivazione: try-catch, useEffect, async senza, importazioni circolari, ridenominazione sicura, raggio di esplosione, migrazione di massa, mai importato, esportazioni non utilizzate, ast-grep, applica modello, ricerca strutturale, dipende da quali moduli.
+NON eseguire l'attivazione per: ricerche di stringhe compatibili con grep, ricerche di nomi di file, lettura di file README, scrittura di espressioni regolari, script CSV/dati.

@@ -1,0 +1,3 @@
+Supporta una nuova "abilità seed" di tipo integrazione: un SKILL.md con risorse di riferimento e voci prompts.jsonl che insegnano a un agente a generare da zero un codice di integrazione funzionante e testabile.
+- Da utilizzare quando: lo sviluppatore desidera creare una nuova competenza per un SDK o un'integrazione del framework che gli agenti dovrebbero essere in grado di implementare e testare
+- Chiedi prima: si tratta di una capacità di integrazione (generazione di codice + test) o di una capacità dello strumento (wrapper CLI senza test)? Procedere con questa abilità solo per le abilità di tipo integrazione.
