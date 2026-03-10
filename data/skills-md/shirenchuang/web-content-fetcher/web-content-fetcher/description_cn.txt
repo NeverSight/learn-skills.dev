@@ -1,0 +1,1 @@
+网页正文内容提取。支持三级回退策略：Jina Reader / Scrapling+html2text / web_fetch，自动返回干净的 Markdown 格式的正文，保留标题、链接、图像 URL 和列表结构。可以阅读微信公众号文章（Jina失败的场景）。触发条件：当用户想要抓取URL的正文内容、阅读文章、提取网页内容等时。

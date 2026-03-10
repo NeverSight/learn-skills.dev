@@ -1,0 +1,22 @@
+PostgreSQL 18+ 企业数据库开发的全面最佳实践。提供架构
+架构模式、表 API 设计、PL/pgSQL 编码标准、迁移和数据仓库。
+
+当用户出现以下情况时使用此技能：
+- 创建 PostgreSQL 模式、表、函数、过程或触发器
+- 询问 PostgreSQL 数据类型（uuid、text、timestamptz、jsonb、numeric）
+- 编写 PL/pgSQL 代码并需要命名约定（l_、in_、io_、co_ 前缀）
+- 实现表 API 模式（SECURITY DEFINER 函数、模式分离）
+- 设置数据库迁移或架构版本控制
+- 需要索引优化、约束设计或查询性能帮助
+- 询问 PostgreSQL 18+ 功能（uuidv7、虚拟列、时间约束）
+- 使用 Medallion 架构构建数据仓库（铜牌/银牌/金牌）
+- 需要数据沿袭跟踪、ETL 模式或审核日志记录
+- 审查数据库代码的最佳实践或反模式
+- 从 Oracle PL/SQL 迁移到 PostgreSQL PL/pgSQL
+- 为数据库更改设置 CI/CD 管道
+
+核心模式：
+- 三模式分离：数据（表）→私有（内部）→api（外部）
+- 表 API：通过带有 SET search_path 的 SECURITY DEFINER 函数进行所有访问
+- 原生迁移系统：Flyway/Liquibase 的纯 PL/pgSQL 替代方案
+- Trivadis 命名：l_（本地）、in_（输入）、io_（输入输出）、co_（常量）
