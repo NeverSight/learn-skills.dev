@@ -1,0 +1,5 @@
+Expliquez logiquement pourquoi la recherche d'événements devient obligatoire lors de la mise en œuvre du CQRS.  
+Analysez étape par étape les problèmes de synchronisation des données du côté commande jusqu'au côté requête (impossibilité de synchroniser les valeurs calculées, limitations des déclencheurs, problèmes d'évolutivité des interrogations, problème de double validation) et montrez le chemin vers une conception dans laquelle les événements sont la véritable source de données.  
+À utiliser lors de l’évaluation de l’adoption du CQRS ou lors de la conception de l’architecture.  
+Langue cible : indépendante de la langue.  
+Déclencheur : s'active sur les requêtes concernant l'inévitabilité de CQRS/ES telles que « Le sourcing d'événements est-il nécessaire pour CQRS ? », « Comment synchroniser le côté C et le côté Q ? », « Dois-je séparer les modèles dans CQRS ? »

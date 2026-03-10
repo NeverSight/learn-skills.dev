@@ -1,0 +1,9 @@
+Gère et synchronise les compétences AI CLI sur plus de 50 outils à partir d’une source unique.
+Utilisez cette compétence chaque fois que l'utilisateur mentionne « skillshare », exécute des commandes skillsshare,
+gère les compétences (installation, mise à jour, désinstallation, synchronisation, audit, vérification, comparaison, recherche),
+ou dépanne la configuration des compétences (liens symboliques orphelins, cibles brisées, synchronisation
+problèmes). Couvre à la fois le global (~/.config/skillshare/) et le projet (.skillshare/)
+modes. À utiliser également lors de : l'ajout de nouvelles cibles d'outils d'IA (Claude, Cursor, Windsurf, etc.),
+définition des filtres d'inclusion/exclusion cible ou du mode copie/lien symbolique, à l'aide de la sauvegarde/restauration
+ou récupération de la corbeille, transfert de la sortie du partage de compétences vers des scripts (--json), configuration de CI/CD
+auditer les pipelines, ou créer/partager des pôles de compétences (index du hub, ajout du hub).

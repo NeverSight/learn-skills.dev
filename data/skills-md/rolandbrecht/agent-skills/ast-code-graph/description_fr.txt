@@ -1,0 +1,9 @@
+TOUJOURS invoquer cette compétence AVANT d'utiliser grep pour toute analyse de code structurel. Déclenchez sur N'IMPORTE QUEL de ces modèles :
+**Recherche de modèles structurels :** "useEffect sans tableau de dépendances", "fonctions asynchrones sans try-catch", "User.objects.get() sans gestion des exceptions", "fetch() appels en dehors de src/api/", "console.log dans les méthodes de classe", "gestionnaires de route manquant la gestion des erreurs"
+**Migration/transformation de code en masse :** encapsule tous les gestionnaires asynchrones, remplace tous les appels X() par Y(), ajoute la gestion des erreurs à tous les gestionnaires de routes, réécrit les modèles d'API obsolètes sur des centaines de fichiers
+**Analyse des dépendances et d'impact :** "de quoi dépend analysePayment", "rayon d'explosion de changement de X", "de quels modules dépendent ./lib/database.js", "dépendances directes et transitives"
+**Renommage sécurisé :** "renommer fetchUserData en getUserData en toute sécurité", renommer sur la base de code TypeScript/JavaScript
+**Code mort et importations circulaires :** "exportations jamais importées nulle part", "importations circulaires provoquant un bundle Webpack", exportations inutilisées, dont les dépendances npm sont réellement utilisées dans la source
+**règles ast-grep :** écrivez une règle ast-grep, un modèle sg, une syntaxe ast-grep
+Mots-clés déclencheurs : try-catch, useEffect, async without, importations circulaires, renommage sécurisé, rayon de souffle, migration en masse, jamais importé, exportations inutilisées, ast-grep, modèle d'application, recherche structurelle, dépend des modules.
+Ne déclenchez PAS pour : les recherches de chaînes grep-ables, les recherches de noms de fichiers, la lecture de README, l'écriture d'expressions régulières, les scripts CSV/données.

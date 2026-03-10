@@ -1,0 +1,7 @@
+Outil de négociation d'ordres. Des règles strictes :  
+(1) Toutes les commandes doivent être passées via node scripts/exchange.mjs create_order ; le code personnalisé est interdit.  
+(2) create_order s'exécute en deux étapes : renvoie d'abord un aperçu à montrer à l'utilisateur ; une fois que l'utilisateur a dit « confirmer », réexécutez avec confirmé=true.  
+(3) La confirmation automatique est interdite ; il est interdit de sauter l'aperçu.  
+(4) Pour clôturer une position, vous devez utiliser close_position ; la création d'un ordre de clôture avec create_order est interdite.  
+
+Déclencheur : « acheter », « vendre », « commander », « long », « short », « effet de levier », « position de clôture », « 买 », « 卖 », « 下单 », « 做多 », « 做空 », « 杠杆 », « 开仓 », « 平仓 », '平掉', '关仓'.
