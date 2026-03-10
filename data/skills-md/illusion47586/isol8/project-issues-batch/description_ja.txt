@@ -1,0 +1,1 @@
+GitHub プロジェクトからリンクされているすべての問題を処理し、個別の PR として実装します。ユーザーが GitHub プロジェクト URL (github.com/owner/repo/projects/N または github.com/orgs/NAME/projects/N) を提供し、そのプロジェクト内のすべての問題を実装したい場合に使用します。各号が独自の PR になります。依存関係の問題が依存関係の PR ブランチから分岐するカスケード PR を使用して依存関係を処理します。

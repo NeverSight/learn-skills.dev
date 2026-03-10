@@ -1,0 +1,11 @@
+Honeycomb、LogRocket、Mixpanel を自動相関 ID で接続する Workleap の統合テレメトリである @workleap/telemetry のガイド。
+
+このスキルは次の場合に使用します。
+(1) フロントエンドアプリケーションでのwl-telemetryの初期化
+(2) 相関値 (Telemetry Id、Device Id) とツール間のデータ相関
+(3) ハニカム トレース、OpenTelemetry スパン、およびパフォーマンス監視
+(4) LogRocket セッションのリプレイ、ユーザー識別、プライバシー制御
+(5) Mixpanel 分析、イベント追跡、製品間追跡
+(6) wl-telemetry 診断ロガー (LogRocketLogger) の構成
+(7) Noop テレメトリ クライアントを使用したストーリーブック/テストのセットアップ
+(8) テレメトリー計測器のレビューまたはトラブルシューティング

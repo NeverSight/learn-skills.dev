@@ -1,0 +1,1 @@
+リモート モジュール フェデレーション モジュールのメタデータとマニフェスト情報 (publicPath、remoteEntry、タイプ ファイル URL、および mf-manifest.json からモジュールの Remotes/Exposes/shared) を取得します。 2 つのモード: (1) コンシューマ プロジェクト内では、リモート名のみを渡し、エントリ URL は mfConfig.remotes から解決されます。 (2) コンシューマ プロジェクトの外側では、リモート名とそのremoteEntry URLを直接渡します。現在のプロジェクト自体の構成を検査するには、代わりに mf-context を使用します。
