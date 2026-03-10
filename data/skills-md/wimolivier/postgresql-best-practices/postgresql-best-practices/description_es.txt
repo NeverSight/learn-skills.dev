@@ -1,0 +1,22 @@
+PostgreSQL 18+ mejores prácticas integrales para el desarrollo de bases de datos empresariales. Proporciona esquema
+patrones de arquitectura, diseño de Table API, estándares de codificación PL/pgSQL, migraciones y almacenamiento de datos.
+
+UTILIZA ESTA HABILIDAD CUANDO EL USUARIO:
+- Crea esquemas, tablas, funciones, procedimientos o desencadenadores de PostgreSQL
+- Pregunta sobre los tipos de datos de PostgreSQL (uuid, texto, marca de tiempo, jsonb, numérico)
+- Escribe código PL/pgSQL y necesita convenciones de nomenclatura (prefijos l_, in_, io_, co_)
+- Implementa el patrón Table API (funciones SECURITY DEFINER, separación de esquemas)
+- Configura migraciones de bases de datos o control de versiones de esquemas.
+- Necesita optimización de índices, diseño de restricciones o ayuda para el rendimiento de consultas.
+- Pregunta sobre las características de PostgreSQL 18+ (uuidv7, columnas virtuales, restricciones temporales)
+- Construye almacenes de datos con Medallion Architecture (Bronce/Plata/Oro)
+- Necesita seguimiento del linaje de datos, patrones ETL o registros de auditoría
+- Revisa el código de la base de datos en busca de mejores prácticas o antipatrones.
+- Migra de Oracle PL/SQL a PostgreSQL PL/pgSQL
+- Configura canalizaciones de CI/CD para cambios en la base de datos.
+
+PATRONES PRINCIPALES:
+- Separación de tres esquemas: datos (tablas) → privado (interno) → api (externo)
+- API de tabla: todo el acceso a través de funciones DEFINER DE SEGURIDAD con SET search_path
+- Sistema de migración nativo: alternativa pura de PL/pgSQL a Flyway/Liquibase
+- Nomenclatura Trivadis: l_ (local), in_ (entrada), io_ (entrada), co_ (constante)
