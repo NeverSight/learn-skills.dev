@@ -1,7 +1,7 @@
 # [learn-skills.dev](https://www.learn-skills.dev)
 
 Curated high-quality AI Agent Skills. Search, install, copy and share.
-Works with Claude Code, Cursor, OpenClaw, and other AI coding tools. Copy the install command and get started fast.
+Works with Claude Code, Cursor, OpenClaw, and other AI coding tools.
 
 **Web App:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Search, install, copy and share AI Agent Skills.
 
