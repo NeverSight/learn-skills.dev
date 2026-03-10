@@ -1,0 +1,22 @@
+PostgreSQL 18+ meilleures pratiques complètes pour le développement de bases de données d'entreprise. Fournit un schéma
+modèles d'architecture, conception d'API Table, normes de codage PL/pgSQL, migrations et entreposage de données.
+
+UTILISEZ CETTE COMPÉTENCE LORSQUE L'UTILISATEUR :
+- Crée des schémas, des tables, des fonctions, des procédures ou des déclencheurs PostgreSQL
+- Demande des types de données PostgreSQL (uuid, texte, timestamptz, jsonb, numérique)
+- Écrit du code PL/pgSQL et nécessite des conventions de dénomination (préfixes l_, in_, io_, co_)
+- Implémente le modèle API Table (fonctions SECURITY DEFINER, séparation de schéma)
+- Configure les migrations de bases de données ou la gestion des versions de schéma
+- Nécessite une optimisation d'index, une conception de contraintes ou une aide pour les performances des requêtes
+- Demande des fonctionnalités de PostgreSQL 18+ (uuidv7, colonnes virtuelles, contraintes temporelles)
+- Construit des entrepôts de données avec l'architecture médaillon (Bronze/Argent/Or)
+- Nécessite un suivi de la traçabilité des données, des modèles ETL ou une journalisation d'audit
+- Examine le code de la base de données pour les meilleures pratiques ou les anti-modèles
+- Migre d'Oracle PL/SQL vers PostgreSQL PL/pgSQL
+- Configure les pipelines CI/CD pour les modifications de la base de données
+
+MODÈLES DE BASE :
+- Séparation en trois schémas : données (tables) → privé (interne) → api (externe)
+- API Table : Tous les accès via les fonctions SECURITY DEFINER avec SET search_path
+- Système de migration natif : alternative pure PL/pgSQL à Flyway/Liquibase
+- Nommage Trivadis : l_ (local), in_ (entrée), io_ (inout), co_ (constante)
