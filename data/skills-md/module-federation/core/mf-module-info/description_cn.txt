@@ -1,0 +1,1 @@
+从其 mf-manifest.json 中获取远程模块联合模块的元数据和清单信息 - publicPath、remoteEntry、类型文件 URL 以及模块的remotes/exposes/shared。两种模式：（1）在consumer项目内部，仅传递远程名称，入口URL从mfConfig.remotes解析； (2) 在消费者项目之外，直接传递远程名称及其remoteEntry URL。要检查当前项目自己的配置，请改用 mf-context。

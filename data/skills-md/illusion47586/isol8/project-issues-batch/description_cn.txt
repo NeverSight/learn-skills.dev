@@ -1,0 +1,1 @@
+处理 GitHub 项目中的所有链接问题并将它们作为单独的 PR 实施。当用户提供 GitHub 项目 URL（github.com/owner/repo/projects/N 或 github.com/orgs/NAME/projects/N）并希望实现该项目中的所有问题时使用。每个问题都会成为自己的 PR。使用级联 PR 处理依赖关系，其中依赖问题从其依赖关系的 PR 分支分支出来。

@@ -1,0 +1,9 @@
+在使用 grep 进行任何结构代码分析之前，请务必调用此技能。触发以下任何模式：
+**结构模式搜索：**“没有依赖数组的useEffect”，“没有try-catch的异步函数”，“没有异常处理的User.objects.get()”，“src/api/外部的fetch()调用”，“类方法内部的console.log”，“路由处理程序缺少错误处理”
+**批量代码迁移/转换：**包装所有异步处理程序，用 Y() 替换所有 X() 调用，向所有路由处理程序添加错误处理，在数百个文件中重写已弃用的 API 模式
+**依赖&影响分析：**“analyzePayment依赖什么”、“变化X的爆炸半径”、“哪些模块依赖于./lib/database.js”、“直接依赖和传递依赖”
+**安全重命名：**“安全地将 fetchUserData 重命名为 getUserData”，跨 TypeScript/JavaScript 代码库重命名
+**死代码和循环导入：**“导出从未在任何地方导入”，“循环导入导致 webpack 捆绑”，未使用的导出，其中 npm 依赖项实际上在源中使用
+**ast-grep 规则：** 编写一个 ast-grep 规则、sg 模式、ast-grep 语法
+触发关键字：try-catch、useEffect、async without、循环导入、安全重命名、爆炸半径、批量迁移、从不导入、未使用的导出、ast-grep、强制模式、结构搜索、取决于、哪些模块。
+不要触发：可 grep 的字符串搜索、文件名查找、阅读自述文件、编写正则表达式、CSV/数据脚本。

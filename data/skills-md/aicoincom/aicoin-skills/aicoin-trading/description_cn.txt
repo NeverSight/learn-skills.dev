@@ -1,0 +1,1 @@
+订单执行工具。严格规则：（1）所有订单必须通过nodescripts/exchange.mjs create_order下单；禁止自定义订单代码。 (2)create_order分两步：首先返回一个预览给用户展示；当用户说“confirm”后，使用confirmed=true再次运行。 (3) 禁止自动确认；禁止跳过预览。 (4) 平仓必须使用close_position；禁止使用 create_order 创建抵消订单。

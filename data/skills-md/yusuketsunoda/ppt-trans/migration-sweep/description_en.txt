@@ -1,1 +1,1 @@
-移行コード（TODO(migration)）の寿命チェックを機械化する。期限切れや情報不足の 移行コードを検出し、レポート形式で出力する。コードベースにTODO(migration)が 残っていないか確認したいとき、期限切れの移行コードを掃除したいとき、 技術的負債の棚卸しをするときに使うこと。「あとで消す」コードの放置を防ぐ仕組み。
+Automate the lifetime check of migration code (TODO(migration)). Detect expired or information-lacking migration code and output it in report form. Use it when you want to confirm that no TODO(migration) remains in the codebase, when you want to clean up expired migration code, or when taking inventory of technical debt. A mechanism to prevent "delete later" code from being left unattended.

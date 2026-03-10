@@ -1,0 +1,1 @@
+在领导者代理工作流开始时打开一个新的上下文会话。在wint.contextSessions中记录agentName、storyId和phase，发出一个结构化的SESSION CREATED块供下游worker继承。
