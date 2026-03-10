@@ -1,1 +1,1 @@
-从网页中提取主要内容。支持三层回退策略：Jina Reader → Scrapling+html2text → web_fetch，自动返回干净的 Markdown 格式文本，同时保留标题、链接、图像 URL 和列表结构。可以閱讀微信公眾號文章（Jina失敗的場景）。觸發：當使用者想要抓取URL的主要內容、閱讀文章或擷取網頁內容。
+Web 正文内容提取。支持三个后备级别：Jina Reader、Scrapling+html2text 和 web_fetch，自动返回干净的 Markdown 格式的正文，保留标题、链接、图像 URL 和列表结构。可以閱讀微信公眾號文章（Jina失敗的場景）。觸發條件：使用者想要從URL抓取正文內容、閱讀文章、擷取網頁內容等。

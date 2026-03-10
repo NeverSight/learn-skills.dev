@@ -1,19 +1,19 @@
 PostgreSQL 18+ 企業資料庫開發的全面最佳實務。提供架構
 架構模式、表 API 設計、PL/pgSQL 編碼標準、遷移和資料倉儲。
 
-当用户出现以下情况时使用此技能：
+當使用者出現以下情況時使用此技能：
 - 建立 PostgreSQL 模式、表格、函數、流程或觸發器
 - 詢問 PostgreSQL 資料類型（uuid、text、timestamptz、jsonb、numeric）
 - 編寫 PL/pgSQL 程式碼並需要命名約定（l_、in_、io_、co_ 前綴）
 - 實作表 API 模式（SECURITY DEFINER 函數、模式分離）
-- 设置数据库迁移或架构版本控制
+- 設定資料庫遷移或架構版本控制
 - 需要索引最佳化、約束設計或查詢效能協助
 - 詢問 PostgreSQL 18+ 功能（uuidv7、虛擬列、時間約束）
 - 使用 Medallion 架構建立資料倉儲（銅牌/銀牌/金牌）
 - 需要資料沿襲追蹤、ETL 模式或審核日誌記錄
 - 審查資料庫程式碼的最佳實踐或反模式
 - 從 Oracle PL/SQL 遷移到 PostgreSQL PL/pgSQL
-- 为数据库更改设置 CI/CD 管道
+- 為資料庫變更設定 CI/CD 管道
 
 核心模式：
 - 三模式分離：資料（表）→私有（內部）→api（外部）
