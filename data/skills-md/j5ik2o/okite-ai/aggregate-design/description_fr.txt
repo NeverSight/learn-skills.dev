@@ -1,8 +1,9 @@
-Effectue la révision du code, la prise en charge de la conception et la refactorisation en fonction des règles de conception DDD Aggregate.  
-Guide de manière exhaustive sur la définition des limites globales, la validation invariante, la conception immuable, les références d'identification, la cohérence éventuelle et l'intégration des événements de domaine, en suivant les règles d'Evans, les 4 règles de Vernon et la conception par contrat.  
-Utilisez toujours cette compétence chaque fois que l'un des cas suivants s'applique :  
-- Nouvelle conception, implémentation ou refactorisation globale (n'importe quel langage)  
-- Revue de code des agrégats ou classes d'entités existants d'un point de vue DDD  
+Effectuer une révision du code, une prise en charge de la conception et une refactorisation des agrégats en fonction des règles de conception DDD Aggregate.  
+Guidez de manière exhaustive la définition des limites globales, la validation invariante, la conception immuable, les références d'identification, la cohérence éventuelle et l'intégration des événements de domaine conformément aux règles d'Evans, aux 4 règles de Vernon et à la conception par contrat.  
+
+Utilisez toujours cette compétence lorsque l’un des éléments suivants s’applique :  
+- Nouvelle conception, implémentation ou refactorisation d'un agrégat (n'importe quel langage)  
+- Examen du code axé sur DDD des classes d'agrégats ou d'entités existantes  
 - Décider des limites des agrégats (« A et B devraient-ils être dans le même agrégat ? » « Cet agrégat est-il trop grand ? »)  
 - Conception d'invariants et de limites de cohérence au sein d'un agrégat  
 - Choisir des modèles de collaboration inter-agrégats (événements de domaine, cohérence éventuelle, modèle Saga)  

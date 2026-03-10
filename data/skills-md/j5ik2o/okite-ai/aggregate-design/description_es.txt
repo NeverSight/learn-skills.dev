@@ -1,13 +1,13 @@
-Realiza revisión de código, asistencia en diseño y refactorización según las reglas de diseño de DDD Aggregate.  
-Guía de manera integral la definición de límites agregados, la validación invariante, el diseño inmutable, la referencia de identificación, la coherencia eventual y la colaboración entre dominios y eventos de acuerdo con las Reglas de Evans, las 4 reglas de Vernon y el Diseño por contrato.  
+Realice revisión de código, soporte de diseño y refactorización para agregados según las reglas de diseño de DDD Aggregate.  
+Guíe de manera integral la definición de límites agregados, la validación invariante, el diseño inmutable, las referencias de identificación, la coherencia eventual y la integración de eventos de dominio siguiendo las reglas de Evans, las 4 reglas de Vernon y el diseño por contrato.  
 
 Utilice siempre esta habilidad cuando se aplique cualquiera de las siguientes condiciones:  
-- Nuevo diseño, implementación o refactorización de agregados (cualquier idioma)  
+- Nuevo diseño, implementación o refactorización de un Agregado (cualquier idioma)  
 - Revisión de código centrada en DDD de clases de entidades o agregados existentes  
-- Determinar los límites de los agregados (“¿A y B deberían estar en el mismo agregado?”, “¿Este agregado es demasiado grande?”)  
+- Decidir los límites de los agregados (“¿A y B deberían estar en el mismo agregado?” “¿Es este agregado demasiado grande?”)  
 - Diseño de invariantes y límites de consistencia dentro de un agregado.  
-- Decidir patrones de colaboración entre agregados (eventos de dominio, consistencia eventual, patrón Saga)  
+- Elegir patrones de colaboración entre agregados (eventos de dominio, consistencia eventual, patrón Saga)  
 - Refactorización de código agregado mutable a diseño inmutable  
-- Detectar y corregir violaciones de encapsulación, como campos públicos, referencias directas, push/append, etc.  
+- Detectar y corregir violaciones de encapsulación, como campos públicos, referencias directas, push/append  
 
 Ejemplos de palabras clave: agregado, agregado, límite agregado, raíz agregada, AggregateRoot, diseño de entidad, implementación de DDD, reglas de Vernon, reglas de Evans, división agregada, invariantes verdaderas

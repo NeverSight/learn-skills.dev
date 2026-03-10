@@ -1,12 +1,13 @@
-Perform code review, design support, and refactoring for aggregates based on DDD aggregate design rules.  
-Comprehensively guide aggregate boundary definition, invariant validation, immutable design, ID references, eventual consistency, and domain-event collaboration, following Evans Rules, Vernon’s 4 Rules, and Design by Contract.  
-Always use this skill whenever any of the following apply:  
-- New aggregate design, implementation, or refactoring (any language)  
-- Code review of existing aggregates or entity classes from a DDD perspective  
-- Deciding aggregate boundaries (“Should A and B be in the same aggregate?”, “Is this aggregate too large?”)  
+Perform code review, design support, and refactoring for Aggregates based on DDD Aggregate design rules.  
+Comprehensively guide aggregate boundary definition, invariant validation, immutable design, ID references, eventual consistency, and domain-event integration following Evans Rules, Vernon’s 4 Rules, and Design by Contract.  
+
+Always use this skill when any of the following apply:  
+- New design, implementation, or refactoring of an Aggregate (any language)  
+- DDD-focused code review of existing aggregate or entity classes  
+- Deciding aggregate boundaries (“Should A and B be in the same aggregate?” “Is this aggregate too large?”)  
 - Designing invariants and consistency boundaries within an aggregate  
 - Choosing inter-aggregate collaboration patterns (domain events, eventual consistency, Saga pattern)  
-- Refactoring mutable aggregate code to an immutable design  
-- Detecting and fixing encapsulation violations such as public fields, direct references, push/append, etc.  
+- Refactoring mutable aggregate code to immutable design  
+- Detecting and fixing encapsulation violations such as public fields, direct references, push/append  
 
-Keywords: aggregate, Aggregate, aggregate boundary, aggregate root, AggregateRoot, entity design, DDD implementation, Vernon Rules, Evans Rules, aggregate splitting, true invariants
+Keyword examples: aggregate, Aggregate, aggregate boundary, aggregate root, AggregateRoot, entity design, DDD implementation, Vernon Rules, Evans Rules, aggregate splitting, true invariants
