@@ -1,0 +1,1 @@
+Visual QA on the rendered PDF of a MARP deck. Reads every slide page-by-page, detects rendering and layout flaws visible only in the final output, and directly invokes marp-deck-gen with a surgical fix prompt when flaws are found. No report file is written.
