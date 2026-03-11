@@ -1,0 +1,1 @@
+Control de calidad visual en el PDF renderizado de una plataforma MARP. Lee cada diapositiva página por página, detecta fallas de renderizado y diseño visibles solo en la salida final e invoca directamente marp-deck-gen con un mensaje de corrección quirúrgica cuando se encuentran fallas. No se escribe ningún archivo de informe.
