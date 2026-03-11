@@ -1,13 +1,13 @@
-OpenHarmony/Chromium 深度代码审计技能 - 专注于线程安全、生命周期管理和逻辑漏洞
+OpenHarmony/Chromium Deep Code Audit Skills – Focused on Thread Safety, Lifetime Management, and Logic Flaws
 
-基于严谨的系统级编程经验，深度审查 C/C++ 源代码中的：
-- 线程安全问题（数据竞争、死锁、跨序列访问）
-- 生命周期问题（UAF、悬空指针、WeakPtr误用）
-- OpenHarmony/Chromium特定模式风险
-- 静态分析工具无法发现的高阶安全风险
+Drawing on rigorous system-level programming experience, deeply inspect C/C++ source code for:
+- Thread-safety issues (data races, deadlocks, cross-sequence access)
+- Lifetime issues (UAF, dangling pointers, WeakPtr misuse)
+- OpenHarmony/Chromium-specific pattern risks
+- High-order security risks undetectable by static analysis tools
 
-核心特性：
-- 极度严谨的审查风格
-- 遵循14条严格的用户自定义规则
-- 生成结构化的JSON和Markdown报告
-- 按团队责任划分问题
+Core features:
+- Extremely rigorous review style
+- Adherence to 14 strict user-defined rules
+- Generation of structured JSON and Markdown reports
+- Issue triage by team responsibility

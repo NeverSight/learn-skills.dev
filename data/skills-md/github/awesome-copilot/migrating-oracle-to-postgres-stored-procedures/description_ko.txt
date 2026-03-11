@@ -1,0 +1,1 @@
+Oracle PL/SQL 저장 프로시저를 PostgreSQL PL/pgSQL로 마이그레이션합니다. Oracle 관련 구문을 변환하고, 메소드 시그니처 및 유형 고정 매개변수를 보존하고, 적절한 경우 orafce를 활용하고, Oracle 호환 텍스트 정렬을 위해 COLLATE "C"를 적용합니다. 데이터베이스 마이그레이션 중에 Oracle 저장 프로시저 또는 함수를 PostgreSQL에 상응하는 것으로 변환할 때 사용합니다.

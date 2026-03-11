@@ -1,0 +1,13 @@
+Competenze di audit OpenHarmony/Chromium Deep Code: incentrate sulla sicurezza dei thread, sulla gestione della durata e sui difetti logici
+
+Basandosi su una rigorosa esperienza di programmazione a livello di sistema, esamina attentamente il codice sorgente C/C++ per:
+- Problemi di sicurezza dei thread (gare di dati, deadlock, accesso a sequenze incrociate)
+- Problemi di durata (UAF, puntatori penzolanti, uso improprio di WeakPtr)
+- Rischi di pattern specifici di OpenHarmony/Chromium
+- Rischi per la sicurezza di alto livello non rilevabili dagli strumenti di analisi statica
+
+Caratteristiche principali:
+- Stile di revisione estremamente rigoroso
+- Rispetto di 14 rigide regole definite dall'utente
+- Generazione di report strutturati JSON e Markdown
+- Emettere triage in base alla responsabilità della squadra

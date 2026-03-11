@@ -1,0 +1,13 @@
+Compétences en audit de code profond OpenHarmony/Chromium – axées sur la sécurité des threads, la gestion de la durée de vie et les failles logiques
+
+En vous appuyant sur une expérience rigoureuse en programmation au niveau du système, inspectez en profondeur le code source C/C++ pour :
+- Problèmes de sécurité des threads (courses de données, blocages, accès entre séquences)
+- Problèmes à vie (UAF, pointeurs suspendus, utilisation abusive de WeakPtr)
+- Risques de modèle spécifiques à OpenHarmony/Chromium
+- Risques de sécurité de haut niveau indétectables par les outils d'analyse statique
+
+Fonctionnalités principales :
+- Style d'évaluation extrêmement rigoureux
+- Adhésion à 14 règles strictes définies par l'utilisateur
+- Génération de rapports structurés JSON et Markdown
+- Tri des problèmes par responsabilité d'équipe

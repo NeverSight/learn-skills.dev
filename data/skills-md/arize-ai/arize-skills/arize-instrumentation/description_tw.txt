@@ -1,0 +1,1 @@
+將 Arize AX 追蹤新增至應用程式時呼叫此技能。遵循代理輔助追蹤兩階段流程：分析程式碼庫（唯讀），然後在使用者確認後實施偵測。當應用程式使用LLM工具/函數呼叫時，請新增手動CHAIN + TOOL範圍，以便追蹤顯示每個工具的輸入和輸出。利用 https://arize.com/docs/ax/alyx/tracing-assistant 和 https://arize.com/docs/PROMPT.md。
