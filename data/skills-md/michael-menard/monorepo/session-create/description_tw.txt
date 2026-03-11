@@ -1,0 +1,1 @@
+在領導者代理工作流程開始時開啟一個新的上下文會話。在wint.contextSessions中記錄agentName、storyId和phase，發出一個結構化的SESSION CREATED區塊供下游worker繼承。

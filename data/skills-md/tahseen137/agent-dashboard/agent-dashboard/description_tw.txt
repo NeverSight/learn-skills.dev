@@ -1,0 +1,1 @@
+OpenClaw 的即時代理儀表板。從任何地方監控活動任務、cron 作業運行狀況、問題和操作項目。三個設定層：(1) OpenClaw 內的零配置畫布渲染，(2) 具有 30 秒輪詢的 GitHub Pages — 免費，2 分鐘設置，(3) Supabase Realtime + Vercel 用於即時 Websocket 更新。所有資料都保留在您的電腦上。受 PIN 碼保護。第 1 層不需要外部服務。第 3 層需要 SUPABASE_URL 和 SUPABASE_ANON_KEY（不需要 service_role 金鑰）。僅推送操作狀態資料（任務名稱、cron 狀態、時間戳記），而不會推送憑證、API 金鑰或檔案內容。

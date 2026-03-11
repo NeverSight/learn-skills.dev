@@ -1,0 +1,1 @@
+從其 mf-manifest.json 中獲取遠端模組聯合模組的元資料和清單資訊 - publicPath、remoteEntry、類型檔案 URL 以及模組的remotes/exposes/shared。兩種模式：（1）在 consumer專案內部，僅傳遞遠端名稱，入口URL從mfConfig.remotes解析； (2) 在消費者專案之外，直接傳遞遠端名稱及其remoteEntry URL。要检查当前项目自己的配置，请改用 mf-context。

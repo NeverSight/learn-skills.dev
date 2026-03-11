@@ -1,0 +1,9 @@
+Workleap 的共用 Web 設定套件（@workleap/eslint-configs、typescript-configs、rsbuild-configs、rslib-configs、stylelint-configs、browserslist-config）。
+
+使用時：
+(1) 在 Workleap 專案中設定或自訂共用 Web 工具配置
+（2）依專案類型設定ESLint（web app、React函式庫、TS函式庫、monorepo）
+(3) 依專案類型（Web應用程式、函式庫、monorepo-workspace）配置TypeScript
+(4) 配置 Rsbuild 或 Rslib 捆綁（dev、build、Storybook）
+（5）設定Stylelint、Browserslist或monorepo（Turborepo）與polyrepo策略
+(6) 擴充或自訂共享配置，解決 ESM/ESNext 約束問題

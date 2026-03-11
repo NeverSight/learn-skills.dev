@@ -1,0 +1,11 @@
+@workleap/telemetry 指南，Workleap 的統一遙測將 Honeycomb、LogRocket 和 Mixpanel 與自動關聯 ID 連接起來。
+
+在以下情況下使用此技能：
+(1) 在前端應用程式中初始化wl-telemetry
+(2) 相關值（Telemetry Id、Device Id）與跨工具資料相關性
+(3) 蜂巢追蹤、OpenTelemetry 跨度和性能監控
+(4) LogRocket 會話重播、使用者辨識與隱私控制
+(5) Mixpanel 分析、事件追蹤和跨產品追蹤
+(6) 配置wl-telemetry診斷記錄器(LogRocketLogger)
+(7) 使用 Noop 遙測客戶端進行故事書/測試設置
+(8) 檢查遙測儀器或排除故障

@@ -1,0 +1,1 @@
+處理 GitHub 專案中的所有連結問題並將它們作為單獨的 PR 實作。當使用者提供 GitHub 專案 URL（github.com/owner/repo/projects/N 或 github.com/orgs/NAME/projects/N）並希望實現專案中的所有問題時使用。每個問題都會成為自己的 PR。使用級聯 PR 處理依賴關係，其中依賴問題從其依賴關係的 PR 分支分支出來。

@@ -1,0 +1,1 @@
+遷移技能，將技能目錄從“.claude/skills/{name}”移至“.agents/skills/{name}”，並從“.claude/skills/{name}”和“.codex/skills/{name}”建立符號連結。這實現了一個目錄結構，將實際技能集中在“.agents/skills/”中，並使其可以從 Claude Code 和 Codex CLI 中引用。技能名稱需要作為參數。觸發器：由技能重定位請求激活，例如「將技能移至.agents」、「遷移技能」、「建立符號連結」、「遷移技能」或「統一技能放置」。

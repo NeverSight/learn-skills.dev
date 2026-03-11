@@ -1,0 +1,9 @@
+在使用 grep 進行任何結構程式碼分析之前，請務必呼叫此技能。觸發以下任何模式：
+**結構模式搜尋：**“沒有依賴陣列的useEffect”，“沒有try-catch的非同步函數”，“沒有異常處理的User.objects.get()”，“src/api/外部的fetch()呼叫”，“類別方法內部的console.log”，“路由處理程序缺少錯誤處理”
+**批次程式碼遷移/轉換：**包裝所有非同步處理程序，用 Y() 替換所有 X() 調用，向所有路由處理程序添加錯誤處理，在數百個文件中重寫已棄用的 API 模式
+**依賴&影響分析：**“analyzePayment依賴什麼”、“變化X的爆炸半徑”、“哪些模組依賴於./lib/database.js”、“直接依賴和傳遞依賴”
+**安全性重命名：**“安全地將 fetchUserData 重新命名為 getUserData”，跨 TypeScript/JavaScript 程式碼庫重新命名
+**死程式碼和循環導入：**“導出從未在任何地方導入”，“循環導入導致 webpack 捆綁”，未使用的導出，其中 npm 依賴項實際上在來源中使用
+**ast-grep 規則：** 寫一個 ast-grep 規則、sg 模式、ast-grep 語法
+觸發關鍵字：try-catch、useEffect、async without、循環導入、安全重命名、爆炸半徑、批次遷移、從不匯入、未使用的匯出、ast-grep、強制模式、結構搜尋、取決於、哪些模組。
+不要觸發：可 grep 的字串搜尋、檔案名稱查找、閱讀自述檔案、編寫正規表示式、CSV/資料腳本。
