@@ -1,0 +1,11 @@
+Archive una característica completada, rechazada o cubierta en .feature-radar/archive/ con obligatorio
+extracción de aprendizaje. DEBE usar esta habilidad siempre que una función alcance un estado terminal: listo,
+rechazado, cubierto, diferido o N/A. Incluso menciones casuales como "enviamos X" o "X ya está listo".
+debería desencadenar esto. La habilidad extrae aprendizajes, genera nuevas oportunidades y actualiza los árbitros.
+Usar cuando el usuario:
+- Dice "enviamos X", "X está listo", "X está completo", "acabamos de terminar X"
+- Rechaza una característica: "decidimos no construir X", "rechaza esto", "no encaja"
+- Aplaza: "aplazar X", "posponer esto", "volver a visitar más tarde", "ahora no"
+- Cierra una oportunidad: "cerrar esta oportunidad", "marcar como hecho", "archivar esto"
+- Menciona cualquier función que alcance el estado Hecho/Cubierto/Rechazado/Diferido
+NO lo use para descubrir nuevas funciones; ese es el trabajo del escaneo de radar de funciones.

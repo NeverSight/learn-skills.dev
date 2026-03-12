@@ -1,0 +1,1 @@
+Estrategia de búsqueda de conocimiento en 3 fases para el ecosistema RLM Factory. Se invoca automáticamente cuando las tareas implican buscar código, documentación o contexto de arquitectura en el repositorio. Aplica el orden de búsqueda óptimo: RLM Summary Scan (O(1)) -> Vector DB Semantic Search -> Grep/Exact Match. Nunca te saltes fases.

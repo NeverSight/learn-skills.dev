@@ -1,0 +1,12 @@
+Valide los archivos SKILL.md frontmatter y .feature-radar/ según las reglas de formato. Corre
+validar.sh, informa errores/advertencias y soluciona problemas automáticamente. DEBE usar esta habilidad después
+editar cualquier archivo SKILL.md o .feature-radar/: detecta errores de formato como el de 1024 caracteres
+Límite de descripción antes de que rompan el registro de habilidades.
+Úselo cuando:
+- El usuario dice "validar", "verificar formato", "lint skills", "ejecutar validación"
+- Acabas de editar un SKILL.md (descripción, nombre o cuerpo): ejecútalo de forma proactiva
+- Creaste o modificaste archivos en .feature-radar/: ejecútalo de forma proactiva
+- Antes de realizar cambios que afecten a las habilidades/o .feature-radar/
+- El usuario pregunta "¿son válidas mis habilidades?", "verificar habilidades", "verificar formato de habilidades"
+IMPORTANTE: utilice esto de forma proactiva después de CUALQUIER edición de archivos skills/ o .feature-radar/,
+incluso si el usuario no lo solicita. La validación del formato evita roturas silenciosas.
