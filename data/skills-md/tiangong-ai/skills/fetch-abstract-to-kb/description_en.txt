@@ -1,0 +1,1 @@
+Fetch DOI candidates from PostgreSQL `journals` and batch write `abstract` by DOI. Use when you need DB-only backfill workflow: (1) select newest rows where doi is not empty, author is not empty, and abstract is empty (default limit 10), then (2) write prepared abstract values back in batch by DOI.

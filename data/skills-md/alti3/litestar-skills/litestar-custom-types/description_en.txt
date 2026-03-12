@@ -1,0 +1,1 @@
+Add custom type decoding/encoding and schema compatibility in Litestar for domain-specific values that are not handled by default serializers. Use when handlers need strongly typed custom inputs or outputs. Do not use when built-in scalar/model types already satisfy request and response contracts.

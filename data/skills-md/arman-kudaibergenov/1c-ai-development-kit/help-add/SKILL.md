@@ -1,0 +1,92 @@
+---
+name: help-add
+description: Добавить встроенную справку к объекту 1С (обработка, отчёт, справочник, документ и др.)
+argument-hint: <ObjectName>
+allowed-tools:
+  - Bash
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+---
+
+# /help-add — Добавление справки
+
+Добавляет встроенную справку к объекту: файл метаданных `Help.xml`, HTML-страницу и при необходимости обновляет метаданные форм.
+
+## Usage
+
+```
+/help-add <ObjectName> [Lang] [SrcDir]
+```
+
+| Параметр   | Обязательный | По умолчанию | Описание                            |
+|------------|:------------:|--------------|-------------------------------------|
+| ObjectName | да           | —            | Имя объекта                         |
+| Lang       | нет          | `ru`         | Код языка справки                   |
+| SrcDir     | нет          | `src`        | Каталог исходников                  |
+
+## Команда
+
+```powershell
+powershell.exe -NoProfile -File .claude/skills/help-add/scripts/add-help.ps1 -ObjectName "<ObjectName>" [-Lang "<Lang>"] [-SrcDir "<SrcDir>"]
+```
+
+## Что создаётся
+
+```
+<SrcDir>/<ObjectName>/
+    Ext/
+        Help.xml                    # Метаданные справки (namespace extrnprops)
+        Help/
+            ru.html                 # HTML-страница справки
+```
+
+- `Help.xml` — фиксированная структура с `<Page>ru</Page>` (namespace `http://v8.1c.ru/8.3/xcf/extrnprops`)
+- `ru.html` — HTML 4.0 Transitional с подключением стилей 1С (`v8help://service_book/service_style`)
+- Справка **не регистрируется** в `ChildObjects` корневого XML — достаточно наличия файлов
+
+## Что модифицируется
+
+- Если в метаданных формы (`Forms/<FormName>.xml`) отсутствует `<IncludeHelpInContents>` — скрипт добавит `<IncludeHelpInContents>false</IncludeHelpInContents>` после `<FormType>`. Для форм, созданных через `/form-add`, элемент уже есть.
+
+## Кнопка справки на форме
+
+После создания справки для её вызова нужна кнопка на форме. Добавь кнопку `Form.StandardCommand.Help` в AutoCommandBar формы (`Forms/<FormName>/Ext/Form.xml`).
+
+### Текущая структура AutoCommandBar (созданная form-add)
+
+```xml
+<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <Autofill>true</Autofill>
+</AutoCommandBar>
+```
+
+### Нужно заменить на
+
+```xml
+<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <Autofill>true</Autofill>
+    <ChildItems>
+        <Button name="ФормаСправка" id="{{свободный_id}}">
+            <Type>CommandBarButton</Type>
+            <CommandName>Form.StandardCommand.Help</CommandName>
+            <ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="{{свободный_id + 1}}"/>
+        </Button>
+    </ChildItems>
+</AutoCommandBar>
+```
+
+### Выбор id
+
+Просмотри все `id="..."` в `Form.xml` и выбери следующий свободный числовой id. Обычно id начинаются с 1 и идут подряд. Для кнопки нужны 2 id: один для Button, один для ExtendedTooltip.
+
+### Важно
+
+- `Form.StandardCommand.Help` — стандартная команда платформы, не нужно объявлять в `<Commands>`
+- Обработчика в Module.bsl не требуется — платформа сама найдёт `Help.xml` и откроет HTML
+
+## Редактирование справки
+
+После создания содержимое справки — обычный HTML. Отредактируй `Ext/Help/ru.html` в соответствии с назначением объекта. Поддерживается стандартная HTML-разметка: `<h1>`..`<h4>`, `<p>`, `<ul>`, `<ol>`, `<table>`, `<strong>`, `<em>`, `<a>`, `<pre>`.

@@ -1,0 +1,1 @@
+Implement observability using the Wide Events (Canonical Log Lines) pattern.  Instead of scattering logs throughout a request, accumulate high-cardinality context  and emit a single, highly-dimensional structured event per service boundary.

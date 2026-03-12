@@ -1,0 +1,1 @@
+Configure Litestar DTO behavior for inbound parsing and outbound serialization, including layer-scoped `dto`/`return_dto`, `DTOConfig` policies, `DTOData` update workflows, and custom `AbstractDTO` implementations. Use when API payload contracts differ from internal model structures. Do not use when internal models can be exposed safely without transformation.
