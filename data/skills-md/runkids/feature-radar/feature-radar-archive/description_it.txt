@@ -1,0 +1,11 @@
+Archivia una funzionalità completata, rifiutata o coperta in .feature-radar/archive/ con obbligatorio
+estrazione dell'apprendimento. DEVE utilizzare questa abilità ogni volta che una funzionalità raggiunge uno stato terminale: fatto,
+rifiutato, coperto, differito o N/A. Anche menzioni casuali come "abbiamo spedito X" o "X è finito"
+dovrebbe innescare questo. La competenza estrae insegnamenti, ricava nuove opportunità e aggiorna i riferimenti.
+Utilizzare quando l'utente:
+- Dice "abbiamo spedito X", "X è finito", "X è completo", "abbiamo appena finito X"
+- Rifiuta una funzionalità: "abbiamo deciso di non creare X", "rifiuta questo", "non adatto"
+- Rinvia: "rinvia X", "rinvia", "rivisita più tardi", "non ora"
+- Chiude un'opportunità: "chiudi questa opportunità", "segna come fatto", "archivia questa"
+- Menziona qualsiasi funzionalità che raggiunge lo stato Fatto/Coperto/Rifiutato/Rinviato
+NON utilizzare per scoprire nuove funzionalità: questo è il lavoro di feature-radar-scan.

@@ -1,0 +1,1 @@
+Recupera i candidati DOI dai "giornali" PostgreSQL e scrivi in ​​batch gli "astratti" tramite DOI. Da utilizzare quando è necessario un flusso di lavoro di recupero solo DB: (1) seleziona le righe più recenti in cui doi non è vuoto, l'autore non è vuoto e l'abstract è vuoto (limite predefinito 10), quindi (2) riscrivi i valori astratti preparati in batch in base al DOI.

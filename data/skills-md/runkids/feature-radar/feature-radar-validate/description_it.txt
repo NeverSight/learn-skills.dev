@@ -1,0 +1,12 @@
+Convalida i file SKILL.md frontmatter e .feature-radar/ rispetto alle regole di formato. Corre
+validate.sh, segnala errori/avvisi e risolve automaticamente i problemi. DEVE usare questa abilità dopo
+modificare qualsiasi file SKILL.md o .feature-radar/: rileva bug di formato come il 1024-char
+limite di descrizione prima che interrompano la registrazione delle competenze.
+Utilizzare quando:
+- L'utente dice "convalida", "controlla formato", "capacità di lanugine", "esegui convalida"
+- Hai appena modificato un SKILL.md (descrizione, nome o corpo): esegui in modo proattivo
+- Hai creato o modificato file in .feature-radar/: esegui in modo proattivo
+- Prima di apportare modifiche che riguardano skills/ o .feature-radar/
+- L'utente chiede "le mie competenze sono valide?", "verifica competenze", "verifica formato competenze"
+IMPORTANTE: utilizzalo in modo proattivo dopo QUALSIASI modifica ai file skills/ o .feature-radar/,
+anche se l'utente non lo richiede. La convalida del formato impedisce l'interruzione silenziosa.
