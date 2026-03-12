@@ -1,0 +1,11 @@
+Archivez une fonctionnalité terminée, rejetée ou couverte dans .feature-radar/archive/ avec obligatoire
+extraction d’apprentissage. DOIT utiliser cette compétence chaque fois qu'une fonctionnalité atteint un état terminal - c'est fait,
+rejeté, couvert, reporté ou N/A. Même des mentions informelles comme « nous avons expédié X » ou « X est terminé »
+devrait déclencher cela. La compétence extrait des apprentissages, génère de nouvelles opportunités et met à jour les références.
+À utiliser lorsque l'utilisateur :
+- Dit "nous avons expédié X", "X est terminé", "X est terminé", "nous venons de terminer X"
+- Rejette une fonctionnalité : "nous avons décidé de ne pas construire X", "rejeter ceci", "ne convient pas"
+- Diffère : "différer X", "reporter ceci", "revoir plus tard", "pas maintenant"
+- Ferme une opportunité : "fermer cette opportunité", "marquer comme terminé", "archiver ceci"
+- Mentionne toute fonctionnalité atteignant le statut Terminé/Couvert/Rejeté/Différé
+Ne PAS utiliser pour découvrir de nouvelles fonctionnalités - c'est le travail de l'analyse radar des fonctionnalités.

@@ -1,0 +1,12 @@
+Validez les fichiers SKILL.md frontmatter et .feature-radar/ par rapport aux règles de format. Fonctionne
+validate.sh, signale les erreurs/avertissements et corrige automatiquement les problèmes. DOIT utiliser cette compétence après
+modifier n'importe quel fichier SKILL.md ou .feature-radar/ - détecte les bogues de format comme le 1024 caractères
+limite de description avant de rompre l’enregistrement des compétences.
+À utiliser lorsque :
+- L'utilisateur dit "valider", "vérifier le format", "compétences en charpie", "exécuter la validation"
+- Vous venez de modifier un SKILL.md (description, nom ou corps) — exécutez-le de manière proactive
+- Vous avez créé ou modifié des fichiers dans .feature-radar/ — exécutez de manière proactive
+- Avant de valider des modifications touchant aux compétences/ou .feature-radar/
+- L'utilisateur demande "mes compétences sont-elles valides ?", "vérifier les compétences", "vérifier le format des compétences"
+IMPORTANT : utilisez-le de manière proactive après TOUTE modification des fichiers skills/ ou .feature-radar/,
+même si l'utilisateur ne le demande pas. La validation du format évite toute rupture silencieuse.
