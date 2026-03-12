@@ -1,0 +1,1 @@
+요청 보강, 단락, 응답 변형, 전송 후 부작용 및 핸들러 실행과 관련된 계층화된 교차 동작을 위해 `before_request`, `after_request` 및 `after_response`를 사용하여 Litestar 요청 수명 주기 후크를 적용합니다. 처리기 직전, 응답 개체가 해결된 후 또는 응답이 전송된 후에 논리를 실행해야 하는 경우에 사용합니다. 시작/종료 소유권, 'before_send' / 'after_Exception' / 'on_app_init', 분리된 이벤트 팬아웃 또는 앱 설정, 이벤트 또는 미들웨어에 속하는 원시 ASGI 래핑에 사용하지 마세요.
