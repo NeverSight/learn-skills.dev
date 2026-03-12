@@ -1,0 +1,1 @@
+在升级过程中保持容器状态。涵盖 Rust 中的 StableBTreeMap 和 MemoryManager、Motoko 中的持久参与者以及升级钩子模式。在处理容器升级、数据持久性、升级后数据丢失、稳定存储、StableBTreeMap、pre_upgrade 陷阱或堆与稳定内存时使用。请勿用于容器间呼叫或访问控制 — 请改用多容器或容器安全性。

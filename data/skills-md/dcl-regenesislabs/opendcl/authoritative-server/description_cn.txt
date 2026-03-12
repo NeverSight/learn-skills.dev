@@ -1,0 +1,1 @@
+使用无头权威服务器构建多人游戏场景，该服务器控制游戏状态、验证更改并防止作弊。安装 @dcl/sdk@auth-server 并使用 hammurabi-server 运行。使用 isServer() 来分支逻辑，使用 registerMessages() 进行客户端-服务器通信，使用 validateBeforeChange() 进行仅服务器组件，使用 Storage 进行持久化，使用 EnvVar 进行配置。当用户需要权威​​服务器、反作弊、服务器端验证、持久存储、环境变量或服务器消息时使用。

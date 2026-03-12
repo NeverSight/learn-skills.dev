@@ -1,0 +1,1 @@
+使用路由级“cache”控件、应用程序级“ResponseCacheConfig”、存储选择、TTL 策略、缓存键设计和“cache_response_filter”规则来配置 Litestar 响应缓存。在优化读取密集型或轮询密集型 Litestar 端点时使用，而不破坏租户、区域设置或身份验证范围响应的正确性。除非明确设计了缓存失效或版本控制，否则请勿用于写入密集型或立即一致的工作流程。

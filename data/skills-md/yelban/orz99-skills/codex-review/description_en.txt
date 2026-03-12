@@ -1,6 +1,6 @@
-跨模型對抗式審查：用 Codex 審查 Claude 的計畫或程式碼產出。
-異質模型產生真正的對抗張力，抓住同模型自審遺漏的問題。
-自動 VERDICT 迴圈（最多 3 輪），產出結構化 issues 清單。
-支援 --model 參數切換模型（預設 gpt-5.4）。
+Cross-model adversarial review: use Codex to review Claude’s plans or code output.  
+Heterogeneous models create genuine adversarial tension, catching issues that same-model self-review misses.  
+Automated VERDICT loop (up to 3 rounds) produces a structured issues list.  
+Supports --model parameter to switch models (default gpt-5.4).  
 
-觸發詞：/codex-review、cross-review、對抗審查
+Trigger words: /codex-review, cross-review, adversarial-review

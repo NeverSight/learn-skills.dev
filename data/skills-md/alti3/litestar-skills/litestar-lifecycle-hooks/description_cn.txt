@@ -1,0 +1,1 @@
+将 Litestar 请求生命周期挂钩与“before_request”、“after_request”和“after_response”一起应用，以实现请求丰富、短路、响应突变、发送后副作用以及围绕处理程序执行的分层横切行为。当逻辑应在处理程序之前、解析响应对象之后或发送响应之后立即运行时使用。请勿用于启动/关闭所有权、`before_send` / `after_exception` / `on_app_init`、解耦事件扇出或属于应用程序设置、事件或中间件的原始 ASGI 包装。

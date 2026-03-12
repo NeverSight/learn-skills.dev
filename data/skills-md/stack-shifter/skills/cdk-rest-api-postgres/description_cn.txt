@@ -1,0 +1,1 @@
+首先使用目标存储库的 CDK 模式在 AWS 上设计和实现 REST API，并使用 AWS Lambda 处理程序和通过 Drizzle 的 Postgres 作为默认数据存储。每当用户想要添加或修改 API Gateway REST 端点、Lambda 处理程序、Cognito 身份验证、请求模型、可重用 CDK 构造、Drizzle 架构、SQL 存储库或数据库支持的 CRUD 路由时，请使用此选项，即使它们只要求“端点”、“处理程序”、“表”、“存储库”或“某些 CDK 连接”。

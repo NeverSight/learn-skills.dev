@@ -1,0 +1,6 @@
+跨模型对抗性审查：使用 Codex 来审查 Claude 的计划或代码输出。  
+异构模型造成了真正的对抗性紧张，发现了同模型自我审查错过的问题。  
+自动 VERDICT 循环（最多 3 轮）生成结构化问题列表。  
+支持--model参数切换模型（默认gpt-5.4）。  
+
+Trigger words: /codex-review, cross-review, adversarial-review

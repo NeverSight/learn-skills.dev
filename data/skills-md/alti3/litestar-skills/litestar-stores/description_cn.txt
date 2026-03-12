@@ -1,0 +1,1 @@
+通过显式后端选择、字节安全数据处理、TTL 和续订策略、命名空间、注册表连接和生命周期清理，配置 Litestar 存储和存储注册表以进行缓存、服务器端会话、速率限制和其他键值状态。当 Litestar 应用程序依赖于 `MemoryStore`、`FileStore`、`RedisStore`、`ValkeyStore` 或 `StoreRegistry` 时使用。请勿用于关系持久性、域存储库或属于数据库或以缓存为重点的技能的响应缓存策略详细信息。

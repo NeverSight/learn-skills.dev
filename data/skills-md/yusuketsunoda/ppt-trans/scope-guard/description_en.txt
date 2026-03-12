@@ -1,1 +1,1 @@
-コミットやPR作成前に「意図しない差分」を検出し、ブランチ目的とのズレを警告する。 混入した無関係な変更の破棄コマンドまで提示する。コミット前のスコープ確認、 差分に余計なファイルが混ざっていないかのチェック、PRのスコープが広がりすぎていないかの 検証で使うこと。「このブランチの目的と関係ない変更が入っていないか？」という 疑問があれば必ず使うこと。
+Detects "unintended diffs" before commits or PR creation and alerts when they diverge from the branch's purpose. It even suggests commands to discard unrelated changes. Use it for pre-commit scope checks, verifying no extra files are mixed into the diff, and ensuring PRs don't grow too large. Whenever you wonder, "Are any changes unrelated to this branch's purpose included?"—always use it.
