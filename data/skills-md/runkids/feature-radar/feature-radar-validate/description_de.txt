@@ -1,0 +1,12 @@
+Validieren Sie SKILL.md-Frontmatter- und .feature-radar/-Dateien anhand von Formatregeln. Läuft
+validate.sh, meldet Fehler/Warnungen und behebt Probleme automatisch. Diese Fähigkeit MUSS danach verwendet werden
+Bearbeiten einer beliebigen SKILL.md- oder .feature-radar/-Datei – fängt Formatfehler wie das 1024-Zeichen ab
+Beschreibungslimit, bevor die Skill-Registrierung unterbrochen wird.
+Verwenden Sie, wenn:
+– Benutzer sagt „validieren“, „Format prüfen“, „Lint-Fähigkeiten“, „Validierung ausführen“
+- Sie haben gerade eine SKILL.md (Beschreibung, Name oder Text) bearbeitet – proaktiv ausführen
+- Sie haben Dateien in .feature-radar/ erstellt oder geändert – proaktiv ausführen
+- Bevor Sie Änderungen vornehmen, die skills/ oder .feature-radar/ berühren
+- Der Benutzer fragt: „Sind meine Fertigkeiten gültig?“, „Fähigkeiten überprüfen“, „Fähigkeitsformat prüfen“
+WICHTIG: Verwenden Sie dies proaktiv nach JEGLICHER Bearbeitung von skills/- oder .feature-radar/-Dateien.
+auch wenn der Benutzer nicht danach fragt. Die Formatvalidierung verhindert einen stillen Bruch.

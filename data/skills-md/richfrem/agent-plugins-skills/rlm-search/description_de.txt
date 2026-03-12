@@ -1,0 +1,1 @@
+3-Phasen-Wissenssuchstrategie für das RLM Factory-Ökosystem. Wird automatisch aufgerufen, wenn Aufgaben die Suche nach Code, Dokumentation oder Architekturkontext im Repository umfassen. Erzwingt die optimale Suchreihenfolge: RLM Summary Scan (O(1)) -> Vector DB Semantic Search -> Grep/Exact Match. Überspringen Sie niemals Phasen.
