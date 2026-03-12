@@ -1,0 +1,1 @@
+將 Litestar 請求生命週期掛鉤與“before_request”、“after_request”和“after_response”一起應用，以實現請求豐富、短路、響應突變、發送後副作用以及圍繞處理程序執行的分層橫切行為。當邏輯應在處理程序之前、解析回應物件之後或發送回應之後立即執行時使用。請勿用於啟動/關閉所有權、`before_send` / `after_exception` / `on_app_init`、解耦事件扇出或屬於應用程式設定、事件或中介軟體的原始 ASGI 包裝。

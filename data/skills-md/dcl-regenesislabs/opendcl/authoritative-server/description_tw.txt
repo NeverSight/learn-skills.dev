@@ -1,0 +1,1 @@
+使用無頭權威伺服器建立多人遊戲場景，該伺服器控制遊戲狀態、驗證變更並防止作弊。安裝 @dcl/sdk@auth-server 並使用 hammurabi-server 運行。使用 isServer() 來分支邏輯，使用 registerMessages() 進行客戶端-伺服器通信，使用 validateBeforeChange() 進行僅伺服器元件，使用 Storage 進行持久化，使用 EnvVar 進行配置。當使用者需要權威伺服器、反作弊、伺服器端驗證、持久性儲存、環境變數或伺服器訊息時使用。

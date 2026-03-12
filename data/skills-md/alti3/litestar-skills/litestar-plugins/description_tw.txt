@@ -1,0 +1,1 @@
+配置 Litestar 插件架構和生態系統集成，包括自訂 Init/DI/序列化/路由插件、SQLAlchemy 插件堆疊、Pydantic 插件表面、Piccolo DTO 使用以及對資料類、msgspec、attrs 和 TypedDict 的模型綁定傳輸支援。在應用程式邊界選擇、連接或調試插件驅動的行為時使用。請勿用於不涉及 Litestar 插件協定、插件註冊或插件支援的傳輸/模型整合的不相關框架設定。

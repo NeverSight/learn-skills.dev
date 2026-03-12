@@ -1,0 +1,1 @@
+透過明確後端選擇、位元組安全資料處理、TTL 和續訂策略、命名空間、登錄連接和生命週期清理，配置 Litestar 儲存和儲存註冊表以進行快取、伺服器端會話、速率限制和其他鍵值狀態。當 Litestar 應用程式依賴 `MemoryStore`、`FileStore`、`RedisStore`、`ValkeyStore` 或 `StoreRegistry` 時使用。請勿用於關係持久性、網域儲存庫或屬於資料庫或以快取為重點的技能的回應快取策略詳細資訊。
