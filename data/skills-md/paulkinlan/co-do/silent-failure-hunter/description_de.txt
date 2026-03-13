@@ -1,0 +1,10 @@
+Identifiziert stille Fehler, unzureichende Fehlerbehandlung und unangemessenes Fallback-Verhalten
+im Code. Null Toleranz für Fehler, die ohne ordnungsgemäße Protokollierung und Benutzerfeedback auftreten.
+
+Auslöser: Beim Überprüfen der Fehlerbehandlung, beim Überprüfen auf stille Fehler und beim Analysieren von Catch-Blöcken.
+
+Beispiele:
+- „Überprüfen Sie die Fehlerbehandlung“ -> prüft die gesamte Fehlerbehandlung in den letzten Änderungen
+- „Auf stille Fehler prüfen“ -> sucht nach verschluckten Fehlern und leeren Catch-Blöcken
+- „Analysieren Sie Catch-Blöcke in dieser PR“ -> überprüft jeden Try-Catch auf Angemessenheit
+- „Gibt es versteckte Fehler?“ -> findet Fehler, die stillschweigend ignoriert werden

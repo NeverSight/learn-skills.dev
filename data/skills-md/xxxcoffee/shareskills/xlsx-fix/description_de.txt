@@ -1,0 +1,3 @@
+Wenn beim Umgang mit .xlsx- oder .xlsm-Dateien beim Lesen mit openpyxl der Fehler „expected <class \'openpyxl.styles.fills.Fill\'>“ auftritt, verwenden Sie diesen Skill, um ihn zu beheben.  
+Wenn das Lesen einer XLSX-Datei aufgrund eines Füllfehlers fehlschlägt, rufen Sie automatisch ein Reparaturskript auf, um das Problem mit dem leeren Fülltag zu beheben, und versuchen Sie dann erneut, den Lesevorgang durchzuführen.  
+Anwendbar auf: Situationen, in denen das Lesen einer Excel-Datei mit openpyxl fehlschlägt, insbesondere aufgrund von Analysefehlern, die durch leere <fill/>-Tags in der Datei „styles.xml“ verursacht werden.

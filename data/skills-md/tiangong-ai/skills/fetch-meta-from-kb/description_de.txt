@@ -1,0 +1,1 @@
+Rufen Sie aktuelle „Journals“-Zeilen direkt aus PostgreSQL ab und geben Sie ein JSON-Array zurück, das „doi“, „title“, „abstract“ und „date“ enthält (gefiltert durch Rollieren von „DAYS“ auf „created_at“). Wird verwendet, wenn Benutzer Rohpapier-Nutzlasten für die Weiterverarbeitung ohne LLM-Filterung oder Hotspot-Berichterstellung benötigen.
