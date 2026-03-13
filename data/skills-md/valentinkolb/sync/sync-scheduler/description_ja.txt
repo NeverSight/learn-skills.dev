@@ -1,0 +1,1 @@
+@valentinkolb/sync スケジューラーを使用して分散 cron スケジューリングを実装する場合は、このスキルを使用します。ポッド間の冪等スケジュールの登録、job.submit によるリーダーで区切られたディスパッチ、誤射ポリシー (skip/catch_up_one/catch_up_all)、手動ディスパッチ、登録解除、メトリクス/ヘルス、およびマルチポッド リーダーの選択用の TriggerNow です。実行は sync-job に依存し、リーダー ロックは sync-mutex に依存します。
