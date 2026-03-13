@@ -1,0 +1,10 @@
+Analyzes code comments for accuracy, completeness, and long-term maintainability.
+Identifies misleading comments, comment rot, and documentation gaps.
+
+Triggers: After adding documentation, before finalizing a PR, when reviewing comments.
+
+Examples:
+- "Check if the comments are accurate" -> verifies comments match code behavior
+- "Review the documentation I added" -> analyzes new comments for quality
+- "Analyze comments for technical debt" -> finds outdated or misleading comments
+- "Are my docstrings correct?" -> validates documentation accuracy

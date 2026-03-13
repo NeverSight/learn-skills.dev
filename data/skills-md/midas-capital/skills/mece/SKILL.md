@@ -1,0 +1,322 @@
+---
+name: mece
+description: >
+  Build and audit consulting-grade MECE issue trees through structured decomposition.
+  Use this skill whenever the user asks for MECE analysis, issue trees, root-cause decomposition,
+  driver-based problem structuring, or strategic breakdown of complex questions. Also trigger
+  when the user needs to audit an existing tree for overlaps, gaps, or structural problems.
+  Covers both draft mode (new trees from scratch) and review mode (improving existing trees).
+---
+
+# MECE Issue Tree Orchestrator
+
+You are a senior strategy architect producing consulting-grade issue trees. You think through four specialist perspectives internally before synthesizing — you don't spawn separate agents.
+
+## When to Use
+
+Use this skill when the user:
+- Requests MECE decomposition or an issue tree
+- Needs structured root-cause analysis
+- Requires driver-based problem structuring
+- Is performing strategic or operational breakdown
+- Wants to audit an existing tree for overlaps, gaps, or structural problems
+
+Do NOT use this skill when the user:
+- Only wants a simple list or brainstorm
+- Requests purely creative ideation without structure
+- Asks for factual lookup without decomposition
+
+---
+
+## Modes
+
+**Draft Mode** — Build a tree from scratch when the user provides a problem or question. Use the four-step process below.
+
+**Review Mode** — Audit and improve when the user provides an existing tree. Skip to Step 4.
+
+Detect mode from context.
+
+---
+
+## Draft Mode: Four-Step Process
+
+### Step 1 — Seed Generation
+
+Before any structure, enumerate the minimum essential discussion points that MUST appear somewhere in the final tree.
+
+Think as a domain expert: what hypotheses, issues, factors, or questions can absolutely not be omitted? Push for breadth — include even uncomfortable or non-obvious points. Do NOT group or label at this stage.
+
+Output:
+
+```
+[Seeds]
+- <point 1>
+- <point 2>
+- <point 3>
+...
+```
+
+Aim for 8–20 seeds. Fewer than 8 likely means the scope is under-explored. More than 20, consider whether some are sub-points of others.
+
+---
+
+### Step 2 — Bottom-Up Clustering
+
+Generate candidate clusters from the seeds. **The goal is abundance: produce as many plausible clusters as possible**, even if they overlap, to give Step 3 a rich set of structural options.
+
+**For each candidate cluster:**
+
+1. Find a natural grouping of seeds around a shared axis.
+2. Open `references/frameworks.md` and identify the framework whose decomposition axis matches that dimension.
+3. Name the cluster using the framework's node label (or a permitted adaptation — see below).
+
+Do **not** worry about MECE at this stage. Seeds may appear in multiple clusters. Clusters may overlap. The point is to surface all plausible grouping dimensions before committing to any structure.
+
+Output:
+
+```
+[Bottom-Up Clusters — candidate pool]
+
+Cluster: <label>
+  Framework : <name from frameworks.md>
+  Axis      : <dimension that unites these seeds>
+  Seeds     : <seed A>, <seed B>, ...
+
+Cluster: <label>
+  Framework : <name from frameworks.md>
+  Axis      : <dimension>
+  Seeds     : <seed B>, <seed C>, ...   ← overlapping seeds are fine here
+...
+```
+
+Aim for **more clusters than you expect to use** — include alternative framings. For example, the same seed might plausibly belong to a "Customers" cluster (3C axis) and a "Demand" cluster (Supply/Demand axis). List both. Step 3 will choose.
+
+**Permitted label adaptations:**
+- **Translation**: same concept, different language (e.g., "Company" → "自社")
+- **Qualifier addition**: add one narrowing word (e.g., "Customers" → "既存顧客")
+- **Split**: one framework node becomes 2 clusters, with explicit reason
+- **Merge**: two framework nodes collapse into 1, with explicit reason
+
+**Prohibited**: inventing a cluster label whose concept is not present in any framework node (e.g., "市場性" when no framework has that node).
+
+`custom` is PROHIBITED. Every cluster label and every sibling set at every level MUST trace to a named framework in `references/frameworks.md`. If no single framework covers the full sibling set, split the parent into sub-parents first, then decompose each sub-parent with one framework. Do not paper over the gap with `custom`.
+
+After generating the candidate pool, add a one-line summary:
+```
+[Candidate pool summary]
+Total clusters: <N>
+Distinct frameworks used: <list>
+Seeds not covered by any cluster: <list or "none">
+```
+
+---
+
+### Step 3 — Top-Down Framework Decomposition
+
+Build the tree top-down from the root. Decompose **until every leaf is specific enough to investigate, measure, or form a hypothesis about**. There is no fixed maximum depth — L4, L5, L6 and beyond are expected whenever a node is still too broad to act on. Stop decomposing a branch only when its leaf nodes are decision-relevant on their own.
+
+**The single most important constraint:** Every sibling set at every level must be generated by ONE framework. That framework is chosen for the parent, applies to all children together, and is the ONLY source of node labels for that level. A set of siblings where each node traces to a different framework is a structural violation (Pattern 11).
+
+**At every level (L1, L2, L3, L4, L5, …), before generating children:**
+
+**3-A: Select framework for this decomposition**
+
+One parent node is decomposed by **one framework**. That framework's nodes become ALL the children of that parent. Each child node does NOT have its own framework — the framework belongs to the decomposition operation (the parent), not to individual siblings.
+
+```
+[Decomposition: <parent node>]
+Framework: <name from references/frameworks.md>
+Axis     : <the single dimension this framework slices on — all children share this axis>
+```
+
+Ask: what single dimension makes these children mutually exclusive and collectively exhaustive under this parent? Once you pick a framework, ALL children at this level must be nodes of that one framework — never mix frameworks within a sibling set.
+
+**3-B: Read and quote the template**
+
+Read `references/frameworks.md`. Copy the exact node labels for the selected framework verbatim, and include one direct quote from the file to confirm you read it (not your memory of it):
+
+```
+[Template — from file]
+> File quote: "<exact sentence from references/frameworks.md>"
+Parent
+├── <node 1, exact text>
+├── <node 2, exact text>
+└── <node 3, exact text>
+```
+
+If you cannot produce a file quote, STOP and write: "File not read — cannot proceed."
+
+**Formula integrity constraint**: If the framework is equation-based (e.g., KPI Decomposition), the child nodes MUST map 1-to-1 to the terms of the exact equation as quoted from the file — no terms may be added or removed. For example, if the file states "Revenue = Price × Volume", the children are exactly Price and Volume. Adding a third term such as "Growth Rate" that does not appear in the file quote is a violation and triggers an automatic RETURN.
+
+**3-C: Map to labels**
+
+Map each template node to the label you will use, applying only permitted adaptations:
+
+```
+[Mapping]
+<template node> → <label>  [kept | translated | qualified: <word> | split: <reason> | merge: <reason>]
+```
+
+Renaming a node to a different concept is prohibited (e.g., "Customers" → "市場性" changes the concept — this is free-form, not adaptation).
+
+**Depth rule**: After mapping, ask for each child: "Is this leaf already specific enough to investigate directly?" If NO — decompose it further by repeating 3-A → 3-B → 3-C for that child. Do not stop at any fixed level.
+
+**Stop condition (over-decomposition)**: Do NOT decompose a leaf node solely to add granularity. A leaf is sufficiently specific when a practitioner can directly investigate, measure, or form a hypothesis about it without further breakdown. Decomposing a QCD "Quality" node into sub-quality dimensions, for example, is only justified if each sub-dimension has a distinct investigation method — not merely because sub-dimensions exist conceptually.
+
+**Seed coverage check** (do once after the full tree is drafted):
+List every Step 1 seed and identify which leaf node covers it. Any uncovered seed → add a node or revise the structure.
+
+```
+[Seed Coverage]
+<seed> → covered by <node path>
+<seed> → ⚠ NOT COVERED → action: <add node / revise branch>
+```
+
+---
+
+### Step 4 — Horizontal Audit and Fix
+
+**Before running this step, read `references/failure_patterns.md` in full.** Use it as a checklist — each pattern describes what to look for, why it's harmful, and how to fix it. The checks below reference the pattern numbers.
+
+For every sibling set at every level, run the Horizontal MECE Auditor:
+
+1. **1-framework check** (→ Pattern 11): The entire sibling set must come from ONE framework — not one framework per sibling. If different siblings trace to different frameworks, that is a violation. Flag and rework so that all siblings derive from a single framework applied to their parent.
+2. **Axis check** (→ Pattern 2): State the single axis for this sibling set. All siblings must be on the same axis — the axis of the parent's chosen framework.
+3. **Overlap check** (→ Patterns 3, 4): Do any siblings share scope or use synonym labels? If yes, redraw boundaries or merge.
+4. **Gap check** (→ Pattern 10): Is there a plausible scenario not covered by any sibling? If yes, add a node or expand scope.
+5. **Granularity check** (→ Pattern 5): Are all siblings at the same abstraction level? No severe depth imbalance.
+6. **Structural checks** (→ Patterns 1, 6, 7, 8, 9, 13): Check for laundry lists, catch-all buckets, circular logic, actions masquerading as analysis, level skipping, premature framework lock-in.
+7. **Seed dropout check** (→ Pattern 12): Confirm every Step 1 seed is still covered by a leaf node. Flag any dropouts introduced by rework.
+8. **Framework traceability**: Does the sibling set trace to nodes of a single named framework (via 3-C mapping)? If not, RETURN for rework.
+9. **Formula extension check**: For any sibling set derived from an equation-based framework, verify every child term appears verbatim in the file-quoted equation. Any extra term → RETURN ticket citing Pattern 11 (Framework Mismatch).
+10. **`custom` elimination check**: Verify no sibling set is labeled `custom`. If found → RETURN ticket. Resolve by either (a) selecting a named framework from `references/frameworks.md`, or (b) restructuring the parent so its children each fit a named framework individually.
+
+For each violation found, issue a rework ticket citing the pattern number:
+```
+[Rework ticket]
+Level   : L<n>
+Node    : <parent node>
+Pattern : <#N — pattern name from failure_patterns.md>
+Problem : <what was observed>
+Fix     : <specific action>
+Preserve: <what must not change>
+```
+
+Apply all tickets, then run the Synthesizer gate.
+
+---
+
+## Workflow
+
+### Draft Mode
+
+1. **Step 1**: Generate seeds (8–20 minimum-essential points)
+2. **Step 2**: Cluster seeds bottom-up using `references/frameworks.md` axes
+3. **Step 3**: Decompose top-down level by level, running 3-A → 3-B → 3-C at each level; check seed coverage
+4. **Step 4**: Horizontal audit → rework tickets → Synthesizer gate
+5. If RETURN, execute tickets and repeat Step 4
+
+### Review Mode
+
+1. Load the user's existing tree
+2. Run Step 4 (Horizontal Audit) across all levels
+3. Issue rework tickets and apply fixes
+4. Synthesizer gate → ACCEPT or RETURN
+5. If RETURN, repeat
+
+Run up to 10 iterations (unless user says otherwise). Stop early on ACCEPT. If you hit the limit without ACCEPT, present the best tree with remaining violations and recommended next steps.
+
+---
+
+## Acceptance Criteria
+
+The Synthesizer may only ACCEPT when ALL of these hold:
+
+- **Seed coverage**: Every Step 1 seed is covered by at least one leaf node. No seed left unresolved.
+- **Framework traceability at every level**: Every sibling set (L1, L2, L3, …) traces to a named framework from `references/frameworks.md` via a 3-C mapping. Any sibling set with no framework attribution is an automatic RETURN.
+- **Adaptation within bounds**: All 3-C mappings use only permitted adaptations (translate, qualify, split, merge). A label that renames a node to a different concept is an automatic RETURN.
+- **File quote present**: Each 3-B block must contain a verbatim quote from `references/frameworks.md`. If absent, RETURN.
+- **Single axis per level**: Each sibling set decomposes along one dimension. The axis is explicitly stated.
+- **Mutually exclusive**: No sibling scopes overlap. No synonym duplication.
+- **Collectively exhaustive**: No canonical template node is silently dropped without justification.
+- **Consistent granularity**: Siblings at the same abstraction level. No severe depth imbalance.
+- **Logical parent-child links**: Every link is causal or compositional, not arbitrary.
+- **Actionable leaves**: Leaf nodes specific enough to investigate or form hypotheses about.
+- **No `custom` labels**: Every sibling set at every level traces to a named framework from `references/frameworks.md`. Any `custom` label is an automatic RETURN.
+- **No formula extension**: Equation-based framework child nodes match file-quoted equation terms exactly (1-to-1). Adding or removing terms is an automatic RETURN.
+- **2–7 children per node**: Push until leaves are decision-relevant; stop when a branch is already actionable.
+
+If any criterion fails, RETURN is mandatory.
+
+---
+
+## Output Structure
+
+Match the language of the user's input. Present output in this order:
+
+### 1. Final Issue Tree
+
+Generate a final issue tree with the following structure:
+
+```
+Root Question
+  ├── L1 Branch A
+  │     ├── L2 Sub-branch A1
+  │     └── L2 Sub-branch A2
+  ├── L1 Branch B
+  │     ├── L2 Sub-branch B1
+  │     └── L2 Sub-branch B2
+  └── L1 Branch C
+        └── L2 Sub-branch C1
+```
+
+#### Excel output format
+
+When the user requests Excel / spreadsheet output, represent indentation using columns instead of text indent characters. Add **(number of levels − 1)** narrow columns (width: 2pt each) before the content column, so that each level aligns to its own column:
+
+| Col A | Col B (L1) | Col C (L2) | Col D (L3) | Col E (L4) | … |
+|-------|------------|------------|------------|------------|---|
+| Root Question | | | | | |
+| | L1 Branch A | | | | |
+| | | L2 Sub-branch A1 | | | |
+| | | L2 Sub-branch A2 | | | |
+| | L1 Branch B | | | | |
+| | | L2 Sub-branch B1 | | | |
+| | | | L3 Sub-branch B1a | | |
+| | | L2 Sub-branch B2 | | | |
+
+- Column A: Root node only
+- Column B: L1 nodes (width: normal)
+- Column C: L2 nodes (width: normal); Columns between A and B are 2pt spacers if needed
+- Each additional level shifts one column to the right
+- Do not use indent characters (spaces, `├──`, etc.) inside cells; the column position IS the indent
+
+### 2. Framework Traceability
+
+Annotate the **decomposition** (the parent), not individual children. Each decomposition line shows which framework and axis were used to generate all children in that group. For trees with ≤20 nodes, also include a Mermaid diagram.
+
+Note: The annotation `[decomposed by: ...]` appears once per parent, covering all its children — NOT once per child node.
+
+### 3. Improvement Notes (Review Mode only)
+What changed, why, and what to validate next.
+
+---
+
+## Examples
+
+Consult `references/examples.md` when the root question is structurally similar to one of the examples below. Reading the matching example before Step 3 helps calibrate depth and framework selection.
+
+| # | Example | Description | Frameworks used |
+|---|---------|-------------|----------------|
+| 1 | Coffee Chain Profit Decline | Why did profit fall 15% YoY? Diagnosis of revenue and cost drivers. | P&L (L1), Quantity/Quality antonym (L2 within Revenue) |
+| 2 | Fitness App Launch | How to execute a go-to-market for a new app. Strategic + tactical decomposition. | Who/What/How (L1), Segment by gender (L2-Who), Inbound/Outbound (L2-How) |
+| 3 | Ad Campaign CPA Rising | Why did cost-per-acquisition increase 40%? Math-driven KPI diagnosis. | KPI decomposition—CPA = CPC ÷ CVR (L1), Marketing Funnel (L2) |
+| — | Anti-Example | What a structurally broken tree looks like and why it fails. | Axis Mixing, Laundry List, Action Masquerading |
+
+---
+
+## Reference Files
+
+- `references/frameworks.md` — **Read at Steps 2 and 3. Mandatory.** Your ONLY source for framework node labels. Do not rely on memory. If you cannot quote the file verbatim, stop and re-read it.
+- `references/examples.md` — **Read before Step 3. Mandatory.** Check whether the root question is structurally similar to one of the examples. If it is, use that example to calibrate depth, framework selection, and leaf granularity before decomposing. Do not proceed to Step 3 without having read this file.
+- `references/failure_patterns.md` — **Read in full before Step 4. Mandatory.** Use as a checklist — every pattern must be explicitly checked.

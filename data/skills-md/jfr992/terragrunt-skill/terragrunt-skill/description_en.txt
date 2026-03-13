@@ -1,0 +1,7 @@
+Use this skill when working with Terragrunt infrastructure configurations. Triggers include:
+- Setting up a new Terragrunt infrastructure catalog from scratch
+- Creating or managing Terragrunt stacks (terragrunt.stack.hcl)
+- Creating units that wrap OpenTofu modules from separate repos
+- Configuring live infrastructure repositories with root.hcl hierarchy
+- Setting up remote state backends (S3 with DynamoDB locking)
+- Multi-account/multi-environment deployments with cross-account role assumption

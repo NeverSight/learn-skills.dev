@@ -1,0 +1,8 @@
+SOPS and age encryption for secrets management in git repositories. Use when:
+(1) Setting up encrypted secrets in a project (initial .sops.yaml configuration)
+(2) Encrypting/decrypting YAML, JSON, ENV, or INI files with age keys
+(3) Managing age keys (generation, distribution, rotation)
+(4) Configuring path-based encryption rules for different environments
+(5) Integrating SOPS decryption in CI/CD pipelines (GitHub Actions, GitLab CI)
+(6) Troubleshooting SOPS decryption failures or key issues
+(7) Selective encryption with encrypted_regex patterns

@@ -1,0 +1,6 @@
+[WHAT] Vector index management for semantic search using LEANN (97% storage reduction)
+[HOW] Build indexes from directories, add content incrementally, search semantically via gRPC service on port 50052
+[WHEN] Use when building/updating indexes, checking index health, or directly querying a specific index
+[WHY] Enables semantic search across code and docs with efficient graph-based storage
+
+Triggers: "build index", "search index", "index status", "add to index", "update index", "semantic search"

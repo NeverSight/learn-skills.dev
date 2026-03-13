@@ -1,0 +1,1 @@
+Use when writing ANY Mongoose query (.find, .findOne, .findById, .aggregate, .populate), adding database operations to services or controllers, wiring data between services, building endpoints that read or write to MongoDB, or reviewing code that chains service calls. TRIGGER especially when about to write a new findById or pass an ID where a document could be passed instead.

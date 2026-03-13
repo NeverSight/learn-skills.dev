@@ -1,0 +1,1 @@
+Security anti-pattern for open Cross-Origin Resource Sharing (CORS) policies (CWE-942). Use when generating or reviewing server configurations, API backends, or any code that sets CORS headers. Detects overly permissive Access-Control-Allow-Origin headers, including wildcard, null origin, and reflected origin.

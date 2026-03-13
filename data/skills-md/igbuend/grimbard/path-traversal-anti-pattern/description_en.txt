@@ -1,0 +1,1 @@
+Security anti-pattern for path traversal vulnerabilities (CWE-22). Use when generating or reviewing code that handles file paths, reads or writes files based on user input, or serves static content. Detects joining user input to paths without proper sanitization or validation.

@@ -1,0 +1,1 @@
+Phase-level validation workflow for validator agents. Handles loading project rules, reading phase files, running /code-review, conditional verification (unit tests + typecheck + E2E/DB tests based on phase type), determining verdict, and reporting to the orchestrator. Invoke this skill as your first action — not user-invocable.

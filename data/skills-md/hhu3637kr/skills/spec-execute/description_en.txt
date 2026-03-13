@@ -1,0 +1,1 @@
+严格按 plan.md 执行新功能开发。由角色 spec-executor 调用。 触发条件：(1) 角色 spec-executor 需要按 plan.md 实现代码， (2) 用户说"执行 Spec"/"开始实现"， (3) spec/ 目录下存在 plan.md 但没有 summary.md。 注意：v2.0 起移除路径 B（agent-teams）和测试步骤，spec-execute 只有单一职责： 按 plan.md 实现代码，产出 summary.md，归档。 如果目录下已有 summary.md，应使用 spec-update。

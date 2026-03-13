@@ -1,0 +1,1 @@
+Incrementally update reverse-engineering docs based on git changes since they were last generated. Reads the commit hash from .stackshift-docs-meta.json, diffs against HEAD, analyzes only the changed files, and surgically updates the affected docs. Saves time and cost compared to full regeneration.

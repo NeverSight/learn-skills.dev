@@ -1,0 +1,1 @@
+Fetch recent `journals` rows directly from PostgreSQL and return a JSON array containing `doi`, `title`, `abstract`, and `date` (filtered by rolling `DAYS` on `created_at`). Use when users need raw paper payloads for downstream processing without LLM filtering or hotspot report generation.

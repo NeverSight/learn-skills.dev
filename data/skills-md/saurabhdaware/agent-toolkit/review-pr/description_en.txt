@@ -1,0 +1,1 @@
+End-to-end PR review orchestrator. Fetches GitHub PR diffs via .diff URLs to summarize code changes, triggers CI review using the review-ci skill, and, when CI exposes a preview URL, runs review-ui against that URL and relevant scenarios. Use when the user wants a holistic review of a GitHub Pull Request including code, CI pipelines, and (if possible) the deployed UI.

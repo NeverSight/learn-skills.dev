@@ -1,0 +1,1 @@
+Dev Container を最短で導入/更新するためのブートストラップ。stack を自動判定（node/python/rust）し、テンプレート適用または安全更新を行う。既存 .devcontainer がある場合はバックアップ後にマージ。Chat オプション: stack (auto|node|python|rust), packageManager (npm|pnpm|yarn), mode (safe|overwrite), includeTools (true|false), addCI (true|false)。

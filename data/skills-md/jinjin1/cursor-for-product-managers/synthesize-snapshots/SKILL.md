@@ -1,0 +1,670 @@
+---
+name: synthesize-snapshots
+description: >
+  Synthesizes multiple interview snapshots to identify common patterns, integrates
+  experience maps, and creates comprehensive insights. Use after completing multiple
+  interviews on the same topic or when identifying shared patterns across user segments.
+---
+
+# Synthesize Interview Snapshots
+
+## Overview
+This framework guides you through analyzing multiple interview snapshots to identify common patterns, integrate individual experience maps, and create comprehensive insights that reveal shared user needs and opportunities. It transforms individual data points into actionable patterns that inform product decisions.
+
+## When to Use
+- After completing multiple interviews on the same topic or user journey
+- When you need to identify shared patterns across different user segments
+- Before creating opportunities or generating solutions
+- When sharing research findings with stakeholders
+- When you have conflicting or unclear insights from individual interviews
+
+## Output
+**Format:** Markdown (`.md`)  
+**Location:** `user-interviews/synthesis/`  
+**Filename:** `synthesis-[initiative-name]-v[version].md`
+
+**Semantic Naming Guidelines:**
+- initiative-name: kebab-case initiative name from current initiative folder (e.g., live-sports-vod-conversion, newsletter-creation)
+- version: auto-incrementing version number (v1, v2, v3...)
+- Example: synthesis-live-sports-vod-conversion-v1.md
+
+**Version Management:**
+- Check existing files with same initiative pattern before creating new synthesis
+- Auto-increment version number (v1 → v2 → v3...)
+- Never overwrite existing synthesis files
+- Preserve all synthesis versions for comparison
+- No date dependency required
+
+---
+
+## Input Validation
+**Prerequisites:** 
+- [ ] Minimum 3-5 interview snapshots completed using [Create Interview Snapshots](/create-interview-snapshots)
+- [ ] All snapshots follow consistent format and structure
+- [ ] Snapshots cover similar topics or user journeys
+- [ ] Quality check passed for all individual snapshots
+
+**Data Quality Assessment:**
+- **Completeness Score:** [X]/100 based on required sections
+- **Behavioral Specificity:** [X]/100 based on concrete examples
+- **Quote Quality:** [X]/100 based on representative statements
+
+---
+
+## AI Instructions for Synthesis
+
+### When Receiving Multiple Snapshots
+- **Validate Input Quality**: Check if snapshots meet minimum standards from create-interview-snapshots
+- **Identify Research Gaps**: Note missing information that could strengthen synthesis
+- **Request Additional Data**: Ask for missing snapshots if sample size is insufficient
+- **Initiative Name**: Use current initiative folder name for semantic filename generation
+
+### Incremental Synthesis Process (Efficiency Optimization)
+- **Check for Existing Synthesis**: Look for previous synthesis files in the same initiative area
+- **Identify New Snapshots**: Compare current snapshots with those already processed in existing synthesis
+- **Process Only New Data**: If existing synthesis found, analyze only new snapshots and merge with existing patterns
+- **Update Existing Synthesis**: Enhance previous synthesis with new insights rather than starting from scratch
+- **Full Synthesis Only When**: No existing synthesis found, or significant topic shift detected
+
+### Semantic File Naming Guidelines
+- **Initiative Name**: Use current initiative folder name as primary identifier
+- **Filename Format**: Use semantic naming pattern `synthesis-[initiative-name]-v[version].md`
+- **Version Management**: Auto-increment version number based on existing files
+- **Document Date Range**: Use actual interview date range (e.g., 2025-09-01 - 2025-09-07)
+- **Folder Organization**: Store all synthesis files in initiative's synthesis folder
+- **No Date Dependency**: Remove all date-based filename requirements
+
+**Initiative Name Process:**
+1. Use current initiative folder name as primary identifier
+2. Ensure initiative name is kebab-case format (e.g., "live-sports-vod-conversion")
+3. Maintain consistency across all synthesis files for same initiative
+
+**Version Management Process:**
+1. Check existing files with pattern `synthesis-[initiative-name]-v*.md`
+2. Find the highest version number for the same initiative
+3. Auto-increment version number (v1 → v2 → v3...)
+4. Generate new filename with incremented version
+5. No manual version tracking required
+
+**Initiative Name Usage:**
+- **Folder-Based**: Use current initiative folder name directly
+- **Consistency**: Use same initiative name across all synthesis versions
+- **Kebab-Case Format**: Ensure initiative name is kebab-case (e.g., "live-sports-vod-conversion")
+- **Uniqueness**: Each initiative has its own synthesis files
+- **No Extraction**: No need to extract or analyze content for naming
+
+### Pattern Recognition Guidelines
+- **Focus on Behavioral Patterns**: Look for concrete actions, not opinions
+- **Identify Emotional Journeys**: Map frustration, delight, confusion patterns
+- **Document Workarounds**: Note how users currently solve problems
+- **Preserve Context**: Maintain when/where/why details from individual stories
+
+### Quality Standards
+- **Evidence Strength**: Multiple participants supporting each pattern
+- **Behavioral Specificity**: Concrete examples, not generalizations
+- **Segment Clarity**: Clear understanding of user group differences
+- **Actionable Insights**: Patterns that inform product decisions
+- **Writing Standards**: Follow the `/writing-guide` skill rules for voice, tone, banned words, and LLM pattern avoidance
+
+---
+
+## Framework Structure
+
+### 1. Data Preparation
+- **Interview Collection**: Gather all relevant interview snapshots
+- **Existing Synthesis Check**: Look for previous synthesis files in the same initiative area
+- **New Snapshot Identification**: Compare current snapshots with previously processed ones
+- **Data Standardization**: Ensure consistent format and structure across snapshots
+- **Quality Check**: Verify all snapshots are complete and accurate
+- **Context Documentation**: Note any relevant background information
+
+### 1.1 Incremental Processing (Efficiency Mode)
+- **Processed Snapshot Tracking**: Identify which snapshots were already analyzed in previous synthesis
+- **New Data Focus**: Analyze only new snapshots that haven't been processed
+- **Pattern Comparison**: Compare new patterns with existing synthesis patterns
+- **Merge Strategy**: Determine how to integrate new insights with existing synthesis
+
+### 2. Pattern Analysis
+- **Extract Common Elements**: Identify recurring themes, behaviors, and pain points
+- **Map Individual Journeys**: Review each snapshot's experience map
+- **Find Overlaps**: Discover where individual stories intersect
+- **Identify Variations**: Document how different segments behave differently
+
+### 2.1 Incremental Pattern Analysis
+- **New Pattern Detection**: Identify patterns that emerge only from new snapshots
+- **Existing Pattern Validation**: Check if new data confirms or contradicts existing patterns
+- **Frequency Updates**: Update pattern frequency counts with new data
+- **Segment Variation Updates**: Add new segment variations discovered in new snapshots
+
+### 3. Pattern Integration
+- **Group Similar Patterns**: Cluster related insights and behaviors
+- **Merge Experience Maps**: Combine individual journey stages into shared stages
+- **Preserve Unique Elements**: Maintain important segment-specific details
+- **Create Shared Narrative**: Develop a comprehensive story that represents all users
+
+### 3.1 Incremental Integration
+- **Merge with Existing Synthesis**: Integrate new patterns with previously identified patterns
+- **Update Experience Maps**: Add new journey stages or modify existing ones based on new data
+- **Preserve Previous Insights**: Maintain valuable insights from previous synthesis
+- **Update Evidence Base**: Add new supporting quotes and observations to existing patterns
+
+### 4. Insight Development
+- **Common Patterns**: What patterns emerge across interviews?
+- **User Segments**: Are there distinct groups with different needs?
+- **Pain Point Clusters**: What problems appear most frequently?
+- **Behavior Patterns**: What consistent behaviors do you observe?
+
+---
+
+## Process Flow
+
+### Continuous Discovery Workflow
+```
+Individual Interviews → Create Snapshots → Synthesize Patterns → Generate Opportunities → Create Solutions
+     ↓                    ↓                    ↓                    ↓                    ↓
+[Raw Data]        [Structured Stories]   [Shared Patterns]    [Problem Statements] [Product Ideas]
+```
+
+### Incremental Synthesis Workflow (Efficiency Mode)
+```
+New Snapshots → Use Initiative Name → Check Existing Synthesis → Process Only New Data → Merge with Existing → Updated Synthesis
+     ↓              ↓                    ↓                        ↓                    ↓                    ↓
+[New Data]    [Initiative Analysis]    [Previous Analysis]      [Pattern Comparison]   [Integration]      [Enhanced Output]
+```
+
+### Input-Output Relationship
+- **Input:** 3-5 completed interview snapshots from create-interview-snapshots
+- **Process:** Initiative name usage, pattern recognition, experience map integration, insight synthesis
+- **Output:** Comprehensive synthesis document with integrated experience map
+- **Next Step:** Use synthesis to create opportunities and generate solutions
+
+### Recommended Folder Structure
+```
+initiatives/
+├── live-sports-vod-conversion/
+│   └── user-interviews/
+│       ├── synthesis/
+│       │   ├── synthesis-live-sports-vod-conversion-v1.md
+│       │   ├── synthesis-live-sports-vod-conversion-v2.md
+│       │   └── synthesis-live-sports-vod-conversion-v3.md
+│       ├── snapshots/
+│       │   └── [individual snapshot files]
+│       └── opportunities/
+│           └── opportunities-live-sports-vod-conversion-v1.md
+├── newsletter-creation/
+│   └── user-interviews/
+│       ├── synthesis/
+│       │   ├── synthesis-newsletter-creation-v1.md
+│       │   └── synthesis-newsletter-creation-v2.md
+│       └── snapshots/
+│           └── [individual snapshot files]
+└── user-onboarding/
+    └── user-interviews/
+        ├── synthesis/
+        │   └── synthesis-user-onboarding-v1.md
+        └── snapshots/
+            └── [individual snapshot files]
+```
+
+### Efficiency Guidelines
+- **1-2 New Snapshots**: Process immediately with incremental synthesis
+- **3-5 New Snapshots**: Consider batch processing for efficiency
+- **5+ New Snapshots**: Evaluate if full re-synthesis is needed
+- **Topic Shift**: Always perform full synthesis when research focus changes
+
+---
+
+## Synthesis Template
+
+### Standard Synthesis Template
+```markdown
+# What We Learned: [Research Topic] Discovery Research
+
+**Date Range:** [Start Date] - [End Date]  
+**Total Participants:** [Number]  
+**Research Goal:** [Clear statement]  
+**Desired Outcome:** [Expected results]
+**Synthesis Type:** [Initial/Incremental/Full Re-synthesis]
+**Initiative:** [Initiative name]
+**Version:** [v1, v2, v3...]
+**Processed Snapshots:** [List of all snapshots included in this synthesis]
+```
+
+### Incremental Synthesis Template
+```markdown
+# What We Learned: [Research Topic] Discovery Research (Updated)
+
+**Date Range:** [Start Date] - [End Date]  
+**Total Participants:** [Number] (Previously: [Previous Number], Added: [New Number])
+**Research Goal:** [Clear statement]  
+**Desired Outcome:** [Expected results]
+**Synthesis Type:** Incremental Update
+**Initiative:** [Initiative name]
+**Version:** [v2, v3, v4...]
+**Previous Synthesis:** [Reference to previous synthesis file]
+**New Snapshots Added:** [List of newly processed snapshots]
+**Updated On:** [Current date]
+
+## Executive Summary
+[3-5 key findings with immediate recommendations]
+
+## Participant Overview
+| Segment | Count | Key Characteristics |
+|---------|-------|-------------------|
+| [Segment Name] | [Count] | [Description] |
+
+## Top Opportunities
+
+**Opportunity Writing Guidelines:**
+- Reflect user needs/pain points/desires directly from individual snapshots' "Opportunities" sections
+- Use "I want to... but... because..." format to maintain user perspective
+- Focus on actual user needs and difficulties, not functional solution suggestions
+- Identify common needs/pain points/desires as patterns across multiple participants
+
+### 1. [Opportunity Title]
+**Frequency:** [X] out of [Y] participants  
+**Evidence Strength:** [Strong/Moderate/Weak]  
+**Impact:** [High/Medium/Low]  
+
+**Opportunity:**  
+[User's need/pain point/desire expressed as "I want to... but... because..."]
+
+**Supporting Evidence:**  
+- **[User Name (Segment):]** "[Direct quote]" - [Context/Impact]
+
+**Common Story Pattern:**  
+[Step-by-step narrative of how users experience this problem]
+
+**Business Impact:**  
+[How this affects user retention, satisfaction, or growth]
+
+**Users Affected:** [Which segments experience this]  
+**Journey Impact:** [How solving this would improve the user experience]
+
+### 2. [Opportunity Title]
+**Frequency:** [X] out of [Y] participants  
+**Evidence Strength:** [Strong/Moderate/Weak]  
+**Impact:** [High/Medium/Low]  
+
+**Opportunity:**  
+[User's need/pain point/desire expressed as "I want to... but... because..."]
+
+**Supporting Evidence:**  
+- **[User Name (Segment):]** "[Direct quote]" - [Context/Impact]
+
+**Common Story Pattern:**  
+[Step-by-step narrative of how users experience this problem]
+
+**Business Impact:**  
+[How this affects user retention, satisfaction, or growth]
+
+**Users Affected:** [Which segments experience this]  
+**Journey Impact:** [How solving this would improve the user experience]
+
+## Key Insights
+
+### 1. [Insight 1]
+**What:** [Clear statement of the insight]  
+**Evidence:** [Supporting quotes and observations]  
+**Implications:** [What this means for our product]
+
+### 2. [Insight 2]
+**What:** [Clear statement of the insight]  
+**Evidence:** [Supporting quotes and observations]  
+**Implications:** [What this means for our product]
+
+## Research Gaps
+- [Unanswered question 1]
+- [Unanswered question 2]
+- [Areas needing more research]
+
+## Next Steps
+- [ ] [Next research action 1]
+- [ ] [Next research action 2]
+- [ ] [Product action 1]
+- [ ] [Product action 2]
+```
+
+## Experience Map Integration Output
+
+### Purpose
+The Integrated Experience Map section synthesizes individual user journey maps into a comprehensive, shared experience that reveals common patterns while preserving segment-specific variations.
+
+### Structure Requirements
+
+#### Experience Overview
+- **Scope**: Clear start and end points of the user journey
+- **Goal**: The desired outcome users are trying to achieve
+- **Primary User**: Representative user persona for this experience
+
+#### Integrated Experience Map Template (Following create-interview-snapshots format)
+
+**Stage [X]: [Stage Title]**
+- **Common Actions:** [Specific behaviors across participants]
+- **Shared Thoughts:** [Mental models and expectations]
+- **Emotional Journey:** [Frustration, delight, confusion patterns]
+- **Pain Points:** [Frequently mentioned challenges]
+- **Workarounds:** [Current problem-solving approaches]
+- **Segment Variations:** [How different users behave]
+- **Supporting Evidence:** [Quotes from multiple participants]
+
+**Quality Indicators:**
+- [ ] Actions are concrete and specific (not generalizations)
+- [ ] Emotions are tied to specific moments and contexts
+- [ ] Pain points include frequency and impact data
+- [ ] Workarounds show current coping strategies
+- [ ] Variations explain why segments differ
+- [ ] Evidence comes from multiple participants
+
+### Integration Process
+
+#### Step 1: Map Comparison
+- Overlay individual experience maps from each interview
+- Identify common stages and decision points
+- Note where individual journeys diverge
+
+#### Step 2: Stage Consolidation
+- Group similar activities into shared stages
+- Maintain logical flow and progression
+- Preserve important variations between segments
+
+#### Step 3: Pattern Extraction
+- Identify common thoughts, feelings, and pain points
+- Document segment-specific variations
+- Note workarounds and coping strategies
+
+#### Step 4: Evidence Collection
+- Gather supporting quotes for each stage element
+- Include behavioral observations
+- Note frequency of patterns across participants
+
+### Quality Standards
+
+#### Strong Experience Map Integration
+- **Clear Stage Progression**: Logical flow from start to finish
+- **Rich Context**: Thoughts, feelings, and pain points at each stage
+- **Segment Variations**: Clear documentation of how different users behave
+- **Evidence Support**: Multiple quotes and observations supporting each element
+- **Actionable Insights**: Clear understanding of where and why problems occur
+
+#### Weak Experience Map Integration
+- **Vague Stages**: Unclear what happens at each stage
+- **Missing Context**: Only actions without thoughts/feelings
+- **Over-Generalization**: Losing important segment differences
+- **Limited Evidence**: Few supporting quotes or observations
+- **Unclear Flow**: Stages don't connect logically
+
+### Example Output Structure
+
+```markdown
+## Integrated Experience Map
+
+### Experience Overview
+**Scope:** From initial app discovery to successful pattern creation  
+**Goal:** Create a drum pattern that matches their musical vision  
+**Primary User:** Music students using the app for assignments and practice
+
+### Shared Experience Stages
+
+#### Stage 1: App Discovery & First Use
+**Common Actions:** Users download app, open for first time, attempt basic pattern creation  
+**Shared Thoughts:** "This should be simple like other drum machine apps I've used"  
+**Emotional Journey:** Excited to try something new, optimistic about ease of use  
+**Pain Points:** Limited time signature options, grid doesn't match musical concepts  
+**Workarounds:** Try to force musical ideas into 4/4 time, use app for simple patterns only  
+**Segment Variations:** 
+- Advanced users: Quickly identify limitations and work around them
+- Beginners: Struggle to understand why their ideas don't work
+
+**Supporting Evidence:**
+- "I couldn't figure out how to make it feel like 6/8 instead of 4/4" - Maya (Beginner)
+- "The pattern I had in mind was really syncopated... your grid doesn't really show me where the 'ands' are" - Alex (Advanced)
+```
+
+### Integration with Opportunity Analysis
+
+The Integrated Experience Map should directly support the Top Opportunities section by:
+
+1. **Providing Context**: Show where in the user journey each opportunity occurs
+2. **Supporting Evidence**: Demonstrate the frequency and impact of problems
+3. **Segment Variations**: Explain why different users experience problems differently
+4. **Workaround Analysis**: Reveal current coping strategies that could inform solutions
+
+---
+
+## Synthesis Methods
+
+### 1. Affinity Mapping
+- **Process**: Group similar insights, quotes, and observations
+- **Benefits**: Visual organization of complex data
+- **When to Use**: With 5+ interviews or complex topics
+- **Tools**: Sticky notes, whiteboards, digital tools
+
+### 2. Thematic Analysis
+- **Process**: Identify recurring themes across interviews
+- **Benefits**: Systematic approach to pattern recognition
+- **When to Use**: When you need structured analysis
+- **Steps**: Read, code, theme, review, define
+
+### 3. Experience Map Integration
+- **Process**: Combine individual journey maps into shared stages
+- **Benefits**: Understanding the full user experience across segments
+- **When to Use**: When researching multi-step processes
+- **Elements**: Common stages, variations, emotions, pain points
+
+### 4. Comparative Analysis
+- **Process**: Compare and contrast different user segments
+- **Benefits**: Understanding user differences and similarities
+- **When to Use**: When you have distinct user groups
+- **Focus**: Needs, behaviors, pain points, goals
+
+---
+
+## Pattern Recognition Techniques
+
+### 1. Frequency Analysis
+- **Count**: How often does something appear?
+- **Weight**: How important is it to users?
+- **Consistency**: Does it appear across different user types?
+
+### 2. Intensity Analysis
+- **Emotional Impact**: How strongly do users feel about this?
+- **Urgency**: How critical is this problem?
+- **Frustration Level**: How much does this bother users?
+
+### 3. Context Analysis
+- **When**: Under what circumstances does this occur?
+- **Where**: In what environments or situations?
+- **Why**: What triggers or causes this behavior?
+
+---
+
+## Key Principles
+
+### 1. Preserve Individual Stories
+- **Goal**: Find shared patterns while maintaining specific details
+- **Approach**: Look for commonalities without losing individual insights
+- **Practice**: Ask "What do these stories have in common?" and "How do they differ?"
+
+### 2. Focus on Pattern Integration
+- **Structure**: Organize around shared experiences and variations
+- **Flow**: Show how patterns emerge across different users
+- **Context**: Include thoughts, feelings, and pain points at each stage
+
+### 3. Evidence-Based Synthesis
+- **Support**: Every insight should have supporting quotes or observations
+- **Frequency**: Note how often patterns appear
+- **Variations**: Document differences between user segments
+
+### 4. Actionable Outputs
+- **Opportunities**: Specific problems worth solving
+- **Insights**: Understanding that informs product decisions
+- **Next Steps**: Clear actions for research and product teams
+
+---
+
+## Quality Indicators
+
+### Strong Evidence
+- **Multiple Sources**: Same insight from different users
+- **Consistent Patterns**: Similar behaviors across interviews
+- **Specific Examples**: Concrete stories and quotes
+- **Contextual Detail**: Rich understanding of when/why
+
+### Weak Evidence
+- **Single Source**: Only one user mentioned this
+- **Vague Patterns**: General statements without specifics
+- **Assumptions**: What you think vs. what users said
+- **Over-Generalization**: Losing important details
+
+---
+
+## Error Handling
+
+### Insufficient Data
+- **Too Few Snapshots**: Request additional interviews before synthesis
+- **Incomplete Snapshots**: Ask for missing information or re-interview
+- **Poor Quality Data**: Suggest improvements to interview process
+
+### Pattern Recognition Issues
+- **No Clear Patterns**: Indicate need for more interviews or different approach
+- **Conflicting Evidence**: Document contradictions and request clarification
+- **Weak Evidence**: Highlight areas needing stronger support
+
+### Quality Issues
+- **Over-Generalization**: Push for specific behavioral examples
+- **Missing Context**: Request additional details from original interviews
+- **Unclear Variations**: Ask for better segment differentiation
+
+### File Naming Issues
+- **Initiative Name Mismatch**: Ensure initiative name matches the current initiative folder
+- **Version Conflicts**: Always check existing files before creating new synthesis
+- **Incorrect Format**: Use kebab-case for initiative name, v[number] for version
+- **Missing Initiative Name**: Use the current initiative folder name for filename
+- **Overwriting Prevention**: Never overwrite existing synthesis files, always increment version
+
+---
+
+## Common Synthesis Mistakes
+
+### 1. Losing Individual Stories
+- **Problem**: Over-generalizing to the point of losing specific insights
+- **Solution**: Maintain balance between patterns and details
+- **Practice**: Ask "What specific examples support this pattern?"
+
+### 2. Ignoring Segment Differences
+- **Problem**: Assuming all users follow the same journey
+- **Solution**: Document variations by user segment
+- **Practice**: Ask "How do different user types behave differently?"
+
+### 3. Skipping Context
+- **Problem**: Focusing only on actions without thoughts/feelings
+- **Solution**: Include emotional and cognitive context at each stage
+- **Practice**: Ask "What are users thinking and feeling at this stage?"
+
+### 4. Confirmation Bias
+- **Problem**: Only seeing what confirms your assumptions
+- **Solution**: Actively look for contradictory evidence
+- **Practice**: Ask "What would disprove this insight?"
+
+### 5. Jumping to Solutions
+- **Problem**: Moving too quickly from insights to solutions
+- **Solution**: Stay in the problem space longer
+- **Practice**: Ask "What else do we need to understand?"
+
+### 6. Initiative Name Confusion
+- **Problem**: Using vague or incorrect initiative names for filename
+- **Solution**: Use current initiative folder name consistently
+- **Practice**: Always check current initiative folder name before creating synthesis filename
+
+---
+
+## Best Practices
+
+### Do's
+- **INITIATIVE-BASED NAMING**: Use current initiative folder name consistently for file naming
+- **EFFICIENCY FIRST**: Check for existing synthesis before starting new analysis
+- **INCREMENTAL PROCESSING**: Process only new snapshots when updating existing synthesis
+- Synthesize after multiple interviews on the same topic
+- Focus on finding common patterns across individual stories
+- Document variations by user segment
+- Include supporting evidence for all insights
+- Use the synthesis to identify opportunities
+- Look for patterns, not just individual stories
+- Document your synthesis process and reasoning
+- Share findings with stakeholders for validation
+- Use semantic naming: synthesis-[initiative-name]-v[version].md format
+- Use initiative folder name for consistent identification
+- Check existing files before creating new synthesis
+- Auto-increment version number for same-initiative syntheses
+- Preserve all synthesis versions for comparison
+- **TRACK PROCESSED SNAPSHOTS**: Always note which snapshots were included in each synthesis
+- **MERGE STRATEGICALLY**: Integrate new insights with existing patterns rather than starting over
+
+### Don'ts
+- Don't synthesize too early (before patterns emerge)
+- Don't lose individual story details in generalization
+- Don't ignore contradictory evidence
+- Don't assume one user represents all users
+- Don't skip the synthesis step to save time
+- **NEVER**: Create synthesis filename without using initiative folder name
+- Don't use vague or generic initiative names for filename
+- Don't use inconsistent naming formats
+- Don't overwrite existing synthesis files
+- Don't skip version number checking
+- Don't guess or assume initiative name without checking folder structure
+- **AVOID**: Re-processing snapshots that were already analyzed in previous synthesis
+- **DON'T**: Start from scratch when updating existing synthesis with new snapshots
+- **AVOID**: Full re-synthesis unless significant topic shift or 5+ new snapshots
+
+---
+
+## Quality Assurance Checklist
+
+### Input Validation (Based on create-interview-snapshots)
+- [ ] All snapshots follow the required structure from create-interview-snapshots
+- [ ] Each snapshot contains concrete behavioral details (not generalizations)
+- [ ] Experience maps include actions, thoughts, feelings, and pain points
+- [ ] Opportunities are specific and actionable
+- [ ] Insights go beyond individual stories
+
+### Synthesis Quality
+- [ ] Patterns emerge from multiple participants (not single stories)
+- [ ] Integrated experience map preserves individual context
+- [ ] Segment variations are clearly documented
+- [ ] Evidence supports each insight and opportunity
+- [ ] Research gaps are identified for future investigation
+
+### Output Validation
+- [ ] Synthesis provides clear context for opportunities
+- [ ] Next steps are actionable for product teams
+- [ ] Findings can inform solution generation
+- [ ] Stakeholders can understand and act on insights
+- [ ] Experience map integration provides clear context for opportunities
+- [ ] Each stage includes supporting evidence from multiple participants
+- [ ] Segment variations are clearly documented with rationale
+
+### File Naming Validation
+- [ ] **MANDATORY**: Used current initiative folder name for filename
+- [ ] Filename uses semantic naming format: synthesis-[initiative-name]-v[version].md
+- [ ] Version number is correctly auto-incremented for same-initiative syntheses
+- [ ] Document content uses interview date range in YYYY-MM-DD format
+- [ ] Date range accurately reflects all interview dates from snapshots
+- [ ] Initiative name is descriptive and kebab-case formatted
+- [ ] No overwriting of existing synthesis files
+- [ ] Initiative name matches current initiative folder structure
+
+### Efficiency Validation
+- [ ] **INCREMENTAL CHECK**: Verified if existing synthesis exists for same initiative
+- [ ] **NEW SNAPSHOT IDENTIFICATION**: Identified which snapshots are new vs. previously processed
+- [ ] **PROCESSING STRATEGY**: Chose appropriate processing method (incremental vs. full synthesis)
+- [ ] **SNAPSHOT TRACKING**: Documented which snapshots were included in this synthesis
+- [ ] **MERGE QUALITY**: Successfully integrated new insights with existing patterns
+- [ ] **EFFICIENCY GAINS**: Avoided re-processing previously analyzed snapshots
+
+---
+
+## Related Frameworks
+- [Create Interview Snapshots](/create-interview-snapshots)
+- [Create Opportunities](/create-opportunities)
+- [Generate Solutions](/generate-solutions)

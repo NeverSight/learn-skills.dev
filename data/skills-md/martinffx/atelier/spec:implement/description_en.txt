@@ -1,0 +1,1 @@
+Execute implementation tasks from an approved plan.json. Use when spec:plan has produced approved tasks and the human is ready to start coding. Tracks progress via beads, enforces TDD, reports between batches. Trigger when the user says "implement", "go", "start", "do it", or after spec:plan completes task creation. Do NOT use without an approved plan — invoke spec:plan first.

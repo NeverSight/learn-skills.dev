@@ -1,0 +1,1 @@
+Implement or refactor data import/parsing so it streams files sequentially (memory-safe), validates/coerces types explicitly, skips irreparable records while logging them to an error CSV (full original columns + timestamp/file/line/error), emits rows_ok/rows_skipped/parse_errors metrics, and guarantees idempotent DB writes.

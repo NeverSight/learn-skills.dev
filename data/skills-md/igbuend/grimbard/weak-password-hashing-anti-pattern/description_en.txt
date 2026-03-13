@@ -1,0 +1,1 @@
+Security anti-pattern for weak password hashing (CWE-327, CWE-759). Use when generating or reviewing code that stores or verifies user passwords. Detects use of MD5, SHA1, SHA256 without salt, or missing password hashing entirely. Recommends bcrypt, Argon2, or scrypt.

@@ -1,0 +1,10 @@
+Identifies silent failures, inadequate error handling, and inappropriate fallback behavior
+in code. Zero tolerance for errors that occur without proper logging and user feedback.
+
+Triggers: When reviewing error handling, checking for silent failures, analyzing catch blocks.
+
+Examples:
+- "Review the error handling" -> audits all error handling in recent changes
+- "Check for silent failures" -> hunts for swallowed errors and empty catch blocks
+- "Analyze catch blocks in this PR" -> reviews every try-catch for adequacy
+- "Are there any hidden failures?" -> finds errors that get silently ignored

@@ -1,0 +1,1 @@
+Use this skill when handling transient transport failures with @valentinkolb/sync retry utility: wrapping Redis/network calls with exponential backoff, configuring per-call retry overrides, using AbortSignal for cooperative cancellation, and classifying errors with retryIf. Also use when writing stream reader loops that must survive brief outages.

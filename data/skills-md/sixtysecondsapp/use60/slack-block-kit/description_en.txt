@@ -1,0 +1,7 @@
+Build rich, interactive Slack messages using Block Kit for sales workflows.
+Covers meeting briefings, coaching digests, deal alerts, pipeline summaries,
+HITL approvals, and all notification types. Uses our typed builder functions
+from slackBlocks.ts with auto-truncation safety. Handles the full message
+lifecycle: compose blocks, deliver via send-slack-message, handle interactions.
+Use when building any Slack notification, alert, digest, or interactive message.
+Do NOT use for email content or in-app UI components.

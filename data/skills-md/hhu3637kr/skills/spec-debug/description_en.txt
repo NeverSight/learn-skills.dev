@@ -1,0 +1,1 @@
+诊断并修复 Spec 执行过程中发现的问题。由角色 spec-debugger 调用。 触发条件：(1) 角色 spec-debugger 接收到 spec-tester 的 bug 通知， (2) spec-executor 执行后出现 bug 或 plan.md 中未考虑到的情况， (3) 运行时出现问题、依赖环境或配置问题。 不修改已确认的 plan.md，而是创建独立的诊断文档（debug-xxx.md）和修复总结（debug-xxx-fix.md）。 修复完成后通知 spec-tester 重新验证，形成闭环。

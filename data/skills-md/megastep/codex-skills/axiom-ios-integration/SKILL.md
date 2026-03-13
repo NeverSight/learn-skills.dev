@@ -1,0 +1,198 @@
+---
+name: axiom-ios-integration
+description: Use when integrating ANY iOS system feature - Siri, Shortcuts, Apple Intelligence, widgets, IAP, camera, photo library, photos picker, audio, axiom-haptics, axiom-localization, privacy. Covers App Intents, WidgetKit, StoreKit, AVFoundation, PHPicker, PhotosPicker, Core Haptics, App Shortcuts, Spotlight.
+license: MIT
+---
+
+# iOS System Integration Router
+
+**You MUST use this skill for ANY iOS system integration including Siri, Shortcuts, widgets, in-app purchases, camera, photo library, audio, axiom-haptics, and more.**
+
+## When to Use
+
+Use this router for:
+- Siri & Shortcuts (App Intents)
+- Apple Intelligence integration
+- Widgets & Live Activities
+- In-app purchases (StoreKit)
+- Camera capture (AVCaptureSession)
+- Photo library & pickers (PHPicker, PhotosPicker)
+- Audio & haptics
+- Localization
+- Privacy & permissions
+- Spotlight search
+- App discoverability
+- Background processing (BGTaskScheduler)
+- Location services (Core Location)
+
+## Cross-Domain Routing
+
+When integration issues overlap with other domains:
+
+**Widget + data sync issues** (widget not showing updated data):
+- Widget timeline not refreshing → **stay in ios-integration** (extensions-widgets)
+- SwiftData/Core Data not shared with extension → **also invoke ios-data** — App Groups and shared containers are data-layer concerns
+- Background refresh timing → **also invoke ios-concurrency** if async patterns are involved
+
+**Live Activity + push notification issues**:
+- ActivityKit push token setup, Live Activity not updating → **stay in ios-integration** (extensions-widgets)
+- Push notification delivery failures, APNs errors → **also invoke ios-networking** (networking-diag)
+- Entitlements/certificates misconfigured → **also invoke ios-build** (xcode-debugging)
+
+**Camera + permissions + privacy**:
+- Camera code issues → **stay in ios-integration** (camera-capture)
+- Privacy manifest or Info.plist issues → **stay in ios-integration** (privacy-ux)
+- Build/entitlement errors → **also invoke ios-build**
+
+## Routing Logic
+
+### Apple Intelligence & Siri
+
+**App Intents** → `$axiom-app-intents-ref`
+**App Shortcuts** → `$axiom-app-shortcuts-ref`
+**App discoverability** → `$axiom-app-discoverability`
+**Core Spotlight** → `$axiom-core-spotlight-ref`
+
+### Widgets & Extensions
+
+**Widgets/Live Activities** → `$axiom-extensions-widgets`
+**Widget reference** → `$axiom-extensions-widgets-ref`
+
+### In-App Purchases
+
+**IAP implementation** → `$axiom-in-app-purchases`
+**StoreKit 2 reference** → `$axiom-storekit-ref`
+**IAP audit** → Launch `iap-auditor` agent (missing transaction.finish(), weak receipt validation, missing restore, subscription tracking)
+**IAP full implementation** → Launch `iap-implementation` agent (StoreKit config, StoreManager, transaction handling, restore purchases)
+
+### Camera & Photos
+
+**Camera capture implementation** → `$axiom-camera-capture`
+**Camera API reference** → `$axiom-camera-capture-ref`
+**Camera debugging** → `$axiom-camera-capture-diag`
+**Camera audit** → Launch `camera-auditor` agent or `/axiom:audit camera` (deprecated APIs, missing interruption handlers, threading violations, permission anti-patterns)
+**Photo pickers & library** → `$axiom-photo-library`
+**Photo library API reference** → `$axiom-photo-library-ref`
+
+### Audio & Haptics
+
+**Audio (AVFoundation)** → `$axiom-avfoundation-ref`
+**Haptics** → `$axiom-haptics`
+**Now Playing** → `$axiom-now-playing`
+**CarPlay Now Playing** → `$axiom-now-playing-carplay`
+**MusicKit integration** → `$axiom-now-playing-musickit`
+
+### Localization & Privacy
+
+**Localization** → `$axiom-localization`
+**Privacy UX** → `$axiom-privacy-ux`
+
+### Background Processing
+
+**BGTaskScheduler implementation** → `$axiom-background-processing`
+**Background task debugging** → `$axiom-background-processing-diag`
+**Background task API reference** → `$axiom-background-processing-ref`
+
+### Location Services
+
+**Implementation patterns** → `$axiom-core-location`
+**API reference** → `$axiom-core-location-ref`
+**Debugging location issues** → `$axiom-core-location-diag`
+
+## Decision Tree
+
+1. App Intents / Siri / Apple Intelligence? → app-intents-ref
+2. App Shortcuts? → app-shortcuts-ref
+3. App discoverability / Spotlight? → app-discoverability, core-spotlight-ref
+4. Widgets / Live Activities? → extensions-widgets, extensions-widgets-ref
+5. In-app purchases / StoreKit? → in-app-purchases, storekit-ref
+6. Want IAP audit (missing finish, receipt validation)? → iap-auditor (Agent)
+7. Want full IAP implementation? → iap-implementation (Agent)
+8. Camera capture? → camera-capture (patterns), camera-capture-diag (debugging), camera-capture-ref (API)
+9. Want camera code audit? → camera-auditor (Agent)
+10. Photo pickers / library? → photo-library (patterns), photo-library-ref (API)
+11. Audio / AVFoundation? → avfoundation-ref
+12. Now Playing? → now-playing, now-playing-carplay, now-playing-musickit
+13. Haptics? → haptics
+14. Localization? → localization
+15. Privacy / permissions? → privacy-ux
+16. Background processing? → background-processing (patterns), background-processing-diag (debugging), background-processing-ref (API)
+17. Location services? → core-location (patterns), core-location-diag (debugging), core-location-ref (API)
+
+## Anti-Rationalization
+
+| Thought | Reality |
+|---------|---------|
+| "App Intents are just a protocol conformance" | App Intents have parameter validation, entity queries, and background execution. app-intents-ref covers all. |
+| "Widgets are simple, I've done them before" | Widgets have timeline, interactivity, and Live Activity patterns that evolve yearly. extensions-widgets is current. |
+| "I'll add haptics with a simple API call" | Haptic design has patterns for each interaction type. haptics skill matches HIG guidelines. |
+| "Localization is just String Catalogs" | Xcode 26 has type-safe localization, generated symbols, and #bundle macro. localization skill is current. |
+| "Camera capture is just AVCaptureSession setup" | Camera has interruption handlers, rotation, and threading requirements. camera-capture covers all. |
+
+## Example Invocations
+
+User: "How do I add Siri support for my app?"
+→ Invoke: `$axiom-app-intents-ref`
+
+User: "My widget isn't updating"
+→ Invoke: `$axiom-extensions-widgets`
+
+User: "My widget isn't showing updated SwiftData content"
+→ Invoke: `$axiom-extensions-widgets` + also invoke `ios-data` router for App Group/shared container setup
+
+User: "My Live Activity isn't updating and I'm getting push notification errors"
+→ Invoke: `$axiom-extensions-widgets` for ActivityKit + also invoke `ios-networking` router for push delivery
+
+User: "Implement in-app purchases with StoreKit 2"
+→ Invoke: `$axiom-in-app-purchases`
+
+User: "How do I localize my app strings?"
+→ Invoke: `$axiom-localization`
+
+User: "Implement haptic feedback for button taps"
+→ Invoke: `$axiom-haptics`
+
+User: "How do I set up a camera preview?"
+→ Invoke: `$axiom-camera-capture`
+
+User: "Camera freezes when I get a phone call"
+→ Invoke: `$axiom-camera-capture-diag`
+
+User: "What is RotationCoordinator?"
+→ Invoke: `$axiom-camera-capture-ref`
+
+User: "How do I let users pick photos in SwiftUI?"
+→ Invoke: `$axiom-photo-library`
+
+User: "User can't see their photos after granting access"
+→ Invoke: `$axiom-photo-library`
+
+User: "How do I save a photo to the camera roll?"
+→ Invoke: `$axiom-photo-library`
+
+User: "My background task never runs"
+→ Invoke: `$axiom-background-processing-diag`
+
+User: "How do I implement BGTaskScheduler?"
+→ Invoke: `$axiom-background-processing`
+
+User: "What's the difference between BGAppRefreshTask and BGProcessingTask?"
+→ Invoke: `$axiom-background-processing-ref`
+
+User: "How do I implement geofencing?"
+→ Invoke: `$axiom-core-location`
+
+User: "Location updates not working in background"
+→ Invoke: `$axiom-core-location-diag`
+
+User: "What is CLServiceSession?"
+→ Invoke: `$axiom-core-location-ref`
+
+User: "Review my in-app purchase implementation"
+→ Invoke: `iap-auditor` agent
+
+User: "Implement in-app purchases for my app"
+→ Invoke: `iap-implementation` agent
+
+User: "Check my camera code for issues"
+→ Invoke: `camera-auditor` agent

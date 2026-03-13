@@ -1,0 +1,1 @@
+Implement webhook-based payment confirmation for Mom Factura API. Webhooks work for both Bank Reference and E-kwanza, sending two sequential events (payment.confirmed + invoice.created). Use when building payment confirmation flows, receiving webhook notifications, or handling order state transitions from OPEN to PAID. Status polling endpoints available as fallback.

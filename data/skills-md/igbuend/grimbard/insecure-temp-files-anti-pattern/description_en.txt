@@ -1,0 +1,1 @@
+Security anti-pattern for insecure temporary files (CWE-377). Use when generating or reviewing code that creates temporary files, handles file caching, or processes uploads through temp storage. Detects predictable paths, insecure permissions, and missing cleanup.
