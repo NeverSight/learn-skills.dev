@@ -1,0 +1,1 @@
+iPhoneClaw アクション スクリプトを記録、登録、呼び出して、VLM トークンを削減し、自動化を反復可能にします。モデル/エージェントに `run_script(name=..., vars=...)` を呼び出してもらいたい場合、`action_scripts/registry.json` を更新するとき、`runs/*/events.jsonl` からスクリプトをエクスポートするとき、またはワーカーが一時停止している間に `python -m iphoneclaw ctl run-script` を介してリモートでスクリプトをトリガーするときに使用します。

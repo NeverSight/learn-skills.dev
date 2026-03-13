@@ -1,0 +1,1 @@
+ブートストラップにより、開発コンテナを最短時間で稼働または更新できるようになります。スタック (Node/Python/Rust) を自動検出し、テンプレートを適用するか、安全な更新を実行します。 .devcontainer がすでに存在する場合は、マージする前にそれをバックアップします。チャットオプション: stack (auto|node|python|rust)、packageManager (npm|pnpm|yarn)、mode (safe|overwrite)、includeTools (true|false)、addCI (true|false)。

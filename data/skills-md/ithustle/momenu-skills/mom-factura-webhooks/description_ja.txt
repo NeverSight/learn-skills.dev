@@ -1,0 +1,1 @@
+Mom Factura API に Webhook ベースの支払い確認を実装します。 Webhook は Bank Reference と E-kwanza の両方で機能し、2 つの連続したイベント (payment.confirmed + invoice.created) を送信します。支払い確認フローを構築する場合、Webhook 通知を受信する場合、または OPEN から PAID への注文状態の遷移を処理する場合に使用します。フォールバックとして利用可能なステータス ポーリング エンドポイント。
