@@ -1,0 +1,1 @@
+VLM 토큰을 줄이고 자동화를 반복 가능하게 만들기 위해 iPhoneClaw 작업 스크립트를 기록, 등록 및 호출합니다. 모델/에이전트가 `run_script(name=..., vars=...)`를 호출하도록 하려는 경우, `action_scripts/registry.json`을 업데이트할 때, `runs/*/events.jsonl`에서 스크립트를 내보낼 때 또는 작업자가 일시 중지된 동안 `python -m iphoneclaw ctl run-script`를 통해 원격으로 스크립트를 트리거할 때 사용합니다.

@@ -1,0 +1,1 @@
+성능이 중요한 코드에 대해 스레드로부터 안전한 기본 요소가 필요할 때 사용합니다. Mutex(iOS 18+), OSAllocationUnfairLock(iOS 16+), Atomic 유형, 잠금과 액터를 사용하는 경우, Swift 동시성을 통한 교착 상태 방지를 다룹니다.

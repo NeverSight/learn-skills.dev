@@ -1,0 +1,1 @@
+공개 CORS(Cross-Origin Resource Sharing) 정책에 대한 보안 안티 패턴(CWE-942). 서버 구성, API 백엔드 또는 CORS 헤더를 설정하는 코드를 생성하거나 검토할 때 사용합니다. 와일드카드, null 원본, 반영된 원본을 포함하여 과도하게 권한이 부여된 Access-Control-Allow-Origin 헤더를 탐지합니다.

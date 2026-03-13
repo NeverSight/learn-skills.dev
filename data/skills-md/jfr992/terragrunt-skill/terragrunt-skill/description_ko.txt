@@ -1,0 +1,7 @@
+Terragrunt 인프라 구성 작업 시 이 기술을 사용하세요. 트리거에는 다음이 포함됩니다.
+- 처음부터 새로운 Terragrunt 인프라 카탈로그 설정
+- Terragrunt 스택 생성 또는 관리(terragrunt.stack.hcl)
+- 별도의 저장소에서 OpenTofu 모듈을 래핑하는 유닛 생성
+- root.hcl 계층 구조로 라이브 인프라 저장소 구성
+- 원격 상태 백엔드 설정(DynamoDB 잠금 기능이 있는 S3)
+- 교차 계정 역할 가정을 통한 다중 계정/다중 환경 배포
