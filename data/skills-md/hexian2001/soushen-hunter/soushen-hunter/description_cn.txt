@@ -1,0 +1,17 @@
+高性能Bing/Google搜索引擎技能——“搜索神猎手”
+使用 Playwright 低级 API 进行深度网络爬行和元素提取
+
+特点：
+1. Bing/Google 搜索执行 – 返回结构化结果（标题、链接、片段、来源）
+2. 深度页面分析 – 提取所有关键元素（链接、表单、按钮、脚本、元数据）
+3. 可配置引擎 – Bing 和 Google 之间切换
+
+触发条件：
+– 当用户需要执行网络搜索时
+– 当需要提取页面结构信息（链接、表单等）时
+– 当需要无需 API 成本的搜索解决方案时
+
+用途：
+– 基本搜索：./soushen "搜索关键字" [--num N] [--engine ENGINE]
+– 深度分析：./soushen --deep <目标URL>
+– 设置引擎：./soushen --set-default-engine bing|google

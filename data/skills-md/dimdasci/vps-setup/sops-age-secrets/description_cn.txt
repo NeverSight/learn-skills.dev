@@ -1,0 +1,8 @@
+用于 git 存储库中秘密管理的 SOPS 和年龄加密。使用时：
+(1) 在项目中设置加密密钥（初始.sops.yaml配置）
+(2) 使用age密钥加密/解密YAML、JSON、ENV或INI文件
+(3) 管理年龄密钥（生成、分配、轮换）
+(4)针对不同环境配置基于路径的加密规则
+(5) 在 CI/CD 管道中集成 SOPS 解密（GitHub Actions、GitLab CI）
+(6) SOPS解密失败或关键问题排查
+(7) 使用 cryptod_regex 模式进行选择性加密

@@ -1,0 +1,1 @@
+严格按照plan.md开发新功能。由角色规范执行者调用。触发条件：（1）角色spec-executor需要根据plan.md实现代码，（2）用户说“执行Spec”/“开始实现”，（3）spec/目录中存在plan.md但没有summary.md。注意：从v2.0开始，路径B（代理团队）和测试步骤被删除； spec-execute 只有一项职责：根据 plan.md 执行代码，生成summary.md，并归档。如果目录已包含summary.md，请使用spec-update。

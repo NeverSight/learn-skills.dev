@@ -1,0 +1,3 @@
+使用托管 OAuth 连接到 100 多个 API（Google Workspace、Microsoft 365、GitHub、Notion、Slack、Airtable、HubSpot 等）。
+当用户想要与外部服务交互时使用此技能。
+安全性：MATON_API_KEY 通过 Maton.ai 进行身份验证，但本身不授予对第三方服务的访问权限。每个服务都需要用户通过 Maton 的连接流程进行显式 OAuth 授权。访问权限严格限制在用户已授权的连接范围内。由 Maton 提供 (https://maton.ai)。

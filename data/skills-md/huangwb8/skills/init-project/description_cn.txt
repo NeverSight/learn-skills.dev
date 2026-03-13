@@ -1,0 +1,1 @@
+当用户明确请求“初始化项目”、“创建项目说明文件”或“生成 AGENTS.md”时使用。全自动：自动检测操作系统默认语言，分析项目目录结构（支持Python/Web/Rust/Go/Java/data-science/文档项目等），推断项目类型和用途，一键生成标准化项目指导文档。生成的文件包括：AGENTS.md（跨平台通用项目说明，Single Source of Truth）、CLAUDE.md（Claude Code具体适配，通过@./AGENTS.md引用）、README.md（项目介绍及使用）、CHANGELOG.md（项目变更日志）、.gitignore（Git忽略规则，安全第一）。

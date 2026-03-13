@@ -1,0 +1,1 @@
+诊断并修复规范执行期间发现的问题。由角色规范调试器调用。触发条件：（1）角色spec-debugger收到来自spec-tester的bug通知，（2）spec-executor运行后出现bug或出现plan.md中未涵盖的意外情况，（3）运行时问题、依赖或配置问题。请勿修改已确认的plan.md；相反，创建单独的诊断文档 (debug-xxx.md) 和修复摘要 (debug-xxx-fix.md)。修复后，通知规格测试人员重新验证，关闭循环。

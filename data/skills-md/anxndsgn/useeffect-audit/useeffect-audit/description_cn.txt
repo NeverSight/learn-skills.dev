@@ -1,0 +1,1 @@
+使用官方 React 指南审核和重构 React Effects：保留 Effects 进行外部同步，将事件与 Effects 分开，将每个 Effect 建模为独立的启动/停止进程，通过更改代码（不抑制 lint 规则）来修复依赖性问题，并仅将 useEffectEvent 用于真正的非反应式 Effect 逻辑。

@@ -1,1 +1,1 @@
-在 Git 开发中，当需要放弃当前尝试并回退到某个历史提交时使用。它会自动将当前状态存档至 archive/ 分支，并在 ARCHIVE.md 中建立双向链接（来源与目标），确保开发决策流的可追溯性。适用于需要安全回退且保留失败尝试上下文的场景。
+In Git development, use this when you need to abandon the current attempt and roll back to a historical commit. It automatically archives the current state to the archive/ branch and creates bidirectional links (source and target) in ARCHIVE.md, ensuring traceability of development decision flows. Suitable for scenarios requiring a safe rollback while preserving the context of failed attempts.

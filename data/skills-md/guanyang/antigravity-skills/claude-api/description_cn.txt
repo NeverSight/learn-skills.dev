@@ -1,0 +1,1 @@
+使用 Claude API 或 Anthropic SDK 构建应用程序。在以下情况下触发：代码导入 `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`，或者用户要求使用 Claude API、Anthropic SDK 或 Agent SDK。不要在以下情况下触发：代码导入“openai”/其他 AI SDK、一般编程或 ML/数据科学任务。

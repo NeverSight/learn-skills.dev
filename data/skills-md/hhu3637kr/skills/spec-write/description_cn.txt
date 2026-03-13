@@ -1,0 +1,1 @@
+编写plan.md代码实现。由角色规范编写者调用。触发条件：（1）角色规范编写者需要创建设计文档、API规范、数据模型、架构设计或重构计划，（2）用户说“创建规范”/“编写设计文档”/“编写技术规范”/“设计计划”，（3）需要在spec/目录下创建plan.md。注意：从v2.0开始，plan.md不包含测试计划部分（由spec-tester通过spec-test单独创建），execution_mode固定为single-agent。如果目录下已经存在summary.md，则使用spec-update代替该Skill。

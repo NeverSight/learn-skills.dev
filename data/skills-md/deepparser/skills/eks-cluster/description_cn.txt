@@ -1,0 +1,1 @@
+创建和管理 Amazon EKS 集群、托管节点组和 EC2 实例。在以下情况下使用：(1) 从头开始配置新的 EKS 集群，(2) 添加或修改托管节点组，(3) 为工作负载选择 EC2 实例类型，(4) 安装 EKS 插件（CoreDNS、kube-proxy、VPC CNI、EBS CSI、Pod Identity Agent），(5) 为 EKS 设置 VPC 网络，(6) 使用 Karpenter 或 Cluster Autoscaler 配置集群自动扩展，(7) 将服务部署到 EKS， (8) 排查EKS节点或集群问题。需要：aws CLI v2、eksctl、kubectl。

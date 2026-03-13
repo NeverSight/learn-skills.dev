@@ -1,0 +1,1 @@
+使用 @cipherstash/stack/dynamodb 将 CipherStash 加密与 Amazon DynamoDB 集成。涵盖用于在 PutItem 之前加密项目并在 GetItem 之后解密、针对 BatchWrite 和 BatchGet 进行批量加密/解密、通过 HMAC 属性使用加密分区和排序键进行查询、嵌套对象加密、审核日志记录以及 DynamoDB 属性命名约定 (__source/__hmac) 的 cryptoDynamoDB 帮助程序。在向 DynamoDB 项目添加加密、写入前加密项目、读取后解密项目或查询加密的 DynamoDB 属性时使用。
