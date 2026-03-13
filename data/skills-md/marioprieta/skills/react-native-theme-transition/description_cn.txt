@@ -1,0 +1,1 @@
+通过屏幕截图覆盖为 React Native 提供动画暗模式和主题过渡。触发条件：代码导入react-native-theme-transition，用户使用createThemeTransition/ThemeTransitionProvider/useTheme，实现带有动画的暗模式切换，系统主题跟随，主题持久性，React Navigation或expo-router主题集成，或调试转换问题（卡住覆盖，闪光，触摸阻塞）。不要在以下情况下触发：一般 React Native 样式、非动画主题切换或纯 Web 主题。

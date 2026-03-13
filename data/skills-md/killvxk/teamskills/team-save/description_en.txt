@@ -1,3 +1,1 @@
-This skill should be used when the user asks to "保存团队", "team save",
-"保存团队配置", "导出团队". 从运行中的团队读取配置并保存为快照文件
-到 .team-profiles/ 目录，供 /team-load 复用。
+This skill should be used when the user asks to "保存团队", "team save", "保存团队配置", or "导出团队". It reads the configuration from the running team and saves it as a snapshot file to the .team-profiles/ directory for reuse by /team-load.

@@ -1,0 +1,1 @@
+Apple 的 FoundationModels 框架，用于在应用程序中集成设备上的 LLM。涵盖 SystemLanguageModel 可用性检查、使用指令创建 LanguageModelSession、提示工程、用于具有 @Guide 约束的结构化输出的 @Generable 宏、具有 PartiallyGenerated 类型的快照流、用于自定义工具调用的工具协议、GenerationOptions（温度）、上下文窗口限制（4096 个令牌）和错误处理。在集成 Apple Intelligence 文本生成、使用设备上模型构建人工智能驱动的功能或实现结构化数据生成时使用。重要说明 - 访问生成的值时始终使用response.content（而不是response.output）。

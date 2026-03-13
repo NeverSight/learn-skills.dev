@@ -1,0 +1,1 @@
+PowerShell 脚本的样式、审查和重构标准。当创建、修改或审查“.ps1”、“.psm1”、“.psd1”文件或带有“shell: pwsh”或“shell: powershell”的 CI 工作流程块时触发，并且必须强制执行特定于 PowerShell 的质量控制（错误处理、参数验证、可读性、操作安全性）。请勿用于 Bash、通用 POSIX `sh` 或特定于语言的应用程序样式规则。在多语言拉取请求中，与其他适用的“*-style-guide”技能一起运行。

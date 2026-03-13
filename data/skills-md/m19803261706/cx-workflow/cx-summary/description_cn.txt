@@ -1,0 +1,1 @@
+CX 工作流程 — 摘要发布和闭环。当 cx-exec 完全完成时手动或自动触发。生成摘要文档，与GitHub同步（基于config.github_sync），智能更新CLAUDE.md规范，并触发完成通知。仅当用户显式调用 /cx-summary 或 cx-exec 完全完成时才执行。不要自动触发。

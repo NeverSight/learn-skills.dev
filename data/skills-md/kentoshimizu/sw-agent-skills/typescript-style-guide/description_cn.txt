@@ -1,0 +1,1 @@
+TypeScript 代码库的样式、审查和重构标准。当创建、更改或审查`.ts`、`.tsx`、`.d.ts`或`tsconfig*.json`文件并且必须强制执行特定于TS的质量规则（类型安全、缩小范围、异步/错误处理、模块边界）时触发。不要用于 TypeScript 类型检查范围之外的纯 JavaScript 模块。在混合 JS/TS 存储库中，此技能拥有“tsconfig”范围的模块。对于共享 JS/TS 配置文件（例如 `package.json`、共享 lint/test 配置），当 JS 和 TS 工件在同一拉取请求中发生更改时，与 `javascript-style-guide` 一起运行。

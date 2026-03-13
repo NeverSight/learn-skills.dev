@@ -1,0 +1,1 @@
+为 Mom Factura API 实施基于 Webhook 的付款确认。 Webhook 适用于银行参考和 E-kwanza，发送两个连续事件（ payment.confirmed +发票.created ）。在构建付款确认流程、接收 Webhook 通知或处理从 OPEN 到 PAID 的订单状态转换时使用。状态轮询端点可用作后备。

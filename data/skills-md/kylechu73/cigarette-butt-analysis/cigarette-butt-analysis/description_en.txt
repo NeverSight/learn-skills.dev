@@ -1,1 +1,9 @@
-静态价值型烟蒂股量化分析技能（v1.8）。基于三大支柱（存量资产垫、低维持运营开支、资产兑现逻辑）和 Fact Check 22 项验证体系，对标的进行系统性分析。核心更新：(1) 新增 Fact Check 第 22 项「资产结构健康度检验」（非流动金融资产占比>30% 强制计算核心 T 级安全边际，>50% 一票否决）；(2) 新增「兑现路径完整性检验」（三条路径全部不满足则评级上限锁定 C 级）；(3) 新增持有回报底线检查（股息率低于无风险利率时计入 WARNING-Risk）；(4) 延续 v1.7 的「最新数据优先」「多期同步计算」「股息削减高基数修正」规则。使用场景：用户上传财报（PDF 或文字表格）并提供股票代码/名称时触发；支持港股/A 股/美股；强制联网搜索最新市场数据并记录来源 URL；输出包含 Executive Summary、商业模式分析、管理层与治理分析、三大支柱评估、子类型判定（A 高股息/B 套利/C 事件驱动）、Fact Check 验证、操作建议（入场价/止盈/止损/收益周期计算）、风险提示的完整 Markdown 报告。
+Static-Value Cigar-Butt Quantitative Analysis Toolkit (v1.8).  
+Systematic analysis based on three pillars (asset cushion, low operating costs, asset-realization logic) and a 22-item Fact-Check verification suite.  
+Core updates:  
+(1) Added Fact-Check item 22: “Asset-Structure Health Test” (if non-current financial assets >30%,强制 calculate core T-tier margin of safety; >50% triggers automatic veto).  
+(2) Added “Realization-Path Completeness Test” (if none of the three paths qualify, rating ceiling locks at C-tier).  
+(3) Added minimum-holding-return check (dividend yield below risk-free rate triggers WARNING-Risk).  
+(4) Retains v1.7 rules: “latest data first,” “multi-period simultaneous calculation,” “dividend-cut high-base correction.”  
+
+Use case: triggered when user uploads financial statements (PDF or text table) plus ticker/name; supports HK/A/US shares; mandatory live fetch of latest market data with source URLs logged; outputs full Markdown report: Executive Summary, Business-Model Analysis, Management & Governance Analysis, Three-Pillars Assessment, Subtype (A high-dividend / B arbitrage / C event-driven), Fact-Check verification, Action Plan (entry / take-profit / stop-loss / return-period calculation), Risk Warnings.

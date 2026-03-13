@@ -1,0 +1,7 @@
+在使用 Terragrunt 基础设施配置时使用此技能。触发因素包括：
+- 从头开始设置新的 Terragrunt 基础设施目录
+- 创建或管理 Terragrunt 堆栈 (terragrunt.stack.hcl)
+- 创建从单独的存储库包装 OpenTofu 模块的单元
+- 使用 root.hcl 层次结构配置实时基础设施存储库
+- 设置远程状态后端（具有 DynamoDB 锁定的 S3）
+- 具有跨账户角色假设的多账户/多环境部署

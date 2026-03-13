@@ -1,3 +1,1 @@
-This skill should be used when the user asks to "加载团队", "team load",
-"恢复团队", "载入团队配置". 从 .team-profiles/ 读取 YAML 配置，
-跳过交互问答直接创建团队。支持 template 和 snapshot 两种格式。
+Use this skill when the user says "加载团队", "team load", "恢复团队", or "载入团队配置". It reads YAML configuration from .team-profiles/ and creates the team without interactive prompts. Both template and snapshot formats are supported.

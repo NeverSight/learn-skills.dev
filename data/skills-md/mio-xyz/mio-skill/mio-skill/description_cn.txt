@@ -1,0 +1,1 @@
+通过 Mio 为 AI 代理提供个人背景。在会话开始时加载用户首选项、技术堆栈、编码约定和项目上下文，以便您无需重新询问即可做出明智的决策。当以下任何 Mio MCP 工具可用时使用：get_context、list_categories、list_projects、set_active_project、log_conversation、update_profile。触发条件：(1) 会话在工作前开始加载用户上下文，(2) 用户约定很重要的代码任务，(3) 需要项目上下文的项目范围工作，(4) 实质性对话结束以记录要点，(5) 当用户表达新的或更改的偏好以建议配置文件更新时。

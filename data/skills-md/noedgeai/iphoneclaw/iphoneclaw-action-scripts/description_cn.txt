@@ -1,0 +1,1 @@
+记录、注册和调用 iPhoneClaw 操作脚本以减少 VLM 令牌并使自动化可重复。当您希望模型/代理调用 `run_script(name=..., vars=...)` 时、更新 `action_scripts/registry.json` 时、从 `runs/*/events.jsonl` 导出脚本时，或者在工作线程暂停时通过 `python -m iphoneclaw ctl run-script` 远程触发脚本时使用。
