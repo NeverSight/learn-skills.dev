@@ -1,0 +1,4 @@
+Elimine de forma masiva, tanto local como remotamente, cualquier rama de trabajo que ya se haya fusionado en la rama base especificada.  
+Se activa solo cuando el nombre de la habilidad (git-branch-cleaner) se indica explícitamente, p. “/git-branch-cleaner”, “usando la habilidad git-branch-cleaner”, “limpiar con git-branch-cleaner”.  
+No se ejecuta para solicitudes genéricas como "eliminar ramas" o "eliminar ramas fusionadas".  
+Puede controlar el alcance pasando local/remoto/ambos como argumento (el valor predeterminado es local si se omite).

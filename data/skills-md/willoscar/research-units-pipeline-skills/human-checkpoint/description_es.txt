@@ -1,0 +1,6 @@
+Registre una aprobación humana en un punto de control declarado (marque `Aprobar C*` en `DECISIONS.md`) para que la canalización pueda reanudarse.
+**Activador**: aprobar punto de control, aprobación humana, cerrar sesión, HITL, Aprobar C2, 审批, 签字, 人类检查点.
+**Usar cuando**: Una unidad tiene `propietario=HUMANO` y está BLOQUEADA esperando una casilla de verificación en `DECISIONS.md`.
+**Omitir si**: La aprobación ya está registrada (la casilla de verificación está marcada).
+**Red**: ninguna.
+**Guardrail**: No modifique ningún artefacto de contenido; solo actualice `DECISIONS.md` (y opcionalmente agregue una breve nota de cierre).

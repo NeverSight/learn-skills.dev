@@ -1,0 +1,10 @@
+Identifica fallas silenciosas, manejo inadecuado de errores y comportamiento de respaldo inadecuado
+en código. Tolerancia cero para los errores que ocurren sin un registro adecuado y comentarios de los usuarios.
+
+Desencadenantes: al revisar el manejo de errores, verificar fallas silenciosas y analizar bloques de captura.
+
+Ejemplos:
+- "Revisar el manejo de errores" -> audita todo el manejo de errores en cambios recientes
+- "Compruebe si hay fallos silenciosos" -> busca errores ingeridos y bloques de captura vacíos
+- "Analizar bloques de captura en este PR" -> revisa cada prueba de captura para verificar su idoneidad
+- "¿Hay fallos ocultos?" -> encuentra errores que se ignoran silenciosamente

@@ -1,0 +1,1 @@
+Obtenga filas recientes de `journals` directamente desde PostgreSQL y devuelva una matriz JSON que contenga `doi`, `title`, `abstract` y `date` (filtrada al pasar `DAYS` en `created_at`). Úselo cuando los usuarios necesiten cargas útiles de papel sin procesar para el procesamiento posterior sin filtrado LLM ni generación de informes de puntos de acceso.

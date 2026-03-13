@@ -1,0 +1,6 @@
+Convierta y explore transcripciones de sesiones como HTML o Markdown.
+Admite registros JSONL de Claude Code (guardados automáticamente en ~/.claude/projects/) y
+Registros JSONL de GitHub Copilot CLI (guardados automáticamente en ~/.copilot/session-state/*/events.jsonl).
+Detecta automáticamente el origen del registro según los directorios disponibles y el formato de archivo.
+Admite la visualización de la sesión actual, una sesión específica por ID, tarea en segundo plano del agente
+archivos de salida o todas las sesiones del proyecto con filtrado de rango de fechas opcional.

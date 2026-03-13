@@ -1,0 +1,17 @@
+Dramaturgo para aplicaciones de terminal. Como tmux pero diseñado para agentes: terminales virtuales que puede
+escriba, presione teclas, espere texto, tome instantáneas y capturas de pantalla como imágenes.
+
+Tuistory tiene **2 modos**:
+
+- **CLI** (comando `tuistory`): basado en shell. Iniciar sesiones, escribir, presionar teclas, instantáneas, capturas de pantalla.
+  Ejecuta un demonio en segundo plano que persiste en las sesiones entre comandos. Instálelo globalmente o use `npx`/`bunx`.
+  **DEBE ejecutar `tuistory --help` antes de usar la CLI** para ver los comandos y opciones más recientes.
+- **JS/TS API** (`importar { launchTerminal } desde 'tuistory'`) — programático. Usar en vitest/bun:test
+  para escribir pruebas estilo Playwright para CLI y TUI con instantáneas en línea.
+
+Utilice tuistory cuando necesite:
+- Escribir pruebas e2e para aplicaciones CLI/TUI (vitest, bun:test) con instantáneas en línea
+- Automatizar las interacciones del terminal (iniciar un REPL, un depurador o TUI y manejarlo)
+- Terminal de captura de pantalla como imágenes para enviar a los usuarios (bots de Discord, UI de agentes como kimaki/openclaw)
+- Reproducir errores en CLI interactivas mediante secuencias de comandos con los pasos exactos
+- Explore las aplicaciones TUI progresivamente con bucles de observar-actuar-observar
