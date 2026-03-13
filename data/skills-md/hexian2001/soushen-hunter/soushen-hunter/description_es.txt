@@ -1,0 +1,17 @@
+Habilidad de motor de búsqueda Bing/Google de alto rendimiento: "Buscar a God Hunter"  
+Utiliza las API de bajo nivel de Playwright para el rastreo web profundo y la extracción de elementos.  
+
+Características:  
+1. Ejecución de búsqueda en Bing/Google: devuelve resultados estructurados (título, enlace, fragmento, fuente)  
+2. Análisis profundo de la página: extrae cada elemento clave (enlaces, formularios, botones, scripts, metadatos)  
+3. Motor conmutable: alterna entre Bing y Google  
+
+Condiciones de activación:  
+- Cuando el usuario necesita una búsqueda web.  
+- Cuando se requiere información de la estructura de la página (enlaces, formularios, etc.)  
+- Cuando se necesita una solución de búsqueda sin costo API  
+
+Uso:  
+- Búsqueda básica: ./soushen "palabras clave de búsqueda" [--num N] [--motor MOTOR]  
+- Rastreo profundo: ./soushen --deep <URL de destino>  
+- Configurar motor: ./soushen --set-default-engine bing|google
