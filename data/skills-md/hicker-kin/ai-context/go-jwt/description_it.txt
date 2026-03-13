@@ -1,0 +1,1 @@
+Da utilizzare quando si implementa la firma o la verifica del token JWT nei progetti Go. Copre i metodi di firma ES256 (ECDSA, consigliato), PS256/RS256 (RSA asimmetrico) e HS256 (HMAC simmetrico), con chiavi caricate dal percorso file o da una stringa incorporata. Posiziona il pacchetto jwt sotto pkg/jwt per i nuovi progetti.

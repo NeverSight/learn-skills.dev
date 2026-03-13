@@ -1,0 +1,1 @@
+Porta i codebase NVIDIA CUDA sulle GPU AMD ROCm. Da utilizzare quando si eseguono modelli PyTorch su GPU AMD, si sostituiscono le librerie specifiche di NVIDIA con equivalenti AMD, si correggono errori di build/runtime ROCm o si esegue il porting di kernel CUDA C/C++ su HIP. Copre anche il debug delle dipendenze e la configurazione dell'ambiente sulle immagini Docker ROCm.

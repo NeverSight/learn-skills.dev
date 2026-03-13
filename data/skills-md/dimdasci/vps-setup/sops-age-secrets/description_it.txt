@@ -1,0 +1,8 @@
+SOPS e crittografia dell'età per la gestione dei segreti nei repository git. Utilizzare quando:
+(1) Impostazione di segreti crittografati in un progetto (configurazione iniziale .sops.yaml)
+(2) Crittografia/decrittografia di file YAML, JSON, ENV o INI con chiavi di età
+(3) Gestione delle chiavi di età (generazione, distribuzione, rotazione)
+(4) Configurazione di regole di crittografia basate sul percorso per ambienti diversi
+(5) Integrazione della decrittografia SOPS nelle pipeline CI/CD (GitHub Actions, GitLab CI)
+(6) Risoluzione dei problemi relativi agli errori di decrittografia SOPS o ai problemi chiave
+(7) Crittografia selettiva con modelli cifrati_regex
