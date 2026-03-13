@@ -1,0 +1,17 @@
+Compétence du moteur de recherche Bing/Google haute performance – « Search Deity Hunter »
+Utilise l'API de bas niveau Playwright pour l'exploration Web approfondie et l'extraction d'éléments
+
+Caractéristiques :
+1. Exécution de la recherche Bing/Google – renvoie des résultats structurés (titre, lien, extrait, source)
+2. Analyse approfondie des pages – extrait tous les éléments clés (liens, formulaires, boutons, scripts, métadonnées)
+3. Moteur configurable – basculer entre Bing et Google
+
+Conditions de déclenchement :
+– Lorsque l’utilisateur doit effectuer une recherche sur le Web
+– Lors de l’extraction des informations sur la structure de la page (liens, formulaires, etc.) sont requises
+– Lorsqu’une solution de recherche sans coût API est nécessaire
+
+Utilisation :
+– Recherche de base : ./soushen "mots-clés de recherche" [--num N] [--engine ENGINE]
+– Analyse approfondie : ./soushen --deep <URL cible>
+– Définir le moteur : ./soushen --set-default-engine bing|google

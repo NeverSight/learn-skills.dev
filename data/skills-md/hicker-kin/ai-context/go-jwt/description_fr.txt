@@ -1,0 +1,1 @@
+À utiliser lors de la mise en œuvre de la signature ou de la vérification de jetons JWT dans les projets Go. Couvre les méthodes de signature ES256 (ECDSA, recommandé), PS256/RS256 (RSA asymétrique) et HS256 (HMAC symétrique), avec des clés chargées à partir d'un chemin de fichier ou d'une chaîne en ligne. Place le package jwt sous pkg/jwt pour les nouveaux projets.
