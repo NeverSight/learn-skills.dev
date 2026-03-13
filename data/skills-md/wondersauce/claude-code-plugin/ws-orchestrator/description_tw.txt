@@ -1,0 +1,1 @@
+Claude Code 會議的開發協調器。透過 Task() 委託將所有實施工作路由到子代理技能（ws-planner、ws-dev、ws-verifier、ws-codebase-documenter），從而強制執行計劃-構建-驗證-文檔生命週期。管理會話狀態，承受上下文壓縮，並防止架構漂移。用作所有開發工作階段的預設操作模式。

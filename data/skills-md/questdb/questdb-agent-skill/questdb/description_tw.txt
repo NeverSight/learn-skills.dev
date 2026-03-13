@@ -1,0 +1,1 @@
+每當使用 QuestDB（一種高效能時間序列資料庫）時，請使用此技能。在任何提及 QuestDB、帶有 SAMPLE BY、LATEST ON、ASOF JOIN、ILP 攝取或 questdb Python/Go/Java/Rust/.NET 用戶端庫的時間序列 SQL 時觸發。當針對 QuestDB 編寫 Grafana 查詢、為時間序列匯總建立物化檢視、使用 QuestDB 中的訂單簿或金融市場資料或任何涉及指定時間戳記或時間分區表的 SQL 時也會觸發。 QuestDB 使用獨特的時間序列關鍵字擴展 SQL — 標準 PostgreSQL 或 MySQL 模式將會失敗。在編寫 QuestDB SQL 之前請務必閱讀此技巧，以避免產生錯誤語法的幻覺。

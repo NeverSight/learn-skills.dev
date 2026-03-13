@@ -1,0 +1,1 @@
+檢查 Spec Loader 系統是否正確使用，並重構所有尚未採用它的檔案。检测在其实现中不使用 loadSpec 的文件以及在测试中不使用 test/utils/loadSpec 的文件，并更新它们以通过规范加载器。

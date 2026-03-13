@@ -1,0 +1,1 @@
+透過僅限瀏覽器的工作流程下載 Figshare 檔案（無 web_fetch/curl 探測）。當使用者提供 Figshare DOI 或 ndownloader URL 並需要可靠的獲取路徑時使用，該獲取路徑始終在瀏覽器中開啟頁面，觸發真正的下載，然後將下載的檔案複製到目標路徑中。

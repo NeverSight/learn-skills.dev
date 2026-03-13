@@ -1,0 +1,1 @@
+直接從 PostgreSQL 取得最近的「journals」行，並傳回一個包含「doi」、「title」、「abstract」和「date」的 JSON 陣列（透過在「created_at」上滾動「DAYS」進行過濾）。當使用者需要原始紙張有效負載進行下游處理而不需要 LLM 過濾或熱點報告產生時使用。

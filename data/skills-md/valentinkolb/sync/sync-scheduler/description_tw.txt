@@ -1,0 +1,1 @@
+使用 @valentinkolb/sync 調度程序實現分散式 cron 調度時使用此技能：跨 pod 註冊冪等調度、透過 job.submit 進行領導者圍欄調度、misfire 策​​略 (skip/catch_up_one/catch_up_all)、triggerNow 進行手動調度 (skip/catch_up_one/catch_up_all)、triggerNow 進行手動調度、註冊、執行者/執行者/執行者 執行者/執行者 條件、執行者/執行者 條件、執行者取消條件、執行者/執行者 條件/執行者取消條件。取決於執行的sync-job和用於領導者鎖的sync-mutex。

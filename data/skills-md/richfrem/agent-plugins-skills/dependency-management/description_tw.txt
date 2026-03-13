@@ -1,0 +1,1 @@
+多服務或 monorepo python 後端的 Python 依賴關係和環境管理。在以下情況下使用：(1) 新增、升級或刪除 Python 套件，(2) 回應 Dependabot 或安全漏洞警報 (GHSA/CVE)，(3) 建立需要自己的需求檔案的新服務，(4) 偵錯 pip 安裝失敗或與依賴項相關的 Docker 建置問題，(5) 檢查或審核依賴項樹，(6) 執行 pip-compile。強制執行 pip-compile 鎖定檔案工作流程和分層依賴關係層次結構。

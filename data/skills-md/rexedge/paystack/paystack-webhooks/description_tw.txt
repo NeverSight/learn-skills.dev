@@ -1,0 +1,1 @@
+Paystack Webhook 整合 — 使用 HMAC SHA512 進行簽章驗證、事件解析、IP 白名單、重試策略和所有支援的事件類型。每當為 Paystack 設定 Webhook 端點、驗證 x-paystack-signature 標頭、處理 charge.success 或 Transfer.success 事件、偵錯 Webhook 傳遞失敗、實作冪等事件處理或建置任何伺服器端 Paystack 事件偵聽器時，請使用此技能。遇到 Webhook 逾時問題或需要 Paystack Webhook IP 位址清單時也可使用。

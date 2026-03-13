@@ -1,0 +1,3 @@
+在處理 .xlsx 或 .xlsm 檔案時，如果在使用 openpyxl 讀取時遇到錯誤 'expected <class \'openpyxl.styles.fills.Fill\'>'，請使用此技巧來修復它。  
+當讀取 .xlsx 檔案因填充相關錯誤而失敗時，自動呼叫修復腳本來修復空填充標記問題，然後重試讀取。  
+適用於：使用openpyxl讀取Excel檔案失敗的情況，特別是由於styles.xml中空的<fill/>標籤導致解析錯誤。

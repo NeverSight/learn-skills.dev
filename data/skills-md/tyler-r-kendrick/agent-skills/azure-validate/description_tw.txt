@@ -1,0 +1,1 @@
+**關鍵**：在部署 Azure 資源之前執行 azure-validate。驗證 Azure 部署準備。用途：評估應用程式是否已準備好部署至 Azure、驗證 azure.yaml 或 Bicep 設定檔、執行 Azure 預檢檢查、檢視部署預覽和假設分析、驗證 Azure 基礎架構設定、解決 Azure 部署錯誤。請勿用於：建立新應用程式（使用 azure-prepare）、執行部署（使用 azure-deploy）。
