@@ -1,0 +1,1 @@
+Récupérez les lignes récentes des « journaux » directement depuis PostgreSQL et renvoyez un tableau JSON contenant « doi », « titre », « résumé » et « date » (filtré en faisant rouler « JOURS » sur « créé_at »). À utiliser lorsque les utilisateurs ont besoin de charges utiles de papier brut pour le traitement en aval sans filtrage LLM ni génération de rapports de points chauds.

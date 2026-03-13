@@ -1,0 +1,10 @@
+Analyse les commentaires de code pour en vérifier l'exactitude, l'exhaustivité et la maintenabilité à long terme.
+Identifie les commentaires trompeurs, la pourriture des commentaires et les lacunes dans la documentation.
+
+Déclencheurs : après avoir ajouté de la documentation, avant de finaliser un PR, lors de l'examen des commentaires.
+
+Exemples :
+- "Vérifier si les commentaires sont exacts" -> vérifie que les commentaires correspondent au comportement du code
+- "Revoir la documentation que j'ai ajoutée" -> analyse les nouveaux commentaires pour en vérifier la qualité
+- "Analyser les commentaires pour la dette technique" -> trouve les commentaires obsolètes ou trompeurs
+- "Mes docstrings sont-ils corrects ?" -> valide l'exactitude de la documentation

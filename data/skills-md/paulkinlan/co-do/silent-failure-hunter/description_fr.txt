@@ -1,0 +1,10 @@
+Identifie les pannes silencieuses, la gestion inadéquate des erreurs et les comportements de repli inappropriés
+en code. Tolérance zéro pour les erreurs qui se produisent sans journalisation appropriée ni commentaires des utilisateurs.
+
+Déclencheurs : lors de l'examen de la gestion des erreurs, de la vérification des échecs silencieux, de l'analyse des blocs catch.
+
+Exemples :
+- "Réviser la gestion des erreurs" -> audite toute la gestion des erreurs dans les modifications récentes
+- "Vérifier les échecs silencieux" -> recherche les erreurs avalées et les blocs catch vides
+- "Analyser les blocs catch dans ce PR" -> examine chaque try-catch pour en vérifier l'adéquation
+- "Y a-t-il des échecs cachés ?" -> trouve les erreurs qui sont silencieusement ignorées

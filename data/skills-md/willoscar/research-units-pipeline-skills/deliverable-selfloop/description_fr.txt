@@ -1,0 +1,6 @@
+Bouclez automatiquement un livrable jusqu'à ce qu'il soit publiable par la norme de pipeline : diagnostiquer -> corriger -> revérifier et rédiger un rapport RÉUSSITE/ÉCHEC.
+**Déclencheur** : boucle automatique, boucle automatique, livrable poli, porte de qualité, correction en cas d'échec, 收敛, 自循环, 质量门.
+**À utiliser lorsque** : un pipeline a produit un livrable destiné au lecteur (`output/*.md`) et vous souhaitez une convergence déterministe vers PASS.
+**Ignorer si** : Vous êtes toujours en pré-approbation pour la prose ou les artefacts de preuve/structure en amont sont manquants.
+**Réseau** : aucun.
+**Garde-corps** : N'inventez pas d'articles/citations/résultats. Utilisez uniquement les entrées dans le champ d’application déjà présentes dans l’espace de travail.

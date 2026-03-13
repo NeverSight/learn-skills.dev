@@ -1,0 +1,6 @@
+Enregistrez une approbation humaine à un point de contrôle déclaré (cochez « Approuver C* » dans « DECISIONS.md ») afin que le pipeline puisse reprendre.
+**Déclencheur** : approuver le point de contrôle, approbation humaine, signature, HITL, approuver C2, 审批, 签字, 人类检查点.
+**Utiliser quand** : Une unité a `owner=HUMAN` et est BLOQUÉE en attendant une case à cocher dans `DECISIONS.md`.
+**Sauter si** : L'approbation est déjà enregistrée (la case est cochée).
+**Réseau** : aucun.
+**Garde-corps** : ne modifiez aucun artefact de contenu ; mettez uniquement à jour « DECISIONS.md » (et ajoutez éventuellement une courte note de signature).

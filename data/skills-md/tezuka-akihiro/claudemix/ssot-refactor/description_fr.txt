@@ -1,0 +1,1 @@
+Vérifiez que le système Spec Loader est utilisé correctement et refactorisez tous les fichiers qui ne l'ont pas encore adopté. Détectez les fichiers qui n'utilisent pas loadSpec dans leur implémentation et les fichiers qui n'utilisent pas tests/utils/loadSpec dans leurs tests, et mettez-les à jour pour passer par le chargeur de spécifications.

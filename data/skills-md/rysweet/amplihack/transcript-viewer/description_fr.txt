@@ -1,0 +1,6 @@
+Convertissez et parcourez les transcriptions de session au format HTML ou Markdown.
+Prend en charge les journaux Claude Code JSONL (enregistrés automatiquement dans ~/.claude/projects/) et
+Journaux JSONL GitHub Copilot CLI (enregistrés automatiquement dans ~/.copilot/session-state/*/events.jsonl).
+Détecte automatiquement la source du journal en fonction des répertoires disponibles et du format de fichier.
+Prend en charge l'affichage de la session en cours, une session spécifique par ID, la tâche en arrière-plan de l'agent
+fichiers de sortie ou toutes les sessions de projet avec filtrage facultatif par plage de dates.
