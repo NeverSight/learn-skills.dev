@@ -1,0 +1,1 @@
+Anti-pattern di sicurezza per policy CORS (Cross-Origin Resource Sharing) aperte (CWE-942). Da utilizzare durante la generazione o la revisione delle configurazioni del server, dei backend API o di qualsiasi codice che imposta le intestazioni CORS. Rileva intestazioni Access-Control-Allow-Origin eccessivamente permissive, inclusi caratteri jolly, origine nulla e origine riflessa.

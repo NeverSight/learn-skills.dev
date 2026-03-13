@@ -1,0 +1,1 @@
+Anti-pattern di sicurezza per l'hashing delle password deboli (CWE-327, CWE-759). Da utilizzare durante la generazione o la revisione del codice che memorizza o verifica le password degli utenti. Rileva l'uso di MD5, SHA1, SHA256 senza salt o l'hashing della password completamente mancante. Consiglia bcrypt, Argon2 o scrypt.

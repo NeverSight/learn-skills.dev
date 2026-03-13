@@ -1,0 +1,1 @@
+Aggiorna in modo incrementale i documenti di reverse engineering in base alle modifiche git dall'ultima volta che sono stati generati. Legge l'hash del commit da .stackshift-docs-meta.json, confronta le differenze con HEAD, analizza solo i file modificati e aggiorna chirurgicamente i documenti interessati. Risparmia tempo e costi rispetto alla rigenerazione completa.

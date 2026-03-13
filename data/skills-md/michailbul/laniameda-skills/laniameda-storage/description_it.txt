@@ -1,0 +1,4 @@
+Salva i prompt con tag pilastro + risorse di riferimento (da Instagram o qualsiasi fonte) nella dashboard di archiviazione dei prompt di Laniameda (KB convesso).
+Da utilizzare quando l'utente dice "salva questo", "memorizza questo", "aggiungi al deposito", condivide un prompt/una ricetta/un flusso di lavoro o invia supporti di riferimento che vale la pena riutilizzare.
+Regole: singolo elemento = un prompt o una risorsa. Batch = matrice JSON. Le varianti condividono lo stesso promptText + promptIngestKey. Non concatenare mai prompt distinti.
+ownerUserId viene sempre letto automaticamente da KB_OWNER_USER_ID env var (mai passato dal chiamante).

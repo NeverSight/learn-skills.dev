@@ -1,0 +1,6 @@
+[COSA] Gestione dell'indice vettoriale per la ricerca semantica tramite LEANN (riduzione dello spazio di archiviazione del 97%)
+[COME] Creare indici dalle directory, aggiungere contenuti in modo incrementale, effettuare ricerche semantiche tramite il servizio gRPC sulla porta 50052
+[QUANDO] Da utilizzare durante la creazione/l'aggiornamento di indici, il controllo dell'integrità dell'indice o l'esecuzione di una query diretta su un indice specifico
+[PERCHÉ] Abilita la ricerca semantica nel codice e nei documenti con un'efficiente archiviazione basata su grafici
+
+Trigger: "indice di creazione", "indice di ricerca", "stato dell'indice", "aggiungi all'indice", "aggiornamento indice", "ricerca semantica"

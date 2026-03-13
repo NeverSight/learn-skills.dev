@@ -1,0 +1,9 @@
+Kit di strumenti per l'analisi quantitativa dei mozziconi di sigaro a valore statico (v1.8).  
+Analisi sistematica basata su tre pilastri (cuscineria patrimoniale, bassi costi operativi, logica di realizzazione degli asset) e una suite di verifica Fact-Check composta da 22 elementi.  
+Aggiornamenti principali:  
+(1) Aggiunto punto 22 del Fact-Check: "Test di salute della struttura patrimoniale" (se le attività finanziarie non correnti >30%, si calcola il margine di sicurezza core T-tier; >50% attiva il veto automatico).  
+(2) Aggiunto il "Test di completezza del percorso di realizzazione" (se nessuno dei tre percorsi è idoneo, il limite massimo di valutazione si blocca al livello C).  
+(3) Aggiunto controllo del rendimento minimo aziendale (il rendimento da dividendi al di sotto del tasso privo di rischio attiva il rischio di AVVISO).  
+(4) Mantiene le regole della versione 1.7: "prima i dati più recenti", "calcolo simultaneo multi-periodo", "correzione base alta con taglio dei dividendi".  
+
+Caso d'uso: attivato quando l'utente carica rendiconti finanziari (PDF o tabella di testo) più ticker/nome; supporta le azioni HK/A/US; recupero in tempo reale obbligatorio degli ultimi dati di mercato con URL di origine registrati; produce un rapporto completo sul markdown: riepilogo esecutivo, analisi del modello di business, analisi di gestione e governance, valutazione dei tre pilastri, sottotipo (dividendo alto A / arbitraggio B / C guidato dagli eventi), verifica dei fatti, piano d'azione (entrata / take-profit / calcolo dello stop-loss / del periodo di rendimento), avvisi di rischio.

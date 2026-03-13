@@ -1,0 +1,6 @@
+[COSA] Sistema di acquisizione di contenuti basato sulla configurazione per repository GitHub, video, articoli, PDF e pacchetti di competenze.
+[COME] La Fase 0 risolve gli overlay del workshop da `~/.config/lev/config.yaml` e `<project>/.lev/config.yaml`. La fase 1 acquisisce il contenuto nella radice del workshop risolta. La fase 2 analizza i playbook configurati o i documenti di progetto. La fase 3 scrive un rapporto di assunzione e consiglia di integrare/estrarre/monitorare/passare/fornitore.
+[QUANDO] Da utilizzare quando l'utente fornisce un URL da analizzare, dice "assunzione/download", desidera valutare un lavoro esterno o fa riferimento a un pacchetto di competenze.
+[PERCHÉ] Rende l'assunzione multiprogetto per impostazione predefinita preservando i flussi `~/lev/workshop` legacy attraverso la configurazione anziché i presupposti codificati.
+
+Trigger: "assunzione", "download", "analizza questo URL", "controlla questo repository", "rivedi questo video", "valuta il contenuto", "installa competenza", "competenza://"
