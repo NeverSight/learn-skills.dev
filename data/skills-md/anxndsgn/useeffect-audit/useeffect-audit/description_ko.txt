@@ -1,0 +1,1 @@
+공식 React 지침을 사용하여 React Effects를 감사 및 리팩토링합니다. 외부 동기화를 위해 Effect를 유지하고, Effect에서 이벤트를 분리하고, 각 Effect를 독립적인 시작/중지 프로세스로 모델링하고, 코드를 변경하여(lint 규칙을 억제하지 않음) 종속성 문제를 해결하고, 실제로 비반응형 Effect 논리에 대해서만 useEffectEvent를 사용합니다.

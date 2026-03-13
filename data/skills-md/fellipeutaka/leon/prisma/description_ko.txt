@@ -1,0 +1,4 @@
+Prisma ORM — TypeScript/Node.js용 유형 안전 데이터베이스 툴킷입니다. Prisma Schema Language를 사용한 스키마 우선 접근 방식, 자동 생성된 유형 안전 클라이언트, Prisma Migrate를 통한 마이그레이션.
+Schema.prisma에서 데이터베이스 모델을 정의할 때, Prisma Client로 CRUD 쿼리 작성, 관계(1-1, 1-n, m-n) 설정 시 사용합니다.
+마이그레이션 실행(prisma grad dev/deploy), prisma.config.ts 구성, 원시 SQL/TypedSQL 사용, 클라이언트 확장 생성,
+또는 PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, CockroachDB로 작업합니다.

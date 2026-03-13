@@ -1,0 +1,11 @@
+TypeScript를 사용하여 프로덕션에 즉시 사용 가능한 REST API, GraphQL API 및 마이크로서비스를 구축하기 위한 NestJS 모범 사례입니다.
+NestJS 코드(컨트롤러, 모듈, 공급자)를 작성, 검토 또는 리팩토링할 때 사용합니다.
+종속성 주입, 가드, 인터셉터, 파이프, 예외 필터, 미들웨어, 사용자 정의
+데코레이터, DTO, 유효성 검사, 인증, 권한 부여, JWT, 구성, 테스트,
+데이터베이스(TypeORM/Prisma), 캐싱, 대기열(BullMQ), OpenAPI/Swagger, WebSocket,
+GraphQL(해석기, 변형, 구독, ObjectType, InputType, ArgsType, 코드 우선,
+스키마 우선, PubSub), 헬멧, CORS, CSRF, 수명 주기 후크, 정상적인 종료 및
+기능 모듈 아키텍처. 때에도 사용
+@nestjs/jwt, @nestjs/throttler, @nestjs/terminus, @nestjs/config와 함께 작업합니다.
+@nestjs/swagger, @nestjs/typeorm, @nestjs/mongoose, @nestjs/graphql, @nestjs/apollo,
+@apollo/server, Bullmq, 클래스 유효성 검사기, graphql 또는 graphql-ws.

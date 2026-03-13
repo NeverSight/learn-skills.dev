@@ -1,0 +1,1 @@
+OS 기반 토스트 알림을 Claude Code 후크에 연결하는 설정 스킬입니다. node-notifier를 기반으로 Windows(SnoreToast), macOS(Notification Center), Linux(libnotify)를 지원합니다. 작업 완료, 권한 요청, 질문 등 세 가지 상황에서 토스트를 표시합니다. 트리거: "완료 알림 활성화", "Claude 알림을 원합니다", "후크 알림", "완료되면 알림", "토스트 알림 활성화"

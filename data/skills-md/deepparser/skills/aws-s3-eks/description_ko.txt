@@ -1,0 +1,1 @@
+EKS Pod ID 인증을 통해 Amazon S3 버킷을 생성하고 관리합니다. 사용 시기: (1) EKS에서 실행되는 모든 서비스에 대해 S3 버킷 생성, (2) 포드가 정적 자격 증명 없이 S3에 액세스할 수 있도록 EKS 포드 ID 설정, (3) S3 액세스를 위한 IAM 역할/정책 구성, (4) EKS의 S3 스토리지에 Kubernetes 서비스 연결, (5) Kubernetes 포드에서 S3 액세스 문제 해결. 필요 사항: aws CLI v2, kubectl, eksctl.
