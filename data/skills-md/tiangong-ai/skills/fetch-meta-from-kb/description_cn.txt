@@ -1,0 +1,1 @@
+直接从 PostgreSQL 获取最近的“journals”行，并返回一个包含“doi”、“title”、“abstract”和“date”的 JSON 数组（通过在“created_at”上滚动“DAYS”进行过滤）。当用户需要原始纸张有效负载进行下游处理而不需要 LLM 过滤或热点报告生成时使用。

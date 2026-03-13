@@ -1,0 +1,1 @@
+使用 @valentinkolb/sync 调度程序实现分布式 cron 调度时使用此技能：跨 pod 注册幂等调度、通过 job.submit 进行领导者围栏调度、misfire 策​​略 (skip/catch_up_one/catch_up_all)、triggerNow 用于手动调度、取消注册、指标/运行状况和多 pod 领导者选举。取决于执行的同步作业和领导者锁的同步互斥。

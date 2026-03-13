@@ -1,0 +1,1 @@
+将 Excel (.xlsx) 数据集成到 Playwright codegen 脚本中，方法是用配置驱动的查找替换硬编码值，使用极坐标加载数据，并使用 Playwright MCP 验证每个步骤（如果未运行，则从存储库启动 MCP）。用于需要 Excel 支持的数据、config.yaml 集中化或 MCP 验证/报告的 Playwright 自动化更新。

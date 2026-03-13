@@ -1,0 +1,1 @@
+通过 git rebase 将当前开发分支（通常是 dev）的提交同步到主分支，推送到远程，然后切换回原始分支。当用户提到“sync to main”、“rebase to main”、“update main”、“push to main”或“merge dev into main”等短语时触发此技能。即使用户没有明确说出“rebase”，只要意图是将开发分支内容同步到主分支，就应该激活该技能。

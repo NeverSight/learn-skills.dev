@@ -1,0 +1,1 @@
+多服务或 monorepo python 后端的 Python 依赖关系和环境管理。在以下情况下使用：(1) 添加、升级或删除 Python 包，(2) 响应 Dependabot 或安全漏洞警报 (GHSA/CVE)，(3) 创建需要自己的需求文件的新服务，(4) 调试 pip 安装失败或与依赖项相关的 Docker 构建问题，(5) 检查或审核依赖项树，(6) 运行 pip-compile。强制执行 pip-compile 锁定文件工作流程和分层依赖关系层次结构。

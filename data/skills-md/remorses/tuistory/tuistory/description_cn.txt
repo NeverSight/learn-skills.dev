@@ -1,0 +1,17 @@
+终端应用程序的剧作家。与 tmux 类似，但专为代理而设计 — 您可以使用虚拟终端
+输入、按键、等待文本、拍摄快照以及屏幕截图为图像。
+
+tuistory 有 **2 种模式**：
+
+- **CLI**（`tuistory` 命令）— 基于 shell。启动会话、键入、按键、快照、屏幕截图。
+  运行一个后台守护程序，跨命令保留会话。全局安装或使用`npx`/`bunx`。
+  **在使用 CLI 之前，您必须运行 `tuistory --help` 以查看最新的命令和选项。
+- **JS/TS API** (`import { launchTerminal } from 'tuistory'`) — 编程。在 vitest/bun:test 中使用
+  使用内联快照为 CLI 和 TUI 编写剧作家风格的测试。
+
+当您需要时使用tuistory：
+- 使用内联快照为 CLI/TUI 应用程序（vitest、bun:test）编写 e2e 测试
+- 自动化终端交互（启动 REPL、调试器或 TUI 并驱动它）
+- 屏幕截图终端作为图像发送给用户（Discord 机器人、代理 UI，如 kimaki/openclaw）
+- 通过编写确切步骤的脚本来重现交互式 CLI 中的错误
+- 通过观察-行动-观察循环逐步探索 TUI 应用程序

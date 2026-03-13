@@ -1,0 +1,1 @@
+端到端公关审核协调器。通过 .diff URL 获取 GitHub PR 差异以总结代码更改，使用 review-ci 技能触发 CI 审查，并且当 CI 公开预览 URL 时，针对该 URL 和相关场景运行 review-ui。当用户想要全面审查 GitHub Pull 请求（包括代码、CI 管道和（如果可能）已部署的 UI）时使用。

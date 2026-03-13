@@ -1,1 +1,2 @@
-ユーザーの合格基準を満たすために必ず守る必要がある原則. この原則に従っていないコミットをユーザーは承認しない. 実装完了の Definition of Done (DoD) を運用する。実装後に RUNBOOK.md 準拠で build/test/migrate/seed/container 再ビルドを実行し、ユーザーが検証可能な状態まで仕上げる。実行不能項目がある場合は理由を明記する。開発タスク全般で使用する。
+Principles that must be strictly followed to meet the user's acceptance criteria; any commit not adhering to them will be rejected.  
+Operate a Definition of Done (DoD) for implementation completion. After implementation, rebuild build/test/migrate/seed/container per RUNBOOK.md and deliver the code in a verifiable state. If any step is impossible, state the reason. Used for all development tasks.

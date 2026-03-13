@@ -1,0 +1,6 @@
+将会话记录转换为 HTML 或 Markdown 并进行浏览。
+支持 Claude Code JSONL 日志（自动保存到 ~/.claude/projects/）和
+GitHub Copilot CLI JSONL 日志（自动保存到 ~/.copilot/session-state/*/events.jsonl）。
+根据可用目录和文件格式自动检测日志源。
+支持查看当前会话、按ID查看特定会话、坐席后台任务
+输出文件，或具有可选日期范围过滤的所有项目会话。

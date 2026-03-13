@@ -1,0 +1,1 @@
+调试 Smello 捕获的 HTTP 请求。当用户要求检查流量、调试 API 调用、解决失败的请求、分析响应正文或了解其代码发出的请求时使用。当用户粘贴 Smello 仪表板 URL（例如 http://localhost:5110/#<uuid> 或 http://localhost:5111/#<uuid>）时也可使用 — 提取哈希后的 UUID 作为请求 ID。支持来自 Google Cloud 库的 gRPC 调用。需要正在运行的 Smello 服务器。
