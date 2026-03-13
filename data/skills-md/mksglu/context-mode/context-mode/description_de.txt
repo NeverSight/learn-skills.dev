@@ -1,0 +1,14 @@
+Verwenden Sie bei der Verarbeitung Kontextmodus-Tools (ctx_execute, ctx_execute_file) anstelle von Bash/cat
+große Leistungen. Auslöser: „Protokolle analysieren“, „Ausgabe zusammenfassen“, „Daten verarbeiten“,
+„JSON analysieren“, „Ergebnisse filtern“, „Fehler extrahieren“, „Build-Ausgabe prüfen“,
+„Abhängigkeiten analysieren“, „API-Antwort verarbeiten“, „Analyse großer Dateien“,
+„Seiten-Snapshot“, „Browser-Snapshot“, „DOM-Struktur“, „Seite prüfen“,
+„Barrierefreiheitsbaum“, „Playwright-Snapshot“,
+„Tests ausführen“, „Testausgabe“, „Abdeckungsbericht“, „Git-Protokoll“, „Letzte Commits“,
+„Unterschied zwischen Zweigen“, „Container auflisten“, „Pod-Status“, „Festplattennutzung“,
+„Dokumente abrufen“, „API-Referenz“, „Dokumentation indexieren“,
+„API aufrufen“, „Antwort prüfen“, „Ergebnisse abfragen“,
+„TODOs finden“, „Zeilen zählen“, „Codebasisstatistik“, „Sicherheitsaudit“,
+„Veraltete Pakete“, „Abhängigkeitsbaum“, „Cloud-Ressourcen“, „CI/CD-Ausgabe“.
+Wird auch bei JEDEM MCP-Tool-Ausgang ausgelöst, der mehr als 20 Zeilen umfassen kann.
+Das Subagenten-Routing erfolgt automatisch über den PreToolUse-Hook.

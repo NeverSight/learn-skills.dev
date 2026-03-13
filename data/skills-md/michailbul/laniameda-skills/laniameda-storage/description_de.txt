@@ -1,0 +1,4 @@
+Speichern Sie mit Pillar-Tags versehene Eingabeaufforderungen + Referenzressourcen (von Instagram oder einer anderen Quelle) im Laniameda Prompt Storage-Dashboard (Convex KB).
+Wird verwendet, wenn der Benutzer „Speichern“, „Speichern“, „Zum Tresor hinzufügen“ sagt, eine Eingabeaufforderung/ein Rezept/einen Arbeitsablauf teilt oder Referenzmedien sendet, die es wert sind, wiederverwendet zu werden.
+Regeln: einzelnes Element = eine Eingabeaufforderung oder ein Asset. Batch = JSON-Array. Variationen haben denselben promptText + promptIngestKey. Verketten Sie niemals unterschiedliche Eingabeaufforderungen.
+OwnerUserId wird immer automatisch aus der Umgebungsvariable KB_OWNER_USER_ID gelesen (nie vom Aufrufer übergeben).

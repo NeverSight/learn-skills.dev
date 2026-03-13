@@ -1,0 +1,9 @@
+Static-Value Cigar-Butt Quantitative Analysis Toolkit (v1.8).  
+Systematische Analyse basierend auf drei Säulen (Asset-Polster, niedrige Betriebskosten, Asset-Realisierungslogik) und einer 22-Punkte-Fact-Check-Verifizierungssuite.  
+Kernaktualisierungen:  
+(1) Fact-Check-Punkt 22 hinzugefügt: „Asset-Structure Health Test“ (wenn langfristige finanzielle Vermögenswerte >30 % betragen, wird die Kern-T-Tier-Sicherheitsmarge berechnet; >50 % löst ein automatisches Veto aus).  
+(2) „Realization-Path Completeness Test“ hinzugefügt (wenn keiner der drei Pfade qualifiziert ist, erfolgt die Bewertung der Höchstgrenzen auf C-Stufe).  
+(3) Überprüfung der Mindesthalterendite hinzugefügt (Dividendenrendite unter dem risikofreien Zinssatz löst WARNUNG-Risiko aus).  
+(4) Behält die Regeln von Version 1.7 bei: „Neueste Daten zuerst“, „gleichzeitige Berechnung über mehrere Perioden“, „Korrektur der hohen Basis bei Dividendenkürzung“.  
+
+Anwendungsfall: wird ausgelöst, wenn der Benutzer Finanzberichte (PDF oder Texttabelle) plus Ticker/Name hochlädt; unterstützt HK/A/US-Aktien; obligatorischer Live-Abruf der neuesten Marktdaten mit protokollierten Quell-URLs; Gibt einen vollständigen Markdown-Bericht aus: Executive Summary, Geschäftsmodellanalyse, Management- und Governance-Analyse, Drei-Säulen-Bewertung, Untertyp (A hohe Dividende / B Arbitrage / C ereignisgesteuert), Faktencheck-Verifizierung, Aktionsplan (Eintritts- / Take-Profit- / Stop-Loss- / Renditeperiodenberechnung), Risikowarnungen.

@@ -1,0 +1,1 @@
+Sicherheits-Anti-Pattern für schwaches Passwort-Hashing (CWE-327, CWE-759). Wird zum Generieren oder Überprüfen von Code verwendet, der Benutzerkennwörter speichert oder überprüft. Erkennt die Verwendung von MD5, SHA1, SHA256 ohne Salt oder das völlig fehlende Passwort-Hashing. Empfiehlt bcrypt, Argon2 oder scrypt.
