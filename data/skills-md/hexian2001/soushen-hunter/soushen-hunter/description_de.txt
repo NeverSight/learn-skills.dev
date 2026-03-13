@@ -1,0 +1,17 @@
+Leistungsstarker Bing/Google-Suchmaschinen-Skill – „Search Deity Hunter“
+Verwendet die Low-Level-API von Playwright für Deep-Web-Crawling und Elementextraktion
+
+Eigenschaften:
+1. Bing/Google-Suchausführung – liefert strukturierte Ergebnisse (Titel, Link, Snippet, Quelle)
+2. Tiefenanalyse der Seite – extrahiert alle Schlüsselelemente (Links, Formulare, Schaltflächen, Skripte, Metadaten)
+3. Konfigurierbare Engine – Wechseln Sie zwischen Bing und Google
+
+Auslösebedingungen:
+– Wenn der Benutzer eine Websuche durchführen muss
+– Beim Extrahieren von Seitenstrukturinformationen (Links, Formulare usw.) sind erforderlich
+– Wenn eine Suchlösung ohne API-Kosten benötigt wird
+
+Verwendung:
+– Einfache Suche: ./soushen „Suchschlüsselwörter“ [--num N] [--engine ENGINE]
+– Tiefenanalyse: ./soushen --deep <Ziel-URL>
+– Engine festlegen: ./soushen --set-default-engine bing|google

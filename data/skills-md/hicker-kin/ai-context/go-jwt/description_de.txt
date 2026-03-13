@@ -1,0 +1,1 @@
+Wird bei der Implementierung der JWT-Token-Signierung oder -Verifizierung in Go-Projekten verwendet. Deckt die Signaturmethoden ES256 (ECDSA, empfohlen), PS256/RS256 (RSA asymmetrisch) und HS256 (HMAC symmetrisch) ab, wobei die Schlüssel aus dem Dateipfad oder der Inline-Zeichenfolge geladen werden. Platziert das JWT-Paket für neue Projekte unter pkg/jwt.
