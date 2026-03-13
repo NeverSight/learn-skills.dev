@@ -1,0 +1,1 @@
+Antipatrón de seguridad para vulnerabilidades de inyección LDAP (CWE-90). Úselo al generar o revisar código que construye filtros LDAP, consulta servicios de directorio o maneja la entrada del usuario en operaciones LDAP. Detecta caracteres especiales sin escape en filtros LDAP.

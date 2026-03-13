@@ -1,0 +1,1 @@
+Antipatrón de seguridad para políticas abiertas de intercambio de recursos entre orígenes (CORS) (CWE-942). Úselo al generar o revisar configuraciones de servidor, backends de API o cualquier código que establezca encabezados CORS. Detecta encabezados Access-Control-Allow-Origin demasiado permisivos, incluidos comodines, origen nulo y origen reflejado.

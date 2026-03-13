@@ -1,0 +1,1 @@
+Antipatrón de seguridad para hash de contraseñas débiles (CWE-327, CWE-759). Úselo al generar o revisar código que almacena o verifica contraseñas de usuario. Detecta el uso de MD5, SHA1, SHA256 sin salt o falta de hash de contraseña por completo. Recomienda bcrypt, Argon2 o scrypt.

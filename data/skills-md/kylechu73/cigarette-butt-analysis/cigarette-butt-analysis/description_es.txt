@@ -1,0 +1,8 @@
+Kit de herramientas de análisis cuantitativo de colillas de cigarro de valor estático (v1.8).  
+Utiliza tres pilares (colchón de activos, bajo consumo operativo, lógica de realización de activos) más un sistema de verificación de datos de 22 puntos para una evaluación sistemática.  
+Actualizaciones clave:  
+(1) Nuevo Fact-Check #22 “Prueba de salud de la estructura de activos” (>30% de los activos financieros no corrientes activa un nuevo cálculo del margen de seguridad básico de nivel T; >50% es un rechazo automático).  
+(2) Nueva “Prueba de integridad del camino de realización” (si ninguno de los tres caminos califica, el techo de calificación se fija en C).  
+(3) Nuevo control de rentabilidad mínima por tenencia (rendimiento de dividendos por debajo de los registros de tipos libres de riesgo WARNING-Risk).  
+(4) Mantiene las reglas de la versión 1.7: prioridad de los datos más recientes, cálculo simultáneo de varios períodos, ajuste de base alta con reducción de dividendos.  
+Caso de uso: se activa cuando el usuario carga datos financieros (PDF o tabla de texto) más el ticker/nombre; cubre acciones de HK/A/EE.UU.; fuerza la búsqueda web en vivo de los datos de mercado más recientes con las URL de origen; genera un informe de Markdown completo: resumen ejecutivo, análisis del modelo de negocios, gestión y gobernanza, evaluación de tres pilares, subtipo (A de alto dividendo / B arbitraje / C basado en eventos), verificación de hechos, plan de acción (entrada / toma de ganancias / stop-loss / cálculo de recuperación), advertencias de riesgo.

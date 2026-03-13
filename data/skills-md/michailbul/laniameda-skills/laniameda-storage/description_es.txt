@@ -1,0 +1,4 @@
+Guarde mensajes etiquetados con pilares + recursos de referencia (de Instagram o cualquier fuente) en el panel de almacenamiento de mensajes de Laniameda (Convex KB).
+Úselo cuando el usuario diga "guardar esto", "almacenar esto", "agregar a la bóveda", comparta un mensaje/receta/flujo de trabajo o envíe medios de referencia que valga la pena reutilizar.
+Reglas: un solo elemento = un mensaje o un recurso. Lote = matriz JSON. Las variaciones comparten el mismo texto de aviso + clave de entrada de aviso. Nunca concatene indicaciones distintas.
+ownerUserId siempre se lee automáticamente desde KB_OWNER_USER_ID env var (nunca lo pasa la persona que llama).
