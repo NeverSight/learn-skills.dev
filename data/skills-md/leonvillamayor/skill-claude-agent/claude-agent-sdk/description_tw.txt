@@ -1,0 +1,12 @@
+使用 Claude Agent SDK（Python 和 TypeScript）建立 AI 代理程式的專家指南。
+每當出現以下情況時，請主動使用此技能：
+- 使用 `claude_agent_sdk` 或 `@anthropic-ai/claude-agent-sdk` 建置或設定 AI 代理
+- 使用「query()」、「ClaudeAgentOptions」、「AgentDefinition」、掛鉤、會話、子代理程式、MCP 或自訂工具
+- 使用者詢問如何與 Claude 一起自動化任務、建立管道或編排多代理工作流程
+- 實施權限控制、「canUseTool」回呼或工具限制
+- 透過 MCP 將外部服務（資料庫、API、瀏覽器）連接到 Claude 代理
+- 偵錯或最佳化代理行為、串流、會話或掛鉤
+- 任何提及「Claude 代理」、「代理 SDK」、「代理循環」或自主 Claude 工作流程
+涵蓋完整的 SDK：查詢 API、內建工具、鉤子生命週期、會話管理、子代理程式、
+MCP 伺服器、自訂進程內工具、權限模式、使用者輸入流、結構化輸出、
+思考配置、工作量等級、V2 預覽 API、會話發現、錯誤處理和身份驗證。

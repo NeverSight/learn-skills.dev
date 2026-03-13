@@ -1,0 +1,1 @@
+CX 工作流程 — 需求收集與規模評估。當使用者提到「新功能」、「需求」、「PRD」、「我想建置」、「幫我規劃」、「收集需求」或「功能規劃」時觸發。多輪對話收集需求，自動評估規模為S/M/L，儲存至本機.claude/cx/features/{dev_id}-{feature}/prd.md，並依據規模智慧路由：S→cx-plan，M/L→cx-design。

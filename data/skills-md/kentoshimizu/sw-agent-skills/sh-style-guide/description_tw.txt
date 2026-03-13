@@ -1,0 +1,1 @@
+POSIX `sh` 腳本的樣式、審查和重構標準。當建立、修改或審查「.sh」檔案、帶有「#!/usr/bin/env sh」或「#!/bin/sh」的檔案或具有「shell: sh」的 CI 工作流程區塊時觸發，並且必須強制執行 POSIX shell 的可攜性/安全控制。請勿用於特定於 Bash、特定於 Zsh 或特定於 PowerShell 的樣式規則。在多語言拉取請求中，與其他適用的“*-style-guide”技能一起運行。

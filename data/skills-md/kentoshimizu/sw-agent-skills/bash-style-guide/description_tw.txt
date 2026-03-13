@@ -1,0 +1,1 @@
+Bash shell 腳本的樣式、審查和重構標準。當建立、修改或審查「.sh」檔案、帶有「#!/usr/bin/env bash」或「#!/bin/bash」的檔案或具有「shell:bash」的 CI 工作流程區塊時觸發，並且必須強制執行特定於 Bash 的品質控制（引用安全性、錯誤處理、可移植性、可讀性）。請勿用於通用 POSIX `sh`、PowerShell 或特定於語言的應用程式樣式規則。在多語言拉取請求中，與其他適用的“*-style-guide”技能一起運行。

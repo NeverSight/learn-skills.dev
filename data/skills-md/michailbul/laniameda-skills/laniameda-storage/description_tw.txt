@@ -1,0 +1,4 @@
+將支柱標記的提示 + 參考資源（來自 Instagram 或任何來源）儲存到 Laniameda Prompt Storage 儀表板 (Convex KB) 中。
+當使用者說「儲存此」、「儲存此」、「新增至保管庫」、共用提示/配方/工作流程或發送值得重複使用的參考媒體時使用。
+規則：單一項目 = 一項提示或一項資產。批次 = JSON 數組。变体共享相同的 PromptText + PromptIngestKey。切勿連接不同的提示。
+OwnerUserId 始終自動從 KB_OWNER_USER_ID env var 讀取（從不由呼叫者傳遞）。

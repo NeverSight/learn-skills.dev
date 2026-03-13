@@ -1,0 +1,1 @@
+在 SwiftUI 應用程式中在 macOS 和 iOS 之間共享程式碼的模式。涵蓋專案結構（70％共享/ 15％macOS / 15％iOS），透過協定和#if os（）條件編譯進行平台抽象，自適應導航（Mac / iPad上的NavigationSplitView→iPhone上的NavigationStack），具有平台樣式的共享組件，iOS特定的擴展（自定義鍵盤擴展，交互式小部件，共享擴展，操作擴展，控制中心小部件，鎖定屏幕小部件），用於與擴展共享數據的應用程序組，CloudKit 同步監控，JSON/導入，在建立同時面向 macOS 和 iOS 的應用程式、向 macOS 應用程式新增 iOS 支援時、建置小工具或鍵盤擴充功能時，或設定與 SwiftData 的 iCloud 同步時使用。

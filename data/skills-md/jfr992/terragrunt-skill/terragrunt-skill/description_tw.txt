@@ -1,0 +1,7 @@
+在使用 Terragrunt 基礎設施配置時使用此技能。觸發因素包括：
+- 從頭開始設定新的 Terragrunt 基礎設施目錄
+- 建立或管理 Terragrunt 堆疊 (terragrunt.stack.hcl)
+- 建立從單獨的儲存庫包裝 OpenTofu 模組的單元
+- 使用 root.hcl 層次結構設定即時基礎架構儲存庫
+- 設定遠端狀態後端（具有 DynamoDB 鎖定的 S3）
+- 具有跨帳戶角色假設的多帳戶/多環境部署

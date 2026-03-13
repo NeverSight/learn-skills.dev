@@ -1,0 +1,1 @@
+Bootstrap 在盡可能短的時間內引入/更新開發容器。自動偵測堆疊 (node/python/rust) 並套用範本或執行安全性更新。如果 .devcontainer 已存在，則會在合併之前對其進行備份。聊天選項：堆疊 (auto|node|python|rust)、packageManager (npm|pnpm|yarn)、模式 (safe|overwrite)、includeTools (true|false)、addCI (true|false)。

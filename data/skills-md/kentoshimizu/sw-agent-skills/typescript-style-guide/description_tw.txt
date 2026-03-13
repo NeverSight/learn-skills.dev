@@ -1,0 +1,1 @@
+TypeScript 程式碼庫的樣式、審查和重構標準。當建立、變更或審查`.ts`、`.tsx`、`.d.ts`或`tsconfig*.json`檔案並且必須強制執行特定於TS的品質規則（類型安全、縮小範圍、非同步/錯誤處理、模組邊界）時觸發。不要用於 TypeScript 類型檢查範圍之外的純 JavaScript 模組。在混合 JS/TS 儲存庫中，此技能擁有「tsconfig」範圍的模組。對於共用 JS/TS 設定檔（例如 `package.json`、共用 lint/test 配置），當 JS 和 TS 工件在同一拉取請求中發生變更時，與 `javascript-style-guide` 一起執行。
