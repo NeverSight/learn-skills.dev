@@ -1,7 +1,8 @@
-Use scrapling for web scraping and data extraction. Automatically selects the best Fetcher based on the target site's characteristics, generates and executes Python scripts to complete tasks. Use when:
-(1) Scraping/crawling web content or data (scrape, crawl, fetch page, extract data)
-(2) Need to bypass anti-scraping protections like Cloudflare/WAF
-(3) Scraping protected pages after login
-(4) Parsing existing HTML to extract structured data
-(5) User provides URL and requests page content or specific elements
-(6) Batch collecting multiple pages
+使用 scrapling 进行网页抓取和数据提取。根据目标网站特征自动选择最佳 Fetcher，
+生成并执行 Python 脚本完成任务。Use when:
+(1) 抓取/爬取网页内容或数据（scrape, crawl, fetch page, extract data）
+(2) 需要绕过 Cloudflare/WAF 等反爬保护
+(3) 登录后抓取受保护页面
+(4) 解析已有 HTML 提取结构化数据
+(5) 用户提供 URL 并要求获取页面内容或特定元素
+(6) 批量采集多个页面
