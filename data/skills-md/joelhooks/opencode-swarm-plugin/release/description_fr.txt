@@ -1,0 +1,6 @@
+Gère les changements de version et les versions npm pour le monorepo swarm-tools (opencode-swarm-plugin,
+claude-code-swarm-plugin, swarm-mail, swarm-queue). À utiliser lorsque : création d'ensembles de modifications, modification
+versions, préparation des versions, vérification de l'état de la version, débogage des échecs de publication, vérification
+packages npm ou fusion des versions PR.
+Déclencheurs : "release", "publish", "changeset", "bump version", "ship it", "new version",
+"créer une version", "vérifier npm", "vérifier la publication", "/release"

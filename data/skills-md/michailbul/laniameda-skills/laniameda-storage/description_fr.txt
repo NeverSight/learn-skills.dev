@@ -1,0 +1,4 @@
+Enregistrez les invites marquées par pilier + les ressources de référence (à partir d'Instagram ou de toute autre source) dans le tableau de bord Laniameda Prompt Storage (Convex KB).
+À utiliser lorsque l'utilisateur dit « enregistrer ceci », « stocker ceci », « ajouter au coffre-fort », partage une invite/une recette/un flux de travail ou envoie un support de référence qui mérite d'être réutilisé.
+Règles : un seul élément = une invite ou un actif. Lot = tableau JSON. Les variantes partagent le même promptText + promptIngestKey. Ne concaténez jamais d’invites distinctes.
+OwnerUserId est toujours lu automatiquement à partir de la variable d'environnement KB_OWNER_USER_ID (jamais transmise par l'appelant).

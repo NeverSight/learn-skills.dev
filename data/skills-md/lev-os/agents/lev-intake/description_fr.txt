@@ -1,0 +1,6 @@
+[QUOI] Système de réception de contenu basé sur la configuration pour les dépôts GitHub, les vidéos, les articles, les PDF et les packages de compétences.
+[COMMENT] La phase 0 résout les superpositions d'atelier à partir de `~/.config/lev/config.yaml` et `<project>/.lev/config.yaml`. La phase 1 acquiert le contenu dans la racine de l'atelier résolue. Analyses de phase 2 par rapport aux playbooks configurés ou aux documents de projet. La phase 3 rédige un rapport d'admission et recommande l'intégration/l'extraction/le suivi/la réussite/le fournisseur.
+[QUAND] À utiliser lorsque l'utilisateur fournit une URL à analyser, dit "admission/téléchargement", souhaite évaluer un travail extérieur ou fait référence à un ensemble de compétences.
+[POURQUOI] Effectue l'admission multi-projets par défaut tout en préservant les anciens flux `~/lev/workshop` via la configuration au lieu des hypothèses codées en dur.
+
+Déclencheurs : "admission", "télécharger", "analyser cette URL", "consulter ce dépôt", "examiner cette vidéo", "évaluer le contenu", "installer la compétence", "compétence://"

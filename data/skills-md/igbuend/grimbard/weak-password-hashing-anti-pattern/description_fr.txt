@@ -1,0 +1,1 @@
+Anti-modèle de sécurité pour le hachage de mot de passe faible (CWE-327, CWE-759). À utiliser lors de la génération ou de la révision du code qui stocke ou vérifie les mots de passe des utilisateurs. Détecte l'utilisation de MD5, SHA1, SHA256 sans sel ou le hachage de mot de passe entièrement manquant. Recommande bcrypt, Argon2 ou scrypt.

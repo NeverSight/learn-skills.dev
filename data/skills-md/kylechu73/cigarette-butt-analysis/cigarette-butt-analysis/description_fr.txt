@@ -1,0 +1,9 @@
+Boîte à outils d'analyse quantitative des mégots de cigares à valeur statique (v1.8).  
+Analyse systématique basée sur trois piliers (coussin d'actifs, faibles coûts d'exploitation, logique de réalisation des actifs) et une suite de vérification Fact-Check en 22 éléments.  
+Mises à jour principales :  
+(1) Ajout de l'élément de vérification des faits 22 : « Test de santé de la structure des actifs » (si les actifs financiers non courants > 30 %, il faut calculer la marge de sécurité de base du niveau T ; > 50 % déclenche un veto automatique).  
+(2) Ajout du « Test d'intégralité du chemin de réalisation » (si aucun des trois chemins n'est admissible, le plafond de notation se verrouille au niveau C).  
+(3) Ajout d'un contrôle de rendement minimum de détention (le rendement des dividendes inférieur au taux sans risque déclenche un AVERTISSEMENT-Risque).  
+(4) Conserve les règles v1.7 : « dernières données en premier », « calcul simultané sur plusieurs périodes », « correction de la base élevée en fonction des dividendes ».  
+
+Cas d'utilisation : déclenché lorsque l'utilisateur télécharge des états financiers (PDF ou tableau texte) plus un ticker/un nom ; prend en charge les actions HK/A/US ; récupération en direct obligatoire des dernières données du marché avec les URL sources enregistrées ; produit un rapport Markdown complet : résumé, analyse du modèle commercial, analyse de la gestion et de la gouvernance, évaluation des trois piliers, sous-type (A à dividendes élevés / arbitrage B / C basé sur les événements), vérification des faits, plan d'action (entrée / prise de profit / stop-loss / calcul de la période de retour), avertissements sur les risques.

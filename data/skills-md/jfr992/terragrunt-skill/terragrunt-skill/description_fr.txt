@@ -1,0 +1,7 @@
+Utilisez cette compétence lorsque vous travaillez avec des configurations d'infrastructure Terragrunt. Les déclencheurs incluent :
+- Mise en place d'un nouveau catalogue d'infrastructure Terragrunt à partir de zéro
+- Création ou gestion des stacks Terragrunt (terragrunt.stack.hcl)
+- Création d'unités qui enveloppent les modules OpenTofu à partir de dépôts séparés
+- Configuration des référentiels d'infrastructure en direct avec la hiérarchie root.hcl
+- Mise en place de backends d'état distant (S3 avec verrouillage DynamoDB)
+- Déploiements multi-comptes/multi-environnements avec prise en charge des rôles entre comptes

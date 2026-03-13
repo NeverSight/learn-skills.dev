@@ -1,0 +1,4 @@
+CX Workflow — Conception technique et contrat API  
+Déclenché lorsque l'utilisateur mentionne « conception technique », « Design Doc », « conception d'API », « conception d'interface », « conception d'architecture » ou « conception de système ».  
+Lit le PRD et génère un document de conception qui définit trois sections de contrat obligatoires : le contrat d'interface API, la table de mappage d'énumération de statut et le mappage de champ VO/DTO.  
+Enregistré dans le fichier local .claude/cx/features/{dev_id}-{feature}/design.md.

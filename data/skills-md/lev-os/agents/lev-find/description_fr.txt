@@ -1,0 +1,11 @@
+[QUOI] Backend de récupération de contexte pour `lev get` (nom hérité : lev-find).
+[COMMENT] Fusion RRF entre index (base de code, documents, sessions, tâches, mémoire) ainsi que des backends de recherche facultatifs.
+[WHEN] À utiliser pour la collecte de contexte, l'art antérieur et le rappel de mémoire.
+[POURQUOI] Conserve une primitive racine (`get`) tout en préservant les alias `find/search`.
+
+Déclencheurs : "trouver", "rechercher", "rechercher", "où se trouve", "localiser", "découvrir", "qu'avons-nous sur",
+          "travaux connexes", "état de la technique", "rappel", "souvenir", "de quoi avons-nous discuté",
+          "rechercher la mémoire", "trouver dans l'historique", "historique des conversations"
+
+Catégorie : GET (collecte de contexte, rappel de mémoire, recherche sémantique)
+Index : base de code, documentation, idées, sessions, tâches, compétences, mémoire
