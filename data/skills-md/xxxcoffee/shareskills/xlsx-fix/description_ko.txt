@@ -1,0 +1,3 @@
+.xlsx 또는 .xlsm 파일을 처리할 때 openpyxl로 읽는 동안 'expected <class \'openpyxl.styles.fills.Fill\'>' 오류가 발생하는 경우 이 기술을 사용하여 문제를 해결하세요.  
+채우기 관련 오류로 인해 .xlsx 파일 읽기가 실패하면 자동으로 복구 스크립트를 호출하여 빈 채우기 태그 문제를 해결한 다음 읽기를 다시 시도하세요.  
+적용 대상: 특히 styles.xml의 빈 <fill/> 태그로 인해 발생한 구문 분석 오류로 인해 openpyxl을 사용하여 Excel 파일을 읽는 데 실패하는 상황.

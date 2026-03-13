@@ -1,0 +1,1 @@
+@valentinkolb/sync 스케줄러를 사용하여 분산 크론 스케줄링을 구현할 때 이 기술을 사용하십시오. 포드 전체에 멱등성 일정 등록, job.submit을 통한 리더 펜스 디스패치, 잘못된 실행 정책(skip/catch_up_one/catch_up_all), 수동 디스패치를 ​​위한 TriggerNow, 등록 취소, 메트릭/상태 및 다중 포드 리더 선택. 실행은 sync-job에 의존하고 리더 잠금은 sync-mutex에 의존합니다.

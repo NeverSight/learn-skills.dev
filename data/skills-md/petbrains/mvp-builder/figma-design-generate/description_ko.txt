@@ -1,0 +1,1 @@
+UI를 캡처하고 generate_figma_design을 사용하여 편집 가능한 디자인 레이어로 Figma에 보냅니다. 누군가가 "Figma로 푸시", "Figma로 보내기", "UI 캡처", "캔버스에 코드", "Figma와 동기화", "Figma 파일 업데이트"라고 말하거나 디자이너 검토를 위해 구현된 UI를 Figma로 보내려는 경우에 사용하세요. 또한 워크플로우에 Figma 왕복(Figma → 코드 → Figma)이 포함된 경우 기능 빌드를 완료한 후에 트리거됩니다. 코드에서 Figma로의 방향만 다룹니다. Figma에서 읽으려면 get_metadata 또는 get_screenshot 도구를 직접 사용하세요.
