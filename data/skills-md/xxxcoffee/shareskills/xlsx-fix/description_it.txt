@@ -1,0 +1,3 @@
+Quando gestisci file .xlsx o .xlsm, se riscontri l'errore 'expected <class \'openpyxl.styles.fills.Fill\'>' durante la lettura con openpyxl, usa questa abilità per risolverlo.  
+Quando la lettura di un file .xlsx non riesce con un errore relativo al riempimento, richiama automaticamente uno script di riparazione per risolvere il problema del tag di riempimento vuoto, quindi riprova a leggere.  
+Applicabile a: situazioni in cui la lettura di un file Excel con openpyxl non riesce, soprattutto a causa di errori di analisi causati da tag <fill/> vuoti in stili.xml.

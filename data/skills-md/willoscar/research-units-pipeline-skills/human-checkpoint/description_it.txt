@@ -1,0 +1,6 @@
+Registra l'approvazione umana al checkpoint dichiarato (seleziona "Approva C*" in "DECISIONS.md") in modo che la pipeline possa riprendere.
+**Trigger**: approva checkpoint, approvazione umana, approvazione, HITL, Approva C2, 审批, 签字, 人类检查点.
+**Utilizzare quando**: un'unità ha `owner=HUMAN` ed è BLOCCATA in attesa di una casella di controllo in `DECISIONS.md`.
+**Salta se**: l'approvazione è già registrata (la casella di controllo è spuntata).
+**Rete**: nessuno.
+**Guardrail**: non modificare alcun elemento di contenuto; aggiorna solo `DECISIONS.md` (e facoltativamente aggiungi una breve nota di chiusura).

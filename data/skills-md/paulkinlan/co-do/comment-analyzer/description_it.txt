@@ -1,0 +1,10 @@
+Analizza i commenti del codice per verificarne l'accuratezza, la completezza e la manutenibilità a lungo termine.
+Identifica commenti fuorvianti, commenti rotti e lacune nella documentazione.
+
+Trigger: dopo aver aggiunto la documentazione, prima di finalizzare un PR, durante la revisione dei commenti.
+
+Esempi:
+- "Verifica se i commenti sono accurati" -> verifica il comportamento del codice di corrispondenza dei commenti
+- "Rivedi la documentazione che ho aggiunto" -> analizza la qualità dei nuovi commenti
+- "Analizza commenti per debito tecnico" -> trova commenti obsoleti o fuorvianti
+- "Le mie docstring sono corrette?" -> convalida l'accuratezza della documentazione

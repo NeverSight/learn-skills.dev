@@ -1,0 +1,1 @@
+Recupera le righe "journals" recenti direttamente da PostgreSQL e restituisce un array JSON contenente "doi", "title", "abstract" e "date" (filtrato scorrendo "DAYS" su "created_at"). Da utilizzare quando gli utenti necessitano di payload di carta grezza per l'elaborazione downstream senza filtro LLM o generazione di report hotspot.

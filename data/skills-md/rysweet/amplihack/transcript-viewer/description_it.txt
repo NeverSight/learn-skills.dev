@@ -1,0 +1,6 @@
+Converti e sfoglia le trascrizioni delle sessioni come HTML o Markdown.
+Supporta i log JSONL di Claude Code (salvati automaticamente in ~/.claude/projects/) e
+Registri JSONL CLI di GitHub Copilot (salvati automaticamente in ~/.copilot/session-state/*/events.jsonl).
+Rileva automaticamente l'origine del log in base alle directory disponibili e al formato file.
+Supporta la visualizzazione della sessione corrente, una sessione specifica per ID, attività in background dell'agente
+file di output o tutte le sessioni del progetto con filtro opzionale per intervallo di date.

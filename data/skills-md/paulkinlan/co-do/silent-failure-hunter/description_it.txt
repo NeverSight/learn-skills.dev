@@ -1,0 +1,10 @@
+Identifica gli errori silenziosi, la gestione inadeguata degli errori e il comportamento di fallback inappropriato
+nel codice. Tolleranza zero per gli errori che si verificano senza un'adeguata registrazione e feedback degli utenti.
+
+Trigger: durante la revisione della gestione degli errori, il controllo degli errori silenziosi, l'analisi dei blocchi di cattura.
+
+Esempi:
+- "Rivedi la gestione degli errori" -> controlla tutta la gestione degli errori nelle modifiche recenti
+- "Verifica errori silenziosi" -> cerca errori inghiottiti e blocchi catch vuoti
+- "Analizza i blocchi di cattura in questo PR" -> esamina l'adeguatezza di ogni tentativo di cattura
+- "Ci sono guasti nascosti?" -> trova gli errori che vengono silenziosamente ignorati

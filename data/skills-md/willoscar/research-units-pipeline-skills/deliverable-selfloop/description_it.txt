@@ -1,0 +1,6 @@
+Eseguire il loop automatico di un risultato finale fino a quando non è pubblicabile secondo lo standard della pipeline: diagnostica -> correzione -> ricontrolla e scrivi un rapporto PASS/FAIL.
+**Trigger**: self-loop, self-loop, risultato finale lucidato, gate di qualità, correzione su guasto, 收敛, 自循环, 质量门.
+**Utilizzare quando**: una pipeline ha prodotto un risultato finale rivolto al lettore (`output/*.md`) e si desidera una convergenza deterministica su PASS.
+**Salta se**: sei ancora in fase di pre-approvazione per la prosa o mancano le prove/artefatti della struttura a monte.
+**Rete**: nessuno.
+**Guardrail**: Non inventare documenti/citazioni/risultati. Utilizzare solo input nell'ambito già presenti nell'area di lavoro.
