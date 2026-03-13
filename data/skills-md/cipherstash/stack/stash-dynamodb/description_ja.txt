@@ -1,0 +1,1 @@
+@cipherstash/stack/dynamodb を使用して、CipherStash 暗号化を Amazon DynamoDB と統合します。 PutItem の前のアイテムの暗号化と GetItem 後の復号化のための encryptedDynamoDB ヘルパー、BatchWrite と BatchGet の一括暗号化/復号化、HMAC 属性を介した暗号化されたパーティションとソート キーによるクエリ、ネストされたオブジェクトの暗号化、監査ログ、および DynamoDB 属性の命名規則 (__source/__hmac) をカバーします。 DynamoDB プロジェクトに暗号化を追加する場合、書き込み前の項目の暗号化、読み取り後の項目の復号化、または暗号化された DynamoDB 属性のクエリを実行する場合に使用します。

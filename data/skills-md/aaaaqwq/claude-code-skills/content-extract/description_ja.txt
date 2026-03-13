@@ -1,0 +1,1 @@
+OpenClaw ワークフロー向けの堅牢な URL-to-Markdown 抽出。ユーザーが「Web ページを抽出/要約/マークダウンに変換」したい場合 (特に WeChat mp.weixin.qq.com)、web_fetch/browser がブロックされているか乱雑である場合に使用します。最初に web_fetch 経由で安価なプローブを使用し、次に公式 MinerU API (ローカルの Mineru-extract スキル経由) にフォールバックして、ソース リンクを含む追跡可能な結果コントラクトを返します。
