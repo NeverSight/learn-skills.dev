@@ -1,0 +1,1 @@
+嚴格依照plan.md開發新功能。由角色規範執行者呼叫。觸發條件：（1）角色spec-executor需要根據plan.md實作程式碼，（2）使用者說“執行Spec”/“開始實作”，（3）spec/目錄中存在plan.md但不存在summary.md。注意：從v2.0開始，路徑B（agent-teams）和測試步驟被刪除；spec-execute 只有一個職責：根據 plan.md 實作程式碼、產生summary.md 並歸檔。如果目錄中已存在summary.md，請使用spec-update。

@@ -1,0 +1,1 @@
+用於人工智慧編碼代理的持久性本地儲存系統。兩個文件，一個想法——AGENTS.md（提交，共享）+ .agents.local.md（gitignored，個人）。代理在會話開始時讀取兩者，在會話結束時更新暫存器，並隨著時間的推移促進穩定的模式。適用於 Claude Code、Cursor、Copilot、Windsurf。子代理準備就緒。沒有插件，沒有基礎設施，沒有後台進程。

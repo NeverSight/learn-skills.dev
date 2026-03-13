@@ -1,0 +1,1 @@
+OpenClaw 工作流程的強大 URL 到 Markdown 擷取。當使用者想要「提取/匯總/將網頁轉換為markdown」（尤其是微信mp.weixin.qq.com）並且web_fetch/瀏覽器被阻止或混亂時使用。首先透過 web_fetch 使用廉價的探針，然後回退到官方 MinerU API（透過本地 mineru-extract 技能）並傳回帶有來源連結的可追蹤結果合約。

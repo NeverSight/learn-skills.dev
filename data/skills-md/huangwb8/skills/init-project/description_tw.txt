@@ -1,0 +1,1 @@
+僅當使用者明確要求「初始化專案」、「建立專案指令檔」或「產生 AGENTS.md」時使用。全自動：自動偵測作業系統預設語言，分析專案目錄結構（支援Python/Web/Rust/Go/Java/資料科學/文件專案等），推斷專案類型和用途，一鍵產生標準化專案指導文件。產生的檔案包括：AGENTS.md（跨平台通用專案說明，Single Source of Truth）、CLAUDE.md（Claude Code具體適配，透過@./AGENTS.md引用）、README.md（專案介紹及使用）、CHANGELOG.md（專案變更日誌）、.gitignore（Git忽略規則，安全第一）。

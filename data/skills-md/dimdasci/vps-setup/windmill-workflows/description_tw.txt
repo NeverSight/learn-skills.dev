@@ -1,0 +1,8 @@
+Windmill 工作流程引擎部署和腳本編寫。使用時：
+(1) 使用 Docker Compose 設定 Windmill 自託管
+(2) 使用 PDF/影像處理工具建立自訂工人影像
+(3) 編寫用於 PDF 文字擷取、操作或轉換的腳本
+(4)用libvips寫圖像處理腳本
+(5) 配置worker、擴充和資源限制
+(6) 解決作業執行或工人問題
+(7) Windmill與Caddy反向代理集成

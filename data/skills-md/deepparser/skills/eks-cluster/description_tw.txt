@@ -1,0 +1,1 @@
+建立和管理 Amazon EKS 叢集、託管節點群組和 EC2 執行個體。在下列情況下使用：(1) 從頭開始配置新的 EKS 集群，(2) 新增或修改託管節點群組，(3) 為工作負載選擇 EC2 執行個體類型，(4) 安裝 EKS 外掛程式（CoreDNS、kube-proxy、VPC CNI、EBS CSI、Pod Identity Agent），(5) 為 E​​xcalS.配置叢集自動擴展，(7) 將服務部署到 EKS， (8) 排查EKS節點或叢集問題。需要：aws CLI v2、eksctl、kubectl。

@@ -1,0 +1,1 @@
+診斷並修復規範執行期間發現的問題。由角色規範調試器呼叫。觸發條件：（1）角色spec-debugger收到來自spec-tester的bug通知，（2）spec-executor執行後出現bug或plan.md中出現意外情況，（3）出現執行時間問題、依賴環境或設定問題。請勿修改已確認的plan.md；相反，建立單獨的診斷文件 (debug-xxx.md) 和修復摘要 (debug-xxx-fix.md)。修復後，通知spec-tester重新驗證，形成閉環。

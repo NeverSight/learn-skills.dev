@@ -1,0 +1,1 @@
+在診斷、設定或監控 AF_XDP / XDP 工作負載的 NIC 時使用此技能。涵蓋驅動程式偵測、硬體佇列配置、環形緩衝區大小、RSS 間接表管理、中斷合併調整、卸載控制 (GSO/GRO/TSO/LRO)、VLAN 卸載、具有 loc pinning 和 ixgbe 擦除 bug 解決方法的流量導向器 (FDIR) 感知規則、RPS/XPS 佇列 CPU 清除 bug 解決方法的流量導向器 (FDIR) NU、RPS/XPS 佇列。和 rx_missed_errors分析、使用 bpftool（prog dump xlated、net show）進行 BPF 程式檢查、透過 ftrace 和 dmesg 進行核心追蹤、效能分析和火焰圖、IRQ 到佇列到核心映射、綁定介面診斷、套接字檢查和快速診斷檢查表。

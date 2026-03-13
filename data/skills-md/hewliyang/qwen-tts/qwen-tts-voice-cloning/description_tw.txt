@@ -1,0 +1,1 @@
+在 Apple Silicon 上使用 qwen-tts 的端對端語音克隆管道。涵蓋資料收集（yt-dlp）、音訊清理（使用 parakeet-tdt-0.6b-v3 的 ASR）、資料準備、LoRA 微調、產生以及透過 ASR 清晰度檢查（本地，無 API）+ Gemini-as-judge（qwen-tts 檢查）進行評估。當使用者想要複製語音、訓練 TTS 模型、準備語音訓練資料、評估產生的語音品質或執行完整的收集→清理→準備→訓練→產生→評估管道時使用。

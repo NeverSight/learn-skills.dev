@@ -1,0 +1,1 @@
+使用 EKS Pod 驗證建立和管理 Amazon S3 儲存桶。在以下情況下使用：(1) 為 EKS 上運行的任何服務創建 S3 存儲桶，(2) 設定 EKS Pod 身份，以便 Pod 無需靜態憑證即可訪問 S3，(3) 配置 IAM 角色/策略以進行 S3 訪問，(4) 將 Kubernetes 服務連接到 EKS 上的 S3 存儲，(53) 將 Kubernetes 服務連接到 EKS 上的 S3 的故障。需要：aws CLI v2、kubectl、eksctl。
