@@ -342,11 +342,11 @@ let inputRef: HTMLInputElement;
 <button onClick={handleClick}>Click</button>
 <button onClick={(e) => handleClick(e)}>Click</button>
 
-// Delegated events (on:)
-<input on:input={handleInput} />
+// Delegated events (on___)  
+<input onInput={handleInput} />
 
-// Native events (on:) - not delegated
-<div on:scroll={handleScroll} />
+// Native events (on:___) - not delegated  
+<div on:scroll={handleScroll} /> 
 ```
 
 ## Routing (Solid Router)
