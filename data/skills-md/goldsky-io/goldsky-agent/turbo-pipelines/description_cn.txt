@@ -1,0 +1,1 @@
+Goldsky Turbo 管道 YAML 参考 — 字段名称、必填字段与可选字段以及有效值的权威来源。每当用户询问特定的 YAML 字段时使用：“start_at：最早”和“最新”做什么，postgres/clickhouse/kafka 接收器需要哪些字段，接收器中的“from:”字段是什么，“检查点”如何工作，“batch_size”或“primary_key”的语法是什么。也可用于验证错误，例如“未知字段”或“缺少必填字段”。对于端到端的交互式管道构建，请改用 /turbo-builder。

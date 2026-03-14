@@ -1,0 +1,14 @@
+自动捕捉经验并安全地发展技能。  
+触发条件：  
+(1) 命令/操作失败 → 记录到 ERRORS.md  
+(2) 用户更正（“错误”/“应该”）→ 登录到 LEARNINGS.md  
+(3) 用户需要一个不存在的能力 → 登录到 FEATURE_REQUESTS.md  
+(4) 外部API/工具错误→记录到ERRORS.md  
+(5)发现自己的知识过时/不正确→登录到LEARNINGS.md  
+(6)发现更好的实践→登录LEARNINGS.md  
+(7) 每项任务完成→回顾流程，将新经验记录到LEARNINGS.md。  
+
+重复数据删除：如果没有新体验或已经涉及过，请跳过。  
+每次写入都会将一个 JSONL 条目附加到 .learnings/CHANGELOG.md。  
+重复出现≥3次的经验将提升至AGENTS.md/TOOLS.md/SOUL.md。  
+详细信息请参阅正文。

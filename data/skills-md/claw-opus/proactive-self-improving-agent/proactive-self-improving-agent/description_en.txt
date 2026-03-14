@@ -1,1 +1,14 @@
-自动捕获经验并安全进化的技能。触发条件：(1)命令/操作失败时→记ERRORS.md (2)被用户纠正('不对'/'应该是')时→记LEARNINGS.md (3)用户需要不存在的能力时→记FEATURE_REQUESTS.md (4)外部API/工具出错时→记ERRORS.md (5)发现自己知识过时/错误时→记LEARNINGS.md (6)发现更好做法时→记LEARNINGS.md (7)每个任务完成时→回顾过程，有新经验则记LEARNINGS.md。去重原则：如果没有新经验或已有条目已覆盖则跳过不写。每次写入同时在.learnings/CHANGELOG.md追加JSONL日志。经验反复出现≥3次时晋升到AGENTS.md/TOOLS.md/SOUL.md。详见正文。
+Automatically capture experience and safely evolve skills.  
+Trigger conditions:  
+(1) Command/operation fails → log to ERRORS.md  
+(2) Corrected by user (“wrong” / “should be”) → log to LEARNINGS.md  
+(3) User needs a non-existent capability → log to FEATURE_REQUESTS.md  
+(4) External API/tool error → log to ERRORS.md  
+(5) Find own knowledge outdated/incorrect → log to LEARNINGS.md  
+(6) Discover a better practice → log to LEARNINGS.md  
+(7) Each task completed → review process, log new experience to LEARNINGS.md.  
+
+Deduplication: skip if no new experience or already covered.  
+Every write appends a JSONL entry to .learnings/CHANGELOG.md.  
+Experience recurring ≥3 times is promoted to AGENTS.md/TOOLS.md/SOUL.md.  
+See main text for details.
