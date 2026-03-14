@@ -1,0 +1,1 @@
+Ajoute PyTorch FSDP2 (fully_shard) aux scripts de formation avec une initialisation, un partitionnement, une configuration mixte précision/déchargement et des points de contrôle distribués corrects. À utiliser lorsque les modèles dépassent la mémoire d'un seul GPU ou lorsque vous avez besoin d'un partitionnement basé sur DTensor avec DeviceMesh.
