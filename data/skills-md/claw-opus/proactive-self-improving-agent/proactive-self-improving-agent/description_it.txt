@@ -1,0 +1,14 @@
+Una competenza che cattura automaticamente l’esperienza e si evolve in sicurezza.  
+Condizioni di attivazione:  
+(1) Quando un comando/operazione fallisce → registra in ERRORS.md  
+(2) Se corretto dall'utente ("sbagliato"/"dovrebbe essere") → registrare in LEARNINGS.md  
+(3) Quando l'utente necessita di una capacità inesistente → registra in FEATURE_REQUESTS.md  
+(4) Quando un'API/uno strumento esterno presenta errori → registra in ERRORS.md  
+(5) Quando si riscontrano conoscenze obsolete/errate → registrare in LEARNINGS.md  
+(6) Quando viene scoperta una pratica migliore → registrarla in LEARNINGS.md  
+(7) Al termine di ciascuna attività → rivedere il processo; registra una nuova esperienza in LEARNINGS.md  
+
+Regola di deduplicazione: salta la scrittura se nessuna nuova esperienza o voce esistente la copre già.  
+Ogni scrittura aggiunge inoltre un log JSONL a .learnings/CHANGELOG.md.  
+Quando un'esperienza ricorre ≥ 3 volte, promuovila su AGENTS.md/TOOLS.md/SOUL.md.  
+Vedi il testo principale per i dettagli.

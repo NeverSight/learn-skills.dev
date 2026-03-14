@@ -1,0 +1,1 @@
+Aggiunge PyTorch FSDP2 (fully_shard) agli script di training con init, sharding, configurazione mista di precisione/offload corretti e checkpoint distribuito. Da utilizzare quando i modelli superano la memoria a GPU singola o quando è necessario lo sharding basato su Dtensor con DeviceMesh.
