@@ -1,0 +1,14 @@
+자동으로 경험을 포착하고 안전하게 진화하세요.  
+트리거 조건:  
+(1) 명령/작업 실패 → ERRORS.md에 기록  
+(2) 사용자가 수정("잘못", "해야 함") → LEARNINGS.md에 기록  
+(3) 사용자에게 존재하지 않는 기능이 필요함 → FEATURE_REQUESTS.md에 기록  
+(4) 외부 API/도구 오류 → ERRORS.md에 기록  
+(5) 오래되었거나 잘못된 지식이 발견됨 → LEARNINGS.md에 기록  
+(6) 더 나은 사례 발견 → LEARNINGS.md에 기록  
+(7) 각 작업 완료 → 프로세스 검토, 새 수업을 LEARNINGS.md에 기록  
+
+중복 제거: 새로운 통찰력이 없거나 이미 다룬 경우 건너뜁니다.  
+쓸 때마다 JSONL 항목을 .learnings/CHANGELOG.md에 추가합니다.  
+3회 이상 반복한 후 AGENTS.md/TOOLS.md/SOUL.md로 승격합니다.  
+자세한 내용은 본문을 참조하세요.
