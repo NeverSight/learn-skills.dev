@@ -1,0 +1,14 @@
+Erfassen Sie Erfahrungen automatisch und entwickeln Sie sich sicher weiter.  
+Auslösebedingungen:  
+(1) Wenn ein Befehl/eine Operation fehlschlägt → in ERRORS.md protokollieren  
+(2) Wenn vom Benutzer korrigiert („falsch“/„sollte sein“) → Melden Sie sich bei LEARNINGS.md an  
+(3) Wenn der Benutzer eine nicht vorhandene Funktion benötigt → melden Sie sich bei FEATURE_REQUESTS.md an  
+(4) Bei externen API-/Tool-Fehlern → in ERRORS.md protokollieren  
+(5) Wenn das eigene Wissen veraltet/falsch ist → melden Sie sich bei LEARNINGS.md an  
+(6) Wenn eine bessere Vorgehensweise gefunden wird → melden Sie sich bei LEARNINGS.md an  
+(7) Protokollieren Sie nach jedem Aufgabenabschluss → Überprüfungsprozess neue Lektionen in LEARNINGS.md  
+
+Deduplizierungsregel: Überspringen, wenn keine neue Lektion oder kein vorhandener Eintrag sie bereits abdeckt.  
+Bei jedem Schreibvorgang wird auch das JSONL-Protokoll an .learnings/CHANGELOG.md angehängt.  
+Nach ≥3 Wiederholungen die Lektion zu AGENTS.md / TOOLS.md / SOUL.md weiterleiten.  
+Einzelheiten finden Sie im Haupttext.
