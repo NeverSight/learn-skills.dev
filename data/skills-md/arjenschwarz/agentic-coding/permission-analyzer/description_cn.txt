@@ -1,0 +1,1 @@
+从会话历史记录生成克劳德代码权限配置。在设置自治模式、配置 .claude/settings.json、避免 --dangerously-skip-permissions 或分析项目需要哪些权限时使用。读取会话日志以提取实际使用的 Bash 命令和 MCP 工具，然后生成适当的允许/拒绝规则。
