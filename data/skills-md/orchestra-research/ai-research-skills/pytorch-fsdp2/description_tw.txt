@@ -1,0 +1,1 @@
+將 PyTorch FSDP2 (full_shard) 新增至訓練腳本中，並具有正確的初始化、分片、混合精度/卸載配置和分散式檢查點。當模型超過單 GPU 記憶體或需要使用 DeviceMesh 進行基於 DTensor 的分片時使用。

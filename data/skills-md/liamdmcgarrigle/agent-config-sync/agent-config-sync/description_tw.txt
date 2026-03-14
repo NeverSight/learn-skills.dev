@@ -1,0 +1,1 @@
+每當用戶想要新增、安裝、尋找或搜尋技能、MCP 伺服器或外掛程式時都必須使用。在設定跨 Claude Code、OpenCode、Codex 和 Cursor 之間的跨工具代理程式同步時也可使用。此技能首先安裝到 Claude Code 並透過 vsync 同步，確保所有工具保持相同。當使用者說出「新增 MCP 伺服器」、「尋找 X 的技能」、「安裝插件」、「新增工具」、「搜尋技能」、「設定 MCP」、「我需要執行 X 的技能」、「新增 svelte MCP」或任何新增功能的請求時，請主動使用。也會觸發：垂直同步、跨工具奇偶校驗、代理同步、評估 AI 工具、/setup-agent-sync、/find-skill、/add-skill-submodule、/find-mcp、/update-agent-tools。

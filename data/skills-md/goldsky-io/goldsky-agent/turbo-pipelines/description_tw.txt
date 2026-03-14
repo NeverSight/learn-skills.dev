@@ -1,0 +1,1 @@
+Goldsky Turbo 管道 YAML 參考 — 欄位名稱、必填欄位與選用欄位以及有效值的權威來源。每當使用者詢問特定的 YAML 字段時使用：“start_at：最早”和“最新”做什麼，postgres/clickhouse/kafka 接收器需要哪些字段，接收器中的“from:”字段是什麼，“檢查點”如何工作，“batch_size”或“primary_key”的語法是什麼。也可用於驗證錯誤，例如“未知欄位”或“缺少必填欄位”。對於端到端的交互式管道構建，請改用 /turbo-builder。
