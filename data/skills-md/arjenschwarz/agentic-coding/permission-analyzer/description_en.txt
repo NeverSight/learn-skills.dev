@@ -1,0 +1,1 @@
+Generate Claude Code permissions config from session history. Use when setting up autonomous mode, configuring .claude/settings.json, avoiding --dangerously-skip-permissions, or analyzing what permissions a project needs. Reads session logs to extract Bash commands and MCP tools actually used, then generates appropriate allow/deny rules.
