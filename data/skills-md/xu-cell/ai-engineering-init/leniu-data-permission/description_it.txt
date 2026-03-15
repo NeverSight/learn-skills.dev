@@ -1,0 +1,10 @@
+Specifica di controllo delle autorizzazioni dei dati multi-tenant del progetto leniu-tengyun-core. Basato su un'architettura a doppio database con isolamento fisico del database, incluso il cambio dell'origine dati, il contesto del tenant e le operazioni tra tenant.
+
+Scenari scatenanti:
+- Utilizzare @UseSystem per passare alle operazioni del database di sistema
+-Utilizzare Executors.doInTenant/readInTenant per query tra tenant
+-Utilizzare TenantContextHolder per ottenere il contesto del tenant
+- Configurare il routing dell'origine dati a doppio database
+- Inizializzazione dei dati tra tenant
+
+Parole chiave: multi-tenant, autorizzazione dati, @UseSystem, Executors.doInTenant, readInSystem, TenantContextHolder, MERCHANT-ID, isolamento del doppio database, cambio origine dati

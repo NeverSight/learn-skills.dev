@@ -1,0 +1,20 @@
+Sistema di analisi dell'opinione pubblica multi-agente BettaFish (Weiyu) – costruito su un'architettura parallela a tre motori di QueryAgent, MediaAgent e InsightAgent, con ForumEngine che consente discussioni collaborative tra agenti per generare report in doppio formato: Word/PDF + HTML di alta qualità di progettazione.
+
+Questa abilità viene attivata quando gli utenti hanno bisogno di:
+- Analisi della reputazione e del passaparola sui social media di un brand/azienda/prodotto
+- Monitoraggio di eventi importanti per l'opinione pubblica (ad esempio, una casa automobilistica sotto accusa, una controversia tra celebrità)
+- Estrazione di contenuti e dati di influenza di specifici account social
+- Monitoraggio delle dinamiche di opinione dei concorrenti e confronti multimarca
+- Analizzare il sentimento e l'atteggiamento del pubblico verso un argomento
+- Generazione di report di monitoraggio o analisi di allarme tempestivo di crisi
+- Richiedere rapporti formali in Word/PDF
+- Richiedono report visivi HTML interattivi di alta qualità di progettazione
+- Richiedere un'analisi approfondita delle opinioni basata su dati reali
+
+La skill adotta l'architettura parallela QueryAgent + MediaAgent + InsightAgent, utilizza ForumEngine per la discussione tra agenti, esegue tre cicli di riflessione per ottimizzare i risultati e infine restituisce:
+1. **Documento Word/PDF** – generato tramite la sottocompetenza docx/pdf, adatto per presentazioni formali, stampa, archiviazione
+2. **Report HTML di alta qualità di design**: tramite competenze secondarie di progettazione frontend, stile editoriale-rivista unico con elementi visivi interattivi
+
+**Non vengono utilizzati database o dati fittizi**; tutti i dati vengono recuperati in tempo reale tramite WebSearch/WebFetch/Browser/Curl.
+
+Fai sempre appello a questa abilità anche per analisi complesse in più fasi, integrazione multi-fonte o rapporti di opinione in formato professionale.

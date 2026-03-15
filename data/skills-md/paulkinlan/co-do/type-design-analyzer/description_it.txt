@@ -1,0 +1,10 @@
+Analizza la qualità della progettazione del tipo concentrandosi su incapsulamento, espressione invariante,
+utilità e applicazione. Fornisce valutazioni quantitative (1-10) per ciascuna dimensione.
+
+Trigger: quando si aggiungono nuovi tipi, si rivede la progettazione del tipo nei PR, si esegue il refactoring dei tipi.
+
+Esempi:
+- "Rivedi la progettazione del tipo UserAccount" -> analizza l'incapsulamento del tipo e le invarianti
+- "Analizza la progettazione del tipo in questo PR" -> esamina tutti i tipi appena aggiunti
+- "Controlla se questo tipo ha invarianti forti" -> valuta l'applicazione delle invarianti
+- "Come posso migliorare questo tipo?" -> fornisce suggerimenti di progettazione del tipo utilizzabili

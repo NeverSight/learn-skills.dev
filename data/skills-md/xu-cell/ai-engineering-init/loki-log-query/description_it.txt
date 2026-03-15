@@ -1,0 +1,10 @@
+Esegui query sui log online tramite Grafana Loki, supportando il passaggio da più ambienti, la traccia traceId, le query del percorso API e la ricerca di parole chiave.
+
+Scenari scatenanti:
+- È necessario controllare i registri online per la risoluzione dei problemi
+- Interrogare l'intera catena di richieste tramite traceId
+- Interroga tutti i log per un'API tramite il suo percorso
+- Cerca log di errori specifici o stack di eccezioni
+- Passare da un ambiente di servizio registro all'altro
+
+Parole trigger: log di controllo, traceId, catena di traccia, Loki, query di log, log online, log di produzione, log di errori, stack di eccezioni, risoluzione dei problemi di log, cambio ambiente, monitoraggio

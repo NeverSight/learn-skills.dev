@@ -1,0 +1,15 @@
+specifica per la gestione dei pasti del progetto leniu-tengyun-core.  
+Da utilizzare quando si scrivono report o si eseguono query sul codice riguardanti gli orari dei pasti (colazione/pranzo/tè pomeridiano/cena/cena).
+
+Scenari scatenanti:
+- Aggiungere campi filtro pasto (mealtimeTypes) nelle classi di parametri di query Param
+- Definire i campi relativi ai pasti e i convertitori MealtimeTypeConverter nelle classi di restituzione VO
+- Scrivi le condizioni della query IN per l'ora dei pasti in MyBatis XML
+- Gestire la conversione dell'enumerazione dei pasti (AllocMealtimeTypeEnum)
+- Distinguere i pasti principali (colazione/pranzo/cena) dai pasti non principali (tè/cena)
+
+Progetti applicabili:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Parole trigger: pasto, pasto, pastoType, colazione, pranzo, cena, tè pomeridiano, cena, AllocMealtimeTypeEnum

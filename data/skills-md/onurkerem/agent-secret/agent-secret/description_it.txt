@@ -1,0 +1,11 @@
+Gestione sicura dei segreti utilizzando il portachiavi del sistema operativo. Utilizzare per:
+- Imposta/inserisci segreti nei file .env
+- Controllare lo stato della configurazione senza esporre valori
+- Elenca i segreti o le chiavi archiviati nei file .env
+
+SI ATTIVA AUTOMATICAMENTE quando l'utente:
+- Menziona l'aggiunta, l'impostazione o l'inserimento di segreti/chiavi/token nei file .env
+- Menziona le chiavi API per i servizi (Stripe, OpenAI, AWS, Supabase, Firebase, ecc.)
+- Chiede di configurare variabili di ambiente o file .env
+- Chiede informazioni sull'archiviazione segreta sicura
+- Menziona credenziali, password o token

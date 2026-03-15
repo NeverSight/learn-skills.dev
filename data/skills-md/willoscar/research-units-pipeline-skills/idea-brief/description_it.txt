@@ -1,0 +1,6 @@
+Blocca un processo di ideazione in un brief di brainstorming con un'unica fonte di verità (`output/trace/IDEA_BRIEF.md`) e un piano multi-query riproducibile (`queries.md`).
+**Trigger**: brief di idea, brief di ideazione, idee di ricerca, brainstorming, 找 idea, 选题, 点子, 找方向.
+**Utilizzare quando**: l'utente desidera idee di ricerca e il suo input è lungo/a più turni; è necessario chiarire argomento + vincoli prima del recupero.
+**Salta se**: l'obiettivo è scrivere direttamente una bozza di sondaggio (utilizzare invece le pipeline `arxiv-survey*`).
+**Rete**: nessuno.
+**Guardrail**: non inventare articoli/citazioni; non iniziare il recupero qui; mantieni il brief strutturato (niente prosa lunga).

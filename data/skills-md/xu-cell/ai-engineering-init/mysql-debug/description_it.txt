@@ -1,0 +1,11 @@
+Capacità di debug delle query del database MySQL. Interroga MySQL locale direttamente tramite la CLI di mysql e utilizza i log per la ricerca di bug.
+Durante la correzione dei bug, decidi automaticamente se è necessario eseguire query sul database, estrai il nome del database (ID tenant) dai registri e consenti la specifica manuale del database.
+
+Scenari scatenanti:
+- Interrogare il database per verificare i dati mentre si esaminano i bug con i log
+- Controllare il valore effettivo di un record nel database
+- Verificare che i risultati dell'esecuzione SQL soddisfino le aspettative
+- Esaminare l'incoerenza, la perdita o le anomalie dei dati
+- Ispeziona la struttura della tabella, gli indici e la distribuzione dei dati
+
+Parole trigger: interroga il database, interroga la tabella, esegui SQL, interroga il record, interroga mysql, risoluzione dei problemi del database, verifica dati, controlla dati, interrogazione db, debug del database

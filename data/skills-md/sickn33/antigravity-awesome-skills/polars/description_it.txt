@@ -1,0 +1,1 @@
+Libreria DataFrame in memoria veloce per set di dati che si adattano alla RAM. Da utilizzare quando Panda è troppo lento ma i dati rientrano ancora nella memoria. Valutazione pigra, esecuzione parallela, backend Apache Arrow. Ideale per set di dati da 1-100 GB, pipeline ETL, sostituzione più rapida dei panda. Per dati più grandi della RAM utilizzare dask o vaex.

@@ -1,0 +1,6 @@
+Inserisci un manoscritto inviato in testo semplice (`output/PAPER.md`) in modo che le competenze di revisione a valle possano estrarre affermazioni con puntatori alla fonte.
+**Trigger**: acquisisci documento, testo manoscritto, fornisci documento, paper.md, 输入论文, 导入稿件, 审稿输入.
+**Utilizzare quando**: stai eseguendo la pipeline "peer-review" e hai bisogno di "output/PAPER.md" prima di "claims-extractor".
+**Salta se**: `output/PAPER.md` esiste già e assomiglia al testo completo del manoscritto.
+**Rete**: nessuno.
+**Guardrail**: non riassumere o riscrivere il documento; archiviare il testo grezzo (o un'estrazione fedele) in modo che le affermazioni rimangano tracciabili.

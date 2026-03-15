@@ -1,0 +1,11 @@
+Analizza il codice sorgente e produci un Wiki di qualità aziendale, organizzato per dominio sotto ".nium-wiki/".
+
+Attiva: "genera wiki", "crea documenti", "aggiorna wiki", "ricostruisci wiki" o qualsiasi richiesta di generazione di documentazione.
+
+Capacità:
+- Analisi del codice semantico: comprende la logica, non solo la struttura
+- Diagrammi sirena generati automaticamente (architettura, flusso di dati, classe, dipendenza)
+- Collegamento incrociato bidirezionale tra tutti i documenti
+- Rilevamento delle modifiche basato su SHA256 per ricostruzioni incrementali
+- Ogni sezione riconduce alla fonte tramite i relativi link di percorso
+- Output multilingue (zh/en/ja/ko/fr/de e altro)
