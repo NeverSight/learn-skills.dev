@@ -1,0 +1,9 @@
+Elabora i blocchi Markdown Sirena con Mermint utilizzando l'output in stile README (`<immagine>` + SVG chiari/scuri),
+preserva i blocchi sorgente con `--keep-mermaid` e aggiorna le risorse SVG generate in modo sicuro.
+
+Usa questa abilità quando:
+1. L'utente chiede di convertire i blocchi di codice Sirena in file Markdown
+2. L'utente chiede di visualizzare/aggiornare i diagrammi README come questo repository
+3. L'utente chiede di rigenerare le risorse `svgs/*-light.svg` e `svgs/*-dark.svg`
+4. L'utente richiede di eseguire la rielaborazione del markdown idempotente con l'origine Sirena conservata
+5. L'utente chiede di creare o aggiornare i diagrammi "architettura-beta" di Sirena con le icone dei servizi AWS

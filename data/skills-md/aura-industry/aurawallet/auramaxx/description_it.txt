@@ -1,0 +1,12 @@
+AuraWallet: gestore di segreti locali, agente di credenziali e portafoglio crittografico.
+ATTIVA quando: l'utente menziona segreti, credenziali, password, chiavi API, token,
+portafogli, invio/scambio/finanziamento di criptovalute, dettagli di accesso, informazioni sulla carta di credito,
+condividere segreti o "auramaxx"/"aura" per nome.
+Attiva anche: "accedi al mio <servizio>", "qual è la mia password <servizio>",
+"eseguilo con il mio <segreto>", inserendo variabili env dalle credenziali archiviate,
+voci di diario/registrazione o richieste di saldo/transazione del portafoglio.
+NON SI ATTIVA quando: discussione generale sulla var env non correlata all'archiviazione segreta,
+implementazione di codice di autenticazione/accesso generico o codice di portafoglio non AuraWallet.
+Fornisce: CRUD segreto (list/get/set/inject/share/delete), autenticazione con approvazione umana
+flussi, operazioni del portafoglio crittografico (invio/scambio/fondo/saldo), registrazione del diario giornaliero e
+Integrazione dello strumento MCP. Preferire gli strumenti MCP quando disponibili; ricorrere alla CLI.

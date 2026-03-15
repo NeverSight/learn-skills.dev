@@ -1,0 +1,22 @@
+Delega l'esecuzione della codifica alla CLI Codex per attività di implementazione con criteri di successo chiari.
+
+**UTILIZZA QUESTA ABILITÀ QUANDO:**
+- Refactoring, ridenominazione, migrazione, aggiornamento o conversione del codice
+- Generazione di test, aggiunta di copertura, scrittura di test unitari/di integrazione
+- Modifiche batch nel repository: "aggiorna tutto", "applica ovunque", "sweep"
+- Funzionalità di implementazione: "wire up", "scaffold", "aggiungi supporto per"
+- Risoluzione dei problemi: "correzione dei test non riusciti", "correzione degli errori di tipo/lanugine", "correzione della build", "CI verde"
+- Modifiche API: "aggiorna utilizzi", "adotta nuova API", "codemod"
+- Standardizzazione: "rendere coerente", "deduplicare", "standardizzare"
+- Revisione o indagine del codice CON artefatti concreti (diff, log, riproduzioni, test fallito)
+
+**UTILIZZARE CLAUDE (NON CODEX) QUANDO:**
+- Decisioni strategiche: "dovremmo", "confrontare approcci", "raccomandare strategia"
+- Progettazione del sistema, architettura, progettazione dei requisiti
+- Insegnamento, spiegazione di concetti, brainstorming, scrittura di RFC
+- Problemi sconosciuti senza riproduzioni/log/stack trace
+- Compiti ambigui che necessitano prima di essere chiariti
+
+**MODELLO A DUE FASI:** Per richieste miste ("valutare quindi implementare"), Claude incornicia prima, quindi Codex esegue se il piano è concreto.
+
+CodeX è conveniente e forte nell'esecuzione. Claude gestisce meglio l'ambiguità, la strategia e l'architettura.
