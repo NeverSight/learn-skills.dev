@@ -1,0 +1,1 @@
+FastAPI async Python API patterns for 2026. Use this skill when building API layers for automation agents — route definitions, async handlers, background tasks, WebSocket, Pydantic v2 models, lifespan events, CORS, and production deployment with Gunicorn + Uvicorn workers. ALWAYS use async def for I/O-bound routes. NEVER use sync DB calls in async routes.

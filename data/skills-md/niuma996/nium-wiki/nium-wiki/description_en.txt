@@ -1,0 +1,11 @@
+Analyze source code and produce an enterprise-quality, domain-organized Wiki under `.nium-wiki/`.
+
+Trigger on: "generate wiki", "create docs", "update wiki", "rebuild wiki", or any documentation generation request.
+
+Capabilities:
+- Semantic code analysis — understands logic, not just structure
+- Auto-generated Mermaid diagrams (architecture, data flow, class, dependency)
+- Bidirectional cross-linking across all documents
+- SHA256-based change detection for incremental rebuilds
+- Every section traces back to source via relative path links
+- Multi-language output (zh/en/ja/ko/fr/de and more)

@@ -1,0 +1,1 @@
+用于在 VS Code 中对 **Node.js 的 stdio MCP Server** 做断点调试（Attach 到 Node Inspector）。只要用户提到：MCP stdio、@modelcontextprotocol/inspector、node --inspect/--inspect-brk、VS Code attach 调试、断点不命中、sourcemap、调 build/dist 构建产物、端口 9229 冲突/被占用、launch.json 配置等，都要使用本 skill。输出应直接给出可复制粘贴的 launch.json 片段、可运行的 inspector 启动命令（含换端口版本）、以及按优先级排序的排障清单。

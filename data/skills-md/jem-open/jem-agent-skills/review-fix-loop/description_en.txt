@@ -1,0 +1,1 @@
+Use when a code analysis tool reports findings and you want an automated fix-verify loop — runs the analysis command, dispatches parallel subagents to fix all findings, verifies with project lint and tests, and loops until zero findings remain.

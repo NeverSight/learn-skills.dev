@@ -1,0 +1,9 @@
+Process Markdown Mermaid blocks with mermint using README-style output (`<picture>` + light/dark SVGs),
+preserve source blocks with `--keep-mermaid`, and refresh generated SVG assets safely.
+
+Use this skill when:
+1. User asks to convert Mermaid code blocks in Markdown files
+2. User asks to render/update README diagrams like this repo
+3. User asks to regenerate `svgs/*-light.svg` and `svgs/*-dark.svg` assets
+4. User asks to run idempotent markdown reprocessing with preserved Mermaid source
+5. User asks to create or update Mermaid `architecture-beta` diagrams with AWS service icons

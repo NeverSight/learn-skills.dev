@@ -1,0 +1,1 @@
+Switches to the git branch for a Jira ticket. Searches for an existing branch prefixed with the ticket number; if none exists, runs `jiraSwitchToBranch <TICKET>` to create and switch to a new one. Use when the user mentions a Jira ticket number and wants to switch branches, start working on a ticket, check out a ticket branch, or says "switch to TICKET-1234".

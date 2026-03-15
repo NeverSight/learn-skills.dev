@@ -1,0 +1,12 @@
+AuraWallet — local secrets manager, credential agent, and crypto wallet.
+TRIGGER when: user mentions secrets, credentials, passwords, API keys, tokens,
+wallets, sending/swapping/funding crypto, login details, credit card info,
+sharing secrets, or "auramaxx"/"aura" by name.
+Also trigger for: "log into my <service>", "what is my <service> password",
+"run this with my <secret>", injecting env vars from stored credentials,
+diary/logging entries, or wallet balance/transaction requests.
+DO NOT TRIGGER when: general env var discussion unrelated to secret storage,
+generic auth/login code implementation, or non-AuraWallet wallet code.
+Provides: secret CRUD (list/get/set/inject/share/delete), human-approval auth
+flows, crypto wallet ops (send/swap/fund/balance), daily diary logging, and
+MCP tool integration. Prefer MCP tools when available; fall back to CLI.

@@ -1,0 +1,4 @@
+**Transforms functional requirements into production-ready Gherkin (BDD) scenarios** through automated two-agent iteration. The generator creates `.feature` files; the reviewer validates coverage, structure, and clarity—fixed automatically until approved (score ≥85).
+**MUST HAVE**: Explicit functional requirements + business context. Missing these? Ask explicitly.
+**USE THIS SKILL** when: - User provides functional requirements + asks to "generate Gherkin", "write BDD scenarios", "create feature tests" - User has a requirements document and wants executable acceptance criteria / test cases - User mentions transforming specs into Given/When/Then format - User needs test scenarios covering happy paths AND error handling
+**DELIVERS**: A syntax-valid, requirement-complete `.feature` file with 100% functional coverage, clear Given/When/Then steps (no UI coupling), independent scenarios, and appropriate tags.

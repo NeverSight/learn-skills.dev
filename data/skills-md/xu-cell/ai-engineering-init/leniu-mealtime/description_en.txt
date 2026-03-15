@@ -1,0 +1,14 @@
+leniu-tengyun-core 项目餐次处理规范。当编写涉及餐次（早餐/午餐/下午茶/晚餐/夜宵）的报表或查询代码时使用。
+
+触发场景：
+- 在 Param 查询参数类中添加餐次筛选字段（mealtimeTypes）
+- 在 VO 返回类中定义餐次字段和 MealtimeTypeConverter 转换器
+- 编写 MyBatis XML 中的餐次 IN 查询条件
+- 处理餐次枚举转换（AllocMealtimeTypeEnum）
+- 区分正餐（早/午/晚）与非正餐（下午茶/夜宵）
+
+适用项目：
+- leniu-tengyun-core：/Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang：/Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+触发词：餐次、mealtime、mealtimeType、早餐、午餐、晚餐、下午茶、夜宵、AllocMealtimeTypeEnum

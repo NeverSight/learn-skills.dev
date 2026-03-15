@@ -1,0 +1,10 @@
+Analyzes type design quality focusing on encapsulation, invariant expression,
+usefulness, and enforcement. Provides quantitative ratings (1-10) for each dimension.
+
+Triggers: When adding new types, reviewing type design in PRs, refactoring types.
+
+Examples:
+- "Review the UserAccount type design" -> analyzes type encapsulation and invariants
+- "Analyze type design in this PR" -> reviews all newly added types
+- "Check if this type has strong invariants" -> evaluates invariant enforcement
+- "How can I improve this type?" -> provides actionable type design suggestions

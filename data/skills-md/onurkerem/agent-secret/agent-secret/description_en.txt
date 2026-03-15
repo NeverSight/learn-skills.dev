@@ -1,0 +1,11 @@
+Secure secret management using the OS keychain. Use to:
+- Set/Inject secrets into .env files
+- Check configuration status without exposing values
+- List stored secrets or keys in .env files
+
+TRIGGER AUTOMATICALLY when the user:
+- Mentions adding, setting, or injecting secrets/keys/tokens into .env files
+- Mentions API keys for services (Stripe, OpenAI, AWS, Supabase, Firebase, etc.)
+- Asks to configure environment variables or .env files
+- Asks about secure secret storage
+- Mentions credentials, passwords, or tokens

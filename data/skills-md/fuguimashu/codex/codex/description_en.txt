@@ -1,0 +1,22 @@
+Delegate coding execution to Codex CLI for implementation tasks with clear success criteria.
+
+**USE THIS SKILL WHEN:**
+- Refactoring, renaming, migrating, upgrading, or converting code
+- Generating tests, adding coverage, writing unit/integration tests
+- Batch edits across repo: "update all", "apply everywhere", "sweep"
+- Implementing features: "wire up", "scaffold", "add support for"
+- Fixing issues: "fix failing tests", "fix type/lint errors", "fix the build", "green CI"
+- API changes: "update usages", "adopt new API", "codemod"
+- Standardization: "make consistent", "deduplicate", "standardize"
+- Code review or investigation WITH concrete artifacts (diff, logs, repro, failing test)
+
+**USE CLAUDE (NOT CODEX) WHEN:**
+- Strategic decisions: "should we", "compare approaches", "recommend strategy"
+- System design, architecture, requirements design
+- Teaching, explaining concepts, brainstorming, RFC writing
+- Unknown problems without repro/logs/stack traces
+- Ambiguous tasks needing clarification first
+
+**TWO-STAGE MODEL:** For mixed requests ("assess then implement"), Claude frames first, then Codex executes if the plan is concrete.
+
+CodeX is cost-effective and strong at execution. Claude handles ambiguity, strategy, and architecture better.

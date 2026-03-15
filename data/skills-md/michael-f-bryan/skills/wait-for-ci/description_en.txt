@@ -1,0 +1,1 @@
+Wait for a GitHub Actions run to finish with minimal terminal output and a reliable exit code. Use when an agent must wait for CI to pass (e.g. after push, after opening a PR, or when verifying a specific run). Prefer gh run watch with --exit-status and --compact to avoid flooding context with poll output.
