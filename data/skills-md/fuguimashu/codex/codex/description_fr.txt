@@ -1,0 +1,22 @@
+Déléguez l’exécution du codage à Codex CLI pour les tâches de mise en œuvre avec des critères de réussite clairs.
+
+**UTILISEZ CETTE COMPÉTENCE QUAND :**
+- Refactoring, renommage, migration, mise à niveau ou conversion de code
+- Génération de tests, ajout de couverture, rédaction de tests unitaires/intégration
+- Modifications par lots dans le dépôt : "tout mettre à jour", "appliquer partout", "balayer"
+- Fonctionnalités d'implémentation : "câbler", "échafaudage", "ajouter un support pour"
+- Correction des problèmes : "corriger les tests ayant échoué", "corriger les erreurs de type/peluche", "corriger la construction", "green CI"
+- Modifications de l'API : "mettre à jour les utilisations", "adopter une nouvelle API", "codemod"
+- Standardisation : "rendre cohérent", "dédupliquer", "standardiser"
+- Revue ou enquête de code AVEC artefacts concrets (diff, logs, repro, test échoué)
+
+**UTILISER CLAUDE (PAS CODEX) QUAND :**
+- Décisions stratégiques : "devrions-nous", "comparer les approches", "recommander une stratégie"
+- Conception du système, architecture, conception des exigences
+- Enseignement, explication de concepts, brainstorming, rédaction de RFC
+- Problèmes inconnus sans repro/logs/traces de pile
+- Tâches ambiguës nécessitant d'abord des éclaircissements
+
+**MODÈLE EN DEUX ÉTAPES :** Pour les demandes mixtes ("évaluer puis mettre en œuvre"), Claude cadre d'abord, puis Codex exécute si le plan est concret.
+
+CodeX est rentable et solide en termes d'exécution. Claude gère mieux l'ambiguïté, la stratégie et l'architecture.

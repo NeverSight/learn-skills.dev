@@ -1,0 +1,12 @@
+AuraWallet – gestionnaire de secrets local, agent d'identification et portefeuille crypto.
+DÉCLENCHEMENT lorsque : l'utilisateur mentionne des secrets, des informations d'identification, des mots de passe, des clés API, des jetons,
+portefeuilles, envoi/échange/financement de crypto, informations de connexion, informations de carte de crédit,
+partager des secrets, ou "auramaxx"/"aura" par son nom.
+Déclenche également : "Connectez-vous à mon <service>", "Quel est mon mot de passe <service>",
+"exécutez ceci avec mon <secret>", en injectant des variables d'environnement à partir des informations d'identification stockées,
+entrées de journal/journalisation, ou demandes de solde/transaction de portefeuille.
+NE PAS DÉCLENCHER lorsque : discussion générale sur la variable d'environnement sans rapport avec le stockage secret,
+Implémentation d'un code d'authentification/de connexion générique ou d'un code de portefeuille non AuraWallet.
+Fournit : CRUD secret (liste/get/set/inject/share/delete), authentification par approbation humaine
+flux, opérations de portefeuille cryptographique (envoi/échange/fonds/solde), journalisation quotidienne et
+Intégration de l'outil MCP. Préférer les outils MCP lorsqu'ils sont disponibles ; revenez à CLI.

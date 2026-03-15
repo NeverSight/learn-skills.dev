@@ -1,0 +1,9 @@
+Traitez les blocs Markdown Mermaid avec mermint en utilisant la sortie de style README (`<image>` + SVG clairs/foncés),
+préservez les blocs sources avec `--keep-mermaid` et actualisez les actifs SVG générés en toute sécurité.
+
+Utilisez cette compétence lorsque :
+1. L'utilisateur demande de convertir les blocs de code Mermaid en fichiers Markdown
+2. L'utilisateur demande de restituer/mettre à jour les diagrammes README comme ce dépôt
+3. L'utilisateur demande de régénérer les actifs `svgs/*-light.svg` et `svgs/*-dark.svg`
+4. L'utilisateur demande d'exécuter un retraitement de démarque idempotent avec la source Mermaid préservée
+5. L'utilisateur demande de créer ou de mettre à jour des diagrammes Mermaid « architecture-beta » avec les icônes de service AWS.

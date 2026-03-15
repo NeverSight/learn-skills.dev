@@ -1,0 +1,9 @@
+Configuration du serveur Web Caddy pour proxy inverse et HTTPS automatique. À utiliser lorsque :
+(1) Écriture des configurations Caddyfile pour les configurations de proxy inverse
+(2) Configuration du HTTPS automatique avec Let's Encrypt
+(3) Configuration de certificats génériques avec défi DNS
+(4) Intégration de Caddy avec les conteneurs Docker (même réseau ou services hôte)
+(5) Configuration des correspondants de requêtes, des blocs de gestion et des modèles de routage
+(6) Mise en place de l'équilibrage de charge et des contrôles de santé
+(7) Dépannage des problèmes TLS, de connectivité en amont ou de configuration
+(8) Configuration de la manipulation d'en-tête (header_up, header_down)

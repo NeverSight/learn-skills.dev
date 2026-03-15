@@ -1,0 +1,4 @@
+Récupération de papier (étape 1 du pipeline en 3 étapes). Récupère les derniers articles d'arXiv et HuggingFace, les note et les filtre, enrichit les informations et les envoie à /tmp/daily_papers_enriched.json pour les compétences ultérieures.
+
+Mots déclencheurs : « récupération de papier », « exécution de la récupération de papier »
+Prend en charge le mode multi-jours : "recommandation de papiers des 3 derniers jours", "recommandation de papiers de la semaine dernière", "papiers de la semaine dernière", "récupérer les papiers des 3 jours", "5 jours récents".
