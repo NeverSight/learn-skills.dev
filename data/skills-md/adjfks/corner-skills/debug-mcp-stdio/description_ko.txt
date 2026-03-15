@@ -1,0 +1,1 @@
+VS Code에서 **Node.js stdio MCP 서버**의 중단점 디버깅(Node Inspector에 연결)에 사용됩니다. 사용자가 MCP stdio, @modelcontextprotocol/inspector, node --inspect/--inspect-brk, VS Code 연결 디버깅, 중단점 적중 안 됨, 소스 맵, 빌드/dist 아티팩트 디버깅, 포트 9229 충돌/점유, launch.json 구성 등을 언급할 때마다 이 기술을 사용해야 합니다. 출력에서는 복사-붙여넣기 가능 launch.json 조각, 실행 가능한 검사기 시작 명령(포트 변경 버전 포함) 및 우선순위에 따른 문제 해결 체크리스트를 직접 제공해야 합니다.

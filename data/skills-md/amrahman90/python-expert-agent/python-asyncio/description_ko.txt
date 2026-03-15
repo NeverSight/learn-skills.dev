@@ -1,0 +1,1 @@
+완전한 Python asyncio 시스템. 사전에 활성화: (1) async/await 구문, (2) 동시 실행을 위한 asyncio.gather, (3) TaskGroup(3.11+), (4) 속도 제한을 위한 세마포, (5) asyncio.timeout을 사용한 시간 초과, (6) 대기열이 있는 생산자-소비자, (7) 비동기 생성기 및 컨텍스트 관리자, (8) uvloop 성능, (9) 일반적인 비동기 문제. 제공: 동시 패턴, I/O 최적화, 비동기 라이브러리(aiohttp, httpx, asyncpg). 차단 없이 올바른 비동기 패턴을 보장합니다.

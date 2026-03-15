@@ -1,0 +1,1 @@
+HoloViews 및 hvPlot 시각화를 패널 애플리케이션에 통합하기 위한 모범 사례입니다. 패널 창에 HoloViews/hvPlot 플롯을 포함하고, DynamicMap을 사용하여 데이터 새로 고침 시 확대/축소/이동 상태를 유지하고, 유형 오류 없이 DynamicMap 오버레이를 구성하고, 패널에서 HoloViews 스트림(Selection1D, RangeXY, Tap, BoundsXY, Pipe, Buffer)을 사용하고, link_selections를 사용하여 교차 필터링하고, HoloViews 플롯을 패널 레이아웃에서 응답하도록 만들거나, 패널 위젯을 Bokeh 플롯 속성에 연결할 때 사용합니다. jslink.

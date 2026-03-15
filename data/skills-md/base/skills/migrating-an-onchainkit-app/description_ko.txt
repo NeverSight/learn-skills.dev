@@ -1,0 +1,1 @@
+@coinbase/onchainkit의 앱을 독립형 wagmi/viem 구성 요소로 마이그레이션합니다. 공급자 교체(OnchainKitProvider에서 WagmiProvider로), 지갑 구성 요소 교체(Wallet/ConnectWallet에서 사용자 정의 WalletConnect로) 및 거래 구성 요소 교체를 처리합니다. 사용자가 "내 onchainkit 마이그레이션", "onchainkit 공급자 교체", "내 지갑 구성 요소 마이그레이션", "내 onchainkit 지갑 교체", "내 트랜잭션 구성 요소 마이그레이션", "onchainkit 종속성 제거" 또는 "onchainkit에서 이동"이라고 말할 때 사용하세요.

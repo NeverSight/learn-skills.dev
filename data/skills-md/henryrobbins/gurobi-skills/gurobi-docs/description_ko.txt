@@ -1,0 +1,1 @@
+사용자가 Gurobi 또는 gurobipy에 대해 무엇이든 물을 때 사용합니다. — API 메서드(addConstr, addVar, addMVar,optim, setParam, getAttr), 매개변수(TimeLimit, MIPGap, Threads, Presolve, PoolSolutions), 속성(ObjVal, Status, X, Pi, RC, ObjBound), 솔버 기능(콜백, IIS/불가능성, 솔루션 풀, 다중 목표, 비선형), 상태/오류 코드 또는 버전별 변경 사항(Gurobi 11, 12, 13). 메모리에서 응답하는 대신 항상 이 기술을 사용하십시오. Gurobi API 세부 정보는 버전마다 변경되며 문서 확인이 필요합니다.
