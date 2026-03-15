@@ -1,0 +1,14 @@
+مواصفات معالجة وقت تناول الطعام لمشروع Leniu-tengyun-core. يُستخدم عند كتابة التقارير أو كود الاستعلام الذي يتضمن أوقات الوجبات (الإفطار/الغداء/شاي بعد الظهر/العشاء/العشاء).
+
+سيناريوهات الزناد:
+- إضافة حقل مرشح وقت الطعام (mealtimeTypes) في فئات معلمات الاستعلام Param
+- تحديد حقل وقت الطعام وMealtimeTypeConverter في فئات إرجاع VO
+- كتابة وقت الطعام في شروط الاستعلام في MyBatis XML
+- التعامل مع تحويل التعداد وقت الطعام (AllocMealtimeTypeEnum)
+- تمييز الوجبات الرئيسية (الإفطار/الغداء/العشاء) عن الوجبات غير الرئيسية (شاي بعد الظهر/العشاء)
+
+المشاريع القابلة للتطبيق:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+الكلمات المحفزة: وقت الطعام، نوع وقت الطعام، الإفطار، الغداء، العشاء، شاي بعد الظهر، العشاء، AllocMealtimeTypeEnum

@@ -1,0 +1,14 @@
+leniu-tengyun-core / leniu-yunshitang مواصفات التحكم في أذونات أمان المشروع. يتضمن نظام التعليقات التوضيحية للمصادقة، وTokenManager API، والتحقق من صحة إذن البيانات، وحماية حقن SQL.
+
+سيناريوهات الزناد:
+- تكوين التعليقات التوضيحية لمصادقة الواجهة (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- استخدم TokenManager للحصول على معلومات المستخدم أو التحقق من الأذونات
+- منع حقن SQL (استعلامات MyBatis #{} ذات المعلمات)
+- التحقق من صحة ملكية البيانات (تصعيد مكافحة الامتيازات)
+- إزالة حساسية المجال الحساس VO
+
+المشاريع القابلة للتطبيق:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+كلمات التشغيل: مصادقة الأمان، تعليق توضيحي للإذن، TokenManager، حماية حقن SQL، إزالة حساسية البيانات، أمان الواجهة، RequiresAuthentication
