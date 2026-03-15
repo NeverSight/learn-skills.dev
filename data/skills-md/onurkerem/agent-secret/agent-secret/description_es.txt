@@ -1,0 +1,11 @@
+Gestión segura de secretos mediante el llavero del sistema operativo. Úselo para:
+- Establecer/inyectar secretos en archivos .env
+- Verificar el estado de la configuración sin exponer valores.
+- Listar secretos o claves almacenados en archivos .env
+
+DISPARA AUTOMÁTICAMENTE cuando el usuario:
+- Menciona agregar, configurar o inyectar secretos/claves/tokens en archivos .env
+- Menciona claves API para servicios (Stripe, OpenAI, AWS, Supabase, Firebase, etc.)
+- Solicita configurar variables de entorno o archivos .env
+- Pregunta sobre el almacenamiento secreto seguro.
+- Menciona credenciales, contraseñas o tokens.

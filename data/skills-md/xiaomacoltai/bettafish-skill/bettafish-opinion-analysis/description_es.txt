@@ -1,0 +1,20 @@
+Sistema de análisis de sentimientos de múltiples agentes BettaFish (Micro-Public-Opinion): construido sobre una arquitectura paralela de tres motores de QueryAgent, MediaAgent e InsightAgent, con ForumEngine que permite la discusión colaborativa entre agentes para generar informes de formato dual en Word/PDF más HTML de alta calidad de diseño.
+
+Esta habilidad se activa cuando el usuario necesita:
+- Análisis de la reputación en redes sociales y el boca a boca de una marca/empresa/producto.
+- Seguimiento de acontecimientos candentes de opinión pública (por ejemplo, un fabricante de automóviles bajo fuego, una controversia sobre una celebridad)
+- Minería de contenido y datos de influencia de cuentas sociales específicas.
+- Monitorear la dinámica del sentimiento de los competidores para la comparación multimarca.
+- Analizar las tendencias y actitudes emocionales del público hacia un tema.
+- Generar informes de seguimiento del sentimiento o análisis de alerta temprana de crisis.
+- Informes formales en formato Word/PDF
+- Informes visuales HTML interactivos de alta calidad de diseño
+- Análisis de sentimiento en profundidad basado en datos reales.
+
+La habilidad adopta la arquitectura paralela QueryAgent + MediaAgent + InsightAgent; los agentes discuten y colaboran a través de ForumEngine, ejecutando tres bucles reflexivos para optimizar los resultados y, finalmente, los resultados:
+1. **Documento Word/PDF**: generado mediante la subhabilidad docx/pdf, adecuado para presentaciones formales, impresión y archivo.
+2. **Informe HTML de alta calidad de diseño**: a través de una subhabilidad de diseño de interfaz, estilo de revista editorial único con elementos visuales interactivos
+
+**No se utilizan bases de datos ni datos simulados**; Todos los datos se obtienen en tiempo real a través de WebSearch/WebFetch/Browser/Curl.
+
+Incluso para análisis complejos de varios pasos que requieren la integración de múltiples fuentes o informes de opinión en formato profesional, utilice siempre esta habilidad.

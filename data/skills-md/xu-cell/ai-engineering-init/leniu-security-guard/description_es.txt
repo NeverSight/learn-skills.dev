@@ -1,0 +1,14 @@
+Especificación de control de permisos de seguridad del proyecto leniu-tengyun-core / leniu-yunshitang. Incluye sistema de anotaciones de autenticación, API TokenManager, validación de permisos de datos, protección de inyección SQL.
+
+Escenarios desencadenantes:
+- Configurar anotaciones de autenticación de interfaz (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- Utilice TokenManager para obtener información del usuario o verificar permisos
+- Prevenir inyección SQL (MyBatis #{} consultas parametrizadas)
+- Validación de propiedad de datos (evitar escalada de privilegios)
+- Enmascaramiento de campo sensible a VO
+
+Proyectos aplicables:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-yunshitang
+
+Palabras de activación: autenticación de seguridad, anotaciones de permisos, TokenManager, protección de inyección SQL, enmascaramiento de datos, seguridad de interfaz, RequiresAuthentication

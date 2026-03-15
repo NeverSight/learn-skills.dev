@@ -1,0 +1,10 @@
+Especificación de control de permisos de datos multiinquilino del proyecto leniu-tengyun-core. Arquitectura de base de datos dual basada en el aislamiento físico de la base de datos, incluido el cambio de fuente de datos, el contexto de inquilinos y las operaciones entre inquilinos.
+
+Escenarios desencadenantes:
+- Utilice @UseSystem para cambiar a las operaciones de la base de datos del sistema.
+- Utilice Executors.doInTenant/readInTenant para consultas entre inquilinos
+- Utilice TenantContextHolder para obtener el contexto del inquilino
+- Configurar el enrutamiento de origen de datos de base de datos dual
+- Inicialización de datos entre inquilinos
+
+Palabras clave de activación: multiinquilino, permiso de datos, @UseSystem, Executors.doInTenant, readInSystem, TenantContextHolder, MERCHANT-ID, aislamiento de base de datos dual, cambio de fuente de datos

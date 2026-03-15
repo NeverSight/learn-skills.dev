@@ -1,0 +1,10 @@
+Guía de diseño de permisos de datos universales a nivel de fila. Utiliza el patrón interceptor AOP + MyBatis para el aislamiento de datos, lo que admite granularidades de permisos personalizados, propios y a nivel de departamento.  
+Escenarios desencadenantes:  
+- Agregar filtrado de datos a nivel de fila a los módulos comerciales  
+- Aislamiento de datos propios/a nivel de departamento de diseño  
+- Ampliar los tipos de permisos de datos personalizados  
+- Omitir temporalmente los permisos de datos para consultar datos completos  
+- Solucionar problemas de fallas de permisos de datos  
+
+Palabras desencadenantes: permiso de datos, permiso a nivel de fila, aislamiento de datos, permiso de departamento, permiso propio, permiso personalizado, DataScope, DataPermission, filtrado de datos  
+Nota: si el proyecto tiene una habilidad dedicada (por ejemplo, `leniu-data-permission`), use primero la versión dedicada.

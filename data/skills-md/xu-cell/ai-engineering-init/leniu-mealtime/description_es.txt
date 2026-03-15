@@ -1,0 +1,14 @@
+Especificación de procesamiento a la hora de comer del proyecto leniu-tengyun-core. Úselo al escribir informes o códigos de consulta relacionados con las horas de comida (desayuno/almuerzo/té de la tarde/cena/cena).
+
+Escenarios desencadenantes:
+- Agregar campo de filtro de hora de comer (mealtimeTypes) en la clase de parámetro de consulta Param
+- Definir el campo de hora de comer y el convertidor MealtimeTypeConverter en la clase de retorno VO
+- Escribir condiciones de consulta IN a la hora de comer en MyBatis XML
+- Manejar la conversión de enumeraciones a la hora de comer (AllocMealtimeTypeEnum)
+- Distinguir las comidas principales (desayuno/almuerzo/cena) de las comidas no principales (merienda/cena)
+
+Proyectos aplicables:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Palabras desencadenantes: hora de comer, hora de comer, tipo de hora de comer, desayuno, almuerzo, cena, té de la tarde, cena, AllocMealtimeTypeEnum

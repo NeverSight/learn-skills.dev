@@ -1,0 +1,6 @@
+Ingerir un manuscrito enviado en texto plano (`output/PAPER.md`) para que las habilidades de revisión posteriores puedan extraer afirmaciones con indicaciones de origen.
+**Activador**: ingerir papel, texto manuscrito, proporcionar papel, paper.md, 输入论文, 导入稿件, 审稿输入.
+**Úselo cuando**: está ejecutando el proceso de "revisión por pares" y necesita "output/PAPER.md" antes de "claims-extractor".
+**Omitir si**: `output/PAPER.md` ya existe y parece el texto manuscrito completo.
+**Red**: ninguna.
+**Barandilla**: No resuma ni reescriba el artículo; almacene el texto sin formato (o una extracción fiel) para que las reclamaciones sean rastreables.

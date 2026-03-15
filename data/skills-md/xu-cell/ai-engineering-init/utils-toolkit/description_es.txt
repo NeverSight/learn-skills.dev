@@ -1,0 +1,16 @@
+Guía de uso de clases de utilidad backend  
+Cubre estándares de selección y uso para utilidades comunes: conversión de objetos, manejo de cadenas, operaciones de recopilación, creación de árboles, fecha y hora, JSON, validación de parámetros, etc.
+
+Escenarios desencadenantes:  
+- Conversión de objetos (BO/VO/Entidad)  
+- Manejo de cadenas, operaciones de flujo de recopilación.  
+- Construcción de estructura de árbol.  
+- Serialización/deserialización JSON  
+- Procesamiento de fecha y hora  
+- Validación de parámetros  
+
+Palabras desencadenantes: clase de utilidad, conversión de objetos, BeanUtils, StringUtils, operación de colección, estructura de árbol, DateUtils, JsonUtils, conversión, manejo de cadenas, fecha y hora.  
+
+Nota:  
+- Las herramientas de conversión de objetos deben elegirse y utilizarse de manera uniforme en cada proyecto; Está prohibido mezclar múltiples soluciones.  
+- Esta guía es una guía general de clase de utilidad backend de Java, aplicable a cualquier proyecto Spring Boot.

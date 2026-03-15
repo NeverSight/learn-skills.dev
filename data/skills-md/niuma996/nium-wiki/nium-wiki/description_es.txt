@@ -1,0 +1,11 @@
+Analice el código fuente y produzca un Wiki organizado por dominio y de calidad empresarial en `.nium-wiki/`.
+
+Activar: "generar wiki", "crear documentos", "actualizar wiki", "reconstruir wiki" o cualquier solicitud de generación de documentación.
+
+Capacidades:
+- Análisis de código semántico: comprende la lógica, no solo la estructura.
+- Diagramas de sirena generados automáticamente (arquitectura, flujo de datos, clase, dependencia)
+- Enlace cruzado bidireccional en todos los documentos.
+- Detección de cambios basada en SHA256 para reconstrucciones incrementales
+- Cada sección se remonta a la fuente a través de enlaces de ruta relativa.
+- Salida en varios idiomas (zh/en/ja/ko/fr/de y más)
