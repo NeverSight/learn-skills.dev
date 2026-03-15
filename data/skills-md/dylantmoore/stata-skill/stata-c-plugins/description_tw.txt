@@ -1,0 +1,1 @@
+使用 stplugin.h SDK 為 Stata 開發高效能 C/C++ 外掛程式。當使用者要求建立 Stata 插件、為 Stata 編寫 C/C++ 程式碼、使用 C 加速 Stata 命令、建立跨平台 Stata 插件或將 Python 或 R 套件翻譯/移植到 Stata 時使用。涵蓋整個生命週期：SDK 設定、資料流、記憶體安全、具有保留/合併功能的 .ado 包裝器、跨平台編譯、效能最佳化（pthreads、預排序索引、XorShift RNG）、偵錯和透過網路安裝進行分發。還包括用於將 Python/R 套件移植到 Stata 的翻譯工作流程——在可用時包裝現有的 C++ 後端，或在不可用時從頭開始編寫 C。

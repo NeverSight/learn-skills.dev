@@ -1,0 +1,1 @@
+Pillar 智慧錢包有兩種模式操作：瀏覽器切換 (pillar.ts) 開啟 Pillar 前端進行使用者簽名，代理簽名直接 (pillar-direct.ts) 使用 secp256k1 金鑰對在本機簽名並直接提交至 Pillar API（無需瀏覽器，由 Gas 贊助）。支援 sBTC 發送/供應/升壓/解倉、DCA 程式、堆疊、金鑰管理、錢包建立和位置查詢。

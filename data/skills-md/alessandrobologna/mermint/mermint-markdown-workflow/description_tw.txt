@@ -1,0 +1,9 @@
+使用 README 樣式的輸出（`<picture>` + 淺色/深色 SVG）使用 Mermint 處理 Markdown Mermaid 區塊，
+使用「--keep-mermaid」保留來源區塊，並安全地刷新產生的 SVG 資源。
+
+在以下情况下使用此技能：
+1. 使用者要求轉換Markdown檔案中的Mermaid程式碼區塊
+2. 使用者要求渲染/更新自述文件圖，例如此儲存庫
+3. 使用者要求重新產生 `svgs/*-light.svg` 和 `svgs/*-dark.svg` 資源
+4. 使用者要求使用保留的 Mermaid 來源運行冪等降價重新處理
+5. 使用者要求使用 AWS 服務圖示建立或更新 Mermaid「架構測試版」圖

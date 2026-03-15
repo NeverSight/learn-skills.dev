@@ -1,0 +1,1 @@
+適用於 macOS 和 iOS 應用程式的 SwiftData 持久性框架模式。涵蓋 @Model 定義、@Query、關係（帶有刪除規則）、ModelContainer/ModelContext 配置、帶有 @Model 子類別的類別繼承、基於類型的謂詞（#Predicate 帶有 is/as? 轉換）、多態關係、@Attribute 選項 (.preserveValueOnDeletion)、遷移和匯入/導入模式。在實作資料持久性、定義模型、查詢資料或使用 SwiftData 時使用。防止常見的 LLM 錯誤，例如產生 Core Data 語法、發明不存在的 SwiftData API 或濫用 @Query。

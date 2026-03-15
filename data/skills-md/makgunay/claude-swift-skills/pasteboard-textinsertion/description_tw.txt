@@ -1,0 +1,1 @@
+透過剪貼簿模擬、CGEvent 按鍵輸入和 Accessibility API 直接文字欄位存取將文字插入其他 macOS 應用程式。涵蓋帶有剪貼簿保留/恢復的 NSPasteboard 讀/寫、CGEvent 擊鍵模擬（Cmd+V 貼上、逐個字元輸入）、用於直接文字欄位操作的 AXUIElement、變數/佔位符擴展（{{clipboard}}、{{date}}、{{cursor}}}）、使用者提示變數（{{name:promp}）。在建立提示管理器、文字擴充器、程式碼片段工具或任何需要將文字插入其他應用程式的應用程式時使用。

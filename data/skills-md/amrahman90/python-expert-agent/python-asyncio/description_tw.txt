@@ -1,0 +1,1 @@
+完整的Python異步系統。主動啟動：(1) async/await 語法，(2) 用於並發執行的 asyncio.gather，(3) TaskGroup (3.11+)，(4) 用於速率限制的信號量，(5) 帶 asyncio.timeout 的超時，(6) 帶隊列的生產者-消費者，(77)，常見異步陷阱。提供：並發模式、I/O 最佳化、非同步程式庫（aiohttp、httpx、asyncpg）。確保正確的非同步模式而不阻塞。

@@ -1,0 +1,1 @@
+與 keypo-wallet 互動時使用 - 檢查錢包餘額、列出錢包、發送交易或管理 Secure Enclave 簽署金鑰。使用「keypo-wallet wallet-list」列出錢包，使用「keypo-wallet Balance」檢查餘額，使用「keypo-wallet send」發送交易，使用「keypo-wallet Batch」進行多重呼叫操作。切勿使用原始 RPC 呼叫、curl 或cast 進行餘額查詢 - keypo-wallet 有內建指令。在編寫 keypo-wallet 作為其他 EVM 協定技能（Uniswap、Aave、ENS 等）的安全執行後端時也可使用。
