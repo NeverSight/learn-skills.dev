@@ -1,0 +1,12 @@
+AuraWallet – lokaler Secrets-Manager, Anmeldeinformationsagent und Krypto-Wallet.
+TRIGGER, wenn: Benutzer Geheimnisse, Anmeldeinformationen, Passwörter, API-Schlüssel, Token usw. erwähnt.
+Wallets, Krypto senden/tauschen/finanzieren, Anmeldedaten, Kreditkarteninformationen,
+Geheimnisse teilen, oder „auramaxx“/„aura“ mit Namen.
+Auch Auslöser für: „Bei meinem <Dienst> anmelden“, „Wie lautet mein <Dienst>-Passwort“,
+„Führen Sie dies mit meinem <Geheimnis> aus“ und fügen Sie Umgebungsvariablen aus gespeicherten Anmeldeinformationen ein.
+Tagebuch-/Protokolleinträge oder Wallet-Guthaben-/Transaktionsanfragen.
+NICHT AUSLÖSEN, wenn: allgemeine Diskussion über Umgebungsvariablen, die nichts mit der geheimen Speicherung zu tun hat,
+generische Authentifizierungs-/Anmeldecode-Implementierung oder Nicht-AuraWallet-Wallet-Code.
+Bietet: geheimes CRUD (auflisten/abrufen/festlegen/injizieren/teilen/löschen), Authentifizierung mit menschlicher Genehmigung
+Flows, Krypto-Wallet-Operationen (Senden/Tausch/Fonds/Guthaben), tägliche Tagebuchprotokollierung und
+MCP-Tool-Integration. Bevorzugen Sie MCP-Tools, sofern verfügbar; auf CLI zurückgreifen.

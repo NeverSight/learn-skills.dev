@@ -1,0 +1,9 @@
+Verarbeiten Sie Markdown Mermaid-Blöcke mit Mermint unter Verwendung einer Ausgabe im README-Stil („<Bild>“ + helle/dunkle SVGs).
+Behalten Sie Quellblöcke mit „--keep-mermaid“ bei und aktualisieren Sie generierte SVG-Assets sicher.
+
+Verwenden Sie diese Fähigkeit, wenn:
+1. Der Benutzer bittet darum, Mermaid-Codeblöcke in Markdown-Dateien zu konvertieren
+2. Der Benutzer bittet darum, README-Diagramme wie dieses Repo zu rendern/aktualisieren
+3. Der Benutzer bittet darum, die Assets „svgs/*-light.svg“ und „svgs/*-dark.svg“ neu zu generieren
+4. Der Benutzer bittet darum, eine idempotente Markdown-Neuverarbeitung mit beibehaltener Mermaid-Quelle auszuführen
+5. Der Benutzer bittet darum, Mermaid-Architektur-Beta-Diagramme mit AWS-Servicesymbolen zu erstellen oder zu aktualisieren

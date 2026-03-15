@@ -1,0 +1,22 @@
+Delegieren Sie die Codierungsausführung an Codex CLI für Implementierungsaufgaben mit klaren Erfolgskriterien.
+
+**NUTZE DIESE FÄHIGKEIT, WENN:**
+- Code umgestalten, umbenennen, migrieren, aktualisieren oder konvertieren
+- Tests generieren, Abdeckung hinzufügen, Unit-/Integrationstests schreiben
+- Batch-Änderungen im gesamten Repo: „Alle aktualisieren“, „Überall anwenden“, „Sweep“
+- Implementieren von Funktionen: „Verdrahtung“, „Gerüst“, „Unterstützung hinzufügen für“
+- Behebung von Problemen: „Fehlerhafte Tests beheben“, „Typ-/Lint-Fehler beheben“, „Build reparieren“, „Grünes CI“
+- API-Änderungen: „Verwendungen aktualisieren“, „Neue API übernehmen“, „Codemod“
+- Standardisierung: „konsistent machen“, „deduplizieren“, „standardisieren“
+- Codeüberprüfung oder -untersuchung MIT konkreten Artefakten (Diff, Protokolle, Repro, fehlgeschlagener Test)
+
+**VERWENDEN SIE CLAUDE (NICHT CODEX), WENN:**
+- Strategische Entscheidungen: „sollten wir“, „Ansätze vergleichen“, „Strategie empfehlen“
+- Systemdesign, Architektur, Anforderungsdesign
+- Unterrichten, Konzepte erklären, Brainstorming, RFC-Schreiben
+– Unbekannte Probleme ohne Reproduktion/Protokolle/Stack-Traces
+- Unklare Aufgaben, die zunächst geklärt werden müssen
+
+**ZWEI-STUFEN-MODELL:** Bei gemischten Anfragen („beurteilen, dann umsetzen“) erstellt Claude zuerst einen Rahmen, dann führt Codex aus, wenn der Plan konkret ist.
+
+CodeX ist kostengünstig und ausführungsstark. Claude geht besser mit Mehrdeutigkeit, Strategie und Architektur um.
