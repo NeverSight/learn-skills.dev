@@ -1,0 +1,9 @@
+Procese bloques Markdown Mermaid con mermint utilizando la salida estilo README (`<imagen>` + SVG claros/oscuros),
+conserve los bloques fuente con `--keep-mermaid` y actualice los activos SVG generados de forma segura.
+
+Utilice esta habilidad cuando:
+1. El usuario solicita convertir bloques de código de Mermaid en archivos Markdown
+2. El usuario solicita renderizar/actualizar diagramas README como este repositorio
+3. El usuario solicita regenerar los activos `svgs/*-light.svg` y `svgs/*-dark.svg`
+4. El usuario solicita ejecutar el reprocesamiento de rebajas idempotente con la fuente Mermaid conservada
+5. El usuario solicita crear o actualizar diagramas de `arquitectura-beta` de Mermaid con íconos de servicio de AWS

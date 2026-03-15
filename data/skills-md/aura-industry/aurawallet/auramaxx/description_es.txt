@@ -1,0 +1,12 @@
+AuraWallet: administrador de secretos local, agente de credenciales y billetera criptográfica.
+DISPARAR cuando: el usuario menciona secretos, credenciales, contraseñas, claves API, tokens,
+billeteras, envío/intercambio/financiación de criptomonedas, detalles de inicio de sesión, información de tarjeta de crédito,
+compartiendo secretos, o "auramaxx"/"aura" por su nombre.
+También desencadenante para: "iniciar sesión en mi <servicio>", "¿cuál es mi contraseña de <servicio>",
+"ejecutar esto con mi <secreto>", inyectando variables de entorno a partir de las credenciales almacenadas,
+entradas de diario/registro, o solicitudes de transacciones/saldo de billetera.
+NO DISPARAR cuando: discusión general sobre var env no relacionada con el almacenamiento secreto,
+implementación genérica de código de autenticación/inicio de sesión, o código de billetera que no sea de AuraWallet.
+Proporciona: CRUD secreto (lista/obtener/establecer/inyectar/compartir/eliminar), autenticación de aprobación humana
+flujos, operaciones de billetera criptográfica (envío/intercambio/financiación/saldo), registro diario y
+Integración de herramientas MCP. Prefiera las herramientas MCP cuando estén disponibles; recurrir a CLI.
