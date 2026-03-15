@@ -1,0 +1,11 @@
+Analysieren Sie den Quellcode und erstellen Sie ein domänenorganisiertes Wiki in Unternehmensqualität unter „.nium-wiki/“.
+
+Auslösen bei: „Wiki generieren“, „Dokumente erstellen“, „Wiki aktualisieren“, „Wiki neu erstellen“ oder bei jeder Anforderung zur Dokumentationsgenerierung.
+
+Fähigkeiten:
+- Semantische Codeanalyse – versteht Logik, nicht nur Struktur
+- Automatisch generierte Mermaid-Diagramme (Architektur, Datenfluss, Klasse, Abhängigkeit)
+- Bidirektionale Querverlinkung über alle Dokumente hinweg
+– SHA256-basierte Änderungserkennung für inkrementelle Neuerstellungen
+- Jeder Abschnitt führt über relative Pfadverknüpfungen auf die Quelle zurück
+- Mehrsprachige Ausgabe (zh/en/ja/ko/fr/de und mehr)

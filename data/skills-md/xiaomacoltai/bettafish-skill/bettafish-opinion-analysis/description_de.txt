@@ -1,0 +1,20 @@
+BettaFish (Micro-Public) Multi-Agent-System zur Analyse der öffentlichen Meinung – basiert auf einer parallelen Drei-Engine-Architektur aus QueryAgent, MediaAgent und InsightAgent, wobei ForumEngine die gemeinsame Diskussion zwischen Agenten ermöglicht, um Berichte in zwei Formaten in Word/PDF sowie HTML in hoher Designqualität zu erstellen.
+
+Dieser Skill wird ausgelöst, wenn Benutzer Folgendes benötigen:
+- Analyse der Reputation und Stimmung einer Marke/eines Unternehmens/Produkts in den sozialen Medien
+- Verfolgung aktueller Ereignisse in der öffentlichen Meinung (z. B. ein Autohersteller unter Beschuss, eine Promi-Kontroverse)
+- Mining von Inhalten und Einflussdaten bestimmter sozialer Konten
+- Überwachung der Meinungsdynamik der Wettbewerber und Mehrmarkenvergleiche
+- Analyse der emotionalen Tendenzen und Einstellungen der Öffentlichkeit zu einem Thema
+- Erstellung von Meinungsbeobachtungsberichten oder Krisenfrühwarnanalysen
+- Erfordern formeller Berichte im Word-/PDF-Format
+- Erfordert interaktive HTML-Visualisierungen in hoher Designqualität
+- Erfordert eine gründliche Meinungsanalyse auf der Grundlage realer Daten
+
+Der Skill nutzt eine parallele Architektur aus QueryAgent + MediaAgent + InsightAgent, wobei ForumEngine die Diskussion und Zusammenarbeit zwischen Agenten erleichtert, drei Runden von Reflexionsschleifen ausführt, um die Ergebnisse zu optimieren und letztendlich Folgendes ausgibt:
+1. **Word-/PDF-Dokumente** – generiert über docx/pdf-Unterfähigkeiten, geeignet für formelle Präsentationen, Drucken und Archivieren
+2. **Hochwertige HTML-Berichte in Designqualität** – über Frontend-Design-Unterkompetenzen, einzigartiger Redaktionsmagazin-Stil mit interaktiven Grafiken
+
+**Es werden keine Datenbanken oder Scheindaten verwendet**; Alle Daten werden in Echtzeit über WebSearch/WebFetch/Browser/Curl abgerufen.
+
+Nutzen Sie diese Fähigkeit auch bei komplexen mehrstufigen Analysen, der Integration mehrerer Datenquellen oder der Erstellung professioneller Meinungsberichte.

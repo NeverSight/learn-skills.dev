@@ -1,0 +1,6 @@
+Erfassen Sie ein eingereichtes Manuskript in Klartext („output/PAPER.md“), damit nachgelagerte Prüffähigkeiten Ansprüche mit Quellenverweisen extrahieren können.
+**Auslöser**: Papier aufnehmen, Manuskripttext, Papier bereitstellen, paper.md, 输入论文, 导入稿件, 审稿输入.
+**Verwenden Sie es, wenn**: Sie die „Peer-Review“-Pipeline ausführen und „output/PAPER.md“ vor „claims-extractor“ benötigen.
+**Überspringen, wenn**: „output/PAPER.md“ existiert bereits und sieht aus wie der vollständige Manuskripttext.
+**Netzwerk**: keines.
+**Leitlinie**: Fassen Sie die Arbeit nicht zusammen und schreiben Sie sie nicht um. Speichern Sie den Rohtext (oder eine originalgetreue Extraktion), damit Ansprüche nachvollziehbar bleiben.

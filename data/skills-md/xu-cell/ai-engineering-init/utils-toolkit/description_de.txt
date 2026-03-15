@@ -1,0 +1,15 @@
+Leitfaden zur Nutzung der Backend-Utility-Klasse. Behandelt Auswahl- und Verwendungsstandards für gängige Dienstprogrammklassen wie Objektkonvertierung, String-Verarbeitung, Sammlungsvorgänge, Aufbau von Baumstrukturen, Datum/Uhrzeit, JSON und Parametervalidierung.
+
+Auslöseszenarien:
+- Objektkonvertierung (BO/VO/Entity)
+- String-Handhabung, Sammlungs-Stream-Operationen
+- Aufbau einer Baumstruktur
+- JSON-Serialisierung/Deserialisierung
+- Datum-Uhrzeit-Verarbeitung
+- Parametervalidierung
+
+Auslösewörter: Dienstprogrammklasse, Objektkonvertierung, BeanUtils, StringUtils, Sammlungsoperationen, Baumstruktur, DateUtils, JsonUtils, Konvertieren, String-Verarbeitung, Datum-Uhrzeit
+
+Hinweis:
+- Objektkonvertierungstools müssen projektbezogen einheitlich ausgewählt und eingesetzt werden; Das Mischen mehrerer Lösungen ist verboten.
+– Bei diesem Leitfaden handelt es sich um einen allgemeinen Leitfaden für Java-Backend-Dienstprogrammklassen, der auf alle Arten von Spring Boot-Projekten anwendbar ist.

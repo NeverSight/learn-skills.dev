@@ -1,0 +1,12 @@
+Fähigkeiten zur Aufgabenverwaltung in der Projektzusammenarbeit bei Alibaba Cloud Yunxiao. Bedienen Sie Arbeitselemente direkt über die Yunxiao Open API: Fragen Sie Aufgaben ab, ändern Sie den Status, bearbeiten Sie Beschreibungen, fügen Sie Kommentare hinzu, protokollieren Sie Arbeitsstunden, erstellen Sie Unteraufgaben, suchen Sie nach Projekten usw.
+Unterstützt den gesamten Entwicklungsworkflow: Aufgabe lesen → übergeordnete Anforderung finden → Anforderungsdetails lesen → Testanfrage erstellen → Testanfrage bearbeiten → an Test übergeben.
+Unterstützt die intelligente Vervollständigung von Testanfragen: Ruft automatisch Branch-/Commit-Informationen von Git ab, liest die Versionsnummer aus pom.xml, findet Benutzeraufgaben und füllt die Testanfragevorlage aus.
+
+Auslöseszenarien:
+- Yunxiao-Aufgabenstatus abfragen/ändern
+- Vervollständigen Sie den Inhalt der Testanfrage (automatische Erfassung von Git-Informationen)
+- Testanfrage-Unteraufgabe erstellen
+- Persönliche ausstehende Aufgaben anzeigen
+- Lesen Sie die Anforderungsdetails
+
+Auslösewörter: Yunxiao, Aufgabenverwaltung, Arbeitselement, Änderungsstatus, Testanforderung, Testanforderungsformular, vollständige Testanforderung, SARW, EZML, IXXP, Yunxiao-Aufgabe

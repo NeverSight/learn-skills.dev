@@ -1,0 +1,10 @@
+leniu-tengyun-core-Projekt Spezifikation für die Steuerung von Datenberechtigungen für mehrere Mandanten. Basierend auf einer Dual-Datenbank-Architektur mit physischer Datenbankisolation, einschließlich Datenquellenwechsel, Mandantenkontext und mandantenübergreifenden Vorgängen.
+
+Auslöseszenarien:
+- Verwenden Sie @UseSystem, um zu Systemdatenbankoperationen zu wechseln
+– Verwenden Sie Executors.doInTenant/readInTenant für mandantenübergreifende Abfragen
+– Verwenden Sie TenantContextHolder, um den Mandantenkontext abzurufen
+– Konfigurieren Sie das Datenquellen-Routing mit zwei Datenbanken
+- Mandantenübergreifende Dateninitialisierung
+
+Auslösewörter: Multi-Tenant, Datenberechtigung, @UseSystem, Executors.doInTenant, readInSystem, TenantContextHolder, MERCHANT-ID, Dual-Datenbank-Isolation, Datenquellenwechsel

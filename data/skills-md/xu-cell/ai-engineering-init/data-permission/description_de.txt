@@ -1,0 +1,10 @@
+Universeller Entwurfsleitfaden für Datenberechtigungen auf Zeilenebene. Implementiert die Datenisolierung über AOP + MyBatis-Interceptor und unterstützt Berechtigungsgranularitäten auf Abteilungsebene, in Eigenbesitz und benutzerdefinierten.  
+Auslöseszenarien:  
+- Fügen Sie den Geschäftsmodulen eine Filterung auf Zeilenebene hinzu  
+- Designabteilung/Selbstdatenisolierung  
+- Erweitern Sie benutzerdefinierte Berechtigungstypen  
+- Berechtigungen für vollständige Datenabfragen vorübergehend umgehen  
+- Beheben Sie Berechtigungsfehler  
+
+Auslösewörter: Datenberechtigung, Berechtigung auf Zeilenebene, Datenisolation, Abteilungsberechtigung, Selbsterlaubnis, benutzerdefinierte Berechtigung, DataScope, DataPermission, Datenfilterung  
+Hinweis: Wenn das Projekt über einen dedizierten Skill verfügt (z. B. „leniu-data-permission“), verwenden Sie zuerst die dedizierte Version.

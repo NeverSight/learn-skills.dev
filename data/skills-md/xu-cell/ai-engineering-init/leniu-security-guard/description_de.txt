@@ -1,0 +1,14 @@
+leniu-tengyun-core / leniu-yunshitang Projekt-Sicherheitsberechtigungskontrollspezifikation. Beinhaltet Authentifizierungsannotationssystem, TokenManager-API, Datenberechtigungsvalidierung und SQL-Injection-Schutz.
+
+Auslöseszenarien:
+- Schnittstellenauthentifizierungsanmerkungen konfigurieren (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- Verwenden Sie TokenManager, um Benutzerinformationen abzurufen oder Berechtigungen zu validieren
+- SQL-Injection verhindern (MyBatis #{} parametrisierte Abfragen)
+- Validierung des Dateneigentums (Verhinderung einer Rechteausweitung)
+- Desensibilisierung empfindlicher VO-Felder
+
+Anwendbare Projekte:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Auslösewörter: Sicherheitsauthentifizierung, Berechtigungsanmerkungen, TokenManager, SQL-Injection-Schutz, Datendesensibilisierung, Schnittstellensicherheit, RequiresAuthentication

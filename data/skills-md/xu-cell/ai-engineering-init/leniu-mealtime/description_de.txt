@@ -1,0 +1,14 @@
+Spezifikationen für die Essensverarbeitung des Leniu-Tengyun-Kernprojekts. Zum Schreiben von Berichten oder zum Abfragen von Code zu Essenszeiten (Frühstück/Mittagessen/Nachmittagstee/Abendessen/Abendessen).
+
+Auslöseszenarien:
+– Fügen Sie das Filterfeld „Essenszeit“ (mealtimeTypes) in den Param-Abfrageparameterklassen hinzu
+- Definieren Sie Essenszeitfelder und den MealtimeTypeConverter-Konverter in VO-Rückgabeklassen
+- Schreiben Sie Essenszeit-IN-Abfragebedingungen in MyBatis XML
+- Behandelt die Konvertierung der Essenszeit-Enumeration (AllocMealtimeTypeEnum)
+- Unterscheiden Sie Hauptmahlzeiten (Frühstück/Mittagessen/Abendessen) von Nicht-Hauptmahlzeiten (Nachmittagstee/Abendessen).
+
+Anwendbare Projekte:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Auslösewörter: Mahlzeit, Mahlzeit, Mahlzeittyp, Frühstück, Mittagessen, Abendessen, Nachmittagstee, Abendessen, AllocMealtimeTypeEnum
