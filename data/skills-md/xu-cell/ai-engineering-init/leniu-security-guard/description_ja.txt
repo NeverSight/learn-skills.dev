@@ -1,0 +1,14 @@
+leniu-tengyun-core / leniu-yunshitang プロジェクトのセキュリティ権限制御仕様。認証アノテーション システム、TokenManager API、データ権限検証、SQL インジェクション保護が含まれます。
+
+トリガーシナリオ:
+- インターフェース認証アノテーションの設定 (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- TokenManager を使用してユーザー情報を取得したり、権限を確認したりする
+- SQL インジェクションの防止 (MyBatis #{} パラメーター化されたクエリ)
+- データ所有権の検証 (権限昇格の防止)
+- VO 感知フィールドの感度の低下
+
+該当するプロジェクト:
+- leniu-tengyun-core: /Users/xijiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xijiajun/Developer/gongsi_proj/leniu-api/leniu-yunshitang
+
+トリガーワード: セキュリティ認証、権限アノテーション、TokenManager、SQL インジェクション保護、データ非感作、インターフェースセキュリティ、RequiresAuthentication

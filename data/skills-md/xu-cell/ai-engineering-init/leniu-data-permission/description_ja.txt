@@ -1,0 +1,10 @@
+leniu-tengyun-core プロジェクトのマルチテナント データ権限制御仕様。データ ソースの切り替え、テナント コンテキスト、クロステナント操作など、物理データベースが分離されたデュアル データベース アーキテクチャに基づいています。
+
+トリガーシナリオ:
+- @UseSystem を使用してシステム データベース操作に切り替えます
+- クロステナント クエリには Executors.doInTenant/readInTenant を使用します
+- TenantContextHolderを使用してテナントコンテキストを取得します
+- デュアルデータベースのデータソースルーティングを構成する
+- クロステナントデータの初期化
+
+トリガーワード: マルチテナント、データ権限、@UseSystem、Executors.doInTenant、readInSystem、TenantContextHolder、MERCHANT-ID、デュアルデータベース分離、データソース切り替え

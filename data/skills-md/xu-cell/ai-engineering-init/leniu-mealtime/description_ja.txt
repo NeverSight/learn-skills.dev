@@ -1,0 +1,14 @@
+leniu-tengyun-core プロジェクトの食事時間処理仕様。食事時間 (朝食/昼食/午後のお茶/夕食/夕食) に関するレポートまたはクエリ コードを作成するときに使用されます。
+
+トリガーシナリオ:
+- Paramクエリパラメータクラスに食事時間フィルタフィールド(mealtimeTypes)を追加
+- VO 戻りクラスで食事時間フィールドと MealtimeTypeConverter コンバータを定義する
+- MyBatis XML で食事時間 IN クエリ条件を記述する
+- 食事時間列挙型変換の処理 (AllocMealtimeTypeEnum)
+- 主食（朝食/昼食/夕食）と主食以外（午後のお茶/夕食）を区別する
+
+該当するプロジェクト:
+- leniu-tengyun-core: /Users/xijiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- レニウ・ユンシタン: /Users/xijiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+トリガーワード: 食事時間、食事時間、食事時間タイプ、朝食、昼食、夕食、アフタヌーンティー、夕食、AllocMealtimeTypeEnum
