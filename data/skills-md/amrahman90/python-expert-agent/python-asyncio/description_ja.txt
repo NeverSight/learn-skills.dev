@@ -1,0 +1,1 @@
+完全な Python asyncio システム。 (1) async/await 構文、(2) 同時実行用の asyncio.gather、(3) TaskGroup (3.11+)、(4) レート制限用のセマフォ、(5) asyncio.timeout によるタイムアウト、(6) Queue によるプロデューサー/コンシューマー、(7) 非同期ジェネレーターとコンテキスト マネージャー、(8) uvloop パフォーマンス、(9) 共通非同期落とし穴。提供: 同時パターン、I/O 最適化、非同期ライブラリ (aiohttp、httpx、asyncpg)。ブロックすることなく正しい非同期パターンを保証します。

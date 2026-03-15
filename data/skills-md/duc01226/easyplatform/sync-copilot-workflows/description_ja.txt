@@ -1,0 +1,1 @@
+[AI とツール] ワークフロー カタログを workflows.json から GitHub Copilot 命令に同期します。ワークフローを追加/削除/変更した後に実行して、copilot-instructions.md を最新の状態に保ちます。 Copilot にはフックがないため、この手動同期は、クロード コードが workflow-router.cjs から取得する自動インジェクションを置き換えます。

@@ -1,0 +1,1 @@
+アプリを @coinbase/onchainkit からスタンドアロン wagmi/viem コンポーネントに移行します。プロバイダーの置換 (OnchainKitProvider から WagmiProvider)、ウォレット コンポーネントの置換 (Wallet/ConnectWallet からカスタム WalletConnect)、およびトランザクション コンポーネントの置換を処理します。ユーザーが「onchainkit を移行する」、「onchainkit プロバイダーを置き換える」、「ウォレット コンポーネントを移行する」、「onchainkit ウォレットを置き換える」、「トランザクション コンポーネントを移行する」、「onchainkit の依存関係を削除する」、または「onchainkit を削除する」と言う場合に使用します。
