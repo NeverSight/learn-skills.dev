@@ -1,0 +1,10 @@
+leniu-tengyun-core專案多租用戶資料權限控制規範。基於實體資料庫隔離的雙資料庫架構，包括資料來源切換、租用戶上下文和跨租用戶操作。
+
+觸發場景：
+- 使用@UseSystem切換到系統資料庫
+- 使用 Executors.doInTenant/readInTenant 進行跨租戶查詢
+- 使用TenantContextHolder取得租戶上下文
+- 設定雙庫資料來源路由
+- 跨租用戶資料初始化
+
+觸發詞：多租戶、資料權限、@UseSystem、Executors.doInTenant、readInSystem、TenantContextHolder、MERCHANT-ID、雙庫隔離、資料來源切換

@@ -1,0 +1,14 @@
+leniu-tengyun-core專案進餐處理標準。在編寫涉及用餐時間（早餐/午餐/下午茶/晚餐/晚餐）的報告或查詢代碼時使用。
+
+觸發場景：
+- 在Param查詢參數類別中新增用餐時間過濾欄位（mealtimeTypes）
+- 在 VO 返回類別中定義用餐時間欄位和 MealtimeTypeConverter 轉換器
+- 在MyBatis XML中編寫mealtime IN查詢條件
+- 處理用餐時間枚舉轉換（AllocMealtimeTypeEnum）
+- 區分主餐（早餐/午餐/晚餐）和非主餐（下午茶/晚餐）
+
+適用項目：
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+觸發詞：餐點、mealtime、mealtimeType、早餐、午餐、晚餐、下午茶、宵夜、AllocMealtimeTypeEnum

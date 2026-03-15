@@ -1,0 +1,1 @@
+將開發任務分派給 Claude Code，完成時自動回呼。支援代理團隊（具有專用測試代理的多代理並行開發）、成本控制 (--max-budget-usd)、模型回退、git 工作樹隔離、透過 --agents JSON 的自訂子代理程式和 MCP 伺服器整合。在以下情況下使用：(1) 將編碼任務分派給 Claude Code 並希望在完成時自動收到 Telegram 通知，(2) 運行 Agent Teams 進行並行開發+測試工作流程，(3) 需要透過 Stop Hook 回調執行零輪詢任務，(4) 使用者說「使用 Claude Code 構建/分派，這是任何「建置/開發/建立專案」請求的預設設定 - 對於任何需要超過 2 分鐘或需要後台執行的事情，優先使用 claude-code-clawdbot。

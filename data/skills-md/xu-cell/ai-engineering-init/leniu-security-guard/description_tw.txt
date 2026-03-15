@@ -1,0 +1,14 @@
+leniu-tengyun-core / leniu-yunshitang 專案安全權限控制規範。包括認證註解系統、TokenManager API、資料權限驗證、SQL注入防護。
+
+觸發場景：
+- 設定介面認證註解（@RequiresAuthentication/@RequiresGuest/@RequiresPermissions）
+- 使用TokenManager取得使用者資訊或驗證權限
+- 防止SQL注入（MyBatis #{}參數化查詢）
+- 資料所有權驗證（防止權限升級）
+- VO敏感場脫敏
+
+適用項目：
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+關鍵字：安全性認證、權限註解、TokenManager、SQL注入防護、資料脫敏、介面安全性、RequiresAuthentication
