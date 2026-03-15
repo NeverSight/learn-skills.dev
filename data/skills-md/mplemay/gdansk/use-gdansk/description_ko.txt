@@ -1,0 +1,1 @@
+MCP 앱 UI에 대한 포괄적인 gdansk 구현 및 디버깅 가이드입니다. Amber 및 FastMCP 도구 UI를 추가하거나 수정할 때, `@amber.tool(..., page=...)`를 React `views/apps/**/page.tsx` 또는 `page.jsx` 항목에 연결하고, SSR을 활성화하고, 메타데이터 또는 `cache_html`을 구성하고, PostCSS 플러그인을 추가하고, FastAPI에 마운트하거나, gdansk 번들링 및 런타임 오류를 진단할 때 사용합니다.

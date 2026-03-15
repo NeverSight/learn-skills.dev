@@ -1,0 +1,10 @@
+leniu-tengyun-core 프로젝트 다중 테넌트 데이터 권한 제어 사양. 데이터 원본 전환, 테넌트 컨텍스트 및 테넌트 간 작업을 포함하여 물리적 데이터베이스 격리 기능을 갖춘 이중 데이터베이스 아키텍처를 기반으로 합니다.
+
+트리거 시나리오:
+- @UseSystem을 사용하여 시스템 데이터베이스 작업으로 전환합니다.
+- 테넌트 간 쿼리에는 Executors.doInTenant/readInTenant를 사용하세요.
+- TenantContextHolder를 사용하여 테넌트 컨텍스트를 얻습니다.
+- 이중 데이터베이스 데이터 소스 라우팅 구성
+- 테넌트 간 데이터 초기화
+
+트리거 단어: 다중 테넌트, 데이터 권한, @UseSystem, Executors.doInTenant, readInSystem, TenantContextHolder, MERCHANT-ID, 이중 데이터베이스 격리, 데이터 소스 전환

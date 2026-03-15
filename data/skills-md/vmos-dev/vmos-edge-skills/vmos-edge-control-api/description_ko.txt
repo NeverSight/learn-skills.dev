@@ -1,0 +1,1 @@
+Android Control API를 통해 VMOS Edge Android 클라우드 휴대폰을 제어할 때 이 기술을 사용하세요. 현재 세션에도 `vmos-edge-container-api`가 있는 경우 `host_ip`를 사용하고 먼저 컨테이너 API를 통해 대상 `db_id`를 확인하세요. 이 스킬이 단독으로 설치되는 경우 `cloud_ip`을 선호합니다. `host_ip`와 `db_id`가 이미 알려진 경우 호스트 경로도 사용할 수 있습니다. IP가 제공되지 않고 로컬 'cbs_go'가 실행 중인 경우 기본 'host_ip'는 '127.0.0.1'입니다.

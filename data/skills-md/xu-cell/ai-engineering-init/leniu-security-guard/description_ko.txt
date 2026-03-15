@@ -1,0 +1,14 @@
+leniu-tengyun-core / leniu-yunshitang 프로젝트 보안 및 권한 제어 사양. 인증 주석 시스템, TokenManager API, 데이터 권한 유효성 검사, SQL 주입 보호가 포함됩니다.
+
+트리거 시나리오:
+- 인터페이스 인증 주석 구성(@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- TokenManager를 사용하여 사용자 정보를 얻거나 권한을 확인합니다.
+- SQL 삽입 방지(MyBatis #{} 매개변수화된 쿼리)
+- 데이터 소유권 검증(권한 상승 방지)
+- VO의 민감한 필드 감도 저하
+
+적용 가능한 프로젝트:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- 레니우윤시탕: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-yunshitang/leniu-yunshitang
+
+키워드: 보안 인증, 권한 주석, TokenManager, SQL 주입 방지, 데이터 둔감화, 인터페이스 보안, RequiresAuthentication

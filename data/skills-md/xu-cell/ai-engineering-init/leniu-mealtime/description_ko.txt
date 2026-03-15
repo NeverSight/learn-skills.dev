@@ -1,0 +1,14 @@
+leniu-tengyun-core 프로젝트 식사 시간 처리 사양. 식사 시간(아침/점심/애프터눈 티/저녁/저녁)과 관련된 보고서나 쿼리 코드를 작성할 때 사용합니다.
+
+트리거 시나리오:
+- Param 쿼리 매개변수 클래스에 식사시간 필터 필드(mealtimeTypes)를 추가합니다.
+- VO 반환 클래스에서 식사 시간 필드 및 MealtimeTypeConverter 변환기 정의
+- MyBatis XML에 식사 시간 IN 쿼리 조건을 작성합니다.
+- 식사 시간 열거형 변환 처리(AllocMealtimeTypeEnum)
+- 주요 식사(아침/점심/저녁)와 주요 식사(애프터눈 티/저녁)를 구분합니다.
+
+적용 가능한 프로젝트:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- 레니우윤시탕: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+유발어: 식사시간, 식사시간유형, 아침식사, 점심식사, 저녁식사, 애프터눈 티, 저녁식사, AllocMealtimeTypeEnum

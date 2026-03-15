@@ -1,0 +1,16 @@
+Google Gemini CLI를 사용한 공동 개발. 프런트엔드 프로토타이핑, UI 디자인 및 코드 검토를 위해 코딩 작업을 Gemini에 위임하세요.
+
+트리거 시나리오:
+- 프론트엔드/UI/스타일링 프로토타이핑 필요
+- CSS/React/Vue 컴포넌트 디자인 필요
+- 코드 검토 및 버그 분석이 필요합니다.
+- 사용자가 Gemini와의 협력을 명시적으로 요청합니다.
+- 복잡한 프론트엔드 로직 프로토타이핑
+
+유발어: Gemini, 협업, 다중 모델, 프런트엔드 프로토타입, UI 디자인, CSS, 스타일링, gemini-collab
+
+전제 조건:
+- Gemini CLI 설치(npm install -g @google/gemini-cli)
+- Google API 키 구성
+
+참고: Gemini는 백엔드 로직을 이해하는 데 한계가 있습니다. 백엔드 작업에 Codex의 우선순위를 지정하세요.
