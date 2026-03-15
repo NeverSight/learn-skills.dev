@@ -1,0 +1,14 @@
+leniu-tengyun-core / leniu-yunshitang Спецификация контроля разрешений безопасности проекта. Включает систему аннотаций аутентификации, API TokenManager, проверку разрешений на данные, защиту от SQL-инъекций.
+
+Триггерные сценарии:
+- Настройка аннотаций аутентификации интерфейса (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- Используйте TokenManager для получения информации о пользователе или проверки разрешений.
+- Предотвратить SQL-инъекцию (параметризованные запросы MyBatis #{})
+- Проверка владения данными (предотвращение повышения привилегий)
+- Маскировка чувствительного поля VO
+
+Применимые проекты:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- лениу-юньшитанг: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Триггерные слова: аутентификация безопасности, аннотации разрешений, TokenManager, защита от SQL-инъекций, маскирование данных, безопасность интерфейса, RequiresAuthentication.
