@@ -1,0 +1,1 @@
+等待 GitHub Actions 运行完成，并提供最少的终端输出和可靠的退出代码。当代理必须等待 CI 通过时使用（例如，推送后、打开 PR 后或验证特定运行时）。最好使用 gh run watch 和 --exit-status 和 --compact 来避免轮询输出淹没上下文。

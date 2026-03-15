@@ -1,0 +1,9 @@
+用于反向代理和自动 HTTPS 的 Caddy Web 服务器配置。使用时：
+(1) 编写Caddyfile配置以进行反向代理设置
+(2) 使用 Let's Encrypt 配置自动 HTTPS
+(3) 设置带 DNS 质询的通配符证书
+（4）将Caddy与Docker容器集成（同一网络或主机服务）
+(5) 配置请求匹配器、句柄块和路由模式
+(6) 设置负载均衡和健康检查
+(7) 解决 TLS、上游连接或配置问题
+(8) 配置标头操作（header_up、header_down）

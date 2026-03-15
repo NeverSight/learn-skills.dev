@@ -1,0 +1,1 @@
+以交互方式诊断和修复损坏的 Goldsky Turbo 管道。每当用户有一个行为异常的特定管道时使用 - 错误状态、卡在“启动”、连接被拒绝、回填缓慢、未在 postgres/clickhouse 中获取数据、重复行、丢失字段、命名管道失败（“我的 base-usdc-transfers 不断失败”）或已部署管道出现问题的任何症状。运行 goldsky Turbo 日志和状态命令，识别根本原因，并提供运行修复。要在没有活动问题的情况下查找 CLI 语法或错误消息定义，请改用 /turbo-monitor-debug。

@@ -1,0 +1,1 @@
+完整的Python异步系统。主动激活：(1) async/await 语法，(2) 用于并发执行的 asyncio.gather，(3) TaskGroup (3.11+)，(4) 用于速率限制的信号量，(5) 带 asyncio.timeout 的超时，(6) 带队列的生产者-消费者，(7) 异步生成器和上下文管理器，(8) uvloop 性能，(9) 常见异步陷阱。提供：并发模式、I/O 优化、异步库（aiohttp、httpx、asyncpg）。确保正确的异步模式而不阻塞。

@@ -1,0 +1,1 @@
+本机 SwiftUI WebKit 与新的 WebView 结构和 WebPage 可观察类集成。涵盖从 URL 创建 WebView、用于导航控制和状态管理的 WebPage、JavaScript 执行（带有参数和内容世界的 callJavaScript）、自定义 URL 方案处理程序、导航管理（加载、重新加载、后退/前进）、导航决策、文本搜索 (findNavigator)、内容捕获（快照、PDF 生成、Web 存档）和配置（数据存储、用户代理、JS 权限）。在 SwiftUI 应用程序中嵌入 Web 内容时使用，而不是旧的 WKWebView + UIViewRepresentable/NSViewRepresentable 桥接模式。这是一个全新的 API — 不要使用旧的 WKWebView 包装方法。

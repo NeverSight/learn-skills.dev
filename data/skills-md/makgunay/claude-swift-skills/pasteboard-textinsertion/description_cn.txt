@@ -1,0 +1,1 @@
+通过剪贴板模拟、CGEvent 按键输入和 Accessibility API 直接文本字段访问将文本插入其他 macOS 应用程序。涵盖带有剪贴板保留/恢复的 NSPasteboard 读/写、CGEvent 击键模拟（Cmd+V 粘贴、逐个字符输入）、用于直接文本字段操作的 AXUIElement、变量/占位符扩展（{{clipboard}}、{{date}}、{{cursor}}）、用户提示变量（{{?name:prompt:default}}）、插入后光标定位以及插入方法回退链。在构建提示管理器、文本扩展器、代码片段工具或任何需要将文本插入其他应用程序的应用程序时使用。

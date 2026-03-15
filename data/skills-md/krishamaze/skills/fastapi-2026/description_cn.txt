@@ -1,0 +1,1 @@
+2026 年的 FastAPI 异步 Python API 模式。在为自动化代理构建 API 层时使用此技能 — 路由定义、异步处理程序、后台任务、WebSocket、Pydantic v2 模型、生命周期事件、CORS 以及使用 Gunicorn + Uvicorn 工作线程进行生产部署。始终对 I/O 绑定路由使用 async def。切勿在异步路由中使用同步数据库调用。

@@ -1,0 +1,1 @@
+为 Goldsky Turbo 管道编写 SQL、TypeScript 和动态表转换。使用此技能：使用 _gs_log_decode 解码 EVM 事件日志（需要 ABI）或使用 _gs_tx_decode 解码交易输入，在 SQL 中过滤和转换区块链数据，使用 UNION ALL 将多个解码的事件类型组合到一个表中，使用 invoke(data) 函数签名编写 TypeScript/WASM 转换，设置动态查找表以通过在运行时更新的钱包列表过滤传输 (dynamic_table_check)，将 SQL 和 TypeScript 步骤链接在一起，或调试 null解码字段中的值。对于完整管道 YAML 结构，请改用 /turbo-pipelines。要构建端到端的整个管道，请改用 /turbo-builder。
