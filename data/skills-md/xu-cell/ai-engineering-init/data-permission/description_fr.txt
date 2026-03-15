@@ -1,0 +1,10 @@
+Guide universel de conception des autorisations de données au niveau des lignes. Réalise l'isolation des données via le modèle d'intercepteur AOP + MyBatis, prenant en charge les granularités d'autorisation au niveau du département, autonomes et personnalisées.  
+Scénarios de déclenchement :  
+- Ajouter un filtrage des données au niveau des lignes aux modules métier  
+- Isolation des données au niveau du département de conception/auto-propriété  
+- Étendre les types d'autorisation de données personnalisés  
+- Contourner temporairement les autorisations de données pour les requêtes de données complètes  
+- Résoudre l'inefficacité de l'autorisation des données  
+
+Mots déclencheurs : autorisation de données, autorisation au niveau de la ligne, isolation des données, autorisation de service, auto-autorisation, autorisation personnalisée, DataScope, DataPermission, filtrage des données  
+Remarque : si le projet dispose d'une compétence dédiée (ex. `leniu-data-permission`), utilisez préférentiellement la version dédiée.

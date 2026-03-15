@@ -1,0 +1,11 @@
+Analysez le code source et produisez un wiki de qualité entreprise, organisé par domaine sous « .nium-wiki/ ».
+
+Déclenchez sur : "générer le wiki", "créer des documents", "mettre à jour le wiki", "reconstruire le wiki" ou toute demande de génération de documentation.
+
+Capacités :
+- Analyse du code sémantique : comprend la logique, pas seulement la structure
+- Diagrammes Mermaid générés automatiquement (architecture, flux de données, classe, dépendance)
+- Réticulation bidirectionnelle sur tous les documents
+- Détection des modifications basée sur SHA256 pour les reconstructions incrémentielles
+- Chaque section remonte à la source via des liens de chemin relatif
+- Sortie multilingue (zh/en/ja/ko/fr/de et plus)

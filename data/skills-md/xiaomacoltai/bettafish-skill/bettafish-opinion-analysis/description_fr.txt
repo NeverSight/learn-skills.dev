@@ -1,0 +1,20 @@
+Système d'analyse de l'opinion publique multi-agents BettaFish (Micro-Public-Opinion) – Construit sur une architecture parallèle à trois moteurs de QueryAgent, MediaAgent et InsightAgent, avec ForumEngine permettant une discussion collaborative inter-agents pour générer des rapports double format : Word/PDF + HTML de haute qualité de conception.
+
+Déclenchez cette compétence lorsque l'utilisateur a besoin :
+- Analyser la réputation et le bouche-à-oreille d'une marque/entreprise/produit sur les réseaux sociaux
+- Pour suivre les événements chauds de l'opinion publique (par exemple, un constructeur automobile sous le feu des critiques, une controverse entre célébrités)
+- Pour exploiter le contenu et influencer les données de comptes sociaux spécifiques
+- Pour surveiller la dynamique de l'opinion des concurrents et comparer plusieurs marques
+- Analyser le sentiment et les attitudes du public à l'égard d'un sujet
+- Réaliser des rapports d'opinion ou des analyses d'alerte de crise
+- Pour obtenir des rapports formels en Word/PDF
+- Pour obtenir des visualisations HTML interactives de haute qualité de conception
+- Pour obtenir une analyse d'opinion approfondie et basée sur des données réelles
+
+La compétence utilise une architecture parallèle QueryAgent + MediaAgent + InsightAgent, avec ForumEngine permettant une discussion inter-agents et une boucle de réflexion en 3 tours pour affiner les résultats, produisant finalement :
+1. **Documents Word/PDF** – générés via la sous-compétence docx/pdf, adaptés aux présentations formelles, à l'impression et à l'archivage
+2. **Rapports HTML de haute qualité de conception** – via une sous-compétence de conception frontale, un style de magazine éditorial unique, des visualisations interactives
+
+**N'utilise aucune base de données ni données fictives** ; toutes les données sont récupérées en temps réel via WebSearch/WebFetch/Browser/Curl.
+
+Utilisez toujours cette compétence, même pour des analyses complexes en plusieurs étapes, une intégration multi-sources ou des rapports d'opinion au format professionnel.

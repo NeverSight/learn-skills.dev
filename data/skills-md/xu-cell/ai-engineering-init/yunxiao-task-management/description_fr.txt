@@ -1,0 +1,12 @@
+Compétences en matière de collaboration et de gestion de tâches dans le cadre du projet Alibaba Cloud Yunxiao. Gérez les éléments de travail directement via l'API ouverte Yunxiao : interrogez des tâches, modifiez le statut, modifiez les descriptions, ajoutez des commentaires, enregistrez les heures de travail, créez des sous-tâches, recherchez des projets, etc.
+Prend en charge le flux de travail de développement complet : lire la tâche → rechercher l'exigence parentale → lire les détails de l'exigence → créer un formulaire de demande de test → modifier le formulaire de demande de test → remettre au contrôle qualité.
+Prend en charge l'achèvement intelligent des demandes de test : extrayez automatiquement les informations de branche/commit de git, lisez la version à partir de pom.xml, recherchez les tâches utilisateur et remplissez le modèle de demande de test.
+
+Scénarios de déclenchement :
+- Interroger/modifier le statut de la tâche Yunxiao
+- Enrichir le contenu des demandes de test (collecte automatique des informations git)
+- Créer une sous-tâche de demande de test
+- Afficher les tâches personnelles en attente
+- Lire les détails des exigences
+
+Mots déclencheurs : Yunxiao, gestion des tâches, élément de travail, changement de statut, demande de test, formulaire de demande de test, demande de test d'enrichissement, SARW, EZML, IXXP, tâche Yunxiao

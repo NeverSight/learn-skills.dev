@@ -1,0 +1,16 @@
+Guide d'utilisation des classes d'utilitaires back-end  
+Couvre les normes de sélection et d'utilisation des utilitaires courants : conversion d'objets, gestion des chaînes, opérations de collection, construction d'arborescences, date-heure, JSON, validation des paramètres, etc.
+
+Scénarios de déclenchement :
+- Conversion d'objets (BO/VO/Entité)
+- Gestion des chaînes, opérations de flux de collection
+- Construction d'une arborescence
+- Sérialisation/désérialisation JSON
+- Traitement date-heure
+- Validation des paramètres
+
+Mots déclencheurs : classe utilitaire, conversion d'objet, BeanUtils, StringUtils, opération de collection, arborescence, DateUtils, JsonUtils, conversion, gestion des chaînes, date-heure
+
+Remarque :
+- Les utilitaires de conversion d'objets doivent être choisis uniformément par projet ; il est interdit de mélanger plusieurs solutions.
+- Ce guide est une référence générale d'utilitaire backend Java, compatible avec tout projet Spring Boot.

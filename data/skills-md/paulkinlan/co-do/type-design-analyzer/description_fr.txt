@@ -1,0 +1,10 @@
+Analyse la qualité de la conception des caractères en se concentrant sur l'encapsulation, l'expression invariante,
+l’utilité et l’application. Fournit des notes quantitatives (1 à 10) pour chaque dimension.
+
+Déclencheurs : lors de l'ajout de nouveaux types, de la révision de la conception des types dans les PR, de la refactorisation des types.
+
+Exemples :
+- "Revoir la conception du type UserAccount" -> analyse l'encapsulation du type et les invariants
+- "Analyser la conception des types dans ce PR" -> examine tous les types nouvellement ajoutés
+- "Vérifier si ce type a des invariants forts" -> évalue l'application des invariants
+- "Comment puis-je améliorer ce type ?" -> fournit des suggestions de conception de types exploitables

@@ -1,0 +1,14 @@
+Spécification de contrôle des autorisations de sécurité du projet leniu-tengyun-core / leniu-yunshitang. Comprend un système d'annotation d'authentification, l'API TokenManager, la validation des autorisations de données et la protection contre les injections SQL.
+
+Scénarios de déclenchement :
+- Configurer les annotations d'authentification de l'interface (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- Utilisez TokenManager pour obtenir des informations sur l'utilisateur ou valider les autorisations
+- Empêcher l'injection SQL (requêtes paramétrées MyBatis #{})
+- Validation de la propriété des données (empêcher l'élévation des privilèges)
+- Masquage de champ sensible VO
+
+Projets applicables :
+- leniu-tengyun-core : /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang : /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Mots déclencheurs : authentification de sécurité, annotation d'autorisation, TokenManager, protection contre les injections SQL, masquage des données, sécurité de l'interface, RequiresAuthentication

@@ -1,0 +1,14 @@
+Spécification de gestion des repas du projet leniu-tengyun-core. À utiliser lors de la rédaction de rapports ou de requêtes de code impliquant les heures de repas (petit-déjeuner/déjeuner/thé de l'après-midi/dîner/souper).
+
+Scénarios de déclenchement :
+- Ajouter des champs de filtre de repas (mealtimeTypes) dans les classes de paramètres de requête Param
+- Définir les champs de repas et les convertisseurs MealtimeTypeConverter dans les classes de retour VO
+- Écrire les conditions de requête IN pour les repas dans MyBatis XML
+- Gérer la conversion de l'énumération des repas (AllocMealtimeTypeEnum)
+- Distinguer les repas principaux (petit-déjeuner/déjeuner/dîner) des repas non principaux (thé/dîner)
+
+Projets applicables :
+- leniu-tengyun-core : /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang : /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+
+Mots déclencheurs : 餐次, repas, repasType, petit-déjeuner, déjeuner, dîner, thé de l'après-midi, dîner, AllocMealtimeTypeEnum

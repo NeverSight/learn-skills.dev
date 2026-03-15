@@ -1,0 +1,1 @@
+Corrige les tests irréguliers en remplaçant les délais d'attente arbitraires par une interrogation de condition. À utiliser lorsque les tests échouent par intermittence, comportent des délais setTimeout ou impliquent des opérations asynchrones qui nécessitent des conditions d'attente appropriées.

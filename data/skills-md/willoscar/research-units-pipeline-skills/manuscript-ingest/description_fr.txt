@@ -1,0 +1,6 @@
+Ingérez un manuscrit soumis en texte brut (`output/PAPER.md`) afin que les compétences de révision en aval puissent extraire les revendications avec des pointeurs sources.
+**Déclencheur** : ingérer du papier, du texte manuscrit, fournir du papier, paper.md, 输入论文, 导入稿件, 审稿输入.
+**À utiliser lorsque** : vous exécutez le pipeline `peer-review` et avez besoin de `output/PAPER.md` avant `claims-extractor`.
+**Ignorer si** : `output/PAPER.md` existe déjà et ressemble au texte complet du manuscrit.
+**Réseau** : aucun.
+**Garde-corps** : Ne résumez pas et ne réécrivez pas le document ; stockez le texte brut (ou une extraction fidèle) afin que les réclamations restent traçables.

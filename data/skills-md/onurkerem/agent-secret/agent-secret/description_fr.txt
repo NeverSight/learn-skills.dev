@@ -1,0 +1,11 @@
+Gestion sécurisée des secrets à l’aide du trousseau du système d’exploitation. Utiliser pour :
+- Définir/Injecter des secrets dans des fichiers .env
+- Vérifier l'état de la configuration sans exposer les valeurs
+- Répertorier les secrets ou les clés stockés dans les fichiers .env
+
+DÉCLENCHEMENT AUTOMATIQUE lorsque l'utilisateur :
+- Mentionne l'ajout, la définition ou l'injection de secrets/clés/jetons dans les fichiers .env
+- Mentionne les clés API des services (Stripe, OpenAI, AWS, Supabase, Firebase, etc.)
+- Demande de configurer des variables d'environnement ou des fichiers .env
+- Demande un stockage secret sécurisé
+- Mentionne les informations d'identification, les mots de passe ou les jetons

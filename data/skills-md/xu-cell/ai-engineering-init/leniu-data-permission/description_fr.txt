@@ -1,0 +1,10 @@
+Spécification de contrôle des autorisations de données multi-locataires du projet leniu-tengyun-core. Basé sur une architecture à double base de données avec isolation physique de la base de données, y compris la commutation de source de données, le contexte de locataire et les opérations entre locataires.
+
+Scénarios de déclenchement :
+- Utilisez @UseSystem pour passer aux opérations de base de données système
+- Utilisez Executors.doInTenant/readInTenant pour les requêtes entre locataires
+- Utilisez TenantContextHolder pour obtenir le contexte du locataire
+- Configurer le routage des sources de données à double base de données
+- Initialisation des données entre locataires
+
+Mots déclencheurs : multi-tenant, autorisation de données, @UseSystem, Executors.doInTenant, readInSystem, TenantContextHolder, MERCHANT-ID, isolation double base de données, changement de source de données

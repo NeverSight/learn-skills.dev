@@ -1,0 +1,6 @@
+Verrouillez une idéation dans un brief de brainstorming à source unique (`output/trace/IDEA_BRIEF.md`) et un plan multi-requêtes rejouable (`queries.md`).
+**Déclencheur** : brief d'idée, brief d'idéation, idées de recherche, brainstorming, 找 idée, 选题, 点子, 找方向.
+**À utiliser lorsque** : l'utilisateur souhaite des idées de recherche et sa contribution est longue/multi-tours ; vous devez clarifier le sujet + les contraintes avant la récupération.
+**Skip if** : l'objectif est de rédiger directement un brouillon d'enquête (utilisez plutôt les pipelines `arxiv-survey*`).
+**Réseau** : aucun.
+**Garde-corps** : n'inventez pas d'articles/citations ; ne commencez pas la récupération ici ; gardez le bref structuré (pas de longue prose).
