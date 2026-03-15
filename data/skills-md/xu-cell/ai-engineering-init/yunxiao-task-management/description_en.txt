@@ -1,12 +1,12 @@
-阿里云云效（Yunxiao）项目协作任务管理技能。通过云效 Open API 直接操作工作项：查询任务、修改状态、编辑描述、添加评论、记录工时、创建子任务、搜索项目等。
-支持完整开发工作流：读取任务 → 查找父需求 → 读取需求详情 → 创建提测单 → 编辑提测单 → 转给测试。
-支持智能提测单完善：自动从 git 获取分支/提交信息，从 pom.xml 读取版本号，查找用户任务并填充提测单模板。
+Alibaba Cloud Yunxiao project collaboration and task management skills. Operate work items directly via the Yunxiao Open API: query tasks, change status, edit descriptions, add comments, log work hours, create subtasks, search projects, etc.  
+Supports the full development workflow: read task → find parent requirement → read requirement details → create test-request form → edit test-request form → hand over to QA.  
+Supports intelligent test-request form enrichment: automatically fetch branch/commit info from git, read version number from pom.xml, locate user tasks and populate the test-request template.
 
-触发场景：
-- 查询/修改云效任务状态
-- 完善提测单内容（自动收集 git 信息）
-- 创建提测单子任务
-- 查看个人待处理任务
-- 读取需求详情
+Trigger scenarios:  
+- Query/modify Yunxiao task status  
+- Enrich test-request form content (auto-collect git info)  
+- Create test-request subtasks  
+- View personal pending tasks  
+- Read requirement details  
 
-触发词：云效、任务管理、工作项、修改状态、提测、提测单、完善提测单、SARW、EZML、IXXP、云效任务
+Trigger words: Yunxiao, task management, work item, change status, test-request, test-request form, enrich test-request form, SARW, EZML, IXXP, Yunxiao task

@@ -1,0 +1,1 @@
+通过 Android Control API 控制 VMOS Edge Android 云手机时，请使用此技能。如果当前会话也有“vmos-edge-container-api”，则使用“host_ip”并首先通过容器API解析目标“db_id”。如果单独安装该技能，优先选择“cloud_ip”；如果“host_ip”和“db_id”已知，也可以使用主机路由。如果未提供 IP 并且本地“cbs_go”正在运行，则默认“host_ip”为“127.0.0.1”。

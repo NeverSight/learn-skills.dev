@@ -1,0 +1,1 @@
+用于适合 RAM 的数据集的快速内存中 DataFrame 库。当 pandas 太慢但数据仍然适合内存时使用。惰性求值、并行执行、Apache Arrow 后端。最适合 1-100GB 数据集、ETL 管道、更快的 pandas 替换。对于大于 RAM 的数据，请使用 dask 或 vaex。

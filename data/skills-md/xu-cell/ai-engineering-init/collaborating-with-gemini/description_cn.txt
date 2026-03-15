@@ -1,0 +1,16 @@
+与 Google Gemini CLI 合作开发。将编码任务委托给 Gemini 进行前端原型设计、UI 设计和代码审查。
+
+触发场景：
+- 需要前端/UI/样式原型设计
+- 需要CSS/React/Vue组件设计
+- 需要进行代码审查和错误分析
+- 用户明确请求 Gemini 合作
+- 复杂的前端逻辑原型设计
+
+触发词：Gemini、协作、多模型、前端原型、UI 设计、CSS、造型、Gemini-collab
+
+先决条件：
+- 安装 Gemini CLI (npm install -g @google/gemini-cli)
+- 配置谷歌API密钥
+
+注：Gemini 对后端逻辑理解有限；优先考虑 Codex 的后端任务。

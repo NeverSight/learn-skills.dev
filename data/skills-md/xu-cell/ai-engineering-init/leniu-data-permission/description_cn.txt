@@ -1,0 +1,10 @@
+leniu-tengyun-core项目多租户数据权限控制规范。基于双库架构，物理数据库隔离，包括数据源切换、租户上下文、跨租户操作。
+
+触发场景：
+- 使用@UseSystem切换到系统数据库操作
+- 使用 Executors.doInTenant/readInTenant 进行跨租户查询
+- 使用TenantContextHolder获取租户上下文
+- 配置双库数据源路由
+- 跨租户数据初始化
+
+触发词：多租户、数据权限、@UseSystem、Executors.doInTenant、readInSystem、TenantContextHolder、MERCHANT-ID、双库隔离、数据源切换

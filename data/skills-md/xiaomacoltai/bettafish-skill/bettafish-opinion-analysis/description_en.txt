@@ -1,20 +1,20 @@
-BettaFish（微舆）多智能体舆情分析系统 - 基于 QueryAgent、MediaAgent、InsightAgent 三引擎并行架构，通过 ForumEngine 实现 Agent 间协作讨论，生成 Word/PDF + 高设计质量 HTML 双格式报告。
+BettaFish (Micro-Public-Opinion) Multi-Agent Sentiment Analysis System – built on a three-engine parallel architecture of QueryAgent, MediaAgent, and InsightAgent, with ForumEngine enabling inter-agent collaborative discussion to generate dual-format reports: Word/PDF + high-design-quality HTML.
 
-当用户需要以下分析时触发此 skill：
-- 分析某品牌/企业/产品的社交媒体声誉和口碑
-- 追踪热点舆情事件（如某车企被抨击、某明星争议事件）
-- 挖掘特定社媒账号的内容和影响力数据
-- 监测竞品舆情动态，进行多品牌对比
-- 分析公众对某话题的情绪倾向和态度
-- 生成舆情监测报告或危机预警分析
-- 需要Word文档/PDF格式的正式报告
-- 需要高设计质量的交互式HTML可视化报告
-- 需要基于真实数据的深度舆情分析
+This skill is triggered when users need:
+- Analysis of a brand/company/product’s social-media reputation and word-of-mouth
+- Tracking of hot public-opinion events (e.g., an automaker under fire, a celebrity controversy)
+- Mining content and influence data of specific social accounts
+- Monitoring competitor sentiment dynamics for multi-brand comparisons
+- Analyzing public emotion and attitude toward a topic
+- Generating sentiment-monitoring reports or crisis early-warning analysis
+- Formal reports in Word/PDF format
+- High-design-quality interactive HTML visualizations
+- Deep sentiment analysis based on real data
 
-此 skill 采用 QueryAgent + MediaAgent + InsightAgent 并行架构，通过 ForumEngine 实现 Agent 间讨论协作，执行 3 轮反思循环优化分析结果，最终输出:
-1. **Word/PDF 文档** - 使用 docx/pdf subskill 生成，适合正式汇报、打印、存档
-2. **高设计质量 HTML 报告** - 使用 frontend-design subskill，独特的编辑杂志风格，交互式可视化
+The skill employs a QueryAgent + MediaAgent + InsightAgent parallel architecture; ForumEngine coordinates inter-agent discussion, executing three reflective loops to refine results, finally outputting:
+1. **Word/PDF documents** – generated via docx/pdf subskill, suitable for formal presentations, printing, archiving
+2. **High-design-quality HTML reports** – via frontend-design subskill, unique editorial-magazine style with interactive visuals
 
-**不使用任何数据库和模拟数据**，所有数据通过 WebSearch/WebFetch/Browser/Curl 实时获取。
+**No databases or mock data are used**; all data is fetched in real time through WebSearch/WebFetch/Browser/Curl.
 
-即使遇到复杂的多步骤分析需求、需要整合多个数据源、或生成专业格式的舆情报告，也请务必使用此 skill。
+Always use this skill for complex multi-step analyses, multi-source integration, or professional-format sentiment reports.

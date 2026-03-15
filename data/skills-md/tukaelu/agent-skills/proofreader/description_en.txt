@@ -1,9 +1,9 @@
-文章の校正・推敲を行うスキル。誤字脱字・文法ミス・表現の改善点を指摘し、修正案を提示する。
+Skill for proofreading and revising text. It spots typos, grammar mistakes, and areas for better phrasing, then offers corrections.
 
-スラッシュコマンドで呼び出されたとき（例: `/proofreader report.md` や `/proofreader ./docs/readme.txt`）は、引数に渡されたファイルを読み込んで校正を行う。
+When invoked via slash command (e.g. `/proofreader report.md` or `/proofreader ./docs/readme.txt`), it reads the specified file and proofreads it.
 
-「校正して」「推敲して」「文章を見直して」「誤字脱字チェックして」「ちゃんと校正してよ」など、文章の品質確認や修正を求められたときは、直前にセッション内で生成・提示した文面を校正する。対象が複数ある場合や不明な場合は確認する。
+When asked to “proofread,” “revise,” “check for typos,” “properly proofread,” etc., it corrects the text most recently generated or shown in the session. If multiple or unclear targets exist, it asks for confirmation.
 
-日本語・英語どちらの文章にも対応する。メールの草稿・ドキュメント・ブログ記事・コードのコメントなど、文章であれば種類を問わず校正できる。
+Handles both Japanese and English. Can proofread anything written: email drafts, documents, blog posts, code comments—no restrictions.
 
-校正・推敲・誤字チェックの依頼があったときは必ずこのスキルを参照すること。
+Always consult this skill whenever a proofreading, revision, or typo-check is requested.

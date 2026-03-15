@@ -1,11 +1,11 @@
-MySQL 数据库查询调试技能。通过 mysql CLI 直接查询本地 MySQL 数据库，配合日志进行 Bug 排查。
-Bug 修复时自动评估是否需要查库，从日志中提取数据库名（租户ID），支持手动指定数据库。
+MySQL database query debugging skills. Query the local MySQL database directly through the mysql CLI and troubleshoot bugs with the help of logs.
+When fixing bugs, automatically assess whether the database needs to be queried, extract the database name (tenant ID) from the logs, and support manual database specification.
 
-触发场景：
-- 结合日志排查 Bug 时需要查询数据库验证数据
-- 检查数据库中某条记录的实际值
-- 验证 SQL 执行结果是否符合预期
-- 排查数据不一致、数据丢失、数据异常问题
-- 需要查看表结构、索引、数据分布
+Trigger scenarios:
+- Query the database to verify data when troubleshooting bugs in conjunction with logs
+- Check the actual value of a record in the database
+- Verify whether the SQL execution result meets expectations
+- Troubleshoot data inconsistency, data loss, and data anomalies
+- Need to view table structure, indexes, and data distribution
 
-触发词：查数据库、查表、执行SQL、查记录、mysql查询、数据库排查、验证数据、查数据、db查询、数据库调试
+Trigger words: check database, check table, execute SQL, check record, mysql query, database troubleshooting, verify data, check data, db query, database debugging

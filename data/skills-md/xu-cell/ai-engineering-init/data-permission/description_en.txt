@@ -1,9 +1,9 @@
-通用行级数据权限设计指南。通过 AOP + MyBatis 拦截器模式实现数据隔离，支持部门权限、本人权限、自定义权限等多种隔离粒度。
-触发场景：
-- 为业务模块添加行级数据过滤
-- 设计部门级 / 本人级数据隔离
-- 扩展自定义数据权限类型
-- 临时忽略数据权限查全量数据
-- 排查数据权限不生效问题
-触发词：数据权限、行级权限、数据隔离、部门权限、本人权限、自定义权限、DataScope、DataPermission、数据过滤
-注意：如果项目有专属技能（如 `leniu-data-permission`），优先使用专属版本。
+Universal Row-Level Data Permission Design Guide. Implements data isolation via AOP + MyBatis interceptor pattern, supporting department-level, self-owned, and custom permission granularities.
+Trigger scenarios:
+- Add row-level data filtering to business modules
+- Design department-level / self-owned data isolation
+- Extend custom data permission types
+- Temporarily bypass data permissions to query full dataset
+- Troubleshoot data permission ineffectiveness
+Trigger words: data permission, row-level permission, data isolation, department permission, self permission, custom permission, DataScope, DataPermission, data filtering
+Note: If the project has a dedicated skill (e.g., leniu-data-permission), use the dedicated version first.

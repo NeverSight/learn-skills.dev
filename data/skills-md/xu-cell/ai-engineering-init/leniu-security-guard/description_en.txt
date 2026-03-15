@@ -1,14 +1,14 @@
-leniu-tengyun-core / leniu-yunshitang 项目安全权限控制规范。包含认证注解体系、TokenManager API、数据权限校验、SQL注入防护。
+leniu-tengyun-core / leniu-yunshitang Project Security Permission Control Specification. Includes authentication annotation system, TokenManager API, data permission validation, SQL injection protection.
 
-触发场景：
-- 配置接口认证注解（@RequiresAuthentication/@RequiresGuest/@RequiresPermissions）
-- 使用 TokenManager 获取用户信息或校验权限
-- 防 SQL 注入（MyBatis #{} 参数化查询）
-- 数据归属校验（防越权）
-- VO 敏感字段脱敏处理
+Trigger scenarios:
+- Configure interface authentication annotations (@RequiresAuthentication/@RequiresGuest/@RequiresPermissions)
+- Use TokenManager to obtain user information or verify permissions
+- Prevent SQL injection (MyBatis #{} parameterized queries)
+- Data ownership validation (prevent privilege escalation)
+- VO sensitive field desensitization
 
-适用项目：
-- leniu-tengyun-core：/Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
-- leniu-yunshitang：/Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
+Applicable projects:
+- leniu-tengyun-core: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun-core
+- leniu-yunshitang: /Users/xujiajun/Developer/gongsi_proj/leniu-api/leniu-tengyun/leniu-yunshitang
 
-触发词：安全认证、权限注解、TokenManager、SQL注入防护、数据脱敏、接口安全、RequiresAuthentication
+Trigger words: security authentication, permission annotations, TokenManager, SQL injection protection, data desensitization, interface security, RequiresAuthentication

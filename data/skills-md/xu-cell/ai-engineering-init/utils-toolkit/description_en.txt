@@ -1,15 +1,15 @@
-后端工具类使用指南。包含对象转换、字符串处理、集合操作、树结构构建、日期时间、JSON、参数校验等通用工具类选型与使用规范。
+Backend utility usage guide. Covers selection and usage rules for common utilities such as object conversion, string handling, collection operations, tree construction, date-time, JSON, and parameter validation.
 
-触发场景：
-- 对象转换（BO/VO/Entity）
-- 字符串处理、集合流操作
-- 树结构构建
-- JSON 序列化/反序列化
-- 日期时间处理
-- 参数校验
+Trigger scenarios:
+- Object conversion (BO/VO/Entity)
+- String handling, collection stream operations
+- Tree structure building
+- JSON serialization/deserialization
+- Date-time processing
+- Parameter validation
 
-触发词：工具类、对象转换、BeanUtils、StringUtils、集合操作、树结构、DateUtils、JsonUtils、convert、字符串处理、日期时间
+Trigger words: utility, object conversion, BeanUtils, StringUtils, collection operations, tree structure, DateUtils, JsonUtils, convert, string handling, date-time
 
-注意：
-- 对象转换工具需要根据项目实际选型统一使用，禁止混用多种方案。
-- 本指南为通用 Java 后端工具类指南，适配各类 Spring Boot 项目。
+Notes:
+- Object conversion tools must be uniformly selected according to the project; mixing multiple solutions is prohibited.
+- This guide is a general Java backend utility reference, applicable to any Spring Boot project.
