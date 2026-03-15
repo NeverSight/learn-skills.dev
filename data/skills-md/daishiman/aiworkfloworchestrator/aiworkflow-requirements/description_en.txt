@@ -1,11 +1,11 @@
-A skill to search, reference, and update the canonical specification of AIWorkflowOrchestrator from `references/`.
-Starting from resource-map / quick-reference / topic-map / keywords, it reads only the minimum required documents step by step.
-Use: requirements check, design/API/IPC contract check, UI/state/security decisions, task-workflow・lessons-learned・unsynced-tasks sync.
-Especially handles safeInvoke timeout, settings bypass, skill lifecycle, global nav, and rerouting of Skill Center / Workspace / Agent / Skill Creator.
+AIWorkflowOrchestratorの正本仕様を `references/` から検索・参照・更新するスキル。
+resource-map / quick-reference / topic-map / keywords を起点に、必要最小限の文書だけを段階的に読む。
+用途: 要件確認、設計/API/IPC契約確認、UI/状態管理/セキュリティ判断、task-workflow・lessons-learned・未タスク同期。
+特に safeInvoke timeout、settings bypass、skill lifecycle、global nav、Skill Center / Workspace / Agent / Skill Creator の導線再編を扱う。
 
 Anchors:
-• Specification-Driven Development / Apply: canonical spec sync / Purpose: keep implementation-spec alignment
-• Progressive Disclosure / Apply: resource-map-driven read / Purpose: prevent omissions with minimal reference
+• Specification-Driven Development / 適用: 正本仕様同期 / 目的: 実装-仕様整合の維持
+• Progressive Disclosure / 適用: resource-map起点読込 / 目的: 必要最小限参照で漏れ防止
 
 Trigger:
-spec check, spec update, task-workflow sync, lessons-learned sync, UI spec reflection, API/IPC contract check, security requirement check, safeInvoke, timeout, settings bypass, skill lifecycle, Skill Center, Workspace, Agent, Skill Creator, navContract, GlobalNavStrip, MobileNavBar, SkillManagementPanel, line budget reform, spec splitting, family split, generated index sharding
+仕様確認, 仕様更新, task-workflow同期, lessons-learned同期, UI仕様反映, API/IPC契約確認, セキュリティ要件確認, safeInvoke, timeout, settings bypass, skill lifecycle, Skill Center, Workspace, Agent, Skill Creator, navContract, GlobalNavStrip, MobileNavBar, SkillManagementPanel, line budget reform, spec splitting, family split, generated index sharding

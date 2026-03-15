@@ -1,4 +1,5 @@
-Paper scraping (step 1 of the 3-step pipeline). Scrape the latest papers from arXiv + HuggingFace, score and filter them, enrich the information, and output to /tmp/daily_papers_enriched.json for later skills to use.
+论文抓取（3 步流水线的第 1 步）。抓取 arXiv + HuggingFace 最新论文，打分筛选，富化信息，
+输出到 /tmp/daily_papers_enriched.json 供后续 skill 使用。
 
-Trigger phrases: "paper scraping", "run paper scraping"
-Supports multi-day mode: "past 3 days paper recommendations", "past week paper recommendations", "papers from the past week", "scrape 3 days of papers", "recent 5 days"
+触发词："论文抓取"、"跑一下论文抓取"
+支持多天模式："过去3天论文推荐"、"过去一周论文推荐"、"过去一周的论文"、"抓 3 天的论文"、"最近5天"
