@@ -1,0 +1,1 @@
+在审核或强化 Meteor 3 应用程序时使用。方法参数上缺少 check()、发布上缺少 this.userId 保护、浏览器策略 CSP、DDPRateLimiter 规则、通过 Accounts.config oauthSecretKey 进行 oauth 加密、审核参数检查、允许/拒绝旧模式、BrowserPolicy.content.disallowInlineScripts、BrowserPolicy.framing.disallow 时触发。当用户询问强化、安全审查或询问第三方脚本（Stripe、Google 地图、字体）的 CSP 时，请使用此技能。

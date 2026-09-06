@@ -1,0 +1,1 @@
+Meteor 3 アプリケーションを監査または強化するときに使用します。メソッド引数の check() の欠落、パブリケーションの this.userId ガードの欠落、ブラウザ ポリシー CSP、DDPRateLimiter ルール、Accounts.config oauthSecretKey による OAuth 暗号化、監査引数チェック、レガシー パターンの許可/拒否、BrowserPolicy.content.disallowInlineScripts、BrowserPolicy.framing.disallow がトリガーされます。このスキルは、ユーザーが強化について質問したり、セキュリティのレビューについて質問したり、サードパーティのスクリプト (ストライプ、Google マップ、フォント) の CSP について質問したりするときに使用します。

@@ -1,0 +1,1 @@
+将 Django 性能敏感的 Python 循环移至数据库端计算，其中包括注释、聚合、过滤聚合、F 表达式、函数、子查询、OuterRef、Exists、Window 表达式、db_default 和 generatedField。当 Django 代码在提取行后在 Python 中进行计数、求和、过滤、标记、排名或派生值时使用。
