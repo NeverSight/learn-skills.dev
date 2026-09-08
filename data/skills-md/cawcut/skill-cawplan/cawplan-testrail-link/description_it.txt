@@ -1,0 +1,5 @@
+Collega manualmente i casi o i piani/corse TestRail esistenti alle mappature CawPlan dopo il QA degli artefatti TestRail importati o creati manualmente.
+Il collegamento corrisponde a require_id + test_point_id solo nei riferimenti (nessuna convalida hash).
+Da utilizzare quando: si collegano casi importati tramite CSV tramite riferimenti; rilegatura dei ticket TestPlan/TestRun a CawPlan fatti a mano; Link 用例回链、refs 映射、Plan Run 绑定、手工导入后.
+Percorso ideale dopo l'importazione di un CSV A3: auto Suite → AutoScan → una conferma.
+NON per: creare casi TestRail (utilizzare `cawplan-testcase-import`); creazione di piani/corse (utilizzare `cawplan-testplan-layout`); generare/esportare casi (utilizzare `cawplan-testcase-generate`); stato di avanzamento dell'esecuzione o archiviazione di difetti.
