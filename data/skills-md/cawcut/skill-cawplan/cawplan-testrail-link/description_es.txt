@@ -1,0 +1,5 @@
+Vincule manualmente casos o planes/ejecuciones de TestRail existentes a las asignaciones de CawPlan después de que el control de calidad importe artefactos de TestRail creados o importados manualmente.
+El enlace coincide con require_id + test_point_id solo en las referencias (sin validación de hash).
+Úselo cuando: vincular casos importados en CSV mediante referencias; vincular TestPlan/TestRun hechos a mano a tickets de CawPlan; 用例回链、refs 映射、Plan Run 绑定、手工导入后 enlace.
+Ruta ideal después de la importación CSV A3: auto Suite → AutoScan → una confirmación.
+NO para: crear casos TestRail (use `cawplan-testcase-import`); crear planes/ejecuciones (use `cawplan-testplan-layout`); generar/exportar casos (use `cawplan-testcase-generate`); avance de ejecución o archivo de defectos.
