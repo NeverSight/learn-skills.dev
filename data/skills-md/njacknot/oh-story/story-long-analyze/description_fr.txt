@@ -1,0 +1,9 @@
+Déconstruction d'un roman web long format. Une analyse approfondie des trois chapitres d’or, de l'architecture des personnages, de la conception des points d’intrigue et du contrôle du rythme d’un roman long qui se démarque.
+
+Pipeline d’analyse unique : après avoir terminé les trois chapitres d’or (Étape 1), un rapport d’aperçu rapide est généré et l’utilisateur est invité à décider s’il veut poursuivre avec une déconstruction complète.
+
+Si confirmé, l’Étape 2 se poursuit avec des résumés chapitre par chapitre, une analyse agrégée, une cartographie des relations et un rapport consolidé, tous les résultats étant enregistrés dans `拆文库/{titre du livre}/`.
+
+Méthodes de déclenchement : /story-long-analyze, /长篇拆文, « 帮我拆这本书 », « 拆这本书 », « 分析黄金三章 », « 深度拆解 », « 完整拆解 », « 系统拆解 », ou la fourniture du chemin vers le fichier texte du roman — toutes entrent dans le même pipeline.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
