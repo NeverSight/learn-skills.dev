@@ -1,0 +1,5 @@
+Verknüpfen Sie vorhandene TestRail-Fälle oder -Pläne/-Läufe manuell wieder mit CawPlan-Zuordnungen, nachdem die Qualitätssicherung manuell importierte oder manuell erstellte TestRail-Artefakte durchgeführt hat.
+Der Link entspricht „requirement_id + test_point_id“ nur in Refs (keine Hash-Validierung).
+Wird verwendet, wenn: CSV-importierte Fälle durch Referenzen verknüpft werden; Bindung von handgefertigten TestPlan/TestRun an CawPlan-Tickets; Klicken Sie auf den Link „Refs“ und „Plan Run“.
+Idealer Pfad nach dem A3-CSV-Import: Auto Suite → AutoScan → eine Bestätigung.
+NICHT für: Erstellen von TestRail-Fällen (verwenden Sie „cawplan-testcase-import“); Erstellen von Plänen/Läufen (verwenden Sie „cawplan-testplan-layout“); Fälle generieren/exportieren (verwenden Sie „cawplan-testcase-generate“); Ausführungsfortschritt oder Mängelrüge.
