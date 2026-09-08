@@ -1,0 +1,1 @@
+將 Arcjet Guard 整合到 Python OpenAI 代理程式中 — 將 FunctionTool / function_tool 與guard_tool 包裝在一起，並透過 openai_agents_context 讀取呼叫者擁有的會話或對話 ID。當要求將 Arcjet 新增至 openai-agents、Runner.run、限制這些工具的速率、封鎖入站訊息或阻止提示注入/PII 時使用。這是 Python openai-agents，而不是 JS @openai/agents 適配器。

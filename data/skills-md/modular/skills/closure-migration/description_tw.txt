@@ -1,0 +1,1 @@
+將 Mojo 程式碼從遺留參數閉包（`capturing[_]`、`@__parameter` / `@parameter`、`api[fn](args)`）遷移到取值統一閉包（`api(args, fn)` 和 `{imm}` / `{mut}` / (在刪除參數重載、修復「捕獲薄」轉換錯誤、重寫巢狀啟動/回調閉包或遷移任何採用 comptime 函數參數的 API 時使用。也可以在使用「compile_offload_closure func必須完全綁定」編譯Mojo物件時使用CI SIGSEGV——即主機精化；使用「kgen -elaborate」驗證，而不是遠端 GPU 執行。

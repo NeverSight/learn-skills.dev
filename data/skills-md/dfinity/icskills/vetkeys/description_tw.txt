@@ -1,0 +1,1 @@
+透過 vetKD 系統 API 和 ic-vetkeys（Rust、Motoko）和 @icp-sdk/vetkeys（前端）庫在互聯網電腦上建立 vetKeys 加密：基於身份的加密 (IBE)、閾值 BLS 簽章、時間鎖加密、對稱金鑰派生和離線公用公鑰派生。在實作 IBE、加密主體、BLS 簽章、密封投標或時間鎖定方案、在鏈上派生加密金鑰、傳輸金鑰或呼叫 vetkd_public_key / vetkd_derive_key 時使用。對於存取控制的加密鍵值儲存（密碼管理器、加密筆記），請改用加密映射技能。不用於身份驗證 - 使用互聯網身份。

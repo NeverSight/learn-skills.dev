@@ -1,0 +1,5 @@
+在 QA 手動匯入或手動建立 TestRail 工件後，手動將現有 TestRail 案例或計畫/運行連結回 CawPlan 對應。
+連結僅與參考文獻中的requirement_id + test_point_id 相符（無哈希驗證）。
+使用場合：透過引用連結 CSV 匯入的案例；將手工製作的 TestPlan/TestRun 綁定到 CawPlan 票證； 範例回鏈、refs對應、計畫執行綁定、手動匯入後連結。
+A3 CSV匯入後的理想路徑：自動套件→自動掃描→一確認。
+不適用於：建立 TestRail 案例（使用 `cawplan-testcase-import`）；建立計劃/運行（使用「cawplan-testplan-layout」）；產生/匯出案例（使用「cawplan-testcase-generate」）；執行進度或缺陷歸檔。

@@ -1,0 +1,1 @@
+Rust 非同步生命週期的結構化並發模式：RAII（物件既是資源又是其處理程序）、TaskScope/AsyncClose 以及在頂部選擇取消的spawn+select 模式。當 (1) 審核或修復每個 tokio::spawn / select 時使用！反對「在外部產生，在頂部選擇取消，保持函數純淨」； (2) 重構反模式，例如句柄/資源分離、選擇埋藏在函數內部、嵌套的spawn+select鍊或用作例程取消的abort()； (3) 設計後台任務、接受循環、優雅關閉和資源耗盡。觸發器：並發審計、產生/選擇審查、任務洩漏、CancellationToken、TaskScope、結構化並發、正常關閉。

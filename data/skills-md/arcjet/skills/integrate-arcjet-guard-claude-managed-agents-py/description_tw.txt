@@ -1,0 +1,1 @@
+將 Arcjet Guard 整合到 Python Claude Managed Agents 中 — 在Sessions.events.send 之前使用guard_events 篩選user.message，並使用guard_custom_tool 在agent.custom_tool_use 上控制自訂工具。當要求將 Arcjet 新增至託管的 Claude Managed Agents、人為 Beta 會話、速率限制自訂工具或阻止託管會話上的提示注入時使用。不是 Claude Agent SDK 本地查詢() / PreToolUse。

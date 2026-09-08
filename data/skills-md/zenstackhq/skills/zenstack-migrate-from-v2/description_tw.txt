@@ -1,0 +1,1 @@
+將現有的 ZenStack V2 專案升級到 V3。在重新命名 V2 套件（zenstack、@zenstackhq/runtime）、將存取控制移至政策外掛程式、將 future() 轉換為 post-update/before()、用 types+mixins 取代抽像模型、更新伺服器介面卡（getPrisma → getClient）以及遷移客戶端 TanStack 詢問伺服器介面裝置時使用。

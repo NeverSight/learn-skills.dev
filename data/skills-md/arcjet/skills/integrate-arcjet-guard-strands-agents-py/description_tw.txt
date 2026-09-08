@@ -1,0 +1,1 @@
+將 Arcjet Guard 整合到 Python Strands Agents 中 — 將編寫的 @tool 與guard_tool 包裝在一起，並透過 BeforeToolCallEvent.cancel_tool 將guard_hooks 放在 Agent(hooks=) 上以用於解開包裝/MCP 工具。當要求將 Arcjet 新增至鏈/鏈代理、限制這些工具的速率、篩選入站訊息或阻止提示注入/PII 時使用。這是 Python 鏈，而不是 JS @strands-agents/sdk。

@@ -1,0 +1,1 @@
+配置 Airflow 來執行語言 SDK 任務（Java、Go 和未來的本機 SDK）—註冊協調器、將佇列對應到它、確保工作執行緒的執行時間/工件以及調整協調器選項。當使用者希望 Airflow 將佇列路由到本機語言協調器、詢問「[sdk]」、「coordinators」/「queue_to_coordinator」設定、「AIRFLOW__SDK__COORDINATORS」、「jars_root」、「executables_root」或其他協調器「kwargs」、「task_start」涵蓋共享路由機制以及每個協調器選項（例如 JavaCoordinator、ExecutableCoordinator）。

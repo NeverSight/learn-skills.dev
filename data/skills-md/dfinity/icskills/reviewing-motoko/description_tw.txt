@@ -1,0 +1,1 @@
+對現有 Motoko 後端的設計審查－判斷程式碼是否設計良好，而不是如何編寫。涵蓋以類型編碼的不變量（文字上的變體、相關欄位、case _ 氣味）、增強遷移下的穩定與瞬態規則、檔案結構（types.mo/lib/mixins/main.mo）以及嚴重程度排名的結果（Blocker/Warning/Note）。在審查、審核、批評或重構現有 .mo 檔案時，或在要求提供有關 Motoko 容器的程式碼審查回饋時使用。請勿用於編寫新的 Motoko 程式碼或修復編譯器錯誤 (writing-motoko)、創作遷移檔案 (migration-motoko-actors) 或部署。

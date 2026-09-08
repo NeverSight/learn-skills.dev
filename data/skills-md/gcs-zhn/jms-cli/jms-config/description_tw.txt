@@ -1,0 +1,1 @@
+管理 jms-cli JumpServer 伺服器設定：config.yaml（架構 v1.0）讀取/寫入、platformdirs 設定路徑、AES-256-GCM 憑證加密 (enc:v1:)、`jms config add/list/remove/set-default` 指令以及 load_config/add_server/default_server/set_/default 指令以及 load_config/add_server/每當使用者需要新增或檢查伺服器別名、修復設定錯誤（找不到設定、缺少主機/使用者名稱/密碼、解密失敗）、手動編輯或產生 config.yaml、瞭解或處理加密憑證或解析 --config 和 JMS_CONFIG 路徑行為（即使它們沒有說「config」）時，都可以使用。首先是 CLI；使用庫 API 進行程式存取。

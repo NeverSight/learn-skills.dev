@@ -1,0 +1,1 @@
+將 Arcjet Guard 整合到 Python Claude Agent SDK 中 — 將編寫的@tool 與guard_tool 包裝在一起，並使用guard_hooks 進行UserPromptSubmit 入站以及未包裝的內建程式/MCP 上的PreToolUse。當要求將 Arcjet 新增至 claude-agent-sdk、限制這些工具的速率、封鎖入站提示或阻止提示注入/PII 時使用。這是 Python claude-agent-sdk，不是 JS 適配器，也不是 Claude Managed Agents 託管的會話。
