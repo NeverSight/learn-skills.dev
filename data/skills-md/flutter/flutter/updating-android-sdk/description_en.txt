@@ -1,0 +1,1 @@
+Upgrades Flutter's Android SDK dependency to a new Android API version (or preview/canary release) in packages.txt, verifies CIPD tag uniqueness, and packages/uploads the binaries using create_cipd_packages.sh across macOS, Linux, and Windows. Use whenever a user wants to pick up a new version of Android or upload Android SDK packages to CIPD.

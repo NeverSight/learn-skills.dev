@@ -1,0 +1,5 @@
+Manually link existing TestRail Cases or Plans/Runs back to CawPlan mappings after QA hand-imported or hand-created TestRail artifacts.
+Link matches requirement_id + test_point_id in refs only (no hash validation).
+Use when: linking CSV-imported cases by refs; binding hand-made TestPlan/TestRun to CawPlan tickets; 用例回链、refs 映射、Plan Run 绑定、手工导入后 link.
+Ideal path after A3 CSV import: auto Suite → AutoScan → one confirm.
+NOT for: creating TestRail cases (use `cawplan-testcase-import`); creating Plans/Runs (use `cawplan-testplan-layout`); generating/exporting cases (use `cawplan-testcase-generate`); execution progress or defect filing.

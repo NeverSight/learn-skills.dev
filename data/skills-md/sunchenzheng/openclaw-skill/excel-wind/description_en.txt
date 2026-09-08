@@ -1,0 +1,1 @@
+利用 Excel 作为中间层，通过 Wind Excel 插件（WSD/WSS/WSI 等函数）获取万德金融数据。当用户需要获取 Wind 行情数据、财务指标、板块数据，且 Wind Python API 不可用时（权限问题/网络限制），使用本技能通过 Excel+Wind 插件的路径实现数据获取。触发场景：（1）用户要求从 Wind 获取股票/期货/指数的历史行情 K 线；（2）用户要求获取 Wind 财务指标（PE、PB、EPS、ROE 等）；（3）用户要求获取宏观/行业数据；（4）Wind Python API 连不上但 Excel 插件可用。
