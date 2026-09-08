@@ -1,0 +1,1 @@
+Sigstore の cosign (verify、verify-attestation、verify-blob-attestation) および slsa-verifier (verify-artifact) を使用してアーティファクトの署名と SLSA 来歴を検証し、キーレス OIDC ビルダー ID とソース リポジトリを SLSA ビルド レベルに対して強制します。アーティファクトをデプロイする前、サードパーティの証明書を使用するとき、SLSA ビルド L3 パイプラインを確立するとき、またはインシデント対応またはアドミッション コントロール中の出所を確認するときに、CI/CD で使用します。

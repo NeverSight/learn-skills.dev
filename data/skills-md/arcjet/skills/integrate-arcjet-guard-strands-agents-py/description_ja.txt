@@ -1,0 +1,1 @@
+Arcjet Guard を Python Strands Agent に統合します。作成された @tool を Guard_tool でラップし、BeforeToolCallEvent.cancel_tool を介して、ラップされていない / MCP ツールの Agent(hooks=) に Guard_hooks を配置します。 Arcjet をストランド / ストランド エージェントに追加するか、それらのツールのレートを制限するか、受信メッセージを選別するか、プロンプト インジェクション / PII をブロックするかを求められた場合に使用します。これは Python ストランドであり、JS @structs-agents/sdk ではありません。

@@ -1,0 +1,1 @@
+Arcjet Guard を Python Claude 管理エージェントに統合します。sessions.events.send の前に、guard_events を使用して user.message をスクリーンし、guard_custom_tool を使用して、agent.custom_tool_use でカスタム ツールをゲートします。 Arcjet をホストされた Claude 管理対象エージェント、人為的ベータ セッション、レート制限カスタム ツールに追加するか、ホストされたセッションでのプロンプト インジェクションをブロックするように求められた場合に使用します。 Claude Agent SDK ローカル query() / PreToolUse ではありません。

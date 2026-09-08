@@ -1,0 +1,1 @@
+Arcjet Guard を公式の CrewAI に統合します。プロセス全体の PRE_TOOL_CALL を register_arcjet_hooks で登録するか、自分で呼び出すスタンドアロンの BaseTool を Guard_tool でラップします。 Arcjet を CrewAI、LiteAgent、クルーが挿入したツールに追加するか、これらのツールのレートを制限するか、キックオフ前に受信メッセージを選別するか、プロンプト挿入 / PII をブロックするかを求められた場合に使用します。公式クルーアイのみ。 npm CrewAI ポートや LangChain Crew ラッパーではありません。

@@ -1,0 +1,1 @@
+既存の ZenStack V2 プロジェクトを V3 にアップグレードします。 V2 パッケージの名前変更 (zenstack、@zenstackhq/runtime)、アクセス制御のポリシー プラグインへの移動、future() の post-update/before() への変換、抽象モデルの type+mixins への置き換え、サーバー アダプターの更新 (getPrisma → getClient)、およびクライアント側の TanStack Query フックの移行時に使用します。

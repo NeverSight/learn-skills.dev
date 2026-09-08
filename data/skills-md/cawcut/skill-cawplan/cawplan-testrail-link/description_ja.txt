@@ -1,0 +1,5 @@
+QA が手動でインポートまたは手動で作成した TestRail アーティファクトの後に、既存の TestRail ケースまたは計画/実行を CawPlan マッピングに手動でリンクします。
+リンクは、refs の require_id + test_point_id のみに一致します (ハッシュ検証なし)。
+次の場合に使用します: CSV インポートされたケースを参照によってリンクする。手作りの TestPlan/TestRun を CawPlan チケットにバインドします。 用例回链、refs 映射、計画実行绑定、手工导入后リンク。
+A3 CSV インポート後の理想的なパス: 自動スイート → 自動スキャン → 1 つの確認。
+対象外: TestRail ケースの作成 (「cawplan-testcase-import」を使用)。計画/実行の作成 (「cawplan-testplan-layout」を使用);ケースの生成/エクスポート (`cawplan-testcase-generate` を使用);実行の進行状況または欠陥の報告。
