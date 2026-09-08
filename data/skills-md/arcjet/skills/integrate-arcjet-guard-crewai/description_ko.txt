@@ -1,0 +1,1 @@
+Arcjet Guard를 공식 CrewAI에 통합하세요. 프로세스 전체 PRE_TOOL_CALL을 Register_arcjet_hooks로 등록하거나, 직접 호출하는 독립형 BaseTool을 Guard_tool로 래핑하세요. CrewAI, LiteAgent, 승무원이 주입한 도구에 Arcjet을 추가하고, 해당 도구의 속도를 제한하고, 시작 전 인바운드 메시지를 차단하거나 프롬프트 주입/PII를 차단하라는 요청을 받을 때 사용합니다. 공식 승무원에게만 해당됩니다. npm CrewAI 포트도 ​​아니고 LangChain Crew 래퍼도 아닙니다.

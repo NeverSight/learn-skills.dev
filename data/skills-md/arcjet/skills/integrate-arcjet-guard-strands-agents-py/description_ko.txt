@@ -1,0 +1,1 @@
+Arcjet Guard를 Python Strands 에이전트에 통합 — guard_tool로 authored @ tool을 래핑하고, BeforeToolCallEvent.cancel_tool을 통해 래핑되지 않은/MCP 도구를 위해 agent (hooks =) 에 guard_hooks를 배치합니다. Arcjet을 가닥/가닥-에이전트에 추가하거나, 해당 도구를 제한하거나, 인바운드 메시지를 화면에 표시하거나, 프롬프트 주입/PII를 차단하라는 메시지가 표시될 때 사용합니다. 이것은 파이썬 스트랜드이지 JS @ strands-agents/sdk가 아닙니다.

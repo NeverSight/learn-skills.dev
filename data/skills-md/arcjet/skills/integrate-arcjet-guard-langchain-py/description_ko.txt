@@ -1,0 +1,1 @@
+Arcjet Guard를 Python LangChain에 통합하세요. 호출하는 BaseTool을 Guard_tool로 래핑하거나, ArcjetMiddleware + ToolPolicy를 create_agent에 넣거나, ArcjetCaptureHandler로 체인을 관찰하세요. Arcjet을 LangChain에 추가하고, create_agent, langchain-core 도구를 추가하고, 해당 도구의 속도를 제한하고, 인바운드 메시지를 차단하거나, 프롬프트 삽입/PII를 차단하라는 메시지가 표시될 때 사용합니다. 이것은 LangChain JS createAgent나 LangGraph JS가 아닌 Python LangChain입니다.

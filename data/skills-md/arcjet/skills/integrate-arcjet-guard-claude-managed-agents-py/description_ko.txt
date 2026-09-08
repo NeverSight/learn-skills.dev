@@ -1,0 +1,1 @@
+Arcjet Guard를 Python Claude 관리형 에이전트에 통합합니다. session.events.send 전에 Guard_events로 user.message를 검사하고, Guard_custom_tool을 사용하여 Agent.custom_tool_use에서 사용자 정의 도구를 게이트합니다. 호스팅된 Claude Managed Agents, Anthropic 베타 세션, 속도 제한 사용자 정의 도구에 Arcjet을 추가하거나 호스팅된 세션에서 프롬프트 삽입을 차단하라는 메시지가 표시될 때 사용합니다. Claude Agent SDK 로컬 쿼리() / PreToolUse가 아닙니다.

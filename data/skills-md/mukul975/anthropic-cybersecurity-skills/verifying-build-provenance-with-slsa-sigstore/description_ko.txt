@@ -1,0 +1,1 @@
+Sigstore의 cosign(verify, verify-attestation, verify-blob-attestation) 및 slsa-verifier(verify-artifact)를 사용하여 아티팩트 서명 및 SLSA 출처를 확인하고 SLSA 빌드 수준에 대해 키 없는 OIDC 빌더 ID 및 소스 저장소를 적용합니다. 아티팩트 배포 전, 타사 증명 사용 시, SLSA 빌드 L3 파이프라인 설정 시, 사고 대응 또는 허용 제어 중 출처 확인 시 CI/CD에서 사용하세요.

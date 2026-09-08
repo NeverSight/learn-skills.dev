@@ -1,0 +1,8 @@
+QA가 수동으로 가져오거나 직접 만든 TestRail 아티팩트 이후에 기존 TestRail 케이스 또는 Plan/Run을 CawPlan 매핑에 수동으로 연결합니다.  
+링크는 refs에 있는 requirement_id + test_point_id와만 일치하며(해시 검증 없음).  
+
+사용 상황: refs를 통해 CSV로 가져온 케이스를 연결할 때; 수동으로 만든 TestPlan/TestRun을 CawPlan 티켓에 바인딩할 때; 用例回链、refs 映射、Plan Run 绑定、手工导入后 link.  
+
+A3 CSV 가져온 후 이상적인 흐름: auto Suite → AutoScan → 한 번 확인.  
+
+대상이 아님: TestRail 케이스 생성(`cawplan-testcase-import` 사용); Plan/Run 생성(`cawplan-testplan-layout` 사용); 케이스 생성/내보내기(`cawplan-testcase-generate` 사용); 실행 진행 상황이나 결함 보고.

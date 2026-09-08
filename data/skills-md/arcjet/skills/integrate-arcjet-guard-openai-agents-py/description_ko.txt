@@ -1,0 +1,9 @@
+Arcjet Guard를 Python OpenAI Agents에 통합하기 — FunctionTool / function_tool을 guard_tool으로 래핑하고 openai_agents_context를 통해 호출자 소유의 세션 또는 대화 ID를 읽어옵니다. 다음과 같은 경우에 사용하세요:
+
+- openai-agents에 Arcjet을 추가하라는 요청이 있을 때,
+- Runner.run,
+- 해당 도구들의 속도 제한을 적용할 때,
+- 들어오는 메시지를 검사할 때,
+- 프롬프트 주입 / 개인식별정보(PII)를 차단할 때.
+
+이는 JavaScript @openai/agents 어댑터가 아니라 Python openai-agents입니다.

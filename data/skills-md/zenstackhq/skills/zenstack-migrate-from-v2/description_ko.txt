@@ -1,0 +1,1 @@
+기존 ZenStack V2 프로젝트를 V3으로 업그레이드하세요. V2 패키지 이름 변경(zenstack, @zenstackhq/runtime), 정책 플러그인으로 액세스 제어 이동, future()를 post-update/before()로 변환, 추상 모델을 유형+믹스인으로 교체, 서버 어댑터 업데이트(getPrisma → getClient), 클라이언트 측 TanStack 쿼리 후크 마이그레이션 시 사용합니다.
