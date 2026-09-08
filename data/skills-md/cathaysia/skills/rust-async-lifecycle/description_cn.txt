@@ -1,0 +1,1 @@
+Rust 异步生命周期的结构化并发模式：RAII（对象既是资源又是其处理程序）、TaskScope/AsyncClose 以及在顶部选择取消的spawn+select 模式。当 (1) 审核或修复每个 tokio::spawn / select 时使用！反对“在外部产生，在顶部选择取消，保持函数纯净”； (2) 重构反模式，例如句柄/资源分离、选择埋藏在函数内部、嵌套的spawn+select链或用作例程取消的abort()； (3) 设计后台任务、接受循环、优雅关闭和资源耗尽。触发器：并发审计、生成/选择审查、任务泄漏、CancellationToken、TaskScope、结构化并发、正常关闭。

@@ -1,0 +1,3 @@
+通过 QA Insights 规则引擎评估 CawPlan 版本发布风险：计算风险级别、结构化原因、建议操作，并将确认的评估保存到版本。
+使用时机：发布风险评估、能否发布、版本风险级别、发版风险评估、不能发版、版本风险、评估发版风险、保存风险结论。
+不适用于：仅测试执行进度（使用“cawplan-test-execution-progress”）；使用“cawplan-plan-track”计划/工单完成风险作为 A5 结论（显示上下文允许只读“release_at”/“versions track”完成）；缺陷归档（使用“cawplan-defect-ticket”）；测试计划布局；或票证 QA 报告发布准备情况。

@@ -1,0 +1,1 @@
+使用 in-toto 框架实现容器构建的供应链完整性验证：生成签名密钥、定义供应链布局、将管道步骤记录为签名链接元数据、部署前验证、在 Kubernetes 准入时强制执行以及与 SLSA 集成。在证明 CI/CD 管道步骤、证明映像遵循批准的构建流程或在准入时强制来源时使用。关键词：整体、布局、链接元数据、步骤、检查、SLSA、出处、准入。请勿使用 Cosign 对图像进行签名和验证 - 使用 Implementing-image-provenance-verification-with-cosign。

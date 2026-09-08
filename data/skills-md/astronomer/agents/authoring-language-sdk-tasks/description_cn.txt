@@ -1,0 +1,1 @@
+Airflow 语言 SDK 的语言中立基础 — 使用非 Python 语言实现任务逻辑，而 DAG 保留在 Python 中。当用户想要以另一种语言（Java、Kotlin、Go 或其他 JVM/本机语言）运行 Airflow 任务时使用，询问 Python `@task.stub` 如何与本机任务代码配对、任务/DAG ID 必须如何在两侧匹配、数据如何通过 XCom 作为 JSON 传递，或者存在哪种语言 SDK。该技能拥有共享的Python存根模式和概念模型；对于特定语言的本机 API、构建和运行时，请使用该语言的技能（例如，authoring-java-sdk-tasks、authoring-go-sdk-tasks）。

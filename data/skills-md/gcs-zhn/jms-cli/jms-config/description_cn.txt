@@ -1,0 +1,1 @@
+管理 jms-cli JumpServer 服务器配置：config.yaml（架构 v1.0）读/写、platformdirs 配置路径、AES-256-GCM 凭证加密 (enc:v1:)、`jms config add/list/remove/set-default` 命令以及 load_config/add_server/remove_server/set_default_server 库 API。每当用户需要添加或检查服务器别名、修复配置错误（找不到配置、缺少主机/用户名/密码、解密失败）、手动编辑或生成 config.yaml、理解或处理加密凭据或解析 --config 和 JMS_CONFIG 路径行为（即使它们没有说“config”）时，都可以使用。首先是 CLI；使用库 API 进行编程访问。

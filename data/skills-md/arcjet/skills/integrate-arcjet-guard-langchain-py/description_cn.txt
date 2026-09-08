@@ -1,0 +1,1 @@
+将 Arcjet Guard 集成到 Python LangChain 中 — 使用guard_tool 包装您调用的 BaseTool，将 ArcjetMiddleware + ToolPolicy 放在 create_agent 上，或者使用 ArcjetCaptureHandler 观察链。当要求将 Arcjet 添加到 LangChain、create_agent、langchain-core 工具、限制这些工具的速率、屏蔽入站消息或阻止提示注入/PII 时使用。这是Python LangChain，不是LangChain JS createAgent，也不是LangGraph JS。

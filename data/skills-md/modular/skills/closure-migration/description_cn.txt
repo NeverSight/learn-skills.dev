@@ -1,0 +1,1 @@
+将 Mojo 代码从遗留参数闭包（`capturing[_]`、`@__parameter` / `@parameter`、`api[fn](args)`）迁移到取值统一闭包（`api(args, fn)` 和 `{imm}` / `{mut}` / `{var}` / 命名捕获列表）。在删除参数重载、修复“捕获薄”转换错误、重写嵌套启动/回调闭包或迁移任何采用 comptime 函数参数的 API 时使用。还可以在使用“compile_offload_closure func必须完全绑定”编译Mojo对象时使用CI SIGSEGV——即主机精化；使用“kgen -elaborate”验证，而不是远程 GPU 执行。

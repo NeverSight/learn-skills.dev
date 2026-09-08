@@ -1,0 +1,1 @@
+配置 Airflow 来运行语言 SDK 任务（Java、Go 和未来的本机 SDK）——注册协调器、将队列映射到它、确保工作线程的运行时/工件以及调整协调器选项。当用户希望 Airflow 将队列路由到本机语言协调器、询问“[sdk]”、“coordinators”/“queue_to_coordinator”设置、“AIRFLOW__SDK__COORDINATORS”、“jars_root”、“executables_root”或其他协调器“kwargs”、“task_startup_timeout”或为什么未拾取其本机任务时使用。涵盖共享路由机制以及每个协调器选项（例如 JavaCoordinator、ExecutableCoordinator）。

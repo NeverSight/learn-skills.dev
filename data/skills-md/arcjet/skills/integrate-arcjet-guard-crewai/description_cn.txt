@@ -1,0 +1,1 @@
+将 Arcjet Guard 集成到官方 CrewAI 中 — 使用 register_arcjet_hooks 注册进程范围的 PRE_TOOL_CALL，或者使用 Guard_tool 包装您自己调用的独立 BaseTool。当要求将 Arcjet 添加到 CrewAI、LiteAgent、人员注入工具、对这些工具进行速率限制、在启动前筛选入站消息或阻止提示注入/PII 时使用。仅限官方船员；不是 npm CrewAI 端口，也不是 LangChain Crew 包装器。

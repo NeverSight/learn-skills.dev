@@ -1,0 +1,1 @@
+将现有的 ZenStack V2 项目升级到 V3。在重命名 V2 包（zenstack、@zenstackhq/runtime）、将访问控制移至策略插件、将 future() 转换为 post-update/before()、用 types+mixins 替换抽象模型、更新服务器适配器（getPrisma → getClient）以及迁移客户端 TanStack 查询挂钩时使用。

@@ -1,0 +1,1 @@
+以Excel为中间层，通过Wind Excel插件（WSD、WSS、WSI等功能）获取Wind Financial数据。当用户需要检索Wind市场数据、财务指标或行业数据且Wind Python API不可用（由于权限问题或网络限制）时，该功能使用Excel+Wind插件的方式来获取数据。触发场​​景：（1）用户向Wind请求股票、期货、指数的历史K线行情数据； （2）用户请求Wind财务指标（PE、PB、EPS、ROE等）； （3）用户请求宏观或行业数据； (4) Wind Python API无法访问，但Excel插件可用。
