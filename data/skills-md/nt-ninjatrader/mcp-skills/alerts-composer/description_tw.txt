@@ -1,0 +1,3 @@
+將自然語言的警示意圖轉換為驗證過的 Tradovate alert-DSL 表達式。通過 create_alert.expression 提交該表達式。涵蓋 Account（netLiq、dollarOpenPL、dailyLossLimit …）和 Contract（lastPrice、percentChange、settlementPrice …）實體的 37 個數值函數。亦涵蓋 Position（netPos、posOpenPLUsd、posInitMarginUsd …）和 Currency（currentRate）實體。支援算術（加、減、乘、除、括號）、比較（gt、gte、lt、lte、eq、neq）以及頂層的 AND/OR/XOR 邏輯。於提交前離線驗證表達式（語法、函數目錄、括號平衡、平面邏輯規則）。當使用者說「alert」「notify」「notify me」「watch for」「wake me when」「tell me when」「heads up when」「ping me if」「set a trigger」或「let me know if」時使用。亦在使用者詢問同伴技能的建議警示表達式時使用。position‑watchdog、event‑watch 與 pretrade‑risk 也會透過此技能提交其建議的表達式。
+
+請始終以使用者的語言回覆。
