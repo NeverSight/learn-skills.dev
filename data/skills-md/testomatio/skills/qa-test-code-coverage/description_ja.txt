@@ -1,0 +1,1 @@
+テスト ケース (手動 (マークダウン) および自動 e2e (Playwright、Cypress、WebdriverIO、CodeceptJS、Puppeteer、Appium)) をソース コード ファイルにマッピングし、`@testomaatio/reporter --filter "coverage:..."` によって消費される `coverage.tests.yml` マッピングを生成します。このスキルは、ユーザーがコード変更の影響を受けるテストのみを実行する場合、カバレッジ ファイル (手動、e2e、またはその両方) を生成する場合、テストとソース コード間のトレーサビリティ マトリックスを構築する場合、または変更を認識した回帰を設定する場合に使用します。
