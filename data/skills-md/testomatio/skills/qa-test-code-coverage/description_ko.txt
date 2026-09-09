@@ -1,0 +1,1 @@
+테스트 사례(수동(markdown) 및 자동 e2e(Playwright, Cypress, WebdriverIO, CodeceptJS, Puppeteer, Appium))를 소스 코드 파일에 매핑하고 `@testomatio/reporter --filter "coverage:..."`에서 사용하는 `coverage.tests.yml` 매핑을 생성합니다. 사용자가 코드 변경의 영향을 받는 테스트만 실행하거나, 적용 범위 파일(수동, e2e 또는 둘 다)을 생성하거나, 테스트와 소스 코드 간의 추적성 매트릭스를 구축하거나, 변경 인식 회귀를 설정하려는 경우 이 기술을 사용합니다.
