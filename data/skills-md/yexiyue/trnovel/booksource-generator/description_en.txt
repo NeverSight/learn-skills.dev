@@ -1,0 +1,1 @@
+从一个小说网站 URL 生成 TRNovel 书源(trnovel-booksource/v2 JSON)。当用户给出小说/阅读类网站并希望接入 TRNovel、做书源、适配书源、逆向某站点目录/正文时使用——例如「给这个站做个书源 https://…」「generate a book source for X」「把这个小说网站接入 trnovel」「帮我解析这个站的章节/搜索」,即便没明说「书源」二字。 本 skill 会探测真实站点、逆向 search/浏览/书详情/目录(含分卷)/正文 的 CSS/JSONPath 选择器,处理字符集与 Cloudflare 反爬,写出 JSON,并用 `trn doctor` 全流程校验、按 ✓/✗ 迭代到通过。
