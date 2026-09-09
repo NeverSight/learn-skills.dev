@@ -1,0 +1,1 @@
+对 Fastly 下一代 WAF (NGWAF) 工作区执行内部审核，以审核关键模板化保护规则的配置和启用情况。在审核 NGWAF 工作区安全状况、检查丢失或禁用的登录保护规则（LOGINDISCOVERY、LOGINATTEMPT、LOGINSUCCESS、LOGINFAILURE）、审核信用卡验证规则（CC-VAL-ATTEMPT、CC-VAL-FAILURE、CC-VAL-SUCCESS）、审核礼品卡保护规则（GC-VAL-ATTEMPT、GC-VAL-FAILURE、GC-VAL-SUCCESS）、识别潜在登录时使用NGWAF 规则未涵盖的端点，或者将攻击流量与阻止的流量进行比较，以确认启用的规则实际上正在阻止。

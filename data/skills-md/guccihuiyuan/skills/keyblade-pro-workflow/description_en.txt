@@ -1,1 +1,1 @@
-AI代码编写工作流编排器，严格按照 brainstorming -> writing-plans -> executing-plans -> keyblade-pro-code-rules 的顺序执行。 每个步骤执行前和执行后均需用户确认，确认环节不跳过、不自动默认。 支持技能检测，若依赖技能不存在则自动跳过该环节并继续后续流程。
+AI code-writing workflow orchestrator, strictly executes in the order of brainstorming → writing-plans → executing-plans → keyblade-pro-code-rules. User confirmation is required before and after each step; the confirmation stage cannot be skipped or automatically assumed. Supports skill detection; if a required skill is missing, that step is automatically skipped and the subsequent process continues.

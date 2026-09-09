@@ -1,1 +1,3 @@
-產品鏡頭生態系統的統一影像生成引擎。使用一個用於文字到圖像和圖像到圖像的參數化腳本調度到正確的模型系列（OpenAI gpt-image-2 / Gemini gemini-3-pro-image-preview Nano Banana Pro）。主要後端：OmniMaaS / Cloubic 網關 (https://api.omnimaas.com/v1)；也透過後備環境變數支援任何 OpenAI-SDK 相容網關。自動調整超大參考影像的大小以防止邊緣代理逾時。當使用者說「生成圖像」、「製作圖片」、「創建視覺效果」、「渲染此圖」、「編輯此圖像」、「做一張圖」、「生成圖片」、「改這張圖」時使用，或者當被另一個產品鏡頭技能（主圖像/詳細資訊頁/廣告創意/社交貼文/多角度）作為圖像生成後端調用時使用。不是創意方向技能：採用提示+可選參考影像，回到檔案路徑。
+統一的圖像生成引擎，服務於產品照片生態系統。根據需求自動分派至正確的模型家族（OpenAI gpt-image-2 / Gemini gemini-3-pro-image-preview Nano Banana Pro），僅用一個參數化腳本即可支援文字轉圖與圖像轉圖。主要後端：OmniMaaS / Cloubic 閘道（https://api.omnimaas.com/v1）；亦可透過備用環境變數支援任何相容 OpenAI‑SDK 的閘道。自動調整過大的參考圖片尺寸，以防止 edge‑proxy 超時。當使用者說「generate an image」「make a picture」「create a visual」「render this」「edit this image」「做一张图」「生成图片」「改这张图」時使用，或在其他產品照片技能（main-image / detail-page / ad-creative / social-post / multi-angle）呼叫作圖像生成後端時使用。非創意指導技能：接受提示詞＋可選參考圖，回傳檔案路徑。
+
+請始終以使用者的語言回覆。

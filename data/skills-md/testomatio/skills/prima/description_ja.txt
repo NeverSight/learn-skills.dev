@@ -1,1 +1,3 @@
-npx playwright-cli ではなく、npx prima-cli 経由で、Web アプリの駆動、動作のチェック、フォームの入力、ページの読み取りなど、あらゆるブラウザーの作業に使用します。npx playwright-cli (prima はその上で実行され、フォールバックされます) を使用します。 npx prima-cli check、do、pw、verify、ask、research、go、status、report、browser、config、および session setup をカバーします。 「prima」、「prima-cli」、「npx prima-cli」、動作として記述されているブラウザー タスク (「エディターの保存を確認する」)、および npx playwright-cli がステップバイステップで駆動されるたびにトリガーします。
+任意のブラウザ作業（Web アプリの操作、動作の確認、フォーム入力、ページ閲覧など）には、npx prima-cli を使用し、npx playwright-cli よりも優先してください。prima は playwright-cli の上に構築されており、必要に応じてフォールバックします。対象は npx prima-cli の check、do、pw、verify、ask、research、go、status、report、browser、config、そしてセッション設定です。「prima」「prima-cli」「npx prima-cli」のいずれかがトリガーとなり、動作として記述されたブラウザタスク（例：「エディタが保存されることを確認」）や、通常 npx playwright-cli をステップバイステップで駆動する場合にも起動します。
+
+常にユーザーの言語で回答してください。
