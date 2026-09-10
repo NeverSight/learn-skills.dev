@@ -1,1 +1,1 @@
-完成 worktree 变更：必要时为 detached checkout 创建 Conventional 分支，提交并 rebase 到目标分支，再从目标 worktree 合并；源、目标相同时直接提交。默认目标为远程默认分支。
+Complete worktree changes: create a Conventional branch for a detached checkout when needed, commit and rebase onto the target branch, then merge from the target worktree; if the source and target are the same, commit directly. The default target is the remote's default branch.

@@ -1,11 +1,7 @@
-Schreiben Sie ein Drehbuch für ein KI-Kurzdrama: Wandeln Sie die Episodenzusammenfassungen von einer Romanskizze in eine strukturierte Reihe von Szenen plus einen Beatflow (abwechselnde Action-Beats und Dialogzeilen) um. Beziehen Sie den Sprecher und den Ton für jede Dialogzeile ein und berechnen Sie die Episodendauer deterministisch basierend auf der Sprechgeschwindigkeit. Ausgabe von script.json, Markdown und einem einseitigen Überprüfungsbericht (Daueranzeige/Episodenskripte/Szenenmasterliste/Dialogbuch, aggregiert nach Charakter, mit exportiertem JSON).
-
-Das Drehbuch leitet das Drama; Das Storyboard verwaltet das Schießen – diese Fertigkeit hat kein Storyboard, hat keine Schussnummern und schreibt keine Generierungsaufforderungen; Diese gehören zur Storyboard-Fertigkeit der nächsten Stufe.
-
-Alle zehn Quality Gates werden vom Drehbuch deterministisch überprüft (Episodenlänge ±15 %, jeder Satz ≤35 Zeichen, gültige Sprecher, Hook-Suspense auf dem Papier, Hook innerhalb der ersten drei Beats konkretisiert (HookBeat beansprucht den Cold Opening), mindestens ein Action-Beat pro Szene, beanspruchter Payoff-Punkt, vorgelagerte Abstimmung von Charakteren/Szenen/Beleuchtung/Requisiten etc.).
-
-Wenn „outline.json“ vorhanden ist, verwenden Sie es als Startwert, um das Grundgerüst jeder Episode vorab zu füllen. Pass--Kunst zusammen mit Beleuchtungszustand zur Versöhnung.
-
-Keine Abhängigkeiten, kein API-Schlüssel, Verwendung des aktuellen Sitzungskontingents.
-
+Schreiben Sie Drehbücher für KI-Kurzdramen: Verwandeln Sie die Episodenzusammenfassungen eines Romanentwurfs in strukturierte Szenen + Beatflow (abwechselnde Action-Beats und Dialogzeilen).  
+Jede Dialogzeile umfasst den Sprecher und den Tonfall, und die Dauer pro Episode wird deterministisch auf der Grundlage der Sprechgeschwindigkeit berechnet. Erstellen Sie script.json, Markdown und einen einseitigen Überprüfungsbericht (Daueranzeige / Episodenskripte / Szenenmasterliste / Dialogskript, aggregiert nach Charakter, einschließlich exportiertem JSON).  
+Das Drehbuch verwaltet das Drama, das Storyboard verwaltet die Dreharbeiten – diese Fähigkeit verwaltet keine Storyboard-Frames, hat keine Einstellungsnummern und schreibt keine Eingabeaufforderungen für die Generierung; Diese gehören zur Storyboard-Fertigkeit der nächsten Stufe.  
+Alle zehn Qualitätskontrollpunkte werden durch das Drehbuch deterministisch überprüft (Episodenlänge innerhalb von ±15 %, jede Zeile ≤ 35 Zeichen, gültige Sprecher, auf Papier geschriebene Hooks und Spannung, innerhalb der ersten drei Beats realisierte Hooks (HookBeat beansprucht die kalte Eröffnung), mindestens ein Action-Beat pro Szene, Anspruch auf Payoff-Momente, vorgelagerte Abstimmung von Charakteren/Sets/Beleuchtung/Requisiten usw.).  
+Wenn „outline.json“ vorhanden ist, verwenden Sie es als Startwert, um das Grundgerüst jeder Episode vorab zu füllen. Mit der Option --art können Sie auch die Beleuchtungszustände abgleichen.  
+Keine Abhängigkeiten, kein API-Schlüssel, Verwendung des aktuellen Sitzungskontingents.  
 Verwenden Sie diese Option, wenn Sie gebeten werden, Drehbücher zu schreiben, Drehbücher, Dialoge, Szenen zu produzieren, Dramen zu schreiben oder Drehbücher für KI-Kurzdramen zu schreiben.

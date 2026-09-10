@@ -1,25 +1,20 @@
-Doubaoya (doubaoya/ce canard) paquet d’extraction de données pour les nouveaux médias : DOUBAOYA_API_KEY récupère des données structurées et effectue une vérification factuelle en ligne. Fournit uniquement des données : le corps du texte appartient à **dby‑write**, la vérification des mots interdits appartient à **dby‑banned‑words**, le formatage et l’enregistrement des brouillons appartiennent à **dby‑publish** ; en cas de doute, interroger **dby**. Si vous avez besoin d’images finies (rendu/modification/illustration/visuel principal), elles relèvent de **dby‑image** ; ce paquet ne fournit que des **données de référence** pour les couvertures et les titres.  
+Package d'extraction de données nouveaux médias Doubaoya (doubaoya/this duck) : DOUBAOYA_API_KEY extrait les données de la plateforme pour la vérification des faits du réseau. Fournit uniquement des données : l'écriture du texte principal appartient à dby-write, la vérification des mots interdits appartient à dby-banned-words, le formatage et l'enregistrement des brouillons appartiennent à dby-publish ; en cas de doute, demandez à dby. Pour les images finies (générer une image/modifier une image/illustrer/visuel principal) appartient à dby‑image ; ce package fournit uniquement des **données de référence** pour la couverture et le titre.
 
-**Mots déclencheurs**  
+Mots déclencheurs :  
 
-- **Xiaohongshu** : recherche / extraction / œuvres / création / sélection de sujet / titre / couverture / classement / liste / liste chaude / liste quotidienne / liste hebdomadaire / classement hebdomadaire / TOP / notes populaires / notes virales / requête de note  
-- **Public account (WeChat Official Account)** : extraction de données / spider / titre / couverture / classement / liste / article viral / cheval noir / benchmark  
-- **Douyin** : recherche / extraction de données / commentaires / recherche en temps réel / recherche globale  
-- **Video channel** : IA / rapport quotidien / viral / sélection de sujet  
-- **Viral** : article / titre / couverture / structure / imitation / récapitulatif / classement / sélection de sujet / découverte de notes  
-- **Topic selection** : dissection / inspiration / matériel / angle / signal  
-- **Cover** : inspiration / référence / modèle / design / sélection de sujet  
-- **Title** : inspiration / optimisation / modèle / génération  
-- **Account portrait / account health check / account health level / account posting list**  
-- **Benchmarking** : analyse / œuvres / recommandation / matrice / compte / écrire plus tard  
-- **Competitor** : compte / diagnostic / suivi / récapitulatif des publications  
-- **Overseas expansion** : sélection de sujet / viral / rapport quotidien / rafale de trafic  
-- **Note** : benchmark / dissection / génération / sélection de sujet  
-- **Content** : création / inspiration / expansion à l’étranger  
-- **Cross‑platform** : sélection de sujet / analyse / recherches tendance  
-- **Hotspot** : scan / liste, point chaud du jour / point chaud global / poursuite du point chaud / chevaucher le point chaud / exploiter le point chaud pour la sélection de sujet / trouver des sujets / sujets de milieu de ligne / sujets de court‑vidéo / recherches tendance sur tout le réseau / mots‑clés tendance / liste chaude du réseau entier / liste chaude agrégée / TOP10 liste chaude / liste quotidienne / viral du jour / viral hebdomadaire / viral récent / viral toutes plateformes / viral faible suiveur / viral amateur / recherche Douyin viral, faible suiveur haut‑like / notes cheval noir / comptes cheval noir / meilleurs comptes / comptes populaires / comptes similaires / comptes de benchmark / tactiques petits comptes / benchmark démarrage à froid / référence de lancement de compte / diagnostic de compte public / diagnostic par lot / throttlé / nombre de lectures en baisse / tendance hebdomadaire / œuvres des 30 derniers jours / dernière sortie / le plus de likes / montée continue / liste de croissance / croissance des lectures / classement du taux de croissance / direction du trafic / indice de chaleur / poursuite du trafic / poursuite des mises à jour / recherche de sujet / regarder le contenu chaud de la chaîne, titres à fort clic / générer un titre  
-- **Check source / citation source / online search / online verification / Doubao search / social‑media public opinion / opinion monitoring / user demand / comment analysis / comment direction / view comments / scrape comment section**  
-- **Parse link / link parsing / work details / scrape article / scrape Douyin works / write like Xiaohongshu / find benchmark notes / popular articles / batch crawl public accounts / monitor public accounts / subscribe to public accounts / what a certain public account posted**  
-- **AI video channel / Xiaohongshu Douyin public account / cultural tourism / short drama / track daily report / what’s being promoted daily / real‑time data extraction**  
-
-Veuillez toujours répondre dans la langue de l’utilisateur.
+- Xiaohongshu : recherche/grattage/contenu/création/sélection de sujets/titre/couverture/classement/liste/hot list/liste quotidienne/liste hebdomadaire/classement hebdomadaire/TOP/notes populaires/notes virales/requête de notes  
+- Compte public (Compte Officiel WeChat) : extraction de données / crawler / titre / couverture / classement / liste / article viral / cheval noir / benchmark  
+- Douyin : recherche / extraction de données / commentaires / recherche en temps réel / recherche complète  
+- Compte vidéo : IA / rapport quotidien / viral / sélection de sujets  
+- Viral : article/titre/couverture/structure/imitation/revue/classement/sélection de sujet/découverte de notes  
+- Sélection du sujet : répartition / inspiration / matière / angle / signal  
+- Couverture : inspiration/référence/modèle/conception/sélection de sujet  
+- Titre : inspiration / optimisation / template / génération  
+- Portrait du compte / bilan de santé du compte / score de santé du compte / liste des publications du compte  
+- Benchmark : analyse / contenu / recommandation / matrice / compte / puis rédiger plus tard  
+- Concurrent : compte / diagnostic / suivi / post review  
+- Outre-mer : sélection de sujets / viral / rapport quotidien / aubaine de trafic  
+- Remarque : benchmark / répartition / génération / sélection du thème  
+- Contenu : création / inspiration / outre-mer  
+- Multiplateforme : sélection de sujets / analyse / recherche de tendances  
+- Hotspot : analyse/liste, hotspot du jour/hotspot complet/chasse d'un hotspot/équitation hotspot/sélection de sujets à effet de levier/trouver un sujet/sujet à moyen terme/sujet vidéo courte/recherche de tendances mondiales/mots-clés tendances/liste de tendances mondiales/liste de tendances agrégée/tendance TOP10/liste quotidienne/viral du jour/viral hebdomadaire/viral récent/viral toutes plateformes/viral à faible suivi/viral amateur/recherche virale Douyin, low-follower high-like / dark-horse note / compte dark-horse / compte principal / compte populaire / compte similaire / compte de référence / stratégie de petit compte / référence de démarrage à froid / référence de démarrage de compte / diagnostic de compte public / diagnostic par lots / limitation / nombre de lectures abandonné / tendance hebdomadaire / travaux des 30 derniers jours / dernière version / plus de likes / augmentation continue / liste de croissance / lecture de la croissance / classement du taux de croissance / direction du trafic / indice de chaleur / poursuite du trafic / poursuite des mises à jour / recherche thématique / vue contenu populaire dans la piste, titre à clic élevé / générer un titre, vérifier la source / source de référence / recherche de réseau / vérification de réseau / recherche Doubao / opinion publique sur les réseaux sociaux / surveillance de l'opinion publique / demande des utilisateurs / analyse des commentaires / direction des commentaires / afficher les commentaires / gratter la section des commentaires, analyser le lien / analyser le lien / détails du travail / gratter l'article / gratter le travail de Douyin / écrire Xiaohongshu en conséquence / trouver des notes de référence / article populaire / analyse par lots des comptes publics / regarder des comptes publics / s'abonner à des comptes publics / ce qu'un certain compte public a publié, comptes vidéo AI / Comptes publics de Xiaohongshu Douyin / tourisme / court métrage dramatique / suivi du rapport quotidien / ce qui est promu quotidiennement / extraction de données en temps réel.
