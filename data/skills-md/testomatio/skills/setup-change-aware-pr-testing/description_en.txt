@@ -1,0 +1,1 @@
+Set up CI so every pull request gets a Testomat.io run scoped to the code it changes. One job runs after the deploy — it creates the run and launches the affected tests into it. Use when the user wants to integrate Testomat.io runs into a CI pipeline, create test runs per pull request, or set up change-aware testing that triggers affected tests from CI events.

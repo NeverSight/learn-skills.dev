@@ -1,0 +1,13 @@
+---
+name: address-pr-review
+description: >-
+  Review the comments on a PR and address the findings that are valid and
+  required. Use when the user says "address-pr-review", asks to address the PR
+  review, handle or apply the review comments or review feedback on a PR, or
+  fix what the reviewers asked for. Defaults to the PR for the current branch
+  when none is named. This skill changes code; it is not a review pass.
+---
+
+# Address PR review
+
+Review the PR comments. Address the valid and required findings.
