@@ -1,0 +1,1 @@
+用於將 Omni PresenceUserConfig（線上狀態配置）部署為一個完整記錄元資料寫入，並一致設定拒絕/ACW 欄位：自動接受關閉、拒絕開啟、拒絕原因開啟（在同一包中部署 PresenceDeclineReason）以及對話後工作總結計時器。代理按使用者名稱分配。通过元数据 API files[].state 信号实现幂等。触发器：创建在线状态配置、为座席启用拒绝 + 拒绝原因 + ACW 总结计时器、为用户分配在线状态配置。请勿用于 ServicePresenceStatus（单独的技能）、对状态的权限集访问或在 ServiceChannel 上设置通道级 ACW 计时器。

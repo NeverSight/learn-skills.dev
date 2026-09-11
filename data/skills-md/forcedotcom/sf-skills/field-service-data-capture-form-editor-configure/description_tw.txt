@@ -1,0 +1,1 @@
+修補已連線的 Salesforce 組織中已部署的現有資料擷取流。透過工具 API 檢索即時流元資料 JSON，應用用戶請求的更改，然後將其修補回來。當使用者命名現有流程並要求新增/刪除/重新命名欄位、更改可見性、修復錯誤、新增視覺美化或將佔位符號替換為真實元件時使用（「將 Notes 欄位新增至 Inventory_Transfer」、「修正 Work_Order_Number 上的可見性規則」、「使零件重複器可選」、「將 Signature 佔位符元件取代為真實的元件」。不要使用此技能來建立全新的流程 - 即 fs-data-capture-form-designer 和 fs-data-capture-form-deployer。

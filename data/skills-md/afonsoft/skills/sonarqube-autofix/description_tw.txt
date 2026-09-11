@@ -1,0 +1,1 @@
+在分析 SonarQube 問題並使用建議的修復建立 SPEC SDD 時使用。依類型（錯誤、程式碼味道、安全性）對問題進行分類，並產生「.specs/SPEC-{YYYYMMDD}-{issue-key}-{type}.md」以供「execute-tdd-spec」實作。透過環境變數支援社群、企業和自訂 SonarQube 部署。請勿在沒有 SonarQube 的情況下用於一般程式碼審查（使用程式碼審查和品質）、在沒有 SonarQube 的情況下進行整個儲存庫品質介入（使用品質測試實作）或用於非 SonarQube 靜態分析工具。 afonsoft/skills 集合的一部分。

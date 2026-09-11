@@ -1,0 +1,1 @@
+如何根據 RFC 9457 設計和審查 HTTP API 的「問題詳細資訊」錯誤回應（https://www.rfc-editor.org/info/rfc9457/，廢棄 RFC 7807） - 與專案無關。涵蓋 application/problem+json（和 +xml）媒體類型、type/status/title/detail/instance 成員、擴充成員、定義新問題類型、about:blank 預設值以及錯誤中洩漏實作細節的安全注意事項。在設計 HTTP API 的錯誤/異常回應格式、檢查錯誤回應是否符合規格或決定 API 應在 4xx/5xx 上傳回什麼時使用。

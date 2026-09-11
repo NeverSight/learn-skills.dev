@@ -1,0 +1,1 @@
+用於編寫 Omni WorkSkillRouting 規則（基於欄位的技能標準）：將相關實體的欄位值對映至所需的 Omni 技能（例如，當 Case.Origin = Phone 時新增 Voice 技能），透過 Metadata API 以單一 WorkSkillRouting 記錄部署。透過 Metadata API files[].state 訊號具備冪等性；每個相關實體僅限一條規則。觸發條件：新增基於欄位的技能路由、依 Case 欄位將案件路由至技能、依 MessagingSession 欄位將訊息會話路由至技能、設定基於屬性的技能路由、對欄位值要求 Omni 技能。請勿用於建立技能或將代理人綁定至該技能（service-omni-skills-based-routing-configure）、建立代理人使用者，或設定佇列。

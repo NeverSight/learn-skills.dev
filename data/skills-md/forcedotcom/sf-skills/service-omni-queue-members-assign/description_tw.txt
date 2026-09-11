@@ -1,0 +1,1 @@
+用於透過 GroupMember 資料 API POST 將代理使用者綁定到 Salesforce 佇列，並具有基於 SOQL 的冪等性（安全性重新運行 - 僅插入缺少的綁定）。綁定產生的演示代理程式 (agent{1..N}.<suffix>@example.com) 或作為使用者名稱/使用者 ID 傳遞的真實代理程式的明確列表。觸發器：將座席新增至案例/語音佇列、將座席使用者指派至佇列、填入 Omni 路由的佇列成員資格。請勿用於建立佇列 (service-omni-queue-deploy)、建立代理使用者 (service-omni-agent-users-create) 或指派權限集 (service-omni-permission-set-assign)。
