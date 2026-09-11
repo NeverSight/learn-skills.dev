@@ -1,1 +1,3 @@
-Generate editable UI prototypes for B/C side using Figma MCP. Use it when the user says draw prototype, wireframe, Figma draft, backend page, or App page. Force embedding of the full frontend‑design workflow (design‑plan → Anti‑Slop → page.ui.yaml → Figma → screenshot self‑review → incremental patch), together with DESIGN.md dual‑track visual, to avoid AI’s default aesthetics and random re‑generation. Do not generate without a spec; do not call use_figma without an Anti‑Slop PASS.
+用 Figma MCP 生成 B/C 端可编辑 UI 原型。用户说画原型、线框图、Figma 稿、后台页面、App 页面时使用。
+强制嵌入 frontend-design 全流程（design-plan → Anti-Slop → page.ui.yaml → Figma → 截图自审 → 增量 patch），
+配合 DESIGN.md 双轨视觉，避免 AI 默认审美与抽卡式重生成。无 spec 不生成；无 Anti-Slop PASS 不调用 use_figma。

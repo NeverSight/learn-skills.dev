@@ -1,0 +1,1 @@
+Manually unpacks a runtime-packed Windows binary by finding the original entry point (OEP) through tail-jump and entropy analysis, then guiding a memory dump at OEP. Activates for requests to manually unpack a sample, find the OEP, or unpack a custom/unknown packer that generic tools cannot handle.

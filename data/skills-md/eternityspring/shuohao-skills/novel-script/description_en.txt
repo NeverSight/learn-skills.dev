@@ -1,7 +1,10 @@
-Write scripts for AI short dramas: transform the episode summaries of a novel-outline into structured scenes + beat flow (alternating action beats and lines of dialogue).  
-Each line of dialogue includes the speaker and tone, and the duration per episode is deterministically calculated based on speech rate. Produce script.json, Markdown, and a single-page review report (duration gauge / episode scripts / scene master list / dialogue script aggregated by character, including exported JSON).  
-The script manages the drama, the storyboard manages the shooting—this skill does not handle storyboard frames, has no shot numbers, and does not write generation prompts; those belong to the next-level storyboard skill.  
-All ten quality checkpoints are deterministically verified by the script (episode length within ±15%, each line ≤35 characters, valid speakers, hooks and suspense written on paper, hooks realized within the first three beats (hookBeat claims the cold opening), at least one action beat per scene, claim of payoff moments, upstream reconciliation of characters/sets/lighting/props, etc.).  
-If outline.json is present, use it as a seed to pre-fill each episode’s skeleton; with the --art option, reconcile lighting states as well.  
-Zero dependencies, no API key, using the current session quota.  
-Use when asked to write scripts, produce scripts, dialogue, scenes, write dramas, screenwriting for AI short drama.
+给 AI 短剧写剧本：把 novel-outline 的分集梗概落成结构化的场次 + 节拍流（动作节拍与台词行交替），
+台词逐句带说话人与语气，时长逐集按语速确定性折算。产出 script.json + Markdown + 单页评审报告
+（时长仪表 / 分集剧本 / 场次总表 / 按角色聚合的台词本，含导出 JSON）。
+剧本管戏，分镜管拍——本 skill 不分镜头、无镜号、不写生成提示词，那些是下一层分镜 skill 的活。
+10 道质量门全部由脚本确定性检查（每集时长 ±15%、单句 ≤35 字、说话人合法、钩子悬念落纸、
+钩子具象前 3 拍内兑现（hookBeat 认领冷开场）、每场至少一个动作节拍、爽点认领、
+角色/场景/光照/道具对账上游……）。
+有 outline.json 就用 seed 预填每集骨架；给 --art 连光照状态一起对账。
+零依赖、零 API key，用当前会话额度。
+Use when asked to 写剧本、出剧本、台词、场次、写戏、screenwriting for AI short drama。
