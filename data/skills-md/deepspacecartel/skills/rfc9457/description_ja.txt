@@ -1,0 +1,1 @@
+RFC 9457 (https://www.rfc-editor.org/info/rfc9457/、廃止された RFC 7807) に従って HTTP API の「問題の詳細」エラー応答を設計およびレビューする方法 - プロジェクトに依存しません。 application/problem+json (および +xml) メディア タイプ、type/status/title/detail/instance メンバー、拡張メンバー、新しい問題タイプの定義、about:blank のデフォルト、エラー時の実装詳細の漏洩に関するセキュリティ上の考慮事項について説明します。 HTTP API のエラー/例外応答形式を設計する場合、仕様準拠のためのエラー応答を確認する場合、または API が 4xx/5xx で何を返すかを決定する場合に使用します。

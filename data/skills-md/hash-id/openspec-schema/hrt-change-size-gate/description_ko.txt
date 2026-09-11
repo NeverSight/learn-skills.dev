@@ -1,0 +1,1 @@
+변경 크기 확인은 "변경 사항" 목록이 마무리되기 전에 tempa-spec 스키마의 '제안' 단계 내에서 실행됩니다. 초안이 각각 고유한 변경이 필요한 여러 개의 독립적인 변경 사항을 묶는 경우를 감지하고 중지하고 사용자에게 분할할지 여부를 묻습니다(기본값: 하나의 변경, 에이전트는 자체적으로 분할하지 않음). 사용자가 분할할 때 Proposal.md의 범위 외 섹션, discovery.md의 주요 결정 및 openspec/BACKLOG.md에 지연된 조각을 기록합니다. 근거는 docs/research/2026-08-27-mattpocock-skills-gate-and-seams.md에 있습니다.

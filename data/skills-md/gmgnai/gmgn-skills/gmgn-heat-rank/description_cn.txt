@@ -1,0 +1,15 @@
+生成当前最热且安全足以查看的代币列表，覆盖 GMGN 支持的所有链，评分范围 0‑100，最多十个名称。这是一项筛选技能：从无地址开始，扫描所有七条链，依据流动性、真实成交量、持仓集中度、 rug 与开发风险对每个候选进行过滤，对幸存者进行跨链统一评分，并返回所有超过评分底线的代币——在行情疲软时少于十个，绝不填补至配额。
+
+在用户想要一个精心挑选的热榜而非原始排名时使用本技能，例如：“热榜”“热门代币”“近期热门”“帮我抓一轮热榜”“现在有什么值得关注的热币”“全链热门币”“生成热榜”“有没有新的热门盘”“what is hot right now”“give me the hot list”“which trending tokens are actually worth looking at”“screen the trending list for me”。其他语言的同义提问同样适用——匹配意义而非文字。
+
+不要在以下情形使用本技能：
+- 仅需原始排名的情况（如 “show me the top 20 by volume on sol”“1h trending”“hot search list”），这应调用 `gmgn-market trending` / `hot‑searches`，返回交易所未改动的原始排序；
+- 刚上线的 bonding‑curve 代币（如 “just launched”“pump.fun new”“新盘”），使用 `gmgn-market trenches`；
+- 用户已有的单个地址查询（如 “is this token safe”“打个分”“尽调”），使用 `gmgn-contract-dd`；
+- 图表阅读需求（如 “走势怎么样”“什么形态”），使用 `gmgn-kline-pattern`；
+- 低于本技能筛选底线的早期机会（如 “值得埋伏吗”“新币筛选”“早期机会”“discover early‑stage opportunities”），同样使用 `gmgn-market trenches`，因为本技能的候选池起始于市值 50 万、流动性 10 万，且不包含 bonding‑curve 代币；
+- 对同一市场的钱包侧观察（如 “聪明钱在买什么”“KOL 在买什么”“on‑chain alpha”“copy‑trade signals”），使用 `gmgn-track smartmoney` / `kol`，该功能回答谁在买，而非哪些代币值得关注。
+
+区分标准在于谁在挑选代币：若用户直接点名代币，则不使用本技能；若用户请求技能自行挑选，则使用本技能。当没有代币被点名且用户的措辞与 `gmgn-market` 重叠（如 “hot coins”“what's pumping”“trending tokens”“热门币”“什么币在涨”），判断依据是答案的形态：返回交易所原始排序的未处理 N 行列表属于 `gmgn-market trending`；返回通过风险过滤、带有评分且可直接操作的短列表则属于本技能。若用户的请求模糊且没有其他线索，默认使用本技能，因为本技能可以指向原始排名，而原始排名本身无法自行筛选。
+
+运行本技能无需任何输入，仅凭触发短语即可，无需提供地址、链或金额。用户可在请求中限定四个可选参数：扫描的链范围、年龄上限、返回的名称数量以及评分底线；任何此类数值的更改均会在报告中标明。

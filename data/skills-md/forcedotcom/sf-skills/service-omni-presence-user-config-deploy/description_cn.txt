@@ -1,0 +1,1 @@
+用于以单条记录的元数据写入方式部署 Omni PresenceUserConfig（存在配置），并一致地设置拒接/通话后工作（ACW）字段：自动接收关闭，拒接开启，拒接原因开启（在同一包中部署 PresenceDeclineReason），以及通话后工作（After‑Conversation‑Work）收尾计时器。代理人通过用户名分配。通过 Metadata API 的 files[].state 信号实现幂等。触发条件：创建存在配置，为代理人启用拒接、拒接原因和通话后工作计时器，将存在配置分配给用户。请勿用于 ServicePresenceStatus（单独技能）、权限集对状态的访问，或在 ServiceChannel 上设置渠道级别的通话后工作计时器。

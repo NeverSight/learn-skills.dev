@@ -1,0 +1,1 @@
+在 tempa-spec 架构的 `proposal` 阶段运行变更大小检查，在 “What Changes” 列表最终确定之前。检测草稿中捆绑了多个独立的变更且每个都应单独处理的情况，暂停并询问用户是否拆分（默认：一个变更；代理永不自行拆分），当用户选择拆分时，将延期的切片记录在 proposal.md 的 “Out of Scope” 部分、discovery.md 的 “Key Decisions” 中，以及 openspec/BACKLOG.md。理由详见 docs/research/2026-08-27-mattpocock-skills-gate-and-seams.md。

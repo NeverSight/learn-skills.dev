@@ -1,0 +1,1 @@
+用于编写 Omni WorkSkillRouting 规则（基于字段的技能条件）：将相关实体字段值映射到所需的 Omni 技能（例如，当 Case.Origin = Phone 时添加 Voice 技能），通过 Metadata API 部署为一个 WorkSkillRouting 记录。通过 Metadata API files[].state 信号实现幂等；每个相关实体对应一条规则。触发器：添加基于字段的技能路由、通过 Case 字段路由到技能、通过 MessagingSession 字段路由到技能、配置基于属性的技能路由、为字段值要求 Omni 技能。不要用于创建技能或将代理绑定到技能（service-omni-skills-based-routing-configure）、创建代理用户或配置队列。

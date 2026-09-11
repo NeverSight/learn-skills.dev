@@ -1,0 +1,1 @@
+SonarQube 문제를 분석하고 제안된 수정 사항으로 SPEC SDD를 생성할 때 사용합니다. 유형(버그, 코드 냄새, 보안)별로 문제를 분류하고 구현할 `execute-tdd-spec`을 위한 `.specs/SPEC-{YYYYMMDD}-{issue-key}-{type}.md`를 생성합니다. 환경 변수를 통해 Community, Enterprise 및 맞춤형 SonarQube 배포를 지원합니다. SonarQube가 없는 일반 코드 검토(코드 검토 및 품질 사용), SonarQube가 없는 전체 저장소 품질 개입(품질 테스트 구현 사용) 또는 SonarQube가 아닌 정적 분석 도구에는 사용하지 마십시오. afonsoft/skills 컬렉션의 일부입니다.

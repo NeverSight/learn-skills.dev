@@ -1,0 +1,1 @@
+修补已在连接的 Salesforce 组织中部署的现有数据捕获 Flow。通过 Tooling API 获取实时 Flow 元数据 JSON，应用用户请求的更改，然后将其 PATCH 回去。当用户指定现有 Flow 并要求添加/删除/重命名字段、更改可见性、修复错误、添加视觉优化，或将占位符替换为真实组件时使用（例如 “向 Inventory_Transfer 添加 Notes 字段”、 “修复 Work_Order_Number 的可见性规则”、 “使 parts repeater 可选”、 “用真实的 dcSignature 组件替换 Signature 占位符”）。请勿使用此技能来构建全新 Flow——那是使用 fs-data-capture-form-designer 然后是 fs-data-capture-form-deployer。

@@ -1,0 +1,1 @@
+用于通过 GroupMember Data API POST 将代理用户绑定到 Salesforce 队列，使用基于 SOQL 的幂等性（安全重跑——仅插入缺失的绑定）。可以绑定生成的演示代理（agent{1..N}.<suffix>@example.com）或传入的真实代理的用户名/用户 ID 列表。触发条件：将代理添加到 Case/Voice 队列，将代理用户分配到队列，为 Omni 路由填充队列成员。不要用于创建队列（service-omni-queue-deploy），创建代理用户（service-omni-agent-users-create），或分配权限集（service-omni-permission-set-assign）。
