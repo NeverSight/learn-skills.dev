@@ -1,0 +1,1 @@
+阿里云百炼 Sandbox 实例和模板生命周期管理入口：当用户需要创建、查询、连接、暂停、恢复或释放百炼 Sandbox，或查看内置基础镜像、上传模板挂载文件、创建、更新、查询、删除 Sandbox 模板以及检查模板构建状态时，使用 `bl sandbox`。当用户想要访问已创建的实例、打开 WebShell、通过浏览器使用浏览器自动化连接，或查看 VNC 实时画面时，需要先获取连接信息，然后连接到数据平面。这不适用于主机执行的 Sandbox 设置、E2B 官方云资源或通用文件传输。`agents.yaml` 托管给 bailian-managed-agent，负责 Agent / Session / Environment 管理。官方安装方式：`bl skill init`（随共享协议 bailian-protocol 一起安装）。

@@ -1,0 +1,1 @@
+用於透過元資料 API 在 Salesforce 組織上啟用五個全通路基本設定。規範編寫器 script/configure-and-report.sh 在一次呼叫中檢測、部署和重新驗證（運行模式）或僅檢測（計劃模式）；它是冪等的（僅在切換為 false 或丟失時部署）並通過沙箱/CDO/Trial/DE safe_to_write 檢查來保護寫入。它始終在其報告中顯示僅 UI 登入行為差距。觸發器：啟用全通路、開啟全通路基本設定、設定 OmniChannelSettings、部署設定：全通路。請勿用於配置下游 Omni 實體（佇列、狀態、權限 - 使用特定於實體的技能）或部署其他設定類型（使用 platform-metadata-deploy）。

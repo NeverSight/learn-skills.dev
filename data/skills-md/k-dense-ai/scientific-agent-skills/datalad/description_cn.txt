@@ -1,0 +1,1 @@
+使用 DataLad 和 git-annex 检索、版本控制并发布科学数据集，并通过 datalad run、rerun 和 containers‑run 捕获计算溯源。当以下情形出现时使用：从 OpenNeuro、DANDI、datasets.datalad.org 或任何 DataLad 数据集克隆或获取数据；数据集中的文件显示为损坏的符号链接或仅是指向真实数据的小指针；分析需要机器可读的记录，说明每个输出是如何产生的，以便重新执行；或将数据集发布到如 GitHub 仓库加存储远程等兄弟仓库时。还可用于在 DataLad 与普通 Git 之间决定哪种方式更适合用于携带数据的仓库。

@@ -1,0 +1,1 @@
+抓取該技能所在的主機儲存庫，並建立/維護「.lokf/」知識套件作為 sidecar，符合連結開放知識格式 (LOKF) 模式（OKF 的語意設定檔）。使用時機：在.lokf/knowledge/下方建立或更新概念檔案；新增類型化關係（isPartOf/dependsOn/drivenFrom/about/references/...）；選擇 LOKF 類別（服務/指標/資料集/表格/策略/Playbook/GlossaryTerm/...）；設定 base_iri/form/ct 工具JSON Schema 和 SHACL 驗證捆綁包；將捆綁包轉換/提供為圖表；審核 .lokf/ 的正確性、差距或錯誤；準備 LOKF 變更以供維護人員審核；或運行計劃的 LLM 圖書館員任務以保持 .lokf/ 準確（Karpathy 規則）。

@@ -1,0 +1,3 @@
+Genera claves SSH según los estándares del equipo y devuelve la clave pública. Ed25519 por defecto, RSA 4096 como respaldo (RSA 2048 nunca está permitido); las claves privadas tienen permiso chmod 600 y se nombran según el servicio. Usa esta habilidad cada vez que el usuario necesite una clave SSH, un par de claves, una clave de despliegue o una clave de acceso para un servicio o máquina, o mencione ssh‑keygen/puttygen — por ejemplo “generar clave ssh”, “crear un par de claves ssh”, “hacer una clave de acceso para el servicio xxx”, “generar una clave de despliegue” — incluso si no menciona los estándares del equipo. Prefiere puttygen (.ppk/.pem/.pub); recurre a ssh‑keygen como alternativa.
+
+Por favor, responde siempre en el idioma del usuario.
