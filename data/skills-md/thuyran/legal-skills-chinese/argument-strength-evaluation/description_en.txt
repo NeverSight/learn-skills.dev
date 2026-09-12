@@ -1,11 +1,9 @@
-After an AI agent completes a segment of legal reasoning or argumentation, it needs to self‑evaluate the conclusion, judging the overall strength and confidence of the argument, and identify and mark weak links in the reasoning chain.  
-Trigger conditions include but are not limited to:  
-- A reliability rating for the conclusion is required after completing legal analysis.  
-- The user explicitly requests an assessment of the persuasiveness or reliability of a particular argument.  
-- Multiple competing legal interpretations exist that need a comparison of argumentative strength.  
-- The reasoning process involves uncertain factors (unclear facts, legal gaps, disputed viewpoints) that need to be flagged.  
-- Providing risk warnings to decision‑makers, explaining the limitations of the conclusion.  
-- Evaluating the offensive and defensive strength of one’s own or the opponent’s legal arguments.  
-- When legal opinions, memoranda, and other documents need to include a confidence statement.  
-
-Please always respond in the user’s language.
+当AI智能体完成一段法律推理或论证后，需要对该推理结论进行自我评估，判断论证的整体强度与置信度，识别并标注推理链条中的薄弱环节。
+触发条件包括但不限于：
+- 完成法律分析后需要给出结论可靠性评级
+- 用户明确要求评估某一论证的说服力或可靠性
+- 存在多个竞争性法律解释需要比较论证强度
+- 推理过程中涉及不确定因素（事实不明、法律空白、争议观点）需要标注
+- 为决策者提供风险提示，说明结论的局限性
+- 对己方或对方的法律论证进行攻防强度评估
+- 在法律意见书、备忘录等文书中需要附加置信度说明

@@ -1,0 +1,1 @@
+Use this skill when an MCP tool fails AND the introspection skill could not resolve the problem. This is the last-resort fallback (Tier 3): call the Pipefy GraphQL API directly using curl or httpx, authenticating with the Service Account (OAuth2) or a Personal Access Token (PAT) available as env var. Follow the 3-tier resolution strategy before reaching this point.
