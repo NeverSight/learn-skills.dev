@@ -1,0 +1,1 @@
+Use this skill after a CloudWeaver v2 recipe has been deployed (via cloud-weaver-repo-setup + GitHub Actions pipeline) to confirm the application is actually up and to help diagnose it when it is not. It polls the app's health endpoint until HTTP 200 with retries and backoff, and on failure collects SSH diagnostics from the VM.
