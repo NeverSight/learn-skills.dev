@@ -1,0 +1,1 @@
+CloudWeaver 入口點 - 每當使用者鍵入「/start-cloud」或要求在 Locaweb 雲端上安裝、部署或配置現成的應用程式時呼叫它（「subir o Hermes Agent」、「instalar na Locaweb Cloud」、「criar uma VM com...」、「quero instalar uma receita」）。它載入 CloudWeaver 角色，運行飛行前檢查，顯示配方目錄，一次收集一個問題的配置，然後編排 cloud-weaver-repo-setup 直到最終報告。

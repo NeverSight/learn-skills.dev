@@ -1,0 +1,3 @@
+Usa questa funzionalità dopo che una ricetta CloudWeaver v2 è stata distribuita (tramite cloud-weaver-repo-setup + pipeline GitHub Actions) per confermare che l'applicazione sia effettivamente attiva e per aiutare a diagnosticarla quando non lo è. Esegue il polling dell'endpoint di salute dell'app fino a ottenere HTTP 200 con tentativi di ripetizione e backoff, e in caso di fallimento raccoglie diagnostica SSH dalla VM.
+
+Per favore rispondi sempre nella lingua dell'utente.

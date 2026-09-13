@@ -1,0 +1,1 @@
+分析来自 torch.cuda.memory._dump_snapshot()、torch.cuda.memory._snapshot() 或 memory_viz 工件的 PyTorch CUDA 内存快照。当用户想要了解 PyTorch 工作负载中的 GPU 内存使用情况、顶级分配站点、释放时间、OOM、分配器碎片、非活动缓存内存、内存泄漏、保留张量或 Python 引用周期时使用。支持区分同一运行中的两个快照，以查明增长的分配站点。

@@ -1,0 +1,8 @@
+本地與 CI 伴隨工具，對應 AI Diff Reviewer GitHub Action（GitHub 上的 DailybotHQ/ai-diff-reviewer，Marketplace 中的「AI Diff Reviewer」）。提供五項功能的路由器——  
+1️⃣ 以與 CI Action 完全相同的方法，對當前分支的差異執行本地審查；  
+2️⃣ 透過 `generate-extension` 子指令，產生針對此倉庫客製化的 `.review/extension.md`；  
+3️⃣ 透過 `setup` 子指令在尚未安裝此 Action 的倉庫中安裝並設定 GitHub Action（同時也是所有 `action.yml` 輸入項目的參考手冊）；  
+4️⃣ 透過 `open-pr` 子指令，根據當前分支的差異自動生成文件化的 Pull Request（推斷 Conventional‑Commits 標題、結構化內容、合併 PR‑template、`gh pr create` / `edit` 等流程）；  
+5️⃣ 讀取 CI Action 在當前分支開放的 PR 中回傳的 AI 審查結果，將發現以與本地審查相同的格式呈現，並可選擇逐一引導開發者對每項發現執行「套用 / 延後 / 跳過」的操作（支援多階段、逐項同意，且不會自行產生 commit 或 push），此功能透過 `apply-review` 子指令實現。
+
+工具會自動偵測 `.review/extension.md`（若不存在則回退至 `.github/ai-diff-reviewer/extension.md`），並將其疊加於預設提示上，以確保本地與 CI 審查的完全一致性。適用情境包括：開發者希望在推送前先做本地預審，或說「對我目前的變更執行程式碼審查」；想客製化此倉庫的審查器，或詢問「如何設定 ai diff reviewer？」；對 Action 的任何輸入項目提出參考式問題；要求「開 PR」或「建立 Pull Request」或「撰寫 PR 內容」；或想知道「CI 的審查結果是什麼？」、「套用 AI 審查的修正」或「帶我逐項了解審查發現」。

@@ -1,0 +1,3 @@
+Utilisez cette compétence après le déploiement d’une recette CloudWeaver v2 (via cloud‑weaver‑repo‑setup + pipeline GitHub Actions) pour vérifier que l’application est réellement en ligne et pour aider à la diagnostiquer lorsqu’elle ne l’est pas. Elle interroge le point de terminaison de santé de l’application jusqu’à obtenir un HTTP 200, avec des tentatives de nouvelle requête et un délai progressif, et en cas d’échec collecte les diagnostics SSH depuis la VM.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

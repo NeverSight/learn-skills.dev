@@ -1,0 +1,1 @@
+在部署 CloudWeaver v2 配方（通过 cloud-weaver-repo-setup + GitHub Actions 管道）后使用此技能来确认应用程序确实已启动，并在未启动时帮助诊断。它会轮询应用程序的运行状况端点，直到 HTTP 200 并进行重试和退避，并在失败时从虚拟机收集 SSH 诊断信息。

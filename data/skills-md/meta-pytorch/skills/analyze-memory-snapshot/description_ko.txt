@@ -1,0 +1,1 @@
+torch.cuda.memory._dump_snapshot(), torch.cuda.memory._snapshot() 또는 memory_viz 아티팩트에서 PyTorch CUDA 메모리 스냅샷을 분석합니다. 사용자가 PyTorch 워크로드의 GPU 메모리 사용량, 상위 할당 사이트, 할당 취소 타이밍, OOM, 할당자 조각화, 비활성 캐시 메모리, 메모리 누수, 유지된 텐서 또는 Python 참조 주기를 이해하려는 경우에 사용합니다. 증가하는 할당 사이트를 정확히 찾아내기 위해 동일한 실행에서 두 개의 스냅샷을 비교하는 기능을 지원합니다.
