@@ -1,0 +1,3 @@
+소스 자료(메모, 기사, 연구 문서, 회의록, URL, 구두 요청)에서 HTML 슬라이드 데크를 생성하고, SVG 및 draw.io와 같은 다이어그램을 포함하며 고정된 1600 × 900 캔버스에서 테스트합니다. 평가 서브 에이전트와의 검토 루프를 통해 가독성을 다듬습니다. “make slides”, “presentation material”, “talking points”, “proposal material”, “deck”, “slides”, “presentation”, “turn this document into slides”, “summarize for a presentation” 등으로 요청받으면 형식이 명시되지 않았더라도 이 기술을 우선 사용합니다. 또한 텍스트가 너무 작거나, 과도하게 빽빽하거나, 넘치거나 읽기 어려운 경우와 같이 슬라이드 품질을 개선하고 기존 HTML 데크를 다듬는 데에도 사용됩니다. 이 기술에는 사용자가 생성된 데크의 요소를 지정하고 수정 요청을 할 수 있는 “리뷰 모드”도 포함됩니다. “let me review it”, “there’s something I want to fix”, “open the deck”, “read the comment”, “apply the comment you sent”, “fix this part”와 같이 말하면, 기존 데크가 존재하는 한 해당 작업을 처리합니다. 편집 가능한 .pptx 파일 자체가 전달 요구 사항인 경우에만 PPTX 기술로 전환합니다.
+
+항상 사용자의 언어로 응답하십시오.

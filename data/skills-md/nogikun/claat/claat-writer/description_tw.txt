@@ -1,0 +1,3 @@
+根據輸入內容與背景（專案原始碼、README、設定檔、既有文件、程序說明、日誌、URL 等），產生一個 `manual.md`，讓 Google Codelabs 的 claat 能將其轉換為 HTML，內容以日語逐步教學的方式撰寫，使中學生也能不會迷失。必須包含實際可執行的程式碼、真實輸出與具說服力的截圖；符合 cmd/claat‑tools lint 規則（七個 metadata 鍵、單一 `#` 標題、每個 `##` 步驟都有 `Duration` 行，且必須有相對路徑的圖片），在交付前通過 natural‑japanese 的日文檢查。每當使用者要求建立、起草或重寫 codelab / code lab / claat / step‑by‑step guide / manual / tutorial / setup guide / usage document 時，都必須採用此方法。即使使用者的請求未提及「claat」，例如「為此專案製作指南」、「寫一個 manual.md」或「整理設定步驟」，也應套用相同流程。生成的 `.md` 轉 HTML 由 claat‑build 技能負責。
+
+請始終以使用者的語言回覆。

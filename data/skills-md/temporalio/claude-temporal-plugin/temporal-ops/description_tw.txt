@@ -1,0 +1,6 @@
+透過 CLI（temporal、tcld）管理與診斷執行中的 Temporal Cloud 或自行架設的 Temporal Server 環境 — 不涉及 SDK 程式碼。  
+操作項目：namespace 的建立、讀取、更新、刪除（CRUD）、Cloud 容量/APS、API 金鑰輪換、mTLS 憑證輪換、工作流健康檢查、批次取消／終止／重設、匯出、搜尋屬性、Ops API、計費、稽核日誌、Terraform、SAML/SCIM、遷移。  
+診斷項目：自下而上的方式排查卡住的工作流、非決定性問題、worker 健康、任務佇列問題、HA 故障轉移、payload 大小限制、效能瓶頸、錯過的排程。  
+請勿觸發此類回應於與 Temporal 無關的一般 TLS/gRPC 錯誤、撰寫應用程式程式碼（temporal‑developer）或 worker 調校／規模調整（temporal‑workertuning）之情況。  
+
+請始終以使用者的語言作答。

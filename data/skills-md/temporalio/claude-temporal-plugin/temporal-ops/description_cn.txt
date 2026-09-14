@@ -1,1 +1,3 @@
-通过 CLI（temporal、tcld）管理和诊断运行中的 Temporal Cloud 或自托管 Temporal Server 环境——不涉及 SDK 代码。操作：命名空间 CRUD、云容量/APS、API‑key 轮换、mTLS 证书轮换、工作流健康、批量取消/终止/重置、导出、搜索属性、Ops API、计费、审计日志、Terraform、SAML/SCIM、迁移。诊断：自下而上的卡住工作流排查、非确定性、worker 健康、任务队列问题、HA 故障转移、负载大小限制、性能瓶颈、错过的调度。请不要因与 Temporal 无关的通用 TLS/gRPC 错误、编写应用代码（temporal‑developer）或 worker 调优/尺寸（temporal‑workertuning）而触发。
+通过 CLI（temporal，tcld）管理和诊断运行中的 Temporal Cloud 或自托管 Temporal Server 环境——不涉及 SDK 代码。操作包括：命名空间 CRUD、云容量/APS、API 密钥轮换、mTLS 证书轮换、工作流健康、批量取消/终止/重置、导出、搜索属性、Ops API、计费、审计日志、Terraform、SAML/SCIM、迁移。诊断包括：自下而上的卡住工作流排查、非确定性、worker 健康、任务队列问题、HA 故障转移、负载大小限制、性能瓶颈、错过的调度。不要针对与 Temporal 无关的通用 TLS/gRPC 错误、编写应用代码（temporal-developer）或 worker 调优/规模（temporal-workertuning）触发。
+
+请始终使用用户的语言作答。

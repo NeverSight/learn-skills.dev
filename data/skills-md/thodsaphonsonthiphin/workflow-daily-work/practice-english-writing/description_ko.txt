@@ -1,0 +1,3 @@
+사용자가 요청하면 사용자의 영문 작문을 고쳐주고 가르칩니다. 태국어 또는 부정확한 영어를 자연스러운 일상 영어로 바꾸고, 오류 종류별로 라벨링된 최소한의 교정을 보여주며 각 교정을 태국어로 설명하고, 그 다음 자연스러운 버전을 제시합니다. 사용자가 /practice-english-writing을 호출하거나, 영어를 확인/수정/교정해 달라고 요청할 때 사용합니다. 예: “แก้อังกฤษให้หน่อย”, “ประโยคนี้ถูกไหม”, “เขียนอังกฤษยังไงดี”, “is my English right”, “make this sound natural”, “help me write this in English” — 또는 보낼 메시지, 커밋 메시지, PR 설명, 채팅 답변을 전달할 때도 사용합니다. 또한 PRACTICE 모드를 제공합니다 – 사용자가 자신의 과거 실수를 연습, 반복 훈련, 퀴즈 형태로 풀어달라고 요청할 때 사용합니다. 예: “ฝึกอังกฤษหน่อย”, “practice my English”, “drill me”, “quiz me on my mistakes”. 그리고 “ดีขึ้นไหม”, “am I getting better”, “what have I stopped getting wrong”와 같은 경우에 진행 상황을 보여줍니다. 글쓰기만 지원합니다; 사용자가 이해하려는 영어는 파인만식 설명(feynman‑explain)으로 처리합니다.
+
+항상 사용자의 언어로 답변하십시오.
