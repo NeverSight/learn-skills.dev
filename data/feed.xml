@@ -4,573 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sun, 13 Sep 2026 06:11:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 04:01:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-13)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-14)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:snapshot</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:snapshot</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8116
-Trending skills: 7641
-Hot skills: 1145
-Top All Time: find-skills (3374578)
-Top Trending: wan-3-0-prime-reference-to-video (16980)
-Top Hot: svelte5-best-practices (7)]]></description>
+All Time skills: 8114
+Trending skills: 7791
+Hot skills: 5663
+Top All Time: find-skills (3385326)
+Top Trending: google-agents-cli-deploy (19030)
+Top Hot: hyperframes-creative (360)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): svelte5-best-practices]]></title>
-            <link>https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:ejirocodes/agent-skills/svelte5-best-practices</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#49): video-edit]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/video-edit</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topAllTime:new:genmedia-labs/skills/video-edit</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #49
+Installs: 476253
+Source: genmedia-labs/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#50): ai-music]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-music</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topAllTime:new:genmedia-labs/skills/ai-music</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 475681
+Source: genmedia-labs/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): hyperframes-creative]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-creative</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:heygen-com/hyperframes/hyperframes-creative</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 7
-Source: ejirocodes/agent-skills
-Description: Svelte 5 runes, snippets, SvelteKit patterns, and modern best practices for TypeScript and component development. Use when writing, reviewing, or refactoring Svelte 5 components and SvelteKit applications. Triggers on: Svelte components, runes ($state, $derived, $effect, $props, $bindable, $inspect), snippets ({#snippet}, {@render}), event handling, SvelteKit data loading, form actions, Svelte 4 to Svelte 5 migration, store to rune migration, slots to snippets migration, TypeScript props typing, generic components, SSR state isolation, performance optimization, or component testing.]]></description>
+Installs: 360
+Source: heygen-com/hyperframes
+Description: Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): workflow-mastery]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/workflow-mastery</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/workflow-mastery</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): domain-modeling]]></title>
+            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/domain-modeling</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Claude Code workflow mastery for .NET developers. Covers parallel execution with git worktrees, plan mode strategy, verification loops, auto-formatting hooks, permission setup for dotnet CLI, prompting techniques, subagent patterns, and context discipline — token budget management, MCP-first navigation, lazy loading, and subagent isolation — all adapted for the .NET ecosystem. Load this skill when setting up Claude Code for a .NET project, optimizing workflows, running parallel sessions, when context is running low or sessions feel sluggish, when exploring a large codebase efficiently, or when the user mentions "productivity", "workflow", "parallel", "worktree", "plan mode", "permissions", "hooks", "10x", "setup Claude Code", "speed up development", "context", "tokens", "budget", "running out of context", "too many files", or "large codebase". Inspired by tips from Boris Cherny (creator of Claude Code) and the Anthropic team.]]></description>
+Installs: 277
+Source: mattpocock/skills
+Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): ddd]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/ddd</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/ddd</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): grilling]]></title>
+            <link>https://skills.sh/mattpocock/skills/grilling</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/grilling</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Domain-Driven Design tactical patterns for .NET applications. Covers aggregates, aggregate roots, value objects, domain events, domain services, strongly-typed IDs, and repository patterns for aggregate persistence. Load this skill when implementing DDD, working with aggregates, value objects, domain events, bounded contexts, or when the architecture-advisor recommends DDD + Clean Architecture. Pair with the clean-architecture skill.]]></description>
+Installs: 301
+Source: mattpocock/skills
+Description: Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): tdd]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/tdd</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/tdd</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): code-review]]></title>
+            <link>https://skills.sh/mattpocock/skills/code-review</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/code-review</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Guided test-driven development workflow for .NET 10 using xUnit v3, WebApplicationFactory, Testcontainers, and Verify snapshots. Follows the strict red-green-refactor cycle. Use when: "TDD", "test-driven", "let's TDD this", "red green refactor", "write the test first", or when building a feature with clear acceptance criteria.]]></description>
+Installs: 260
+Source: mattpocock/skills
+Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): outdated]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/outdated</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/outdated</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/handoff</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/handoff</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Dependency health report for .NET solutions: outdated NuGet packages, vulnerable versions, and commercial-license traps (MediatR, MassTransit, FluentAssertions, AutoMapper) — powered by the get_nuget_packages MCP tool. Invoke when: "outdated packages", "check dependencies", "stale packages", "package audit", "dependency health", "are my packages up to date", "license check", "vulnerable packages", "nuget audit".]]></description>
+Installs: 257
+Source: mattpocock/skills
+Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): dotnet-init]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/dotnet-init</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/dotnet-init</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): setup-matt-pocock-skills]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-matt-pocock-skills</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/setup-matt-pocock-skills</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Interactive project initialization. Detects project type, asks architecture questions, and generates a customized CLAUDE.md — no manual template copying. Use when: "init project", "setup project", "initialize", "new project setup", "generate CLAUDE.md", "configure for dotnet-claude-kit", or starting Claude Code on a fresh or existing .NET codebase.]]></description>
+Installs: 239
+Source: mattpocock/skills
+Description: Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): de-sloppify]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/de-sloppify</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/de-sloppify</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): codebase-design]]></title>
+            <link>https://skills.sh/mattpocock/skills/codebase-design</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/codebase-design</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Systematic code cleanup pipeline for .NET projects. Runs 7 ordered steps: formatting, unused usings, analyzer warnings, dead code removal, TODO resolution, sealed class audit, and CancellationToken propagation. Each step is verified independently with tests between phases. Load this skill when: "clean up", "de-sloppify", "tidy up", "remove dead code", "code cleanup", "housekeeping", "tech debt", "fix warnings", "seal classes", "add CancellationToken", "unused usings", "format code".]]></description>
+Installs: 253
+Source: mattpocock/skills
+Description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): api-versioning]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/api-versioning</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/api-versioning</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): ask-matt]]></title>
+            <link>https://skills.sh/mattpocock/skills/ask-matt</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/ask-matt</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: API versioning strategies for ASP.NET Core. Covers Asp.Versioning library, URL segment, header, and query string strategies, version deprecation, and OpenAPI integration. Load this skill when adding versioning to an API, evolving an API with breaking changes, or when the user mentions "API version", "versioning", "v1/v2", "Asp.Versioning", "deprecation", "breaking change", or "backward compatibility".]]></description>
+Installs: 228
+Source: mattpocock/skills
+Description: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): uv]]></title>
-            <link>https://skills.sh/astral-sh/claude-code-plugins/uv</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:astral-sh/claude-code-plugins/uv</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): improve-codebase-architecture]]></title>
+            <link>https://skills.sh/mattpocock/skills/improve-codebase-architecture</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/improve-codebase-architecture</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 3
-Source: astral-sh/claude-code-plugins
-Description: Guide for using uv, the Python package and project manager. Use this when working with Python projects, scripts, packages, or tools.]]></description>
+Installs: 248
+Source: mattpocock/skills
+Description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): instinct-system]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/instinct-system</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/instinct-system</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): diagnosing-bugs]]></title>
+            <link>https://skills.sh/mattpocock/skills/diagnosing-bugs</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/diagnosing-bugs</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Unified learning-and-memory system: confidence-scored instincts (observe-hypothesize-confirm, stored in .claude/instincts.md), user corrections captured as permanent rules in MEMORY.md, and organic discoveries logged to .claude/learning-log.md. Includes status, export, and import modes. Load this skill when you notice a recurring pattern, a user corrects your output, or you discover something non-obvious. Triggers: "show instincts", "what have you learned", "list instincts", "export instincts", "share instincts", "import instincts", "load instincts from", "learn this", "I think they always", "notice a pattern", "instinct", "hypothesis", "confidence", "learn from mistakes", "remember this", "don't do that again", "log this", "document this finding", "gotcha", "what did we learn", "learnings", "discoveries", or at session start (to load existing knowledge).]]></description>
+Installs: 243
+Source: mattpocock/skills
+Description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): migrate]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/migrate</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/migrate</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): tdd]]></title>
+            <link>https://skills.sh/mattpocock/skills/tdd</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/tdd</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Guided, safe migration workflow covering EF Core schema migrations, .NET version upgrades, and NuGet dependency updates — each with rollback strategies and verification steps. Invoke when: "add migration", "update database", "create migration", "schema change", "new table", "rename column", "upgrade nuget", "update packages", "dependency update", "version upgrade", ".NET upgrade".]]></description>
+Installs: 244
+Source: mattpocock/skills
+Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): project-structure]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/project-structure</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/project-structure</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:vercel-labs/skills/find-skills</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: .NET solution and project structure conventions. Covers .slnx format, Directory.Build.props, Directory.Packages.props for central package management, global usings, and naming conventions. Load this skill when setting up a new solution, adding projects, configuring build properties, or when the user mentions "solution structure", ".slnx", "Directory.Build.props", "central package management", "Directory.Packages.props", "global usings", ".editorconfig", "project layout", or "naming conventions".]]></description>
+Installs: 595
+Source: vercel-labs/skills
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): verify]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/verify</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/verify</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): prototype]]></title>
+            <link>https://skills.sh/mattpocock/skills/prototype</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/prototype</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Run a comprehensive 7-phase verification pipeline for .NET projects: build, analyzers, antipattern detection, tests, security, formatting, and diff review. Each phase produces PASS/FAIL with actionable output and the pipeline short-circuits on critical failures. Also the authority on verification strategy: which phases to run for a given change, quality gates, and fix-and-retry loops. Use when: "verify", "check everything", "is this ready", "pre-PR check", "run all checks", "quality gate", "verification strategy", "which checks should run", or after completing a feature or refactor.]]></description>
+Installs: 236
+Source: mattpocock/skills
+Description: Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says "prototype this", "let me play with it", "try a few designs".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): project-setup]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/project-setup</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/project-setup</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): research]]></title>
+            <link>https://skills.sh/mattpocock/skills/research</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/research</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Interactive project setup, health check, and migration workflows. Guides developers through project initialization with customized CLAUDE.md generation, codebase health analysis using MCP tools, and .NET version migration. Load when: "init project", "setup project", "new project", "health check", "analyze project", "project report", "migrate", "upgrade dotnet", "upgrade .NET", "generate CLAUDE.md".]]></description>
+Installs: 235
+Source: mattpocock/skills
+Description: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): serilog]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/serilog</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/serilog</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): teach]]></title>
+            <link>https://skills.sh/mattpocock/skills/teach</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/teach</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Structured logging with Serilog for .NET 10 applications. Covers two-stage bootstrap, appsettings configuration, enrichers, sinks, request logging, destructuring, and Serilog.Expressions. Load this skill when setting up Serilog, configuring log sinks, enrichers, or structured logging, or when the user mentions "Serilog", "structured logging", "log enrichment", "Seq", "LogContext", "UseSerilog", "WriteTo", "message template", "Serilog.Expressions", "request logging", "log sink", "rolling file", or "audit log".]]></description>
+Installs: 231
+Source: mattpocock/skills
+Description: Teach the user a new skill or concept, within this workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): code-review]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/code-review</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/code-review</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): to-tickets]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-tickets</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/to-tickets</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: MCP-powered multi-dimensional code review for .NET projects. Uses Roslyn analysis tools for antipatterns, diagnostics, references, and dependency graphs combined with structured manual review. Prioritizes effort with blast-radius scoring — data access, security, concurrency, and integration boundaries before style — and produces severity-categorized findings with actionable fixes. Use when: "review", "code review", "PR review", "review this", "review my code", "check code quality", "review changes", "what should I review", "review priorities", "blast radius", "critical path".]]></description>
+Installs: 233
+Source: mattpocock/skills
+Description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): security-scan]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/security-scan</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/security-scan</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): writing-for-agents]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-for-agents</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/writing-for-agents</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Deep security scanning for .NET applications across 6 layers: vulnerable packages, secrets detection, OWASP code patterns, auth configuration, CORS policy, and data protection. Produces severity-rated findings with specific remediation steps. Load this skill when: "security scan", "security audit", "check for vulnerabilities", "find secrets", "OWASP", "auth review", "CORS check", "security review", "penetration test prep", "CVE check", "vulnerability scan", "hardcoded password", "data protection", "security posture".]]></description>
+Installs: 232
+Source: mattpocock/skills
+Description: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): plan]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/plan</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/plan</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): resolving-merge-conflicts]]></title>
+            <link>https://skills.sh/mattpocock/skills/resolving-merge-conflicts</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/resolving-merge-conflicts</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Enter plan mode for .NET projects with architecture awareness. Analyzes tasks through the lens of supported architectures (VSA, Clean Architecture, DDD, Modular Monolith) and produces structured implementation plans before any code is written. Use when: "plan", "let's plan", "think through", "design this", "how should I implement", or any non-trivial task requiring 3+ steps.]]></description>
+Installs: 230
+Source: mattpocock/skills
+Description: Use when you need to resolve an in-progress git merge/rebase conflict.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): convention-learner]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/convention-learner</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/convention-learner</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): to-spec]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-spec</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/to-spec</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Detects and enforces project-specific coding conventions by analyzing existing codebase patterns. Learns naming conventions, folder structure, test organization, and coding style from the existing code. Load when: "conventions", "coding standards", "project patterns", "enforce style", "detect patterns", "learn conventions", "code consistency".]]></description>
+Installs: 236
+Source: mattpocock/skills
+Description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): ci-cd]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/ci-cd</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/ci-cd</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/triage</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: CI/CD pipelines for .NET applications. Covers GitHub Actions and Azure DevOps YAML pipelines with build, test, publish, and deploy stages. Load this skill when setting up continuous integration, automated testing, deployment workflows, or when the user mentions "CI/CD", "pipeline", "GitHub Actions", "Azure DevOps", "workflow", "deploy", "build pipeline", "publish", "NuGet push", "release", or "continuous integration".]]></description>
+Installs: 218
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): ruff]]></title>
-            <link>https://skills.sh/astral-sh/claude-code-plugins/ruff</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:astral-sh/claude-code-plugins/ruff</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): implement]]></title>
+            <link>https://skills.sh/mattpocock/skills/implement</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/implement</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 3
-Source: astral-sh/claude-code-plugins
-Description: Guide for using ruff, the extremely fast Python linter and formatter. Use this when linting, formatting, or fixing Python code.]]></description>
+Installs: 234
+Source: mattpocock/skills
+Description: Implement a piece of work based on a PRD or set of issues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): ef-core]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/ef-core</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/ef-core</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): claude-handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/claude-handoff</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/claude-handoff</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Entity Framework Core patterns for .NET 10. Covers DbContext configuration, migrations workflow, interceptors, compiled queries, ExecuteUpdateAsync, ExecuteDeleteAsync, value converters, and query optimization. Load this skill when working with databases, writing queries, managing schema changes, or when the user mentions "EF Core", "Entity Framework", "DbContext", "migration", "LINQ query", "database", "SQL", "N+1", "Include", "split query", "value converter", "interceptor", or "compiled query".]]></description>
+Installs: 179
+Source: mattpocock/skills
+Description: Hand the current conversation off to a fresh background agent that picks up the work immediately.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): caching]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/caching</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/caching</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Caching strategies for .NET 10 applications. Covers HybridCache (the default), output caching, response caching, and distributed cache patterns. Load this skill when implementing caching, optimizing read performance, reducing database load, or when the user mentions "cache", "HybridCache", "Redis", "output cache", "response cache", "distributed cache", "IMemoryCache", "cache invalidation", "stampede protection", or "cache-aside".]]></description>
+Installs: 359
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): architecture-advisor]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/architecture-advisor</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/architecture-advisor</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): to-questionnaire]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-questionnaire</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/to-questionnaire</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Architecture selection advisor for .NET applications. Asks structured questions about domain complexity, team size, system lifetime, compliance, and integration needs, then recommends the best-fit architecture: Vertical Slice, Clean Architecture, DDD + Clean Architecture, or Modular Monolith. Load this skill when the user asks "which architecture", "choose architecture", "set up project", "new project", "architecture decision", "restructure", or "how should I organize". Always load BEFORE any architecture-specific skill.]]></description>
+Installs: 214
+Source: mattpocock/skills
+Description: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): dependency-injection]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/dependency-injection</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/dependency-injection</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): wayfinder]]></title>
+            <link>https://skills.sh/mattpocock/skills/wayfinder</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/wayfinder</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Dependency injection patterns for .NET 10. Covers service lifetimes, keyed services, the decorator pattern, factory pattern, and common DI pitfalls. Load this skill when registering services, resolving lifetime issues, designing service composition, or when the user mentions "DI", "dependency injection", "service registration", "AddScoped", "AddTransient", "AddSingleton", "keyed services", "decorator", "Scrutor", "IServiceCollection", or "captive dependency".]]></description>
+Installs: 216
+Source: mattpocock/skills
+Description: Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): spec]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/spec</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/spec</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): lark-shared]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-shared</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-shared</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Turn a vague feature or product idea into an agreed, persisted specification through relentless structured questioning. Never assumes — every gap, ambiguity, or "probably" becomes a question to the developer, and the spec cannot be approved while open questions remain. Produces docs/specs/<NNN>-<slug>.md with acceptance criteria that /plan, /scaffold, and /tdd consume. Use when: "spec", "write a spec", "spec this out", "requirements", "PRD", "acceptance criteria", "define the feature", "user stories", "what should we build", or before planning any feature too big to describe in one sentence.]]></description>
+Installs: 107
+Source: larksuite/cli
+Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): ty]]></title>
-            <link>https://skills.sh/astral-sh/claude-code-plugins/ty</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:astral-sh/claude-code-plugins/ty</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): lark-doc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-doc</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-doc</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 3
-Source: astral-sh/claude-code-plugins
-Description: Guide for using ty, the extremely fast Python type checker and language server. Use this when type checking Python code or setting up type checking in Python projects.]]></description>
+Installs: 107
+Source: larksuite/cli
+Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): messaging]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/messaging</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/messaging</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): wait-what]]></title>
+            <link>https://skills.sh/mattpocock/skills/wait-what</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/wait-what</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Asynchronous messaging patterns for .NET applications. Covers Wolverine and MassTransit, outbox pattern, saga and choreography, and broker configuration for RabbitMQ and Azure Service Bus. Load this skill when implementing event-driven communication, background processing, module-to-module messaging, or when the user mentions "Wolverine", "MassTransit", "message bus", "RabbitMQ", "Azure Service Bus", "event", "publish", "consumer", "outbox", "saga", "integration event", "queue", or "pub/sub".]]></description>
+Installs: 205
+Source: mattpocock/skills
+Description: Stop. That last message did not land — re-pitch it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): docker]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/docker</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/docker</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): loop-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/loop-me</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/loop-me</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Docker containerization for .NET 10 applications. Covers multi-stage builds, .NET container images, non-root user configuration, health checks, and .dockerignore. Load this skill when containerizing an application with a Dockerfile, optimizing image size, setting up Docker Compose for local development, or when the user mentions "Docker", "Dockerfile", "container", "docker-compose", "image", "multi-stage", "non-root", ".dockerignore", or "container health check". For Dockerfile-less SDK publishing (`dotnet publish /t:PublishContainer`), load the container-publish skill instead.]]></description>
+Installs: 174
+Source: mattpocock/skills
+Description: Grill me about specs for the workflows I want to build, within this workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): error-handling]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/error-handling</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/error-handling</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): git-guardrails-claude-code]]></title>
+            <link>https://skills.sh/mattpocock/skills/git-guardrails-claude-code</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/git-guardrails-claude-code</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Error handling strategy for .NET 10 applications. Covers the Result pattern, ProblemDetails (RFC 9457), global exception handling, FluentValidation, and structured error responses. Load this skill when implementing error handling, validation, or designing API error contracts, or when the user mentions "error handling", "Result pattern", "ProblemDetails", "exception", "validation", "FluentValidation", "error response", "global exception handler", or "RFC 9457".]]></description>
+Installs: 173
+Source: mattpocock/skills
+Description: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): scaffold]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/scaffold</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/scaffold</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): motion-graphics]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/motion-graphics</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:heygen-com/hyperframes/motion-graphics</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Architecture-aware feature scaffolding for .NET 10 projects. Detects the project's architecture (VSA, Clean Architecture, DDD, Modular Monolith) and generates complete feature slices with all required layers: endpoint, handler, validator, DTOs, EF configuration, and integration tests — with the completeness checklist and per-architecture code templates every generated feature must satisfy. Use when: "scaffold", "create feature", "add feature", "new endpoint", "generate", "add entity", "scaffold a module", "add module", or when customizing generation templates or defining what a complete feature slice includes.]]></description>
+Installs: 164
+Source: heygen-com/hyperframes
+Description: Use when the user wants a short, design-led motion graphic where motion is the message: kinetic typography, stat or number count-up, chart/data-viz hit, logo sting, brand lockup, lower-third, callout, social overlay, animated headline/tweet/news item, motion poster, or quick captured-page highlight. Usually under 10s and up to ~30s, with no narration arc, voice-over, or live-action subject. Can render to MP4 or transparent overlay. Not for longer, multi-scene, narrated, or brand-reel pieces (use general-video), narrated website videos (website-to-video), topic explainers (faceless-explainer), product promos (product-launch-video), PR videos (pr-to-video), or captions on existing footage (embedded-captions). When unsure whether it's a quick motion-first piece or a longer / narrated treatment, see /hyperframes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): configuration]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/configuration</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/configuration</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): wizard]]></title>
+            <link>https://skills.sh/mattpocock/skills/wizard</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/wizard</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Configuration patterns for .NET 10 applications. Covers the Options pattern, IOptionsSnapshot vs IOptions, secrets management, and environment-based configuration. Load this skill when setting up application configuration, managing secrets, binding configuration sections, or when the user mentions "configuration", "appsettings", "Options pattern", "IOptions", "IOptionsSnapshot", "secrets", "user secrets", "environment variables", "connection string", or "config binding".]]></description>
+Installs: 203
+Source: mattpocock/skills
+Description: Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): logging]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/logging</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/logging</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): lark-drive]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-drive</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-drive</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Observability overview and glue for .NET 10: how the pieces fit together, plus the cross-cutting parts owned here — ASP.NET health check endpoints (/health), correlation IDs, and log-level strategy. For deep Serilog setup load `serilog`; for traces and metrics load `opentelemetry`. Load this skill when setting up observability from scratch, wiring health check endpoints or correlation IDs, or when the user says "logging", "observability", "monitoring setup", "liveness", "readiness", or "ILogger".]]></description>
+Installs: 103
+Source: larksuite/cli
+Description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): minimal-api]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/minimal-api</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/minimal-api</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): media-use]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:heygen-com/hyperframes/media-use</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: .NET 10 minimal APIs — the default for building HTTP endpoints. Covers MapGroup, endpoint filters, TypedResults, OpenAPI metadata, parameter binding, and route conventions. Load this skill when creating API endpoints, configuring routing, setting up OpenAPI documentation, or when the user mentions "endpoint", "MapGet", "MapPost", "MapGroup", "TypedResults", "route", "minimal API", "OpenAPI", "swagger", "rate limiting", or "output caching".]]></description>
+Installs: 359
+Source: heygen-com/hyperframes
+Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): arch-check]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/arch-check</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/arch-check</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): setup-pre-commit]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-pre-commit</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/setup-pre-commit</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Architecture conformance check: verifies an existing codebase against its declared architecture (VSA, Clean Architecture, DDD, Modular Monolith) — dependency direction, layer violations, module boundary leaks, and cycles — using token-cheap Roslyn MCP analysis. Invoke when: "check architecture", "architecture violations", "layer violations", "dependency direction", "module boundaries", "arch check", "is my architecture clean", "enforce architecture", "conformance check". For CHOOSING an architecture, use architecture-advisor instead.]]></description>
+Installs: 169
+Source: mattpocock/skills
+Description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): build-fix]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/build-fix</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/build-fix</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): writing-beats]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-beats</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/writing-beats</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Autonomous iteration loops for .NET: drive a broken build or failing test suite to green with bounded iterations, progress detection, and fail-safe guards that prevent infinite retries and wasted tokens. The build-fix loop (dotnet build, parse, categorize, fix, rebuild) is the primary flow; the test-fix loop is a first-class variant. Invoke when the build is broken, after a major refactor or dependency update, or when the user says "fix the build", "build is broken", "make it compile", "make the tests pass", "fix failing tests", "keep going until it works", "autonomous", "loop", "auto-fix", or "keep fixing".]]></description>
+Installs: 169
+Source: mattpocock/skills
+Description: Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): container-publish]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/container-publish</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/container-publish</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): retro]]></title>
+            <link>https://skills.sh/mattpocock/skills/retro</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/retro</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Dockerfile-less containerization using the .NET 10 SDK container publishing feature. Covers MSBuild properties, chiseled images, multi-arch builds, and registry publishing — all without writing a Dockerfile. Load this skill when the user wants to containerize without a Dockerfile, or mentions "dotnet publish container", "PublishContainer", "ContainerRepository", "ContainerFamily", "chiseled", "distroless", "container publish", "SDK container", "no Dockerfile", or "containerize without Docker".]]></description>
+Installs: 168
+Source: mattpocock/skills
+Description: Conduct a retrospective on a coding session.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): authentication]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/authentication</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/authentication</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): writing-shape]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-shape</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/writing-shape</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Authentication and authorization for ASP.NET Core. Covers JWT bearer tokens, OpenID Connect, ASP.NET Identity, authorization policies, role and claim-based authorization, and API key authentication. Load this skill when implementing login, protecting endpoints, designing authorization rules, or when the user mentions "auth", "JWT", "bearer token", "OIDC", "OpenID Connect", "Identity", "claims", "roles", "authorize", "RequireAuthorization", "API key", or "cookie auth".]]></description>
+Installs: 168
+Source: mattpocock/skills
+Description: Take a markdown file of raw material and shape it into an article through a conversational session — drafting candidate openings, growing the piece paragraph by paragraph, arguing about format (lists, tables, callouts, quotes) at each step. Use when the user has a pile of notes, fragments, or a rough draft and wants help turning it into something publishable.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): scalar]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/scalar</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/scalar</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): lark-im]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-im</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-im</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Scalar API documentation UI for .NET 10 applications. Covers setup, themes, authentication prefill, multiple documents, layout options, and security. A modern replacement for Swagger UI. Load this skill when setting up API documentation UI, or when the user mentions "Scalar", "MapScalarApiReference", "API reference", "Swagger UI replacement", "API documentation UI", "Scalar theme", "interactive API docs", or "Try It".]]></description>
+Installs: 102
+Source: larksuite/cli
+Description: 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): clean-architecture]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/clean-architecture</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/clean-architecture</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): lark-wiki]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-wiki</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Clean Architecture for .NET applications. Covers the 4-project layout (Domain, Application, Infrastructure, Api), dependency inversion, use case handlers, domain entities with behavior, and infrastructure as a plugin. Load this skill when building a project with Clean Architecture, discussing layered architecture, dependency inversion, use cases, or when the architecture-advisor recommends Clean Architecture.]]></description>
+Installs: 101
+Source: larksuite/cli
+Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): openapi]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/openapi</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/openapi</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): implement-spec]]></title>
+            <link>https://skills.sh/mattpocock/skills/implement-spec</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/implement-spec</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Built-in OpenAPI support for .NET 10 applications. Covers document generation, transformers, TypedResults metadata, security schemes, XML comments, build-time generation, and multiple document support. No Swashbuckle needed. Load this skill when setting up API documentation, customizing OpenAPI output, adding security schemes to docs, or when the user mentions "OpenAPI", "AddOpenApi", "MapOpenApi", "document transformer", "operation transformer", "schema transformer", "OpenAPI 3.1", "API documentation", "Swashbuckle replacement", "Produces", "WithSummary", "WithDescription", "ProblemDetails", "Kiota", or "client generation".]]></description>
+Installs: 167
+Source: mattpocock/skills
+Description: Implement a specification in code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): vertical-slice]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/vertical-slice</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/vertical-slice</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): setup-ts-deep-modules]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-ts-deep-modules</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/setup-ts-deep-modules</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Vertical Slice Architecture (VSA) for .NET applications — one of several supported architectures in dotnet-claude-kit. Covers feature folders, endpoint grouping, and handler patterns for Mediator, Wolverine, and raw handler classes. Load this skill when the architecture-advisor recommends VSA, when working in an existing VSA codebase, when adding features to a feature-folder project, or when discussing vertical slice patterns, feature folders, or handler patterns.]]></description>
+Installs: 166
+Source: mattpocock/skills
+Description: Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its entry-point files. User-invoked.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): chrome-extensions]]></title>
-            <link>https://skills.sh/googlechrome/modern-web-guidance/chrome-extensions</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:googlechrome/modern-web-guidance/chrome-extensions</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): lark-base]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-base</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-base</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 3
-Source: googlechrome/modern-web-guidance
-Description: Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or understand Chrome browser extensions, add-ons, or anything involving the Chrome Extensions API. Trigger on mentions of: 'Chrome extension', 'browser extension', 'manifest.json', 'content script', 'service worker' (in browser context), 'popup' (in browser extension context), 'side panel', 'chrome.* API', 'declarativeNetRequest', 'omnibox', 'context menu' (in extension context), or any request to build functionality that integrates with the Chrome browser UI. Also trigger for publishing to the Chrome Web Store: 'publish extension', preparing an extension for publishing, responding to a review rejection, writing permission justifications, or drafting a privacy policy.]]></description>
+Installs: 103
+Source: larksuite/cli
+Description: 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): aspire]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/aspire</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/aspire</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): lark-calendar]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-calendar</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-calendar</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: .NET Aspire for cloud-native orchestration. Covers AppHost configuration, service defaults, resource configuration, service discovery, and the Aspire dashboard. Load this skill when setting up local development orchestration, service discovery, or Aspire-managed infrastructure, or when the user mentions "Aspire", "AppHost", "service defaults", "service discovery", "orchestration", "Aspire dashboard", "AddProject", "WithReference", or "cloud-native .NET".]]></description>
+Installs: 101
+Source: larksuite/cli
+Description: 飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): wrap-up]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/wrap-up</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/wrap-up</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): archify]]></title>
+            <link>https://skills.sh/tt-a1i/archify/archify</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:tt-a1i/archify/archify</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Owns the session handoff lifecycle: the end-of-session ritual that captures completed work, pending tasks, and learnings into .claude/handoff.md, and the session-start protocol that loads it back. Triggers on: /wrap-up, "wrap up", "done for today", "that's all", "end session", "signing off", "handoff" — and at session start: "start session", "session start", "load handoff", "pick up where we left off", "what were we working on".]]></description>
+Installs: 246
+Source: tt-a1i/archify
+Description: Create professional architecture, workflow, sequence, data-flow, and lifecycle/state diagrams as standalone HTML files with SVG graphics, a built-in dark/light theme toggle, and one-click export to PNG / JPEG / WebP / SVG. Accepts plain-language descriptions or pasted Mermaid code (flowchart, sequenceDiagram, stateDiagram) and lays the diagram out from scratch in archify style. Use when the user asks for system architecture diagrams, infrastructure diagrams, cloud architecture visualizations, security diagrams, network topology, technical workflows, approval flows, runbooks, CI/CD flows, process diagrams, API call sequences, request lifecycles, data pipelines, ETL/ELT maps, PII boundaries, data lineage, state machines, lifecycle diagrams, status transitions, or asks to convert/beautify a Mermaid diagram.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): httpclient-factory]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/httpclient-factory</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/httpclient-factory</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): lark-slides]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-slides</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:larksuite/cli/lark-slides</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: IHttpClientFactory and typed HTTP clients for .NET 10 applications. Covers named/typed/keyed clients, DelegatingHandlers, resilience with Microsoft.Extensions.Http.Resilience, and testing patterns. Load this skill when configuring HTTP clients, adding retry/circuit breaker policies, or when the user mentions "HttpClient", "IHttpClientFactory", "AddHttpClient", "typed client", "named client", "DelegatingHandler", "resilience", "retry", "circuit breaker", "hedging", "Polly", "AddStandardResilienceHandler", "socket exhaustion", or "Refit".]]></description>
+Installs: 99
+Source: larksuite/cli
+Description: 飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): health-check]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/health-check</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/health-check</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Multi-dimensional health assessment for .NET projects with letter grades (A-F) using Roslyn MCP tools. Evaluates 8 dimensions: build health, code quality, architecture, test coverage, dead code, API surface, security posture, and documentation. Produces a structured report card with actionable recommendations. Load this skill when: "health check", "how healthy is this", "project health", "code quality report", "grade this project", "assess codebase", "quality audit", "technical assessment", "codebase review", "report card".]]></description>
+Installs: 364
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): modern-csharp]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/modern-csharp</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/modern-csharp</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): grill-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-me</link>
+            <guid isPermaLink="false">2026-09-14T04:01:30.501Z:topHot:new:mattpocock/skills/grill-me</guid>
+            <pubDate>Mon, 14 Sep 2026 04:01:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Modern C# language features for .NET 10 and C# 14. Covers primary constructors, collection expressions, the field keyword, extension members, records, pattern matching, spans, and raw string literals. Load this skill when writing any new C# code, reviewing existing code for modernization, using "modern C#", "C# 14", "primary constructor", "collection expression", "records", "pattern matching", "span", "field keyword", or "extension members". Always loaded as the baseline for all agents.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): opentelemetry]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/opentelemetry</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/opentelemetry</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: OpenTelemetry observability for .NET 10 applications. Covers traces, metrics, and logs using the OpenTelemetry SDK with OTLP export. Includes custom ActivitySource, IMeterFactory metrics, resource configuration, and Aspire Dashboard integration. Load this skill when setting up distributed tracing, custom metrics, OTLP export, or when the user mentions "OpenTelemetry", "OTLP", "traces", "spans", "Activity", "ActivitySource", "metrics", "IMeterFactory", "Meter", "Counter", "Histogram", "Gauge", "telemetry", "observability", "distributed tracing", "OTEL", or "Aspire Dashboard".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): testing]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/testing</link>
-            <guid isPermaLink="false">2026-09-13T06:11:04.433Z:topHot:new:codewithmukesh/dotnet-claude-kit/testing</guid>
-            <pubDate>Sun, 13 Sep 2026 06:11:04 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 3
-Source: codewithmukesh/dotnet-claude-kit
-Description: Testing strategy for .NET 10 applications. Covers xUnit v3, WebApplicationFactory for integration tests, Testcontainers for real database testing, Verify for snapshot testing, and the AAA pattern. Load this skill when writing tests, setting up test infrastructure, reviewing test coverage, or when the user mentions "test", "xUnit", "WebApplicationFactory", "Testcontainers", "integration test", "unit test", "bUnit", "snapshot test", "Verify", "test coverage", "AAA pattern", "WireMock", or "FakeTimeProvider".]]></description>
+Installs: 323
+Source: mattpocock/skills
+Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
         </item>
     </channel>
 </rss>
