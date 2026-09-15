@@ -1,0 +1,10 @@
+AI가 대규모 코드베이스를 진정으로 이해하도록 합니다. 여러 저장소, 다수의 마이크로서비스, 수년간의 반복이 있는 프로젝트의 경우, 아키텍처 역공학 + Graph RAG 맵 + CLI 다언어 AST를 사용하여 방대한 코드를 구조화된 지식 베이스로 압축합니다—각 결론은 코드 라인으로 추적할 수 있고, 각 관계에는 신뢰도 점수가 주석으로 달립니다.
+
+적용 시나리오: 저장소 혹은 마이크로서비스가 10개 이상인 프로젝트로, AI가 코드를 직접 읽어도 전체적인 이해를 얻지 못하고 부정확한 답변을 제공하며 토큰 비용이 크게 발생하는 경우.
+
+산출물: 컴포넌트 설계 문서 × N + 아키텍처 개요 + 브리지 문서화 + Graph RAG 맵 (G1~G9) + _manifest.json + teamai 추출 그래프 (teamwiki/).
+
+트리거: team-wiki-codebase, code-to-knowledge, code knowledge base, architecture analysis, architecture reverse engineering  
+전제 조건: 접근 가능한 소스 코드 디렉터리(다중 저장소 지원); 이 스킬 디렉터리 아래 `references/` 및 `scripts/`.
+
+항상 사용자의 언어로 응답해 주세요.

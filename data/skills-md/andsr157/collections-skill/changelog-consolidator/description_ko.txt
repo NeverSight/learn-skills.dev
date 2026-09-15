@@ -1,0 +1,3 @@
+사용자가 이 VitePress 문서 사이트에서 여러 프런트엔드 모듈의 변경 로그 문서(각각 docs/en/<module>-front/changelog.md에 위치, git 커밋 스타일 로그는 해시/작성자/파일/이유/영향 포함)를 가지고 있으며, 이를 하나의 통합된 고수준 변경 로그로 날짜별로 그룹화하고 모듈별 세부 사항을 나누어 병합하고 싶을 때 사용합니다. 프런트엔드 모듈만 통합합니다 — “-front” 접미사로 끝나는 디렉터리(e.g. fund-front, activity-front)만 포함하고, 백엔드, 모바일 또는 기타 비프런트 모듈은 그들의 변경 로그가 존재하더라도 건너뜁니다. 트리거: “gabungkan changelog semua module front”, “buat log version gabungan module -front”, “summarize semua module frontend jadi satu changelog per tanggal” 또는 여러 모듈별 변경 로그를 하나의 압축된 문서로 병합해 달라는 모든 요청. 핵심 특성: 재포맷이 아니라 압축—파일 경로, 커밋 해시, 작성자, Reason/Impact 서술은 제외하고, 변경 사항당 한 줄 요약만 남기며 Added/Changed/Fixed/Removed/Other 태그를 붙이고, 날짜별로, 그 다음 모듈별로 그룹화합니다.        
+
+항상 사용자의 언어로 답변하십시오.
