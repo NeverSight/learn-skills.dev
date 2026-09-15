@@ -1,0 +1,11 @@
+Fai sì che l'IA comprenda davvero grandi codebase. Per progetti con più repository, più microservizi e anni di iterazione, utilizza l'ingegneria inversa dell'architettura + Graph RAG maps + AST multi‑linguaggio da CLI per comprimere il codice massivo in una base di conoscenza strutturata—ogni conclusione può essere ricondotta alle righe di codice, e ogni relazione è annotata con un punteggio di confidenza.
+
+Scenari applicabili: progetti con più di 10 repository o microservizi in cui l'IA che legge il codice direttamente non riesce a ottenere una comprensione globale, le risposte sono imprecise e i costi in token sono elevati.
+
+Output: documenti di progettazione dei componenti × N + panoramica dell'architettura + documentazione di collegamento + Graph RAG maps (G1~G9) + _manifest.json + grafo di estrazione teamai (teamwiki/).  
+
+Attivatore: team-wiki-codebase, code-to-knowledge, code knowledge base, architecture analysis, architecture reverse engineering  
+
+Prerequisiti: directory di codice sorgente accessibili (con supporto a più repository); `references/` e `scripts/` all'interno di questa directory di skill.  
+
+Rispondi sempre nella lingua dell'utente.
