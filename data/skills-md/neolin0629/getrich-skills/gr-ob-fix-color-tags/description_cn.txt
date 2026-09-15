@@ -1,0 +1,1 @@
+批量在 Obsidian 笔记中（例如大型模型生成的原始提示）将十六进制颜色代码用全角括号包裹（#FFFFFF → （#FFFFFF）），以防止 # 被识别为标签。扫描用户指定目录下的 .md 文件，自动跳过代码块、链接、Frontmatter 以及已包裹的项。支持 macOS / Linux。触发指令：/gr-ob-fix-color-tags、/gr-fix-color-tags、/转义颜色代码、“fix color tags”。

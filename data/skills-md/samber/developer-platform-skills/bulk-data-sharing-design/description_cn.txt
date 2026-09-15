@@ -1,0 +1,1 @@
+将批量文件和湖泊导出设计为 B2B 产品界面——在对象存储上的 Parquet 文件投放与原生仓库/湖泊共享（Snowflake 共享、Delta Sharing、链接数据集）之间的双向选择，批次之间的分区和模式演进合同，交付节奏及新鲜度承诺（全量转储 vs 增量 vs CDC vs 流式），使用每个接收方凭证的共享桶安全性，出口成本分配，以及跨境数据驻留。每当用户提到批量导出、数据转储到 S3、Parquet、Snowflake 共享、Delta Sharing 或导出新鲜度 SLA 时，请使用此设计——即使他们从未说过“批量数据共享”。请勿用于实时 SQL 端点——请改用 samber/developer-platform-skills@sql-jdbc-access-design。

@@ -1,0 +1,1 @@
+为公共 API 设计幂等键支持和客户端重试指南，以便集成方能够安全地重试——键的派生与按调用方作用域、存储 TTL 与重放窗口、原子声明机制（数据库唯一约束、SERIALIZABLE 行锁、条件写入）、负载不匹配拒绝、进行中的重复请求处理、带抖动的指数回退、重试预算、超时传播以及 SDK 默认重试。每当用户提到 Idempotency‑Key 头部、重复或双重提交的请求、安全的 POST 重试、回退或抖动时，都使用——即使他们从未提及 “幂等”。不要将其用于错误响应所指示的内容（samber/developer-platform-skills@api-error-design）或 webhook 投递重试（samber/developer-platform-skills@webhook-platform-design）。请始终使用用户的语言作答。

@@ -1,0 +1,1 @@
+设计一个提供方的外发 webhook 平台 —— 事件分类与目录、负载封装和模式版本管理、HMAC 签名方案（标准 webhook）、至少一次投递并带有重试/退避和死信策略、订阅生命周期状态，以及面向开发者的调试界面（投递日志、回放、测试事件触发）。在用户提及 webhook、事件回调、向客户端点推送事件、webhook 签名、投递重试或 webhook 消费者门户时均使用——即使他们从未说“webhook 平台”。仅限提供方使用。不要用于消费者侧的重试机制——请改用 samber/developer-platform-skills@api-idempotency-retry。请始终使用用户的语言作答。

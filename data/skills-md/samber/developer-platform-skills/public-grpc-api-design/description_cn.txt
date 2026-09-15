@@ -1,0 +1,1 @@
+为外部开发者设计公共 gRPC 接口——何时使用 gRPC 的门槛（大多数平台将 gRPC 保持在内部，仅发布 REST 或转码的 JSON），AIP proto 包及版本约定，buf 的破坏性更改门槛以及它们在 google.api.http 上的盲点，默认使用 unary 还是 streaming 的决策，google.rpc.Status 错误模型及其 HTTP 映射陷阱，转码和网关架构（Connect‑RPC、grpc‑gateway、Envoy），以及外部认证和 TLS。每当用户提到 gRPC、protobuf 或 .proto 文件、buf、Connect‑RPC、grpc‑gateway，或在公共边缘使用 gRPC‑JSON 转码时，都要使用——即使他们从未说过“gRPC API 设计”。仅设计层面，不涉及特定语言的服务器实现。

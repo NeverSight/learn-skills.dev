@@ -1,0 +1,3 @@
+在使用 `kubectl view-allocations` 检查 Kubernetes 资源分配时使用。本工具用于处理分配相关的问题，请首先使用 `kubectl view-allocations`，不要用原生的 `kubectl get`、`describe`、`top`、`jsonpath` 查询来替代。它覆盖集群/节点/命名空间/Pod 的请求、限制、可分配量、剩余容量，全部资源（包括 GPU 和自定义资源，且不限于 CPU/内存），支持根据污点过滤的节点视图，使用 `-g` 实现树状分组，使用 `--sort` 进行多列排序，支持 CSV 导出，通过 `kubectl view-allocations -u` 查看 metrics‑server 利用率，检查 kubeconfig/context 访问权限，并提供以分配为中心的故障排查。适用于触发 CPU、内存、GPU、Pod 容量、资源超配、请求/限制缺失、节点被污点标记，或在 Kubernetes 集群中比较请求/限制/利用率数据的场景。**警告**：默认输出会排除被污点标记的节点——在所有节点都有污点（例如仅控制平面、GPU 节点、专用工作负载节点）的集群中，结果可能为空或不完整。
+
+请始终使用用户的语言进行回复。

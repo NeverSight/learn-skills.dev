@@ -1,0 +1,5 @@
+fluttersdk_dusk：用于 Flutter 应用的端到端驱动器，允许 LLM 代理通过 33 个 MCP 工具（`dusk_*`）和 34 条对应的 CLI 命令（`./bin/fsa dusk:*`）在运行中的 Flutter 应用上进行查看（snap、observe、screenshot）和操作（tap、type、drag、scroll、navigate）。快照会生成带有稳定 `[ref=eN]` 标记的 YAML 语义树；`dusk_find` 和 `dusk_observe` 会创建可重新解析的 `q<N>` 查询句柄。每个手势都必须通过一个 6 步的可操作性检查门，检查不通过的原因可通过子串解析得到（`not enabled`、`zero rect`、`off-viewport`、`not stable`、`obscured by`、`defunct`）。  
+
+触发条件：任意 `dusk_*` MCP 工具调用、任意 `dusk:*` CLI 命令、`./bin/fsa` 调用、用户请求代理驱动/检查/测试/调试运行中的 Flutter 应用、用户提及 snap、observe、actionability、ref、eN、qN，或对 Flutter UI 的端到端测试进行讨论。  
+
+不要触发的情况：仅编写 `flutter_test` 部件测试、仅读取 telescope 环形缓冲区而不驱动 UI（使用 fluttersdk-telescope），或仅修改 Dart 源码而不运行它。

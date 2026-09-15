@@ -1,0 +1,3 @@
+当用户拥有此 VitePress 文档站点中多个前端模块的变更日志文档（每个位于 docs/en/<module>-front/changelog.md，采用 git 提交风格的日志，包含哈希/作者/文件/原因/影响），并希望将它们合并为一个统一的高级变更日志，按日期分组并按模块细分时使用。仅合并前端模块——目录以 “-front” 为后缀的（例如 fund-front、activity-front），跳过后端、移动端或其他非前端模块，即使它们的变更日志存在。触发词：“gabungkan changelog semua module front”“buat log version gabungan module -front”“summarize semua module frontend jadi satu changelog per tanggal”，或任何合并多个模块变更日志为一个浓缩文档的请求。关键特性：浓缩而非重新格式化——去除文件路径、提交哈希、作者、Reason/Impact 文字描述；仅保留每条变更的一行要点，标记为 Added、Changed、Fixed、Removed、Other，按日期再按模块分组。
+
+请始终使用用户的语言回复。
