@@ -1,0 +1,1 @@
+為公共 API 設計冪等鍵支援與客戶端重試指引，使整合者能安全重試 ─ 鍵的衍生與按呼叫者範圍劃分、儲存 TTL 與重放窗口、原子認領機制（資料庫唯一約束、SERIALIZABLE 行鎖、條件寫入）、載荷不匹配拒絕、正在處理中的重複請求處理、帶抖動的指數退避、重試預算、逾時傳遞，以及 SDK 的預設重試行為。只要使用者提到 Idempotency-Key 標頭、重複或雙重提交的請求、安全的 POST 重試、退避或抖動，就使用此指引，即使他們未提及「冪等」。不要將此用於錯誤回應所指示的情況 (samber/developer-platform-skills@api-error-design) 或 webhook 交付重試 (samber/developer-platform-skills@webhook-platform-design)。

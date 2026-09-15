@@ -1,0 +1,1 @@
+設計 OAuth2 授權伺服器介面，供 B2B SaaS 向第三方應用程式提供服務——遵循 OAuth 2.1 協議基線（每個客戶端皆使用 PKCE、禁用隱式或密碼授權、精確的重導向匹配），設定 token 的存活時間（TTL）與刷新輪換政策、範圍（scope）的分類與粒度、同意畫面的設計支援部分授權與增量授權、客戶端註冊姿態，以及分層的應用驗證計畫。只要使用者提到 OAuth、"Sign in with X"、存取與刷新 token、範圍、同意畫面、PKCE，或是代表客戶行事的第三方應用程式，即使未說出「OAuth provider」亦採用此設計。僅針對發行者側，未整合他人的 OAuth。請勿用於 API 金鑰設計——請改用 samber/developer-platform-skills@api-auth-key-management。

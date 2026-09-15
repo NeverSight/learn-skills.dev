@@ -1,0 +1,18 @@
+將整個 Cargo 工作區以程式碼的形式管理 —— 在 TypeScript 中宣告 connectors、models、plays、tools、agents、MCP 伺服器、segments、context、folders、files、workers 以及 apps，然後利用 `cargo-ai project`（init → types → plan → deploy）將它們調和，就像使用 Pulumi 或 AWS CDK 一樣。  
+觸發條件：  
+「as code」  
+「in git」  
+「version‑controlled」  
+「reproducible」  
+「Terraform for Cargo」  
+「set up a whole workspace」  
+「staging and production」  
+「deploy the workspace from CI」  
+「review this in a PR」  
+「cargo.state.json」  
+「scaffold from a template」  
+「is there a cookbook for this」  
+「start from a cookbook」  
+
+具備 CDK 範例的 Skills（TAM 建構、account scoring、contact sourcing、routing、AI SDR、rep cockpit）放在 gtm‑skills；目錄位於 references/cookbooks.md。  
+若為一次性操作、純讀取或臨時查詢，請略過——改用相對應的能力 Skill。

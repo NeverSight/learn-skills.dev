@@ -1,0 +1,3 @@
+為第三方開發者設計公共 GraphQL API —— GraphQL-or-not 閘門、模式慣例（命名、可為 null、Node 介面、輸入/回傳類型）、Relay 游標連接分頁、聯合/介面錯誤結果類型、深度與複雜度上限作為設計決策、聯邦信任邊界（只有路由器是公開的），以及僅允許列入白名單的第一方流量的持久化查詢政策。每當使用者提及 GraphQL、公共模式、Relay 連接、查詢深度限制、持久化查詢、聯邦或 GraphQL 與 REST 的比較時，都使用此設計——即使他們未說「GraphQL API 設計」。僅限設計層面。不要用於 REST 表面審查——改用 samber/developer-platform-skills@public-api-design-review。
+
+請始終以使用者的語言回覆。

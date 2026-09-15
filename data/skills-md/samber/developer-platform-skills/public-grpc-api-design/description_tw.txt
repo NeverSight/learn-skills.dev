@@ -1,0 +1,3 @@
+為外部開發者設計公共 gRPC 介面——何時允許使用 gRPC 的門檻（大多數平台將 gRPC 隱蔽在內部，對外僅發布 REST 或轉碼 JSON），AIP proto 套件與版本管控慣例，buf 破壞性變更門檻與其 google.api.http 盲點，預設單向（unary）與串流決策，google.rpc.Status 錯誤模型及其 HTTP 映射陷阱，轉碼與閘道架構（Connect‑RPC、grpc‑gateway、Envoy），以及外部驗證與 TLS。每當使用者提及 gRPC、protobuf 或 .proto 檔案、buf、Connect‑RPC、grpc‑gateway，或公共端點的 gRPC‑JSON 轉碼時，都要使用這些概念——即使他們從未說「gRPC API 設計」。僅設計層面，勿涉及語言特定的伺服器實作。
+
+請始終以使用者的語言回覆。

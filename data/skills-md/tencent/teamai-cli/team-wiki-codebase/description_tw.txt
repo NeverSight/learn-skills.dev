@@ -1,0 +1,12 @@
+讓 AI 真正理解大型程式碼庫。對於跨多個倉庫、包含眾多微服務且經歷多年迭代的專案，使用架構逆向工程 + Graph RAG 地圖 + CLI 多語言 AST，將龐大的程式碼壓縮成結構化知識庫——每個結論皆可追溯至程式碼行，每段關係都附有信心分數。
+
+適用情境：擁有 10 個以上倉庫或微服務的專案，AI 直接閱讀程式碼無法達成全局理解，答案不精確，且代幣開銷高。
+
+輸出：元件設計文件 × N + 架構概覽 + 橋接文件 + Graph RAG 地圖 (G1~G9) + _manifest.json + teamai 抽取圖 (teamwiki/)。
+
+觸發條件：team-wiki-codebase、code-to-knowledge、code knowledge base、architecture analysis、architecture reverse engineering  
+前置條件：可存取的原始程式碼目錄（支援多倉庫）；本技能目錄下的 `references/` 與 `scripts/`。
+
+請始終以使用者的語言回應。
+
+請始終以使用者的語言回應。

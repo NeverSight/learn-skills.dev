@@ -1,0 +1,1 @@
+設計供應方的發送 webhook 平台——事件分類與目錄、負載封裝與 schema 版號管理、HMAC 簽名機制（標準 webhook）、至少一次傳遞並具備重試/退避與死信政策、訂閱生命週期狀態，以及面向開發者的除錯介面（傳遞日誌、重放、測試事件觸發）。在使用者提及 webhook、事件回呼、向客戶端點推送事件、webhook 簽名、傳遞重試或 webhook 消費者入口網站時皆使用，即使他們未說「webhook 平台」。僅限供應方。請勿用於消費者端重試機制——改用 samber/developer-platform-skills@api-idempotency-retry。

@@ -1,0 +1,1 @@
+將大批量檔案與資料湖匯出設計為 B2B 產品介面——提供兩種選擇：在物件儲存上以 Parquet 檔案投放，或使用原生資料倉庫/資料湖共享（Snowflake 分享、Delta Sharing、連結資料集），批次間的分割與模式演進合約、交付頻率與新鮮度承諾（全量轉儲、增量、CDC 或串流），共享 bucket 的安全性與收件者個別憑證、流出成本分配，以及跨境資料所在地規範。於使用者提到大規模匯出、資料匯入 S3、Parquet、Snowflake 分享、Delta Sharing 或匯出新鮮度 SLA 時皆使用此規則，即使他們未提及「大規模資料共享」。切勿用於即時 SQL 端點——請改用 samber/developer-platform-skills@sql-jdbc-access-design。請始終以使用者的語言回覆。

@@ -1,0 +1,3 @@
+決定公共 API 的語言‑SDK 組合——哪些語言獲得官方 SDK 以及順序、生成式與手寫式建構模式、官方與社群支援層級及晉升門檻、SDK 停止支援與終止生命週期，並將 SDK 的 SemVer 與 API 版本及發佈節奏解耦。每當使用者提及客戶端函式庫、SDK、優先支援哪些語言、SDK 生成器（Stainless、Fern、OpenAPI Generator）、社群 SDK，或是 SDK 停止服務時，都使用此策略——即使他們從未說過「SDK 組合」。僅聚焦於組合策略，而非單一 SDK 的易用性或註冊發布。絕不要用於判斷是否應提供 SDK 作為介面——請改用 samber/developer-platform-skills@api-integration-surface-strategy。
+
+請始終以使用者的語言回覆。

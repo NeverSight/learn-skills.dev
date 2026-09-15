@@ -1,0 +1,1 @@
+在將整個 Gradle Kotlin 專案（包括 build.gradle(.kts)、wrapper、libs.versions.toml、buildSrc）遷移或轉換至 Kotlin Toolchain 時載入，並重新編寫 CI、取代沒有原生 Toolchain 等價的 Gradle 插件。若僅移植單一 Gradle 插件或在 Gradle 不再使用時執行一般的 Toolchain 工作，則跳過。
