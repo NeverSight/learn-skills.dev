@@ -1,0 +1,10 @@
+Permettre à l'IA de comprendre réellement les grandes bases de code. Pour les projets comportant plusieurs dépôts, de nombreux microservices et des années d'itérations, en utilisant le rétro‑ingénierie d'architecture + les cartes Graph RAG + le CLI AST multilingue, compresser un code massif en une base de connaissances structurée — chaque conclusion est traçable jusqu'aux lignes de code, chaque relation est annotée d'un score de confiance.
+
+Scénarios d'application : projets avec plus de 10 dépôts ou microservices où la lecture directe du code par l'IA ne permet pas d'obtenir une compréhension globale, les réponses sont inexactes et le coût en tokens est élevé.
+
+Livrables : documents de conception de composants × N + aperçu de l'architecture + documentation du pont + cartes Graph RAG (G1~G9) + _manifest.json + graphe d'extraction teamai (teamwiki/).
+
+Déclencheur : team-wiki-codebase, code-to-knowledge, base de connaissances du code, analyse d'architecture, rétro‑ingénierie d'architecture  
+Pré‑requis : répertoires de code source accessibles (prenant en charge plusieurs dépôts) ; `references/` et `scripts/` sous ce répertoire de compétence.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
