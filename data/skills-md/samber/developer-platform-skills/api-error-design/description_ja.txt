@@ -1,0 +1,3 @@
+統合者が自力で修正できるように、パブリック API のエラー設計を行う――機械可読なエラーコード分類（フラットカタログ、コード/サブコード、Google 方式のドメイン/理由）、RFC 9457 の problem‑details エンベロープに拡張メンバーを追加、実行可能なエラーメッセージ、リトライ可能性のシグナリング（retryable フラグ、Retry‑After）、エンドポイントごとのエラー文書化と request‑ID の追跡。ユーザーが API エラーコード、エラー分類、RFC 9457、application/problem+json、4xx/5xx のレスポンスボディ、あるいは分かりにくい API エラーメッセージに言及した場合は必ず使用する—たとえ「エラー設計」と言及がなくても。クライアント側のリトライ機構には使用しないでください—代わりに samber/developer-platform-skills@api-idempotency-retry を使用してください。また、インシデントやステータスページのコミュニケーションにも使用しないでください—代わりに samber/developer-platform-skills@api-status-communication を使用してください。
+
+常にユーザーの言語で回答してください。

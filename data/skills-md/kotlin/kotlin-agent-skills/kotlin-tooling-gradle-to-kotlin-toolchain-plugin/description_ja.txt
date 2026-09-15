@@ -1,0 +1,1 @@
+単一の Gradle プラグインを Kotlin Toolchain のローカルプラグインとして移植・変換・再実装する場合、または Gradle プラグインの概念（Task、Extension、project.version、dependsOn、-P プロパティ、afterEvaluate）を Toolchain の類似概念にマッピングする場合にロードする。Gradle プロジェクト全体を移行する場合や、プラグインをゼロから作成する場合は除外する。

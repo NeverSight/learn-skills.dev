@@ -1,0 +1,1 @@
+Obsidian のノート内で 16 進カラーコード（例：大規模モデルが生成した生画像プロンプト）を全角括弧で包み（#FFFFFF → （#FFFFFF））、「#」がタグとして認識されるのを防ぎます。ユーザーが指定したディレクトリの .md ファイルを走査し、コードブロック、リンク、Frontmatter、すでに包まれた項目は自動的に除外します。macOS / Linux 対応。トリガーコマンド: /gr-ob-fix-color-tags、/gr-fix-color-tags、/转义颜色代码、“fix color tags”。

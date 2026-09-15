@@ -1,0 +1,3 @@
+このVitePressドキュメントサイトで、複数のフロントエンドモジュールの変更履歴ドキュメント（各々 docs/en/<module>-front/changelog.md にあり、ハッシュ・作者・ファイル・理由・影響 の情報を持つ git コミットスタイルのログ）があり、それらを日付ごとにグループ化し、モジュール別の内訳を付けた ONE の統合されたハイレベルな変更履歴にまとめたい場合に使用します。統合対象は「-front」サフィックスで終わるディレクトリ（例: fund-front、activity-front）というフロントエンドモジュールのみで、バックエンド、モバイル、その他の非フロントモジュールはたとえ変更履歴が存在しても除外します。トリガー例: 「gabungkan changelog semua module front」「buat log version gabungan module -front」「summarize semua module frontend jadi satu changelog per tanggal」など、複数のモジュール別変更履歴を一つの凝縮された文書にマージするリクエスト全般。重要な特徴は「凝縮」であり、再フォーマットではありません。ファイルパス、コミットハッシュ、作者、Reason/Impact の文章は削除し、変更ごとに Added/Changed/Fixed/Removed/Other のタグを付けた一行の要旨だけを残し、日付ごと、次にモジュールごとにグループ化します。
+
+常にユーザーの言語で回答してください。
