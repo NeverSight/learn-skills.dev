@@ -4,573 +4,580 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Mon, 14 Sep 2026 03:17:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 03:20:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-14)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-15)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:snapshot</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:snapshot</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8125
-Trending skills: 7828
-Hot skills: 2928
-Top All Time: find-skills (3384098)
-Top Trending: google-agents-cli-deploy (18928)
-Top Hot: limrun-xcode-bazel (21)]]></description>
+All Time skills: 8186
+Trending skills: 7925
+Hot skills: 2795
+Top All Time: find-skills (3400026)
+Top Trending: design-mobile-apps (23069)
+Top Hot: recoup-roster-add-artist (103)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): video-edit]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/video-edit</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topAllTime:new:genmedia-labs/skills/video-edit</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#48): ai-music]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-music</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topAllTime:new:genmedia-labs/skills/ai-music</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #48
+Installs: 490441
+Source: genmedia-labs/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#50): ai-video-generation]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topAllTime:new:genmedia-labs/skills/ai-video-generation</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #50
-Installs: 474859
+Installs: 490249
 Source: genmedia-labs/skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): limrun-xcode-bazel]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode-bazel</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-xcode-bazel</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): recoup-roster-add-artist]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-roster-add-artist</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-roster-add-artist</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 21
-Source: limrun-inc/skills
-Description: Build a Bazel-based iOS / macOS / Apple app on Limrun's remote build execution (RBE) instead of a local Mac, and install it on a remote iOS simulator. Use when the project is a Bazel workspace (MODULE.bazel / WORKSPACE) building rules_apple / rules_swift targets and the user wants to `bazel build` it or run it on a simulator, or when a `--config=limrun` build or install misbehaves. To then tap, type, screenshot, or otherwise interact with the running app, use limrun-ios-simulator. For non-Bazel (plain xcodebuild) projects use limrun-xcode instead.]]></description>
+Installs: 103
+Source: recoupable/skills
+Description: Onboard a brand-new artist to your roster and enrich them — the 8-call chain (create → Spotify match → research → catalog → socials → knowledge base) that sets up the artist and their workspace folder. Use for "create/add/onboard an artist", "set up [artist]", "we just signed [artist]", or "new signing". To see your roster use recoup-roster-list-artists; to work inside an existing artist's files use recoup-roster-manage-artist.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): finishing-a-development-branch]]></title>
-            <link>https://skills.sh/obra/superpowers/finishing-a-development-branch</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/finishing-a-development-branch</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): genshijin-crew]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-crew</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:interfacex-co-jp/genshijin/genshijin-crew</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 35
-Source: obra/superpowers
-Description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup]]></description>
+Installs: 13
+Source: interfacex-co-jp/genshijin
+Description: 原始人スタイル subagent への委譲判断ガイド。`genshijin-investigator` (コード位置特定)、 `genshijin-builder` (1-2ファイル編集)、`genshijin-reviewer` (diff レビュー) を inline作業 or vanilla `Explore` の代わりにスポーンするタイミングを示す。subagent 出力は原始人圧縮 → 主コンテキストに戻る tool-result が約60%縮小 → 長セッション持続。 Trigger: 「subagent 委譲」「genshijin-crew 使用」「investigator/builder/reviewer 起動」「コンテキスト節約」「圧縮 agent 出力」。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): using-git-worktrees]]></title>
-            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/using-git-worktrees</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): genshijin-stats]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-stats</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:interfacex-co-jp/genshijin/genshijin-stats</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 35
-Source: obra/superpowers
-Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
+Installs: 13
+Source: interfacex-co-jp/genshijin
+Description: 現セッションのリアルトークン使用量と推定削減量を表示。Claude Code セッションログから直接読込 — AI 推定なし。 `/genshijin-stats` で起動。出力は mode-tracker フックが注入し、モデル自身は数値計算しない。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): writing-skills]]></title>
-            <link>https://skills.sh/obra/superpowers/writing-skills</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/writing-skills</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): genshijin-help]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-help</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:interfacex-co-jp/genshijin/genshijin-help</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 35
-Source: obra/superpowers
-Description: Use when creating new skills, editing existing skills, or verifying skills work before deployment]]></description>
+Installs: 13
+Source: interfacex-co-jp/genshijin
+Description: 全 genshijin モード・スキル・コマンドのクイックリファレンスカード。 1回限り表示・モード変更なし・状態永続化なし。 「/genshijin-help」「原始人ヘルプ」「原始人の使い方」で起動。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): dispatching-parallel-agents]]></title>
-            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): genshijin-review]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-review</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:interfacex-co-jp/genshijin/genshijin-review</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 35
-Source: obra/superpowers
-Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
+Installs: 13
+Source: interfacex-co-jp/genshijin
+Description: 超圧縮PRレビューコメント。1行1指摘: 位置・問題・修正。前置き削除、シグナル優先。 日本語対応。「PRレビューして」「コードレビュー」「/review」「/genshijin-review」で起動。 プルリクエストレビュー時に自動起動候補。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): subagent-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/subagent-driven-development</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/subagent-driven-development</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): genshijin-compress]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-compress</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:interfacex-co-jp/genshijin/genshijin-compress</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 35
-Source: obra/superpowers
-Description: Use when executing implementation plans with independent tasks in the current session]]></description>
+Installs: 13
+Source: interfacex-co-jp/genshijin
+Description: 自然言語メモリファイル（CLAUDE.md, todos, 設定）を原始人形式に圧縮し入力トークン削減。 技術内容・コード・URL・構造は完全保持。圧縮版が原ファイルを上書き、人間可読版は FILE.original.md として保存。「/genshijin-compress <filepath>」「メモリファイル圧縮」で起動。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): requesting-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/requesting-code-review</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): playwriter]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/playwriter</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/playwriter</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 35
-Source: obra/superpowers
-Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Control the user's currently open Chrome tab through the Playwriter CLI (no new browser launch). Use when you need to inspect live UI state, run scripted browser actions, capture console output, or reproduce frontend issues directly in the user's tab.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): fix-sentry-issues]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/fix-sentry-issues</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/fix-sentry-issues</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 35
-Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Use Sentry MCP to discover, triage, and fix production issues with root-cause analysis. Use when asked to fix Sentry issues, triage production errors, investigate error spikes, or clean up Sentry noise. Requires Sentry MCP server. Triggers on "fix sentry", "triage errors", "production bugs", "sentry issues".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): executing-plans]]></title>
-            <link>https://skills.sh/obra/superpowers/executing-plans</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/executing-plans</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): workflow]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/workflow</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/workflow</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 36
-Source: obra/superpowers
-Description: Use when you have a written implementation plan to execute in a separate session with review checkpoints]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Workflow orchestration for complex coding tasks. Use for ANY non-trivial task (3+ steps or architectural decisions) to enforce planning, subagent strategy, self-improvement, verification, elegance, and autonomous bug fixing. Triggers: multi-step implementation, bug fixes, refactoring, architectural changes, or any task requiring structured execution.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): writing-plans]]></title>
-            <link>https://skills.sh/obra/superpowers/writing-plans</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/writing-plans</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): find-skills]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/find-skills</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/find-skills</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 37
-Source: obra/superpowers
-Description: Use when you have a spec or requirements for a multi-step task, before touching code]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): verification-before-completion]]></title>
-            <link>https://skills.sh/obra/superpowers/verification-before-completion</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/verification-before-completion</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): bun]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/bun</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/bun</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 36
-Source: obra/superpowers
-Description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Use Bun instead of Node.js, npm, pnpm, or vite. Provides command mappings, Bun-specific APIs, and development patterns.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): limrun-xcode]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-xcode</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): recoup-platform-email-helper]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-platform-email-helper</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-platform-email-helper</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 21
-Source: limrun-inc/skills
-Description: Build an iOS / Apple app on remote Xcode with `lim xcode build` instead of local xcodebuild, from any environment (Linux, Windows, macOS, VM, container). Use for non-Bazel projects (an `.xcodeproj` / `.xcworkspace`, an XcodeGen `project.yml` with a gitignored project, React Native / Expo native build) when the user wants to build, compile, reload, produce a preview build, or ship a signed device IPA. To run, tap, screenshot, or otherwise interact with the result on a simulator, use limrun-ios-simulator. For Bazel workspaces, use limrun-xcode-bazel.]]></description>
+Installs: 103
+Source: recoupable/skills
+Description: Send an email via the Recoup API the reliable way — a Node helper that serializes the body correctly and fails loudly instead of sending an empty email. Use whenever a task needs to email a report/summary/notification to the account owner or a recipient. ALWAYS use this script to send email; never hand-build `curl … -d "{…}"` with inline `jq`/shell interpolation (that silently produces empty "Message from Recoup" footer-only emails). Pairs with recoup-platform-api-access (which it sends through).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): systematic-debugging]]></title>
-            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/systematic-debugging</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): chrome-webstore-release-blueprint]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/chrome-webstore-release-blueprint</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/chrome-webstore-release-blueprint</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 39
-Source: obra/superpowers
-Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Guide a user end-to-end through setting up Chrome Web Store API release automation in any repository. Use when asked to walk someone through OAuth/CWS credential setup, refresh token creation, local/CI secret setup, version-based publish automation, and submission status checks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): test-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/test-driven-development</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/test-driven-development</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): favicon]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/favicon</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/favicon</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 37
-Source: obra/superpowers
-Description: Use when implementing any feature or bugfix, before writing implementation code]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Generate a complete set of favicons from a source image and update HTML. Use when setting up favicons for a web project.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): lark-approval]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-approval</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-approval</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): react-doctor]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/react-doctor</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/react-doctor</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 29
-Source: larksuite/cli
-Description: 飞书审批 API：审批实例、审批任务管理。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Diagnose and fix React codebase health issues. Use when reviewing React code, fixing performance problems, auditing security, or improving code quality.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): lark-wiki]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-wiki</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): rams]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/rams</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/rams</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 29
-Source: larksuite/cli
-Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Run accessibility and visual design review on components. Use when reviewing UI code for WCAG compliance and design issues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): lark-note]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-note</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-note</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): reclaude]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/reclaude</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/reclaude</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 28
-Source: larksuite/cli
-Description: 飞书会议纪要（Note）直查：已知 note_id 时查询纪要详情、展示类型、关联文档 token，并读取 unified 原始逐字记录。当用户已持有 note_id，或从文档显式 vc-node-id 获得 note_id 时使用。不负责会议/日程/妙记定位、文档标题搜索或 Docx 正文读取。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Refactor CLAUDE.md files to follow progressive disclosure principles. Use when CLAUDE.md is too long or disorganized.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): lark-markdown]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-markdown</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-markdown</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): grill-me]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/grill-me</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/grill-me</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 28
-Source: larksuite/cli
-Description: 飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): lark-vc-agent]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-vc-agent</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-vc-agent</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): knip]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/knip</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/knip</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 28
-Source: larksuite/cli
-Description: 飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Run knip to find and remove unused files, dependencies, and exports. Use for cleaning up dead code and unused dependencies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): lark-apps]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-apps</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-apps</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): tdd]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/tdd</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/tdd</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 28
-Source: larksuite/cli
-Description: 把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): lark-slides]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-slides</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-slides</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): agent-browser]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/agent-browser</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/agent-browser</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 28
-Source: larksuite/cli
-Description: 飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): lark-im]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-im</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-im</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): deslop]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/deslop</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/deslop</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 29
-Source: larksuite/cli
-Description: 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Remove AI-generated code slop from the current branch. Use after writing code to clean up unnecessary comments, defensive checks, and inconsistent style.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): limrun-ios-simulator]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-ios-simulator</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-ios-simulator</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): recoup-platform-build-os]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-platform-build-os</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-platform-build-os</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 21
-Source: limrun-inc/skills
-Description: Drive an app running on a Limrun cloud iOS simulator: launch, tap, type, read the accessibility element tree, screenshot, record video, and run timed action chains. Use after a build (from any builder) when the user wants to see, test, or interact with their app on a simulator, or says 'show me a screenshot', 'tap', 'run the UI test', 'record a video', or 'launch on simulator'. To build the app first, use limrun-xcode-bazel (Bazel workspaces) or limrun-xcode (xcodebuild projects).]]></description>
+Installs: 103
+Source: recoupable/skills
+Description: Scaffold and run a label's self-managing "music-company OS" inside its own git repo — the full label-intelligence workspace (folders, a self-managing CLAUDE.md mirrored to AGENTS.md, a read-only doctor + never-stale janitor, compound-learning and self-improvement loops, an in-place plugin) seeded with Recoup's conventions (top-level artists/{slug}/RECOUP.md identity files, releases/{slug}/RELEASE.md) and backed by the Recoup API as system of record. Use for "set up our label OS", "build the org workspace", "turn this repo into our label brain", or onboarding a new org/label repo. Pulls the real roster from the live account (auth via recoup-platform-connect-account), onboards artists API-first via recoup-roster-add-artist, and calls the other recoup-* skills (research/content/release/song/catalog) instead of reinventing them. The single workspace/OS builder — also covers the lightweight "just mirror my roster into folders" case.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): lark-calendar]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-calendar</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-calendar</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): skill-creator]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/skill-creator</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/skill-creator</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 29
-Source: larksuite/cli
-Description: 飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): lark-sheets]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-sheets</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-sheets</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): sentry]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/sentry</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/sentry</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 29
-Source: larksuite/cli
-Description: 飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Sentry error monitoring and performance tracing patterns for Next.js applications.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): lark-mail]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-mail</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-mail</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): byted-web-search]]></title>
+            <link>https://skills.sh/kotot/byted-web-search/byted-web-search</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:kotot/byted-web-search/byted-web-search</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 29
-Source: larksuite/cli
-Description: 飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread.]]></description>
+Installs: 9
+Source: kotot/byted-web-search
+Description: 火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent Plan、融合信息搜索、Harness、有什么/有哪些/推荐、价格/政策/汇率/行情、对比/区别/哪个好、听说/据说/不太确定、热搜/热门/火、帮我看/了解一下、求证/辟谣、值不值得/该不该。任务依赖在线事实或时效性时优先使用。若回答可能依赖外部事实，优先调用本 skill 再作答。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): lark-drive]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-drive</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-drive</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): momentic-result-classification]]></title>
+            <link>https://skills.sh/momentic-ai/skills/momentic-result-classification</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:momentic-ai/skills/momentic-result-classification</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 29
-Source: larksuite/cli
-Description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。]]></description>
+Installs: 7
+Source: momentic-ai/skills
+Description: Classify or explain Momentic test run results using Momentic MCP tools. Use when the user asks to categorize a failure, understand why a run failed, triage test results, or compare run results to past run results.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): lark-contact]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-contact</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-contact</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): momentic-mobile-test]]></title>
+            <link>https://skills.sh/momentic-ai/skills/momentic-mobile-test</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:momentic-ai/skills/momentic-mobile-test</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 28
-Source: larksuite/cli
-Description: 飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。]]></description>
+Installs: 7
+Source: momentic-ai/skills
+Description: Create, run, and maintain Momentic mobile E2E tests and modules for Android and iOS. Use Momentic MCP tools for live device validation, and use direct v2 YAML edits only for high-confidence local mobile v2 changes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): lark-event]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-event</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-event</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): momentic-test]]></title>
+            <link>https://skills.sh/momentic-ai/skills/momentic-test</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:momentic-ai/skills/momentic-test</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 28
-Source: larksuite/cli
-Description: 飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。]]></description>
+Installs: 7
+Source: momentic-ai/skills
+Description: Create and maintain Momentic browser E2E tests via the Momentic MCP tools. Use when a user asks to create a new test, scaffold a smoke test, or add/modify/delete steps in an existing test. Do not use for editing Momentic YAML directly.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): lark-minutes]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-minutes</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-minutes</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): simplify]]></title>
+            <link>https://skills.sh/brianlovin/agent-config/simplify</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:brianlovin/agent-config/simplify</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 28
-Source: larksuite/cli
-Description: 飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>]]></description>
+Installs: 10
+Source: brianlovin/agent-config
+Description: Simplify and refine recently modified code for clarity and consistency. Use after writing code to improve readability without changing functionality.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): lark-okr]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-okr</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-okr</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): momentic-spec]]></title>
+            <link>https://skills.sh/momentic-ai/skills/momentic-spec</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:momentic-ai/skills/momentic-spec</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 28
-Source: larksuite/cli
-Description: 飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。]]></description>
+Installs: 6
+Source: momentic-ai/skills
+Description: Improve code correctness using Momentic specs in the feature development process]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): lark-whiteboard]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-whiteboard</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-whiteboard</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): hypit]]></title>
+            <link>https://skills.sh/hypit-ai/hypit/hypit</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:hypit-ai/hypit/hypit</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 28
-Source: larksuite/cli
-Description: 当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。]]></description>
+Installs: 6
+Source: hypit-ai/hypit
+Description: Make, adapt, and revise videos with Hypit from references or briefs, including SVML/SVS/SVRun authoring, project components, and Runtime or credential setup.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): lark-vc]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-vc</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-vc</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): momentic-maintain]]></title>
+            <link>https://skills.sh/momentic-ai/skills/momentic-maintain</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:momentic-ai/skills/momentic-maintain</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 28
-Source: larksuite/cli
-Description: 飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。]]></description>
+Installs: 6
+Source: momentic-ai/skills
+Description: Diagnose, classify, triage, and repair failing Momentic tests with MCP run tools, the Momentic CLI, and manual run artifacts. Use when a developer asks what happened on a branch, DevX or on-call asks why main is red, or the user wants to inspect classifications, de-flake quarantined or recovered tests, reduce retries, re-classify runs, run AI triage, or repair failures.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): limrun-detox-testing]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-detox-testing</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-detox-testing</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): recoup-platform-api-access]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-platform-api-access</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-platform-api-access</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 21
-Source: limrun-inc/skills
-Description: Configure, run, or debug Detox on Limrun iOS simulators. Use when attaching the Limrun Detox runtime to an app, wiring Detox mediator connectivity, or validating app/tester connections over reverse tunnels.]]></description>
+Installs: 103
+Source: recoupable/skills
+Description: Call the Recoup API and external connectors directly — fetch any platform resource (artists, socials, organizations, research, documents) and run connector actions (Google Docs/Sheets/Drive edits, Gmail, TikTok, Instagram). Use whenever you need raw Recoup data, a platform resource, to write curl against api.recoupable.dev, or to read/write something outside Recoup like a Google Doc URL or a spreadsheet. The plumbing every other skill rides on. To onboard or operate on an artist use the recoup-roster-* skills; for first-run connection use recoup-platform-connect-account.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): lark-task]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-task</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-task</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): mo-qa]]></title>
+            <link>https://skills.sh/momentic-ai/skills/mo-qa</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:momentic-ai/skills/mo-qa</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 28
-Source: larksuite/cli
-Description: 飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。]]></description>
+Installs: 6
+Source: momentic-ai/skills
+Description: Use Momentic's `mo` CLI to run and control Mo, Momentic's cloud autonomous QA agent. Use when starting or continuing Mo sessions, reading their output or status, stopping active work, answering Mo, or moving files between the local machine and Mo's hosted sandbox.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): lark-workflow-meeting-summary]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-workflow-meeting-summary</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-workflow-meeting-summary</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): gh-stack]]></title>
+            <link>https://skills.sh/github/gh-stack/gh-stack</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:github/gh-stack/gh-stack</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 28
-Source: larksuite/cli
-Description: 会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。]]></description>
+Installs: 6
+Source: github/gh-stack
+Description: Manage stacked branches and pull requests with the gh-stack GitHub CLI extension. Use when the user wants to create, push, rebase, sync, navigate, or view stacks of dependent PRs. Triggers on tasks involving stacked diffs, dependent pull requests, branch chains, or incremental code review workflows.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): lark-attendance]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-attendance</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-attendance</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): gemini-omni-flash-api]]></title>
+            <link>https://skills.sh/google-gemini/gemini-skills/gemini-omni-flash-api</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:google-gemini/gemini-skills/gemini-omni-flash-api</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 27
-Source: larksuite/cli
-Description: 飞书考勤打卡：查询自己的考勤打卡记录]]></description>
+Installs: 5
+Source: google-gemini/gemini-skills
+Description: Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): lark-meeting]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-meeting</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-meeting</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): gemini-live-api-dev]]></title>
+            <link>https://skills.sh/google-gemini/gemini-skills/gemini-live-api-dev</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:google-gemini/gemini-skills/gemini-live-api-dev</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 27
-Source: larksuite/cli
-Description: 飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。]]></description>
+Installs: 5
+Source: google-gemini/gemini-skills
+Description: Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): lark-skill-maker]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-skill-maker</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): gemini-api-dev]]></title>
+            <link>https://skills.sh/google-gemini/gemini-skills/gemini-api-dev</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:google-gemini/gemini-skills/gemini-api-dev</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 27
-Source: larksuite/cli
-Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
+Installs: 5
+Source: google-gemini/gemini-skills
+Description: Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): lark-openapi-explorer]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-openapi-explorer</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-openapi-explorer</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): greploop]]></title>
+            <link>https://skills.sh/greptileai/skills/greploop</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:greptileai/skills/greploop</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 27
-Source: larksuite/cli
-Description: 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。]]></description>
+Installs: 5
+Source: greptileai/skills
+Description: Iteratively improves a PR until Greptile gives it a 5/5 confidence score with zero unresolved comments. Triggers Greptile review, fixes all actionable comments, pushes, re-triggers review, and repeats. Use when the user wants to fully optimize a PR against Greptile's code review standards.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): lark-workflow-standup-report]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-workflow-standup-report</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-workflow-standup-report</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): academic-pipeline]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/academic-pipeline</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:projectedanx/academic-research-skills/academic-pipeline</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 27
-Source: larksuite/cli
-Description: 日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory integrity verification, two-stage peer review, and reproducible quality gates. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): brainstorming]]></title>
-            <link>https://skills.sh/obra/superpowers/brainstorming</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:obra/superpowers/brainstorming</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): deep-research]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/deep-research</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:projectedanx/academic-research-skills/deep-research</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 39
-Source: obra/superpowers
-Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): lark-shared]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-shared</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-shared</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): academic-paper-reviewer]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/academic-paper-reviewer</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:projectedanx/academic-research-skills/academic-paper-reviewer</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 29
-Source: larksuite/cli
-Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent reviewers (EIC + 3 peer reviewers + Devil's Advocate) with field-specific expertise. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): lark-doc]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-doc</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-doc</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): academic-paper]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/academic-paper</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:projectedanx/academic-research-skills/academic-paper</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 29
-Source: larksuite/cli
-Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: 12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, audit my rebuttal, check my response draft, AI disclosure, 寫論文, 學術論文, 引導我寫論文, 審查意見, 評估回覆.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): limrun-android-emulator]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-android-emulator</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-android-emulator</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): recoup-roster-manage-artist]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-roster-manage-artist</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-roster-manage-artist</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 21
-Source: limrun-inc/skills
-Description: Drive an app running on a Limrun cloud Android emulator: install an APK, launch and terminate apps with crash reports, tap, type, read the UI element tree, screenshot, record video, inject microphone audio, shape network bandwidth, and use adb over the CLI's tunnel for logcat, files, and shell. Use after a build (from limrun-gradle or any builder) when the user wants to see, test, or interact with their app on an emulator, or says 'show me a screenshot', 'tap', 'run it on the emulator', 'check logcat', or 'record a video'. To build the APK or AAB first, use limrun-gradle.]]></description>
+Installs: 102
+Source: recoupable/skills
+Description: Work inside one artist's folder — read and update their context, brand, songs, and releases. Use for "organize [artist]'s files", "update [artist]'s brand/context", "what's in [artist]'s workspace", or any task about a named artist's files. To list your whole roster use recoup-roster-list-artists; for research/metrics on an artist use recoup-research-artist-overview.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): lark-base]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-base</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:larksuite/cli/lark-base</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): simple-english]]></title>
+            <link>https://skills.sh/aminblg/simpleenglish/simple-english</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:aminblg/simpleenglish/simple-english</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 29
-Source: larksuite/cli
-Description: 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。]]></description>
+Installs: 7
+Source: aminblg/simpleenglish
+Description: Write or rewrite technical text with the rules of ASD-STE100 Simplified
+Technical English so it is clear, unambiguous, and free of AI slop. Use for
+documentation, READMEs, runbooks, procedures, error messages, release notes,
+incident reports, and API guides. Also use when the user says "STE",
+"Simplified Technical English", "ASD-STE100", "de-slop", "make this
+readable", "write for non-native readers", or asks for docs that translate
+well. Enforces the standard's 53 rules: 20/25-word sentence limits, one word
+one meaning, simple tenses, active voice, condition before command.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): limrun-gradle]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-gradle</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-gradle</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): recoup-music-video]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-music-video</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-music-video</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 21
-Source: limrun-inc/skills
-Description: Build an Android app on a remote Gradle sandbox with `lim gradle build` instead of local Gradle or Android Studio, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to build an APK or AAB, sign a release with an upload key, or prepare a Play Store publish, for native Android projects, React Native, and Expo. To run, tap, screenshot, or otherwise interact with the built APK on an emulator, use the `lim android` commands shown here. For iOS builds, use limrun-xcode or limrun-expo-development.]]></description>
+Installs: 102
+Source: recoupable/skills
+Description: Make a finished vertical music video for an artist — generate the song, then build the film around it. Use for "make a music video", "turn this into a music video", "make me a video for my song", or "I want a music video about X". v1 generates the song; bringing your own released master (audio file, Spotify or YouTube URL) is v2. Composes a complete short piece on the free tier and a full-length film on Pro. Verifies the render before claiming done; stops at the asset.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): limrun-maestro-testing]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-maestro-testing</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-maestro-testing</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): recoup-roster-list-artists]]></title>
+            <link>https://skills.sh/recoupable/skills/recoup-roster-list-artists</link>
+            <guid isPermaLink="false">2026-09-15T03:20:07.173Z:topHot:new:recoupable/skills/recoup-roster-list-artists</guid>
+            <pubDate>Tue, 15 Sep 2026 03:20:07 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 21
-Source: limrun-inc/skills
-Description: Run Maestro YAML flows against a Limrun cloud iOS simulator with `lim ios maestro`, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to run, write, or debug Maestro flows or `maestro test` on iOS, migrate an existing Maestro suite to remote simulators, or asks for UI testing with Maestro. iOS simulators only today. For Detox suites use limrun-detox-testing; for driving the simulator without a test framework use limrun-ios-simulator.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): limrun-expo-development]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-expo-development</link>
-            <guid isPermaLink="false">2026-09-14T03:17:07.598Z:topHot:new:limrun-inc/skills/limrun-expo-development</guid>
-            <pubDate>Mon, 14 Sep 2026 03:17:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 21
-Source: limrun-inc/skills
-Description: Prepare and run Expo / React Native apps on Limrun with Expo dev-client iteration. Use when the user wants an Expo dev build, Metro tunnel, hot reload, JS/TS iteration without repeated native rebuilds, or to run/test an Expo app on a remote iOS simulator.]]></description>
+Installs: 102
+Source: recoupable/skills
+Description: See who's on your roster — answers "what artists do I have" by walking the workspace and falling back to your live account when the filesystem is empty. Use for "what artists do I have", "list my roster", "who's on my roster", or "what's in this sandbox". To add a new artist use recoup-roster-add-artist; to work inside one artist's files use recoup-roster-manage-artist.]]></description>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,9 @@
+让 AI 真正理解大型代码库。针对多仓库、多微服务、迭代多年的项目，通过架构逆向 + Graph RAG 图谱 + CLI 多语言 AST，
+将海量代码压缩为结构化知识库——每条结论可回溯代码行，每条关系有置信度标注。
+
+适用场景：项目有 10+ 仓库或微服务，AI 直接读代码无法全局理解、回答不准确、token 开销大。
+
+产出：组件设计文档 × N + 架构总览 + 桥梁文档 + Graph RAG 图谱(G1~G9) + _manifest.json + teamai extract graph (teamwiki/)。
+
+Trigger: team-wiki-codebase, code-to-knowledge, 代码知识库, 架构分析, 架构逆向
+Prerequisites: 可访问的源码目录（支持多仓库）；本 skill 目录下 `references/` 与 `scripts/`
