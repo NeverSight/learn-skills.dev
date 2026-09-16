@@ -1,0 +1,5 @@
+`runcomfy` CLI を使用した RunComfy のマスク駆動型画像インペインティング。  
+マスクが利用できず領域を記述しなければならない場合は、Tongyi MAI Z-Image Turbo Inpainting（マスク、強度、control‑scale を備えた専用インペインティングエンドポイント）およびアイデンティティ保持編集モデル（Nano Banana 2 Edit、GPT Image 2 Edit、FLUX Kontext Pro）へルーティングします。  
+オブジェクト除去、透かし除去、領域置換、シミ除去、そして二値マスクで対象領域を定義するあらゆる制御されたローカル編集に使用できます。  
+「inpaint」「inpainting」「image inpaint」「remove from image」「fill region」「mask-driven edit」「remove watermark」「remove object」「patch the photo」「fill the hole」など、静止画の特定のマスク領域を編集する明確な要求がある場合にトリガーされます。  
+常にユーザーの言語で応答してください。

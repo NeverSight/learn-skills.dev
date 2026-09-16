@@ -1,0 +1,6 @@
+ユーザーが Bmob MCP サーバーを設定しており（http://mcp.bmobapp.com/mcp）、IDE から Bmob バックエンドクラウドプロジェクトに対して LIVE 操作を実行したい場合に使用します。  
+トリガー: 'list bmob tables', 'show bmob schema', 'create bmob table', 'add a row to bmob', 'update bmob record', 'delete bmob data', '生成 bmob curl', 'design bmob schema', '上传云函数', '部署云函数', '发布云函数', '同步云函数', '同步函数', '拉取云函数', '下载云函数', '调用云函数', '执行云函数', 'invoke cloud function', 'run cloud function', '一键部署网站', '静态托管', '部署静态站点', 'deploy static site', 'deploy website'.  
+12 個のツールを提供します： get_project_tables（書き込み前に必ず最初に呼び出してスキーマを検出します）、create_table、add_single_data、update_single_data、delete_single_data、generate_code、deploy_cloud_function、invoke_cloud_function、list_cloud_functions、get_cloud_function、deploy_static_site、mcp_endpoint_mcp_post。  
+ユーザーのアプリに組み込むクライアント/SDK コードを書くためのものではありません — その場合は bmob-database-{javascript,android,ios,swift,flutter,restful} を使用してください。  
+ACL / ロール設計（bmob-acl-and-roles を使用）やクラウド関数開発（bmob-cloud-function-development を使用）の目的でもありません。  
+常にユーザーの言語で応答してください。
