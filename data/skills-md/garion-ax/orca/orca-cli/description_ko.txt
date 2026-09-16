@@ -1,0 +1,3 @@
+Orca가 관리하는 워크트리, 폴더 컨텍스트, 터미널, 저장소, 자동화, 아티팩트, 기술 공유, 워크트리 코멘트 및 Orca의 내장 브라우저를 `orca` CLI를 통해 운영합니다. 사용자가 “$orca-cli”, “Orca worktree”, “child worktree”, “spawn codex/claude in a worktree”, “read/wait/send Orca terminal”, “handoff” / “handover” / “give this to another agent”, “Orca browser”, “orca artifacts”, 또는 “share skills” 라고 말할 때 사용하십시오. Orca 상태가 관련된 경우에는 일반 git 워크트리, 임시 PTY, 혹은 Computer Use보다 이를 우선하십시오. 외부 창이나 OS 수준 제어가 필요한 데스크톱 UI에 대해서만 Computer Use를 사용하고, 외부 페이지에 대해서는 Playwright 또는 CDP를 사용하십시오.
+
+항상 사용자의 언어로 응답하십시오.

@@ -1,0 +1,3 @@
+Bmob NoSQL 데이터베이스 CRUD를 순수 Swift BmobSwiftSDK로 iOS 15+ / macOS 12+에서 Swift Package Manager 또는 CocoaPods를 사용해 구현할 때 사용합니다. BmobSDK를 import하고, async/await, Bmob.initialize(appKey:), BmobObject, BmobQuery, BmobUser, BmobFile, BmobPointer, BmobRelation, BmobGeoPoint, BmobACL, CloudFunction을 사용합니다. 레거시 Objective‑C BmobSDK / Bridging Header 프로젝트에는 해당되지 않으며(bmob-database-ios 사용), JavaScript / WeChat 미니 프로그램(bmob-database-javascript 사용), Android(bmob-database-android 사용), Flutter / Dart(bmob-database-flutter 사용), 혹은 다른 언어의 raw HTTP(bmob-database-restful 사용)에도 적용되지 않습니다. Bmob MCP가 설정되어 있으면 코드를 작성하기 전에 bmob-mcp를 통해 get_project_tables를 호출하세요.
+
+항상 사용자의 언어로 응답해 주세요.
