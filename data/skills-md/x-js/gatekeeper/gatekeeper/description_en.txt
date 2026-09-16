@@ -1,1 +1,1 @@
-Gatekeeper pipeline [single rule source + central control routing]. It can only be triggered manually with the `/gatekeeper` command (Agent automatic usage is prohibited). First locate which step the current process is at, then dispatch to the corresponding sub‑skill to continue; if there is no process yet, start with `/gatekeeper-init`.
+Gatekeeper 流水线【单一规则源 + 总控路由】。仅人工以 `/gatekeeper` 命令触发（禁止 Agent 自动使用）。先定位当前流程走到哪一步，再分派到对应子 skill 继续；若尚无流程则先发起 `/gatekeeper-init`。
