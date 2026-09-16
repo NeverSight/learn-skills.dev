@@ -1,0 +1,3 @@
+在 RunComfy 上透過 `runcomfy` CLI 進行遮罩驅動的影像修補。當提供遮罩時會導向 Tongyi MAI Z-Image Turbo Inpainting（具備遮罩、強度與 control‑scale 的專用修補端點）；若沒有遮罩而必須以文字描述區域，則會使用保留身份的編輯模型（Nano Banana 2 Edit、GPT Image 2 Edit、FLUX Kontext Pro）。適用於物件移除、浮水印去除、區域替換、瑕疵清理，以及任何以二元遮罩定義目標區域的受控局部編輯。觸發詞包括「inpaint」「inpainting」「image inpaint」「remove from image」「fill region」「mask-driven edit」「remove watermark」「remove object」「patch the photo」「fill the hole」或任何明確要求編輯特定遮罩區域的指令。
+
+請始終以使用者的語言回覆。

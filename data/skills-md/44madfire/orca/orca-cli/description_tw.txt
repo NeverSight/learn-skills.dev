@@ -1,0 +1,3 @@
+透過 `orca` CLI 操作 Orca 管理的工作樹、資料夾上下文、終端機、儲存庫、自動化、構件、技能分享、工作樹評論，以及 Orca 內建的瀏覽器。當使用者說「$orca-cli」、「Orca worktree」、「child worktree」、「spawn codex/claude in a worktree」、「read/wait/send Orca terminal」、「handoff」/「handover」/「give this to another agent」、「Orca browser」、「orca artifacts」或「share skills」時使用。涉及 Orca 狀態時，請優先使用此方式，而非原始 git 工作樹、臨時 PTY 或 Computer Use。Computer Use 僅在需要 OS 級別控制的外部視窗或桌面 UI 時使用，對外部頁面則使用 Playwright 或 CDP。
+
+請始終以使用者的語言回覆。

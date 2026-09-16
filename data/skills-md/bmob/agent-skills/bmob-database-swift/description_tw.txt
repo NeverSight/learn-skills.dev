@@ -1,0 +1,3 @@
+在使用純 Swift BmobSwiftSDK 為 iOS 15+ / macOS 12+，並透過 Swift Package Manager 或 CocoaPods 實作 Bmob NoSQL 資料庫的 CRUD 時使用，需匯入 BmobSDK、async/await、Bmob.initialize(appKey:)、BmobObject、BmobQuery、BmobUser、BmobFile、BmobPointer、BmobRelation、BmobGeoPoint、BmobACL、CloudFunction。**不適用於**傳統的 Objective‑C BmobSDK / Bridging Header 專案（請使用 bmob-database-ios）、JavaScript / 微信小程序（請使用 bmob-database-javascript）、Android（請使用 bmob-database-android）、Flutter / Dart（請使用 bmob-database-flutter）或其他語言的原始 HTTP（請使用 bmob-database-restful）。如果已設定 Bmob MCP，請在撰寫程式碼前透過 bmob-mcp 呼叫 get_project_tables。
+
+請始終以使用者的語言回應。
