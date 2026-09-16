@@ -1,0 +1,1 @@
+一次性对文件、差异或整个仓库进行效率审计，同时覆盖两个维度：过度工程化的代码（重新实现标准库、不必要的抽象、投机式配置）以及冗长的文字（冗余注释、填充式文档字符串、重复的文档章节）。单纯的代码压缩工具和单纯的文字压缩工具都无法一次性完成这两项。这就是关键所在。报告按节省金额排序，最大节省项优先；不对代码做任何修改。用户说“chisle audit”、“/chisle-audit”、“audit this for bloat”、“what can I cut”或“review this PR for over-engineering and verbosity”时使用。
