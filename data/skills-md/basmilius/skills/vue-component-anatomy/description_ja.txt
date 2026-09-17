@@ -1,0 +1,3 @@
+単一の Vue 3 シングルファイルコンポーネント（ `<script setup lang="ts">` を含む `.vue` ファイル） を作成、編集、レビューする際に使用します。ブロック順序とテンプレートルート、コンパイラマクロの順序（defineEmits → defineModel → defineProps → defineSlots、最後に defineExpose）、`<script setup>` 内の順序（imports → macros → constants → stores → state → composables → computed → watch → lifecycle → functions）、関数形式とアロー関数形式の選択、props と emits の型付け、defineModel を利用した v-model、スコープド/モジュールスタイルをカバーします。`.vue` ファイルの編集時、defineProps/defineEmits/defineModel/defineSlots が現れたとき、script-setup の順序に関する質問が出たとき、props の型付けに関する質問が出たときにトリガーします。機能レベルの分割: `vue-build-feature`；Flux UI ライブラリ: `flux-ui`。
+
+常にユーザーの言語で回答してください。
