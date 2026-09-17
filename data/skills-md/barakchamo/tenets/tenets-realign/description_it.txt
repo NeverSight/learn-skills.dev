@@ -1,0 +1,5 @@
+Riporta il codice esistente in linea con il set di regole dei tenets: esegue un audit dell’ambito specificato, raggruppa i risultati in un piano di slice ordinato, attende l’approvazione e quindi applica le slice approvate una alla volta con il gate di accettazione del progetto verde e un commit per slice.
+
+Usare solo quando l’utente richiede esplicitamente di riallineare, rifattorizzare o correggere una codebase rispetto alle regole — “riallinea questo pacchetto ai tenets”, “correggi le violazioni delle regole in apps/api”. Non per lavoro di codice ordinario, una singola modifica o una valutazione in sola lettura: questi caricano la skill tenets o tenets‑audit.
+
+Rispondi sempre nella lingua dell’utente.

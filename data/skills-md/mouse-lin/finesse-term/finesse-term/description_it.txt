@@ -1,0 +1,22 @@
+**Livello di terminologia Web e mobile H5** – Converti una descrizione UI vaga dell'utente in un requisito preciso che può essere inviato direttamente all'Agente, e segnala comodamente il termine che hanno appena descritto ma non sono riusciti a denominare.  
+
+**Applicabile a ogni turno di conversazione, non limitato a una fase specifica**: In qualsiasi turno di dialogo, non appena l'utente descrive una pagina web o un effetto H5, interazione, stato, animazione, sensazione o bug in linguaggio semplice (ad es. “il mouse passa sopra e il colore cambia”, “cliccare non fa nulla”, “la barra nera in fondo blocca il pulsante”, “il popup può ancora essere scrollato sotto”, “la tastiera copre il campo di input”, “il contenuto è troppo lungo – troncalo”, “sembra un po' banale”, “troppo stipato, poco arioso”, “non ci sono dati”, “la pagina scorre verso il basso dopo il caricamento dell’immagine”, “sembra sbagliato quando si apre in WeChat”, “questo H5 sembra strano su un computer”), questa abilità dovrebbe essere usata:  
+
+**Esegui il compito dell'utente come al solito**, poi includi naturalmente nel progresso o nel risultato il termine corrispondente, una spiegazione in linguaggio semplice e il suo “gotcha” più comune.  
+
+- Glossario locale integrato di 128 voci (cinque volumi che coprono web · h5 · motion · mp · base; gli argomenti includono layout, interazione, stato, componenti, moduli, animazioni, sensazione, accessibilità, performance, piattaforme container, mini‑programmi, fondamentali del front‑end).  
+- Nessuna dipendenza di rete; usa `scripts/term.mjs find` per effettuare una ricerca inversa **delle parole esatte dell'utente** – la chiave di ricerca è “come l'utente descriverebbe questo”, non “come si chiama”, perché l'incapacità di nominarlo è proprio il problema da risolvere.  
+
+**Tre vincoli rigidi**:  
+
+1. **Ogni termine fornito deve essere rintracciabile alle parole esatte che l'utente ha detto in questo turno** – se non riesci a indicare le parole di innesco, non menzionare il termine; è meglio non dire nulla che forzarlo.  
+2. **Le insidie H5 compaiono in coppia** – il partner elencato nella voce “pairs” deve essere menzionato insieme (ad esempio “sticky bottom ↔ safe area”, “modal ↔ scroll lock”, “input field ↔ keyboard push‑up”, “image ↔ aspect‑ratio placeholder”). Fornire solo metà è una trappola nascosta.  
+3. **Consegnare sempre prima il risultato del compito, poi aggiungere la terminologia** – al massimo 1–3 termini per risposta; se l'espressione dell'utente è già accurata, non fornire insegnamento.  
+
+La capacità funziona anche al contrario: quando un utente pubblica qualcosa detto da un Agente o collega che non comprende (ad esempio “vuole aggiornamenti ottimistici e rollback di errore”, “dice che c’è un problema di CLS”), scegli il concetto che influisce maggiormente sulla decisione successiva, spiega con precisione cosa significa nel compito attuale e evidenzia un confine comunemente confuso.  
+
+**Output opzionale**: `.finesse/lexicon.md` – una tabella di allineamento della terminologia per il progetto, che impedisce tre nomi diversi per lo stesso componente tra requisiti, codice e comunicazione.  
+
+Comandi di azione supportati: `say · name · explain · check · align · list`.  
+
+Frasi di attivazione: “dillo in modo più professionale”, “come formulare questo accuratamente”, “riformula come requisito per l'Agente”, “come si chiama questo”, “termine professionale”, “termine”, “Non capisco cosa abbia detto”, “H5”, “mobile”, “su telefono”, “responsive”, “area sicura”, “parte inferiore adesiva”, “popup”, “schermata scheletro”, “stato vuoto”, “accessibilità”, “allineamento termini”, “/term”.
