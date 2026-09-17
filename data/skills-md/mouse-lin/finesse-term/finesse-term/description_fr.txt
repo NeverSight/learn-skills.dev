@@ -1,0 +1,24 @@
+**Couche de terminologie Web et mobile H5** – Convertir la description vague d’une interface utilisateur d’un utilisateur en une exigence précise pouvant être envoyée directement à l’Agent, et indiquer commodément le terme qu’il vient de décrire mais qu’il ne pouvait pas nommer.  
+
+**Applicable à chaque tour de conversation, sans limitation de phase** : à tout moment du dialogue, dès que l’utilisateur décrit une page web ou un effet H5, une interaction, un état, une animation, une sensation ou un bug en langage naturel (par ex. « le curseur survole et la couleur change », « cliquer ne fait rien », « la barre noire en bas bloque le bouton », « le popup peut encore être défilé en dessous », « le clavier recouvre le champ de saisie », « le contenu est trop long – tronquez‑le », « c’est un peu kitsch », « trop à l’étroit, pas d’aération », « il n’y a aucune donnée », « la page saute vers le bas après le chargement de l’image », « ça rend mauvais quand on ouvre dans WeChat », « ce H5 a l’air bizarre sur un ordinateur »), cette compétence doit être utilisée :  
+
+**Faire le travail de l’utilisateur comme d’habitude**, puis inclure naturellement dans le déroulement ou le résultat le terme correspondant, une explication en langage clair et son « gotcha » le plus fréquent.  
+
+- Glossaire local intégré de 128 entrées (cinq volumes couvrant web · h5 · motion · mp · base ; les sujets incluent mise en page, interaction, état, composants, formulaires, animations, ressenti, accessibilité, performance, plateformes conteneurs, mini‑programmes, fondamentaux du front‑end).  
+- Aucune dépendance réseau ; utilisez `scripts/term.mjs find` pour rechercher à rebours **les termes exacts de l’utilisateur** – la clé de recherche est « comment l’utilisateur le décrirait », pas « comment cela s’appelle », car l’incapacité à le nommer est précisément le problème à résoudre.  
+
+**Trois contraintes strictes** :  
+
+1. **Chaque terme fourni doit être traçable aux mots exacts prononcés par l’utilisateur dans ce tour** – si vous ne pouvez pas pointer les mots déclencheurs, ne mentionnez pas le terme ; il vaut mieux ne rien dire que de forcer.  
+2. **Les écueils H5 viennent par paires** – le partenaire indiqué dans l’entrée « pairs » doit être cité conjointement (par ex. « sticky bottom ↔ safe area », « modal ↔ scroll lock », « input field ↔ keyboard push‑up », « image ↔ placeholder aspect‑ratio »). Ne mentionner qu’une moitié constitue un piège caché.  
+3. **Toujours livrer d’abord le résultat de la tâche, puis ajouter la terminologie** – au maximum 1 à 3 termes par réponse ; si l’expression de l’utilisateur est déjà précise, ne faites aucune leçon.  
+
+La compétence fonctionne aussi en sens inverse : lorsqu’un utilisateur republie quelque chose dit par un Agent ou un collègue qu’il ne comprend pas (par ex. « il veut des mises à jour optimistes et des retours d’erreur », « il indique un problème de CLS ici »), choisissez le concept qui influence le plus la décision suivante, expliquez‑le avec précision dans le contexte actuel, et soulignez une frontière souvent confondue.  
+
+**Sortie optionnelle** : `.finesse/lexicon.md` – tableau d’alignement terminologique pour le projet, évitant trois noms différents pour le même composant entre exigences, code et communication.  
+
+Commandes d’action prises en charge : `say · name · explain · check · align · list`.  
+
+Expressions déclencheuses : « say it more professionally », « how to phrase this accurately », « rephrase as a requirement for the Agent », « what is this called », « professional term », « term », « I don’t understand what he said », « H5 », « mobile », « on phone », « responsive », « safe area », « sticky bottom », « popup », « skeleton screen », « empty state », « accessibility », « term alignment », « /term ».  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
