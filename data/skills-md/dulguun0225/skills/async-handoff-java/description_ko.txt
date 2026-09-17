@@ -1,0 +1,3 @@
+비동기 핸드오프 규칙을 빌드에서 실패하게 하는 Java 체크—Java, Spring Boot, Spring for Apache Kafka, ArchUnit, Error Prone, Jackson, jOOQ, Flyway, Maven, JUnit, jqwik, Testcontainers 및 Toxiproxy 각각의 지시문을 강제하는 도구와, 브로커 선택(이름으로 금지된 Redpanda와 AutoMQ를 제외하고 KRaft 모드의 Apache Kafka), outbox‑library 선택, 일회성 게이트 배선, 그리고 이 툴체인이 체크를 제공하지 못하는 명명된 갭을 포함합니다.  
+메시지를 발행하거나, 큐나 브로커 클라이언트를 추가하거나, 인‑프로세스 이벤트 버스, executor submit, @Async 또는 @Scheduled 작업, 폴링 테이블, 아웃바운드 웹훅을 사용하기 전에, async‑handoff 스킬과 함께 Java 레포를 항상 로드하세요.  
+여기에 있는 모든 체크는 브로커와 outbox 선택을 제외하고 async‑handoff에 존재하는 지시문 ID와 연결됩니다; 복합 형태 체크는 shapes.md에 있습니다.

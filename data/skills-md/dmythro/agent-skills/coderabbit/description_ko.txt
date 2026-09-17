@@ -1,0 +1,1 @@
+CodeRabbit CLI 로컬 코드 리뷰와 .coderabbit.yaml 설정. 푸시하거나 PR을 열기 전에 커밋되지 않은/커밋된 변경사항에 대해 AI 리뷰를 실행하고, --agent 결과를 파싱하며, 시간당 한도 내에서 수정‑검증 루프를 반복하고, 잡음은 적고 신호는 높은 리뷰를 위해 저장소 설정을 튜닝합니다. 로컬 변경사항을 푸시 전/PR 전 검토할 때, coderabbit/cr CLI를 설치하거나 구동할 때, .coderabbit.yaml을 생성하거나 조정할 때, 또는 CodeRabbit 리뷰 잡음을 줄이고자 할 때 사용합니다. PR 측면 리뷰 루프 및 스레드 처리(git-pr), 커밋(git-commit), CI 상태(git-ci)에는 사용하지 마세요.

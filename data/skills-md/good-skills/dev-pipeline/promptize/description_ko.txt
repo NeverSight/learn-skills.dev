@@ -1,0 +1,6 @@
+재사용 조회, 초/마이크로 게이트 및 델타 검사를 수행한 후, 짧은 자연어 요청을 리포지토리 인식 엔지니어링 작업 프롬프트로 변환합니다.  
+/promptize 로 시작하거나 간단한 요청을 엔지니어링 사양으로 확장(프롬프트화)하려는 경우에 사용합니다.  
+--execute, --full, --minimal, --compress, --caveman, --save-to-file, --save 를 지원합니다.  
+기본은 compact이며, 초저작업에는 auto-minimal, 에이전트 핸드오프를 위한 Caveman 문장 압축을 사용합니다.  
+SESSION‑CACHE에 파일 기반 Promptify 재사용(정확/정규화)을 적용하며, Redis는 사용하지 않습니다.  
+항상 사용자의 언어로 응답해 주세요.

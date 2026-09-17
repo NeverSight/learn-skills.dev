@@ -1,0 +1,3 @@
+Vue 3 단일 파일 컴포넌트(`.vue` 파일에 `<script setup lang="ts">`가 있는 경우)를 작성, 편집, 검토할 때 사용합니다. 블록 순서와 템플릿 루트, 컴파일러 매크로 순서(defineEmits → defineModel → defineProps → defineSlots, defineExpose가 마지막), `<script setup>` 내부 순서(임포트 → 매크로 → 상수 → 스토어 → 상태 → 컴포저블 → computed → watch → 라이프사이클 → 함수), 함수와 화살표 함수 스타일, prop 및 emit 타입 지정, defineModel을 통한 v-model, 그리고 scoped/module 스타일링을 다룹니다. `.vue` 파일을 편집할 때, defineProps/defineEmits/defineModel/defineSlots가 사용될 때, script‑setup 순서에 대한 질문이 있을 때, prop 타입 지정에 대해 질문이 있을 때 트리거됩니다. 기능 수준 분할: `vue-build-feature`; Flux UI 라이브러리: `flux-ui`.
+
+항상 사용자의 언어로 답변해 주세요.
