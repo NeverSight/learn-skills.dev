@@ -1,0 +1,5 @@
+Produce una revisión clasificada por severidad de una solicitud de extracción, una rama o el árbol de trabajo sin commitear, contra el conjunto de reglas de ingeniería de tenets, más una auditoría de intención comparando lo que el plan activo indicó con lo que realmente hace el diff.
+
+Úsese solo cuando el usuario solicite explícitamente revisar los cambios contra las reglas — “revisa este PR”, “revisa mi diff contra los tenets”, “¿construí lo que dijo el plan?”. No es para trabajo de código ordinario, escribir código o auditar una base de código completa: esos cargan la habilidad tenets o tenets‑audit.
+
+Por favor, responda siempre en el idioma del usuario.
