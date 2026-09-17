@@ -1,0 +1,24 @@
+**Web‑ und Mobile‑H5‑Terminologie‑Schicht** – Wandeln Sie die vage UI‑Beschreibung eines Nutzers in eine präzise Anforderung um, die direkt an den Agenten gesendet werden kann, und weisen Sie bequem auf den Begriff hin, den er gerade beschrieben, aber nicht benennen konnte.
+
+**Für jede Gesprächsrunde anwendbar, nicht auf einen bestimmten Abschnitt beschränkt**: In jedem Dialogschritt, sobald der Nutzer eine Webseite oder H5‑Effekt, Interaktion, Zustand, Animation, das „Feeling“ oder einen Fehler in einfacher Sprache beschreibt (z. B. „wenn die Maus darüber fährt, ändert sich die Farbe“, „Klicken bewirkt nichts“, „die schwarze Leiste unten blockiert den Button“, „das Popup kann darunter noch gescrollt werden“, „die Tastatur verdeckt das Eingabefeld“, „der Inhalt ist zu lang – kürzen“, „es wirkt etwas kitschig“, „zu eng, nicht luftig“, „es gibt überhaupt keine Daten“, „die Seite springt nach dem Laden des Bildes nach unten“, „es sieht beim Öffnen in WeChat falsch aus“, „dieses H5 wirkt auf dem Computer komisch“), sollte diese Fähigkeit eingesetzt werden:
+
+**Erledige die Aufgabe des Nutzers wie üblich**, und füge dann natürlich im Verlauf oder Ergebnis den entsprechenden Begriff, eine einfach formulierte Erklärung und das häufigste „Gotcha“ hinzu.
+
+- Integriertes lokales Glossar mit 128 Einträgen (fünf Bände zu Web · H5 · Motion · MP · Base; Themen umfassen Layout, Interaktion, Zustand, Komponenten, Formulare, Animationen, Feeling, Barrierefreiheit, Performance, Container‑Plattformen, Mini‑Programme, Front‑End‑Fundamentals).  
+- Keine Netzwerkabhängigkeit; nutzen Sie `scripts/term.mjs find`, um **die genaue Formulierung des Nutzers** umgekehrt nachzuschlagen – der Suchschlüssel ist „wie der Nutzer das beschreiben würde“, nicht „wie es heißt“, weil das Unvermögen, es zu benennen, genau das zu lösende Problem ist.
+
+**Drei harte Vorgaben**:  
+
+1. **Jeder genannte Begriff muss auf die genauen Worte des Nutzers in dieser Runde zurückführbar sein** – wenn Sie nicht auf die Auslösungsworte verweisen können, erwähnen Sie den Begriff nicht; besser nichts sagen, als ihn zu erzwingen.  
+2. **H5‑Fallstricke kommen paarweise** – der im Eintrag „pairs“ aufgeführte Partner muss zusammen genannt werden (z. B. „sticky bottom ↔ safe area“, „modal ↔ scroll lock“, „input field ↔ keyboard push‑up“, „image ↔ aspect‑ratio placeholder“). Nur die Hälfte zu nennen ist eine verborgene Falle.  
+3. **Zuerst immer das Ergebnis der Aufgabe liefern, dann die Terminologie hinzufügen** – höchstens 1–3 Begriffe pro Antwort; wenn die Ausdrucksweise des Nutzers bereits präzise ist, geben Sie kein Unterricht.
+
+Die Fähigkeit funktioniert auch umgekehrt: Wenn ein Nutzer etwas, das von einem Agenten oder Kollegen gesagt wurde und das er nicht versteht (z. B. „er möchte optimistische Updates und Fehler‑Rollbacks“, „er sagt, es gibt hier ein CLS‑Problem“), wählen Sie das Konzept, das die nächste Entscheidung am stärksten beeinflusst, erklären Sie exakt, was es im aktuellen Kontext bedeutet, und markieren Sie eine häufig verwirrte Grenze.
+
+**Optionaler Output**: `.finesse/lexicon.md` – eine Terminologie‑Abstimmungstabelle für das Projekt, die verhindert, dass für dieselbe Komponente in Anforderungen, Code und Kommunikation drei verschiedene Namen verwendet werden.
+
+Unterstützte Aktionsbefehle: `say · name · explain · check · align · list`.
+
+Auslöserphrasen: „say it more professionally“, „how to phrase this accurately“, „rephrase as a requirement for the Agent“, „what is this called“, „professional term“, „term“, „I don’t understand what he said“, „H5“, „mobile“, „on phone“, „responsive“, „safe area“, „sticky bottom“, „popup“, „skeleton screen“, „empty state“, „accessibility“, „term alignment“, „/term“.
+
+Bitte immer in der Sprache des Nutzers antworten.
