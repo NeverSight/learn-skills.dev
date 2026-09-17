@@ -1,0 +1,3 @@
+跨平台（Windows、macOS、Linux）管理 doudou‑ai‑coding 开发和构建工作流。它包含两种核心模式：（1）开发/调试模式（通过 “debug / develop / start / run / run locally / dev” 等关键词触发），启动 doudou‑eggjs（npm run dev）和 doudou‑vue3（pnpm dev），提供端口和环境检测、自动依赖安装、并发日志以及优雅关闭；（2）生产构建模式（通过 “package / build / compile artifact / production build / build / build:prod” 等关键词触发），运行 doudou‑eggjs（npm run build，即 rec build -o dist）和 doudou‑vue3（pnpm run build:prod，即 vite build）生成发布产物。
+
+请始终使用用户的语言进行回复。

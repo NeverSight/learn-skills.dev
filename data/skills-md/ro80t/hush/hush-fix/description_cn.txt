@@ -1,0 +1,1 @@
+审计现有代码的注释是否符合 hush 梯度（同 hush‑review），然后直接应用修复——重命名标识符以去除冗余注释，为未记录的公共 API 添加文档注释，裁剪过大的注释，更新或删除陈旧的注释。默认针对当前 diff，或在提供路径/目录/分支/PR 时针对指定目标；若没有 diff 且未指定目标，则回退到整个仓库。用户说 “hush fix”、 “fix comments”、 “clean up comments”、 “improve existing comments”、 “/hush-fix”，或希望将注释质量的发现直接应用而不是仅列出时使用。

@@ -1,0 +1,1 @@
+将现有 Flutter 应用迁移到 DartNative 的操作手册。适用场景：迁移 Flutter 项目或页面时，移植后无法编译，应用启动出现白屏，iOS 构建因 pod / deployment‑target / Swift 符号错误而失败，或某个包在启动时崩溃并出现 “Setting a message handler before the FlutterEngine has been run” 提示。内容涵盖 Dart 迁移、包替换以及针对原地迁移的 iOS 项目修复。配合 dart-native 技能使用，以应对 widget 级别的 API 差异。

@@ -1,1 +1,22 @@
-Web 与 移动 H5 的说法层 —— 把用户说不准的界面描述，换成一句能直接发给 Agent 的准确需求，并顺手点出他刚刚描述了却叫不出名字的那个术语。**每一轮对话都适用，不限于某个阶段**：任何一轮对话里，只要用户用大白话描述了网页或 H5 的效果、交互、状态、动效、质感或故障（「鼠标放上去变个色」「点了没反应」「底下那条黑杠挡住按钮了」「弹窗底下还能滑」「键盘把输入框挡住了」「内容太长省略一下」「看着有点土」「太挤了不透气」「一条数据都没有的时候」「图片加载完页面往下跳」「在微信里打开显示不对」「电脑上打开这个 H5 很怪」），就该使用本 Skill：**照常把用户要的活干完**，再在进度或结果里自然带出对应术语、一句大白话解释，以及它最常见的那个坑。内置 128 条本地术语库（web · h5 · motion · mp · base 五册，覆盖布局 · 交互 · 状态 · 组件 · 表单 · 动效 · 质感 · 无障碍 · 性能 · 容器平台 · 小程序 · 前端基础），零网络依赖，用 `scripts/term.mjs find` 以**用户的原话**反查 —— 检索的主键是「用户会怎么描述这件事」，不是「它叫什么」，因为说不出名字正是要解决的问题。三条硬门禁：**每一条给出的术语都必须能指着用户这一轮的原话说出是哪几个字触发的**，指不出来就不提，宁可不说也不硬凑；**H5 的坑是成对的**，词条 pairs 里标出的搭档必须一起说（吸底 ↔ 安全区、弹层 ↔ 滚动锁、输入框 ↔ 键盘顶起、图片 ↔ 宽高比占位），只给一半等于埋雷；**永远先交付任务结果再补术语**，一次最多 1–3 条，用户表达已经准确时不加任何教学。也用于反向场景：用户贴出 Agent 或同事的话看不懂时（「他说要做乐观更新和错误回滚」「他说这里 CLS 有问题」），挑出最影响下一步判断的那个概念，说清它在当前任务里具体指什么、以及一个容易混淆的边界。可选产出 `.finesse/lexicon.md` —— 本项目的说法对齐表，防止同一个组件在需求、代码和沟通里出现三种叫法。支持动作命令（say · name · explain · check · align · list）。触发词：「说专业一点」「这句话怎么说准确」「改成能发给 Agent 的需求」「这个叫什么」「专业的说法」「术语」「看不懂他说的」「H5」「移动端」「手机上」「响应式」「安全区」「吸底」「弹窗」「骨架屏」「空状态」「无障碍」「术语对齐」「/term」。
+**Web and mobile H5 terminology layer** – Convert a user’s vague UI description into a precise requirement that can be sent directly to the Agent, and conveniently point out the term they just described but couldn’t name.
+
+**Applicable to every turn of conversation, not limited to any specific stage**: In any dialogue turn, as soon as the user describes a web page or H5 effect, interaction, state, animation, feel, or bug in plain language (e.g., “the mouse hovers and the color changes”, “clicking does nothing”, “the black bar at the bottom blocks the button”, “the popup can still be scrolled underneath”, “the keyboard covers the input field”, “the content is too long – truncate it”, “it looks a bit cheesy”, “too cramped, not breathable”, “there’s no data at all”, “the page jumps down after the image loads”, “it looks wrong when opened in WeChat”, “this H5 looks weird on a computer”), this skill should be used:
+
+**Do the user’s job as usual**, then naturally include in the progress or result the corresponding term, a plain‑language explanation, and its most common “gotcha”.
+
+- Built‑in local glossary of 128 entries (five volumes covering web · h5 · motion · mp · base; topics include layout, interaction, state, components, forms, animations, feel, accessibility, performance, container platforms, mini‑programs, front‑end fundamentals).  
+- Zero network dependency; use `scripts/term.mjs find` to reverse‑lookup **the user’s exact wording** – the search key is “how the user would describe this”, not “what it’s called”, because the inability to name it is precisely the problem to solve.
+
+**Three hard constraints**:  
+
+1. **Every term provided must be traceable to the exact words the user said in this turn** – if you can’t point to the trigger words, don’t mention the term; better to say nothing than to force it.  
+2. **H5 pitfalls come in pairs** – the partner listed in the “pairs” entry must be mentioned together (e.g., “sticky bottom ↔ safe area”, “modal ↔ scroll lock”, “input field ↔ keyboard push‑up”, “image ↔ aspect‑ratio placeholder”). Giving only half is a hidden trap.  
+3. **Always deliver the task result first, then add terminology** – at most 1–3 terms per response; if the user’s expression is already accurate, provide no teaching.
+
+The skill also works in reverse: when a user posts something said by an Agent or colleague that they don’t understand (e.g., “he wants optimistic updates and error rollbacks”, “he says there’s a CLS issue here”), pick the concept that most affects the next decision, explain precisely what it means in the current task, and highlight a commonly confused boundary.
+
+**Optional output**: `.finesse/lexicon.md` – a terminology alignment table for the project, preventing three different names for the same component across requirements, code, and communication.
+
+Supported action commands: `say · name · explain · check · align · list`.
+
+Trigger phrases: “say it more professionally”, “how to phrase this accurately”, “rephrase as a requirement for the Agent”, “what is this called”, “professional term”, “term”, “I don’t understand what he said”, “H5”, “mobile”, “on phone”, “responsive”, “safe area”, “sticky bottom”, “popup”, “skeleton screen”, “empty state”, “accessibility”, “term alignment”, “/term”.

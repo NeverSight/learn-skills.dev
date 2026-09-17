@@ -1,0 +1,1 @@
+迭代改进 PR（GitHub）、MR（GitLab）或 shelved changelist（Perforce），直至 Greptile 给出 5/5 的置信评分且没有未解决的评论。功能与 greploop 相同，但通过标记 @greptile-apps 触发审查，能够绕过 Greptile 对大型 PR 的文件数量限制，而普通的 @greptile 提及则无法审查。适用于用户希望在 Greptile 的代码审查标准下充分优化大型 PR/MR/CL 的情况。
