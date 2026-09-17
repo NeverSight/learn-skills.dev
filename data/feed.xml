@@ -4,577 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Wed, 16 Sep 2026 03:15:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 03:34:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-16)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-17)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:snapshot</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:snapshot</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8186
-Trending skills: 7708
-Hot skills: 3049
-Top All Time: find-skills (3415947)
-Top Trending: design-mobile-apps (20140)
-Top Hot: google-agents-cli-observability (112)]]></description>
+All Time skills: 8187
+Trending skills: 7676
+Hot skills: 3956
+Top All Time: find-skills (3432632)
+Top Trending: ai-avatar-video (39172)
+Top Hot: ai-video-generation (332)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#49): image-to-video]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topAllTime:new:genmedia-labs/skills/image-to-video</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #49
-Installs: 506122
-Source: genmedia-labs/skills
-Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[All Time] New entry (#50): ai-image-generation]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topAllTime:new:genmedia-labs/skills/ai-image-generation</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #50
-Installs: 505706
-Source: genmedia-labs/skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#1): google-agents-cli-observability]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): ai-video-generation]]></title>
+            <link>https://skills.sh/101-skills/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/ai-video-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
+Installs: 332
+Source: 101-skills/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): code-review-skill]]></title>
-            <link>https://skills.sh/awesome-skills/code-review-skill/code-review-skill</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:awesome-skills/code-review-skill/code-review-skill</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): ai-video-generation]]></title>
+            <link>https://skills.sh/its-a-skill-issue/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:its-a-skill-issue/superpowers/ai-video-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 4
-Source: awesome-skills/code-review-skill
-Description: Provides comprehensive code review guidance for React 19, Vue 3, Angular 17+, Svelte 5, Rust, TypeScript, Java, PHP, Python, Django, Go, C#/.NET, Kotlin, Swift, NestJS, C/C++, and more.
-Helps catch bugs, improve code quality, and give constructive feedback.
-Use when: reviewing pull requests, conducting PR reviews, code review, reviewing code changes,
-establishing review standards, mentoring developers, architecture reviews, security audits,
-checking code quality, finding bugs, giving feedback on code.]]></description>
+Installs: 87
+Source: its-a-skill-issue/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): verification-loop]]></title>
-            <link>https://skills.sh/affaan-m/ecc/verification-loop</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:affaan-m/ecc/verification-loop</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): ai-image-generation]]></title>
+            <link>https://skills.sh/its-a-skill-issue/superpowers/ai-image-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:its-a-skill-issue/superpowers/ai-image-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 4
-Source: affaan-m/ecc
-Description: A comprehensive verification system for Claude Code sessions.]]></description>
+Installs: 87
+Source: its-a-skill-issue/superpowers
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): use-modern-go]]></title>
-            <link>https://skills.sh/jetbrains/go-modern-guidelines/use-modern-go</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:jetbrains/go-modern-guidelines/use-modern-go</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): ai-image-generation]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/ai-image-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:skills-shell/superpowers/ai-image-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 3
-Source: jetbrains/go-modern-guidelines
-Description: Use the Modern Go Guidelines CLI when writing or modifying Go code.]]></description>
+Installs: 76
+Source: skills-shell/superpowers
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): pydantic]]></title>
-            <link>https://skills.sh/pydantic/skills/pydantic</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:pydantic/skills/pydantic</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): agent-browser]]></title>
+            <link>https://skills.sh/101-skills/superpowers/agent-browser</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/agent-browser</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 3
-Source: pydantic/skills
-Description: Pydantic is a Python data validation and serialization library, based on type hints. Use this skill whenever you need to do relatively complex data modeling using Pydantic, e.g. when adding constraints, defining a model hierarchy with subclasses, etc.]]></description>
+Installs: 79
+Source: 101-skills/superpowers
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): app-store-screenshots]]></title>
-            <link>https://skills.sh/its-a-skill-issue/superpowers/app-store-screenshots</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:its-a-skill-issue/superpowers/app-store-screenshots</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): twitter-automation]]></title>
+            <link>https://skills.sh/magentosh/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:magentosh/superpowers/twitter-automation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 3
-Source: its-a-skill-issue/superpowers
-Description: App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing]]></description>
+Installs: 76
+Source: magentosh/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): prd]]></title>
-            <link>https://skills.sh/github/awesome-copilot/prd</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:github/awesome-copilot/prd</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): archify-review]]></title>
+            <link>https://skills.sh/tt-a1i/archify/archify-review</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:tt-a1i/archify/archify-review</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 3
-Source: github/awesome-copilot
-Description: Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.]]></description>
+Installs: 40
+Source: tt-a1i/archify
+Description: Review Archify issues, PRs, or code through value, cost, and impact to support evidence-based maintenance decisions. Use for issue triage, change reviews, and code quality assessments.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): project-structure]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/project-structure</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/project-structure</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): twitter-automation]]></title>
+            <link>https://skills.sh/its-a-skill-issue/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:its-a-skill-issue/superpowers/twitter-automation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: .NET solution and project structure conventions. Covers .slnx format, Directory.Build.props, Directory.Packages.props for central package management, global usings, and naming conventions. Load this skill when setting up a new solution, adding projects, configuring build properties, or when the user mentions "solution structure", ".slnx", "Directory.Build.props", "central package management", "Directory.Packages.props", "global usings", ".editorconfig", "project layout", or "naming conventions".]]></description>
+Installs: 87
+Source: its-a-skill-issue/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): debug-my-harness]]></title>
-            <link>https://skills.sh/zernie/vigiles/debug-my-harness</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:zernie/vigiles/debug-my-harness</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): ai-avatar-video]]></title>
+            <link>https://skills.sh/magentosh/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:magentosh/superpowers/ai-avatar-video</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 2
-Source: zernie/vigiles
-Description: Diagnose why an agent harness misbehaved by reading the local flight-recorder ledger (.vigiles/runs.jsonl) — which skills fired or got hijacked, which hooks blocked or wrongly allowed, which subagent tool-contract violations happened, and how a skill's trigger rate moved. Use when asked why a skill stopped firing, why a hook didn't block, why the wrong skill ran, or to debug/investigate what the harness actually did. NOT for writing new rules (use strengthen) or editing the spec (use edit-spec).]]></description>
+Installs: 76
+Source: magentosh/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): plan]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/plan</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/plan</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): twitter-automation]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:skills-shell/superpowers/twitter-automation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Enter plan mode for .NET projects with architecture awareness. Analyzes tasks through the lens of supported architectures (VSA, Clean Architecture, DDD, Modular Monolith) and produces structured implementation plans before any code is written. Use when: "plan", "let's plan", "think through", "design this", "how should I implement", or any non-trivial task requiring 3+ steps.]]></description>
+Installs: 76
+Source: skills-shell/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): dependency-injection]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/dependency-injection</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/dependency-injection</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): ai-video-generation]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:skills-shell/superpowers/ai-video-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Dependency injection patterns for .NET 10. Covers service lifetimes, keyed services, the decorator pattern, factory pattern, and common DI pitfalls. Load this skill when registering services, resolving lifetime issues, designing service composition, or when the user mentions "DI", "dependency injection", "service registration", "AddScoped", "AddTransient", "AddSingleton", "keyed services", "decorator", "Scrutor", "IServiceCollection", or "captive dependency".]]></description>
+Installs: 76
+Source: skills-shell/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): google-agents-cli-adk-code]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): spec]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/spec</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/spec</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): ai-avatar-video]]></title>
+            <link>https://skills.sh/its-a-skill-issue/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:its-a-skill-issue/superpowers/ai-avatar-video</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Turn a vague feature or product idea into an agreed, persisted specification through relentless structured questioning. Never assumes — every gap, ambiguity, or "probably" becomes a question to the developer, and the spec cannot be approved while open questions remain. Produces docs/specs/<NNN>-<slug>.md with acceptance criteria that /plan, /scaffold, and /tdd consume. Use when: "spec", "write a spec", "spec this out", "requirements", "PRD", "acceptance criteria", "define the feature", "user stories", "what should we build", or before planning any feature too big to describe in one sentence.]]></description>
+Installs: 87
+Source: its-a-skill-issue/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): docker]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/docker</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/docker</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): ai-video-generation]]></title>
+            <link>https://skills.sh/magentosh/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:magentosh/superpowers/ai-video-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Docker containerization for .NET 10 applications. Covers multi-stage builds, .NET container images, non-root user configuration, health checks, and .dockerignore. Load this skill when containerizing an application with a Dockerfile, optimizing image size, setting up Docker Compose for local development, or when the user mentions "Docker", "Dockerfile", "container", "docker-compose", "image", "multi-stage", "non-root", ".dockerignore", or "container health check". For Dockerfile-less SDK publishing (`dotnet publish /t:PublishContainer`), load the container-publish skill instead.]]></description>
+Installs: 76
+Source: magentosh/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): error-handling]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/error-handling</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/error-handling</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): ai-avatar-video]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:skills-shell/superpowers/ai-avatar-video</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Error handling strategy for .NET 10 applications. Covers the Result pattern, ProblemDetails (RFC 9457), global exception handling, FluentValidation, and structured error responses. Load this skill when implementing error handling, validation, or designing API error contracts, or when the user mentions "error handling", "Result pattern", "ProblemDetails", "exception", "validation", "FluentValidation", "error response", "global exception handler", or "RFC 9457".]]></description>
+Installs: 76
+Source: skills-shell/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): qt-figma-component-generation]]></title>
-            <link>https://skills.sh/theqtcompanyrnd/agent-skills/qt-figma-component-generation</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:theqtcompanyrnd/agent-skills/qt-figma-component-generation</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): ai-image-generation]]></title>
+            <link>https://skills.sh/magentosh/superpowers/ai-image-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:magentosh/superpowers/ai-image-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 2
-Source: theqtcompanyrnd/agent-skills
-Description: Extract component metadata from a Figma design system and generate production-ready QML controls. Use this skill whenever someone wants to turn Figma components into QML files — whether they say "generate components from Figma", "create QML controls based on a design system", "convert Figma components to QML", "build the component library", "extract button/input/checkbox from Figma", or anything similar. Requires design-tokens.json and QML design system singletons to already exist (from the token extraction skill). Uses Figma MCP to inspect components one at a time and maps variants, states, sizing, and token usage to idiomatic Qt Quick Controls 2 patterns. Trigger this skill at the component generation step of any QML design-system workflow.]]></description>
+Installs: 76
+Source: magentosh/superpowers
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): authentication]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/authentication</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/authentication</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): brag]]></title>
+            <link>https://skills.sh/latent-spaces/brag/brag</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:latent-spaces/brag/brag</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Authentication and authorization for ASP.NET Core. Covers JWT bearer tokens, OpenID Connect, ASP.NET Identity, authorization policies, role and claim-based authorization, and API key authentication. Load this skill when implementing login, protecting endpoints, designing authorization rules, or when the user mentions "auth", "JWT", "bearer token", "OIDC", "OpenID Connect", "Identity", "claims", "roles", "authorize", "RequireAuthorization", "API key", or "cookie auth".]]></description>
+Installs: 24
+Source: latent-spaces/brag
+Description: Turn the current project website into a short, polished, shareable launch video using Hyperframes. Use when someone says "/brag", "let's brag about this", "make a launch video", "turn this into a video", or wants to share what they built. Reads the project code directly — no live URL or screenshots needed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): red-team-tactics]]></title>
-            <link>https://skills.sh/vudovn/ag-kit/red-team-tactics</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:vudovn/ag-kit/red-team-tactics</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): python-executor]]></title>
+            <link>https://skills.sh/101-skills/superpowers/python-executor</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/python-executor</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 2
-Source: vudovn/ag-kit
-Description: Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.]]></description>
+Installs: 38
+Source: 101-skills/superpowers
+Description: Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): edit-spec]]></title>
-            <link>https://skills.sh/zernie/vigiles/edit-spec</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:zernie/vigiles/edit-spec</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): agent-browser]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/agent-browser</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/agent-browser</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 2
-Source: zernie/vigiles
-Description: Edit a vigiles spec file to update instruction files (CLAUDE.md, AGENTS.md)]]></description>
+Installs: 37
+Source: qu-skills/superpowers
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): de-sloppify]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/de-sloppify</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/de-sloppify</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): web-search]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/web-search</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/web-search</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Systematic code cleanup pipeline for .NET projects. Runs 7 ordered steps: formatting, unused usings, analyzer warnings, dead code removal, TODO resolution, sealed class audit, and CancellationToken propagation. Each step is verified independently with tests between phases. Load this skill when: "clean up", "de-sloppify", "tidy up", "remove dead code", "code cleanup", "housekeeping", "tech debt", "fix warnings", "seal classes", "add CancellationToken", "unused usings", "format code".]]></description>
+Installs: 25
+Source: qu-skills/superpowers
+Description: Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): build-dashboard]]></title>
-            <link>https://skills.sh/anthropics/knowledge-work-plugins/build-dashboard</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:anthropics/knowledge-work-plugins/build-dashboard</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): agent-tools]]></title>
+            <link>https://skills.sh/101-skills/superpowers/agent-tools</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/agent-tools</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 2
-Source: anthropics/knowledge-work-plugins
-Description: Build an interactive HTML dashboard with charts, filters, and tables. Use when creating an executive overview with KPI cards, turning query results into a shareable self-contained report, building a team monitoring snapshot, or needing multiple charts with filters in one browser-openable file.]]></description>
+Installs: 38
+Source: 101-skills/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): tdd]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/tdd</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/tdd</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): agent-tools]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/agent-tools</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/agent-tools</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Guided test-driven development workflow for .NET 10 using xUnit v3, WebApplicationFactory, Testcontainers, and Verify snapshots. Follows the strict red-green-refactor cycle. Use when: "TDD", "test-driven", "let's TDD this", "red green refactor", "write the test first", or when building a feature with clear acceptance criteria.]]></description>
+Installs: 25
+Source: qu-skills/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): google-agents-cli-eval]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): ai-image-generation]]></title>
+            <link>https://skills.sh/101-skills/superpowers/ai-image-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/ai-image-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 332
+Source: 101-skills/superpowers
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): testing]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/testing</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/testing</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): infsh-cli]]></title>
+            <link>https://skills.sh/101-skills/superpowers/infsh-cli</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/infsh-cli</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Testing strategy for .NET 10 applications. Covers xUnit v3, WebApplicationFactory for integration tests, Testcontainers for real database testing, Verify for snapshot testing, and the AAA pattern. Load this skill when writing tests, setting up test infrastructure, reviewing test coverage, or when the user mentions "test", "xUnit", "WebApplicationFactory", "Testcontainers", "integration test", "unit test", "bUnit", "snapshot test", "Verify", "test coverage", "AAA pattern", "WireMock", or "FakeTimeProvider".]]></description>
+Installs: 38
+Source: 101-skills/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): resilience]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/resilience</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/resilience</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): infsh-cli]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/infsh-cli</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/infsh-cli</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Resilience patterns for .NET 10 applications using Polly v8. Covers retry, circuit breaker, timeout, fallback, rate limiter, hedging, and composing resilience pipelines. Load this skill when implementing retry logic, circuit breakers, handling transient failures, or when the user mentions "Polly", "resilience", "retry", "circuit breaker", "timeout", "fallback", "rate limit", "hedging", "transient fault", "HttpClient resilience", or "resilience pipeline".]]></description>
+Installs: 25
+Source: qu-skills/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): api-versioning]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/api-versioning</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/api-versioning</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): product-photography]]></title>
+            <link>https://skills.sh/101-skills/superpowers/product-photography</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/product-photography</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: API versioning strategies for ASP.NET Core. Covers Asp.Versioning library, URL segment, header, and query string strategies, version deprecation, and OpenAPI integration. Load this skill when adding versioning to an API, evolving an API with breaking changes, or when the user mentions "API version", "versioning", "v1/v2", "Asp.Versioning", "deprecation", "breaking change", or "backward compatibility".]]></description>
+Installs: 21
+Source: 101-skills/superpowers
+Description: AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): remove-ai-style]]></title>
-            <link>https://skills.sh/zc277584121/marketing-skills/remove-ai-style</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:zc277584121/marketing-skills/remove-ai-style</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): web-search]]></title>
+            <link>https://skills.sh/101-skills/superpowers/web-search</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/web-search</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 2
-Source: zc277584121/marketing-skills
-Description: Review and adjust writing style to reduce AI-generated patterns, making text read more naturally and human-like. Supports Chinese and English.]]></description>
+Installs: 38
+Source: 101-skills/superpowers
+Description: Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): verify]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/verify</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/verify</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): character-design-sheet]]></title>
+            <link>https://skills.sh/101-skills/superpowers/character-design-sheet</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/character-design-sheet</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Run a comprehensive 7-phase verification pipeline for .NET projects: build, analyzers, antipattern detection, tests, security, formatting, and diff review. Each phase produces PASS/FAIL with actionable output and the pipeline short-circuits on critical failures. Also the authority on verification strategy: which phases to run for a given change, quality gates, and fix-and-retry loops. Use when: "verify", "check everything", "is this ready", "pre-PR check", "run all checks", "quality gate", "verification strategy", "which checks should run", or after completing a feature or refactor.]]></description>
+Installs: 21
+Source: 101-skills/superpowers
+Description: Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): serilog]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/serilog</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/serilog</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): landing-page-design]]></title>
+            <link>https://skills.sh/101-skills/superpowers/landing-page-design</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/landing-page-design</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Structured logging with Serilog for .NET 10 applications. Covers two-stage bootstrap, appsettings configuration, enrichers, sinks, request logging, destructuring, and Serilog.Expressions. Load this skill when setting up Serilog, configuring log sinks, enrichers, or structured logging, or when the user mentions "Serilog", "structured logging", "log enrichment", "Seq", "LogContext", "UseSerilog", "WriteTo", "message template", "Serilog.Expressions", "request logging", "log sink", "rolling file", or "audit log".]]></description>
+Installs: 21
+Source: 101-skills/superpowers
+Description: Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: landing page, hero section, above the fold, conversion optimization, landing page design, cta button, hero image, landing page layout, saas landing page, product page design, conversion rate, landing page best practices]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): security-scan]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/security-scan</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/security-scan</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): vercel-react]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/vercel-react</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/vercel-react</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Deep security scanning for .NET applications across 6 layers: vulnerable packages, secrets detection, OWASP code patterns, auth configuration, CORS policy, and data protection. Produces severity-rated findings with specific remediation steps. Load this skill when: "security scan", "security audit", "check for vulnerabilities", "find secrets", "OWASP", "auth review", "CORS check", "security review", "penetration test prep", "CVE check", "vulnerability scan", "hardcoded password", "data protection", "security posture".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): ci-cd]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/ci-cd</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/ci-cd</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): ai-sdk-ui-v7]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/ai-sdk-ui-v7</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/ai-sdk-ui-v7</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: CI/CD pipelines for .NET applications. Covers GitHub Actions and Azure DevOps YAML pipelines with build, test, publish, and deploy stages. Load this skill when setting up continuous integration, automated testing, deployment workflows, or when the user mentions "CI/CD", "pipeline", "GitHub Actions", "Azure DevOps", "workflow", "deploy", "build pipeline", "publish", "NuGet push", "release", or "continuous integration".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Build React chat UIs with Vercel AI SDK v7 — useChat, DefaultChatTransport, status, sendMessage. Use when implementing AI SDK v7 chat UIs or troubleshooting useChat stream parse / no response / stale values. Never write useChat from memory.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): yunxiao-development-delivery]]></title>
-            <link>https://skills.sh/15810879921-coder/oneos-pm-skills/yunxiao-development-delivery</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:15810879921-coder/oneos-pm-skills/yunxiao-development-delivery</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): expo-cicd-workflows-v55]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/expo-cicd-workflows-v55</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/expo-cicd-workflows-v55</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 2
-Source: 15810879921-coder/oneos-pm-skills
-Description: 云效开发交付与代码实现。用户即使没有写 $yunxiao-development-delivery 或标准口令，只要自然语言明确表达 查看、领取、分配、开始、实现、提交、完成开发任务，修复本人或指定Bug，处理发布回流或清理发版分支， 就主动识别为开发意图；先通过官方 aliyun devops CLI 唯一定位【交付】、【开发】或Bug，再规范化为内部动作。 无唯一正式事项但开发意图明确时，在首次业务代码写入前创建可追溯TEMPDEV分支，不阻止编码和test验证；正式推生产前必须完成认领与冻结。 多候选或证据冲突时只阻断受影响仓库，不按标题猜编号，不静默写云效。通用的本地代码测试、正式QA测试任务、产品需求和生产发布不应触发本Skill。 所有平台写入继续使用快照、哈希预检、漂移检查、单次写入、定向回读和幂等回执；禁止浏览器、DOM、Cookie和网页内部接口回退。]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: EAS service (paid). Helps understand and write EAS workflow YAML files for Expo SDK 57 projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): messaging]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/messaging</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/messaging</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): improve-animations]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/improve-animations</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/improve-animations</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Asynchronous messaging patterns for .NET applications. Covers Wolverine and MassTransit, outbox pattern, saga and choreography, and broker configuration for RabbitMQ and Azure Service Bus. Load this skill when implementing event-driven communication, background processing, module-to-module messaging, or when the user mentions "Wolverine", "MassTransit", "message bus", "RabbitMQ", "Azure Service Bus", "event", "publish", "consumer", "outbox", "saga", "integration event", "queue", or "pub/sub".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to "improve the animations", "audit the motion", "make this app feel better", or wants a roadmap of animation fixes rather than a review of a single diff.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): google-agents-cli-publish]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): twitter-automation]]></title>
+            <link>https://skills.sh/101-skills/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/twitter-automation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
+Installs: 332
+Source: 101-skills/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): logging]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/logging</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/logging</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): openapi-ts-v0]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/openapi-ts-v0</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/openapi-ts-v0</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Observability overview and glue for .NET 10: how the pieces fit together, plus the cross-cutting parts owned here — ASP.NET health check endpoints (/health), correlation IDs, and log-level strategy. For deep Serilog setup load `serilog`; for traces and metrics load `opentelemetry`. Load this skill when setting up observability from scratch, wiring health check endpoints or correlation IDs, or when the user says "logging", "observability", "monitoring setup", "liveness", "readiness", or "ILogger".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Generate TypeScript clients from OpenAPI specs using @hey-api/openapi-ts — type-safe API clients. Use when generating TypeScript clients from OpenAPI specifications for frontend or API consumers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): minimal-api]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/minimal-api</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/minimal-api</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): motion-v13]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/motion-v13</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/motion-v13</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: .NET 10 minimal APIs — the default for building HTTP endpoints. Covers MapGroup, endpoint filters, TypedResults, OpenAPI metadata, parameter binding, and route conventions. Load this skill when creating API endpoints, configuring routing, setting up OpenAPI documentation, or when the user mentions "endpoint", "MapGet", "MapPost", "MapGroup", "TypedResults", "route", "minimal API", "OpenAPI", "swagger", "rate limiting", or "output caching".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: React animations with Motion v13 (gestures, scroll, layout, SVG). Use when drag-and-drop, scroll animations, modals, carousels, parallax, or AnimatePresence issues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): health-check]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/health-check</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/health-check</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): nodejs-keccak256-v1]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/nodejs-keccak256-v1</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/nodejs-keccak256-v1</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Multi-dimensional health assessment for .NET projects with letter grades (A-F) using Roslyn MCP tools. Evaluates 8 dimensions: build health, code quality, architecture, test coverage, dead code, API surface, security posture, and documentation. Produces a structured report card with actionable recommendations. Load this skill when: "health check", "how healthy is this", "project health", "code quality report", "grade this project", "assess codebase", "quality audit", "technical assessment", "codebase review", "report card".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Prevent Ethereum hashing bugs in JavaScript and TypeScript. Node's sha3-256 is NIST SHA3, not Ethereum Keccak-256, and silently breaks selectors, signatures, storage slots, and address derivation. Use when hashing for Ethereum in JavaScript or TypeScript, or when a selector, signature, storage slot, or derived address is wrong.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): opentelemetry]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/opentelemetry</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/opentelemetry</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): animate-expo]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/animate-expo</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/animate-expo</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: OpenTelemetry observability for .NET 10 applications. Covers traces, metrics, and logs using the OpenTelemetry SDK with OTLP export. Includes custom ActivitySource, IMeterFactory metrics, resource configuration, and Aspire Dashboard integration. Load this skill when setting up distributed tracing, custom metrics, OTLP export, or when the user mentions "OpenTelemetry", "OTLP", "traces", "spans", "Activity", "ActivitySource", "metrics", "IMeterFactory", "Meter", "Counter", "Histogram", "Gauge", "telemetry", "observability", "distributed tracing", "OTEL", or "Aspire Dashboard".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): workflow-mastery]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/workflow-mastery</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/workflow-mastery</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): composition-patterns]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/composition-patterns</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/composition-patterns</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Claude Code workflow mastery for .NET developers. Covers parallel execution with git worktrees, plan mode strategy, verification loops, auto-formatting hooks, permission setup for dotnet CLI, prompting techniques, subagent patterns, and context discipline — token budget management, MCP-first navigation, lazy loading, and subagent isolation — all adapted for the .NET ecosystem. Load this skill when setting up Claude Code for a .NET project, optimizing workflows, running parallel sessions, when context is running low or sessions feel sluggish, when exploring a large codebase efficiently, or when the user mentions "productivity", "workflow", "parallel", "worktree", "plan mode", "permissions", "hooks", "10x", "setup Claude Code", "speed up development", "context", "tokens", "budget", "running out of context", "too many files", or "large codebase". Inspired by tips from Boris Cherny (creator of Claude Code) and the Anthropic team.]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: React composition patterns that scale. Use when refactoring boolean-prop APIs, building reusable component libraries, or reviewing compound components, render props, and context. Includes React 19 API changes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): strengthen]]></title>
-            <link>https://skills.sh/zernie/vigiles/strengthen</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:zernie/vigiles/strengthen</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): pick-ui-library]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/pick-ui-library</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/pick-ui-library</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 2
-Source: zernie/vigiles
-Description: Upgrade guidance() rules to enforce() by finding existing linter rules that match]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): outdated]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/outdated</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/outdated</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): better-ui]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/better-ui</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/better-ui</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Dependency health report for .NET solutions: outdated NuGet packages, vulnerable versions, and commercial-license traps (MediatR, MassTransit, FluentAssertions, AutoMapper) — powered by the get_nuget_packages MCP tool. Invoke when: "outdated packages", "check dependencies", "stale packages", "package audit", "dependency health", "are my packages up to date", "license check", "vulnerable packages", "nuget audit".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Polishes and improves the UI in your project. Covers concentric border radius, optical alignment, surface depth, contextual icons, hit areas and more.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): migrate]]></title>
-            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/migrate</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:codewithmukesh/dotnet-claude-kit/migrate</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): nuqs-v2]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/nuqs-v2</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/nuqs-v2</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 2
-Source: codewithmukesh/dotnet-claude-kit
-Description: Guided, safe migration workflow covering EF Core schema migrations, .NET version upgrades, and NuGet dependency updates — each with rollback strategies and verification steps. Invoke when: "add migration", "update database", "create migration", "schema change", "new table", "rename column", "upgrade nuget", "update packages", "dependency update", "version upgrade", ".NET upgrade".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: nuqs (type-safe URL query state) best practices for Next.js and other React frameworks. This skill should be used when writing, reviewing, or refactoring code that uses nuqs for URL state management. Triggers on tasks involving useQueryState, useQueryStates, search params, URL state, query parameters, nuqs parsers, limitUrlUpdates, Standard Schema, NuqsAdapter, or Next.js routing with state.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): context-engineering-collection]]></title>
-            <link>https://skills.sh/muratcankoylan/agent-skills-for-context-engineering/context-engineering-collection</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:muratcankoylan/agent-skills-for-context-engineering/context-engineering-collection</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): expo-deployment-v55]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/expo-deployment-v55</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/expo-deployment-v55</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 2
-Source: muratcankoylan/agent-skills-for-context-engineering
-Description: A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: EAS service (paid). Deploy Expo SDK 57 apps to the app stores with EAS - build and submit to the iOS App Store, Google Play Store, and TestFlight, configure eas.json build and submit profiles, manage app versions and build numbers, and publish App Store metadata and ASO. Use whenever the user wants to deploy, release, or ship an app to production or the app stores, is preparing a production build, running eas build or eas submit, shipping to TestFlight, bumping version or build numbers, or setting up store listing metadata. For deploying an Expo website or API routes, use the eas-hosting skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): deepeval]]></title>
-            <link>https://skills.sh/confident-ai/deepeval/deepeval</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:confident-ai/deepeval/deepeval</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): web-design-guidelines]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/web-design-guidelines</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 2
-Source: confident-ai/deepeval
-Description: DeepEval evaluation workflow for AI agents and LLM applications. TRIGGER when the user wants to evaluate or improve an AI agent, tool-using workflow, multi-turn chatbot, RAG pipeline, or LLM app; add evals; generate datasets or goldens; use deepeval generate; use deepeval test run; add tracing or @observe; send results to Confident AI; monitor production; run online evals; inspect traces; or iterate on prompts, tools, retrieval, or agent behavior from eval failures. AI agents are the primary use case. Covers Python SDK, pytest eval suites, CLI generation, tracing, Confident AI reporting, and agent-driven improvement loops. DO NOT TRIGGER for unrelated generic pytest, non-AI test setup, or non-DeepEval observability work unless the user asks to compare or migrate to DeepEval.]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: Review UI code against Vercel Web Interface Guidelines. Use when asked to review UI, check accessibility, audit design, review UX, or check a site against web interface best practices.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): google-agents-cli-workflow]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): ai-avatar-video]]></title>
+            <link>https://skills.sh/101-skills/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:101-skills/superpowers/ai-avatar-video</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
+Installs: 333
+Source: 101-skills/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): finesse-ui]]></title>
-            <link>https://skills.sh/mouse-lin/finesse-skill/finesse-ui</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:mouse-lin/finesse-skill/finesse-ui</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): tanstack-query-v5]]></title>
+            <link>https://skills.sh/blockmatic/basilic-skills/tanstack-query-v5</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:blockmatic/basilic-skills/tanstack-query-v5</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 2
-Source: mouse-lin/finesse-skill
-Description: Build never-cheap, high-craft web interfaces — brand surfaces (landing pages, brand sites, launches, portfolios, hero pages with real WebGL/Three.js/Canvas/GSAP engines), product UI (dashboards, admin panels, analytics, data tables, app shells, settings), and commerce pages (product detail pages, listing/category pages, cart, checkout). Routes by register: brand → soul + spectacle engine; product → component system + information density + data viz; commerce → PDP/PLP skeletons + anti-dark-pattern rules. Always reads the brief first and audits against an anti-slop cheapness blacklist. Supports verb commands (audit · bolder · quieter · soul · animate · densify · redesign) for targeted iteration on existing pages. Triggers on "make this look premium", "landing page", "dashboard", "admin panel", "analytics UI", "data table", "app UI", "product page", "PDP", "listing page", "checkout", "give it a soul / a vibe", "anti-slop", "hero animation", "/finesse".]]></description>
+Installs: 8
+Source: blockmatic/basilic-skills
+Description: TanStack Query (React Query) for async operations, data fetching, caching, and state management. Use when fetching server data, managing async operations, caching responses, handling mutations, or any operation that benefits from automatic state management and caching.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-deploy]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): twitter-automation]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/twitter-automation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 164
+Source: qu-skills/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-scaffold]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
-            <guid isPermaLink="false">2026-09-16T03:15:56.089Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
-            <pubDate>Wed, 16 Sep 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): ai-image-generation]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/ai-image-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/ai-image-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 112
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
+Installs: 164
+Source: qu-skills/superpowers
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): ai-video-generation]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/ai-video-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 164
+Source: qu-skills/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): ai-avatar-video]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topHot:new:qu-skills/superpowers/ai-avatar-video</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 164
+Source: qu-skills/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#34): ai-video-generation]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-09-17T03:34:56.379Z:topTrending:new:skills-shell/superpowers/ai-video-generation</guid>
+            <pubDate>Thu, 17 Sep 2026 03:34:56 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #34
+Installs: 9336
+Source: skills-shell/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
         </item>
     </channel>
 </rss>

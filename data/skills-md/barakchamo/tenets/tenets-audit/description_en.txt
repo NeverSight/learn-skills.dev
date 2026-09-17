@@ -1,0 +1,7 @@
+Produces a severity-ranked compliance report for an entire repository, a package, or a named
+subtree, measured against the tenets engineering ruleset and the project guide, with every finding
+cited to a rule anchor and a file location.
+
+Use only when the user explicitly asks to audit or assess a codebase against the rules — "audit
+this repo", "check compliance", "how aligned is this package". Not for ordinary code work,
+single-file edits, reviewing a diff, or answering a rules question: those load the tenets skill.

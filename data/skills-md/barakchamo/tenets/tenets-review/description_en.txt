@@ -1,0 +1,7 @@
+Produces a severity-ranked review of a pull request, a branch, or the uncommitted working tree
+against the tenets engineering ruleset, plus an intent audit comparing what the active plan said
+against what the diff actually does.
+
+Use only when the user explicitly asks to review changes against the rules — "review this PR",
+"review my diff against the tenets", "did I build what the plan said". Not for ordinary code work,
+writing code, or auditing a whole codebase: those load the tenets skill or tenets-audit.

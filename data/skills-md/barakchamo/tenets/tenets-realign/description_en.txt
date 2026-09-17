@@ -1,0 +1,7 @@
+Brings existing code back into line with the tenets ruleset: audits the named scope, clusters the
+findings into an ordered slice plan, waits for approval, then applies the approved slices one at a
+time with the project's acceptance gate green and one commit per slice.
+
+Use only when the user explicitly asks to realign, refactor, or fix a codebase against the rules —
+"realign this package to the tenets", "fix the rule violations in apps/api". Not for ordinary code
+work, a single edit, or a read-only assessment: those load the tenets skill or tenets-audit.

@@ -1,0 +1,6 @@
+Audits a repository's tenets project guide for completeness, staleness, quality bars, valid rule
+anchors, and template version, and reports a pass/fail checklist with a fix list.
+
+Use only when the user explicitly asks to check or audit the project guide, or runs /tenets-check
+— including after refactors that change commands or workspaces, or when upgrading the ruleset. Not
+for auditing code against the rules: that is tenets-audit.
