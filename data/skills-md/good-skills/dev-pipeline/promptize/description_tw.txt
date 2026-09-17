@@ -1,0 +1,11 @@
+將簡短的自然語言請求轉換為具備資料庫感知的工程任務提示，於重用查找、超/微門檻與差異檢查之後。
+
+當使用者以 /promptize 開頭，或要求將簡短請求 promptize / 展開為工程規格時使用。
+
+支援 --execute、--full、--minimal、--compress、--caveman、--save-to-file 與 --save。
+
+預設為緊湊模式；對超低需求任務自動使用 minimal；對代理交接使用 Caveman 文本壓縮。
+
+在 SESSION-CACHE 中以檔案為基礎的 Promptize 重用（精確/正規化）— 不使用 Redis。
+
+請始終以使用者的語言回覆。

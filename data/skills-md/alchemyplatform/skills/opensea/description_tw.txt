@@ -1,0 +1,2 @@
+查詢 OpenSea 市場資料——上架、出價、銷售/事件、底價、收藏品統計、發佈、屬性——並透過官方 `@opensea/cli` 與 OpenSea REST API 在 Ethereum、Base、Arbitrum、Optimism、Polygon 等多條鏈上執行 Seaport 交易。包含對收藏品 / NFT / 代幣 / 帳戶的搜尋。**不** 用於一般 NFT 元資料讀取（名稱、圖片、屬性、所有權）、代幣元資料、當前錢包餘額、交易記錄或即時 RPC 讀取——此類需求請使用 `alchemy-cli`（即時）、`alchemy-mcp`、`alchemy-api`（應用程式碼）或 `agentic-gateway`（無需 API 金鑰）。若僅需純跨鏈代幣交換（無市場情境），請優先使用 `lifi` 生態系統技能。需要 `OPENSEA_API_KEY`（可即時取得 API）。
+請始終以使用者的語言回應。

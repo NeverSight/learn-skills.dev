@@ -1,0 +1,24 @@
+**Web 和 Mobile H5 术语层** – 将用户模糊的 UI 描述转化为可直接发送给 Agent 的精确需求，并便利地指出用户刚才描述但说不出名字的术语。
+
+**适用于每一次对话回合，且不局限于任何特定阶段**：在任何对话回合中，只要用户以口语化的方式描述网页或 H5 的效果、交互、状态、动画、感受或 bug（例如 “鼠标悬停颜色会变化”、 “点击没反应”、 “底部的黑条挡住按钮”、 “弹窗下方仍能滚动”、 “键盘遮住输入框”、 “内容太长——截断它”、 “看起来有点俗气”、 “太紧凑，缺乏呼吸感”、 “根本没有数据”、 “图片加载后页面向下跳动”、 “在微信中打开显示异常”、 “这个 H5 在电脑上很奇怪”），均应使用本技能：
+
+**照常完成用户的工作**，随后自然地在进度或结果里附上对应的术语、通俗解释以及最常见的 “踩坑点”。
+
+- 内置本地词库 128 条目（五卷，覆盖 web · h5 · motion · mp · base；主题包括布局、交互、状态、组件、表单、动画、感受、可访问性、性能、容器平台、小程序、前端基础）。  
+- 零网络依赖；使用 `scripts/term.mjs find` 进行逆向查找 **用户的原始用词**——搜索关键字是 “用户会如何描述它”，而不是 “它叫什么”，因为无法命名正是要解决的问题。
+
+**三个硬性约束**：
+
+1. **每个提供的术语必须可追溯到用户本回合的原话**——如果找不到触发词，就不要提及该术语；宁可不说，也不要强行硬塞。  
+2. **H5 陷阱成对出现**——必须同时提到 “pairs” 条目中列出的配对（例如 “sticky bottom ↔ safe area”、 “modal ↔ scroll lock”、 “input field ↔ keyboard push‑up”、 “image ↔ aspect‑ratio placeholder”）。只说一半属于隐藏陷阱。  
+3. **始终先交付任务结果，再附加术语**——每次回复至多提供 1–3 个术语；若用户的表达已经足够准确，则不做教学。
+
+本技能亦支持逆向使用：当用户遇到 Agent 或同事说的自己不懂的话（例如 “他想要乐观更新和错误回滚”、 “他说这里有 CLS 问题”），挑选对后续决策影响最大的概念，精准解释其在当前任务中的含义，并标出常被混淆的边界。
+
+**可选输出**：`.finesse/lexicon.md` – 项目术语对齐表，防止需求、代码、沟通中同一组件出现三个不同的名称。
+
+支持的操作指令：`say · name · explain · check · align · list`。
+
+触发短语：“say it more professionally”、 “how to phrase this accurately”、 “rephrase as a requirement for the Agent”、 “what is this called”、 “professional term”、 “term”、 “I don’t understand what he said”、 “H5”、 “mobile”、 “on phone”、 “responsive”、 “safe area”、 “sticky bottom”、 “popup”、 “skeleton screen”、 “empty state”、 “accessibility”、 “term alignment”、 “/term”。
+
+请始终使用用户的语言回复。

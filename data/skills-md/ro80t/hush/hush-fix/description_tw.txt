@@ -1,0 +1,1 @@
+根據 hush ladder（同 hush‑review）檢查現有程式碼的註解，然後直接套用修正——重新命名識別子以去除冗餘註解、為未文件化的 public API 加上文件註解、裁剪過長的註解、更新或刪除過時的註解。預設以目前的 diff 為目標，若傳入路徑/目錄/分支/PR 則以該目標為主，若沒有 diff 也沒有指定目標則回退至整個 repo。當使用者說「hush fix」「fix comments」「clean up comments」「improve existing comments」「/hush-fix」或希望將註解品質的問題直接套用而非僅列出時使用。

@@ -1,0 +1,1 @@
+防止JavaScript和TypeScript中的以太坊哈希bug。節點的sha3-256是NIST SHA3 ，而不是以太坊Keccak-256 ，並無聲中斷選擇器、簽名、存儲槽和地址衍生。在JavaScript或TypeScript中對以太坊進行雜湊時，或在選擇器、簽名、存儲槽或衍生地址錯誤時使用。

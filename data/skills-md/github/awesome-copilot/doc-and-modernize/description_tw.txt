@@ -1,0 +1,7 @@
+針對本機複製的程式碼庫，有兩個相關的工作流程，合併於同一個技能中。
+
+文件模式主要透過讀取磁碟上的檔案（本地優先）產生單一、完整且可驗證的架構文件——當使用者想要了解、繪製、文件化、研究或加入程式碼庫時使用（例如「research this repo」「write up the architecture」「do an architecture deep dive」「document how this codebase works」「map the system design」「create an onboarding doc」）。
+
+現代化模式會產生分階段的計畫，以現代化、遷移、升級或重寫舊有系統（例如「modernize this」「plan the migration」「how would we rewrite this」「how do we get off this legacy stack」）；若尚未有架構文件，則會先執行文件模式，之後直接進入計畫階段。它假設舊有堆疊可能已失效，會執行時限限定的可行性驗證，並選擇安全階梯上最可達的最高層級，而非事先要求完整綠燈的舊版 CI 閘。
+
+請始終以使用者的語言回應。
