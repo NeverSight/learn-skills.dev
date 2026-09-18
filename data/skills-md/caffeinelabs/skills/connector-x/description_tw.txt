@@ -1,3 +1,1 @@
-對每個從罐子發佈至 X（Twitter）的 Caffeine 構建，都是必須的配方。支援的路徑是透過外部 HTTPS 使用 `x-client` mops 套件（X API v2），並採用每位使用者的 OAuth 2.0（PKCE，無客戶端密鑰）。自行手寫 `ic.http_request` 呼叫 `api.x.com` 是被禁止的反模式——它會繞過 Bearer 認證、非複製的外部呼叫保護機制，以及套件的 null 欄位 JSON 處理。每當使用者、規格或任何先前任務提到發推文、"tweet this"、X/Twitter、分享至 X 或任何等同語句時，都要載入此技能——且在編寫任何涉及 X 端點的程式碼之前。
-
-請始終以使用者的語言回覆。
+每個從罐子發佈到 X（Twitter）的 Caffeine 構建都必須遵守的配方。支援的路徑是透過出站 HTTPS 使用 `x-client` mops 套件（X API v2），並以每位使用者的 OAuth 2.0（PKCE，無客戶端密鑰）進行驗證。自行手動呼叫 `ic.http_request` 連至 `api.x.com` 是被禁止的反模式——它會繞過 bearer 認證、非複寫的外部呼叫保護機制，以及套件的 null‑field JSON 處理。每當使用者、規格或任何先前任務提到發佈推文、"tweet this"、X/Twitter、分享至 X，或任何等同表述時，都要載入此技能，且必須在撰寫任何觸及 X 端點的程式碼之前進行。

@@ -1,1 +1,1 @@
-正確實作 Phoenix LiveView 的 JavaScript hooks。當在 HEEx 中新增或檢視 `phx-hook` 行為時，請選擇將 hook 程式碼同置於模板或放在 `assets/js` 中的外部 hook，將 hook 註冊接入 `LiveSocket`，或強制執行 hook 安全規則，例如唯一 ID 與對由 DOM 管理的節點使用 `phx-update="ignore"`。
+正確實作Phoenix LiveView JavaScript掛鉤。在HEEx中新增或檢閱「phx-hook」行為、在「assets/js」中選擇共置掛鉤腳本和外部掛鉤、將掛鉤註冊到「LiveSocket」中，或對DOM管理的節點強制執行掛鉤安全規則（如唯一ID和「phx-update =\ "ignore\"」）時使用。

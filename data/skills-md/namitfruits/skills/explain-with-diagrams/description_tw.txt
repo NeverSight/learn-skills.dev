@@ -1,3 +1,5 @@
-使用深色主題的 Mermaid 圖表說明機制、錯誤、決策流程或架構，並使用語意色彩與即時開啟的 mermaid.live/edit 連結——分為兩種模式——`easy`（預設）以「一句話 → 隱喻 → 真實事件的展開」的單對單隱喻方式說明，`tech`（`--tech`）則以 `Context` · `Problem` · `Root cause` 格式列出精確的檔案/函式/欄位名稱。僅描述現象；不要提供解決方案，也不要在聊天中貼上 Mermaid 原始碼。當使用者說「畫圖」、「diagram it」、「mermaid」、「為易懂而畫」或「用圖表描述」、使用者問「為什麼 X」且答案涉及多層/分支/狀態，或文字說明仍不清晰時，使用此方式。還要包含一個 `mermaid-link.mjs`，用於產生離線連結並驗證來回轉換。
+使用深色主題的 Mermaid 圖表，搭配語意化著色元素說明機制、錯誤、決策流程或架構，並附上可立即開啟的 mermaid.live/edit 連結 — 兩種模式 — `easy`（預設）以一對一隱喻說明，模式為 *一句話 → 隱喻 → 真實情況的展開*，`tech`（`--tech`）則使用精確的檔案/函式/欄位名稱，格式為 `Context` · `Problem` · `Root cause`。僅說明現象，不提出修正；不要在聊天中貼出 Mermaid 原始碼。當使用者說「draw a diagram」、『diagram』、『Mermaid』、『draw for easier understanding』、『describe with a diagram』，或使用者詢問「why X」且答案有多層/分支/狀態，或文字說明仍未被掌握時，使用此方式。加入 `mermaid-link.mjs` 以產生離線連結並驗證往返。
+
+請始終以使用者的語言回覆。
 
 請始終以使用者的語言回覆。
