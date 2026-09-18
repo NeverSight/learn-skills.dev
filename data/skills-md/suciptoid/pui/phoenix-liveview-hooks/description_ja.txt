@@ -1,1 +1,1 @@
-Phoenix LiveView JavaScriptフックを正しく実装します。HEExで'phx - hook`の動作を追加またはレビューしたり、`assets/js`でコロケーションされたフックスクリプトと外部フックを選択したり、`LiveSocket`にフック登録を配線したり、一意のIDやDOM管理ノードの`phx - update =\" ignore \"などのフック安全ルールを適用したりする場合に使用します。
+Phoenix LiveView の JavaScript フックを正しく実装してください。HEEx で `phx-hook` の挙動を追加または確認する際、フックスクリプトを同一ファイルに配置するか `assets/js` の外部フックを使用するかを選び、`LiveSocket` へのフック登録を組み込むか、あるいは DOM 管理ノードに対してユニークな ID や `phx-update="ignore"` といったフック安全ルールを適用してください。

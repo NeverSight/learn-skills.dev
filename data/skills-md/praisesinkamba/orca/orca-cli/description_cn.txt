@@ -1,3 +1,1 @@
-通过 `orca` CLI 操作 Orca 管理的工作树、文件夹上下文、终端、仓库、自动化、制品、技能共享、工作树评论以及 Orca 的嵌入式浏览器。当用户说 “$orca-cli”、 “Orca 工作树”、 “子工作树”、 “在工作树中生成 codex/claude”、 “读取/等待/发送 Orca 终端”、 “handoff” / “handover” / “把这个交给另一个代理”、 “Orca 浏览器”、 “orca 制品” 或 “共享技能” 时使用。涉及 Orca 状态时，优先使用它而不是原始 git 工作树、临时 PTY 或计算机使用。在只能通过可见窗口进行 GUI 控制、而 CLI、文件系统或 API 无法完成的情况下才使用计算机使用。
-
-请始终使用用户的语言作答。
+通过 `orca` CLI 操作 Orca 管理的工作树、文件夹上下文、终端、仓库、自动化、构件、技能共享、工作树注释以及 Orca 的嵌入式浏览器。当用户说 “$orca-cli”、 “Orca worktree”、 “child worktree”、 “spawn codex/claude in a worktree”、 “read/wait/send Orca terminal”、 “handoff” / “handover” / “give this to another agent”、 “Orca browser”、 “orca artifacts” 或 “share skills” 时使用。在涉及 Orca 状态时，优先使用它，而不是原始 git worktree、临时 PTY 或计算机使用。仅在需要对可见窗口进行 GUI 控制且 CLI、文件系统或 API 无法完成时才使用计算机使用。请始终使用用户的语言作答。
