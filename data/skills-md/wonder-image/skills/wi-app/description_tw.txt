@@ -1,0 +1,16 @@
+在 wonder-image/app 框架套件內工作 — 位於 github.com/wonder-image/app 的 Composer 函式庫。這是框架核心，而非使用它的網站。
+
+觸發條件：
+- 當 repo 的 composer.json 宣告 `"name": "wonder-image/app"` 時
+- 編輯 `class/App/*`、`app/config/routes/*`、`app/http/*`、`app/bootstrap/*`、`app/middleware/*`、`class/App/Module/*`、`class/Console/*` 之下的檔案
+- 編輯 `class/Elements/Components/*`、`class/Elements/Media/*` 之下的共用 UI 元件，或它們在 `class/Themes/{Wonder,Bootstrap}/*` 中的渲染器
+- 修改 Model、Resource、PageSchema、Repeater、ModelRegistry、ResourceRegistry、ResourceRouteRegistrar、Credentials，或 `wonder-image.php` 進入點
+- 更改 bootstrap 順序、`ROOT`/.env 解析、模組偵測、產生的後端/API CRUD 路由，或 `php forge ...` 命令來源
+- 更新 `docs/app/*` 內關於 bootstrap、架構、路由或版面配置的說明
+
+跳過條件：
+- 該 repo 為安裝 wonder-image/app 在 `vendor/` 下的 Wonder 網站（例如 wonder-image/new-site 或任何以其為基礎的專案）——請使用 wi-site
+- 變更位於站點的 `custom/`、`app/Models`、`app/Resources`、`lang/` 或 `assets/` 目錄中
+- 任務屬於 wonder-image/lib（JS/CSS 設計系統）—屬於不同的 repo
+
+請始終以使用者的語言回應。
