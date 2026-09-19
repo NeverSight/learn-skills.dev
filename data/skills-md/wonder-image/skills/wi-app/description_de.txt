@@ -1,0 +1,16 @@
+Arbeiten Sie innerhalb des wonder-image/app‑Framework‑Pakets — der Composer‑Bibliothek unter github.com/wonder-image/app. Dies ist der Kern des Frameworks, nicht eine Site, die es nutzt.
+
+AUSLÖSEN, wenn:
+- die composer.json des Repositories `"name": "wonder-image/app"` deklariert
+- Dateien unter `class/App/*`, `app/config/routes/*`, `app/http/*`, `app/bootstrap/*`, `app/middleware/*`, `class/App/Module/*`, `class/Console/*` bearbeitet werden
+- gemeinsame UI‑Komponenten unter `class/Elements/Components/*`, Medien unter `class/Elements/Media/*` oder deren Renderer unter `class/Themes/{Wonder,Bootstrap}/*` bearbeitet werden
+- Model, Resource, PageSchema, Repeater, ModelRegistry, ResourceRegistry, ResourceRouteRegistrar, Credentials oder der Einstiegspunkt `wonder-image.php` geändert werden
+- die Bootstrap‑Reihenfolge, `ROOT`/`.env`‑Auflösung, Modulerkennung, generierte Backend/API‑CRUD‑Routen oder die Quellen des Befehls `php forge ...` geändert werden
+- `docs/app/*` für Bootstrap, Architektur, Routing oder Layout‑Konventionen aktualisiert werden
+
+ÜBERSpringen, wenn:
+- das Repository eine Wonder‑Site ist, die wonder-image/app unter `vendor/` installiert (z. B. wonder-image/new-site oder ein beliebiges daraus generiertes Projekt) — wi-site verwenden
+- die Änderung sich in `custom/`, `app/Models`, `app/Resources`, `lang/` oder `assets/` einer Site befindet
+- die Aufgabe in wonder-image/lib (dem JS/CSS‑Design‑System) liegt — anderes Repository
+
+Bitte immer in der Sprache des Benutzers antworten.
