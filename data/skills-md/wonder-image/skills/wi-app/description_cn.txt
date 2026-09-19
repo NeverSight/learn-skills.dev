@@ -1,0 +1,14 @@
+在 wonder-image/app 框架包内部工作 —— 位于 github.com/wonder-image/app 的 Composer 库。这是框架核心，而不是使用它的站点。
+
+**触发条件**：
+- 仓库的 `composer.json` 声明 `"name": "wonder-image/app"`；
+- 编辑 `class/App/*`、`app/config/routes/*`、`app/http/*`、`app/bootstrap/*`、`app/middleware/*`、`class/App/Module/*`、`class/Console/*` 下的文件；
+- 编辑位于 `class/Elements/Components/*`、`class/Elements/Media/*` 的共享 UI 组件，或它们在 `class/Themes/{Wonder,Bootstrap}/*` 下的渲染器；
+- 修改 Model、Resource、PageSchema、Repeater、ModelRegistry、ResourceRegistry、ResourceRouteRegistrar、Credentials，或 `wonder-image.php` 入口文件；
+- 更改启动顺序、`ROOT`/`.env` 解析、模块发现、生成的后端/API CRUD 路由，或 `php forge ...` 命令的来源；
+- 更新 `docs/app/*` 中关于启动、架构、路由或布局约定的文档。
+
+**跳过条件**：
+- 仓库是一个在 `vendor/` 下安装 wonder-image/app 的 Wonder 站点（例如 wonder-image/new-site 或任何基于它脚手架的项目）——使用 wi-site；
+- 更改位于站点的 `custom/`、`app/Models`、`app/Resources`、`lang/` 或 `assets/` 中；
+- 任务位于 wonder-image/lib（JS/CSS 设计系统）——不同的仓库。

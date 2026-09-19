@@ -1,0 +1,1 @@
+在调用 `git machete` CLI 来组织分支链、计算分叉点、执行堆叠的 rebase/merge，或管理 GitHub/GitLab 的 PR/MR 链时使用——尤其是在已经存在 `.git/machete` 文件的仓库中。列出哪些子命令会修改 `.git/machete`、执行 rebase/merge、运行钩子或读取 stdin，以便代理能够选择正确的命令并传递正确的标志。关键是指明必须使用 `-y/--yes` 调用的命令（以及那些没有 `-y`、因此在没有 tty 的情况下绝不能调用的命令），从而避免代理在交互提示时卡住。同时警告不要手动编辑 `.git/machete` 布局文件。
