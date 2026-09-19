@@ -1,0 +1,16 @@
+wonder-image/app 프레임워크 패키지 내부에서 작업하십시오 — github.com/wonder-image/app에 있는 Composer 라이브러리입니다. 이것은 프레임워크 핵심이며, 이를 사용하는 사이트가 아닙니다.
+
+TRIGGER 조건:
+- 리포지토리의 composer.json에 `"name": "wonder-image/app"`이 선언된 경우
+- `class/App/*`, `app/config/routes/*`, `app/http/*`, `app/bootstrap/*`, `app/middleware/*`, `class/App/Module/*`, `class/Console/*` 아래 파일을 편집할 때
+- `class/Elements/Components/*` 아래 공유 UI 컴포넌트, `class/Elements/Media/*` 아래 미디어, 혹은 `class/Themes/{Wonder,Bootstrap}/*` 아래 렌더러를 편집할 때
+- Model, Resource, PageSchema, Repeater, ModelRegistry, ResourceRegistry, ResourceRouteRegistrar, Credentials, 또는 `wonder-image.php` 엔트리포인트를 수정할 때
+- 부트스트랩 순서, `ROOT`/`.env` 해석, 모듈 검색, 생성된 백엔드/API CRUD 라우트, 혹은 `php forge ...` 명령 소스를 변경할 때
+- 부트스트랩, 아키텍처, 라우팅, 레이아웃 규칙에 대한 `docs/app/*`를 업데이트할 때
+
+SKIP 조건:
+- 리포가 `vendor/` 아래에 wonder-image/app을 설치하는 Wonder 사이트인 경우 (예: wonder-image/new-site 또는 그로부터 스캐폴딩된 프로젝트) — wi-site 사용
+- 사이트의 `custom/`, `app/Models`, `app/Resources`, `lang/`, 또는 `assets/`에 변경이 있을 경우
+- 작업이 wonder-image/lib (JS/CSS 디자인 시스템) 안에 있는 경우 — 다른 리포
+
+항상 사용자의 언어로 응답해 주세요.
