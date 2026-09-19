@@ -1,0 +1,16 @@
+Lavora all'interno del pacchetto del framework wonder-image/app — la libreria Composer su github.com/wonder-image/app. Questo è il nucleo del framework, non un sito che lo utilizza.
+
+**ATTIVA quando:**
+- il composer.json del repository dichiara `"name": "wonder-image/app"`
+- modifica dei file sotto `class/App/*`, `app/config/routes/*`, `app/http/*`, `app/bootstrap/*`, `app/middleware/*`, `class/App/Module/*`, `class/Console/*`
+- modifica dei componenti UI condivisi sotto `class/Elements/Components/*`, media sotto `class/Elements/Media/*`, o i loro renderizzatori sotto `class/Themes/{Wonder,Bootstrap}/*`
+- modifica di Model, Resource, PageSchema, Repeater, ModelRegistry, ResourceRegistry, ResourceRouteRegistrar, Credentials o del punto di ingresso `wonder-image.php`
+- cambiamento dell'ordine di bootstrap, della risoluzione di `ROOT`/`.env`, della scoperta dei moduli, delle rotte CRUD generate per backend/API, o delle sorgenti del comando `php forge ...`
+- aggiornamento di `docs/app/*` per bootstrap, architettura, routing o convenzioni di layout
+
+**IGNORA quando:**
+- il repository è un sito Wonder che installa wonder-image/app sotto `vendor/` (es. wonder-image/new-site o qualsiasi progetto generato da esso) — usa wi-site
+- la modifica è in `custom/`, `app/Models`, `app/Resources`, `lang/` o `assets/` di un sito
+- il compito è in wonder-image/lib (il sistema di design JS/CSS) — repository diverso
+
+Per favore rispondi sempre nella lingua dell'utente.
