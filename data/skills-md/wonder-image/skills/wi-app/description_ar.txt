@@ -1,0 +1,16 @@
+العمل داخل حزمة إطار العمل wonder-image/app — مكتبة Composer على github.com/wonder-image/app. هذه هي نواة الإطار، ليست موقعًا يستخدمها.
+
+**تشغيل عندما:**
+- يُعلن ملف composer.json للِمستودع عن `"name": "wonder-image/app"`
+- تعديل الملفات تحت `class/App/*`، `app/config/routes/*`، `app/http/*`، `app/bootstrap/*`، `app/middleware/*`، `class/App/Module/*`، `class/Console/*`
+- تعديل مكونات واجهة المستخدم المشتركة تحت `class/Elements/Components/*`، والوسائط تحت `class/Elements/Media/*`، أو مخرجاتها تحت `class/Themes/{Wonder,Bootstrap}/*`
+- تعديل Model، Resource، PageSchema، Repeater، ModelRegistry، ResourceRegistry، ResourceRouteRegistrar، Credentials، أو نقطة الدخول `wonder-image.php`
+- تغيير ترتيب bootstrap، حل `ROOT`/`.env`، اكتشاف الوحدات، مسارات CRUD للواجهة الخلفية/API المتولدة، أو مصادر أمر `php forge ...`
+- تحديث `docs/app/*` للـ bootstrap، الهندسة، التوجيه، أو قواعد التخطيط
+
+**تخطي عندما:**
+- يكون المستودع موقع Wonder يُثبت wonder-image/app تحت `vendor/` (مثال wonder-image/new-site أو أي مشروع مُنشأ منه) — استخدم wi-site
+- التغيير في `custom/`، `app/Models`، `app/Resources`، `lang/`، أو `assets/` لموقع
+- المهمة في wonder-image/lib (نظام التصميم JS/CSS) — مستودع مختلف
+
+يرجى دائمًا الرد بلغة المستخدم.
