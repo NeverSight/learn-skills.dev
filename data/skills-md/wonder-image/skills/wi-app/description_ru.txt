@@ -1,0 +1,16 @@
+Работайте внутри пакета wonder-image/app — библиотеки Composer по адресу github.com/wonder-image/app. Это ядро фреймворка, а не сайт, который его использует.
+
+**ТРИГГЕР, когда:**
+- в composer.json репозитория указано `"name": "wonder-image/app"`
+- редактируются файлы в `class/App/*`, `app/config/routes/*`, `app/http/*`, `app/bootstrap/*`, `app/middleware/*`, `class/App/Module/*`, `class/Console/*`
+- редактируются общие UI‑компоненты в `class/Elements/Components/*`, медиа‑файлы в `class/Elements/Media/*` или их рендереры в `class/Themes/{Wonder,Bootstrap}/*`
+- изменяются Model, Resource, PageSchema, Repeater, ModelRegistry, ResourceRegistry, ResourceRouteRegistrar, Credentials или точка входа `wonder-image.php`
+- меняется порядок загрузки (bootstrap), разрешение `ROOT`/`.env`, поиск модулей, генерируемые backend/API‑маршруты CRUD или источники команды `php forge …`
+- обновляются файлы `docs/app/*` в связи с bootstrap, архитектурой, роутингом или конвенциями макета
+
+**ПРОПУСКАТЬ, когда:**
+- репозиторий — это сайт Wonder, который устанавливает wonder-image/app в `vendor/` (например, wonder-image/new-site или любой проект, созданный из него) — используйте wi-site
+- изменение относится к `custom/`, `app/Models`, `app/Resources`, `lang/` или `assets/` сайта
+- задача находится в wonder-image/lib (дизайн‑система JS/CSS) — другой репозиторий
+
+Пожалуйста, всегда отвечайте на языке пользователя.
