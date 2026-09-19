@@ -4,573 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 18 Sep 2026 03:15:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 03:11:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-18)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-19)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:snapshot</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:snapshot</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8186
-Trending skills: 7666
-Hot skills: 2265
-Top All Time: find-skills (3449798)
-Top Trending: ai-avatar-video (38779)
-Top Hot: google-agents-cli-observability (143)]]></description>
+All Time skills: 8172
+Trending skills: 7750
+Hot skills: 1550
+Top All Time: find-skills (3465509)
+Top Trending: ai-image-generation (38692)
+Top Hot: connector-weatherapi (8)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): google-agents-cli-observability]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#49): reddit-automation]]></title>
+            <link>https://skills.sh/flowkit-labs/skills/reddit-automation</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topAllTime:new:flowkit-labs/skills/reddit-automation</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #49
+Installs: 523571
+Source: flowkit-labs/skills
+Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#50): hyperframes-registry]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topAllTime:new:heygen-com/hyperframes/hyperframes-registry</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 523233
+Source: heygen-com/hyperframes
+Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): connector-weatherapi]]></title>
+            <link>https://skills.sh/caffeinelabs/skills/connector-weatherapi</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:caffeinelabs/skills/connector-weatherapi</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
+Installs: 8
+Source: caffeinelabs/skills
+Description: MANDATORY recipe for every Caffeine build that reads weather data from a canister. The supported path is the `weatherapi-client` mops package (WeatherAPI.com) over outbound HTTPS, authenticated with a query-string API key. Hand-rolling `ic.http_request` calls to `api.weatherapi.com` is a FORBIDDEN anti-pattern — it bypasses the non-replicated-outcall safeguard (WeatherAPI bodies carry per-request clocks and fail consensus), the generated JSON decoding, and the API-key handling. Load this skill whenever the user, spec, or any prior task mentions weather, forecast, temperature, humidity, wind, rain, snow, conditions, sunrise, sunset, moon phase, astronomy, timezone, IP geolocation, marine or tide forecasts, or location autocomplete — and BEFORE writing any code that touches a weather endpoint.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): byted-web-search]]></title>
-            <link>https://skills.sh/kotot/byted-web-search/byted-web-search</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:kotot/byted-web-search/byted-web-search</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): speckit-clarify]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-clarify</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-clarify</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 8
-Source: kotot/byted-web-search
-Description: 火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent Plan、融合信息搜索、Harness、有什么/有哪些/推荐、价格/政策/汇率/行情、对比/区别/哪个好、听说/据说/不太确定、热搜/热门/火、帮我看/了解一下、求证/辟谣、值不值得/该不该。任务依赖在线事实或时效性时优先使用。若回答可能依赖外部事实，优先调用本 skill 再作答。]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): find-docs]]></title>
-            <link>https://skills.sh/upstash/context7/find-docs</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:upstash/context7/find-docs</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): verify-openspec-docs]]></title>
+            <link>https://skills.sh/fission-ai/openspec/verify-openspec-docs</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/verify-openspec-docs</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 3
-Source: upstash/context7
-Description: Retrieves and queries up-to-date documentation and code examples from Context7 for any programming library or framework. Use when writing code that depends on external packages, verifying API signatures, looking up usage patterns, generating code with specific libraries, or when training data may be outdated. Covers setup questions, migration guides, and version-specific docs.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Fact-checks OpenSpec user documentation with a fresh-context subagent that re-runs commands and checks claims against source. Manually triggered; not part of the drafting loop. Use when the user asks to verify, fact-check, or accuracy-check a docs page, section, or set of changed claims.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): recipe-review-meet-participants]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-review-meet-participants</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-review-meet-participants</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): byted-mediakit-editing]]></title>
+            <link>https://skills.sh/volcengine/mediakit-cli/byted-mediakit-editing</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:volcengine/mediakit-cli/byted-mediakit-editing</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
 Installs: 4
-Source: googleworkspace/cli
-Description: Review who attended a Google Meet conference and for how long.]]></description>
+Source: volcengine/mediakit-cli
+Description: 音视频剪辑，涵盖音视频拼接、裁剪、合成等能力。包含能力：add-image-to-video, add-subtitle-to-video, adjust-video-speed, concat-audio, concat-video, extract-audio, flip-video, image-to-video, mux-audio-video, trim-audio, trim-video。当用户需要使用 editing 域的 MediaKit CLI 能力时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): html-slides]]></title>
-            <link>https://skills.sh/claude-office-skills/skills/html-slides</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:claude-office-skills/skills/html-slides</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): speckit-implement]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-implement</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-implement</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
 Installs: 4
-Source: claude-office-skills/skills
-Description: >]]></description>
+Source: dceoy/speckit-agent-skills
+Description: Execute the implementation plan by processing and executing all tasks defined in tasks.md]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): opencli-sitemap-author]]></title>
-            <link>https://skills.sh/jackwener/opencli/opencli-sitemap-author</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jackwener/opencli/opencli-sitemap-author</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): draft-openspec-docs]]></title>
+            <link>https://skills.sh/fission-ai/openspec/draft-openspec-docs</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/draft-openspec-docs</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 3
-Source: jackwener/opencli
-Description: Use when creating or maintaining OpenCLI site sitemaps: agent-facing navigation, page-state, action, workflow, API-reference, pitfall, and fallback knowledge for a website. Use after browser exploration discovers durable site context, when a sitemap is stale, or when promoting local site knowledge into the repo.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Collaborative page-drafting mode for the OpenSpec docs. Builds a scratch plan inside the target page (purpose, structure, numbered draft steps), iterates on it with the user, then drafts one section per approved step and cleans up after itself. Use when a page needs a from-scratch rewrite or a new page is being shaped with the user in the loop.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): opencli-autofix]]></title>
-            <link>https://skills.sh/jackwener/opencli/opencli-autofix</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jackwener/opencli/opencli-autofix</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): dry-refactoring]]></title>
+            <link>https://skills.sh/kucherenko/jscpd/dry-refactoring</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:kucherenko/jscpd/dry-refactoring</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 3
-Source: jackwener/opencli
-Description: Automatically fix broken OpenCLI adapters when commands fail. Load this skill when an opencli command fails — it guides you through diagnosing the failure via OPENCLI_DIAGNOSTIC, patching the adapter, and retrying. Works with any AI agent.]]></description>
+Installs: 4
+Source: kucherenko/jscpd
+Description: Guided workflow to eliminate copy-paste duplication detected by jscpd. Refactor clones using extract function, module, constant, or base class strategies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): add-educational-comments]]></title>
-            <link>https://skills.sh/github/awesome-copilot/add-educational-comments</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:github/awesome-copilot/add-educational-comments</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): byted-mediakit-video]]></title>
+            <link>https://skills.sh/volcengine/mediakit-cli/byted-mediakit-video</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:volcengine/mediakit-cli/byted-mediakit-video</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 2
-Source: github/awesome-copilot
-Description: Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.]]></description>
+Installs: 4
+Source: volcengine/mediakit-cli
+Description: 视频处理，涵盖视频画质增强、视频理解、字幕擦除等能力。包含能力：enhance-video, erase-video-subtitle-pro。当用户需要使用 video 域的 MediaKit CLI 能力时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): context7-cli]]></title>
-            <link>https://skills.sh/upstash/context7/context7-cli</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:upstash/context7/context7-cli</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): speckit-constitution]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-constitution</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-constitution</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 2
-Source: upstash/context7
-Description: Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP. Activate when the user mentions "ctx7" or "context7", needs current docs for any library, wants to install/search/generate skills, or needs to set up Context7 for their AI coding agent.]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): 2analysis-modeling]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/2analysis-modeling</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/2analysis-modeling</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): byted-mediakit-audio]]></title>
+            <link>https://skills.sh/volcengine/mediakit-cli/byted-mediakit-audio</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:volcengine/mediakit-cli/byted-mediakit-audio</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 数学建模赛题分析与建模设计合并阶段。用于读取题面和附件，完成子问题拆解、数据理解、假设预检、变量定义、模型公式、目标函数、约束条件、求解策略和可交给代码实现的建模报告。]]></description>
+Installs: 4
+Source: volcengine/mediakit-cli
+Description: 音频处理，涵盖音频处理和增强、内容理解等能力。包含能力：separate-voice, probe-audio-metadata。当用户需要使用 audio 域的 MediaKit CLI 能力时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): explain-with-diagrams]]></title>
-            <link>https://skills.sh/namitfruits/skills/explain-with-diagrams</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:namitfruits/skills/explain-with-diagrams</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): speckit-plan]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-plan</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-plan</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 2
-Source: namitfruits/skills
-Description: Giải thích một cơ chế, một bug, một luồng quyết định hay một kiến trúc bằng sơ đồ mermaid nền tối, màu theo ngữ nghĩa, kèm link mermaid.live/edit mở được ngay — hai mode — `easy` (mặc định) giải thích bằng ví von ứng 1-1 theo khuôn *một câu → ví von → chuyện thật diễn ra thế nào*, `tech` (`--tech`) gọi đúng tên file/hàm/field theo khuôn `Context` · `Problem` · `Root cause`. Chỉ giải thích hiện tượng, không đề xuất cách sửa; không dán nguồn mermaid vào chat. Dùng khi user nói "vẽ sơ đồ", "diagram hoá", "mermaid", "vẽ cho dễ hiểu", "mô tả bằng sơ đồ", khi user hỏi "tại sao X" mà câu trả lời có nhiều tầng / nhiều nhánh / nhiều trạng thái, hoặc khi đã giải thích bằng chữ mà user vẫn chưa nắm được. Kèm `mermaid-link.mjs` sinh link offline + verify round-trip.]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Execute the implementation planning workflow using the plan template to generate design artifacts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): google-agents-cli-adk-code]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): byted-interactai-guide]]></title>
+            <link>https://skills.sh/volcengine/volcenginertc_cli/byted-interactai-guide</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:volcengine/volcenginertc_cli/byted-interactai-guide</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
+Installs: 6
+Source: volcengine/volcenginertc_cli
+Description: 解释火山 AI 音视频互动的产品能力、适用边界与最新官方文档；生成或修改 VoiceChat/Aibot 配置；并帮助用户搭建、运行和分阶段排查最小 InteractAI VoiceChat Web Demo。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): _references]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/_references</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/_references</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): speckit-analyze]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-analyze</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-analyze</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 共享规范知识库。包含数学建模竞赛的写作规范、题型防错速查、图表规范等参考内容。其他 skills 在执行过程中按需读取，无需单独触发。]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): logging-best-practices]]></title>
-            <link>https://skills.sh/boristane/agent-skills/logging-best-practices</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:boristane/agent-skills/logging-best-practices</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): speckit-specify]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-specify</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-specify</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 2
-Source: boristane/agent-skills
-Description: Logging best practices focused on wide events (canonical log lines) for powerful debugging and analytics]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Create or update a feature specification from a natural language feature description.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): extract-design-system]]></title>
-            <link>https://skills.sh/arvindrk/extract-design-system/extract-design-system</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:arvindrk/extract-design-system/extract-design-system</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): speckit-converge]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-converge</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-converge</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 2
-Source: arvindrk/extract-design-system
-Description: Extract design primitives from a public website and generate starter token files for the current project.]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Assess the current codebase against the feature's spec, plan, and tasks, then append any remaining unbuilt work as new tasks to tasks.md so implement can complete it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): 5writing]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/5writing</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/5writing</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): speckit-taskstoissues]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-taskstoissues</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-taskstoissues</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 数学建模竞赛论文 Typst 撰写阶段。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和 figures/*.pdf 选择比赛模板、组织章节，并在论文正文中按章节直接插入图表。]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Convert existing tasks into actionable, dependency-ordered GitHub issues for the feature based on available design artifacts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): mermaid-diagram-design]]></title>
-            <link>https://skills.sh/namitfruits/skills/mermaid-diagram-design</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:namitfruits/skills/mermaid-diagram-design</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): write-openspec-docs]]></title>
+            <link>https://skills.sh/fission-ai/openspec/write-openspec-docs</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/write-openspec-docs</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 2
-Source: namitfruits/skills
-Description: Style spec cho mermaid diagram — "zone-tinted flowchart" (flowchart + subgraph tô nền per vùng + classDef palette + shape có nghĩa). Load TRƯỚC khi viết/sửa bất kỳ block ```mermaid``` trong tài liệu, đặc biệt C1 System Context, C2 Modules, user flow. Hình tự mang đủ màu để đọc được ở cả light mode và dark mode. Cấm C4Context/C4Container. Kèm `verify.py` — lint + render 2 nền (sáng/tối) để soát bằng mắt trước khi dán. Read-only, không sửa nội dung file.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Switches into OpenSpec docs-writing mode; loads the house style guide and drafts or revises pages in its voice (action-first, no preamble, scannable). Use when writing or editing pages in the OpenSpec docs tree.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): 1start-mathmodel]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/1start-mathmodel</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/1start-mathmodel</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): openspec-new-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-new-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-new-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 数学建模竞赛工作流入口。用于启动完整建模流程：询问用户偏好，生成 plan.md 和 todo.md，并按阶段调用赛题分析、建模、代码与图表、流程图、论文撰写、验证验收等 skills。]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Start a new OpenSpec change using the experimental artifact workflow. Use when the user wants to create a new feature, fix, or modification with a structured step-by-step approach.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): write-plan]]></title>
-            <link>https://skills.sh/namitfruits/skills/write-plan</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:namitfruits/skills/write-plan</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): openspec-archive-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-archive-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-archive-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 2
-Source: namitfruits/skills
-Description: Viết doc kế hoạch triển khai (plan doc) cho một feature — trình bày trong chat trước, chốt ID công việc, dựng file theo khung cố định 7 section (Problem · Goal · Mental model · Probe · Decisions · Design · Phases — Probe optional) với ký hiệu 🤖/👤, rồi tick tới đâu làm tới đó. Dùng khi user nói "lập kế hoạch", "viết plan cho X", "lưu lại plan", "tạo doc plan", "thiết kế X trước khi code", hoặc khi một yêu cầu đủ lớn để cần plan trước khi sửa code. Đọc convention của project (CLAUDE.md / AGENTS.md / thư mục docs) để lấy **binding** — thư mục, hệ ID, doc nguồn, lệnh kiểm — còn **hình dạng doc thì theo skill này**. Kèm `verify.py` — lint khung section, sợi dây `P → D → DS → phase`, phủ `DS`, tick/status.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): upstash-qstash-js]]></title>
-            <link>https://skills.sh/upstash/skills/upstash-qstash-js</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:upstash/skills/upstash-qstash-js</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): openspec-verify-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-verify-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-verify-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 2
-Source: upstash/skills
-Description: Work with the QStash TypeScript/JavaScript SDK for serverless messaging, scheduling. Use when publishing messages to HTTP endpoints, creating schedules, managing queues, verifying incoming messages and other QStash features in serverless environments.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Verify implementation matches change artifacts. Use when the user wants to validate that implementation is complete, correct, and coherent before archiving.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): upstash-cli]]></title>
-            <link>https://skills.sh/upstash/skills/upstash-cli</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:upstash/skills/upstash-cli</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): openspec-onboard]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-onboard</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-onboard</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 2
-Source: upstash/skills
-Description: Run the Upstash CLI (`upstash`) against the Upstash Developer API for Redis, Vector, Search, QStash, and teams. Use when listing or managing databases, backups, vector/search indexes, QStash instances, team members, stats, or any non-interactive Upstash automation with JSON output and terminal commands.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Guided onboarding for OpenSpec - walk through a complete workflow cycle with narration and real codebase work.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): yunqi-agent-discovery]]></title>
-            <link>https://skills.sh/qianwen-ai/apsara-conference-2026/yunqi-agent-discovery</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:qianwen-ai/apsara-conference-2026/yunqi-agent-discovery</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): openspec-explore]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-explore</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-explore</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 2
-Source: qianwen-ai/apsara-conference-2026
-Description: 云栖大会（Yunqi）发现与规划 Skill。查询议程与展览信息，根据 Agent 目标推荐、比较会议和展商/展台，基于会刊回答大会主旨、亮点、展馆等介绍性问题，基于参会指南回答交通、住宿、餐饮、门票等参会服务问题。 适用于「查询大会议程」「查询展览信息」「推荐会议」「比较展商/展台」「规划参会路线」「大会亮点」「大会介绍」「交通/住宿/餐饮」「门票/签到」等场景。 数据源为 qianwen CLI 的 yunqi 子命令（接口获取优先，静态会刊与参会指南作为补充），公开只读，不产生任何写操作。]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): google-agents-cli-eval]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): diagnosing-superpowers]]></title>
+            <link>https://skills.sh/obra/superpowers/diagnosing-superpowers</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:obra/superpowers/diagnosing-superpowers</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 5
+Source: obra/superpowers
+Description: Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, "it took too long", "why is it so expensive", "what is it doing" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): 4drawio]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/4drawio</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/4drawio</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): jscpd]]></title>
+            <link>https://skills.sh/kucherenko/jscpd/jscpd</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:kucherenko/jscpd/jscpd</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 数学建模非数据型图示绘制阶段。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和已有 figures/ 生成技术路线图、子问题求解流程图、模型结构图、数据处理流程图等 DrawIO 图，并导出论文可引用 PDF。]]></description>
+Installs: 4
+Source: kucherenko/jscpd
+Description: Detect and eliminate copy-paste duplication in source code using jscpd with the AI reporter.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): 3coding-visual]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/3coding-visual</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/3coding-visual</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): openspec-apply-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-apply-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-apply-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 数学建模编程实现与数据图表生成阶段。根据 ANALYSIS_MODELING_REPORT.md 编写可复现代码、运行求解、验证约束、输出 RESULTS_REPORT.md 并生成论文可用的数据驱动图表 PDF。]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): deslop]]></title>
-            <link>https://skills.sh/mikecann/agent-skills/deslop</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:mikecann/agent-skills/deslop</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): openspec-propose]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-propose</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-propose</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 2
-Source: mikecann/agent-skills
-Description: Runs a second-pass cleanup over AI-written code using the repo's style guide in style.md. Prefers parallel subagents to simplify recently modified files without changing behavior. Use when the user says "deslop", "clean this up", "make this less AI", "apply my style guide", "second pass", or asks to simplify generated code after implementation.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): 6verity]]></title>
-            <link>https://skills.sh/jihe520/mathmodelagent/6verity</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jihe520/mathmodelagent/6verity</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): speckit-tasks]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-tasks</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-tasks</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 2
-Source: jihe520/mathmodelagent
-Description: 数学建模竞赛最终验证和验收阶段。用于论文写完后按实际项目结构检查 Typst 章节数量、标题顺序、图表引用、数值一致性、占位符、内部文件泄露、参考文献、代码可复现性、Typst 编译和提交就绪状态。]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): estimate-effort]]></title>
-            <link>https://skills.sh/namitfruits/skills/estimate-effort</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:namitfruits/skills/estimate-effort</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): openspec-ff-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-ff-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-ff-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 2
-Source: namitfruits/skills
-Description: Estimate khối lượng công việc của một dự án phần mềm bằng man-day. Dùng khi user cung cấp functional requirements (danh sách công việc) + techstacks và muốn ước lượng effort. Quy trình 3 bước (Sizing FE/BE → Manday Build → Full SDLC) cho Mid-level dev, output bảng markdown.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Fast-forward through OpenSpec artifact creation. Use when the user wants to quickly create all artifacts needed for implementation without stepping through each one individually.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): persona-hr-coordinator]]></title>
-            <link>https://skills.sh/googleworkspace/cli/persona-hr-coordinator</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/persona-hr-coordinator</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): openspec-bulk-archive-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-bulk-archive-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-bulk-archive-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 3
-Source: googleworkspace/cli
-Description: Handle HR workflows — onboarding, announcements, and employee comms.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Archive multiple completed changes at once. Use when archiving several parallel changes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): recipe-copy-sheet-for-new-month]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-copy-sheet-for-new-month</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-copy-sheet-for-new-month</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): openspec-sync-specs]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-sync-specs</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-sync-specs</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 3
-Source: googleworkspace/cli
-Description: Duplicate a Google Sheets template tab for a new month of tracking.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Sync delta specs from a change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): recipe-create-events-from-sheet]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-create-events-from-sheet</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-create-events-from-sheet</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): openspec-continue-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-continue-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-continue-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 3
-Source: googleworkspace/cli
-Description: Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Continue working on an OpenSpec change by creating the next artifact. Use when the user wants to progress their change, create the next artifact, or continue their workflow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): recipe-share-doc-and-notify]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-share-doc-and-notify</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-share-doc-and-notify</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): openspec-update-change]]></title>
+            <link>https://skills.sh/fission-ai/openspec/openspec-update-change</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/openspec-update-change</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 3
-Source: googleworkspace/cli
-Description: Share a Google Docs document with edit access and email collaborators the link.]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): recipe-share-folder-with-team]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-share-folder-with-team</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-share-folder-with-team</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): review-pr]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/review-pr</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/review-pr</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 3
-Source: googleworkspace/cli
-Description: Share a Google Drive folder and all its contents with a list of collaborators.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Review a pull request diff and write structured feedback to review.json for the workflow to publish. Use when reviewing a checked-out PR from local artifacts like pr_diff.txt and pr_description.txt and producing machine-readable review output instead of posting directly to GitHub.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): google-agents-cli-publish]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): speckit-baseline]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-baseline</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/speckit-baseline</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Generate feature specifications by analyzing existing source code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): recipe-schedule-recurring-event]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-schedule-recurring-event</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-schedule-recurring-event</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): write-feature-docs]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/write-feature-docs</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/write-feature-docs</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 3
-Source: googleworkspace/cli
-Description: Create a recurring Google Calendar event with attendees.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Draft a complete documentation page for a new Warp feature from its PRODUCT.md and/or TECH.md spec. Use when an engineer has written a spec and needs to produce a first-pass MDX draft for the warpdotdev/docs repo. Also handles features without specs by researching the codebase first. Invoke this skill whenever an engineer mentions writing docs for a feature, drafting a docs page, creating feature documentation, starting the eng-docs workflow, or converting a spec into documentation. Works from warp-internal or warp-server.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): improve]]></title>
-            <link>https://skills.sh/shadcn/improve/improve</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:shadcn/improve/improve</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): diagnose-ci-failures]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/diagnose-ci-failures</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/diagnose-ci-failures</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 3
-Source: shadcn/improve
-Description: Survey any codebase as a senior advisor and produce prioritized, self-contained implementation plans for OTHER models/agents to execute. Strictly read-only on source code — never implements, fixes, or refactors anything itself. Use when asked to audit a codebase, find improvement opportunities (bugs, security, performance, test coverage, tech debt, migrations, DX), suggest features or where to take the project next (roadmap, product direction), or generate handoff plans for another agent to implement.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Diagnose CI failures for a PR using the GitHub CLI, extract error logs, and generate a plan to fix them. Use when the user asks to check CI status, pull CI issues, triage test failures, or investigate PR build failures.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): recipe-bulk-download-folder]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-bulk-download-folder</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-bulk-download-folder</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): pr-walkthrough]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/pr-walkthrough</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/pr-walkthrough</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 3
-Source: googleworkspace/cli
-Description: List and download all files from a Google Drive folder.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Generate a static interactive D3 walkthrough of a pull request. Use when the user wants a zoomable PR map, graph/canvas PR orientation, or alternate visualization of PR system components, data flow, code dependencies, and user actions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): recipe-create-feedback-form]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-create-feedback-form</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-create-feedback-form</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): spec-driven-implementation]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/spec-driven-implementation</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/spec-driven-implementation</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 3
-Source: googleworkspace/cli
-Description: Create a Google Form for feedback and share it via Gmail.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Drive a spec-first workflow for substantial features by writing PRODUCT.md before implementation, writing TECH.md when warranted, and keeping both specs updated as implementation evolves. Use when starting a significant feature, planning agent-driven implementation, or when the user wants product and tech specs checked into source control.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): recipe-create-shared-drive]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-create-shared-drive</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-create-shared-drive</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): scan-new-specs]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/scan-new-specs</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/scan-new-specs</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 3
-Source: googleworkspace/cli
-Description: Create a Google Shared Drive and add members with appropriate roles.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Scan warpdotdev/warp and warp-server for recently merged PRODUCT.md specs that don't yet have a corresponding docs PR in warpdotdev/docs. When a complete spec is found, auto-generates a full docs draft PR and tags the engineer. When a spec is too thin to draft from, pings the engineer directly. Designed to run as a scheduled Oz ambient agent (e.g., every 2-3 days). Use when setting up the automated docs trigger or running a manual docs coverage sweep.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): smart-search]]></title>
-            <link>https://skills.sh/jackwener/opencli/smart-search</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:jackwener/opencli/smart-search</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): migrate-to-factory]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/migrate-to-factory</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/migrate-to-factory</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 3
-Source: jackwener/opencli
-Description: 基于 opencli 命令的智能搜索路由器。当用户想要搜索、查询、查找或研究信息时，尤其是涉及指定网站、社交媒体、技术资料、新闻、购物、旅游、求职、金融或中文内容时，务必使用此 skill]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Migrates user-specified skills and their supporting scripts, references, assets, and workflow instructions into an existing Warp Factory configuration repository. Use when a user asks to port or adapt an existing agent workflow into Factory agents and skills. Do not use for routine Factory-file edits or for registering or operating a live Factory.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): recipe-create-expense-tracker]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-create-expense-tracker</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-create-expense-tracker</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): respond-to-pr-comments-in-blocklist]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/respond-to-pr-comments-in-blocklist</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/respond-to-pr-comments-in-blocklist</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 3
-Source: googleworkspace/cli
-Description: Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Walk users through PR review comments, fetching and displaying them first when needed, collect per-comment response decisions, apply requested fixes, and preview GitHub replies and resolutions before posting. Use when responding to PR review comments on the current branch.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): recipe-email-drive-link]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-email-drive-link</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-email-drive-link</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): saga]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/saga</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/saga</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 3
-Source: googleworkspace/cli
-Description: Share a Google Drive file and email the link with a message to recipients.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Run an autonomous, spec-driven development "saga" for medium-to-large features using an orchestrator agent and a fleet of worker subagents. Use this skill whenever the user invokes /saga, asks to autonomously build a sizable feature end-to-end with minimal human intervention, wants a comprehensive spec broken into milestones and tasks with airtight validation criteria before parallelized implementation, or wants an orchestrator to delegate implementation to worker agents while preserving its own context window. Trigger on phrases like "run a saga", "autonomously implement this feature", "spec it out then build it with subagents", "orchestrate this big feature end-to-end", or "build this with workers and validate each step". Also use this skill when asked to continue, resume, or pick up an existing saga from its saga directory (e.g. under ~/.sagas).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): recipe-generate-report-from-sheet]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-generate-report-from-sheet</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-generate-report-from-sheet</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): write-product-spec]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/write-product-spec</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/write-product-spec</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 3
-Source: googleworkspace/cli
-Description: Read data from a Google Sheet and create a formatted Google Docs report.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Write a PRODUCT.md spec for a significant user-facing feature in Warp, focused on detailed behavior and validation. Use when the user asks for a product spec, desired behavior doc, or PRD, wants to define feature behavior before implementation, or when the feature is substantial or behaviorally ambiguous enough that a written spec would improve implementation or review.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): recipe-create-gmail-filter]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-create-gmail-filter</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/recipe-create-gmail-filter</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): resolve-merge-conflicts]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/resolve-merge-conflicts</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/resolve-merge-conflicts</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 3
-Source: googleworkspace/cli
-Description: Create a Gmail filter to automatically label, star, or categorize incoming messages.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Resolve Git merge conflicts by extracting only unresolved paths, conflict hunks, and compact diffs instead of loading whole files into context. Use when a merge, rebase, cherry-pick, or stash pop stops on conflicts, when `git status` shows unmerged paths, or when files contain conflict markers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): google-agents-cli-workflow]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): claude-command-converter]]></title>
+            <link>https://skills.sh/dceoy/speckit-agent-skills/claude-command-converter</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:dceoy/speckit-agent-skills/claude-command-converter</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
+Installs: 4
+Source: dceoy/speckit-agent-skills
+Description: Convert Claude Code commands (.claude/commands/*.md) to standard Agent Skills (skills/*/SKILL.md). Use when migrating slash commands to portable skill format, creating skills from existing commands, or standardizing command definitions across AI runtimes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): persona-team-lead]]></title>
-            <link>https://skills.sh/googleworkspace/cli/persona-team-lead</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:googleworkspace/cli/persona-team-lead</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): check-impl-against-spec]]></title>
+            <link>https://skills.sh/warpdotdev/common-skills/check-impl-against-spec</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:warpdotdev/common-skills/check-impl-against-spec</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 3
-Source: googleworkspace/cli
-Description: Lead a team — run standups, coordinate tasks, and communicate.]]></description>
+Installs: 4
+Source: warpdotdev/common-skills
+Description: Compare a pull request's implementation against spec context in spec_context.md and feed any material mismatches into review.json. Use during PR review when approved or repository spec context is available.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-deploy]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): release-openspec]]></title>
+            <link>https://skills.sh/fission-ai/openspec/release-openspec</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:fission-ai/openspec/release-openspec</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 4
+Source: fission-ai/openspec
+Description: Use this skill when releasing OpenSpec: audit merged work and changeset coverage, decide whether a catch-up changeset PR is needed, prepare or resume the Changesets Version Packages PR, cut a beta or stable release, verify publishing, and polish GitHub release notes. Also use when asked whether an open release PR is complete, what the next release step is, or to continue a release paused for human approval.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-scaffold]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): byted-mediakit-image]]></title>
+            <link>https://skills.sh/volcengine/mediakit-cli/byted-mediakit-image</link>
+            <guid isPermaLink="false">2026-09-19T03:11:53.844Z:topHot:new:volcengine/mediakit-cli/byted-mediakit-image</guid>
+            <pubDate>Sat, 19 Sep 2026 03:11:53 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 143
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): figma]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/figma</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:heygen-com/hyperframes/figma</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 122
-Source: heygen-com/hyperframes
-Description: Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → animatics (REST/CLI), and Figma Motion animations + shaders (MCP). Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): connector-x]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/connector-x</link>
-            <guid isPermaLink="false">2026-09-18T03:15:36.570Z:topHot:new:caffeinelabs/skills/connector-x</guid>
-            <pubDate>Fri, 18 Sep 2026 03:15:36 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 7
-Source: caffeinelabs/skills
-Description: MANDATORY recipe for every Caffeine build that posts to X (Twitter) from a canister. The supported path is the `x-client` mops package (X API v2) over outbound HTTPS, with per-user OAuth 2.0 (PKCE, no client secret). Hand-rolling `ic.http_request` calls to `api.x.com` is a FORBIDDEN anti-pattern — it bypasses bearer auth, the non-replicated-outcall safeguard, and the package's null-field JSON handling. Load this skill whenever the user, spec, or any prior task mentions posting a tweet, "tweet this", X/Twitter, sharing to X, or any equivalent phrasing — and BEFORE writing any code that touches an X endpoint.]]></description>
+Installs: 4
+Source: volcengine/mediakit-cli
+Description: 图像处理，涵盖图像压缩、图像增强、AI处理等能力。包含能力：image-ocr, erase-image, remove-image-background, enhance-image, evaluate-image-quality。当用户需要使用 image 域的 MediaKit CLI 能力时触发。]]></description>
         </item>
     </channel>
 </rss>

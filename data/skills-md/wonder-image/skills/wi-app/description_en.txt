@@ -1,0 +1,14 @@
+Work inside the wonder-image/app framework package — the Composer library at github.com/wonder-image/app. This is the framework core, not a site that consumes it.
+
+TRIGGER when:
+- the repo's composer.json declares `"name": "wonder-image/app"`
+- editing files under `class/App/*`, `app/config/routes/*`, `app/http/*`, `app/bootstrap/*`, `app/middleware/*`, `class/App/Module/*`, `class/Console/*`
+- editing shared UI components under `class/Elements/Components/*`, media under `class/Elements/Media/*`, or their renderers under `class/Themes/{Wonder,Bootstrap}/*`
+- modifying Model, Resource, PageSchema, Repeater, ModelRegistry, ResourceRegistry, ResourceRouteRegistrar, Credentials, or the `wonder-image.php` entrypoint
+- changing bootstrap order, `ROOT`/`.env` resolution, module discovery, generated backend/API CRUD routes, or `php forge ...` command sources
+- updating `docs/app/*` for bootstrap, architecture, routing, or layout conventions
+
+SKIP when:
+- the repo is a Wonder site that installs wonder-image/app under `vendor/` (e.g. wonder-image/new-site or any project scaffolded from it) — use wi-site
+- the change is in `custom/`, `app/Models`, `app/Resources`, `lang/`, or `assets/` of a site
+- the task is in wonder-image/lib (the JS/CSS design system) — different repo

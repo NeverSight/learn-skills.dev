@@ -1,0 +1,9 @@
+Work inside wonder-image/new-site or any site scaffolded from it. Use when
+composer.json depends on `wonder-image/app` but is not the framework package,
+or when work touches `custom/`, `app/Models`, `app/Resources`, `lang/`,
+`assets/{ASSETS_VERSION}/`, `PRODUCT.md`, `php forge credentials`,
+`php forge update --local`, `php forge start`, or npm setup. Covers pages,
+models, resources, repeaters, editable content, translations, routes, roles,
+permissions, external modules, component overrides, and UI/styling that must
+reuse `wonder-image/lib`. Do not use for the `wonder-image/app` core, direct
+edits under `vendor/wonder-image/app`, or the `wonder-image/lib` source.
