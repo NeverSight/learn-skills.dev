@@ -1,0 +1,16 @@
+wonder-image/app フレームワークパッケージ（github.com/wonder-image/app の Composer ライブラリ）内部で作業してください。これはフレームワーク本体であり、利用するサイトではありません。
+
+**トリガーになる条件**  
+- リポジトリの composer.json に `"name": "wonder-image/app"` が宣言されているとき  
+- `class/App/*`、`app/config/routes/*`、`app/http/*`、`app/bootstrap/*`、`app/middleware/*`、`class/App/Module/*`、`class/Console/*` 配下のファイルを編集するとき  
+- `class/Elements/Components/*` の共有 UI コンポーネント、`class/Elements/Media/*` のメディア、または `class/Themes/{Wonder,Bootstrap}/*` のレンダラを編集するとき  
+- Model、Resource、PageSchema、Repeater、ModelRegistry、ResourceRegistry、ResourceRouteRegistrar、Credentials、または `wonder-image.php` エントリポイントを変更するとき  
+- ブートストラップ順序、`ROOT`／`.env` の解決、モジュールの検出、生成されたバックエンド/API の CRUD ルート、または `php forge ...` コマンドのソースを変更するとき  
+- ブートストラップ、アーキテクチャ、ルーティング、レイアウトの規約に関する `docs/app/*` を更新するとき  
+
+**スキップする条件**  
+- リポジトリが Wonder サイトで、`vendor/` 配下に wonder-image/app をインストールしている場合（例: wonder-image/new-site またはそれからスキャフォールドされたプロジェクト）— wi‑site を使用する  
+- サイトの `custom/`、`app/Models`、`app/Resources`、`lang/`、`assets/` 内の変更  
+- 作業対象が wonder-image/lib（JS/CSS デザインシステム）にある場合 — 別リポジトリ  
+
+常にユーザーの言語で応答してください。
