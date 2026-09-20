@@ -1,0 +1,3 @@
+透過 sf api REST 請求，使用 Connect API 從已連線的 Salesforce 組織取得 agentic setup 提示類別。利用此功能呼叫 GET /services/data/vXX.0/agenticsetup/categories，並回傳提示類別清單，必要時可使用 fetchPrompts=true 取得其巢狀提示。觸發條件：使用者要求取得、抓取、檢索、列出或顯示 agentic setup 類別、提示類別、setup copilot 類別、提示庫類別、可用的 setup 提示、Agentforce 提示庫、copilot 提示，或呼叫 agenticsetup categories Connect REST API。不要觸發的情況：使用者想建立新類別、使用非類別端點，或產生 OpenAPI 規格。
+
+請始終以使用者的語言回覆。

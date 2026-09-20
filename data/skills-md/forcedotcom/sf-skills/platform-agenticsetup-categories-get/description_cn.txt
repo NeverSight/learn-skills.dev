@@ -1,0 +1,1 @@
+使用 Connect API 通过 sf api 请求 REST，从已连接的 Salesforce 组织获取代理设置提示类别。使用此技能调用 GET /services/data/vXX.0/agenticsetup/categories 并返回提示类别列表，可选使用 fetchPrompts=true 获取其嵌套的提示。当满足以下条件时触发：用户请求获取、检索、列出或显示代理设置类别、提示类别、设置 copilot 类别、提示库类别、可用的设置提示、Agentforce 提示库、copilot 提示，或调用 agenticsetup categories Connect REST API。不要触发的情况：用户想创建新类别、使用非类别端点，或生成 OpenAPI 规范。

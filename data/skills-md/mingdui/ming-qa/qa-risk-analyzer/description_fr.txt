@@ -1,0 +1,3 @@
+Avant de concevoir les cas de test, identifiez d'abord les parcours métier à haut risque et les assertions de vérification requises (oracle). Analysez les documents d'exigences, les diffs de code, les cas de test existants et le contexte afin de localiser les zones à haut danger telles que la finance, les permissions, les machines d'état, la concurrence, le comportement asynchrone et la cohérence des données. Pour chaque risque, indiquez son businessPath, requiredAssertions, suggestedTestLayers et le gap de couverture. N'écrivez pas de cas de test métier avant que les risques ne soient clarifiés. Non applicable : rédaction de cas de test métier, rédaction de code de test, modification du code produit.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

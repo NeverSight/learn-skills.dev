@@ -1,0 +1,7 @@
+연결된 Salesforce org에서 Connect API를 사용하여 sf api 요청 REST를 통해 에이전틱 설정 프롬프트 카테고리를 가져옵니다. 이 스킬을 사용해 GET /services/data/vXX.0/agenticsetup/categories 를 호출하고 프롬프트 카테고리 목록을 반환하며, fetchPrompts=true 옵션을 사용하면 중첩된 프롬프트도 포함할 수 있습니다. 
+
+TRIGGER 조건: 사용자가 에이전틱 설정 카테고리, 프롬프트 카테고리, 설정 코파일럿 카테고리, 프롬프트 라이브러리 카테고리, 사용 가능한 설정 프롬프트, Agentforce 프롬프트 라이브러리, 코파일럿 프롬프트를 얻거나, 가져오거나, 검색하거나, 목록을 보거나, 표시하도록 요청하거나, agenticsetup 카테고리 Connect REST API를 호출할 때. 
+
+DO NOT TRIGGER 조건: 사용자가 새 카테고리를 생성하려 하거나, 카테고리가 아닌 엔드포인트와 작업하려 하거나, OpenAPI 스펙을 생성하려 할 때. 
+
+항상 사용자의 언어로 응답하십시오.

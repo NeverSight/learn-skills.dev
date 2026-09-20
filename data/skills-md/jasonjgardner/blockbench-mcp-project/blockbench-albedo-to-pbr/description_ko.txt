@@ -1,0 +1,3 @@
+Blockbench PBR 재료용 알베도/기본 색상 텍스처에서 높이, 탄젠트 공간 노멀 및 압축 MER(금속성, 방출, 거칠기) 맵을 PyPBR(Python) 또는 vgpu + Dawn WebGPU(Node.js)를 사용하여 파생하고, 선택적으로 Depth Anything V2 높이 추정 및 알베도와 노멀의 곡률을 기반으로 MER을 추정합니다. 색상 텍스처가 존재(페인팅, 가져오기 또는 blockbench-gpt-image-textures로 생성)한 후에 재료가 노멀, 높이 맵 또는 MER 채널이 필요하거나 Bedrock RTX texture_set이 필요할 때, 혹은 텍스처에서 노멀 맵, 범프 맵, 높이 맵, 거칠기, 금속성 또는 방출 맵을 만들라는 요청이 있을 때 사용합니다. 알베도 → 노멀, 텍스처에서 노멀 맵, 알베도에서 높이 맵, MER 맵, 텍스처에서 거칠기, 금속성 맵, 방출 맵, Depth Anything, PyPBR, vgpu, Sobel 노멀, DirectX와 OpenGL 노멀 차이, texture_set 노멀, 높이 맵 또는 metalness_emissive_roughness 레이어 등에 트리거됩니다.
+
+항상 사용자의 언어로 응답하십시오.
