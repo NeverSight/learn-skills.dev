@@ -1,0 +1,1 @@
+在风险分析完成后、写测试代码之前，生成中文业务用例并等待用户确认。这是整个 QA 流程中唯一的强制人工门禁——确认后不可回头改用例。 从 context、risk-analysis、已有用例索引出发，生成只含业务行为的 test-cases.json（不含技术检查如 Maven/build/安装）， 渲染 test-cases.html 供用户审阅，运行三模型交叉审查，合成反馈修改后提交确认。确认后 promote 到长期 knowledge base。 不适用：写测试代码、执行测试、代码审查。
