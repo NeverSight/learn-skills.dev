@@ -1,0 +1,1 @@
+Python 애플리케이션을 Claude Agent SDK에서 Pydantic AI로, 필요할 경우에만 Pydantic AI Harness로 마이그레이션하십시오. 소스 코드가 `claude_agent_sdk`를 임포트하거나 Claude Code의 에이전트 루프, 세션, 내장 도구, 훅, 권한, 스킬, 또는 서브에이전트에 의존할 때 사용하세요. Anthropic Messages SDK 또는 Claude Managed Agents에는 사용하지 마세요.

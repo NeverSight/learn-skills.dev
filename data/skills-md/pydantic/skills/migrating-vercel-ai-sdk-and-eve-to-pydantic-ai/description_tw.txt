@@ -1,0 +1,3 @@
+將 TypeScript Vercel AI SDK 或 Eve 應用程式遷移至使用 Pydantic AI 的 Python，僅在需要時使用 Pydantic AI Harness。當原始碼匯入 `ai`、`@ai-sdk/*` 或 `eve`，或依賴 `generateText`、`streamText`、`ToolLoopAgent`、`useChat`、Eve 代理、工具、技能、子代理、批准、會話、頻道、排程或沙盒時，請使用此方式。
+
+請始終以使用者的語言回覆。
