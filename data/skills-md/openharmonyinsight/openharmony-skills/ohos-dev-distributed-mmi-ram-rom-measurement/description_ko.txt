@@ -1,0 +1,1 @@
+OpenHarmony 멀티모달 입력(MMI) 서브시스템 변경이 DAYU200(RK3568)에서 RAM/ROM에 미치는 영향을 측정할 때 사용합니다. ROM 측정은 readelf 섹션 분석 및 파일 크기 비교를 통해 수행하고, RAM 측정은 /proc/PID/smaps, smaps_rollup, hidumper --mem 및 baseline/current .so 교체 방법론을 사용합니다. 힙 할당 데이터 구조에 대한 코드 수준 이론적 분석을 포함합니다.

@@ -1,0 +1,1 @@
+실제 사용자 프로필을 사용 중인 Helium 브라우저에 에이전트 브라우저 도구(playwright‑cli, chrome‑devtools‑mcp)를 연결합니다. Helium 브라우저를 사용할 때, playwright‑cli나 chrome‑devtools‑mcp가 새 인스턴스를 시작하는 대신 이미 열려 있는 브라우저를 제어해야 하거나, Helium에 대한 CDP/원격 디버깅 연결이 실패하거나, Chromium 디버그 포트의 HTTP /json 엔드포인트가 404일 때 사용합니다. 웹소켓 전용 디버그 서버, DevToolsActivePort 탐지, 플랫폼별 프로필 경로를 포함합니다.

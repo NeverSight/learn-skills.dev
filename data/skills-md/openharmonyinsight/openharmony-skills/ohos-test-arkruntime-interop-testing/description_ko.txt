@@ -1,0 +1,3 @@
+ArkCompiler에서 ArkTS ↔ JS/TS 상호 운용 테스트를 추가하고 유지 관리하기 위한 가이드.
+
+트리거 시나리오: `plugins/ets/tests/interop_js/tests/` 디렉터리에서 새로운 ArkTS‑JS/TS 인터옵(Interop) 테스트 케이스를 만들 때, 기존 인터옵 테스트를 디버깅하거나 유지 관리할 때, 혹은 C++ 런너(GTest 런너) 또는 선언 파일(`.d.ets`)을 작성할 때.
