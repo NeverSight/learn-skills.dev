@@ -4,590 +4,575 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Mon, 21 Sep 2026 03:16:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 03:39:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-21)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-09-22)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:snapshot</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:snapshot</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8170
-Trending skills: 7610
-Hot skills: 1692
-Top All Time: find-skills (3490051)
-Top Trending: ai-image-generation (38928)
-Top Hot: google-agents-cli-observability (46)]]></description>
+All Time skills: 8182
+Trending skills: 7813
+Hot skills: 3950
+Top All Time: find-skills (3506837)
+Top Trending: ai-image-generation (38392)
+Top Hot: svelte5-best-practices (11)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): google-agents-cli-observability]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): svelte5-best-practices]]></title>
+            <link>https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:ejirocodes/agent-skills/svelte5-best-practices</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
+Installs: 11
+Source: ejirocodes/agent-skills
+Description: Svelte 5 runes, snippets, SvelteKit patterns, and modern best practices for TypeScript and component development. Use when writing, reviewing, or refactoring Svelte 5 components and SvelteKit applications. Triggers on: Svelte components, runes ($state, $derived, $effect, $props, $bindable, $inspect), snippets ({#snippet}, {@render}), event handling, SvelteKit data loading, form actions, Svelte 4 to Svelte 5 migration, store to rune migration, slots to snippets migration, TypeScript props typing, generic components, SSR state isolation, performance optimization, or component testing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): playwriter]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/playwriter</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/playwriter</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): firebase-security-rules-auditor]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-security-rules-auditor</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-security-rules-auditor</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 7
-Source: brianlovin/agent-config
-Description: Control the user's currently open Chrome tab through the Playwriter CLI (no new browser launch). Use when you need to inspect live UI state, run scripted browser actions, capture console output, or reproduce frontend issues directly in the user's tab.]]></description>
+Installs: 23
+Source: firebase/agent-skills
+Description: A skill to evaluate how secure Firestore security rules are. Use this when Firestore security rules are updated to ensure that the generated rules are extremely secure and robust.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): fix-sentry-issues]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/fix-sentry-issues</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/fix-sentry-issues</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): firebase-ai-logic-basics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-ai-logic-basics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-ai-logic-basics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 7
-Source: brianlovin/agent-config
-Description: Use Sentry MCP to discover, triage, and fix production issues with root-cause analysis. Use when asked to fix Sentry issues, triage production errors, investigate error spikes, or clean up Sentry noise. Requires Sentry MCP server. Triggers on "fix sentry", "triage errors", "production bugs", "sentry issues".]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Official skill for integrating Firebase AI Logic (Gemini API) into web applications. Covers setup, multimodal inference, structured output, and security.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): workflow]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/workflow</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/workflow</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): firebase-remote-config-basics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-remote-config-basics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-remote-config-basics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 7
-Source: brianlovin/agent-config
-Description: Workflow orchestration for complex coding tasks. Use for ANY non-trivial task (3+ steps or architectural decisions) to enforce planning, subagent strategy, self-improvement, verification, elegance, and autonomous bug fixing. Triggers: multi-step implementation, bug fixes, refactoring, architectural changes, or any task requiring structured execution.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Comprehensive guide for Firebase Remote Config, including template management and SDK usage. Use this skill when the user needs help setting up Remote Config, managing feature flags, or updating app behavior dynamically.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): find-skills]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/find-skills</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/find-skills</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): firebase-data-connect]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-data-connect</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-data-connect</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 7
-Source: brianlovin/agent-config
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Build and deploy Firebase Data Connect backends with PostgreSQL. Use for schema design, GraphQL queries/mutations, authorization, and SDK generation for web, Android, iOS, and Flutter apps.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): bun]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/bun</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/bun</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): extension-to-functions-codebase]]></title>
+            <link>https://skills.sh/firebase/agent-skills/extension-to-functions-codebase</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/extension-to-functions-codebase</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 7
-Source: brianlovin/agent-config
-Description: Use Bun instead of Node.js, npm, pnpm, or vite. Provides command mappings, Bun-specific APIs, and development patterns.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Skill for converting an installed Firebase Extension (or extension source) to a standalone Cloud Functions for Firebase codebase or publishable npm package, including upgrading triggers from V1 to V2 and configuring lifecycle hooks and declarative security]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): chrome-webstore-release-blueprint]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/chrome-webstore-release-blueprint</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/chrome-webstore-release-blueprint</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): firebase-crashlytics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-crashlytics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-crashlytics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 7
-Source: brianlovin/agent-config
-Description: Guide a user end-to-end through setting up Chrome Web Store API release automation in any repository. Use when asked to walk someone through OAuth/CWS credential setup, refresh token creation, local/CI secret setup, version-based publish automation, and submission status checks.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs help setting up Crashlytics, adding crash reporting, or using the Crashlytics SDK in their application.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): favicon]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/favicon</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/favicon</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): xcode-project-setup]]></title>
+            <link>https://skills.sh/firebase/agent-skills/xcode-project-setup</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/xcode-project-setup</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 7
-Source: brianlovin/agent-config
-Description: Generate a complete set of favicons from a source image and update HTML. Use when setting up favicons for a web project.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): react-doctor]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/react-doctor</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/react-doctor</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): firebase-hosting-basics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-hosting-basics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-hosting-basics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 7
-Source: brianlovin/agent-config
-Description: Diagnose and fix React codebase health issues. Use when reviewing React code, fixing performance problems, auditing security, or improving code quality.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Skill for working with Firebase Hosting (Classic). Use this when you want to deploy static web apps, Single Page Apps (SPAs), or simple microservices. Do NOT use for Firebase App Hosting.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): rams]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/rams</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/rams</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): firebase-app-hosting-basics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-app-hosting-basics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-app-hosting-basics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 7
-Source: brianlovin/agent-config
-Description: Run accessibility and visual design review on components. Use when reviewing UI code for WCAG compliance and design issues.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Deploy and manage web apps with Firebase App Hosting. Use this skill when deploying Next.js/Angular apps with backends.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): reclaude]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/reclaude</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/reclaude</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): firestore-rules-creation]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firestore-rules-creation</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firestore-rules-creation</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 7
-Source: brianlovin/agent-config
-Description: Refactor CLAUDE.md files to follow progressive disclosure principles. Use when CLAUDE.md is too long or disorganized.]]></description>
+Installs: 22
+Source: firebase/agent-skills
+Description: Designs, authors, refactors, and hardens production-grade Cloud Firestore Security Rules (firestore.rules). Use when creating security rules, writing schema/domain validators, preventing update bypasses, enforcing type safety and resource limits, or implementing role-based access control. Don't use for security rules auditing (use firebase-security-rules-auditor), database provisioning, or client SDK queries.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): google-agents-cli-adk-code]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): mastra]]></title>
+            <link>https://skills.sh/mastra-ai/skills/mastra</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:mastra-ai/skills/mastra</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
+Installs: 11
+Source: mastra-ai/skills
+Description: Comprehensive guide for building AI applications with Mastra, the TypeScript AI framework for agents and workflows. Covers LLM agents with tools and memory, multi-step workflows with branching/parallel execution, storage backends (Postgres/LibSQL), RAG/vector search, and custom tool creation. Use when building conversational agents, automated workflows, RAG systems, or any Mastra TypeScript/JavaScript application. Includes 27+ production-ready code patterns, API verification guidance, troubleshooting, and best practices.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): grill-me]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/grill-me</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/grill-me</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): accessibility]]></title>
+            <link>https://skills.sh/addyosmani/web-quality-skills/accessibility</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:addyosmani/web-quality-skills/accessibility</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 7
-Source: brianlovin/agent-config
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
+Installs: 9
+Source: addyosmani/web-quality-skills
+Description: Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation", or "make accessible".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): knip]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/knip</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/knip</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): design-doc-mermaid]]></title>
+            <link>https://skills.sh/spillwavesolutions/design-doc-mermaid/design-doc-mermaid</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:spillwavesolutions/design-doc-mermaid/design-doc-mermaid</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 7
-Source: brianlovin/agent-config
-Description: Run knip to find and remove unused files, dependencies, and exports. Use for cleaning up dead code and unused dependencies.]]></description>
+Installs: 8
+Source: spillwavesolutions/design-doc-mermaid
+Description: Create Mermaid diagrams (activity, deployment, sequence, architecture) from text descriptions or source code. Use when asked to "create a diagram", "generate mermaid", "document architecture", "code to diagram", "create design doc", or "convert code to diagram". Supports hierarchical on-demand guide loading, Unicode semantic symbols, and Python utilities for diagram extraction and image conversion.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): tdd]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/tdd</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/tdd</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): gemini-api-dev]]></title>
+            <link>https://skills.sh/google-gemini/gemini-skills/gemini-api-dev</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-gemini/gemini-skills/gemini-api-dev</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 7
-Source: brianlovin/agent-config
-Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
+Installs: 8
+Source: google-gemini/gemini-skills
+Description: Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): agent-browser]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/agent-browser</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/agent-browser</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): web-quality-audit]]></title>
+            <link>https://skills.sh/addyosmani/web-quality-skills/web-quality-audit</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:addyosmani/web-quality-skills/web-quality-audit</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 7
-Source: brianlovin/agent-config
-Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
+Installs: 8
+Source: addyosmani/web-quality-skills
+Description: Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to "audit my site", "review web quality", "run lighthouse audit", "check page quality", or "optimize my website".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): deslop]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/deslop</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/deslop</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): golang-code-style]]></title>
+            <link>https://skills.sh/samber/cc-skills-golang/golang-code-style</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:samber/cc-skills-golang/golang-code-style</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 7
-Source: brianlovin/agent-config
-Description: Remove AI-generated code slop from the current branch. Use after writing code to clean up unnecessary comments, defensive checks, and inconsistent style.]]></description>
+Installs: 5
+Source: samber/cc-skills-golang
+Description: Golang code style, formatting and conventions. Use when writing code, reviewing style, configuring linters, writing comments, or establishing project standards.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): skill-creator]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/skill-creator</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/skill-creator</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): mintlify]]></title>
+            <link>https://skills.sh/mintlify/docs/mintlify</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:mintlify/docs/mintlify</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 7
-Source: brianlovin/agent-config
-Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
+Installs: 5
+Source: mintlify/docs
+Description: Build and maintain documentation sites with Mintlify. Use when creating docs pages, configuring navigation, adding components, or setting up API references.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): sentry]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/sentry</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/sentry</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): gemini-omni-flash-api]]></title>
+            <link>https://skills.sh/google-gemini/gemini-skills/gemini-omni-flash-api</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-gemini/gemini-skills/gemini-omni-flash-api</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 7
-Source: brianlovin/agent-config
-Description: Sentry error monitoring and performance tracing patterns for Next.js applications.]]></description>
+Installs: 4
+Source: google-gemini/gemini-skills
+Description: Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): simplify]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/simplify</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:brianlovin/agent-config/simplify</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): academic-pipeline]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/academic-pipeline</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:projectedanx/academic-research-skills/academic-pipeline</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 7
-Source: brianlovin/agent-config
-Description: Simplify and refine recently modified code for clarity and consistency. Use after writing code to improve readability without changing functionality.]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory integrity verification, two-stage peer review, and reproducible quality gates. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): gh-stack]]></title>
-            <link>https://skills.sh/github/gh-stack/gh-stack</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:github/gh-stack/gh-stack</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): jev]]></title>
+            <link>https://skills.sh/gecm0/jev-judge-mcp/jev</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:gecm0/jev-judge-mcp/jev</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 3
-Source: github/gh-stack
-Description: Manage stacked branches and pull requests with the gh-stack GitHub CLI extension. Use when the user wants to create, push, rebase, sync, navigate, or view stacks of dependent PRs. Triggers on tasks involving stacked diffs, dependent pull requests, branch chains, or incremental code review workflows.]]></description>
+Installs: 4
+Source: gecm0/jev-judge-mcp
+Description: Designing a call to TypeSafe's Jev: writing questions that survive the one-second test, splitting a multi-factor judgment into factors, fanning out speculative questions in one request, and turning probabilities into a decision. Read it before calling the judge tool, and when a call came back with low confidence or an answer that looks wrong. For writing application code that calls TypeSafe, use typesafe-ai instead.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): authoring-github-workflows]]></title>
-            <link>https://skills.sh/dotnet/skills/authoring-github-workflows</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:dotnet/skills/authoring-github-workflows</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): chatgpt-app-builder]]></title>
+            <link>https://skills.sh/alpic-ai/skybridge/chatgpt-app-builder</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:alpic-ai/skybridge/chatgpt-app-builder</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 2
-Source: dotnet/skills
-Description: Author and review GitHub Actions workflow YAML safely so syntactically-valid YAML can't ship a workflow that GitHub Actions refuses to run. USE FOR: editing, adding, or reviewing any file under .github/workflows/, writing run-name/name/if/env/run values that contain ${{ }} expressions, diagnosing a run that fails with 'This run likely failed because of a workflow file issue' and no jobs starting, deciding when a workflow scalar must be quoted, validating workflows with actionlint. DO NOT USE FOR: authoring application YAML unrelated to GitHub Actions, Azure Pipelines, GitLab CI, or non-workflow YAML. SCOPE: this skill covers *syntactic/structural* correctness of workflow YAML (quoting, parsing, actionlint); for *semantic and functional* workflow design (what a workflow should do, agentic-workflow behavior), see .github/agents/agentic-workflows.agent.md — the two are complementary. INVOKES: actionlint (downloaded pinned binary) plus git/grep for inspection.]]></description>
+Installs: 4
+Source: alpic-ai/skybridge
+Description: Guide developers through creating ChatGPT apps.
+Covers the full lifecycle: brainstorming ideas against UX guidelines, bootstrapping projects, implementing tools/widgets, debugging, running dev servers, deploying and connecting apps to ChatGPT.
+Use when a user wants to build a ChatGPT app, create an MCP server for ChatGPT.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): google-agents-cli-publish]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): connector-spotify]]></title>
+            <link>https://skills.sh/caffeinelabs/skills/connector-spotify</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:caffeinelabs/skills/connector-spotify</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
+Installs: 9
+Source: caffeinelabs/skills
+Description: MANDATORY recipe for every Caffeine build that reads Spotify catalog data or drives a user's Spotify account from a canister. The supported path is the `spotify-client` mops package (Spotify Web API) over outbound HTTPS with an OAuth 2.0 bearer token minted off-chain. Hand-rolling `ic.http_request` calls to `api.spotify.com` is a FORBIDDEN anti-pattern — it bypasses the non-replicated-outcall safeguard (player state and `progress_ms` differ per node and fail consensus), the generated JSON decoding, and the bearer handling. Load this skill whenever the user, spec, or any prior task mentions Spotify, a song, track, artist, album, playlist, music search, new releases, genres, markets, "what's playing", recently played, the queue, player controls (play / pause / skip / shuffle / repeat), a saved library, podcasts (shows or episodes), chapters or audiobooks — and BEFORE writing any code that touches a Spotify endpoint.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): get-api-docs]]></title>
-            <link>https://skills.sh/andrewyng/context-hub/get-api-docs</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:andrewyng/context-hub/get-api-docs</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): deep-research]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/deep-research</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:projectedanx/academic-research-skills/deep-research</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 2
-Source: andrewyng/context-hub
-Description: Use this skill when you need documentation for a third-party library, SDK, or API before writing code that uses it — for example, "use the OpenAI API", "call the Stripe API", "use the Anthropic SDK", "query Pinecone", or any time the user asks you to write code against an external service and you need current API reference. Fetch the docs with chub before answering, rather than relying on training knowledge.]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): docker]]></title>
-            <link>https://skills.sh/openhands/extensions/docker</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:openhands/extensions/docker</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): academic-paper-reviewer]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/academic-paper-reviewer</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:projectedanx/academic-research-skills/academic-paper-reviewer</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 2
-Source: openhands/extensions
-Description: Run Docker commands within a container environment, including starting the Docker daemon and managing containers. Use when building, running, or managing Docker containers and images.]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: Multi-perspective academic paper review with dynamic reviewer personas. Simulates 5 independent reviewers (EIC + 3 peer reviewers + Devil's Advocate) with field-specific expertise. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): code-review]]></title>
-            <link>https://skills.sh/openhands/extensions/code-review</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:openhands/extensions/code-review</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): academic-paper]]></title>
+            <link>https://skills.sh/projectedanx/academic-research-skills/academic-paper</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:projectedanx/academic-research-skills/academic-paper</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 2
-Source: openhands/extensions
-Description: Structured code review covering style, readability, and security concerns with actionable feedback. Use when reviewing pull requests or merge requests to identify issues and suggest improvements.]]></description>
+Installs: 4
+Source: projectedanx/academic-research-skills
+Description: 12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, audit my rebuttal, check my response draft, AI disclosure, 寫論文, 學術論文, 引導我寫論文, 審查意見, 評估回覆.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): customs-trade-compliance]]></title>
-            <link>https://skills.sh/affaan-m/ecc/customs-trade-compliance</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:affaan-m/ecc/customs-trade-compliance</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): typescript-advanced-types]]></title>
+            <link>https://skills.sh/wshobson/agents/typescript-advanced-types</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:wshobson/agents/typescript-advanced-types</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 2
-Source: affaan-m/ecc
-Description: Codified expertise for customs documentation, tariff classification, duty optimization, restricted party screening, and regulatory compliance across multiple jurisdictions. Informed by trade compliance specialists with 15+ years experience. Includes HS classification logic, Incoterms application, FTA utilization, and penalty mitigation. Use when handling customs clearance, tariff classification, trade compliance, import/export documentation, or duty optimization.]]></description>
+Installs: 14
+Source: wshobson/agents
+Description: Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): trader-memory-core]]></title>
-            <link>https://skills.sh/tradermonty/claude-trading-skills/trader-memory-core</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:tradermonty/claude-trading-skills/trader-memory-core</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): seo]]></title>
+            <link>https://skills.sh/addyosmani/web-quality-skills/seo</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:addyosmani/web-quality-skills/seo</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 2
-Source: tradermonty/claude-trading-skills
-Description: Track investment theses across their lifecycle — from screening idea to closed position with postmortem. Register theses from screener outputs, manage state transitions, attach position sizing, review due dates, and generate postmortem reports with P&L and MAE/MFE analysis. Trigger when user says "register thesis", "track this idea", "thesis status", "review due", "close position", "postmortem", or "trading journal".]]></description>
+Installs: 7
+Source: addyosmani/web-quality-skills
+Description: Optimize for search engine visibility and ranking. Use when asked to "improve SEO", "optimize for search", "fix meta tags", "add structured data", "sitemap optimization", or "search engine optimization".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): sector-analyst]]></title>
-            <link>https://skills.sh/tradermonty/claude-trading-skills/sector-analyst</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:tradermonty/claude-trading-skills/sector-analyst</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): customer-research]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/customer-research</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:coreyhaines31/marketingskills/customer-research</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 2
-Source: tradermonty/claude-trading-skills
-Description: This skill should be used when analyzing sector and industry performance charts to assess market positioning and rotation patterns. Use this skill when the user provides performance chart images (1-week or 1-month timeframes) for sectors or industries and requests market cycle assessment, sector rotation analysis, or strategic positioning recommendations based on performance data. All analysis and output are conducted in English.]]></description>
+Installs: 6
+Source: coreyhaines31/marketingskills
+Description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): edge-strategy-designer]]></title>
-            <link>https://skills.sh/tradermonty/claude-trading-skills/edge-strategy-designer</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:tradermonty/claude-trading-skills/edge-strategy-designer</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): h3-prompt-writing]]></title>
+            <link>https://skills.sh/minimax-ai/minimax-h3/h3-prompt-writing</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:minimax-ai/minimax-h3/h3-prompt-writing</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 2
-Source: tradermonty/claude-trading-skills
-Description: Convert abstract edge concepts into strategy draft variants and optional exportable ticket YAMLs for edge-candidate-agent export/validation.]]></description>
+Installs: 6
+Source: minimax-ai/minimax-h3
+Description: Write MiniMax H3 video generation prompts for T2VA, I2VA, FL2VA, L2VA, and Ref2VA. Use when rewriting multimodal requests into H3 prompt structures, composing integrated_multimodal_description, overall_soundscape, and non_diegetic_music, aligning keyframes, or defining reference labels for images, videos, and audio.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): position-sizer]]></title>
-            <link>https://skills.sh/tradermonty/claude-trading-skills/position-sizer</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:tradermonty/claude-trading-skills/position-sizer</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): core-web-vitals]]></title>
+            <link>https://skills.sh/addyosmani/web-quality-skills/core-web-vitals</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:addyosmani/web-quality-skills/core-web-vitals</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 2
-Source: tradermonty/claude-trading-skills
-Description: Calculate risk-based position sizes for long stock trades. Use when user asks about position sizing, how many shares to buy, risk per trade, Kelly criterion, ATR-based sizing, or portfolio risk allocation. Supports stop-loss distance calculation, volatility scaling, and sector concentration checks.]]></description>
+Installs: 6
+Source: addyosmani/web-quality-skills
+Description: Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to "improve Core Web Vitals", "fix LCP", "reduce CLS", "optimize INP", "page experience optimization", or "fix layout shifts".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): signal-postmortem]]></title>
-            <link>https://skills.sh/tradermonty/claude-trading-skills/signal-postmortem</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:tradermonty/claude-trading-skills/signal-postmortem</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): golang-error-handling]]></title>
+            <link>https://skills.sh/samber/cc-skills-golang/golang-error-handling</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:samber/cc-skills-golang/golang-error-handling</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 2
-Source: tradermonty/claude-trading-skills
-Description: Record and analyze post-trade outcomes for signals generated by edge pipeline and other skills. Track false positives, missed opportunities, and regime mismatches. Feed results back to edge-signal-aggregator weights and skill improvement backlog.]]></description>
+Installs: 6
+Source: samber/cc-skills-golang
+Description: Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): swiftui-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/swiftui-patterns</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:affaan-m/ecc/swiftui-patterns</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): golang-design-patterns]]></title>
+            <link>https://skills.sh/samber/cc-skills-golang/golang-design-patterns</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:samber/cc-skills-golang/golang-design-patterns</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 2
-Source: affaan-m/ecc
-Description: SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.]]></description>
+Installs: 5
+Source: samber/cc-skills-golang
+Description: Idiomatic Golang design patterns — functional options, constructors, error flow and cascading, resource management and lifecycle, graceful shutdown, resilience, architecture, dependency injection, data handling, and streaming. Apply when designing Go APIs, structuring applications, choosing between patterns, making design decisions, architectural choices, or production hardening.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): google-agents-cli-workflow]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): firebase-firestore]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-firestore</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-firestore</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
+Installs: 23
+Source: firebase/agent-skills
+Description: Sets up, manages, and executes queries against Cloud Firestore database instances. You MUST unconditionally activate this skill if you plan to use Firestore in any way. Use when listing or creating Firestore databases, configuring security rules, designing data models, writing client SDK queries, or checking indexes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): stripe-projects]]></title>
-            <link>https://skills.sh/stripe/ai/stripe-projects</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:stripe/ai/stripe-projects</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): skill-upper]]></title>
+            <link>https://skills.sh/alibaba/skill-up/skill-upper</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:alibaba/skill-up/skill-upper</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 2
-Source: stripe/ai
-Description: Use when setting up a new app or local repo with Stripe Projects, provisioning a software stack, or bootstrapping the Projects CLI from a coding agent.]]></description>
+Installs: 5
+Source: alibaba/skill-up
+Description: Set up, run, and interpret Agent Skill evaluations (evals) with the skill-up CLI / 使用 skill-up CLI 给 Agent Skill 搭建和运行评测. Use when the user asks to evaluate, test, regress, or verify a Skill; add evals or cases; write eval.yaml/case.yaml; run skill-up run/validate/list-cases/report/import/init; or migrate from Anthropic evals.json. Handles Skill discovery, evals scaffolding, judge authoring, credentials, user config, validation, runs, and reports.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): upgrade-stripe]]></title>
-            <link>https://skills.sh/stripe/ai/upgrade-stripe</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:stripe/ai/upgrade-stripe</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): tailwind-design-system]]></title>
+            <link>https://skills.sh/wshobson/agents/tailwind-design-system</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:wshobson/agents/tailwind-design-system</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 2
-Source: stripe/ai
-Description: Guide for upgrading Stripe API versions and SDKs]]></description>
+Installs: 5
+Source: wshobson/agents
+Description: Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): android-emulator]]></title>
-            <link>https://skills.sh/callstack/agent-device/android-emulator</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:callstack/agent-device/android-emulator</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): svelte-core-bestpractices]]></title>
+            <link>https://skills.sh/sveltejs/ai-tools/svelte-core-bestpractices</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:sveltejs/ai-tools/svelte-core-bestpractices</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 1
-Source: callstack/agent-device
-Description: Verify and debug native, React Native, Expo, or Flutter apps on an Android Emulator with agent-device. Use when an agent needs to launch an app, inspect its live UI, tap, type, scroll, validate a code change, collect failure evidence, or reproduce a workflow on an Android virtual device.]]></description>
+Installs: 5
+Source: sveltejs/ai-tools
+Description: Guidance on writing fast, robust, modern Svelte code. Load this skill whenever in a Svelte project and asked to write/edit or analyze a Svelte component or module. Covers reactivity, event handling, styling, integration with libraries and more.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): api-integration-surface-strategy]]></title>
-            <link>https://skills.sh/samber/developer-platform-skills/api-integration-surface-strategy</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:samber/developer-platform-skills/api-integration-surface-strategy</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): baseline-ui]]></title>
+            <link>https://skills.sh/ibelick/ui-skills/baseline-ui</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:ibelick/ui-skills/baseline-ui</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 1
-Source: samber/developer-platform-skills
-Description: Decide which integration surfaces a platform offers external developers and AI agents - REST, GraphQL, gRPC, SQL access, bulk data sharing, webhooks, SDKs, CLI, MCP, embedded components - and in what build order, sequenced by reversal cost and audience rather than novelty. Use whenever the user mentions which API to build first, adding a GraphQL or MCP layer, an integration-surface roadmap, API-first vs embedded-first, or a missing surface blocking deals - even if they never say "integration surface". Umbrella strategy only - once a surface is chosen, per-surface design belongs to siblings such as samber/developer-platform-skills@webhook-platform-design and samber/developer-platform-skills@sdk-portfolio-strategy.]]></description>
+Installs: 5
+Source: ibelick/ui-skills
+Description: Enforces an opinionated UI baseline to prevent AI-generated interface slop.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): api-error-design]]></title>
-            <link>https://skills.sh/samber/developer-platform-skills/api-error-design</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:samber/developer-platform-skills/api-error-design</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): firecrawl-agent]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl-agent</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firecrawl/cli/firecrawl-agent</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 1
-Source: samber/developer-platform-skills
-Description: Design the error surface of a public API so integrators self-serve fixes - a machine-readable error-code taxonomy (flat catalog, code/subcode, Google-style domain/reason), the RFC 9457 problem-details envelope with extension members, actionable error messages, retryability signaling (retryable flag, Retry-After), and per-endpoint error documentation with request-ID tracking. Use whenever the user mentions API error codes, an error taxonomy, RFC 9457, application/problem+json, 4xx/5xx response bodies, or confusing API error messages - even if they never say "error design". Do NOT use for client-side retry mechanics - use samber/developer-platform-skills@api-idempotency-retry - nor for incident and status-page communication - use samber/developer-platform-skills@api-status-communication instead.]]></description>
+Installs: 4
+Source: firecrawl/cli
+Description: AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the user wants structured data from websites, needs to extract pricing tiers, product listings, directory entries, or any data as JSON with a schema. Triggers on "extract structured data", "get all the products", "pull pricing info", "extract as JSON", or when the user provides a JSON schema for website data. More powerful than simple scraping for multi-page structured extraction.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): security-runner]]></title>
-            <link>https://skills.sh/fellowship-dev/dogfooded-skills/security-runner</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:fellowship-dev/dogfooded-skills/security-runner</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): golang-refactoring]]></title>
+            <link>https://skills.sh/samber/cc-skills-golang/golang-refactoring</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:samber/cc-skills-golang/golang-refactoring</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 1
-Source: fellowship-dev/dogfooded-skills
-Description: Use when running the automated security alert fix pipeline — opens fix PRs, creates issues for breaking changes, dismisses false positives.]]></description>
+Installs: 4
+Source: samber/cc-skills-golang
+Description: Golang refactoring — the safe, at-scale process for restructuring existing Go code: a coverage-adaptive safety net, tool-driven behavior-preserving transforms (gopls Rename/Inline/Extract, `gofmt -r`, `eg`, `gopatch`, `go/analysis` fixers), the Fowler catalog mapped to Go, breaking import cycles, moving types across packages, and a human-in-the-loop workflow of small stacked PRs on a refactoring branch. Apply when code is hard to maintain, a function/type has grown too large, a code smell needs fixing, adding a feature is blocked by the current structure, or the user asks to clean up, refactor, or improve Go code — also for renaming at scale, extracting functions/interfaces, moving code between packages, splitting packages, or planning a multi-step refactor. Target styles owned elsewhere → See `samber/cc-skills-golang@golang-naming` (renames), `@golang-project-layout` (splits), `@golang-modernize` (idioms), `@golang-code-style` (control flow), `@golang-design-patterns` (patterns/DI).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): context-agent]]></title>
-            <link>https://skills.sh/sickn33/agentic-awesome-skills/context-agent</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:sickn33/agentic-awesome-skills/context-agent</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): improve-ui]]></title>
+            <link>https://skills.sh/ibelick/ui-skills/improve-ui</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:ibelick/ui-skills/improve-ui</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 1
-Source: sickn33/agentic-awesome-skills
-Description: Agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte.]]></description>
+Installs: 4
+Source: ibelick/ui-skills
+Description: Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): webhook-platform-design]]></title>
-            <link>https://skills.sh/samber/developer-platform-skills/webhook-platform-design</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:samber/developer-platform-skills/webhook-platform-design</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): foldseek-structural-search]]></title>
+            <link>https://skills.sh/google-deepmind/science-skills/foldseek-structural-search</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-deepmind/science-skills/foldseek-structural-search</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 1
-Source: samber/developer-platform-skills
-Description: Design a provider-side outbound webhook platform - event taxonomy and catalog, payload envelope and schema versioning, an HMAC signing scheme (Standard Webhooks), at-least-once delivery with retry/backoff and dead-letter policy, subscription lifecycle states, and the developer-facing debugging surface (delivery logs, replay, test-event triggering). Use whenever the user mentions webhooks, event callbacks, push events to customer endpoints, webhook signatures, delivery retries, or a webhook consumer portal - even if they never say "webhook platform". Provider side only. Do NOT use for consumer-side retry mechanics - use samber/developer-platform-skills@api-idempotency-retry instead.]]></description>
+Installs: 3
+Source: google-deepmind/science-skills
+Description: Performs 3D structural searches of proteins against various databases (PDB, AlphaFold, CATH, MGnify, etc.) using the Foldseek API. Use ONLY when the user provides a physical 3D coordinate file (.cif, .mmcif, or .pdb) and wants to find structurally similar proteins. Do NOT use if the user only provides a protein sequence, gene name, or UniProt ID.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): latex-thesis-zh]]></title>
-            <link>https://skills.sh/bahayonghang/academic-writing-skills/latex-thesis-zh</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:bahayonghang/academic-writing-skills/latex-thesis-zh</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): ensembl-database]]></title>
+            <link>https://skills.sh/google-deepmind/science-skills/ensembl-database</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-deepmind/science-skills/ensembl-database</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 1
-Source: bahayonghang/academic-writing-skills
-Description: 中文学位论文 LaTeX 助手（博士/硕士论文）。
-Use when writing, reviewing, or improving Chinese LaTeX theses (PhD/Master).
-Use when user mentions 编译, 格式, 去AI化, 标题, 参考文献, 模板, 一致性,
-or any Chinese thesis quality task.
-支持多种学校模板和 GB/T 7714 国标格式。
-
-触发词（可独立调用任意模块）：
-- "compile", "编译", "xelatex" → 编译模块
-- "structure", "结构", "映射" → 结构映射模块
-- "format", "格式", "国标", "GB/T" → 国标格式检查模块
-- "expression", "表达", "润色", "学术表达" → 学术表达模块
-- "logic", "coherence", "逻辑", "衔接", "methodology", "方法论" → 逻辑衔接与方法论深度模块
-- "long sentence", "长句", "拆解" → 长难句分析模块
-- "bib", "bibliography", "参考文献" → 参考文献模块
-- "template", "模板", "thuthesis", "pkuthss" → 模板检测模块
-- "deai", "去AI化", "人性化", "降低AI痕迹" → 去AI化编辑模块
-- "title", "标题", "标题优化", "生成标题" → 标题优化模块
-- "consistency", "一致性", "术语" → 一致性检查模块]]></description>
+Installs: 3
+Source: google-deepmind/science-skills
+Description: Query the Ensembl database to resolve gene, transcript, and protein IDs, fetch genomic or protein sequences, retrieve gene structures (exons), and get variant consequence and effect predictions (VEP). Use this skill as a primary ID translator, genomic sequence database and variant effect prediction tool.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): stripe-docs]]></title>
-            <link>https://skills.sh/stripe/ai/stripe-docs</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:stripe/ai/stripe-docs</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): chembl-database]]></title>
+            <link>https://skills.sh/google-deepmind/science-skills/chembl-database</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-deepmind/science-skills/chembl-database</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 1
-Source: stripe/ai
-Description: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content.]]></description>
+Installs: 3
+Source: google-deepmind/science-skills
+Description: Query the ChEMBL database for bioactive molecules, drug targets, bioactivity data, approved drugs, and chemical structures. Use when the user asks about compounds, targets, IC50/Ki values, drug mechanisms, or structure searches.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): google-agents-cli-deploy]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): firebase-auth-basics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-auth-basics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-auth-basics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 23
+Source: firebase/agent-skills
+Description: Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): dcg]]></title>
-            <link>https://skills.sh/dicklesworthstone/destructive_command_guard/dcg</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:dicklesworthstone/destructive_command_guard/dcg</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): ucsc-conservation-and-tfbs]]></title>
+            <link>https://skills.sh/google-deepmind/science-skills/ucsc-conservation-and-tfbs</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-deepmind/science-skills/ucsc-conservation-and-tfbs</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 1
-Source: dicklesworthstone/destructive_command_guard
-Description: Destructive Command Guard - High-performance Rust hook for Claude Code that blocks dangerous commands before execution. SIMD-accelerated, modular pack system, whitelist-first architecture. Essential safety layer for agent workflows.]]></description>
+Installs: 3
+Source: google-deepmind/science-skills
+Description: Fetch Evolutionary Conservation scores (phyloP, phastCons) and Transcription Factor Binding Sites (TFBS) from the UCSC Genome Browser. Use when analyzing whether genomic variants or regions are evolutionarily conserved, functionally important, or bounded by TF regulators across major projects (ENCODE, JASPAR, ReMap).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-scaffold]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): firebase-basics]]></title>
+            <link>https://skills.sh/firebase/agent-skills/firebase-basics</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:firebase/agent-skills/firebase-basics</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
+Installs: 23
+Source: firebase/agent-skills
+Description: Guide for setting up and using Firebase. Use this skill when the user is getting started with Firebase - setting up local environment, using Firebase for the first time, or adding Firebase to their app.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-eval]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): gemini-live-api-dev]]></title>
+            <link>https://skills.sh/google-gemini/gemini-skills/gemini-live-api-dev</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:google-gemini/gemini-skills/gemini-live-api-dev</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 46
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 7
+Source: google-gemini/gemini-skills
+Description: Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): bencium-impact-designer]]></title>
-            <link>https://skills.sh/bencium/bencium-marketplace/bencium-impact-designer</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:bencium/bencium-marketplace/bencium-impact-designer</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): fastify-best-practices]]></title>
+            <link>https://skills.sh/mcollina/skills/fastify-best-practices</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:mcollina/skills/fastify-best-practices</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 10
-Source: bencium/bencium-marketplace
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics. Based on Anthropic's Frontend Designer Skill]]></description>
+Installs: 7
+Source: mcollina/skills
+Description: Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): bencium-innovative-ux-designer]]></title>
-            <link>https://skills.sh/bencium/bencium-marketplace/bencium-innovative-ux-designer</link>
-            <guid isPermaLink="false">2026-09-21T03:16:09.900Z:topHot:new:bencium/bencium-marketplace/bencium-innovative-ux-designer</guid>
-            <pubDate>Mon, 21 Sep 2026 03:16:09 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): nx-workspace]]></title>
+            <link>https://skills.sh/nrwl/nx-ai-agents-config/nx-workspace</link>
+            <guid isPermaLink="false">2026-09-22T03:39:29.886Z:topHot:new:nrwl/nx-ai-agents-config/nx-workspace</guid>
+            <pubDate>Tue, 22 Sep 2026 03:39:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #9
-Installs: 10
-Source: bencium/bencium-marketplace
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.]]></description>
+Installs: 7
+Source: nrwl/nx-ai-agents-config
+Description: Explore and understand Nx workspaces. USE WHEN answering questions about the workspace, projects, or tasks. ALSO USE WHEN an nx command fails or you need to check available targets/configuration before running a task. EXAMPLES: 'What projects are in this workspace?', 'How is project X configured?', 'What depends on library Y?', 'What targets can I run?', 'Cannot find configuration for task', 'debug nx task failure'.]]></description>
         </item>
     </channel>
 </rss>

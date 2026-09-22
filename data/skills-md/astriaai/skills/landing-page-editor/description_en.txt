@@ -1,0 +1,1 @@
+Use when editing, updating, or iterating on a workspace's landing page HTML (the magazine-style /w/:slug page). Supports incremental edits — fetch the current HTML, make targeted changes, then write it back. NOT for initial generation — that comes from the `brief` field which runs the server-side LANDING_PAGE_PROMPT against Gemini.

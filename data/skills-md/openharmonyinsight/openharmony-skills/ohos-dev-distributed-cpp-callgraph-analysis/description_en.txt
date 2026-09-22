@@ -1,0 +1,1 @@
+Use when an OpenHarmony C++ change must be checked for call-chain completeness, especially for data propagation, IPC/proxy/stub paths, virtual overrides, callbacks, or dlopen/dlsym boundaries. Produces evidence tables and modification coverage matrices; the helper script only discovers candidate edges.

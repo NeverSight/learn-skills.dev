@@ -1,0 +1,14 @@
+The single entry point for every local VN action: opening a lightweight VN
+preview import, or planning and building a rough cut as a local VN
+video-editor draft with `cawcut vn`. Media can be the user's own local
+files supplied directly, or another CawCut skill's generated output — both
+are first-class. Always starts by asking whether the user wants a quick
+preview-and-import or the full editing flow. The editing flow inventories
+supplied media, confirms the project aspect ratio, recommends feasible
+editing styles, resolves missing music or sound effects, presents a
+shot-by-shot edit plan for approval, then assembles and validates the draft
+before asking whether to open it in VN. Use when creating or editing VN
+projects, assembling the user's own photos/clips or generated media into a
+timeline, making a slideshow or rough cut, previewing local files in the VN
+app, or invoking `/cawcut-vn`. Fully local; no login needed. NOT for
+generating source media.

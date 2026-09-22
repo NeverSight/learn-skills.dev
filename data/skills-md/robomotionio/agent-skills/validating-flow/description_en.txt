@@ -1,0 +1,1 @@
+Validates a compiled Robomotion flow against pspec schemas via `robomotion validate <flow-dir>`. Exits 0 on clean, 1 on error with node-by-node report on stderr; no stdout output (composes in shell pipelines). Use when the user says "validate this flow", "check the flow", "is this correct", or before running. Does NOT run the flow — for behavioral tests use testing-flow.
