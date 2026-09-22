@@ -1,0 +1,1 @@
+DAYU200（RK3568）における OpenHarmony のマルチモーダル入力（MMI）サブシステム変更の RAM/ROM への影響を測定する際に使用します。ROM の測定は readelf のセクション解析とファイルサイズ比較で行い、RAM の測定は /proc/PID/smaps、smaps_rollup、hidumper --mem、そしてベースライン／現在の .so のスワップ手法を使用します。ヒープ割り当てされたデータ構造に対するコードレベルの理論解析も含みます。

@@ -1,0 +1,1 @@
+エージェントブラウザツール（playwright‑cli、chrome‑devtools‑mcp）を、ユーザーの実際のプロファイルで起動中の Helium ブラウザにアタッチします。Helium ブラウザで作業しているとき、playwright‑cli や chrome‑devtools‑mcp が新しいインスタンスを起動するのではなく、すでに開かれているブラウザを制御すべき場合、Helium に対する CDP／リモートデバッグのアタッチが失敗したとき、あるいは Chromium デバッグポートの HTTP /json エンドポイントが 404 を返すときに使用します。WebSocket のみのデバッグサーバー、DevToolsActivePort の検出、そしてプラットフォーム別のプロファイルパスをカバーします。

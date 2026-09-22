@@ -1,0 +1,3 @@
+ユーザーが音声でプロンプトを送信できるようにする。マイクを常に監視する常駐プロセスを開始し、Monitor を通じてユーザーが言ったことを取得し、指示として扱う。ユーザーが「voice mode」や「talk to me」や「hands‑free」や「dictate my prompts」や「speak instead of typing」と言ったときに、使用言語に関係なく有効にする。停止するには「stop voice mode」と言う。ユーザーが「set up voice‑shell」などと音声シェルの設定を求めた場合は、SETUP.md に従い、環境が macOS 26 以上かそれ以外かを判別し、そこから案内する。
+
+必ずユーザーの言語で応答すること。

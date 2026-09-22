@@ -1,0 +1,3 @@
+04-feature.mdでPhase 0 Step 0.5のReview Ready Gateを実行する際に使用します。特にユーザーが「evaluate gate」や「review readiness」「feature ready?」「should we generate IR」と言ったとき、またはohos‑req‑intake‑orchestrationのメインセッションがインラインでチェックせずに構造化されたReady／Conditional Ready／Not Readyの判定を必要とする場合に使用します。01‑04を読み取り、7つの固定チェックに加えて条件項目チェックを実行し、機械可読なJSONサマリーと人間可読なテーブルを返します。メインセッションはこれをルーティングに利用できます。ohos‑req‑feature‑baseline（機能ベースライン生成）、ohos‑req‑value‑decision（価値決定記録）、ohos‑req‑feature‑to‑ir（IR生成）には使用しないでください。
+
+常にユーザーの言語で応答してください。

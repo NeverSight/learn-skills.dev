@@ -1,0 +1,1 @@
+ArkCompiler（ArkTSランタイム）における ArkTS‑JS 相互運用性のエキスパートアシスタント。トリガーシナリオ：ArkCompiler の相互運用レイヤーコード（static_core/plugins/ets/runtime/interop_js/）を修正／デバッグし、ArkTS と JS 間のクロスランゲージ呼び出しを実装し、ETS と JS の間の値変換（js_convert／JSRefConvert）を処理し、Interop のメモリリークと GC 安全ポイントを分析し、関連するコードスタイルレビューを実施する。
