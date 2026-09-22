@@ -1,0 +1,17 @@
+Toolbox di scansione multi‑strategia (estensibile). Attualmente integrate cinque strategie:
+
+1. **Strategia breakout (conferma volume‑prezzo)** – attivata da “breakout strategy scan”, “volume breakout”, “scan breakout tickets”; filtra le azioni che effettuano breakout con volume su piattaforme/box/precedenti massimi.
+
+2. **Strategia low‑buy (rincorsa a basso volume)** – attivata da “low‑buy strategy”, “low‑volume pullback”, “pullback low‑buy”, “strong stock pullback”; filtra le azioni forti che ritraggono con basso volume verso la media mobile a 5/10 giorni.
+
+3. **Strategia board‑hitting / relay** – attivata da “board‑hitting”, “relay”, “board‑hitting strategy”, “space board”, “leader first board”; restituisce i candidati per il board più grande / leader / primo‑secondo board (volume del book, tasso di turnover).
+
+4. **Ciclo tematico / sentiment (strategia leader)** – attivata da “sentiment cycle”, “market sentiment”, “ice‑point repair fermentation peak ebb”, “leader strategy”; determina il ciclo di sentiment del mercato e fornisce consigli di trading (rimanere neutri durante i periodi di calo).
+
+5. **Strategia 75A (arc‑bottom appena in rialzo)** – attivata da “75A strategy”, “arc bottom”, “just turning up”, “pot bottom”; seleziona azioni arc‑bottom di livello basso appena in rialzo sul lato destro, con uno slittamento ≥10 % sopra il collo e MA5 ≥ MA10 (gioco di rincorsa di capitale, ticket singolo ≤10 %).
+
+6. **Strategia rally di riempimento gap (gap di capitale + rally nella linea principale, validazione reale il 2026‑08‑31 per Zhiguang Co. +8,53 %)** – attivata da “gap‑fill rally”, “capital gap”, “main‑line rally”, “buy second not first”; identifica innanzitutto la linea principale del giorno tramite clustering di capitale a livello di settore (≥3 azioni nello stesso settore tra i maggiori afflussi netti), poi seleziona all’interno di quella linea il rialzo più piccolo che tocca la MA20 (lo script filtra automaticamente i rialzi ≥5 % per evitare di rincorrere i massimi; disattivato nei mercati deboli).
+
+Ogni invocazione prima recupera i dati di mercato più recenti (fonte Dongcai, senza cache), quindi filtra in base alla strategia scelta e restituisce le azioni target insieme alle note operative (punto di ingresso / stop‑loss / uscita). Aggiungere una nuova strategia = aggiungere un file di regole + script di scansione.
+
+Per favore, rispondi sempre nella lingua dell'utente.

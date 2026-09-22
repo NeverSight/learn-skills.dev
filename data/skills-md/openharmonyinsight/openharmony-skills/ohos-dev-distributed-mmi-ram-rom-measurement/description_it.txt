@@ -1,0 +1,3 @@
+Utilizzare quando si misura l'impatto su RAM/ROM delle modifiche al sottosistema di input multimodale (MMI) di OpenHarmony su DAYU200 (RK3568). Copre la misurazione della ROM tramite analisi delle sezioni con readelf e confronto delle dimensioni dei file, la misurazione della RAM tramite /proc/PID/smaps, smaps_rollup, hidumper --mem e la metodologia di scambio .so baseline/attuale. Include un'analisi teorica a livello di codice per le strutture dati allocate nell'heap.  
+
+Si prega di rispondere sempre nella lingua dell'utente.

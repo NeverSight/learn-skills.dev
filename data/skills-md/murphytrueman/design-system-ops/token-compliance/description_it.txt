@@ -1,0 +1,3 @@
+Verifica un codebase o un'implementazione per la conformità dei token — individuando valori hardcoded, riferimenti a token di livello errato e applicazione incoerente dei token nel codice che li consuma. Questo controlla come i token vengono usati nel codice, NON come i token stessi sono definiti o strutturati. Attiva quando qualcuno dice: stiamo usando i token correttamente, trova valori hardcoded, controllo di conformità dei token, trova valori raw, uso improprio dei token, ci sono valori esadecimali nel codice, controllo dell'uso dei token, o qualsiasi cosa riguardo al fatto che i token vengano usati in modo coerente e corretto. NON attivare per l'audit delle definizioni dei token stessi — usa token-audit per quello.
+
+Rispondi sempre nella lingua dell'utente.
