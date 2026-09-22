@@ -1,0 +1,3 @@
+在掃描或審查 OpenHarmony ArkWeb/Chromium C++ 單檔時，必須用於檢測涉及 PostTask、BindOnce、base::Unretained(this)、WeakPtr、scoped_refptr、mojo::Connector、GPU/Audio/DrDC 執行緒、NDK/UI 回呼、NWeb、WebContents、Profile、BrowserContext、NavigationController 等的執行緒安全違規。僅對 standard_rule1 至 standard_rule10 強制偽陽性控制，並輸出嚴格的 JSON 架構違規。
+
+請始終以使用者的語言回覆。

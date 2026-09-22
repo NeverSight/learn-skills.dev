@@ -1,0 +1,3 @@
+用於在 04‑feature.md 上執行 Phase 0 Step 0.5 Review Ready Gate 時，特別是當使用者說「evaluate gate」、「review readiness」、「feature ready?」或「should we generate IR」，或在 ohos‑req‑intake‑orchestration 主會話需要結構化的 Ready／Conditional Ready／Not Ready 判斷取代內嵌檢查時。會讀取 01‑04，執行七項固定檢查加上一項條件項目檢查，並回傳機器可讀的 JSON 摘要以及人類可讀的表格，供主會話進一步路由。**絕不要**將其用於功能基線產生（ohos‑req‑feature‑baseline）、價值決策記錄（ohos‑req‑value‑decision）或 IR 產生（ohos‑req‑feature‑to‑ir）。 
+
+（請始終以使用者的語言回覆。）

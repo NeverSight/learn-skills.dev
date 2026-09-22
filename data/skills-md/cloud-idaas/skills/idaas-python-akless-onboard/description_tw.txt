@@ -1,0 +1,1 @@
+自動化重構 Python 阿里雲工作負載（OSS V1/V2、SLS、通用 OpenAPI），將長期 AccessKey/SecretKey 轉換為 IDaaS 無 AK 的短期 STS 憑證。當開發者要求上線/整合 IDaaS 無 AK、移除硬編碼的 AK/SK，或將 Python 雲端程式碼轉換為 IDaaS PAM 憑證提供者時使用。

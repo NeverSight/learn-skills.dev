@@ -1,0 +1,1 @@
+構建跨多個儲存庫的 GitHub Actions `schedule` cron 表達式概覽，並協助將 CPU 密集型工作（Docker Compose、Testcontainers、Kind/k3s、矩陣建置）分散到較少競爭的時段。當使用者詢問「我的 cron 行動何時執行？」、「我的排程建置會衝突嗎？」、「Testcontainers 的建置應該何時執行？」或想要獲得跨儲存庫的 cron 時間表概覽／分佈報告時使用。透過 `gh`（無需本機檢出）或本機檢出進行掃描，將 UTC 轉換為本地時區，分類工作強度，並產出包含每小時直方圖、衝突與具體 cron 重新分配建議的 Markdown 報告。

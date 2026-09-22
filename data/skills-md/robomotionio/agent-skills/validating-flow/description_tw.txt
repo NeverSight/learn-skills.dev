@@ -1,0 +1,1 @@
+透過 `robomotion validate <flow-dir>` 驗證已編譯的 Robomotion 流程是否符合 pspec 架構。執行成功時返回 0，出錯時返回 1，並在 stderr 以節點為單位提供報告；不會有 stdout 輸出（可在 shell 管道中使用）。當使用者說「驗證此流程」、「檢查流程」或「這樣對嗎」時，或在執行前使用此指令。此指令不會執行流程——若需行為測試請使用 testing-flow。

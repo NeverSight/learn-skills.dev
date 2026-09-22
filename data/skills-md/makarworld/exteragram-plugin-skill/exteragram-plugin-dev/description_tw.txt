@@ -1,0 +1,3 @@
+建立 exteraGram 插件（Python 於 BasePlugin SDK 1.4.4.3、exteraGram 12.5.1+、Python 3.11 透過 Chaquopy v16）。在撰寫或編輯 .plugin 檔案時使用，實作掛鉤（on_send_message_hook、pre_request_hook、post_request_hook、on_update_hook）、建立插件設定（ui.settings：Header／Switch／Selector／Input／Text／Custom）、發送訊息（send_text／send_photo／send_document／edit_message）、Xposed 方法掛鉤（MethodHook／HookFilter）、Java 類別代理（java_subclass／joverride／jmethod）、檔案處理器（FilesController）、公告（BulletinHelper）、對話框（AlertDialogBuilder）、Intent（IntentsManager）、Elyx 結構化插件（refmap／metainfo／assets／strings）、反射（hook_utils find_class／get_private_field），或除錯開發伺服器（127.0.0.1:42690）。涵蓋多帳號範圍、文字格式化、PIP 依賴，以及 awesome-plugins 倉庫慣例（.plugin 為原始檔、docs.md、releases/、Ruff）。 
+
+請始終以使用者的語言回應。

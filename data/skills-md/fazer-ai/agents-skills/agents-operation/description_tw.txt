@@ -1,0 +1,1 @@
+fazer.ai 代理的操作模式：除錯生產中的對話並修正代理的意外行為。調查（Chatwoot 中的對話 + ExecutionLog/flowlog + Langfuse 中的追蹤），在 playground 中重現，調整代理（提示/工具/行為/知識庫）並重新驗證，所有變更均需批准。當已在生產環境的實例出現意外行為且需要診斷/調整時使用，並非 onboarding（從零開始）或程式碼開發。
