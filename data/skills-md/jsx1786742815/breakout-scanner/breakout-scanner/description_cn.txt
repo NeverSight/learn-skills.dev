@@ -1,0 +1,15 @@
+多策略扫描工具箱（可扩展）。当前内置六个策略：
+
+1. **突破策略（量价确认）** – 通过 “breakout strategy scan”、 “volume breakout”、 “scan breakout tickets” 触发；筛选在平台/箱体/前高处伴随放量突破的股票。
+
+2. **低买策略（低量回撤）** – 通过 “low‑buy strategy”、 “low‑volume pullback”、 “pullback low‑buy”、 “strong stock pullback” 触发；筛选强势股在5日/10日均线附近低量回撤的情况。
+
+3. **击板 / 轮动策略** – 通过 “board‑hitting”、 “relay”、 “board‑hitting strategy”、 “space board”、 “leader first board” 触发；输出市值最高/领涨/首板/次板的候选（委托簿量、换手率）。
+
+4. **主题 / 情绪周期（领涨策略）** – 通过 “sentiment cycle”、 “market sentiment”、 “ice‑point repair fermentation peak ebb”、 “leader strategy” 触发；判断市场情绪周期并给出交易建议（低潮期保持观望）。
+
+5. **75A 策略（弧底刚转上）** – 通过 “75A strategy”、 “arc bottom”、 “just turning up”、 “pot bottom” 触发；筛选位于弧底右侧刚开始转上、颈线以上 ≥10% 且 MA5 ≥ MA10 的低位股（资本追高玩法，单票 ≤10%）。
+
+6. **缺口填补拉升策略（资本缺口 + 主线内拉升，2026‑08‑31 对志光公司实盘验证 +8.53%）** – 通过 “gap‑fill rally”、 “capital gap”、 “main‑line rally”、 “buy second not first” 触发；首先通过板块级资本聚集（同板块 top 净流入前 3 只股票）确定当天的主线，然后在该线中挑选最小的、贴近 MA20 的涨幅（脚本自动过滤掉涨幅 ≥5% 以避免追高；在弱市时关闭）。
+
+每次调用都会先拉取最新的市场数据（东财源，不缓存），再按所选策略过滤并输出目标股票及操作要点（进场点位 / 止损 / 出场）。新增策略 = 添加规则文件 + 扫描脚本。

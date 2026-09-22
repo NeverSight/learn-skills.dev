@@ -1,0 +1,1 @@
+在多个仓库中汇总 GitHub Actions `schedule` 的 cron 表达式，并帮助将 CPU 密集型任务（Docker Compose、Testcontainers、Kind/k3s、矩阵构建）分配到竞争较少的时段。适用于用户提问“我的 cron 任务何时运行？”、“我的定时构建会冲突吗？”、“Testcontainers 的构建应该何时运行？”或想要获取跨仓库的 cron 调度概览/分布报告时。通过 `gh` 扫描（无需本地签出）或本地签出，将 UTC 转换为本地时区，对任务强度进行分类，并生成包含每小时直方图、冲突情况以及具体的 cron 重分配建议的 Markdown 报告。请始终使用用户的语言回复。

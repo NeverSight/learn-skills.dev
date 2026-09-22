@@ -1,0 +1,1 @@
+将代理浏览器工具（playwright‑cli、chrome‑devtools‑mcp）附加到使用用户真实配置文件的正在运行的 Helium 浏览器。适用于在使用 Helium 浏览器时，需要 playwright‑cli 或 chrome‑devtools‑mcp 控制已打开的浏览器而不是启动全新实例的情形；当对 Helium 进行 CDP/远程调试附加失败时；或当 Chromium 调试端口的 HTTP /json 接口返回 404 时。涵盖仅支持 WebSocket 的调试服务器、DevToolsActivePort 的发现以及各平台的配置文件路径。
