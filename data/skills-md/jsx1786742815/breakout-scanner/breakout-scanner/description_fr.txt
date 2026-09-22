@@ -1,0 +1,15 @@
+Boîte à outils de balayage multi‑stratégies (extensible). Inclut actuellement cinq stratégies intégrées :
+
+1. **Stratégie de Breakout (confirmation volume‑prix)** – déclenchée par « breakout strategy scan », « volume breakout », ou « scan a breakout ticker ». Filtre les titres qui font un breakout avec du volume sur des plateformes/boîtes/anciennes hausses.
+
+2. **Stratégie Low‑Buy (retest à volume décroissant)** – déclenchée par « low‑buy strategy », « decreasing‑volume retest », « retest low‑buy », ou « strong stock pullback ». Filtre les titres forts qui retombent avec un volume décroissant jusqu’à la moyenne mobile 5 jours ou 10 jours.
+
+3. **Stratégie Board‑hit/Relay** – déclenchée par « board hit », « relay », « board‑hit strategy », « space board », ou « leader’s first board ». Produit des candidats pour top target/leader/first‑board‑second‑board (volume carnet d’ordres, taux de turnover).
+
+4. **Cycle Thème/Emotion (stratégie leader)** – déclenchée par « emotion cycle », « market sentiment », « ice‑point repair fermentation peak retreat », ou « leader strategy ». Détermine le cycle de sentiment du marché et donne des conseils de trading (positions vides pendant les phases de retrait).
+
+5. **Stratégie 75A (arc‑bottom juste levée de tête)** – déclenchée par « 75A strategy », « arc bottom », « just lifting head », ou « pot bottom ». Filtre les titres à bas prix en arc‑bottom dont le côté droit commence à se lever, avec une distance au neckline ≥ 10 % de marge et MA5 ≥ MA10 (jeu de chasse au capital, allocation ≤ 10 % sur un ticker unique).
+
+6. **Stratégie Gap‑Fill Layer (fund gap + main‑line internal fill, vérifiée le 2026‑08‑31 avec Ziguang Co. +8,53 % test réel)** – déclenchée par « gap fill », « fund gap », « main‑line fill », ou « buy second, not first ». Identifie d’abord la ligne principale du jour au niveau du secteur par regroupement de capitaux (≥ 3 titres du même secteur parmi les titres à plus forte entrée nette), puis sélectionne dans cette ligne la plus petite hausse collée à la MA20 comme position de remplissage (le script filtre automatiquement les hausses ≥ 5 % pour éviter la chasse aux hausses ; désactivé sur les marchés faibles).
+
+Chaque invocation récupère d’abord les dernières données du marché (source East‑Money, sans mise en cache), puis applique la stratégie choisie, en affichant la ou les cibles ainsi que les notes de trading (point d’entrée, stop‑loss, sortie). Ajouter une nouvelle stratégie = ajouter un fichier de règle + script de balayage.
