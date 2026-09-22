@@ -1,0 +1,15 @@
+Caja de herramientas de escaneo multi‑estrategia (extensible). Actualmente incorporadas cinco estrategias:
+
+1. **Estrategia de ruptura (confirmación volumen‑precio)** – activada por “breakout strategy scan”, “volume breakout”, “scan breakout tickets”; filtra acciones que rompen con volumen en plataformas/cajas/máximos anteriores.
+
+2. **Estrategia de compra low‑buy (retroceso de bajo volumen)** – activada por “low‑buy strategy”, “low‑volume pullback”, “pullback low‑buy”, “strong stock pullback”; filtra acciones fuertes que retroceden con bajo volumen hasta la línea de la media móvil de 5 días/10 días.
+
+3. **Estrategia board‑hitting / relay** – activada por “board‑hitting”, “relay”, “board‑hitting strategy”, “space board”, “leader first board”; genera candidatos para la mayor capitalización / líder / primera‑segunda tabla (volumen de libro de órdenes, ratio de rotación).
+
+4. **Ciclo temático / de sentimiento (estrategia líder)** – activada por “sentiment cycle”, “market sentiment”, “ice‑point repair fermentation peak ebb”, “leader strategy”; determina el ciclo de sentimiento del mercado y brinda consejo de trading (mantenerse plano durante periodos de bajada).
+
+5. **Estrategia 75A (arco‑invertido que empieza a subir)** – activada por “75A strategy”, “arc bottom”, “just turning up”, “pot bottom”; examina acciones de arco‑invertido de nivel bajo que apenas están subiendo por el lado derecho, con un espacio ≥10 % por encima del cuello y MA5 ≥ MA10 (juego de persecución de capital, ticket único ≤10 %).
+
+6. **Estrategia de rally de relleno de hueco (gap + rally en línea principal, validación de operación real el 31‑08‑2026 para Zhiguang Co. +8,53 %)** – activada por “gap‑fill rally”, “capital gap”, “main‑line rally”, “buy second not first”; primero identifica la línea principal del día mediante clustering de capital a nivel sector (≥3 acciones del mismo sector entre los mayores flujos netos), luego selecciona dentro de esa línea el menor ascenso que se adhiere a MA20 (el script filtra automáticamente ascensos ≥5 % para evitar perseguir máximos; desactivado en mercados débiles).
+
+Cada invocación primero extrae los datos de mercado más recientes (fuente Dongcai, sin caché), luego filtra según la estrategia elegida y devuelve las acciones objetivo más notas operativas (punto de entrada / stop‑loss / salida). Añadir una nueva estrategia = añadir un archivo de regla + script de escaneo.

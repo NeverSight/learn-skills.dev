@@ -1,0 +1,3 @@
+Debe utilizarse al escanear o revisar archivos C++ individuales de OpenHarmony ArkWeb/Chromium para detectar violaciones de seguridad de hilos que involucren PostTask, BindOnce, base::Unretained(this), WeakPtr, scoped_refptr, mojo::Connector, hilos GPU/Audio/DrDC, callbacks NDK/UI, NWeb, WebContents, Profile, BrowserContext, NavigationController. Aplica control de falsos positivos y genera violaciones estrictas del esquema JSON solo para standard_rule1-standard_rule10.
+
+Por favor, responda siempre en el idioma del usuario.
