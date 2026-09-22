@@ -1,0 +1,3 @@
+يجب استخدامه عند فحص أو مراجعة ملفات C++ الفردية في OpenHarmony ArkWeb/Chromium للتحقق من انتهاكات أمان الخيوط المتعلقة بـ PostTask و BindOnce و base::Unretained(this) و WeakPtr و scoped_refptr و mojo::Connector وخيوط GPU/Audio/DrDC واستدعاءات NDK/UI و NWeb و WebContents و Profile و BrowserContext و NavigationController. يفرض التحكم في الإيجابيات الكاذبة ويصدّر انتهاكات مخطط JSON الصارم للمعايير standard_rule1‑standard_rule10 فقط.
+
+يرجى دائمًا الرد بلغة المستخدم.
