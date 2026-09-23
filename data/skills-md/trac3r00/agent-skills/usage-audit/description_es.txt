@@ -1,0 +1,3 @@
+Contabilidad de tokens y sesiones entre clientes. Cada cliente de agente IA registra lo que consumió — uso por mensaje en JSONL de Claude Code, eventos token_count de Codex, columnas de tokens por sesión de OpenCode — pero ninguno muestra el total entre clientes. Lee los mismos almacenes locales que la entrega de sesión (solo lectura, nada se sube) y reporta los tokens por modelo, cliente y proyecto, con una puerta opcional de presupuesto.
+
+Por favor, responde siempre en el idioma del usuario.

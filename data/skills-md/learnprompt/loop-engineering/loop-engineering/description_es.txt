@@ -1,0 +1,11 @@
+Ingeniería de bucles (ingeniería circular / ingeniería de bucles) andamiaje de implementación, nombre en clave de personalidad “Yu Gong”. Convierte una frase vaga “Quiero manejar X automáticamente” en un bucle autoejecutable equipado con objetivo, entrada, disparador, árbol de trabajo, creador/comprobador, conectores, estado, verificación y salvaguardas, y finalmente te entrega un comando ejecutable de un clic—el disparador que tú mismo accionas.
+
+Esta es la realización ingenieril de la cuarta etapa, Ingeniería de bucles, después de Ingeniería de prompts → Ingeniería de contexto → Ingeniería de arneses: ya no se le da al Agente indicaciones manualmente ronda tras ronda, sino que se diseña un bucle que puede descubrir tareas de forma autónoma, ejecutarlas, verificarlas e iterar hasta que se alcance el objetivo. La salida incluye una matriz de componentes, una “Especificación de bucle” neutral respecto al tiempo de ejecución, dos conjuntos de comandos directamente ejecutables—Claude Code y Codex—y archivos de estado de manifiesto/log.
+
+Las frases disparadoras incluyen, pero no se limitan a: “crear una Ingeniería de bucles”, “convertir esta tarea en un bucle”, “hacer de la tarea un objetivo”, “diseñar una ingeniería de bucles”, “ingeniería de bucles”, “循环工程”, “环路工程”, “dejar que el agente se ejecute solo”, “flujo de trabajo autónomo”, “convertir mantenimiento/triage/upgrade en un bucle automático”, “ayúdame a abrir un objetivo”, “diseñar /goal”, “diseñar /loop”, “ejecutar un agente que pueda iterar por sí mismo”, “Yu Gong”.
+
+Incluso si el usuario solo describe “Quiero que el agente haga algo automáticamente cada día/repetidamente e itere por sí mismo hasta completarlo”, siempre que la intención sea transformar el prompting manual ronda por ronda en un sistema de bucle autoejecutable, debe activarse.
+
+NO usar para: escribir una habilidad ordinaria desde cero (usar skill‑creator), pulir/mejorar una única habilidad existente (usar Luban), tareas puntuales de una sola ronda (hazlo directamente, no se necesita bucle), revisión de código ordinaria (usar code‑review).
+
+Por favor, responde siempre en el idioma del usuario.

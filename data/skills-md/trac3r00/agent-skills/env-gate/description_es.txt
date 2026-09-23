@@ -1,0 +1,1 @@
+Previene fallas en producción debido a la deriva de variables de entorno. Compara un .env desplegado con .env.example para encontrar claves requeridas faltantes, claves requeridas presentes pero vacías, claves extra no declaradas y valores de marcador de posición dejados en el archivo desplegado. Úsalo antes de cada despliegue, en CI, o al incorporar un nuevo entorno — el
