@@ -1,0 +1,11 @@
+Struttura di implementazione Loop Engineering (循环工程 / 环路工程), personaggio codice‑nome “Yu Gong”. Converte una dichiarazione vaga come “Voglio ottenere X automaticamente” in un loop autonomo dotato di obiettivo, ingresso, trigger, worktree, maker/checker, connettori, stato, verifica e barriere di sicurezza, fornendo infine un comando eseguibile con un clic nelle tue mani — aziona il trigger tu stesso.
+
+Questo è il quarto stadio, focalizzato sull’ingegneria, dopo Prompt Engineering → Context Engineering → Harness Engineering: Loop Engineering. Invece di fare prompt all’agente manualmente turno per turno, progetti un sistema che può scoprire autonomamente i compiti, eseguirli, verificarli e iterare fino al raggiungimento dell’obiettivo. I deliverable includono una matrice dei componenti, una “Loop Spec” neutra rispetto al runtime, due set di comandi eseguibili direttamente (Claude Code e Codex) e file di manifest/log di stato.
+
+Le frasi trigger includono, senza limitarsi a: “create a Loop Engineering”, “turn this task into a loop”, “make the task a goal”, “design a looping project”, “loop engineering”, “循环工程”, “环路工程”, “let the agent run by itself”, “autonomous workflow”, “turn maintenance/triage/upgrade into an automatic loop”, “help me open a goal”, “design /goal”, “design /loop”, “run an agent that can self‑iterate”, “Yu Gong”.
+
+Anche se l’utente dice solo qualcosa come “Voglio che l’agente faccia automaticamente qualcosa ogni giorno/ripetutamente e si iteri fino al completamento”, finché l’intento è trasformare il prompting manuale turno per turno in un sistema di loop autonomo, dovrebbe essere attivato.
+
+Non usarlo per: scrivere una skill ordinaria da zero (usa skill‑creator), perfezionare/aggiornare una singola skill esistente (usa Luban), compiti una tantum a turno unico (eseguili direttamente, non serve un loop), revisione di codice ordinaria (usa code‑review).
+
+Rispondi sempre nella lingua dell’utente.

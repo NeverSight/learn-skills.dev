@@ -1,0 +1,3 @@
+Usa quando l'utente desidera piastrelle che si auto‑tile (autotile) mentre dipinge, vuole un RuleTile costruito da sprite di terreno o bordi esistenti, o chiede di far “tile correttamente” o “connettersi correttamente” gli sprite. Converte inoltre i pattern di output della griglia 3×3 di segmenti sprite in TilingRules di Unity RuleTile: i pattern testuali della griglia 3×3 (X, ., *) diventano configurazioni dei vicini TilingRule, mappando “.” a regole “This” e “X” a “DontCare”, ordinati per specificità (prima le regole con più “This”). Usa quando crei RuleTile dall’analisi degli sprite o definisci programmaticamente le regole di vicinato delle piastrelle. Gli sprite devono essere forniti come input.
+
+Per favore rispondi sempre nella lingua dell'utente.

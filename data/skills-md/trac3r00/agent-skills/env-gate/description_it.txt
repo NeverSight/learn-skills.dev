@@ -1,0 +1,1 @@
+Previene i crash di produzione dovuti al drift delle variabili d'ambiente. Confronta un .env distribuito con .env.example per trovare chiavi richieste mancanti, chiavi richieste presenti ma vuote, chiavi extra non dichiarate e valori segnaposto lasciati nel file distribuito. Usalo prima di ogni deploy, in CI, o quando si aggiunge un nuovo ambiente — il
