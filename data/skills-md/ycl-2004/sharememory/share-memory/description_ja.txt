@@ -1,0 +1,4 @@
+プロジェクト単位の共有メモリを AI コーディングエージェント（Claude Code + Codex）用に、プロジェクトごとに 1 つの AI_MEMORY/ で実現します。ユーザーが「init memory」「update memory」「sync memory」「memory status」「consolidate memory」「repair memory」「migrate memory」「更新记忆」「共享记忆」と言ったとき、またはプロジェクトに AI_MEMORY/ が存在すべきなのに欠如しているとき、あるいは他のエージェントの完了した作業を記録する際に使用してください。  
+使用しないでください: 一般的なチャットメモリ、プロジェクト外の共有状態、一回限りの要約、プロジェクト横断的な個人設定、執筆資料のアーカイブ、または読み取り専用監査。ユーザーが書き込みを禁止した場合（「don't modify anything」「read-only audit」「only write the report」など）、自動書き込みは一時停止します — AI_MEMORY/ を書き込まず、最後にその旨を伝えてください。  
+
+常にユーザーの言語で応答してください。

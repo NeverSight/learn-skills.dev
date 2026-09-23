@@ -1,0 +1,3 @@
+Herdr 内で omp スタイルのロールエージェントチーム（scouter、planner、designer、implementer、tasker、reviewer、security‑reviewer、researcher、inspector）を実行します。呼び出しエージェントはオーケストレータとして残り、兄弟ペインにロールごとに 1 つずつ CLI エージェントを生成し、自己完結型ブリーフを配布し、ファイルベースのレポートを収集し、統合、ゲート、git を管理します。Herdr 内で実行している場合（HERDR_ENV=1）で、非自明な作業にはこれを使用してください：ユーザーが herd、team、roles、designer または reviewer エージェント、並列ワーカー、"like omp agents"、またはタスクが調査（複数ファイル、別リポジトリ、ツール規約）が必要、数ファイル以上に触れる、あるいはプロジェクトの AGENTS.md がこのスキルを通すよう指示している場合です。Herdr の外では使用しないでください；製品判断を伴わない 1〜2 ファイルの変更は直接行います。
+
+常にユーザーの言語で回答してください。

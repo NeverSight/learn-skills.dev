@@ -1,0 +1,1 @@
+hono/jsx を使用した Hono アプリの UI を構築する際に使用します — ページ、レイアウト、フォーム、インタラクティブな部分 — jsxRenderer でサーバーサイドレンダリングされ、Vite で開発・ビルドされ、hono/jsx/dom によるクライアントコンポーネントを使用します。tsconfig の jsxImportSource が "hono/jsx" である、コードが 'hono/jsx'、'hono/jsx/dom'、'hono/jsx-renderer' または 'vite-ssr-components' をインポートしている、またはユーザーが Hono プロジェクトでページ、画面、レイアウト、フォームを要求したときにトリガーします。決して React を使用しないでください。

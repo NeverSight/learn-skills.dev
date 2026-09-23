@@ -1,0 +1,7 @@
+ブロックされた、または到達しにくいウェブアクセスのためのエスカレーションスキル — 通常のブラウズ/フェッチがブロックされたときに読み込む（WAF、403、Cloudflare、JS‑のみレンダリング、ログインゲート、または汎用フェッチャーが読めないプラットフォーム）。  
+階層型ルーター:  
+TIER 1 insane‑search（ヘッドレス抽出＋curl_cffi TLS インパーソネーションによるWAFバイパス、yt‑dlp、Jina Reader、パブリックAPI、Playwright real‑Chrome フォールバック）;  
+TIER 1.5 agent‑reach（中国およびソーシャルプラットフォーム向けプラットフォームネイティブリーダー：小紅書、抖音、微博、哔哩哔哩、V2EX、WeChat、さらにTwitter/Reddit/LinkedIn/GitHub）;  
+TIER 2 Chrome stealth（CloakBrowser ステルス Chromium ＋ エージェントブラウザ CDP によるクリック、フォーム、スクリーンショット、動画、クッキー login）。  
+トリガー: ブロックサイト、ボット検知回避、Cloudflare/WAF バイパス、スクレイプ、ステルスブラウザ、クッキーインポート、フォーム入力、スクリーンショット、YouTube 再生、小紅書、抖音、微博、哔哩哔哩、V2EX、WeChat 記事、ポッドキャスト文字起こし。  
+単純検索（web‑search 使用）やプレーンフェッチ（webfetch 使用）には使用しないでください。

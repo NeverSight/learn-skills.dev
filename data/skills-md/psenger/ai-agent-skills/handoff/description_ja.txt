@@ -1,0 +1,3 @@
+ユーザーが /handoff（ファイル名引数の有無にかかわらず） を入力したとき、または「handoff」「save state」「context rot」「save session」「create a handoff」「I need a clean start」と言ったとき、コンテキストをクリアまたはセッションを切り替える前に進捗をスナップショットしたいとき、コンテキスト制限（300〜400k トークン）に近づいているとき、または現在のセッション状態を別のエージェントに委譲したいときに、このスキルを必ず使用してください。さらに、RESUME モードでも呼び出します：ユーザーが「load handoff」「resume from [file]」「continue where we left off」「pick up where I left off」「load the handoff at [path]」と言ったとき、.claude/handoffs/ のファイルパスを参照したとき、または以前のセッションからのハンドオフファイルがあると言ったときです。目標、決定、完了したステップ、未完了の作業、制約、変更されたファイルを捕捉した構造化された JSON スナップショットを作成またはロードし、作業を新しいセッションでクリーンに続行できるようにします。
+
+常にユーザーの言語で応答してください。

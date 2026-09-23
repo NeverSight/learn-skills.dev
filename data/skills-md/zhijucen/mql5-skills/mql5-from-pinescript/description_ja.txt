@@ -1,0 +1,1 @@
+TradingView の Pine Script インジケーターを MQL5 に移植する。pine-facade エンドポイントからオープンソースの Pine を取得（ログインやブラウザは不要）、Pine の構造（offsets、fill、plotshape、request.security、alertcondition、var-state）をシフト不変性とクローズドバー状態機械モデルを用いた MQL5 のバッファ／チャートオブジェクトにマッピングし、mql5_helper でコンパイルし、すべての差異を記録する。
