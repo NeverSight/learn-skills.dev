@@ -1,0 +1,1 @@
+改动 Python / Shell 文件后判定并执行 L1–L4 分级后置校验（ruff / ty / pyrefly / pyright / mypy / bash -n），并如实报告工具缺失导致的未校验缺口。Use after modifying .py or .sh files, before claiming a change is complete or reporting success; also when the user asks to run post-edit checks, lint, type-check, or verify that a change passes L1–L4.

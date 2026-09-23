@@ -1,0 +1,1 @@
+Blocks credentials from entering code, diffs, or agent output. Scans files or a unified diff for known key formats (AWS, GitHub, OpenAI/Anthropic-style, Slack, GCP, private keys, JWTs, assigned passwords) plus high-entropy assigned strings — offline, stdlib-only, no gitleaks binary. Use as a pre-commit gate on agent-written diffs, before pasting config into a session, or in CI.

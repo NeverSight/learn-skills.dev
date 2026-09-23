@@ -1,0 +1,5 @@
+Loop Engineering（循环工程 / 环路工程）落地脚手架，人格代号「愚公」。把一句模糊的「我想自动搞定 X」，装配成 goal、intake、trigger、worktree、maker/checker、connectors、state、verification、guardrails 都齐备的自跑 Loop，最后把可一键执行的命令交到你手上——扳机你自己扣。
+这是 Prompt Engineering → Context Engineering → Harness Engineering 之后的第四阶段 Loop Engineering 的工程化落地：你不再一轮一轮手动提示 Agent，而是设计一个能自主发现任务、执行、验证、迭代到目标达成的循环。产出一份组件矩阵、一份 runtime 中立的《Loop Spec》、Claude Code 与 Codex 两套可直接运行的命令、以及 manifest/日志等状态文件。
+触发词包括但不限于：做一个 Loop Engineering、把这个任务做成 loop、把任务做成 goal、设计一个循环工程、loop engineering、循环工程、环路工程、让 agent 自己跑、自主工作流、把维护/triage/升级做成自动循环、帮我开 goal、设计 /goal、设计 /loop、跑一个能自己迭代的 agent、愚公。
+即使用户只是描述「我想让 agent 每天/反复自动做某事，自己迭代到完成」，只要意图是把人工逐轮提示变成可自跑的循环系统，都应触发。
+不要用于：从零写一个普通 skill（用 skill-creator）、打磨/升级单个已有 skill（用鲁班 luban）、一次性的单轮任务（直接做即可，不必上 loop）、普通代码 review（用 code-review）。

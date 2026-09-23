@@ -1,0 +1,1 @@
+Fires real HTTP requests and validates responses against expectations — status code, JSON field values (dot-notation paths), latency budget, content-type — with stdlib urllib, no requests library, no curl subprocess. Use to verify endpoints from CI or an agent session, smoke-test a deploy, or prove an API behaves as documented before building on it.

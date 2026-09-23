@@ -1,0 +1,1 @@
+Extracts the unresolved commitments, deferrals, decisions, and open questions from a conversation transcript into a small JSON ledger — so a different surface (a cron job, a trigger, a fresh session) can pick them up instead of dropping them. Use to hand off context across surfaces, or to gate a session/thread handoff on how much is left open.

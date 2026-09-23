@@ -1,0 +1,1 @@
+Groups a log file's errors by pattern and ranks offenders — normalizes volatile tokens (timestamps, UUIDs, IPs, paths, numbers) so "connection refused to db-01" and "db-99" count as one problem seen N times. Handles both level-tagged logs (ERROR/WARN/INFO) and exception-style stack logs (DaemonError:, Traceback). Offline, stdlib-only, deterministic.

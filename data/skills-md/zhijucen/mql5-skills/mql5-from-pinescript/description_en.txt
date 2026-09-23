@@ -1,0 +1,1 @@
+Port TradingView Pine Script indicators to MQL5. Fetch open-source Pine via the pine-facade endpoint (no login/browser), map Pine constructs (offsets, fill, plotshape, request.security, alertcondition, var-state) onto MQL5 buffers/chart objects with a shift-invariance + closed-bar state-machine model, compile via mql5_helper, and record every deviation.

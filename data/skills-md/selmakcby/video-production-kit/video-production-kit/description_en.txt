@@ -1,0 +1,9 @@
+YouTube video editleme ve paketleme skill'i. Uzun ham video kaydından kes listesi, alt yazı (SRT),
+açıklama, bölüm zaman damgaları ve sosyal medya içeriği üretir. CapCut Mac timeline'larından
+segment-doğru ses çıkarmayı bilir. ffmpeg + Whisper turbo tabanlı.
+
+TRIGGER bu skill'i çağır:
+- kullanıcı transkript / altyazı / SRT / kes listesi / YouTube açıklaması / bölüm zaman damgası /
+  X thread / IG caption ister
+- CapCut, timeline, draft_info.json, ham kayıt, video editleme bahsi geçer
+- .mov / .mp4 dosyası verilmiştir ve ondan bir çıktı istenmiştir
