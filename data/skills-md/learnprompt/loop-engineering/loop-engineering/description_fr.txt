@@ -1,0 +1,11 @@
+Scaffold d'implémentation Loop Engineering (循环工程 / 环路工程), code‑nom « Yu Gong ». Transformez un vague « Je veux gérer X automatiquement » en une boucle autonome équipée d’objectif, d’entrée, de déclencheur, d’arbre de travail, de créateur/vérificateur, de connecteurs, d’état, de vérification et de garde‑fous, et fournissez‑vous enfin une commande exécutable en un clic — vous déclenchez vous-même.
+
+Il s’agit de la réalisation technique de la quatrième étape, Loop Engineering, après Prompt Engineering → Context Engineering → Harness Engineering : vous ne promptiez plus manuellement l’agent tour à tour, mais concevez une boucle capable de découvrir les tâches de façon autonome, d’exécuter, de vérifier et d’itérer jusqu’à atteindre l’objectif. La sortie comprend une matrice de composants, un « Loop Spec » neutre d’exécution, deux ensembles de commandes directement exécutables (Claude Code et Codex), ainsi que des fichiers d’état manifest/log.
+
+Les phrases déclencheuses incluent, sans s’y limiter : « Do a Loop Engineering », « Turn this task into a loop », « Make the task into a goal », « Design a loop engineering », « loop engineering », « 循环工程 », « 环路工程 », « let the agent run by itself », « autonomous workflow », « turn maintenance/triage/upgrade into an automatic loop », « help me open a goal », « design /goal », « design /loop », « run an agent that can iterate by itself », « Yu Gong ».
+
+Même si l’utilisateur ne dit que « Je veux que l’agent fasse automatiquement quelque chose chaque jour/répétitivement et itère jusqu’à la complétion », tant que l’intention est de convertir un prompt manuel tour à tour en un système de boucle autonome, cela doit être déclenché.
+
+Ne pas utiliser pour : écrire une compétence normale à partir de zéro (utiliser skill‑creator), polir/améliorer une compétence existante unique (utiliser Luban), tâches ponctuelles d’un seul tour (les faire directement, pas de boucle nécessaire), revue de code ordinaire (utiliser code‑review).
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

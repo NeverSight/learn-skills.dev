@@ -1,0 +1,5 @@
+Mémoire partagée à l’échelle du projet pour les agents de codage IA (Claude Code + Codex) via un répertoire AI_MEMORY/ par projet. À utiliser lorsque l’utilisateur dit « init memory », « update memory », « sync memory », « memory status », « consolidate memory », « repair memory », « migrate memory », « 更新记忆 », « 共享记忆 », lorsque AI_MEMORY/ est absent dans un projet qui devrait en avoir, ou pour enregistrer le travail terminé pour l’autre agent.  
+
+NE PAS UTILISER pour : mémoire de chat générale, état partagé hors projet, résumés ponctuels, préférences personnelles inter‑projets, archivage de documents d’écriture, ou audits en lecture seule. Si l’utilisateur interdit l’écriture (« don't modify anything », « read-only audit », « only write the report »), l’écriture automatique est suspendue — ne créez pas AI_MEMORY/ et indiquez‑le à la fin.  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

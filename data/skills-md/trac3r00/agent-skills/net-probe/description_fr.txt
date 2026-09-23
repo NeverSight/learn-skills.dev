@@ -1,0 +1,1 @@
+Diagnostics réseau avec uniquement les modules socket/ssl de la bibliothèque standard — vérifications de ports (basées sur la connexion, pas de scan SYN), résolution DNS, expiration de certificats TLS avec budget quotidien, et échantillonnage de latence HTTP. Le triage « le service est‑il actif, est‑il joignable, le certificat va‑t‑il bientôt expirer » sans nmap, dig ou openssl.
