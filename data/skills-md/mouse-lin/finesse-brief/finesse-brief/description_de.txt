@@ -1,0 +1,27 @@
+Definiere den Arbeitsbereich, bevor irgendjemand ihn baut — der Workbench‑Architekt, der einen vagen Satz in ein baubereites Workbench‑Spezifikationsdokument verwandelt. Er läuft, BEVOR irgendeine Benutzeroberfläche existiert, und schreibt nie eine: Er entscheidet, WAS das Ding ist, und übergibt finesse‑ui (oder Cursor, v0, 通义, einem Menschen) ein Spezifikationsdokument, das ausreichend vollständig ist, um daraus eine Seite zu bauen. Das Ergebnis ist immer eine **Webseite** — eine H5‑Seite im Handy‑Browser oder eine Desktop‑Webkonsole — niemals eine native App, weshalb der tägliche Hook der einzige Retentionsmechanismus ist: kein Push, keine Benachrichtigung, nichts, worauf man zurückgreifen könnte. Deckt **zwei Bereiche mit einer Methode** ab.
+
+**Personal** — 一个人一个领域的每日回访页 (经期 · 增肌 · 养宠 · 记账 · 摆摊 · 陪孩子学习): ein Routing‑Wort eingeben, im selben Zug einen kompletten Arbeitsbereich erhalten, aus einer Bibliothek vorgebundener Skelett‑Vorlagen.
+
+**System** — 围着一个业务对象转的多模块工作台 (CRM · ERP · AI Agent 控制台 · 数据看板 · 智慧工厂 · 项目管理 · 电商后台 · 内容创作中心 · 医疗 · 教育 · 运营后台): zwei strukturierte Fragen (主对象 · 谁在用 · 每天最常做什么), dann das gesamte Spezifikationsdokument. Welcher Pfad gewählt wird, entscheidet ein interner Test — 能不能说出「一共有 N 个 X」 — und nicht, indem der Nutzer eine Kategorie auswählt, weil ein Kategoriemenü jedes Mal seine erste Zeile zurückgibt.
+
+Klassifiziert nach STRUKTUR, nicht nach Zielgruppe: **cycle · ledger · state · runbook · feed · care · operation · pipeline · registry · console · monitor** — elf Strukturen, von denen jede ihre eigene Hook‑Formel, das Layout des ersten Bildschirms, das Datenmodell‑Skelett, erforderliche Module und eine spezifische Auslauf‑Strategie bestimmt; Zielgruppen sind unendlich und vermitteln nichts.
+
+Setzt die Schranke durch, an der diese gesamte Kategorie endet: Jede Hook‑Klausel muss das Feld benennen, das sie liest, **wer oder was dieses Feld schreibt** (user · system · integration · derived — die System‑Domain‑Antwort ist fast nie „der Nutzer“), und was der Bildschirm am ersten Tag ohne Daten anzeigt — ein Hook ohne Datenbasis ist ein schöner Satz, der bis Donnerstag zum Glückskeks wird, und ein System‑Arbeitsbereich ohne Datenbasis ist ein großartiges Demo, das leere Tabellen rendert, sobald es auf eine echte Datenbank trifft.
+
+Gibt `.workbench/spec.md` aus: YAML‑Frontmatter, das ein Builder mechanisch liest — Zweck, die einzelne Person oder die Rollen, `subject`, Hook mit seinen gebundenen Feldern und Erstellern, Cold‑Start‑Zeilen, **den ersten Bildschirm von oben nach unten**, **Module/Kanäle jeweils mit ihrer Funktion und ihrem L1/L2/L3‑Seitenbaum**, **`entities` — das Datenmodell mit Feldern, Erstellern und Beziehungen**, MVP‑Umfang, visuelle Richtung, Erlös‑Naht — plus chinesische Prosa für den Menschen und einen `给实现方`‑Abschnitt, der den privaten Wortschatz der Methode in klare Bauanweisungen übersetzt, sodass die Datei ein vollständiges Briefing für jeden Builder ist und nicht nur für die Fähigkeit, die sie erstellt hat.
+
+Wo es kein Dateisystem gibt — ein Chat‑Produkt, ein Telefonassistent — wird das gesamte Spezifikationsdokument in einem kopierbaren Block ausgegeben, anstatt vorzutäuschen, eine Datei zu schreiben.
+
+Behauptet, bevor es fragt, bei jedem Einstieg: Sobald die Domäne bekannt ist, erzeugt es im selben Zug einen kompletten Arbeitsbereich, weil Einwände billig zu erzeugen und teuer zu erfragen sind — 「养宠物」 liefert einen ausgefüllten Vorschlag zur Reaktion, und 「我想做个 CRM」 liefert zwei Fragen und dann einen ausgefüllten Vorschlag, niemals ein Interview über fünf Runden.
+
+Jede spätere Nachricht gibt die gesamte verbesserte Definition erneut aus, anstatt isoliert eine Frage zu beantworten, sodass der Nutzer stets ein sich verbesserndes Artefakt vor Augen hat, nie eine Liste unerledigter Fragen.
+
+Erzählt niemals seine eigene Methode: keine Struktur‑Namen, Durchwahlnummern, Kanal‑Typ‑Bezeichnungen oder Erklärungen, warum ein Menü schlecht ist, in irgendetwas, das der Nutzer liest.
+
+Stellt eine Abandon‑Blacklist für den zweiten Tag für persönliche Arbeitsbereiche und eine **dead‑console blacklist** für Systembereiche bereit (die Listen‑Seiten‑Hölle, das leere Back‑Office, das Modul, das ein Substantiv statt einer Fähigkeit ist, die Berechtigungshalluzination, die Demo‑Daten‑Lüge), eine Eingabe‑gegen‑Ertrag‑Ausgewogenheits‑Regel, eine Kanal/Modul‑Misch‑Regel, ein Cold‑Start‑Protokoll und eine Erlös‑Naht, die aus einem Modul herauswächst, anstatt darauf aufgeklebt zu werden.
+
+Berücksichtigt außerdem das Pflegethema, das Einwände haben kann — ein schulpflichtiges Kind, ein Teenager, ein Elternteil — bei dem Protokollierung zur Überwachung wird und der Hook Fortschritt statt Defizit angeben muss.
+
+Unterstützt Verb‑Befehle (sketch · discover · define · modules|channels · hook · data · pages · audit · narrow|widen · monetize · handoff).
+
+Wird ausgelöst durch "个人工作台", "专属工作台", "AI 工作台", "AI Agent 工作台", "Agent 控制台", "工作台", "后台", "管理后台", "控制台", "CRM", "ERP", "进销存", "数据看板", "BI 看板", "驾驶舱", "大屏", "智慧工厂", "IoT 控制中心", "项目管理系统", "内容创作中心", "电商后台", "运营后台", "教务系统", "医疗系统", "知识库", "我想做个自己的工具", "帮我想一个工作台", "帮我定义一下这个产品", "不知道做什么产品", "personal dashboard", "admin console", "back office", "what should I build", "每日钩子", "daily hook", "左轨", "频道设计", "模块划分", "信息架构", "页面层级", "数据模型", "留存机制", "第二天没人打开", "用户不会录数据", "冷启动", "空数据", "这个功能有人用吗", "先给我看看效果", "直接做出来我看看", "给孩子做个", "给我妈做个", "经期/健身/睡眠/备考/养宠/育儿/记账/摆摊 工作台", "/workbench".

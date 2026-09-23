@@ -1,0 +1,11 @@
+Loop Engineering (循环工程 / 环路工程) Implementierungsgerüst, Codenamen‑Persönlichkeit “Yu Gong”. Verwandle eine vage Aussage wie “I want to automate X” in eine selbstlaufende Schleife, ausgestattet mit Ziel, Eingabe, Auslöser, Arbeitsbaum, Ersteller/Prüfer, Verbindungen, Zustand, Verifizierung und Schutzmechanismen, und liefere schließlich einen Ein‑Klick‑ausführbaren Befehl an dich – der Auslöser wird von dir betätigt.
+
+Dies ist die vierte Stufe nach Prompt Engineering → Context Engineering → Harness Engineering: die praktische Umsetzung von Loop Engineering. Du gibst dem Agenten nicht mehr Runde für Runde manuell Eingabeaufforderungen; stattdessen entwirfst du eine Schleife, die autonom Aufgaben entdeckt, ausführt, verifiziert und iteriert, bis das Ziel erreicht ist. Das Ergebnis umfasst eine Komponenten‑Matrix, eine Laufzeit‑unabhängige “Loop Spec”, zwei Sätze direkt ausführbarer Befehle (Claude Code und Codex) sowie Zustandsdateien wie Manifeste und Protokolle.
+
+Auslöserphrasen umfassen, sind aber nicht darauf beschränkt: “create a Loop Engineering”, “turn this task into a loop”, “make the task a goal”, “design a loop engineering”, “loop engineering”, “循环工程”, “环路工程”, “let the agent run by itself”, “autonomous workflow”, “turn maintenance/triage/upgrade into an automatic loop”, “open a goal for me”, “design /goal”, “design /loop”, “run an agent that can iterate itself”, “Yu Gong”.
+
+Selbst wenn ein Nutzer nur sagt: “I want the agent to automatically do something every day/repeatedly and iterate itself to completion”, solange die Absicht besteht, manuelles, rundenweises Prompten in ein selbstlaufendes Schleifensystem zu überführen, sollte dies ausgelöst werden.
+
+Nicht verwenden für: das Schreiben einer regulären Fähigkeit von Grund auf (verwende skill‑creator), das Verfeinern/Aktualisieren einer einzelnen bestehenden Fähigkeit (verwende Luban), einmalige Einzel‑Rund‑Aufgaben (einfach direkt ausführen, keine Schleife nötig), gewöhnliche Code‑Reviews (verwende code‑review).
+
+Bitte antworte stets in der Sprache des Nutzers.

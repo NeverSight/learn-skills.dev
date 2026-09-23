@@ -1,0 +1,3 @@
+Verwenden, wenn der Benutzer Kacheln möchte, die beim Malen automatisch getiled werden (autotile), ein RuleTile aus vorhandenen Terrain‑ oder Kantensprites erstellen will oder verlangt, dass Sprites „richtig getiled“ bzw. „korrekt verbunden“ werden. Außerdem werden Sprite‑Segment‑3×3‑Gitter‑Ausgabemuster in Unity‑RuleTile‑TilingRules umgewandelt: 3×3‑Raster‑Textmuster (X, ., *) werden zu TilingRule‑Nachbarschaftskonfigurationen, wobei „.“ zu „This“-Regeln und „X“ zu „DontCare“ gemappt wird, sortiert nach Spezifität (zuerst mehr „This“-Regeln). Verwenden, wenn RuleTiles aus Sprite‑Analyse erstellt oder Nachbarschaftsregeln für Kacheln programmatisch definiert werden. Sprites müssen als Eingabe bereitgestellt werden.
+
+Bitte immer in der Sprache des Benutzers antworten.
