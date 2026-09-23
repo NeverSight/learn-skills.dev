@@ -1,0 +1,3 @@
+Yapi 플랫폼에서 API 정의를 자동으로 가져와 원시 JSON을 LLM에 반환합니다. 사용자가 `yapi-skill`을 호출하거나 백엔드 API 정의를 얻고자 하거나, Yapi API 문서를 조회하거나, API 필드를 조회하려는 경우 이 SKILL을 반드시 사용해야 합니다. 워크플로우: .env 파일에서 YAPI 설정을 찾아 로드 → Bash를 사용해 Yapi의 오픈 API를 호출하는 SKILL 내장 `scripts/yapi_fetch.py`를 실행 → 스크립트에서 출력된 원시 JSON을 정리하여 반환합니다. 사용자가 명시적으로 “use yapi-skill”이라고 말하지 않더라도, 코드 구현이나 디버깅을 위해 Yapi에서 API 정의를 가져오는 것이 목표라면 이 SKILL을 반드시 사용해야 하며, yapi-mcp MCP 도구를 대체제로 사용하는 것은 금지됩니다.
+
+항상 사용자의 언어로 응답하십시오.

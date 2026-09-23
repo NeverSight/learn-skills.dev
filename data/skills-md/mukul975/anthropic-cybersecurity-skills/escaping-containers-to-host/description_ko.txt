@@ -1,0 +1,1 @@
+권한이 부여된 포드, 호스트 마운트, runC CVE 및 노출된 Docker 소켓을 악용하여 컨테이너에서 탈출하고 인증된 컨테이너 보안 평가 중에 기본 호스트에 도달합니다. 승인된 탈출 테스트를 실행할 때, 권한이 부여된 워크로드나 hostPath 워크로드의 실제 영향을 입증하거나 탈출 방어책이 실제로 유효함을 검증할 때 사용하십시오. 키워드: 컨테이너 탈출, privileged, hostPath, docker.sock, runC CVE-2019-5736, CVE-2024-21626, release_agent, nsenter. 이러한 기술을 방어적 탐지에 사용하지 마십시오 – detecting-container-escape-attempts를 사용하십시오.

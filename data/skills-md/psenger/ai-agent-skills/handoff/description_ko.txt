@@ -1,0 +1,3 @@
+사용자가 /handoff(파일명 인자 유무에 관계없이)를 입력하거나, “handoff”, “save state”, “context rot”, “save session”, “create a handoff”, “I need a clean start”와 같은 문구를 말하거나, 컨텍스트를 지우거나 세션을 전환하기 전에 진행 상황을 스냅샷으로 저장하고 싶을 때, 컨텍스트 한도(300–400k 토큰)에 근접했을 때, 혹은 현재 세션 상태를 다른 에이전트에게 위임하고 싶을 때마다 이 기능을 사용하십시오. 또한 RESUME 모드에서는 사용자가 “load handoff”, “resume from [file]”, “continue where we left off”, “pick up where I left off”, “load the handoff at [path]”라고 말하거나, .claude/handoffs/ 파일 경로를 언급하거나, 이전 세션의 handoff 파일이 있다고 말할 때 호출하십시오. 목표, 결정, 완료된 단계, 보류 중인 작업, 제약 조건 및 수정된 파일을 포함한 구조화된 JSON 스냅샷을 생성하거나 로드하여 새 세션에서 작업을 깨끗하게 이어갈 수 있도록 합니다.
+
+항상 사용자의 언어로 답변하십시오.

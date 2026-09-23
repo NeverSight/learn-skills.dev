@@ -1,0 +1,5 @@
+프로젝트별 공유 메모리(AI_MEMORY/ 하나) 를 통해 AI 코딩 에이전트(Claude Code + Codex)를 지원합니다. 사용자는 다음과 같은 명령어를 말할 때 사용합니다: “init memory”, “update memory”, “sync memory”, “memory status”, “consolidate memory”, “repair memory”, “migrate memory”, “更新记忆”, “共享记忆”. 또한 해당 프로젝트에 AI_MEMORY/ 가 없을 경우 또는 다른 에이전트를 위한 완료된 작업을 기록할 때 사용합니다.  
+
+사용 금지 대상: 일반 채팅 메모리, 프로젝트 외 공유 상태, 일회성 요약, 프로젝트 간 개인 선호도, 글쓰기 자료 보관, 읽기 전용 감사 등. 사용자가 작성 금지를 명시하면(“don't modify anything”, “read-only audit”, “only write the report” 등) 자동 기록이 일시 중지됩니다—AI_MEMORY/ 를 쓰지 않고 마지막에 그 사실을 알립니다.  
+
+항상 사용자의 언어로 응답하십시오.
