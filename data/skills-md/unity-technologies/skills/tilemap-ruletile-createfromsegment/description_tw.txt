@@ -1,0 +1,3 @@
+在使用者希望在繪製時自動平鋪（autotile）的磁磚、希望從現有的地形或邊緣精靈建立 RuleTile，或要求讓精靈「正確平鋪」或「正確連接」時使用。也會將 sprite‑segment‑3x3grid 輸出模式轉換為 Unity RuleTile 的 TilingRules：3x3 網格文字模式（X、.、*）會變成 TilingRule 的鄰近配置，將 '.' 映射為 “This” 規則、'X' 映射為 “DontCare”，並依照特異性排序（“This” 規則較多者優先）。在從精靈分析建立 RuleTile 或以程式方式定義磁磚鄰近規則時使用。必須提供精靈作為輸入。
+
+請始終以使用者的語言回覆。

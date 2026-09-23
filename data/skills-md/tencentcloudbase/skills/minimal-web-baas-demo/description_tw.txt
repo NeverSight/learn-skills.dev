@@ -1,0 +1,1 @@
+快速路徑，用於最小化的 CloudBase Web + 資料庫示範（最小前後端／最小可用 fullstack／類似 Lovable 的 BaaS）。預設使用 @cloudbase/js-sdk 客戶端 CRUD（NoSQL app.database／PG app.rdb），僅支援 MCP schema，預覽優先，且除非涉及密鑰、定時／背景工作，或安全規則／RLS 無法表達的邏輯，否則禁止使用雲函式。適用於 搭一套 demo、留言板、Todo、Notes、Kanban，或當使用者說「帶雲函式+雲資料庫」但只需要 CRUD 時。**不適用於** 生產環境的多服務後端、CloudRun、微信小程序，或真正需要伺服器密鑰的任務。

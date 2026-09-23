@@ -1,0 +1,1 @@
+利用特權 Pod、主機掛載、runC 漏洞以及暴露的 Docker socket，在授權的容器安全評估期間突破容器並侵入底層主機。於執行已批准的突破測試、展示特權或 hostPath 工作負載的實際影響，或驗證逃脫緩解措施確實有效時使用。關鍵字：容器突破、特權、hostPath、docker.sock、runC CVE-2019-5736、CVE-2024-21626、release_agent、nsenter。不要將其用於這些技術的防禦性偵測——請使用 detecting-container-escape-attempts。

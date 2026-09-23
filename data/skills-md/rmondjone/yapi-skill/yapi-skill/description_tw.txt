@@ -1,0 +1,1 @@
+自動從 Yapi 平台抓取 API 定義並將原始 JSON 返回給 LLM。當使用者呼叫 `yapi-skill`，或請求取得後端 API 定義、檢視 Yapi API 文件、或查詢 API 欄位時，必須使用此 SKILL。工作流程：從 .env 中定位並載入 YAPI 設定 → 使用 Bash 執行 SKILL 內建的 `scripts/yapi_fetch.py` 以呼叫 Yapi 的開放 API → 整理腳本輸出的原始 JSON 並回傳。即使使用者未明確說「使用 yapi-skill」，只要目標是從 Yapi 取得 API 定義以實作或除錯程式碼，也必須使用此 SKILL，且禁止以 yapi-mcp MCP 工具作為替代。請始終以使用者的語言回覆。

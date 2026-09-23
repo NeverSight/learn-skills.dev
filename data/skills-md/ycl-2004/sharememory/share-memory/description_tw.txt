@@ -1,0 +1,9 @@
+每個專案使用一個 AI_MEMORY/，為 AI 程式碼代理（Claude Code + Codex）提供專案範圍的共享記憶體。
+
+在使用者說「init memory」「update memory」「sync memory」「memory status」「consolidate memory」「repair memory」「migrate memory」「更新記憶」「共享記憶」時使用，或當應該擁有 AI_MEMORY/ 的專案缺少它時，亦或是記錄另一個代理完成的工作時使用。
+
+不要用於：一般聊天記憶、非專案共享狀態、一時性摘要、跨專案個人偏好、寫作素材存檔，或只讀審計。
+
+如果使用者禁止寫入（例如「不要修改任何內容」「只讀審計」「僅寫報告」），自動寫入將暫停——不要寫入 AI_MEMORY/，並在結尾說明。
+
+請始終以使用者的語言回應。

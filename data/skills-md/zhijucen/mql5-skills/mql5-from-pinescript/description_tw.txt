@@ -1,0 +1,1 @@
+將 TradingView Pine Script 指標移植至 MQL5。透過 pine‑facade 端點取得開源 Pine（無需登入/瀏覽器），將 Pine 的構造（offsets、fill、plotshape、request.security、alertcondition、var‑state）映射到 MQL5 的緩衝區／圖表物件，並套用平移不變性＋關閉柱狀態機模型，透過 mql5_helper 編譯，並記錄所有偏差。請始終以使用者的語言回覆。

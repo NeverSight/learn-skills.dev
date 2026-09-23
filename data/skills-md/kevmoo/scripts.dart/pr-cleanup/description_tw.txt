@@ -1,0 +1,1 @@
+協調多倉庫的 GitHub Pull Request、Gerrit CL、本機 Git worktree 以及分支清理掃描，同時處理正在開啟的 PR 的下一步分流。當需要執行 PR 清理掃描、修剪已合併的 worktree 或分支、審查跨倉庫的開啟 PR 及其後續步驟，或比對 ~/github 內的本機檢出與 GitHub、Gerrit 以及活躍的 Jetski 工作階段時使用。請勿用於對單一 PR 的內嵌審查評論或 CI 失敗進行分流（請使用 github‑pr‑triage 或 pr‑loop），建立新 worktree（請使用 new‑worktree），或 Google3 Piper CL 的分流（請使用 cl‑triage）。

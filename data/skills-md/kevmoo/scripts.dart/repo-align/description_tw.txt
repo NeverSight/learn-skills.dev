@@ -1,0 +1,1 @@
+審核並標準化位於 ~/github/kevmoo 下的個人 GitHub 儲存庫，以確保 CI 工作流程的一致性、Markdown 格式設定、分析器 lint 以及 GitHub 遠端分支保護規則集。於檢查或修正 CI 工作流程（lower_bound.yml、complexity.yml、autosubmit.yml、dependabot.yml、markdown.yml）、.prettierrc.json、analysis_options.yaml lint，或遠端自動合併與狀態檢查規則集，於單一或全部個人儲存庫時使用。不要用於非 kevmoo 儲存庫（dart-lang/*、flutter/*、google/*）、Dart 原始碼重構（使用 dart-cleanup），或 PR 與 worktree 分支清理（使用 pr-cleanup）。

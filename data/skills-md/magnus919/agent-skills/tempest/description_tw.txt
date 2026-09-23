@@ -1,0 +1,1 @@
+透過其 REST API 與集線器的本地 UDP 廣播，查詢 WeatherFlow Tempest 站的超本地天氣：即時狀況、天氣預報、歷史觀測以及即時解碼的資料報文（obs_st、rapid_wind、evt_precip、evt_strike、hub_status）。在使用者詢問天氣、溫度、雨量、風向、濕度或來自自己 Tempest/WeatherFlow 站的預報資料，或想解析集線器 UDP 埠 50222 的廣播時使用此功能。不要將此功能用於沒有 Tempest 站的通用或城市天氣預報（此類請使用公共天氣服務），或莎士比亞的劇作《暴風雨》或其他文學問題，亦不要用於其他廠商的天氣硬體——REST 端點需要個人使用的 token，且 UDP 廣播僅存在於 Tempest 集線器的 LAN 中。

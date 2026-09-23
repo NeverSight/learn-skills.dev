@@ -1,0 +1,1 @@
+在零依賴的前提下從 Office 與網頁文件中提取純文字——支援 docx、pptx、xlsx、html、markdown 以及純文字，僅使用 Python 標準函式庫 (zipfile + xml.etree)。不需 LibreOffice、不需 python‑docx，也不使用網路。PDF 若已安裝 pdftotext 則交由其處理，未安裝時會如實回報。適用於代理程式需要閱讀、摘要或比較文件而不想安裝文件處理工具的情況。

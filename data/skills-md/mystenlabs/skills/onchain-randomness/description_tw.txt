@@ -1,0 +1,2 @@
+在 Sui 上的鏈上隨機性。使用於在 Move 智能合約中產生隨機值，使用 Random 物件 (0x8) 或 RandomGenerator，保護消耗隨機性的函式免受組合攻擊、PTB 攻擊或狀態洩漏，實作 commit‑reveal 模式，平衡執行路徑的 gas，或從 TypeScript 整合隨機性。  
+一般的 Move 安全模式，請參考 `move-security` 技能。Move 語言基礎，請參考 `sui-move` 技能。TypeScript SDK 模式，請參考 `sui-sdks` 技能。

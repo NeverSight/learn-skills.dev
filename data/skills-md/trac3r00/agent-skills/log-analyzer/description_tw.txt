@@ -1,0 +1,1 @@
+將日誌檔案的錯誤按模式分組並對違規者排序——正規化易變的標記（時間戳、UUID、IP、路徑、數字），使「connection refused to db-01」和「db-99」被視為同一問題，計算出現 N 次。支援層級標籤的日誌（ERROR/WARN/INFO）以及例外樣式的堆疊日誌（DaemonError:、Traceback）。離線、僅使用標準函式庫、確定性。

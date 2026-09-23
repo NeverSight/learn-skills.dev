@@ -1,0 +1,1 @@
+將安全掃描加入 CI/CD，使用 Strix — 支援 GitHub Actions、GitLab CI 或任何流水線 — 讓每個 Pull Request 都能進行差異範圍的 AI 滲透測試，在合併前阻止有漏洞的程式碼，測試結果以 PR 註解形式呈現，並以 SARIF 上傳至程式碼掃描。此功能同時涵蓋自行部署的開源 CLI（在您的 runner 中執行）以及受管的 app.strix.ai 平台（GitHub/GitLab 應用或 API，無需 runner 基礎設施）。在使用者要求在 CI 流水線、合併前檢查點或 PR 工作流程中加入安全掃描、SAST/DAST、滲透測試、漏洞檢查或自動化安全審查時使用。

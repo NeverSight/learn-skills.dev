@@ -1,0 +1,3 @@
+協助使用 dsh-doctor CLI 將 DeepSeek Harness (DSH) 外掛從 DSH 0.1.1 遷移至 0.1.5，並在升級前明確決定升級後的版本是否必須與 DSH 0.1.1 相容。適用於外掛開發者計畫遷移或相容性評估的情況：檢查 DSH 版本之間的變動、替換已在 0.1.5 中移除的套件匯入（例如 dsh-client-runtime 或 dsh-host-apiproxy）、將 settingsNamespace 遷移至 settings 服務、更新 DSH 相依範圍，或驗證並準備外掛的 0.1.5 版發行。僅會自動套用目錄確認的精確重寫，並指導需要開發者判斷的語意變更。不適用於除錯已針對 0.1.5 的外掛、一般 DSH 使用或設定問題，或是開發 Harness 本身。
+
+請始終以使用者的語言回覆。

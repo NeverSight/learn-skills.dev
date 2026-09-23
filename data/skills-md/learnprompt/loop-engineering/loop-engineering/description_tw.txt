@@ -1,0 +1,11 @@
+Loop Engineering（循環工程 / loop engineering）實作腳手架，代號「Yu Gong」。將模糊的句子「I want to automatically handle X」轉化為具備目標、輸入、觸發、工作樹、製造者/檢查者、連接器、狀態、驗證與防護欄的自主循環，最終交給你一個一鍵可執行的指令——由你自行拉動的觸發器。
+
+這是繼 Prompt Engineering → Context Engineering → Harness Engineering 之後的第四階段——Loop Engineering 的工程實現：你不再需要逐輪手動提示 Agent，而是設計一個能自主發現任務、執行、驗證、迭代直至達成目標的迴圈。輸出內容包括元件矩陣、與執行環境無關的「Loop Spec」、兩組可直接執行的指令——Claude Code 與 Codex，以及清單／日誌狀態檔案。
+
+觸發語句包括但不限於：「create a Loop Engineering」「turn this task into a loop」「make the task a goal」「design a loop engineering」「loop engineering」「循环工程」「环路工程」「let the agent run by itself」「autonomous workflow」「turn maintenance/triage/upgrade into an automatic loop」「help me open a goal」「design /goal」「design /loop」「run an agent that can iterate itself」「Yu Gong」。
+
+即使用戶僅描述「I want the agent to automatically do something every day/repeatedly and iterate itself until completion」，只要其意圖是將手動逐輪提示轉變為自走式循環系統，也應被觸發。
+
+**未使用於**：從頭撰寫普通技能（使用 skill‑creator）、打磨／升級單一既有技能（使用 Luban）、一次性單輪任務（直接執行即可，無需循環）、普通程式碼審查（使用 code‑review）。
+
+請始終以使用者的語言回覆。

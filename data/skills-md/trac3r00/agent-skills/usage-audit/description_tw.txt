@@ -1,0 +1,1 @@
+跨客戶端的 token 與會話計算。每個 AI 代理客戶端都會記錄其消耗的內容——Claude Code 每條訊息的使用量 JSONL、Codex token_count 事件、OpenCode 每個會話的 token 欄位——但沒有顯示跨客戶端的總計。它讀取與 session‑handoff 相同的本地存儲（只讀，未上傳任何資料），並依模型、客戶端與專案報告 token 數量，並可加上可選的預算門檻。

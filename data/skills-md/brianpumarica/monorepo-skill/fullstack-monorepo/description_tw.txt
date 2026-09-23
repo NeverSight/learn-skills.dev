@@ -1,0 +1,1 @@
+Docker 中全棧 monorepo 的標準與操作手冊 — 審計、搭建骨架與重構倉庫（compose 開發/生產、非 root 的多階段 Dockerfile、帶有資料庫等待的 entrypoint、容器內熱重載、SPA 路由），並透過 GitHub Actions 部署至 Vercel，外加自行託管 runner。 在需要處理 docker‑compose、Dockerfile、entrypoint、deploy.yml，或是實際執行於伺服器上的狀態時使用。 三種模式——分析（審計與規劃）、執行（實施與遺留項目刪除）、檢查（只讀部署診斷）。
