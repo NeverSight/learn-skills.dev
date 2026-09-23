@@ -1,0 +1,1 @@
+审计并统一位于 ~/github/kevmoo 下的个人 GitHub 仓库，以实现 CI 工作流的一致性、Markdown 格式配置、分析器 lint 以及 GitHub 远程分支保护规则集。检查或修复 CI 工作流（lower_bound.yml、complexity.yml、autosubmit.yml、dependabot.yml、markdown.yml）、.prettierrc.json、analysis_options.yaml lint，或在一个或所有个人仓库中处理远程自动合并和状态检查规则集时使用。不要用于非 kevmoo 的仓库（dart-lang/*、flutter/*、google/*），Dart 源代码重构（请使用 dart-cleanup），以及 PR 与工作树分支的清理（请使用 pr-cleanup）。

@@ -1,0 +1,1 @@
+使用零依赖从 Office 和网页文档中提取纯文本——支持 docx、pptx、xlsx、html、markdown 和纯文本，仅使用 Python 标准库（zipfile + xml.etree）。不需要 LibreOffice，不需要 python-docx，也不需要网络。当系统已安装 pdftotext 时，PDF 会委托给它处理，若未安装则如实报告。适用于代理需要读取、摘要或比较文档而无需安装文档工具的场景。

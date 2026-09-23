@@ -1,0 +1,3 @@
+自动从 Yapi 平台获取 API 定义并将原始 JSON 返回给 LLM。当用户调用 `yapi-skill`，或请求获取后端 API 定义、查看 Yapi API 文档或查询 API 字段时，必须使用此技能。工作流程：在 .env 中定位并加载 YAPI 配置 → 使用 Bash 执行技能内置的 `scripts/yapi_fetch.py` 调用 Yapi 开放 API → 整理脚本的原始 JSON 输出并返回。即使用户未明确说明“使用 yapi-skill”，只要目标是从 Yapi 获取 API 定义以实现或调试代码，也必须使用此技能，且禁止使用 yapi-mcp MCP 工具作为替代。
+
+请始终使用用户的语言回复。

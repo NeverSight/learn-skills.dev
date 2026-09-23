@@ -1,0 +1,1 @@
+快速路径，用于最小化的 CloudBase Web + 数据库演示（最小前后端 / 最小可用全栈 / 类 Lovable 的 BaaS）。默认使用 @cloudbase/js-sdk 客户端 CRUD（NoSQL app.database / PG app.rdb），仅支持 MCP 模式的 schema，预览优先，并且除非涉及密钥、定时/后台任务，或安全规则/RLS 无法表达的逻辑，否则禁止使用云函数。适用于 搭一套 demo、留言板、Todo、Notes、Kanban，或用户要求“带云函数 + 云数据库”但实际只需要 CRUD 的场景。**不适用于**生产环境的多服务后端、CloudRun、微信小程序，或真正需要服务器密钥的任务。

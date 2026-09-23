@@ -1,0 +1,1 @@
+Docker 中全栈 monorepo 的标准和运行手册 — 审计、脚手架搭建并重构仓库（dev/prod compose、非 root 多阶段 Dockerfile、带数据库等待的入口点、容器热重载、SPA 路由），并使用 GitHub Actions 将其部署到 Vercel 以及自托管 runner。 在涉及 docker‑compose、Dockerfile、entrypoint、deploy.yml，或服务器上实际运行状态的请求时使用。 三种模式——分析（审计与计划）、执行（实施与清除遗留）、检查（仅读部署诊断）。

@@ -1,0 +1,3 @@
+在使用 hono/jsx 为 Hono 应用构建 UI 时使用——页面、布局、表单以及交互部件——通过 jsxRenderer 进行服务器渲染，使用 Vite 开发和构建，客户端组件通过 hono/jsx/dom 引入。当 tsconfig 中的 jsxImportSource 为 "hono/jsx"，代码导入 'hono/jsx'、'hono/jsx/dom'、'hono/jsx-renderer' 或 'vite-ssr-components'，或用户在 Hono 项目中请求页面、屏幕、布局或表单时触发。永远不要使用 React。
+
+请始终使用用户的语言回复。

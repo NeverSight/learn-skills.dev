@@ -1,0 +1,3 @@
+项目范围的共享内存用于 AI 编码代理（Claude Code + Codex），每个项目使用一个 AI_MEMORY/。在用户说“init memory”“update memory”“sync memory”“memory status”“consolidate memory”“repair memory”“migrate memory”“更新记忆”“共享记忆”，或在本该拥有 AI_MEMORY/ 的项目中缺失时，或用于记录另一代理完成的工作时使用。  
+禁止用于：一般聊天记忆、非项目共享状态、一时性摘要、跨项目个人偏好、写作材料归档或只读审计。如果用户禁止写入（如“不要修改任何内容”“只读审计”“只写报告”），自动写入将暂停——不要写入 AI_MEMORY/，并在最后说明。  
+请始终使用用户的语言回复。

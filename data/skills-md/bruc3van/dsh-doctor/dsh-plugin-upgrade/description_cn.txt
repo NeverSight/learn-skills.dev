@@ -1,0 +1,3 @@
+帮助使用 dsh-doctor CLI 将 DeepSeek Harness (DSH) 插件从 DSH 0.1.1 迁移到 0.1.5，并在开始时明确决定升级后的版本是否必须兼容 DSH 0.1.1。适用于插件开发者计划迁移或兼容性评估的场景：检查 DSH 各版本之间的变化、替换已在 0.1.5 中移除的包导入（例如 dsh-client-runtime 或 dsh-host-apiproxy）、将 settingsNamespace 迁移到 settings Service、更新 DSH 依赖范围，或验证并准备插件在 0.1.5 的发布。仅对目录确认的精确改写自动应用，并指导需要开发者判断的语义变更。不用于调试已针对 0.1.5 的插件、一般 DSH 使用或配置问题，亦不用于开发 Harness 本身。
+
+请始终使用用户的语言回复。

@@ -1,0 +1,3 @@
+当用户希望在绘制时自动平铺（autotile）瓷砖，或希望从现有的地形或边缘精灵构建 RuleTile，或要求使精灵“正确平铺”或“正确连接”时使用。此外，将 sprite‑segment‑3x3grid 输出的模式转换为 Unity RuleTile 的 TilingRules：3×3 网格文本模式（X、.、*）转换为 TilingRule 邻居配置，将 ‘.’ 映射为 “This” 规则，将 ‘X’ 映射为 “DontCare”，并按特异性排序（“This” 规则更多的排在前面）。在从精灵分析创建 RuleTile 或以编程方式定义瓦片邻居规则时使用。必须提供精灵作为输入。
+
+请始终用用户的语言回复。

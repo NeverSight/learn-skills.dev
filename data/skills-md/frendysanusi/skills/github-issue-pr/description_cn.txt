@@ -1,0 +1,10 @@
+起草并通过 `gh` CLI 提交结构良好的 GitHub issue 和 pull request。用户希望创建、提交、打开、起草、提出或记录 GitHub issue/工单/错误/特性请求/任务，或打开/起草/创建 pull request（PR）时都使用——例如 “create an issue”“file a gh issue”“open a github ticket”“log this bug”“raise an issue”“open a PR”“draft a pull request”“create the PR”，或当用户交给你聊天记录、diff 或工作片段并要求将其捕获为 GitHub issue 或 PR 时也使用。此外，还可将 issue 或 PR 的正文写入文件，以便在提交前进行审阅。系统会区分：
+
+- **Bug 报告**：需包含复现步骤、根本原因以及 file:line 信息。  
+- **特性/任务 issue**：描述期望结果和验收标准，**不**包含实现细节。  
+
+同时，**issue** 只描述行为，不涉及代码内部实现；**PR** 的 “Changes” 部分则必须包含代码实现细节。
+
+此功能仅针对通过 `gh` 使用的 GitHub；如需处理 Jira、Linear、Asana 等，请使用相应的专门工单技能。  
+
+请始终使用用户语言回复。

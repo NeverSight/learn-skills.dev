@@ -1,0 +1,1 @@
+在活跃的打开 PR 下一步分流的同时，协同管理多仓库的 GitHub 拉取请求、Gerrit CL、本地 Git worktree 和分支清理扫荡。请在以下情况下使用：要求执行 PR 清理扫荡、修剪已合并的 worktree 或分支、审查跨仓库的打开 PR 及其下一步，或对 ~/github 中的本地检出与 GitHub、Gerrit 以及活跃的 Jetski 会话进行比对。不要用于对单个 PR 的内联审查评论或 CI 失败进行分流（请使用 github‑pr‑triage 或 pr‑loop），创建新 worktree（请使用 new‑worktree），或对 Google3 Piper CL 进行分流（请使用 cl‑triage）。

@@ -1,0 +1,1 @@
+将日志文件的错误按模式分组并排序违规者——规范化易变的标记（时间戳、UUID、IP、路径、数字），使得“connection refused to db-01”和“db-99”算作同一个问题并计数 N 次。兼容带级别标签的日志（ERROR/WARN/INFO）和异常堆栈日志（DaemonError:、Traceback）。离线、仅使用标准库、确定性。

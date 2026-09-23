@@ -1,0 +1,1 @@
+将演示材料制作成 claude.ai Artifact HTML 幻灯片。复制模板并使用 <slide> 标签填充幻灯片，框架（jsDelivr 的 @s-dante/artifact-deck）负责幻灯片导航、全屏模式、演讲者备注以及演讲者与观众窗口之间的同步。它会在收到诸如“make presentation material”（制作演示材料）、“create slides”（创建幻灯片）、“write deck”（编写幻灯片）、“presentation”（演示）或“prepare presentation”（准备演示）等请求时被调用。如果用户请求 .pptx 文件，则不会使用它。请始终使用用户的语言作答。

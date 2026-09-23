@@ -1,0 +1,1 @@
+操作、配置、基准测试和排除 vLLM 推理服务器的故障：Docker 与 Kubernetes 部署、量化感知模型配置（张量并行、 KV 缓存）、兼容 OpenAI 的 API 服务、吞吐量与延迟基准测试、持续批处理调优、GPU 操作以及升级/回滚。用于部署或运行 vLLM 服务器（vllm serve、vllm/vllm-openai）、为 GPU 选择模型及其 KV 缓存大小、选择量化和并行方式、通过 /v1 接口提供服务、测量服务吞吐量或延迟、调优批处理，或诊断 vLLM 部署中的 GPU、OOM 或启动失败等问题。请勿用于模型训练、微调、评估集设计或引擎选择方法论（即机器学习工程），也不要用于使用 GGUF 模型的 llama.cpp 堆栈（即 llama‑cpp）；其他推理引擎（TGI、Ollama、Triton）不在此范围内。

@@ -1,0 +1,1 @@
+在授权的容器安全评估期间，利用特权 Pod、主机挂载、runC 漏洞以及暴露的 Docker socket，实现从容器逃逸并访问底层主机。可在执行经批准的逃逸测试时使用，以展示特权或 hostPath 工作负载的真实影响，或验证逃逸缓解措施是否真正有效。关键词：container breakout、privileged、hostPath、docker.sock、runC CVE-2019-5736、CVE-2024-21626、release_agent、nsenter。请勿将其用于对这些技术的防御性检测——请使用 detecting-container-escape-attempts。

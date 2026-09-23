@@ -1,0 +1,11 @@
+循环工程（环形工程 / Loop Engineering）实现脚手架，代号 “禹工”。将模糊的句子 “我想自动处理 X” 转化为一个自运行的 Loop，具备目标、输入、触发器、工作树、创建者/检查者、连接器、状态、验证和防护轨，最终交付一个一键可执行的命令——由你自行拉动的触发器。
+
+这是四阶段工程实现的第四阶段——循环工程，在 Prompt Engineering → Context Engineering → Harness Engineering 之后：你不再逐轮手动提示 Agent，而是设计一个能够自主发现任务、执行、验证并迭代直至达成目标的循环。输出包括组件矩阵、与运行时无关的 “Loop Spec”、两套直接可运行的指令集——Claude Code 和 Codex——以及清单/日志状态文件。
+
+触发短语包括但不限于：“create a Loop Engineering”“turn this task into a loop”“make the task a goal”“design a loop engineering”“loop engineering”“循环工程”“环路工程”“let the agent run by itself”“autonomous workflow”“turn maintenance/triage/upgrade into an automatic loop”“help me open a goal”“design /goal”“design /loop”“run an agent that can iterate itself”“Yu Gong”。
+
+即使用户仅描述 “我希望 Agent 每天/定期自动做某事并自行迭代直至完成”，只要意图是将手动逐轮提示转化为自运行的循环系统，也应被触发。
+
+请勿用于：从头编写普通技能（使用 skill‑creator）、打磨/升级单一已有技能（使用 Luban）、一次性单轮任务（直接执行，无需循环）、普通代码审查（使用 code‑review）。
+
+请始终使用用户的语言进行回复。

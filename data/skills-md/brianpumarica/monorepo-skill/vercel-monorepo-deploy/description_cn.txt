@@ -1,0 +1,1 @@
+最佳实践、配置和自动化运行手册，用于将 monorepo 前端（Next.js、Vite SPA、React）部署到 Vercel。涵盖 Vercel CLI、GitHub Actions 流水线（免费组织绕过）、turbo-ignore 跳过构建、vercel.json 中的客户端路由重写、monorepo 根目录设置、NEXT_PUBLIC 构建时注入、使用 Cloudflare Tunnel 进行远程 API 环境接线，以及 Node 22/pnpm 10 兼容性。配置或调试来自 pnpm/npm monorepo 的 Vercel 部署时请使用。
