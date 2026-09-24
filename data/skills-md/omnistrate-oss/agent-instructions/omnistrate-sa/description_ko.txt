@@ -1,0 +1,3 @@
+Omnistrate에서 SaaS 배포를 위한 애플리케이션 아키텍처를 처음부터 설계하도록 사용자를 안내합니다. 여기에는 배포 모델 선택(호스티드 / BYOC / BYOC‑K8s / 에어갭) 및 수익 모델 선택(Stripe 종단‑끝 청구 vs 마켓플레이스, Chargebee 또는 비내장 가격 차원을 위한 사용자 정의 계량 내보내기)이 포함됩니다. 기술 선택, 도메인 특화 아키텍처 패턴, 컴플라이언스 및 SLA 요구사항, 그리고 반복적인 Compose 사양 개발에 중점을 둡니다. 출력은 프로덕션 수준의 Docker Compose 사양을 FDE 스킬에 넘겨주거나, 스택이 Helm, Terraform, 또는 Kubernetes 오퍼레이터를 사용할 때 ServicePlanSpec 골격 권장사항이 될 수 있습니다. 사용자가 이미 배포 가능한 아티팩트를 가지고 있거나(→ omnistrate‑fde; 오퍼레이터 서비스 → omnistrate‑operator) 실패한 인스턴스를 디버깅해야 하는 경우(→ omnistrate‑sre)에는 사용하지 마십시오.
+
+항상 사용자의 언어로 응답하십시오.
