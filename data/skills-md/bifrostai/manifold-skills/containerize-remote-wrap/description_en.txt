@@ -1,0 +1,1 @@
+Package a remote-endpoint policy wrap as a container image for the Manifold platform, push it to a container registry, register it with the endpoint URL in its config env, and offer a scored test run. Use after `/wrap-remote-policy`, when the model runs on the user's own inference server and the container only dials it.
