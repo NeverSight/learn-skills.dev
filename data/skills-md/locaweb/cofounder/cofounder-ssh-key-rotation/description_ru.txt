@@ -1,0 +1,3 @@
+Этот навык следует использовать, когда пользователь просит «rotate SSH keys», «regenerate SSH keys», «replace SSH keys», «renew SSH keys», либо когда агенту нужен SSH‑доступ к развернутой ВМ для устранения проблем (логи, отладка, доступ к базе данных), но оказывается, что ожидаемый файл SSH‑ключа отсутствует на локальном диске (например, `~/.ssh/<repo-name>` не существует). Также использовать, когда пользователь упоминает «lost SSH key», «SSH key not found», «can't SSH into server», «permission denied SSH», «moved to a new computer» или «cloned repo on another machine».
+
+Пожалуйста, всегда отвечайте на языке пользователя.
