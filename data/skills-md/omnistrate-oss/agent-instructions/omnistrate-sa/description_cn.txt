@@ -1,0 +1,3 @@
+引导用户从零开始为 SaaS 部署在 Omnistrate 上设计应用架构，包括部署模型选择（hosted/BYOC/BYOC-K8s/air‑gapped）和变现模型（Stripe 全流程计费 vs 为市场、Chargebee 或非内置计费维度提供自定义计量导出）。重点关注技术选型、领域特定的架构模式、合规性和 SLA 要求，以及迭代式 compose 规范开发。输出可以是交付给 FDE 技能的可投产 Docker Compose 规范，或在使用 Helm、Terraform 或 Kubernetes Operator 的堆栈时提供 ServicePlanSpec 骨架建议。**请勿**在用户已有可部署构件（→ omnistrate-fde；operator services → omnistrate-operator）或需要调试失败实例（→ omnistrate-sre）时使用此指南。
+
+请始终使用用户的语言回复。
