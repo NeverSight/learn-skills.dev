@@ -1,0 +1,3 @@
+設定並驅動 TencentDB Agent Memory（MemoryCore + MemoryHub + MemoryProxy + MemoryPanel，來自 AnEntrypoint/agent‑memory）——一個持久的、跨會話的 AI 代理記憶與知識系統。Chat Memory（L0 會話 → L1 原子 → L2 情境 → L3 人格），一個從過往工作中抽取的版本化技能庫，涵蓋文件與程式碼的 Wiki + CodeGraph 知識圖譜，以及由人類控制的審查面板。當使用者希望代理團隊在多個會話及多個代理框架（不僅限於此 Claude Code 會話）之間共享與累積記憶/技能/知識，或提及「memory hub」、「team memory」、「chat memory」、「skill library」、「wiki」、「codegraph」，或要求安裝/配置/排除 memory‑tencentdb 插件的問題，或在將新代理加入已有團隊的累積經驗時，請使用本功能。自 gm 加入 tencentdb_backend 後，該系統的格式也可以是 gm 自己的 memorize/recall/memorize‑fire/memorize‑prune 後端，供選擇的命名空間使用（見 gm.config.json 中的 memory.tencentdb_backend）——啟用時，代理已知的動詞表面保持不變，僅更換儲存目標。於獨立部署（Docker Compose、面板 UI、團隊審查）或當 gm 自己的後端不是需求時，使用此技能。
+
+請始終以使用者的語言回覆。

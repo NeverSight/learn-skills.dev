@@ -1,0 +1,1 @@
+從簡短的需求表單開始建立新的 Blockbench 模型或場景，並交付可直接渲染的 Blender 場景。會詢問品質、材質風格（PBR 2K/HD/標準、原版 Minecraft、傳統 Blockbench）、動畫方式（關鍵幀或 Havok 物理）、場景類型（場景、短劇、等角房間）、主題、輸出資料夾以及渲染預設；使用無頭 Blockbench MCP 伺服器與平行代理程式生成 .bbmodel 檔案；將其匯入 Blender；並生成 render.cmd，於每張 GPU 上渲染靜態畫面，最後使用 FFmpeg 組合成影片。於使用者執行 /blockbench-new-model 或要求以渲染好的 Blender 場景或影片交付的新 Blockbench 模型時使用。

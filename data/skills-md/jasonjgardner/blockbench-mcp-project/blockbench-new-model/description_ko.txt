@@ -1,0 +1,3 @@
+짧은 입력 양식을 통해 새로운 Blockbench 모델 또는 씬을 시작하고 렌더 준비가 된 Blender 씬을 제공합니다. 품질, 텍스처 스타일(PBR 2K/HD/standard, 바닐라 마인크래프트, 클래식 Blockbench), 애니메이션(키프레임 또는 Havok 물리), 씬 유형(씬, 비네트, 등축 방), 주제, 출력 폴더 및 렌더 프리셋을 물어본 후 헤드리스 Blockbench MCP 서버와 병렬 에이전트를 사용해 .bbmodel 파일을 생성하고, 이를 Blender에 가져오며, 모든 GPU에서 정지 화면을 렌더링하고 FFmpeg로 비디오를 조합하는 render.cmd를 작성합니다. 사용자가 /blockbench-new-model 명령을 실행하거나 렌더링된 Blender 씬 또는 영상으로 제공되는 새로운 Blockbench 모델을 요청할 때 사용합니다.
+
+항상 사용자의 언어로 응답하십시오.
