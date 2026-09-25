@@ -1,0 +1,3 @@
+discover-event-surfaces の出力である event_candidates YAML が与えられた場合、優先度 3（クリティカル）イベントの具体的な計装プランを生成します。ソフトウェアアーキテクトとして機能し、コードベース内の既存の分析パターンを発見し、ヒントされたファイルを読み取ってスコープ内の変数を特定し、最小限のチャートに有用なプロパティを設計し、各トラッキング呼び出しの正確な挿入ポイントを特定します。構造化された JSON 形式の trackingPlan を出力します。これは discover-event-surfaces の後の分析計装ワークフローのステップ 3 として使用します。ユーザーが event_candidates を持ち、トラッキングコードの生成を希望する場合、"instrument these events"、"generate tracking plan"、"add analytics for these events"、"where should I put the tracking calls" など、イベント候補を具体的な実装指針に変えるリクエストがあったときにトリガーします。
+
+常にユーザーの言語で応答してください。

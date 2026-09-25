@@ -1,0 +1,3 @@
+短い入力フォームから新しい Blockbench モデルまたはシーンを開始し、レンダー可能な Blender シーンを提供します。品質、テクスチャスタイル（PBR 2K/HD/standard、バニラ Minecraft、クラシック Blockbench）、アニメーション（キー フレームまたは Havok 物理）、シーンタイプ（シーン、ビネット、等角部屋）、対象、出力フォルダー、レンダープリセットを尋ねます；ヘッドレス Blockbench MCP サーバーと並列エージェントで .bbmodel ファイルを作成し；それらを Blender にインポートし；すべての GPU で静止画をレンダリングし、FFmpeg で動画に組み立てる render.cmd を作成します。ユーザーが /blockbench-new-model を実行するか、レンダリングされた Blender シーンまたは動画として新しい Blockbench モデルの提供を求めたときに使用してください。
+
+常にユーザーの言語で回答してください。
