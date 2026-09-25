@@ -1,0 +1,1 @@
+驱动与本地运行的 LiveKit 代理进行多轮对话，以观察其行为。当用户说“test my agent”“try my agent”“does this work”“why did it call that tool”“it says the wrong thing when I ask X”“test this change”，或者每当你编辑了代理并需要检查其表现时使用。封装了 `lk agent debugger`：以文本模式启动代理，发送回合，读取工具调用、交接、错误和每个回复背后的日志，并在编辑后重新启动。它在没有音频或 LiveKit 房间的情况下运行，每回合只调用一次 LLM，因此是编码代理在开发期间进行实时测试的首选方式，也是用户说“test”但未指明单元测试或仿真时的默认方式。
