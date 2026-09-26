@@ -1,12 +1,3 @@
-React 코드 작성 및 검토 가이드 — 훅, 이펙트, 리렌더링, 그리고 브라우저 성능.  
-다음 상황에서 이 기술을 사용하세요:  
+React 코드 작성 및 검토 가이드 — 훅, 이펙트, 리렌더링, 브라우저 성능. 다음과 같은 경우에 이 기술을 사용하십시오: (1) React 컴포넌트 및 커스텀 훅을 작성하거나 검토할 때, (2) `useEffect`를 작성하거나 디버깅할 때 — 이펙트가 전혀 필요한지 결정, (3) 파생값을 위해 `useState`를 사용하거나 컴포넌트 간 상태를 동기화할 때, (4) 불필요한 리렌더링, 오래된 클로저, 메모이제이션 문제를 진단할 때, (5) 데이터 페칭 폭포, 레이스 컨디션, 중복 요청을 고치거나 Suspense와 함께 `use()`를 사용할 때, (6) 페인팅, 하이드레이션, 리소스 로딩, 핫패스 JavaScript를 최적화할 때, (7) ref, 컴포지션, prop drilling, 제어 컴포넌트와 비제어 컴포넌트를 다룰 때, (8) React 18에서 19로 업그레이드할 때 — 제거된 API(`ReactDOM.render`, `findDOMNode`, 문자열 ref, 레거시 컨텍스트), `forwardRef`, `defaultProps` 및 테스트(`test-utils`, `act`, StrictMode 카운트), (9) 액션을 사용한 폼 및 뮤테이션 — `useActionState`, `useFormStatus`, `useOptimistic`.
 
-1. React 컴포넌트 및 커스텀 훅을 작성하거나 검토할 때  
-2. `useEffect`를 작성하거나 디버깅할 때 — 이펙트가 정말 필요한지 판단하기 위해  
-3. 파생값을 위해 `useState`를 사용하거나 컴포넌트 간 상태를 동기화할 때  
-4. 불필요한 리렌더링, 오래된 클로저, 메모이제이션 문제를 진단할 때  
-5. 데이터-fetching 워터폴, 레이스 컨디션, 중복 요청을 수정하거나 `Suspense`와 함께 `use()`를 사용할 때  
-6. 페인트, 하이드레이션, 리소스 로딩, 혹은 핫 경로 JavaScript를 최적화할 때  
-7. refs, 컴포지션, prop drilling, 혹은 제어형 vs. 비제어형 컴포넌트를 다룰 때  
-8. React 18에서 19로 업그레이드할 때 — 제거된 API(`ReactDOM.render`, `findDOMNode`, 문자열 refs, 레거시 컨텍스트), `forwardRef`, `defaultProps` 및 테스트(`test-utils`, `act`, StrictMode 카운트)  
-9. Actions와 함께 폼 및 변이를 사용할 때 — `useActionState`, `useFormStatus`, `useOptimistic`
+항상 사용자의 언어로 응답하십시오.

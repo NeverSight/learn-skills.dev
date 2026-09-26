@@ -1,3 +1,13 @@
 Leitfaden zum Schreiben und Überprüfen von React‑Code — Hooks, Effects, Re‑Renders und Browser‑Performance.
 
-Verwende diese Fähigkeit, wenn: (1) du React‑Komponenten und benutzerdefinierte Hooks schreibst oder überprüfst, (2) du `useEffect` schreibst oder debuggst — und entscheidest, ob ein Effect überhaupt nötig ist, (3) du `useState` für abgeleitete Werte nutzt oder den State zwischen Komponenten synchronisierst, (4) du unnötige Re‑Renders, veraltete Closures oder Memoisierungs‑Probleme diagnostizierst, (5) du Daten‑Fetching‑Wasserfälle, Race‑Conditions oder doppelte Anfragen behebst oder `use()` mit Suspense einsetzt, (6) du Paint, Hydration, Ressourcen‑Laden oder Hot‑Path‑JavaScript optimierst, (7) du mit Refs, Composition, Prop‑Drilling oder kontrollierten vs. unkontrollierten Komponenten arbeitest, (8) du von React 18 auf 19 upgradest — entfernte APIs (`ReactDOM.render`, `findDOMNode`, String‑Refs, Legacy‑Context), `forwardRef`, `defaultProps` und Tests (`test-utils`, `act`, StrictMode‑Zähler), (9) du Formulare und Mutationen mit Actions nutzt — `useActionState`, `useFormStatus`, `useOptimistic`.
+Nutze diese Fähigkeit, wenn:
+
+1. React‑Komponenten und benutzerdefinierte Hooks schreiben oder überprüfen  
+2. `useEffect` schreiben oder debuggen — entscheiden, ob ein Effect überhaupt nötig ist  
+3. `useState` für abgeleitete Werte verwenden oder den State zwischen Komponenten synchronisieren  
+4. unnötige Re‑Renders, veraltete Closures oder Memoisierungsprobleme diagnostizieren  
+5. Datenabruf‑Wasserfälle, Race Conditions oder doppelte Anfragen beheben oder `use()` mit Suspense verwenden  
+6. Paint, Hydration, Ressourcen‑Laden oder Hot‑Path‑JavaScript optimieren  
+7. mit Refs, Composition, Prop‑Drilling oder kontrollierten vs. unkontrollierten Komponenten arbeiten  
+8. React 18 auf 19 upgraden — entfernte APIs (`ReactDOM.render`, `findDOMNode`, String‑Refs, Legacy‑Context), `forwardRef`, `defaultProps` und Tests (`test-utils`, `act`, StrictMode‑Zählungen)  
+9. Formulare und Mutationen mit Actions — `useActionState`, `useFormStatus`, `useOptimistic`.

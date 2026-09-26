@@ -1,3 +1,3 @@
-このスキルは、Docker Sandbox の作成、実行、再接続、一覧表示、停止、または削除（isolated microVM 内で AI コーディングエージェントを実行するスタンドアロンの `sbx` CLI）を行う際に使用してください。たとえユーザーが「sandbox で claude を実行したい」「エージェントをリポジトリから分離したい」「エージェントに独自の git クローンを与えたい」「古い sandbox をクリーンアップしたい」だけと言っても同様です。対象は `sbx run`/`sbx create`（組み込みエージェント claude、codex、cursor、devin、docker-agent、gemini、opencode、shell を含む）、ワークスペースのバインドマウントと `--clone` による分離、追加の読み取り専用ワークスペース、`--name` による再接続、`sbx ls`/`stop`/`rm`/`prune`、`sbx exec`、`sbx cp`、`sbx ports` です。
+このスキルは、Docker Sandboxes（isolated microVM 内で AI コーディングエージェントを実行するスタンドアロン `sbx` CLI）を作成、実行、再アタッチ、一覧表示、停止、削除する際に使用してください。たとえユーザーが単に「sandbox で claude を実行したい」「エージェントをリポジトリから分離したい」「エージェントに独自の git クローンを与えたい」「古い sandbox をクリーンアップしたい」などと言った場合でも同様です。対象は `sbx run`/`sbx create`（組み込みエージェント claude、codex、cursor、devin、docker-agent、gemini、opencode、shell を含む）、ワークスペースのバインドマウントと `--clone` による分離、追加の読み取り専用ワークスペース、`--name` による再アタッチ、`sbx ls`/`stop`/`rm`/`prune`、`sbx exec`、`sbx cp`、`sbx ports` です。
 
-必ずユーザーの言語で回答してください。
+常にユーザーの言語で応答してください。

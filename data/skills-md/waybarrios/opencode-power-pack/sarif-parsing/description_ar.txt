@@ -1,0 +1,1 @@
+يقوم بتحليل ومعالجة ملفات SARIF من أدوات التحليل الثابت مثل CodeQL أو Semgrep أو غيرها من الماسحات. يتم تفعيله عند أوامر “parse sarif”، “read scan results”، “aggregate findings”، “deduplicate alerts”، أو “process sarif output”. يتعامل مع الفلترة وإزالة التكرار وتحويل الصيغ وتكامل بيانات SARIF مع أنظمة CI/CD. لا يقوم بتنفيذ الفحوصات — استخدم مهارات Semgrep أو CodeQL لذلك.

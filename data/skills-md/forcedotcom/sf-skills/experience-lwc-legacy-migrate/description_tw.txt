@@ -1,4 +1,3 @@
-將遺留的 Salesforce UI 堆疊遷移至現代 LWC — Aura → LWC 轉換完整性驗證以及 Lightning Out Beta → Lightning Out 2.0 主頁面遷移。  
-在「verify Aura to LWC migration completeness」(驗證 Aura 到 LWC 遷移完整性)、「migrate Lightning Out Beta to LO 2.0」(遷移 Lightning Out Beta 至 LO 2.0)、「upgrade $Lightning.use() to <lightning-out-application>」(升級 $Lightning.use() 為 <lightning-out-application>)、「replace hardcoded LO tokens with OAuth PKCE」(以 OAuth PKCE 取代硬編碼的 LO 令牌)、「write an LO 2.0 host page」(撰寫 LO 2.0 主頁面) 或外部 Lightning Out 頁面停止渲染時觸發；同時處理 LWC 旁的 `.cmp` / `.js-meta.xml` 檔案。  
-不應在初始 Aura 到 LWC 轉換時觸發（使用 experience-aura-lwc-migrate）、React 到 LWC 的遷移，或建立新 LWC 時觸發（使用 experience-lwc-design-generate）。  
+將舊版 Salesforce UI 堆疊遷移至現代 LWC——Aura → LWC 轉換完整度驗證與 Lightning Out Beta → Lightning Out 2.0 主頁面遷移。於以下情況觸發：「verify Aura to LWC migration completeness」(驗證 Aura 至 LWC 轉換完整度)、「migrate Lightning Out Beta to LO 2.0」(遷移 Lightning Out Beta 至 LO 2.0)、「upgrade $Lightning.use() to <lightning-out-application>」(升級 $Lightning.use() 為 <lightning-out-application>)、「replace hardcoded LO tokens with OAuth PKCE」(以 OAuth PKCE 替換硬編碼的 LO 令牌)、「write an LO 2.0 host page」(編寫 LO 2.0 主機頁面)，或外部 Lightning Out 頁面停止渲染時；同時處理 `.cmp` / `.js‑meta.xml` 檔案與 LWC。**請勿**於初始 Aura → LWC 轉換時觸發（使用 experience‑aura‑lwc‑migrate）、React → LWC 遷移，或建立新 LWC 時（使用 experience‑lwc‑design‑generate）觸發。
+
 請始終以使用者的語言回覆。
