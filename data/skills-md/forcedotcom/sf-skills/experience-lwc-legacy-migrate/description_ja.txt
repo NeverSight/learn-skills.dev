@@ -1,0 +1,3 @@
+レガシーなSalesforce UIスタックを最新のLWCへ移行 — Aura → LWC 変換の完全性検証とLightning Out Beta → Lightning Out 2.0 ホストページの移行。TRIGGERは「verify Aura to LWC migration completeness」「migrate Lightning Out Beta to LO 2.0」「upgrade $Lightning.use() to <lightning-out-application>」「replace hardcoded LO tokens with OAuth PKCE」「write an LO 2.0 host page」またはレンダリングが停止した外部Lightning Outページに対して実行し、LWC と並んで `.cmp`/`.js-meta.xml` ファイルも対象とする。初期のAuraからLWCへの変換（experience-aura-lwc-migrate を使用）やReactからLWCへの移行、あるいは新規LWCの作成（experience-lwc-design-generate を使用）についてはTRIGGERしないでください。  
+
+常にユーザーの言語で回答してください。

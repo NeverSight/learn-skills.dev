@@ -1,0 +1,1 @@
+CodeQL、Semgrep、その他のスキャナなど、静的解析ツールからの SARIF ファイルを解析・処理します。「parse sarif」「read scan results」「aggregate findings」「deduplicate alerts」「process sarif output」のいずれかでトリガーされます。フィルタリング、重複排除、フォーマット変換、SARIF データの CI/CD への統合を処理します。スキャンは実行しません — その場合は Semgrep または CodeQL のスキルを使用してください。
