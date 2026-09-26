@@ -1,0 +1,1 @@
+在創建、運行、重新附加、列出、停止或刪除 Docker Sandbox（獨立的 `sbx` CLI，於隔離的 microVM 中執行 AI 程式碼代理）時使用此技能，即使用戶僅說「在 sandbox 中運行 claude」或「將代理與我的倉庫隔離」或「給代理一個自己的 git clone」或「清理舊的 sandbox」等也適用。涵蓋 `sbx run`/`sbx create`（包括內建代理 claude、codex、cursor、devin、docker-agent、gemini、opencode、shell）、工作區綁定掛載與 `--clone` 隔離、額外的唯讀工作區、透過 `--name` 重新附加、`sbx ls`/`stop`/`rm`/`prune`、`sbx exec`、`sbx cp` 及 `sbx ports`。

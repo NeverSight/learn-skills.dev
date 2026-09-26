@@ -1,0 +1,3 @@
+為 mariadb-operator 發行版建立版本說明與升級指南。給定包含所有 PR 的發行 PR 內文，系統會收集每個 PR，依相關性將變更分組，並產生 `docs/releases/RELEASE_<version>_HEADER.md.gotmpl` 與 `docs/releases/UPGRADE_<version>.md`，格式遵循先前的發行版，接著開啟針對 `release-<version>` 的 PR。若未提供發行 PR，系統會詢問新版本號，並從最後一次標籤以後的 git 歷史推斷變更。任何使用者需要版本說明、升級／更新指南，或新 mariadb-operator 版本文件時——例如「建立 26.10.0 的版本說明」、「寫升級指南」、「記錄此發行版」、「準備發行 PR 文件」——即使未提及發行 PR，也請使用此功能。
+
+請始終以使用者的語言回覆。
