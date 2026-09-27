@@ -1,0 +1,3 @@
+Проверяет и воспроизводит Go HTTP API, зависимости которого направлены внутрь: cmd связывает, domain владеет сущностями и портами, application владеет бизнес‑случаями, infrastructure владеет адаптерами, delivery владеет chi. Использовать, когда пользователь говорит «go-clean-api», «review the layers», «where does this code go», «add an endpoint», «scaffold a Go API», «OpenAPI» или «add telemetry». НЕ использовать для стилистических правил уровня строк Go (go-coding-standards), формы REST‑ресурсов (go-api-design), CLI и библиотек (go-project-layout) или планирования функций (tlc-spec-lean).
+
+Пожалуйста, всегда отвечайте на языке пользователя.
