@@ -1,0 +1,1 @@
+Find when and why tests broke on main: bisect a Swift package suite on CI across old commits, read the failure matrix, and decide per test whether the test went stale or the code regressed. Use when a suite is red on main, when PR CI only ran filtered tests and the full suite has drifted, or when asked which PR broke a test.

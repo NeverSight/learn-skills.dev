@@ -1,0 +1,1 @@
+Use when writing or modifying Python code that imports `xolars` — pairing an xarray Dataset with per-dimension Polars frames, constructing the `Xolars` container, selecting with isel/sel, or doing zarr+parquet round-trips via write/open. Skip for plain xarray or polars work that doesn't touch the `Xolars` class.
