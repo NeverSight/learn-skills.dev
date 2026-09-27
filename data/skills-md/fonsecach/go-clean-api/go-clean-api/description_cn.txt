@@ -1,0 +1,3 @@
+验证并复现一个 Go HTTP API，其依赖指向内部：cmd 负责接线，domain 拥有实体和端口，application 拥有用例，infrastructure 拥有适配器，delivery 拥有 chi。当用户说 “go-clean-api”、 “review the layers”、 “where does this code go”、 “add an endpoint”、 “scaffold a Go API”、 “OpenAPI” 或 “add telemetry” 时使用。不要用于行级 Go 风格（go-coding-standards）、REST 资源形状（go-api-design）、CLI 和库（go-project-layout）或功能规划（tlc-spec-lean）。
+
+请始终使用用户的语言回复。

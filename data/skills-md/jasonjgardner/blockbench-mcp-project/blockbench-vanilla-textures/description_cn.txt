@@ -1,0 +1,1 @@
+通过 jsDelivr CDN 从 Mojang 的 bedrock‑samples 仓库获取原版（“vanilla”）Minecraft 纹理，并将其应用到 Blockbench 模型，解析方块 ID 为每面对应的文件，对灰度的草、叶子和水进行着色，平铺大面，处理翻页动画（flipbooks），并导入原版 PBR texture_set（MERS/normal）。当用户请求 vanilla、default、original、real 或 Minecraft 精准纹理，指明模型对应的 Minecraft 方块或材质（如砖墙、橡木原木、石砖、草方块、羊毛、玻璃），希望模型与原版游戏保持一致，或需要将 Bedrock 纹理名称映射到 Java 版时使用。适用于 Bedrock、Java 以及通用模型。请始终使用用户的语言作答。

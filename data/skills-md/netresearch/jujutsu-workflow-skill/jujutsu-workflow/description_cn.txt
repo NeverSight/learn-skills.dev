@@ -1,0 +1,1 @@
+当编码代理在包含 Jujutsu（jj）的仓库（即存在 `.jj/` 目录）中工作时使用——执行 jj 命令、进行猜测性编辑、拆分更改、通过操作日志恢复（jj undo / jj op restore）、将 PR 移交给 Git/GitHub/GitLab、在审阅后更新 PR，或协调并行代理。将 jj 用作本地变更管理层，同时保留 Git 作为规范的远程、PR、CI 和审计接口。也可用于避免 jj 的代理陷阱（分页器/编辑器卡死、提交吸收、Git/jj 同步失调），或用可逆的 jj 操作取代脆弱的 git reset/checkout/stash/rebase 恢复。

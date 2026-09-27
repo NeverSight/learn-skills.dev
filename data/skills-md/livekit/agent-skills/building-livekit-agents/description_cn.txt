@@ -1,0 +1,3 @@
+使用 LiveKit Agents 和 LiveKit Cloud 构建语音和聊天 AI 代理。当用户请求“构建语音代理”“创建 LiveKit 代理”“在我的应用中添加语音 AI”“实现交接”“构建代理工作流”“我的代理很慢/太啰嗦”“它说已预订但未保存”“让它在提交前确认”“它不断重复询问呼叫者已说过的内容”，或在编写针对 LiveKit Agents SDK 的代码时使用。涵盖架构：为低延迟设计、保持上下文简短、将单体代理拆分为交接和任务、以及为语音进行设计。还包括让模型负责语义，而代码负责状态、审批和副作用。API 细节请使用 reading‑livekit‑docs。检查行为请使用 debugging‑livekit‑agents 和 testing‑livekit‑agents。
+
+请始终用用户的语言作答。

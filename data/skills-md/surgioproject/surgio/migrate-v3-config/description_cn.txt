@@ -1,0 +1,3 @@
+将 Surgio v3 配置仓库迁移到原生 TypeScript ESM 项目，并根据用户选择保留非 Worker 部署、Worker 部署或两者兼容。这用于迁移 surgio.conf.js、provider 目录、Artifact 配置、Node Gateway 或 Worker 部署；在开始之前，必须询问是否继续使用原始部署方式并区分 Worker 与非 Worker，但无论选择哪种部署方式，都必须实现严格的 TypeScript、行为等价以及相应的运行时校验，且不引入 Bun、tsx 或运行时编译器。
+
+请始终使用用户的语言作答。

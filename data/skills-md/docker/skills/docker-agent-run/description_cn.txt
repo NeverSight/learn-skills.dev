@@ -1,0 +1,1 @@
+在使用 `docker agent run` 运行 Docker Agent 时，选择安全/批准模式、使用 `--sandbox` 隔离标志、设置别名或排查运行问题（缺少凭证、工作树）时，请使用此技能。即使用户仅说他们想“运行我的代理”“让我的代理自动批准工具调用”“安全地运行此代理”或“为什么我的代理看不到我的 API 密钥”，此技能也适用。涵盖 `--safety`（strict/balanced/restricted/autonomous）、`--yolo`、`--sandbox` 及其网络白名单、`--worktree`、`docker agent alias` 和 `docker agent doctor`。

@@ -1,0 +1,1 @@
+在配置 Docker Sandboxes（`sbx`）沙箱能够访问的网络或其使用的凭证时使用此技能，即使用户仅说想要 “让代理调用内部 API”、 “阻止所有网络访问”、 “给代理一个 GitHub 令牌” 或 “为沙箱使用私有仓库镜像”。涵盖 `sbx policy init/allow/deny/ls/inspect/log/check/rm network`（全局和每个沙箱的出站规则，拒绝优先于允许）以及 `sbx secret set/set-custom/ls/rm/import`（服务密钥、通过 --ref/--command 的动态密钥，以及默认仅对主机拉取的注册表拉取凭证注入范围）。
