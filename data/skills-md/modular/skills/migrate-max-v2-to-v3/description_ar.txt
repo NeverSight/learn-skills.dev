@@ -1,0 +1,3 @@
+استخدم عند ترحيل نموذج MAX من واجهة برمجة التطبيقات V2 للرسوم البيانية (max.nn، TensorValue، بناء رسم بياني صريح) إلى ModuleV3 (max.experimental.nn، Tensor، F.lazy() + compile()). يتم التنشيط بواسطة: "migrate to ModuleV3"، "port a max.nn model to max.experimental"، "convert TensorValue to Tensor"، "update my model to the V3 API"، "ModuleV3 migration". سير العمل: اقرأ خريطة المفهوم، أعد كتابة الاستيرادات وتوقيعات __call__، استبدل بناء الرسم البياني بـ compile(weights=…) ، وضبط أسماء الأوزان لتتناسب مع هيكل الوحدة الجديد، انقل تفكيك ذاكرة التخزين المؤقت KV إلى forward()، انقل التجزئة إلى DeviceMesh عندما يكون نموذج V2 مجزأً، ثم تحقق من أن مخرجات الجشع تتطابق مع تنفيذ V2.
+
+يرجى دائمًا الرد بلغة المستخدم.

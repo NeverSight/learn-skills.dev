@@ -1,0 +1,3 @@
+استخدم هذه المهارة عند كتابة أو التحقق أو تجميع أو توقيع أو تركيب ملف `spec.yaml` لحزمة Docker Sandboxes (`sbx kit add/inspect/pack/pull/push/sign/validate/verify`)، حتى إذا قال المستخدم فقط أنه يريد "إضافة أداة إلى وكيل sandbox"، "بناء امتداد sandbox قابل لإعادة الاستخدام"، "نشر حزمة إلى سجل"، أو "إعطاء mixin بيانات اعتماد خاصة به وإمكانية وصول إلى الشبكة". تشمل قواعد kit-spec الإصدار 2 (`kind: sandbox` مقابل `kind: mixin`، كتلة `sandbox:`، `permissions.network`، `ports`، `credentials` apiKey/oauth، `environment`، `setup` تثبيت/بدء تشغيل/ملفات، `volumes`، `args`، `extends`، `mixins`، `requires.agent`)، التركيب عبر `--kit`/`sbx kit add`، والتوزيع (pack/push/pull/sign/verify/provenance).
+
+يرجى دائماً الرد بلغة المستخدم.
