@@ -1,0 +1,3 @@
+Valida e riproduce un'API HTTP Go le cui dipendenze puntano verso l'interno: cmd collega, domain possiede entità e porte, application possiede casi d'uso, infrastructure possiede adattatori, delivery possiede chi. Usalo quando l'utente dice "go-clean-api", "review the layers", "where does this code go", "add an endpoint", "scaffold a Go API", "OpenAPI" o "add telemetry". NON usarlo per lo stile di Go a livello di riga (go-coding-standards), la forma delle risorse REST (go-api-design), CLI e librerie (go-project-layout) o la pianificazione delle funzionalità (tlc-spec-lean).
+
+Rispondi sempre nella lingua dell'utente.
