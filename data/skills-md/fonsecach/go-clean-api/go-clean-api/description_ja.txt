@@ -1,0 +1,3 @@
+依存関係が内向きになる Go HTTP API を検証・再現します：cmd は配線を行い、domain はエンティティとポートを所有し、application はユースケースを所有し、infrastructure はアダプタを所有し、delivery は chi を所有します。ユーザーが「go-clean-api」「review the layers」「where does this code go」「add an endpoint」「scaffold a Go API」「OpenAPI」または「add telemetry」と言ったときに使用してください。行レベルの Go スタイル（go-coding-standards）、REST リソース形状（go-api-design）、CLI やライブラリ（go-project-layout）、または機能計画（tlc-spec-lean）には使用しないでください。
+
+常にユーザーの言語で回答してください。

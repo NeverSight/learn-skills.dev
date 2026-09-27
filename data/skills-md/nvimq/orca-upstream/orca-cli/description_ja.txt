@@ -1,0 +1,3 @@
+Orca が管理する作業ツリー、フォルダーコンテキスト、端末、リポジトリ、オートメーション、アーティファクト、スキル共有、作業ツリーコメント、そして Orca の組み込みブラウザは、`orca` CLI を通じて操作します。ユーザーが「$orca-cli」「Orca worktree」「child worktree」「spawn codex/claude in a worktree」「read/wait/send Orca terminal」「handoff」「handover」「give this to another agent」「Orca browser」「orca artifacts」「share skills」と言ったときに使用してください。Orca の状態が関わる場合は、生の git worktree や臨時 PTY、Computer Use よりもこれを優先します。GUI の操作が必要で CLI やファイルシステム、API だけでは対応できない可視ウィンドウがある場合に限り、Computer Use を使用してください。
+
+常にユーザーの言語で応答してください。

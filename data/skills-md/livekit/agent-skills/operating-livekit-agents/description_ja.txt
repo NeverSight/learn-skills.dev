@@ -1,0 +1,3 @@
+本番環境で LiveKit エージェントをデプロイし、運用する：LiveKit Cloud へのバージョン配布とロールバック、シークレットと設定、ワーカープロセスモデルとプリウォーミング、ワーカープロセス内での安全な非同期処理、プロバイダーのタイムアウトと劣化、グレースフルシャットダウン、SDK のアップグレード、そして可観測性。ユーザーが「deploy my agent（エージェントをデプロイして）」「roll back the deployment（デプロイをロールバックして）」「tail the agent logs（エージェントのログをテールして）」「the first call after a restart is slow（再起動後の最初の呼び出しが遅い）」「attached to a different loop / event loop is closed（別のループにアタッチされている／イベントループが閉じている）」「prewarm the VAD（VAD をプリウォームして）」「shut down without dropping calls（通話を切らさずにシャットダウンして）」「upgrade livekit-agents safely（livekit‑agents を安全にアップグレードして）」「correlate logs by session（セッションでログを相関させて）」と言ったとき、またはすでに稼働中のエージェントコードベースを変更する場合に使用する。エージェントの設計（building‑livekit‑agents）や、ローカルでの不具合会話の再現（debugging‑livekit‑agents）には使用しない。
+
+必ずユーザーの言語で回答してください。

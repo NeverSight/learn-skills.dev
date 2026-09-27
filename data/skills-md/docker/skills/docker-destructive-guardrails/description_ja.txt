@@ -1,0 +1,3 @@
+このスキルは、Docker の削除、ワイプ、リセット、またはその他不可逆的に状態を変更するコマンドを実行したり推奨したりする前に使用してください — ユーザーが単に「クリーンアップ」「キャッシュをクリア」「やり直し」「すべてをワイプ」「全消去」「リセット」「強制削除」や「テアダウン」などと言った場合でもです。より具体的なスキルが所有していない一般的な Docker CLI の破壊的操作を対象とします — `docker rm`、`docker rm -f`、`docker container prune`、`docker kill`、`docker system prune`、`docker rmi`/`docker image rm`、`docker image prune -a`、`docker network rm`、`docker network prune`、`docker builder prune`、`docker buildx rm`、`docker context rm`、およびスタンドアロン（Compose ではない）`docker volume rm`/`docker volume prune`。他の Docker スキル（Compose、sandbox、Desktop）が所有する破壊的コマンドもインデックスします。基本ルール — 失われるものを正確に述べ、まず明示的な確認を得ること（ただし、範囲が狭く手間のかからない Tier 1 コンテナのクリーンアップは除く）。  
+
+常にユーザーの言語で回答してください。

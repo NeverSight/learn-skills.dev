@@ -1,0 +1,3 @@
+このスキルは、Docker エージェントをサーバー（MCP、HTTP API、A2A、ACP、または OpenAI 互換チャット）として公開する場合、`docker agent share` で OCI レジストリを介してエージェントを配布する場合、または `docker agent eval` でエージェントの品質を測定する場合に使用します。たとえユーザーが単に「エージェントを MCP サーバーにしたい」「Claude Desktop にエージェントを使わせたい」「エージェントを Docker Hub に公開したい」「エージェントをイメージのようにプッシュしたい」「CI でエージェントをテストしたい」と言っても、このスキルが適用されます。`serve mcp/api/a2a/acp/chat` のリッスンアドレスや認証フラグ、`share push/pull`、eval セッションの JSON 形式、スコアリング指標、そして `--baseline` 回帰ゲートをカバーしています。
+
+ユーザーの言語で必ず回答してください。
