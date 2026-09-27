@@ -1,0 +1,1 @@
+將靜態圖像（投影片、海報、資訊圖）轉換為可編輯的 PowerPoint 檔案。流程：OCR 偵測文字 → 傳統電腦視覺 textmask 偵測墨水像素 → mask‑clip 與 OCR 辨識框做 AND（保留插圖） → LAMA 填補乾淨的背景 → python‑pptx 組合可編輯的文字方塊，自動縮放字型並套用偵測到的顏色。當使用者說「convert image to pptx」、「make slide editable」、「image to powerpoint」、「extract text from slide as editable」、「reconstruct slide」或是提供投影片／海報圖像並希望得到可編輯的 .pptx 檔時，即觸發。

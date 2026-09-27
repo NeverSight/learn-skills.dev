@@ -1,0 +1,3 @@
+在生產環境中部署與運作 LiveKit 代理：將版本發佈至 LiveKit Cloud 並回退、管理機密與設定、工作程序模型與預熱、工作程序內的安全非同步、供應者逾時與退化、優雅關閉、SDK 升級與可觀測性。當使用者說「deploy my agent」、「roll back the deployment」、「tail the agent logs」、「the first call after a restart is slow」、「attached to a different loop / event loop is closed」、「prewarm the VAD」、「shut down without dropping calls」、「upgrade livekit‑agents safely」、「correlate logs by session」或是要變更已上線的代理程式碼庫時使用。不適用於設計代理（building‑livekit‑agents）或在本機重現單次不良對話（debugging‑livekit‑agents）。
+
+請始終以使用者的語言回應。

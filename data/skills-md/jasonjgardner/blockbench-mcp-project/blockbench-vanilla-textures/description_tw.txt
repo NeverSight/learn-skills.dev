@@ -1,0 +1,3 @@
+從 Mojang 的 bedrock‑samples 倉庫透過 jsDelivr CDN 取得原始（「vanilla」）Minecraft 紋理，並套用到 Blockbench 模型上，將方塊 ID 解析為每面檔案、為灰階的草、葉子、流水著色、對大型面平鋪、處理翻頁動畫，並匯入原版 PBR texture_set（MERS/normal）。當使用者要求 vanilla、default、original、real 或符合 Minecraft 真實感的紋理、指定 Minecraft 方塊或材質（磚牆、橡木原木、石磚、草方塊、羊毛、玻璃）、希望模型與原版遊戲相符，或需要將 Bedrock 紋理名稱映射到 Java 版時，請使用此方法。支援 Bedrock、Java 以及通用模型。  
+
+請始終以使用者的語言回覆。

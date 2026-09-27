@@ -1,0 +1,3 @@
+在以下情況下使用此技能：將 Docker Agent 作為伺服器公開（MCP、HTTP API、A2A、ACP 或相容 OpenAI 的聊天）、使用 `docker agent share` 透過 OCI Registry 分發 Agent，或使用 `docker agent eval` 測量 Agent 的品質。即使用戶只是說想要「把我的 Agent 變成 MCP 伺服器」、「讓 Claude Desktop 使用我的 Agent」、「將我的 Agent 發布到 Docker Hub」、「像推送映像檔一樣推送我的 Agent」或「在 CI 中測試我的 Agent」，此技能亦適用。涵蓋 `serve mcp/api/a2a/acp/chat` 的監聽位址與認證旗標、`share push/pull`、eval 會話的 JSON 格式、評分指標，以及 `--baseline` 回歸門檻。
+
+請始終以使用者的語言回應。

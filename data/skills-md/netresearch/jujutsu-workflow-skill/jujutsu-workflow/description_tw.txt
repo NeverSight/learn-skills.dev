@@ -1,0 +1,1 @@
+在程式碼代理在一個有 Jujutsu (jj) 可用（即存在 `.jj/` 目錄）的儲存庫中工作時使用——執行 jj 指令、進行推測性編輯、拆分變更、利用操作日誌恢復（jj undo / jj op restore）、將 PR 交給 Git/GitHub/GitLab、在審查後更新 PR，或協調平行代理。將 jj 作為本地變更管理層，同時保留 Git 作為正規的遠端、PR、CI 以及稽核介面。也可用於避免 jj 的代理陷阱（分頁器/編輯器卡住、提交吸收、同時存在的 git/jj 不同步），或以可逆的 jj 操作取代脆弱的 git reset/checkout/stash/rebase 復原。
