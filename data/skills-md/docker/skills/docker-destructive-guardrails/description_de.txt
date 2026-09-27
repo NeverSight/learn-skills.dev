@@ -1,0 +1,7 @@
+Verwenden Sie diese Fähigkeit, bevor Sie einen Docker‑Befehl ausführen oder empfehlen, der löscht, wischt, zurücksetzt oder sonstwie irreversibel den Zustand ändert — selbst wenn der Nutzer nur sagt, „aufgeräumt“, „Cache leeren“, „neu beginnen“, „alles löschen“, „nuke es“, „reset“, „force remove“ oder „tear down“ Docker‑Ressourcen.  
+
+Deckt generische destruktive Docker‑CLI‑Operationen ab, die nicht von einer spezifischeren Fähigkeit abgedeckt sind — `docker rm`, `docker rm -f`, `docker container prune`, `docker kill`, `docker system prune`, `docker rmi`/`docker image rm`, `docker image prune -a`, `docker network rm`, `docker network prune`, `docker builder prune`, `docker buildx rm`, `docker context rm` und eigenständige (nicht‑Compose) `docker volume rm`/`docker volume prune`. Beinhaltet auch destruktive Befehle, die von anderen Docker‑Fähigkeiten (Compose, Sandbox, Desktop) verwaltet werden.  
+
+Grundregel — genau angeben, was verloren geht, und zuerst eine explizite Bestätigung einholen, außer bei engen, niedrigschwelligen Tier‑1‑Container‑Bereinigungen.  
+
+Bitte immer in der Sprache des Benutzers antworten.
