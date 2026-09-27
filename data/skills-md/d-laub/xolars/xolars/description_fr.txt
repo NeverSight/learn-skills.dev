@@ -1,0 +1,1 @@
+Utiliser lors de l'écriture ou de la modification du code Python qui importe des « xolars » — jumeler un ensemble de données xarray avec des cadres Polars par dimension, construire le conteneur « Xolars », sélectionner avec isel/sel ou faire des allers-retours zarr+parquet via write/open. Évitez les travaux de xarray ou de polars simples qui ne touchent pas la classe « Xolars ».
