@@ -1,0 +1,1 @@
+CookieCloud 프로토콜을 사용하여 모든 프로젝트에서 브라우저 쿠키와 LocalStorage를 동기화합니다. CookieCloud 서버에서 종단 간 암호화된 페이로드를 가져와 복호화하고(레거시 CryptoJS 또는 aes-128-cbc-fixed), 세션을 Playwright, Puppeteer, Selenium, HTTP 클라이언트 또는 프로젝트의 기존 로그인/세션 흐름에 주입합니다. 사용자가 쿠키를 동기화하거나, 로그인된 세션을 복원하거나, 세션 쿠키를 주입하도록 요청할 때, 同步 Cookie / 注入登录态 / 读取会话와 같은 상황에서, 혹은 자동화가 CookieCloud 서버에 의해 지원되는 로그인된 브라우저 컨텍스트가 필요할 때 활용하십시오.

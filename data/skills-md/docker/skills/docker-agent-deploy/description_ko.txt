@@ -1,0 +1,3 @@
+이 기술은 Docker Agent를 서버(MCP, HTTP API, A2A, ACP 또는 OpenAI 호환 채팅)로 노출할 때, `docker agent share`를 사용해 OCI 레지스트리를 통해 에이전트를 배포할 때, 혹은 `docker agent eval`로 에이전트 품질을 측정할 때 사용합니다. 사용자가 단순히 “내 에이전트를 MCP 서버로 바꾸고 싶다”, “Claude Desktop이 내 에이전트를 사용하게 해줘”, “내 에이전트를 Docker Hub에 게시하고 싶다”, “이미지처럼 내 에이전트를 푸시하고 싶다”, “CI에서 내 에이전트를 테스트하고 싶다” 라고 말하더라도 이 기술이 적용됩니다. `serve mcp/api/a2a/acp/chat` 청취 주소 및 인증 플래그, `share push/pull`, eval 세션 JSON 형식, 점수 매기기 메트릭, 그리고 `--baseline` 회귀 게이트를 다룹니다.
+
+항상 사용자의 언어로 응답하십시오.

@@ -1,0 +1,1 @@
+Surgio v3 구성 저장소를 네이티브 TypeScript ESM 프로젝트로 마이그레이션하고, 사용자의 선택에 따라 비‑Worker 배포, Worker 배포 또는 둘 모두를 유지합니다. 이는 surgio.conf.js, provider 디렉터리, Artifact 구성, Node Gateway, 또는 Worker 배포 마이그레이션에 적용됩니다; 시작하기 전에 원래 배포 방식을 유지할지 여부를 물어보고 Worker와 비‑Worker를 구분해야 합니다. 그러나 선택한 배포 방식에 관계없이 엄격한 TypeScript, 동작 동일성 및 해당 런타임 검증을 달성하고, Bun, tsx 또는 런타임 컴파일러를 도입하지 않아야 합니다.
