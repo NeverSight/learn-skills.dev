@@ -1,0 +1,1 @@
+Replit sandbox platform facts (no Nix): $HOME wiped on recreate, the /run/replit/env env-load channel, the rc chain (~/.bashrc store bootstrap -> $REPL_HOME/.config/bashrc, with .config/replit_bashrc as a REPLIT_MODE shim), GIT_CONFIG_GLOBAL is workspace-persistent not tmpfs, bare python is the platform runtime. Use before persisting data or debugging env/rc/git on Replit.

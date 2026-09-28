@@ -1,0 +1,10 @@
+The complete FailproofAI skill — setup, local runtime, Cloud, SDK, policies, publishing, evaluator, commands, concepts, and troubleshooting. Give it to an agent that needs to understand or operate FailproofAI without another skill.
+
+Trigger when the user wants to:
+• set up from zero — install, connect, wire 12 agent CLIs, verify a session lands;
+• move history — backfill sessions, flush the spool, add capture paths, or migrate a machine;
+• run the daemon — start, inspect, upgrade or remove it, diagnose delivery;
+• find the right surface — audits, sessions, policies, keys and orgs, fleet deploys, self-hosting;
+• fix a live machine — a stopped daemon, a session that never lands, a dead hook.
+
+It can stand alone. When focused sibling skills are installed, route policy authoring to `failproofai-policy-author`, pack publishing to `failproofai-policy-publish`, Cloud and fleet work to `fp-cloud-cli`, eval planning to `failproofai-eval-brainstorm`, and instrumentation to `failproofai-sdk`.

@@ -1,0 +1,106 @@
+---
+name: label-capture-net-maui
+description: Smart Label Capture (Scandit `LabelCapture`) in .NET MAUI projects (`<UseMaui>true</UseMaui>`, `Scandit.DataCapture.Label` NuGet) — extracting multiple fields (price, expiry date, serial or lot number, weight) from a label in one scan via barcode and text fields. Use for integration, label definitions (prebuilt VIN, price label, 7-segment), captured-session handling, MAUI view hosting and lifecycle, the Validation Flow, and SDK version migration — for non-MAUI .NET projects use `label-capture-net-android` or `label-capture-net-ios` instead.
+license: Apache-2.0
+metadata:
+  author: scandit
+  version: "1.0.1"
+---
+
+# Label Capture (Smart Label Capture) .NET MAUI Skill
+
+## Critical: Do Not Trust Internal Knowledge
+
+Your training data may contain outdated or incorrect Scandit Label Capture APIs, and the **.NET binding differs substantially from the Swift/Kotlin native SDKs**. On top of that, the **MAUI integration differs from both the non-MAUI `label-capture-net-android` / `label-capture-net-ios` skills** in how the SDK is initialized, how the preview is hosted, and how listeners are written. An agent that pattern-matches from the native docs — or even from the per-platform .NET skills — will get key calls wrong.
+
+**Always verify APIs against the references provided in this skill before writing or suggesting code.** Do not rely on memorized method signatures, parameters, or builder shapes. If you cannot find an API in the provided references, fetch the relevant documentation page before responding.
+
+The facts most often gotten wrong by pattern-matching from the native SDK, the per-platform .NET skills, or the MatrixScan/Barcode MAUI skills:
+
+- This skill targets MAUI apps with **`<UseMaui>true</UseMaui>`**. For non-MAUI .NET projects, use `label-capture-net-android` (for `net*-android`) or `label-capture-net-ios` (for `net*-ios`) instead. Those skills host the preview through a native `UIViewController` / `Activity`, which is completely different.
+- **Only FOUR NuGet packages — and there is NO `Scandit.DataCapture.Label.Maui`.** Add `Scandit.DataCapture.Core`, `Scandit.DataCapture.Core.Maui`, `Scandit.DataCapture.Barcode`, and `Scandit.DataCapture.Label`. Unlike MatrixScan/Barcode (which has a `Barcode.Maui` package and a `.UseScanditBarcode()` builder extension), **Label Capture has no `*.Maui` package and no MAUI builder extension** — it reuses the generic `<scandit:DataCaptureView>` from `Core.Maui`. Text recognizers (expiry date, prices, weight, custom text) are bundled in `Scandit.DataCapture.Label` — there is **no** separate `label-text-models` package.
+- **Initialization is split and unusual.** In `MauiProgram.CreateMauiApp()` call **`ScanditLabelCapture.Initialize()` directly** (it registers all the Label types and the barcode field builders), and chain **`.UseScanditCore(configure => configure.AddDataCaptureView())`** (which calls `ScanditCaptureCore.Initialize()` and registers the `DataCaptureView` handler). There is **no `UseScanditLabel()`** extension, and you do **not** call `UseScanditBarcode()` or `ScanditBarcodeCapture.Initialize()` for Label Capture — `Symbology` is just an enum and the label's barcode field builders come from `ScanditLabelCapture.Initialize()`. Do **not** add init calls to `MainApplication.OnCreate` / `AppDelegate.FinishedLaunching`; those stay as the MAUI template generates them (just forwarding to `MauiProgram.CreateMauiApp()`).
+- **There is NO `LabelCaptureSettings.builder()` fluent chain.** The native pattern `LabelCaptureSettings.settings { ... }` / `builder().addLabel()...build()` does **not** exist in .NET. Instead: (1) build each field via its own factory, (2) collect them in a `List<LabelFieldDefinition>`, (3) `LabelDefinition.Create(name, fields)`, (4) `LabelCaptureSettings.Create(new List<LabelDefinition> { def })`.
+- **Each field type is built with a static `Builder()` factory, then `.Build("field-name")`**: `CustomBarcode.Builder().SetSymbologies(IList<Symbology>).Build("Barcode")`, `ExpiryDateText.Builder().SetLabelDateFormat(...).Build("Expiry Date")`, `TotalPriceText.Builder().IsOptional(true).Build("Total Price")`, `CustomText.Builder().SetValueRegex("...").Build("Lot")`. Shared builder members (`IsOptional(bool)`, `SetValueRegex(es)`, `SetNumberOfMandatoryInstances(int?)`) exist on every field builder; `SetSymbology(ies)` on barcode builders; `SetAnchorRegex(es)` / `SetLocation(...)` on custom fields.
+- **`LabelCapture` is created with a FACTORY, not `new` and not `forDataCaptureContext`**: `LabelCapture.Create(dataCaptureContext, settings)`. The constructor is private.
+- **Symbology names are C# PascalCase**: `Symbology.Ean13Upca`, `Symbology.Gs1DatabarExpanded`, `Symbology.Code128`, `Symbology.Code39`, `Symbology.Qr`, `Symbology.DataMatrix`. Not the Kotlin underscore style (`EAN13_UPCA`) or Swift's camelCase (`.ean13UPCA`). `Symbology` lives in `Scandit.DataCapture.Barcode.Data`, and `SetSymbologies` takes an `IList<Symbology>` (e.g. `new List<Symbology> { ... }`), not a vararg.
+- **The preview is the generic `<scandit:DataCaptureView>` XAML control**, not a dedicated label view, with namespace `xmlns:scandit="clr-namespace:Scandit.DataCapture.Core.UI.Maui;assembly=ScanditCaptureCoreMaui"`. **`DataCaptureContext="{Binding DataCaptureContext}"` is mandatory** — without it the preview renders as a **black/blank camera** even though the code compiles. The page's `BindingContext` must expose a `DataCaptureContext` property; `x:Name` alone is not enough.
+- **Overlays must be created AFTER the platform handler attaches.** Subscribe to `dataCaptureView.HandlerChanged` and create `LabelCaptureBasicOverlay.Create(labelCapture)` (and the validation-flow overlay) there, then `dataCaptureView.AddOverlay(overlay)`. Creating an overlay before `HandlerChanged` fires fails silently — there's no native view yet.
+- **Listeners are PLAIN C# classes** implementing `ILabelCaptureListener` / `ILabelCaptureValidationFlowListener`. They do **not** derive from `NSObject` (that's the iOS skill) or `Java.Lang.Object` (that's the Android skill) — a single MAUI build serves both platforms, so no platform base class.
+- **`OnSessionUpdated` runs on a background thread** — read fields by name, set `labelCapture.Enabled = false` after a capture, and dispatch UI work via **`MainThread.BeginInvokeOnMainThread(...)`** / `MainThread.InvokeOnMainThreadAsync(...)` (not Android's `RunOnUiThread`, not iOS's `DispatchQueue.MainQueue`).
+- **The camera is yours to manage and is typically DI-injected.** `Core.Maui` provides `builder.Services.AddDataCaptureContext(licenseKey)` and `builder.Services.AddCamera(c => { c.Position = CameraPosition.WorldFacing; c.Settings = LabelCapture.RecommendedCameraSettings; })`. Inject the resulting `DataCaptureContext` / `Camera`, call `dataCaptureContext.SetFrameSourceAsync(camera)`, then `camera.SwitchToDesiredStateAsync(FrameSourceState.On / .Off)` across the page lifecycle. `RecommendedCameraSettings` is a **static property**. (A non-DI `DataCaptureContext.ForLicenseKey(key)` + `Camera.GetDefaultCamera(...)` also works for very small apps.)
+- **MAUI page lifecycle is `OnAppearing` / `OnDisappearing`**, usually delegated to a view model's `ResumeAsync` / `SleepAsync`. Request `Permissions.Camera` in the resume path before turning the camera on. On disappear, disable the mode and stop the camera.
+- **Validation Flow `OnResume()` / `OnPause()` ARE called in MAUI** (from `ResumeAsync` / `SleepAsync`). Unlike the iOS-only skill (which says don't call them), a single MAUI build targets both platforms: these methods do real work on Android and are harmless no-ops on iOS, so the MAUI sample calls them. There is also an iOS-only `KeyboardAutoManagerScroll.Disconnect()` workaround needed for the validation-flow manual-entry keyboard on iOS 18+ (see [references/validation-flow.md](references/validation-flow.md)).
+- **Read field values via `LabelField`**: `field.Name`, `field.Barcode?.Data` (a `Barcode?`), `field.Text` (a `string?`), `field.Date` (a `LabelDate?`). A field a user typed by hand in the validation flow surfaces through `field.Text` even for a barcode field — read `Barcode?.Data ?? Text`. Match fields by the exact `Name` you passed to `.Build("...")`. (`LabelField.ValueType` is iOS-only in the native binding — don't rely on it in portable MAUI code.)
+- **Camera permission & platform config**: iOS needs `NSCameraUsageDescription` in `Platforms/iOS/Info.plist` and `SupportedOSPlatformVersion` ≥ `15.0`; Android needs `android.permission.CAMERA` (MAUI's `Permissions.Camera` adds it, or add it to `AndroidManifest.xml`) and **`SupportedOSPlatformVersion` ≥ `24`** (the MAUI template defaults to `21`, which fails the build against Scandit's Android AAR).
+
+## Intent Routing
+
+Based on the user's request, load the appropriate reference file before responding:
+
+- **Integrating Label Capture from scratch, defining the label (fields, symbologies, regexes, optional vs required), creating the mode, wiring `MauiProgram.cs`, hosting the `<scandit:DataCaptureView>` + `LabelCaptureBasicOverlay`, managing the camera lifecycle, handling captured labels, customizing feedback or brushes, using prebuilt definitions (VIN / price label / 7-segment), using semantic barcode fields (serial / part number / IMEI), adding an advanced (AR / custom-view) overlay, or enabling the BETA cloud Adaptive Recognition fallback / Receipt Scanning** (e.g. "add Smart Label Capture to my MAUI app", "scan a barcode and an expiry date from a price tag in MAUI", "read the total price field", "read the serial and part number off a drive label", "scan an IMEI", "use the ready-made price/VIN/seven-segment label", "draw an AR badge over the expiry date", "turn on the cloud fallback when a field fails on-device", "scan whole receipts", "my MAUI preview is black after adding Label Capture") → read [references/integration.md](references/integration.md) and follow it.
+- **Enabling or customizing the Validation Flow** (e.g. "add the guided validation flow so users can review and correct fields", "let the user type a field that didn't scan", "customize the validation-flow hint text / button labels", "the keyboard covers the input field on iOS") → read [references/validation-flow.md](references/validation-flow.md) and follow it.
+
+## API Usage Policy
+
+Only use APIs that are explicitly documented in the Scandit references below. Do not invent or guess method signatures, parameters, builder shapes, or property names. If unsure whether an API exists or how it is called — or if a compile error occurs — fetch the relevant reference page before responding. Do not tell the user to check the docs themselves. After answering, always include the relevant link so the user can explore further.
+
+**Never construct or guess documentation URLs.** When you need a specific class or property's API page:
+1. First check whether the page you already fetched contains a direct hyperlink to it — topic pages link directly to relevant API symbols. Always request links alongside content in your fetch prompt.
+2. If no direct link was found, fetch the API index (see **Full API reference** in the table below), extract the actual link from it, and follow that.
+
+URL structures can vary (e.g. an `api/ui/` subdirectory) and guessing will lead to 404s.
+
+## References
+
+Scandit publishes the .NET API reference per underlying TFM (`dotnet.android` and `dotnet.ios`). For MAUI projects both pages apply — the Label Capture API surface is identical between them, but a few platform notes (like the iOS-only `LabelField.ValueType`) are documented per-TFM.
+
+| Topic | Resource |
+|---|---|
+| Get Started (Android target) | [Get Started (.NET for Android)](https://docs.scandit.com/sdks/net/android/label-capture/get-started/) |
+| Get Started (iOS target) | [Get Started (.NET for iOS)](https://docs.scandit.com/sdks/net/ios/label-capture/get-started/) |
+| Label Definitions (fields, regex, presets) | [Android](https://docs.scandit.com/sdks/net/android/label-capture/label-definitions/) · [iOS](https://docs.scandit.com/sdks/net/ios/label-capture/label-definitions/) |
+| Advanced topics (Validation Flow, adaptive recognition, advanced overlay) | [Android](https://docs.scandit.com/sdks/net/android/label-capture/advanced/) · [iOS](https://docs.scandit.com/sdks/net/ios/label-capture/advanced/) |
+| Full API reference | [Label Capture API (.NET Android)](https://docs.scandit.com/data-capture-sdk/dotnet.android/label-capture/api.html) · [Label Capture API (.NET iOS)](https://docs.scandit.com/data-capture-sdk/dotnet.ios/label-capture/api.html) |
+
+## API surface this skill covers
+
+All classes documented with `:available: dotnet.android` and/or `:available: dotnet.ios` in the official RST docs (`docs/source/label-capture/api/**`) are addressed in the references. Label Capture is available on `dotnet.android` since **8.1** and `dotnet.ios` since **8.2** (a few symbols since **8.2**) — any current stable release supports MAUI.
+
+- **`LabelCapture`** — static `Create(DataCaptureContext?, LabelCaptureSettings)`, `Context` (get), `Enabled` (get/set — `true` to process frames, `false` after a capture), `ApplySettingsAsync(LabelCaptureSettings)` → `Task`, `AddListener` / `RemoveListener(ILabelCaptureListener)`, static `RecommendedCameraSettings` (property), `Feedback` (get/set), `event EventHandler<LabelCaptureEventArgs> SessionUpdated`, `Dispose()`.
+- **`LabelCaptureSettings`** — static `Create(IList<LabelDefinition>)`, `LocationSelection` (get/set, `ILocationSelection?`), `GetSymbologySettings(Symbology)`, `SetProperty`/`GetProperty`/`GetProperty<T>`/`TryGetProperty<T>`, `Dispose`. **No settings builder.**
+- **`LabelCaptureSession`** — `CapturedLabels` (`IList<CapturedLabel>`), `FrameSequenceId` (`long`), `LastProcessedFrameId` (`int`).
+- **`ILabelCaptureListener`** — `OnSessionUpdated(LabelCapture, LabelCaptureSession, IFrameData)`, optional `OnObservationStarted(LabelCapture)` / `OnObservationStopped(LabelCapture)`. Implementations are **plain C# classes** in MAUI (no `NSObject` / `Java.Lang.Object` base).
+- **`LabelCaptureEventArgs`** — `Mode`, `Session`, `FrameData`.
+- **`LabelDefinition`** — static `Create(string name, IList<LabelFieldDefinition>)`; prebuilt `CreateVinLabelDefinition(name)`, `CreatePriceCaptureDefinition(name)`, `CreateSevenSegmentDisplayLabelDefinition(name)`; `Name`, `Fields`, `AdaptiveRecognitionMode` (get/set), `HiddenProperties`.
+- **`LabelDefinitionBuilder`** — `AddCustomBarcode`/`AddSerialNumberBarcode`/`AddPartNumberBarcode`/`AddImeiOneBarcode`/`AddImeiTwoBarcode`/`AddCustomText`/`AddExpiryDateText`/`AddPackingDateText`/`AddDateText`/`AddTotalPriceText`/`AddUnitPriceText`/`AddWeightText`, `AdaptiveRecognition(AdaptiveRecognitionMode)`, `SetHiddenProperty/Properties`, `Build(name)`. (An alternative to passing the list directly to `LabelDefinition.Create`.)
+- **Field types**, each with a static `Builder()` returning a fluent builder and `Build(string name)`:
+  - Barcode fields: `CustomBarcode` (`SetSymbologies(IList<Symbology>)` / `SetSymbology(Symbology)`, `SetAnchorRegex(es)`, `SetLocation(...)`), `SerialNumberBarcode`, `PartNumberBarcode`, `ImeiOneBarcode`, `ImeiTwoBarcode` (preset symbologies/regexes).
+  - Text fields: `CustomText` (`SetValueRegex(es)`, `SetAnchorRegex(es)`, `SetLocation(...)`), `ExpiryDateText` / `PackingDateText` / `DateText` (`SetLabelDateFormat(LabelDateFormat)`), `TotalPriceText`, `UnitPriceText`, `WeightText`.
+  - Shared builder members (on all): `IsOptional(bool)`, `SetValueRegex(string)` / `SetValueRegexes(IList<string>)`, `SetNumberOfMandatoryInstances(int?)`, `SetHiddenProperty/Properties`.
+- **`CapturedLabel`** — `Fields` (`IReadOnlyList<LabelField>`), `Name`, `Complete` (`bool`), `PredictedBounds` (`Quadrilateral`), `DeltaTimeToPrediction`, `TrackingId` (`int`).
+- **`LabelField`** — `Name`, `Type` (`LabelFieldType`: `Barcode`/`Text`/`Unknown`), `State` (`LabelFieldState`: `Captured`/`Predicted`/`Unknown`), `Required` (`bool`), `Barcode` (`Barcode?`), `Text` (`string?`), `Date` (`LabelDate?`), `PredictedLocation` (`Quadrilateral`). (`ValueType` / `LabelFieldValueType` is iOS-only — avoid in portable MAUI code.)
+- **`LabelDate`** — `Year`/`Month`/`Day` (`int?`), `DayString`/`MonthString`/`YearString`. **`LabelDateFormat`** — `new LabelDateFormat(LabelDateComponentFormat, bool acceptPartialDates)`, `ComponentFormat`, `AcceptPartialDates`. **`LabelDateComponentFormat`** enum (component ordering, e.g. `MDY`/`DMY`/`YMD`).
+- **`LabelCaptureBasicOverlay`** — static `Create(LabelCapture)` / `Create(LabelCapture, DataCaptureView?)`; `Listener` (`ILabelCaptureBasicOverlayListener?`); `SetBrushForField`/`SetBrushForLabel`; `PredictedFieldBrush`/`CapturedFieldBrush`/`LabelBrush` (get/set) + static `Default*Brush`; `GetFieldBrush`/`SetFieldBrush(LabelFieldState, Brush?)`; `ShouldShowScanAreaGuides`; `Viewfinder` (`IViewfinder?`); `Dispose`. In MAUI use the single-arg `Create(labelCapture)` and attach via `dataCaptureView.AddOverlay(overlay)` in `HandlerChanged`.
+- **`ILabelCaptureBasicOverlayListener`** — `BrushForField(overlay, field, label)`, `BrushForLabel(overlay, label)`, `OnLabelTapped(overlay, label)`.
+- **Validation Flow** (see [references/validation-flow.md](references/validation-flow.md)): `LabelCaptureValidationFlowOverlay` (static `Create(LabelCapture, DataCaptureView?)`, `Listener`, `ApplySettings`, `OnResume`/`OnPause`, `ShouldHandleKeyboardInsetsInternally`), `LabelCaptureValidationFlowSettings` (static `Create()`, hint/button text props, `SetPlaceholderText`/`GetPlaceholderText`), `ILabelCaptureValidationFlowListener` (`OnValidationFlowLabelCaptured(IList<LabelField>)`, `OnManualInputSubmitted`, `OnValidationFlowResultUpdate`), `LabelResultUpdateType`.
+- **`LabelCaptureFeedback`** — static `Default` (property), `Success` (`Core.Common.Feedback.Feedback`), `Dispose`.
+- **`AdaptiveRecognitionMode`** enum — controls cloud-backed recognition for a definition (`Off` default).
+- **MAUI-specific glue**: `ScanditLabelCapture.Initialize()`, `MauiAppBuilder.UseScanditCore(configure => configure.AddDataCaptureView())`, `builder.Services.AddDataCaptureContext(licenseKey)`, `builder.Services.AddCamera(configure => …)`, `<scandit:DataCaptureView>` XAML control, `dataCaptureView.HandlerChanged`, `dataCaptureView.AddOverlay(overlay)`, MAUI `Permissions.Camera`, `MainThread.BeginInvokeOnMainThread`.
+
+### Advanced topics (covered concisely in [references/integration.md](references/integration.md) — fetch the Advanced Configurations page for full shapes)
+
+These are real symbols. [references/integration.md](references/integration.md) now has short sections for them; don't invent signatures beyond what's documented there — fetch the Advanced Configurations page for the per-platform / beta detail:
+
+- **Advanced overlay (arbitrary native views over labels):** `LabelCaptureAdvancedOverlay`, `ILabelCaptureAdvancedOverlayListener`. In MAUI the listener returns a **native** view (`Android.Views.View` / `UIKit.UIView`), so it needs the `partial`-class split + `ToPlatform(...)` pattern (same as MatrixScan AR overlays in MAUI). See [references/integration.md](references/integration.md) → *Advanced overlay*.
+- **Adaptive Recognition — cloud fallback (BETA):** enabled per-definition via `LabelDefinition.AdaptiveRecognitionMode = AdaptiveRecognitionMode.Auto` (default `Off`). Beta; must be enabled on the subscription. See [references/integration.md](references/integration.md) → *Adaptive Recognition*.
+- **Receipt Scanning (BETA):** different pattern — `LabelCaptureAdaptiveRecognitionOverlay`, `ILabelCaptureAdaptiveRecognitionListener`, result types `ReceiptScanningResult` / `ReceiptScanningLineItem`. Beta; cloud-only; confirm exact .NET method/property names against the API reference before writing code. See [references/integration.md](references/integration.md) → *Receipt Scanning*.
+- **`LabelFieldLocation` / `LabelFieldLocationType`** — used with `SetLocation(...)` on custom field builders.
+
+### MAUI vs per-platform / barcode-MAUI differences (do not cross-pollinate)
+
+- **Packages/init**: Label MAUI = 4 packages (`Core`, `Core.Maui`, `Barcode`, `Label`), **no `Label.Maui`**, **no `UseScanditLabel()`**. Init = `ScanditLabelCapture.Initialize()` **directly** + `.UseScanditCore(c => c.AddDataCaptureView())`. (Barcode MAUI uses a `Barcode.Maui` package and `.UseScanditBarcode()`; the non-MAUI skills call `ScanditCaptureCore.Initialize()` + `ScanditBarcodeCapture.Initialize()` + `ScanditLabelCapture.Initialize()` in `MainApplication`/`AppDelegate`.)
+- **Hosting**: MAUI `<scandit:DataCaptureView>` XAML + overlay in `HandlerChanged`. (iOS `DataCaptureView.Create(context, CGRect)` + `AddSubview`; Android `DataCaptureView.Create(context)` + `container.AddView`.)
+- **Listener base class**: MAUI plain class; iOS `NSObject`; Android `Java.Lang.Object`.
+- **Main-thread dispatch**: MAUI `MainThread.BeginInvokeOnMainThread`; iOS `DispatchQueue.MainQueue` / `InvokeOnMainThread`; Android `RunOnUiThread`.
+- **Validation Flow lifecycle**: MAUI **calls** `overlay.OnResume()` / `OnPause()` (real on Android, no-op on iOS). The iOS-only skill says not to call them; in a single MAUI build you do.

@@ -1,0 +1,2 @@
+分析整棵未提交工作树（staged、unstaged、untracked），先出示预览再按逻辑分批提交；仅当用户明确要求合为一条（或不要拆、就提交一条）时走 single。标题用 cz-emoji shortcode 且必写 (scope)，subject 默认简体中文。
+当用户要求：mxcat-commit, commit code, generate commit message, auto commit, 帮我提交, 自动提交, 生成 commit, write commit message, 代码提交, 提交代码, split commits, batch commit，或表达“看看 git 里没提交的代码并分类后分批提交”时使用此技能。

@@ -1,0 +1,1 @@
+Pattern for wrapping third-party SDK clients (Stripe, Resend, AWS, etc.) with Effect. Use when creating Effect services that wrap external libraries with Promise-based APIs. Provides type-safe error handling, automatic tracing, and clean dependency injection via the "use" pattern.
