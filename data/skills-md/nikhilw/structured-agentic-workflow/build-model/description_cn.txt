@@ -1,0 +1,1 @@
+专用构建模型的入口点 — 在一个会话中运行的更小/更快的模型，其唯一任务是构建计划、审查并交接。协调所有阶段的 /build-phase，然后进行 /3p-review（循环直至干净），接着 /handoff-summary，然后暂停。它不运行 /verify-completion。主模型使用 agentic-workflow 代替。

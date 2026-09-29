@@ -1,0 +1,1 @@
+数据搬运器用于 TAO 作业——决定存储层级（A 预置挂载且零取回 / B 来自 S3 的卷 / C 计算节点内临时获取），对输入进行分阶段处理（批量 + 注释选择性 + 档案提取 + HF/NGC PTM），将凭证映射到环境，三路路由输出并排除上传，运行计算框架的验证关卡。支持技能以及其他平台技能（docker、kubernetes、slurm、brev、virtualenv）调用，以在不使用 TAO SDK 的情况下在计算容器内外获取数据。触发短语包括 “stage inputs”“mount the dataset”“upload TAO results”“download only referenced files”“resolve results_dir”“verify the container can read the data”。

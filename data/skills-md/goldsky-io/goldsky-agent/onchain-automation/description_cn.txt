@@ -1,0 +1,1 @@
+路由基于事件的链上自动化，检测活动、应用逻辑并响应提交交易。用于“当链上发生 X 时执行 Y”，监控并执行工作流、事件触发的智能合约调用、守护者、协议自动化、自动领取或复投奖励、清算、再平衡以及结算自动化。将 Turbo、Subgraphs、Mirror 用于检测，并结合 Compose 进行决策和执行，包括钱包、燃气赞助和 writeContract。检测需要大规模数据集时加载 /compose 进行执行，使用 /turbo-builder。纯索引或流式处理且不涉及链上操作的应放在 /turbo-builder、/subgraph-builder 或 /mirror。对于已确定为 Compose 的单一应用，直接使用 /compose。

@@ -1,0 +1,1 @@
+构建、打包并部署已编译的 Airflow Go SDK 捆绑包，以便 ExecutableCoordinator 能够运行它们。适用于用户想要编译 Go 任务捆绑包、询问 `go build`、`go tool airflow-go-pack`、AFBNDL01 自包含可执行捆绑包、打包或检查捆绑包、将其放置在 `executables_root` 下、为工作节点交叉编译捆绑包、`go-sdk` 模块的版本控制/标签/伪版本，或将捆绑包放到 Airflow 工作节点（Docker、Kubernetes 或 Astro）时的场景。任务代码请参阅 authoring-go-sdk-tasks；共享协调器设置请参阅 configuring-airflow-language-sdks。

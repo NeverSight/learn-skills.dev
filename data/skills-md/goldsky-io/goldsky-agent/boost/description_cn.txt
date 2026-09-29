@@ -1,0 +1,1 @@
+配置和排查 Goldsky Boost——位于用户已付费提供商前的免费 RPC 缓存 CDN。用于在不迁移的情况下降低 RPC 成本，连接 Alchemy/QuickNode/Infura 上游、goldsky boost、edge.goldsky.com/boost、验证、缓存命中率、eth_getLogs 转发，以及 x-cache / x-edge-billable / x-edge-source 头。Boost 保持已有提供商并转发未缓存的请求。若要使用 Goldsky 托管的 RPC 替换提供商，请使用 /edge。Pipeline、Subgraph 和 Compose 任务各有独立的技能。

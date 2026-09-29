@@ -1,0 +1,3 @@
+在用户请求审查、加固或安全检查现有 PRD 时使用此技能。触发短语包括 “review prd”、 “audit prd”、 “harden prd”、 “security review of prd”。此技能会积极寻找模糊的接受标准、缺失的测试以及缺失的受影响区域/文件，并将加固/审查后的输出写入 prd‑enhanced.md。请勿在以下情况下触发：创建新 PRD（使用 lcs‑toprd）、代码审查（使用 lcs‑code‑review）、任务执行（使用 lcs‑task‑executor）或头脑风暴（使用 lcs‑explore）。审阅者仅对现有 PRD 进行加固，不会创建或实现新内容。 
+
+请始终使用用户的语言进行回复。

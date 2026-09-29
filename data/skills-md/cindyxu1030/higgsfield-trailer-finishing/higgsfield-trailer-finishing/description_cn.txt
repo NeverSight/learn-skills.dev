@@ -1,0 +1,7 @@
+将生成的剪辑完成合成为一个交付视频：使用 ffmpeg 拼接，可选地应用电影式调色，添加与已拼接剪辑匹配的原创配乐（Sonilo 视频转音乐，需提供用户的 SONILO_API_KEY —— 已授权、可安全用于商业，受条款约束），并进行混流。
+
+使用场景：“把这些剪辑拼成一个视频”， “用这些剪辑做预告片”， “组装我的剪辑并添加音乐”， “对这段剪辑进行调色”， “添加与我的视频匹配的音乐”， “为此剪辑添加配乐”， “完成此编辑”。
+
+配合使用：先用 higgsfield‑generate 创建剪辑（Seedance 2.0 / Kling 3.0）；也可使用任何其他来源的剪辑。
+
+不适用情形：生成剪辑（请使用 higgsfield‑generate），品牌广告视频（请在 higgsfield‑generate 中使用 Marketing Studio），仅凭提示生成固定时长的音乐或音效（请使用 sonilo_music / seed_audio 于 higgsfield‑generate）。

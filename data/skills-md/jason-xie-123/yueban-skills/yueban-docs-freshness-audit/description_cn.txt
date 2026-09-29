@@ -1,0 +1,11 @@
+检查 AGENTS.md/README.md/业务文档是否过时：悬挂引用、矛盾或自相矛盾的状态、失效链接、跨文档不一致、openspec 变更状态不一致（如果项目使用 openspec）、未标记的权威冲突、索引缺口、遗漏新添加的基础设施、无法执行的命令/路径、重复内容、残留的历史叙述；发现问题时直接修复文件。  
+
+范围依据规则动态发现，不硬编码具体文件名：根目录的 AGENTS.md/README.md，docs/ 目录下的所有 .md 文档，根级别的 skills/ 文件夹（如果存在）中的所有 .md 文档，以及对每个当前维护的子模块（从 .gitmodules 动态获取，排除以 deprecated/ 为前缀的）其自身的 AGENTS.md/README.md 和 docs/ 子目录。  
+
+默认排除项：整个 deprecated/ 目录树，项目显式标记为历史规划存档的任何目录，整个 openspec/ 目录树（如果项目使用 openspec），四个 agent‑tool 配置目录 .claude、.codex、.gemini、.agents 整体，以及 .gitignore 中列出的路径。  
+
+对 docs/ 和子模块 docs/ 下的产品/业务材料的判断需要额外谨慎（如果该目录包含项目自己的 AGENTS.md，先读取它再处理）；详见 “Scope” 部分。  
+
+**仅手动触发**：仅在用户显式输入 `/yueban-docs-freshness-audit` 或明确指明应使用此技能时运行；类似 “检查文档” 或 “看文档是否过时” 的通用表述不应自动关联到此——将其视为普通请求或在用户未明确提及时询问澄清。  
+
+请始终使用用户的语言作答。
