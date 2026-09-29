@@ -1,0 +1,3 @@
+ユーザーがスライスされたタスクから特定のタスクを実装、実行、または継続するよう要求したときは、このスキルを使用してください。「Eksekusi TASK-###」「Eksekusi task-###.md」「continue TASK-###」「implement TASK-###」でトリガーします。常に .lcs/state.md を最初に読み取り、依存関係を確認し、Normal モードか TDD モードかを分析して推奨し、ユーザーに確認し、完了したらタスクのステータスと .lcs/state.md を更新してください。以下の場合はトリガーしないでください：デザインレビュー（lcs-code-review を使用）、ブレインストーミング（lcs-explore を使用）、ドキュメンテーション（lcs-doc-finalizer を使用）、デバッグ（lcs-debug を使用）。
+
+常にユーザーの言語で応答してください。

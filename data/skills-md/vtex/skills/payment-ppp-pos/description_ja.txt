@@ -1,0 +1,1 @@
+VTEX Sales App上でのPOS（ポイント・オブ・セール）決済のためのVTEX Payment Provider Protocolコネクタを実装する際に適用してください。Venda Direta Credito および Venda Direta Debito のマニフェストメソッド、二段階のPayment Appチャレンジ（端末コネクタ、続いて確認待ち）、Create Payment時のカードデータがnullになるケース、非同期の未定義ステータス、secondsWaiting と delayToCancel のタイムアウトペアリング、cardBrand、firstDigits、lastDigits を含むコールバックペイロードをカバーしています。実際のカードを決済端末でチャージするPPP + POS統合の構築やデバッグに使用してください。

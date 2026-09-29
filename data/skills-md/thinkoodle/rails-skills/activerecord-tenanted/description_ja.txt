@@ -1,0 +1,1 @@
+Basecamp の activerecord‑tenanted gem を使用した、テナントごとの SQLite を用いた Rails アプリ向けのエキスパートガイドです。マルチテナンシー、テナントデータベース、GlobalRecord、ApplicationRecord.with_tenant、Current.tenant、Current.account、シャードのスワップ、db/global_migrate、またはテナントごとの SQLite を追加する際に使用してください。Nebula スタイルの acts_as_tenant による行スコープや、Fizzy の同一データベースパスでのテナンシーには使用しないでください。

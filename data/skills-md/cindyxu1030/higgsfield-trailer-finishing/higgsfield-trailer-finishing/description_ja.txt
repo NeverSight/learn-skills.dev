@@ -1,0 +1,11 @@
+生成されたクリップを 1 本の配信動画に仕上げる：ffmpeg で結合し、オプションでシネマティックなカラー調整を適用し、組み立てたカットに合わせたオリジナルサウンドトラックを追加（Sonilo の video‑to‑music、ユーザー提供の SONILO_API_KEY — ライセンス取得済み、商用利用可、利用規約適用）、そして mux する。  
+使用例：  
+「これらのクリップを 1 本の動画にまとめて」  
+「これらのクリップから予告編を作成」  
+「クリップを組み立てて音楽を付ける」  
+「このカットをカラーグレーディング」  
+「動画に合う音楽を追加」  
+「このカットにサウンドトラックを付ける」  
+「この編集を完成させる」  
+連携先：higgsfield‑generate で先にクリップを作成（Seedance 2.0 / Kling 3.0）。他ソースからのクリップも使用可。  
+対象外：クリップ生成（higgsfield‑generate を使用）、ブランド広告動画（higgsfield‑generate の Marketing Studio を使用）、プロンプトだけで固定長音楽や SFX を作成（sonilo_music / seed_audio を higgsfield‑generate で使用）。
