@@ -1,0 +1,1 @@
+حقائق منصة ريبليت الساندبوكس (بدون نكس): يتم مسح $HOME عند إعادة الإنشاء، قناة تحميل البيئة /run/replit/env، سلسلة rc (~/.bashrc تخزن التمهيد → $REPL_HOME/.config/bashrc، مع .config/replit_bashrc كطبقة shim لـ REPLIT_MODE)، GIT_CONFIG_GLOBAL ثابت في مساحة العمل وليس على tmpfs، بايثون العاري هو وقت تشغيل المنصة. استخدم ذلك قبل حفظ البيانات أو تصحيح env/rc/git على ريبليت.
