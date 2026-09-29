@@ -1,0 +1,3 @@
+スクリーンショット、URL、またはHTMLスニペットに対して構造化されたUXレビューを実行します – 0〜4のスコア、最大6つの優先度付けされた課題（それぞれにBefore/After/Whyを含む）と、各主張につき1つの引用を提供します。2つ以上のバリアントがある場合、共通の評価軸で比較し、勝者を指名します。画面と意思決定質問が与えられた場合、レビューを返すのではなく、画面を証拠として質問に回答します。トリガーフレーズは「review this design」「critique this screen」「what's wrong with this UI」「score this design」「which of these two is better」「did the redesign improve this」「should I use a modal or a drawer」です。WCAGのみのアクセシビリティ監査には使用しないでください（accessibility-auditを使用）。モックアップを開発仕様に変換する場合は使用しないでください（design-handoffを使用）。
+
+常にユーザーの言語で回答してください。

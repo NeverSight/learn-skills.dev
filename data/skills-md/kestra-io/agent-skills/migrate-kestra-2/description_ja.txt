@@ -1,0 +1,3 @@
+Kestra 1.3 インスタンスとそのフローを Kestra 2.0 に移行する：事前監査（レディネスレポートと複雑度評価）、サーバーアップグレード（データベースマイグレーション、Docker/Helm）、kestra-migrate を使用した CLI 主導のフロー移行、そして CLI では自動化できないパターンのガイド付き書き換え（ForEach/ForEachItem → Loop、トリガー条件 → when/dependsOn、pluginDefaults → Policies）。ユーザーが Kestra 2.0 へのアップグレードまたは移行を希望する際には、インスタンスが 2.0 に対応できるか質問し、kestra-migrate やその警告に言及するか、2.0 アップグレード後にフローの解析に失敗したことを報告してください。他のオーケストレーター（Airflow）からの移行については、代わりに migrate-airflow-kestra を使用してください。
+
+常にユーザーの言語で回答してください。

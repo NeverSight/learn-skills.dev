@@ -1,0 +1,1 @@
+Traigent最適化を実行: 非同期/同期実行、アルゴリズム選択、コスト上限、停止条件、並列トライアル。func.optimize() または optimize_sync() を呼び出す際に使用し、アルゴリズム（auto/grid/random どこでも、認証済み接続実行時は bayesian/optuna などのスマートセレクタ）を選択し、max_trials または cost_limit を設定し、並列実行を構成し、CostLimitExceeded を処理します。

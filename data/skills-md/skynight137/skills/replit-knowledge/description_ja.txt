@@ -1,0 +1,3 @@
+Replit サンドボックスプラットフォームの事実（Nix なし）：再作成時に $HOME が消去され、/run/replit/env が env‑load チャネル、rc チェーン（~/.bashrc がブートストラップを格納 → $REPL_HOME/.config/bashrc、.config/replit_bashrc が REPLIT_MODE の shim）、GIT_CONFIG_GLOBAL は workspace 永続で tmpfs ではなく、bare python がプラットフォームランタイムです。データを永続化する前や、Replit で env/rc/git をデバッグする前に使用してください。
+
+常にユーザーの言語で回答してください。
