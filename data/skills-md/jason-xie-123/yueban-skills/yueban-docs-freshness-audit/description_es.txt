@@ -1,0 +1,11 @@
+Verifique si los documentos AGENTS.md/README.md/documentos empresariales están desactualizados: referencias colgantes, estado contradictorio o autocontadictorio, enlaces rotos, inconsistencias entre documentos, inconsistencias de estado de cambios de OpenSpec (si el proyecto usa OpenSpec), conflictos de autoridad no marcados, lagunas en la cobertura del índice, infraestructura recién añadida que falta, comandos/rutas que no pueden ejecutarse, contenido duplicado, narrativas históricas residuales; edite los archivos directamente cuando se encuentren problemas.  
+
+El alcance se descubre de forma dinámica según reglas, sin codificar listas de archivos específicas: el AGENTS.md/README.md raíz, todos los documentos .md bajo el directorio docs/, todos los documentos .md en la carpeta raíz skills/ (si existe), y para cada submódulo actualmente mantenido (obtenido dinámicamente de .gitmodules, excluyendo aquellos con el prefijo deprecated/) su propio AGENTS.md/README.md y su subdirectorio docs/.  
+
+Exclusiones predeterminadas: todo el árbol de directorios deprecated/, directorios marcados explícitamente por el proyecto como archivos de archivo de planificación histórica, todo el árbol de directorios openspec/ (si el proyecto usa OpenSpec), los cuatro directorios de configuración de herramientas de agente .claude/, .codex/, .gemini/, .agents en su totalidad, y rutas listadas en .gitignore.  
+
+El material de producto/negocio bajo docs/ o docs/ del submódulo debe evaluarse con mayor cautela (si dicho directorio contiene su propio AGENTS.md del proyecto, léalo primero antes de continuar); vea la sección “Alcance” para más detalles.  
+
+**Solo activado manualmente**: la ejecución ocurre únicamente cuando el usuario ingresa explícitamente `/yueban-docs-freshness-audit` o nombra explícitamente esta habilidad; declaraciones genéricas como “revisar los docs” o “ver si los docs están desactualizados” no deben asumirse como referencia a esto—manéjelas como una solicitud normal o pida aclaración a menos que el usuario lo mencione explícitamente.  
+
+Por favor, siempre responda en el idioma del usuario.

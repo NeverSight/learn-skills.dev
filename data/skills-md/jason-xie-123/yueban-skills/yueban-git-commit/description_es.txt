@@ -1,0 +1,3 @@
+Realiza un commit de git siguiendo Conventional Commits, con análisis del mensaje de commit, staging inteligente y generación del mensaje. Utilízalo cuando el usuario solicite hacer commit de código, crear un commit o mencione "/commit". Compatibilidades: (1) detección automática del tipo y alcance a partir del diff, (2) generación de un mensaje de commit convencional a partir del diff, (3) commits interactivos (sobrescribiendo tipo/alcance/descripción), (4) staging inteligente mediante agrupación lógica, (5) envío al remoto después del commit, una vez confirmado (omitir la pregunta solo si la solicitud del usuario ya implicaba el push).
+
+Por favor, responde siempre en el idioma del usuario.

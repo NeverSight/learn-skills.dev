@@ -1,0 +1,3 @@
+Utiliza esta habilidad siempre que el usuario solicite revisar, endurecer o verificar la seguridad de un PRD existente. Se activa con frases como “review prd”, “audit prd”, “harden prd”, “security review of prd”. Esta habilidad busca agresivamente criterios de aceptación ambiguos, pruebas faltantes y Áreas/Archivos Afectados ausentes, y escribe la salida reforzada/revisada en prd‑enhanced.md. NO se debe activar para: crear nuevos PRDs (usa lcs‑toprd), revisión de código (usa lcs‑code‑review), ejecución de tareas (usa lcs‑task‑executor) o lluvia de ideas (usa lcs‑explore). El revisor endurece PRDs existentes, no crea ni implementa.
+
+Por favor, responde siempre en el idioma del usuario.

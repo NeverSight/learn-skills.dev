@@ -1,0 +1,3 @@
+Decide si dos fragmentos de código (funciones, métodos, clases, módulos, servicios) deben estar juntos o separados, usando las reglas de Ousterhout de "A Philosophy of Software Design" (cap. 5, 7, 9): información compartida, simplicidad de la interfaz, propósito general vs específico, métodos conjuntos, capas de paso. Úsalo cuando el usuario pregunte si extraer, dividir o fusionar una función o clase, diga que un método es demasiado largo, haya demasiadas clases pequeñas, pregunte dónde debería vivir algún código, o tenga wrappers, decoradores o parámetros que pasan por muchas capas. No es para una revisión completa de diseño (revisión de complejidad) ni para diseñar una nueva interfaz (design‑it‑twice).
+
+Por favor, responde siempre en el idioma del usuario.

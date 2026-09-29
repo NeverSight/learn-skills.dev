@@ -1,0 +1,3 @@
+Utiliza esta habilidad siempre que el usuario solicite implementar, ejecutar o continuar una tarea específica de tareas segmentadas. Activa con "Eksekusi TASK-###", "Eksekusi task-###.md", "continue TASK-###", "implement TASK-###". Siempre lee .lcs/state.md primero, verifica dependencias, analiza y recomienda modo Normal vs TDD, confirma con el usuario y actualiza el estado de la tarea y .lcs/state.md al terminar. NO actives para: revisión de diseño (usa lcs-code-review), lluvia de ideas (usa lcs-explore), documentación (usa lcs-doc-finalizer) o depuración (usa lcs-debug). 
+
+Por favor, responde siempre en el idioma del usuario.
