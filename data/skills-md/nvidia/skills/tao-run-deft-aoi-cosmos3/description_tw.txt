@@ -1,0 +1,3 @@
+在 NVIDIA Cosmos Reason 3 / Cosmos3 模型上執行磁碟支援的 DEFT AOI 改進迴路，預設使用 Nano，若明確要求則使用 Edge 或 Super：在 Proxy 與已凍結的 Benchmark 分割上評估基礎模型，從 Proxy 缺口中挖掘真實影像對，從選取的挖掘樣本組成每次迭代的 Train JSON，使用 cosmos-rl LoRA SFT 進行訓練，並透過選定平台的 submit/status/logs/cancel 合約重複此流程。此遷移僅支援裸標籤：助理回應必須僅為 OK 或 NG。使用情境包括「run Cosmos3 DEFT AOI」、 「CR3 AOI loop」或「improve Cosmos3 PCB inspection with bare OK/NG」；不適用於豐富/推理標註、一次性 Cosmos 訓練或通用異常產生。
+
+請始終以使用者的語言回應。

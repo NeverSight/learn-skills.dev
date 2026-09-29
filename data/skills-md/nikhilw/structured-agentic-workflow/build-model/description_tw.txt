@@ -1,0 +1,1 @@
+專用建構模型的切入點——一個較小/較快的模型在會話中執行，其唯一工作是建立計畫、審查並交接。協調所有階段的 /build-phase，然後是 /3p-review（迴圈直到清潔），接著 /handoff-summary，然後暫停。不執行 /verify-completion。主模型則改用 agentic-workflow。

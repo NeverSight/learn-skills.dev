@@ -1,0 +1,4 @@
+將生成的剪輯完成為一個交付影片：使用 ffmpeg 進行拼接，套用可選的電影級色彩處理，加入與組合剪輯相匹配的原創配樂（Sonilo video-to-music，使用者提供的 SONILO_API_KEY — 已授權，商業使用安全，適用條款），並進行合流。  
+使用情境：「把這些剪輯拼接成一段影片」、「從這些剪輯製作預告片」、「組合我的剪輯並加入音樂」、「為此剪輯做色彩分級」、「加入與我的影片相匹配的音樂」、「為此剪輯添加配樂」、「完成此編輯」。  
+可串接：higgsfield-generate 以先產生剪輯（Seedance 2.0 / Kling 3.0）；任何其他來源的剪輯亦可使用。  
+非適用情況：生成剪輯（請使用 higgsfield‑generate）、品牌廣告影片（使用 higgsfield‑generate 的 Marketing Studio）、僅透過提示產生固定長度的音樂或音效（請使用 higgsfield‑generate 的 sonilo_music / seed_audio）。

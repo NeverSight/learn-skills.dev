@@ -1,0 +1,1 @@
+路由事件驅動的鏈上自動化，檢測活動、套用邏輯，並回應提交交易。用於「當 X 在鏈上發生時，執行 Y」、監控與執行工作流程、由事件觸發的智能合約呼叫、keepers、協議自動化、自動領取或復利獎勵、清算、再平衡以及結算自動化。結合 Turbo / Subgraphs / Mirror 進行檢測，並使用 Compose 進行決策與執行，包括錢包、燃料贊助與 writeContract。載入 /compose 以執行，當檢測需要資料集規模時使用 /turbo-builder。純索引或串流且不涉及鏈上操作的屬於 /turbo-builder、/subgraph-builder 或 /mirror。對於已明確為 Compose 的單一應用，直接使用 /compose。

@@ -1,0 +1,3 @@
+AI 代理對任何網路應用程式的視覺回饋迴路。適用於在視覺程式碼（UI、canvas、3D、SVG、圖表、動畫）上反覆迭代時，需要「看到」渲染結果以評估品質。涵蓋：dev‑screenshot API 模式（GET 觸發 → SSE → 客戶端捕捉 → POST 回傳 → 檔案保存）、參數化渲染、metadata sidecar、使用像素差的視覺回歸、WebMCP 工具註冊，以及 console 後備方案。啟動條件：‘take a screenshot’、‘show me the render’、‘visual QA’、‘compare before/after’、‘pixel diff’，或任何需要代理檢查渲染輸出的迭代視覺工作。
+
+請始終以使用者的語言回覆。

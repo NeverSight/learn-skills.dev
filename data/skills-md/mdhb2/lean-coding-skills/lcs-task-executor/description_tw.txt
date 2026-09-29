@@ -1,0 +1,3 @@
+在使用者要求實作、執行或繼續切割任務中的特定任務時，使用此技能。觸發條件為「Eksekusi TASK-###」、「Eksekusi task-###.md」、「continue TASK-###」或「implement TASK-###」。始終先閱讀 .lcs/state.md，檢查相依關係，分析並建議使用 Normal 模式或 TDD 模式，與使用者確認，完成後更新任務狀態及 .lcs/state.md。不要在以下情況觸發：設計審查（使用 lcs-code-review）、腦力激盪（使用 lcs-explore）、文件編寫（使用 lcs-doc-finalizer）或除錯（使用 lcs-debug）。
+
+請始終以使用者的語言回覆。

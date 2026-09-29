@@ -1,0 +1,4 @@
+掃描並清理整個專案（包括根倉庫本身以及每個目前仍在維護的子模組——動態從 .gitmodules 取得，排除以 deprecated/ 為前綴的子模組；將根倉庫與每個子模組視為同等，使用相同的檔案類型規則來掃描整個倉庫），以找出程式碼註解（涵蓋主流語言，依註解語法分類：Java/Kotlin/Swift/Go/C/C++/C#/Rust/Scala/Groovy/Dart/TS/JS 等使用 //、/* */、/** */ 風格；Python/Ruby/Shell/Perl/R/YAML 等使用 # 風格；SQL/Lua 等使用 -- 風格；PowerShell 的 # 與 <# #>；HTML/XML <!-- -->；CSS/SCSS/LESS /* */）以及 Markdown 文件中記錄「歷史變更過程」的內容——無論是否由 AI 產生，只要是類似「最初是怎樣、之後因為 XX 而變更」之類的事後敘述，如「在遷移/變更過程中刪除」、「從舊模組遷移過來」、「design.md 決策 X」等。  
+移除整段程式碼註解；在 Markdown 文件中僅刪除歷史敘事句子，保留仍然有效的操作指引。  
+在使用者明確請求清除此類歷史註解，或指出「這些註解只是變更過程的記錄，沒必要」時，請使用此規則。  
+預設排除項目：整個 deprecated/ 目錄樹、任何被專案明確標記為歷史規劃檔案的目錄、整個 openspec/ 目錄樹（如果專案使用 openspec）、四個代理工具設定目錄 .claude/、 .codex/、 .gemini/、 .agents/ 整體，以及 .gitignore 中列出的路徑（例如 node_modules 等；git ls‑files 本身不會列出這些）。

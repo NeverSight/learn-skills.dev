@@ -1,0 +1,1 @@
+在 VTEX 銷售應用程式上實作 VTEX 支付提供者協定（Payment Provider Protocol）連接器以支援銷售點（POS）付款時使用。本說明涵蓋 Venda Direta Credito 及 Venda Direta Debito 兩種 manifest 方法、兩階段 Payment App 挑戰（先連接終端機再等待確認）、Create Payment 時的空卡資訊、非同步未定義狀態、secondsWaiting 與 delayToCancel 的逾時配對，以及回呼 payload 中的 cardBrand、firstDigits 與 lastDigits。適用於構建或除錯 PPP + POS 整合，於支付終端機上刷實體卡片。
