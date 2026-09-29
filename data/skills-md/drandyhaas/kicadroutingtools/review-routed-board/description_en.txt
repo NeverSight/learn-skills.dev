@@ -1,0 +1,1 @@
+Post-route QA on a KiCad board. Runs the DRC, connectivity, and orphan-stub checkers, verifies length/time-match groups landed within tolerance, checks GND return via coverage on high-speed nets, and reviews differential pairs. Produces a pass/fail sign-off report with concrete next actions. Works on boards routed by this tool, by hand, or by other tools.

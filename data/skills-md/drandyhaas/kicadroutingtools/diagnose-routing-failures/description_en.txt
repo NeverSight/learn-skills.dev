@@ -1,0 +1,1 @@
+Root-causes failed routes from a routing run's logs and the board file. Parses the JSON summary, failed-net histories, and blocking reports, correlates failures spatially with board regions and components, classifies the failure mode, and outputs a ready-to-run retry command. Use after route.py/route_diff.py runs report failed nets.

@@ -1,0 +1,13 @@
+Finish generated clips into one delivered video: stitch with ffmpeg,
+apply an optional cinematic color pass, add an original soundtrack
+matched to the assembled cut (Sonilo video-to-music, user-supplied
+SONILO_API_KEY — licensed, safe for commercial use, terms apply), and mux.
+Use when: "stitch these clips into one video", "make a trailer from
+these clips", "assemble my clips and add music", "color grade this cut",
+"add music that matches my video", "add a soundtrack to this cut",
+"finish this edit".
+Chain with: higgsfield-generate to create the clips first (Seedance 2.0 /
+Kling 3.0); clips from any other source work too.
+NOT for: generating clips (use higgsfield-generate), branded ad video
+(use Marketing Studio in higgsfield-generate), fixed-length music or SFX
+from a prompt alone (use sonilo_music / seed_audio in higgsfield-generate).

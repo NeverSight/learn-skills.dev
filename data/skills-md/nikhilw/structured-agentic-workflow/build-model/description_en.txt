@@ -1,0 +1,1 @@
+Entry point for a dedicated build model — a smaller/faster model run in a session whose only job is to build a plan, review it, and hand off. Orchestrates /build-phase across all phases, then /3p-review (loop until clean), then /handoff-summary, then pauses. Does NOT run /verify-completion. The main model uses agentic-workflow instead.
