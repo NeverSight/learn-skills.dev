@@ -1,0 +1,3 @@
+為 LiveKit 代理人在使用者的常規測試套件中編寫回合級測試：pytest（Python）或 Vitest（Node.js）。當使用者要求「write tests for my agent」、「add a test for this tool」、「test the handoff」、「pin this bug」或「why does my agent test fail」時，或在建置或修改需要回歸覆蓋的代理行為後，請使用此功能。涵蓋 SDK 的測試會話框架、對訊息的斷言、工具呼叫與交接、LLM 依據意圖評判回覆、模擬工具、多回合測試，以及使用內建評審器判斷整段對話。互動式測試請使用 debugging-livekit-agents。規模化對話評分請使用 running-livekit-simulations。
+
+請始終以使用者的語言回覆。

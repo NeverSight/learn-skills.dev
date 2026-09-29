@@ -1,0 +1,1 @@
+在 Xamarin 應用已經遷移到 .NET 堆疊（.NET for Android、.NET for iOS 或 .NET MAUI）之後，遷移 Scandit Data Capture SDK 整合——例如在使用微軟的 .NET 應用現代化工具之後。當專案以 .NET/MAUI 建置，但 Scandit 程式碼仍引用 `Scandit.DataCapture.*.Xamarin(.Forms)` 套件、`.Unified` 命名空間，或舊版的 `Scandit.BarcodePicker.Xamarin` 時使用。交換套件、修正 SDK‑8 初始化、命名空間與視圖、驗證掃描，並交由相對應的 `*-net-android`/`-net-ios`/`-net-maui` 功能處理。僅遷移 Scandit SDK，而不涉及一般應用程式。

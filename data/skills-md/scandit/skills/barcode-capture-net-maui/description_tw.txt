@@ -1,0 +1,1 @@
+Scandit BarcodeCapture 在 .NET MAUI 專案中（`<UseMaui>true</UseMaui>`，`Scandit.DataCapture.Barcode.Maui` NuGet）——低層、全控制的條碼掃描模式，使用您自行在 MAUI 頁面中的 `<scandit:DataCaptureView>` XAML 控制項與覆蓋層，未搭配預建的 SparkScan UI（若需要請使用 sparkscan-net-maui）；對於非 MAUI .NET，請使用 barcode-capture-net-android 或 barcode-capture-net-ios。適用於整合、掃描設定、結果處理、生命週期綁定、SDK 版本遷移（v6→v7→v8）、取代 ZXing.Net.Maui，或除錯。

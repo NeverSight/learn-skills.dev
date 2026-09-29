@@ -1,0 +1,1 @@
+使用 Effect 包裝第三方 SDK 客戶端（如 Stripe、Resend、AWS 等）的模式。當建立將外部具有基於 Promise 的 API 的函式庫封裝成 Effect 服務時使用。提供型別安全的錯誤處理、自動追蹤，並透過「use」模式實現乾淨的依賴注入。

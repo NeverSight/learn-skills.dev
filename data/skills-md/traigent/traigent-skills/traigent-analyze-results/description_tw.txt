@@ -1,0 +1,3 @@
+從終端分析並回報 Traigent 優化結果——無需開啟 portal 的分頁。當使用者詢問分析執行、「我的執行結果如何？」、「分析我在專案 X 的最新執行」、想知道贏家是誰，或要讀取結果欄位、報告、排行榜、Pareto 折衷、相關性，或參數／範例洞見時使用。決策問題請導向 `traigent-analyze-guidance`（Mode B 用於 portal 追蹤的執行，Mode C 用於離線／本機）。亦涵蓋本機的 OptimizationResult 物件：讀取 results.best_config、比較 trial、檢查 stop_reason、自動套用最佳配置、匯出候選、存取 total_cost 或 total_tokens，或了解為何優化停止。
+
+請始終以使用者的語言回覆。

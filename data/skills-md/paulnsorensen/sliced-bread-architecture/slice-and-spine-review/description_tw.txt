@@ -1,0 +1,1 @@
+執行一個以人為迴路的全庫一致性檢查，針對 Sliced Bread 程式碼庫：清點切片、主幹與接縫；將子代理分散開來以處理每個檔案及其測試；依排名順序走訪接縫，由人類在每個停留點給予處置；檢查主幹是否有協調漂移。當使用者說「review the seams」、 「slice and spine review」、 「whole-repo coherence review」、 「walk the seams」或詢問在個別變更通過審查後切片是否仍然相互連結時，使用此方法。請勿用於對有限變更集的規則合規檢查（sliced-bread-review）、自主稽核與議題提出（sliced-bread-audit），或深度／外殼形狀評分（sliced-bread-depth）——此技術是全倉庫的引導式會議，而非自動檢查。請始終以使用者的語言回覆。

@@ -1,0 +1,1 @@
+將 Kestra 1.3 實例及其流程遷移至 Kestra 2.0：預先稽核，提供就緒報告與複雜度評分，伺服器升級（資料庫遷移、Docker/Helm），使用 kestra-migrate 進行 CLI 為主的流程遷移，以及指導性重寫 CLI 無法自動化的模式（ForEach/ForEachItem → Loop，觸發條件 → when/dependsOn，pluginDefaults → Policies）。在使用者想要升級或遷移至 Kestra 2.0 時使用，詢問其實例是否已為 2.0 準備好，提及 kestra-migrate 或其警告，或回報在 2.0 升級後無法解析的流程。對於從其他編排器（如 Airflow）遷移的情況，請改用 migrate-airflow-kestra。請務必以使用者的語言回覆。

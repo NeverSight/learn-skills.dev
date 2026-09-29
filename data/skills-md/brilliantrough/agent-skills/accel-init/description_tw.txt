@@ -1,0 +1,3 @@
+深度學習計算平台初始化主要入口：偵測（或讓使用者直接說明）加速器平台及其當前狀態，設置 Python 雙棧基礎（miniconda + uv + 清華鏡像），根據平台研究 wheel 矩陣／分支／生態系統相容性，產生方案，執行方案，經過驗證步驟，最終交由 accel‑skill‑template 進行部署。適用於在建立全新深度學習計算伺服器時（CUDA、MUSA、Ascend、ROCm 驅動、SDK、PyTorch、Triton、Transformers 生態系），或在被要求初始化計算環境／安裝平台堆疊／配置新深度學習伺服器，亦或平台堆疊需要修復與重新驗證時。若僅需 Python 環境且不涉及平台問題，請遵循常規流程；詳情請參閱 accel‑skill‑template 的部署範本說明。
+
+請始終以使用者的語言回覆。

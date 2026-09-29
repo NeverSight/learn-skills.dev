@@ -1,0 +1,3 @@
+當使用者要求個人化 GitHub Copilot CLI 助手、將 Copilot 調整為其風格、使用 vardoger，或分析其 Copilot CLI 對話歷史時使用。讀取本機的 `~/.copilot/session-state/` 目錄，提取重複出現的偏好與慣例，並將個人化區塊寫入 `~/.copilot/copilot-instructions.md`（以程式碼區塊形式）。完全在使用者的機器上透過本地 `vardoger` CLI（`pipx install vardoger`）執行；不會有網路請求，也不會上傳。觸發詞：'personalize my copilot'、'analyze my copilot history'、'tailor copilot to me'、'run vardoger'、'update my copilot instructions from history'、'make copilot learn my style'。
+
+請始終以使用者的語言回覆。
