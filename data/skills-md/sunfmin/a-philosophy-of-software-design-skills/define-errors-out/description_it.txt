@@ -1,0 +1,3 @@
+Riduci la complessità delle eccezioni e della gestione degli errori ridefinendo la semantica in modo che gli errori non possano verificarsi, mascherandoli a basso livello, aggregando i gestori o facendo terminare il programma (concetto di Ousterhout “definire gli errori fuori dall’esistenza”). Usalo quando l’utente dice che la gestione degli errori è caotica, ci sono troppi blocchi try/catch o `if err != nil`, chiede se una funzione debba lanciare un’eccezione o restituire un errore, o sta progettando i casi di errore di un’API. Non è destinato al debug di un guasto specifico (diagnosi dei bug).
+
+Rispondi sempre nella lingua dell’utente.

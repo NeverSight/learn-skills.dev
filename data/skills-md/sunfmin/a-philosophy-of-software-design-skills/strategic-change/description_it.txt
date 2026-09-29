@@ -1,0 +1,3 @@
+Modifica il codice esistente in modo strategico anziché tattico. Dopo la modifica, il sistema dovrebbe apparire come se fosse stato progettato tenendo conto di quel cambiamento fin dall'inizio (A Philosophy of Software Design di Ousterhout, cap. 3 e 16). Usalo quando aggiungi una funzionalità o correggi un bug nel codice esistente e l'utente vuole mantenere il design pulito, dice “non limitarti a tamponare”, “correzione rapida o corretta?”, “qual è il modo giusto per aggiungere questo”, o chiede prima di fare il commit se una modifica ha peggiorato il design. Non è per nuovi moduli da zero (design‑it‑twice) né per revisionare il PR di qualcun altro (complexity‑review).
+
+Rispondi sempre nella lingua dell'utente.

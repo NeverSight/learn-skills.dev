@@ -1,0 +1,11 @@
+In un repository che utilizza i submodule git, crea un branch con lo stesso nome secondo una specifica/funzionalità—sia il repository principale che ogni submodule attualmente mantenuto (scoperto dinamicamente da `.gitmodules`, escludendo i moduli storici con prefisso `deprecated/`) tagliano uniformemente un branch `<change-id>` dal branch base scelto dall'utente (qualsiasi branch effettivamente usato dal progetto va bene, non è hard‑coded).
+
+Durante lo sviluppo, usa sync per allineare questo branch su più macchine (senza influenzare il branch base stesso).
+
+Quando si effettua il commit, orchestra `yueban-git-commit` per commitare ogni componente nell'ordine “prima il submodule, poi il repository principale”. Alla fine, fornisci un report pronto per il merge ma non effettuare il merge automaticamente (l'utente esegue il merge manualmente o tramite PR). Dopo il merge, opzionalmente pulisci il branch.
+
+Differenza rispetto a `yueban-git-safe-sync`: quel tool gestisce pull/push del branch corrente, così come le singole azioni “unire il base nel branch corrente” e “aprire una PR per il branch corrente”. Questo strumento gestisce l'intero ciclo di vita di un branch di funzionalità che è separato dal branch base.
+
+**Solo trigger esplicito**: viene invocato solo quando l'utente inserisce esplicitamente `/yueban-git-feature-branch-flow` o nomina esplicitamente questa abilità; osservazioni generiche come “creare un branch”, “cambiare branch” o “come sviluppare questa specifica” non devono essere mappate qui automaticamente—gestiscile come normali operazioni git o chiedi chiarimenti a meno che l'utente non richieda specificamente questa abilità.
+
+Per favore rispondi sempre nella lingua dell'utente.
