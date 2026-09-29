@@ -1,0 +1,3 @@
+Utilisez cette compétence chaque fois que l'utilisateur demande d'implémenter, d'exécuter ou de poursuivre une tâche spécifique à partir de tâches découpées. Déclenchez sur « Eksekusi TASK-### », « Eksekusi task-###.md », « continue TASK-### », « implement TASK-### ». Lisez toujours .lcs/state.md en premier, vérifiez les dépendances, analysez et recommandez le mode Normal ou TDD, confirmez avec l'utilisateur, puis mettez à jour le statut de la tâche et .lcs/state.md une fois terminé. NE PAS déclencher pour : revue de conception (utilisez lcs-code-review), brainstorming (utilisez lcs-explore), documentation (utilisez lcs-doc-finalizer) ou débogage (utilisez lcs-debug).
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
