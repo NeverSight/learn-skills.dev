@@ -1,0 +1,1 @@
+Replit 샌드박스 플랫폼에 대한 사실 (Nix 없음): $HOME은 재생성 시 초기화되고, /run/replit/env 환경 로드 채널이 있습니다. rc 체인(~/.bashrc는 부트스트랩을 저장 → $REPL_HOME/.config/bashrc, .config/replit_bashrc는 REPLIT_MODE 쉼)도 존재합니다. GIT_CONFIG_GLOBAL은 tmpfs가 아니라 워크스페이스에 영구 저장됩니다. 베어 파이썬은 플랫폼 런타임입니다. 데이터를 영구화하거나 Replit에서 env/rc/git을 디버깅하기 전에 사용하세요.

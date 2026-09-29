@@ -1,0 +1,1 @@
+Traigent 최적화를 실행하십시오: 비동기/동기 실행, 알고리즘 선택, 비용 제한, 중지 조건 및 병렬 시도. func.optimize() 또는 optimize_sync()를 호출할 때, 알고리즘을 선택하고(자동/그리드/무작위 등 어디서든; 인증된 연결 실행 및 SDK 0.20.1 이상에서 베이지안/Optuna와 같은 스마트 선택기), max_trials 또는 cost_limit을 설정하고, 병렬 실행을 구성하거나 CostLimitExceeded를 처리할 때 사용합니다.

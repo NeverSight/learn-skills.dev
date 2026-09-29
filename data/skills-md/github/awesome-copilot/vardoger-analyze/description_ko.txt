@@ -1,0 +1,3 @@
+사용자가 GitHub Copilot CLI 어시스턴트를 개인화하거나, Copilot을 자신의 스타일에 맞게 조정하거나, vardoger를 사용하거나, Copilot CLI 대화 기록을 분석하려고 할 때 사용합니다. `~/.copilot/session-state/`에 있는 로컬 세션 디렉터리를 읽고, 반복되는 선호도와 규칙을 추출한 뒤, `~/.copilot/copilot-instructions.md`에 fenced 개인화 블록을 작성합니다. 로컬 `vardoger` CLI(`pipx install vardoger`)를 통해 완전히 사용자의 머신에서 실행되며, 네트워크 호출이나 업로드가 없습니다. 트리거: 'personalize my copilot', 'analyze my copilot history', 'tailor copilot to me', 'run vardoger', 'update my copilot instructions from history', 'make copilot learn my style'.
+
+항상 사용자의 언어로 응답해 주세요.
