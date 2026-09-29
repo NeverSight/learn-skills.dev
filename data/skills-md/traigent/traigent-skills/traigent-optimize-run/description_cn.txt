@@ -1,0 +1,1 @@
+运行 Traigent 优化：异步/同步执行、算法选择、成本限制、停止条件和并行试验。可在调用 func.optimize() 或 optimize_sync() 时使用，包括选择算法（auto/grid/random 任意；在已认证的连接运行中使用诸如 bayesian/optuna 等命名的智能选择器，SDK 0.20.1 以上），设置 max_trials 或 cost_limit，配置并行执行，或处理 CostLimitExceeded。

@@ -1,0 +1,1 @@
+代表用户向 JPUShare（share.jedutools.io）提交 GPU 作业，获取状态、日志和结果，并在实验室的存储空间中上传和下载文件。它不处理密钥发放、实验室报名或管理员功能。当用户请求 JPUShare 任务、存储空间、GPU 服务器或队列时使用，例如“上传作业到 JPUShare”、“获取 GPU 作业结果”、“上传到 JPUShare 存储空间”、“告诉我 GPU 服务器状态”。需要用户在网页上颁发的 API 密钥（环境变量 JPUSHARE_API_KEY）。请始终使用用户的语言进行回复。

@@ -1,0 +1,1 @@
+建立一个“软件工厂”，将带标签的 GitHub Issue 转化为已审阅的 Pull Request，使用在 Upstash Box 沙盒中运行、由 GitHub Actions 启动的编码代理（如 Claude Code、Codex 或任何其他 CLI 代理）。在以下任何情况下都使用它：有人想要构建、重新创建、扩展或调试 issue‑to‑PR 流程、后台编码代理池、“处理我的 GitHub Issue 的代理”、标签触发的代理工作流，或任何将 Upstash Box 与编码代理和 GitHub 结合的场景，即使他们从未提到“软件工厂”。也可使用它向通过这种方式构建的工厂中添加仓库、代理类型、工作者、模型或工作量设置，或工作者镜像（快照）。

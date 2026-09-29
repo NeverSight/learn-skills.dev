@@ -1,0 +1,4 @@
+使用评估、注入和执行选项来配置 `@traigent.optimize()` 装饰器。  
+在以下情况下使用：设置 `eval_dataset`、选择 `injection_mode`、选择优化算法或离线执行、定义目标、使用 `experiment_name` 为优化命名（这是代理身份键，而非每次运行的标签；没有 `tags/metadata` 参数）、使用 `EvaluationOptions`/`InjectionOptions`/`ExecutionOptions`，或集成自定义评估器。  
+请提供代理函数及其路径、评估数据集和目标（们）。  
+请始终使用用户的语言作答。

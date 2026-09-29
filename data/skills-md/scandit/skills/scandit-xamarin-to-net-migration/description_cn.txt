@@ -1,0 +1,1 @@
+在 Xamarin 应用已迁移至 .NET 框架（.NET for Android、.NET for iOS 或 .NET MAUI）后，迁移 Scandit Data Capture SDK 集成——例如在使用 Microsoft 的 .NET 应用现代化工具之后使用。适用于项目以 .NET/MAUI 构建，但 Scandit 代码仍引用 `Scandit.DataCapture.*.Xamarin(.Forms)` 包、`.Unified` 命名空间或旧版 `Scandit.BarcodePicker.Xamarin` 的情况。该过程会替换包、修复 SDK‑8 初始化、命名空间和视图，验证扫描功能，并交接给相应的 `*-net-android`/`-net-ios`/`-net-maui` 技能。仅迁移 Scandit SDK，不涉及整个应用。

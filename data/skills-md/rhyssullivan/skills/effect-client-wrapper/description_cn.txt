@@ -1,0 +1,1 @@
+用于使用 Effect 包装第三方 SDK 客户端（如 Stripe、Resend、AWS 等）的模式。适用于创建将基于 Promise 的外部库包装为 Effect 服务的场景。提供类型安全的错误处理、自动追踪，以及通过 “use” 模式实现的简洁依赖注入。

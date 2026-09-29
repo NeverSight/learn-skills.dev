@@ -1,0 +1,1 @@
+Replit 沙盒平台事实（无 Nix）：在重新创建时 $HOME 会被清除，/run/replit/env 为环境加载通道，rc 链（~/.bashrc 存储引导 → $REPL_HOME/.config/bashrc，.config/replit_bashrc 作为 REPLIT_MODE 的 shim），GIT_CONFIG_GLOBAL 是工作区持久化的而非 tmpfs，裸 Python 是平台运行时。在 Replit 上持久化数据或调试 env/rc/git 之前使用这些信息。请始终使用用户的语言作答。
