@@ -1,0 +1,1 @@
+Dagster 프로젝트를 Apache Airflow 3 (Astro)로 마이그레이션하기 위한 가이드. 사용자는 Dagster(또는 Dagster+) 코드를 Airflow 또는 Astro로 마이그레이션, 변환, 포팅한다고 언급하거나, 해당 마이그레이션을 계획·평가하고자 할 때, 혹은 Dagster 구성 요소가 Airflow에 어떻게 매핑되는지 물을 때 사용합니다. 자산, 파티션, 스케줄, 센서, 선언형 자동화, 리소스, IO 매니저, 연산/잡, dbt, Pipes, 컴포넌트, 그리고 Dagster+ 플랫폼 설정을 다룹니다. Dagster‑to‑Airflow 요청 시 항상 이 스킬을 첫 단계로 로드하십시오.

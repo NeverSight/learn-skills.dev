@@ -1,0 +1,1 @@
+TAO Data Services KPI 분석을 실행하여 객체 검출에 대해 추론 주석을 실제 정답과 비교하고, 고정된 IoU에서 클래스별 TP/FP/FN/TN, 정밀도, 재현율, 정확도 및 AP를 계산합니다. 객체 검출 워크플로우에서 추론 후 클래스별 mAP를 보고해야 할 때, 혹은 사용자가 “run KPI analyze”, “compute detection mAP”, “score my OD predictions against ground truth”와 같이 요청할 때 사용합니다.

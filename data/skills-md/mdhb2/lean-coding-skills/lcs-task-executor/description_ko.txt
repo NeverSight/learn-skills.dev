@@ -1,0 +1,3 @@
+사용자가 분할된 작업에서 특정 작업을 구현, 실행 또는 계속하라고 요청할 때마다 이 기술을 사용하세요. “Eksekusi TASK-###”, “Eksekusi task-###.md”, “continue TASK-###”, “implement TASK-###”에 반응합니다. 항상 .lcs/state.md를 먼저 읽고, 종속성을 확인하고, Normal 모드와 TDD 모드 중 어느 쪽을 추천할지 분석한 뒤, 사용자에게 확인하고, 작업이 완료되면 작업 상태와 .lcs/state.md를 업데이트하세요. 다음 경우에는 트리거하지 마세요: 디자인 리뷰(​lcs-code-review 사용), 브레인스토밍(​lcs-explore 사용), 문서화(​lcs-doc-finalizer 사용), 디버깅(​lcs-debug 사용).
+
+항상 사용자의 언어로 응답하세요.
