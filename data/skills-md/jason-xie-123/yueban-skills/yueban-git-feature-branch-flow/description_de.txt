@@ -1,0 +1,15 @@
+In einem Repository, das Git‑Submodule verwendet, erstelle einen Branch mit demselben Namen wie das Spec/Feature – sowohl das übergeordnete Repository als auch jedes aktuell gepflegte Submodul (dynamisch aus .gitmodules ermittelt, historische Module mit dem Präfix deprecated/ ausgenommen) werden von einem vom Nutzer ausgewählten Basis‑Branch abgezweigt (ein beliebiger Branch, den das Projekt tatsächlich nutzt, nicht fest kodiert), um einen <change‑id>‑Branch zu erzeugen.  
+
+Während der Entwicklung wird sync verwendet, um diesen Branch über mehrere Maschinen hinweg synchron zu halten (ohne den Basis‑Branch selbst zu beeinflussen).  
+
+Beim Committen orchestriere yueban‑git‑commit, sodass jede Komponente in der Reihenfolge „Submodul zuerst, übergeordnetes Repository zuletzt“ committed wird.  
+
+Am Ende wird ein merge‑bereiter Bericht erzeugt, aber es findet kein automatischer Merge statt (der Nutzer führt den Merge manuell oder per Pull‑Request durch).  
+
+Nach dem Merge ist das Aufräumen des Branches optional.  
+
+Der Unterschied zu yueban‑git‑safe‑sync: Dieses Werkzeug verwaltet Pull/Push für den aktuellen Branch selbst und einzelne Aktionen wie „Merge Base in den aktuellen Branch“ oder „Öffne einen PR für den aktuellen Branch“. Dieser Workflow verwaltet den gesamten Lebenszyklus eines Feature‑Branchs, das vom Basis‑Branch losgelöst ist.  
+
+**Nur expliziter Auslöser**: Es wird nur aktiviert, wenn der Nutzer ausdrücklich `/yueban-git-feature-branch-flow` eingibt oder diese Fähigkeit gezielt anfordert. Allgemeine Aussagen wie „einen Branch öffnen“, „zu einem Branch wechseln“ oder „wie entwickle ich dieses Spec“ sollten nicht automatisch ausgelöst werden; sie werden als reguläre Git‑Operationen behandelt oder es werden Rückfragen gestellt, solange der Nutzer die Fähigkeit nicht explizit nennt.  
+
+Bitte antworte immer in der Sprache des Benutzers.

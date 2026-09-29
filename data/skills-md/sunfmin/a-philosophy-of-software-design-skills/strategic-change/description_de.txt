@@ -1,0 +1,3 @@
+Modifiziere bestehenden Code strategisch statt taktisch. Nach der Änderung sollte das System aussehen, als wäre es von Anfang an mit dieser Änderung im Sinn entworfen worden (Ousterhouts „A Philosophy of Software Design“, Kap. 3 und 16). Verwende dies, wenn du ein Feature zu bestehendem Code hinzufügst oder einen Fehler behebst und der Nutzer das Design sauber halten möchte, sagt „patch es nicht einfach“, „Schnellfix oder richtiger Fix?“, „Wie fügt man das richtig hinzu?“, oder vor dem Commit fragt, ob eine Änderung das Design verschlechtert hat. Nicht für neue Module von Grund auf (design‑it‑twice) oder beim Review von jemand anderem’s PR (complexity‑review).
+
+Bitte antworte immer in der Sprache des Nutzers.
