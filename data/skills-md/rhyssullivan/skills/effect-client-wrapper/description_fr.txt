@@ -1,0 +1,1 @@
+Modèle pour encapsuler les clients SDK tiers (Stripe, Resend, AWS, etc.) avec Effect. À utiliser lors de la création de services Effect qui encapsulent des bibliothèques externes avec des API basées sur les Promises. Fournit une gestion d’erreurs typée, un traçage automatique et une injection de dépendances propre via le modèle « use ».
