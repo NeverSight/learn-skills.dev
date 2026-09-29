@@ -1,0 +1,3 @@
+Fatti sulla piattaforma sandbox di Replit (senza Nix): $HOME cancellato al ricreare, il canale di caricamento dell'ambiente /run/replit/env, la catena rc (~/.bashrc memorizza il bootstrap → $REPL_HOME/.config/bashrc, con .config/replit_bashrc come shim REPLIT_MODE), GIT_CONFIG_GLOBAL è persistente nello spazio di lavoro, non su tmpfs, python puro è il runtime della piattaforma. Usalo prima di persistere dati o fare debug di env/rc/git su Replit.
+
+Si prega di rispondere sempre nella lingua dell'utente.
