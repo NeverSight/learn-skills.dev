@@ -1,0 +1,17 @@
+Construit une carte de révision HTML d’une pull request — ce qui a changé, les jugements que le réviseur doit porter avec les lignes exactes qui étayent chacun d’eux, l’ordre dans lequel lire le code, et ce que le changement atteint dans le code qu’il n’a pas touché — afin qu’un réviseur puisse expliquer le changement avant de le juger.  
+
+Cible Rails et Elixir/Phoenix — une application Phoenix LiveView ou une API JSON Rails ou Phoenix, avec ou sans client séparé tel que Next.js.  
+
+Utilisez‑le chaque fois que quelqu’un doit comprendre un changement plutôt que le noter : il répond à la question de ce que fait une PR ou une branche, où commencer sur un gros diff, quels fichiers importent réellement, ce que le changement pourrait casser, si le frontend et le backend sont toujours d’accord, ou permet de mettre un réviseur à jour sur le travail de quelqu’un d’autre — même s’il ne dit jamais « review map » ou « walkthrough ».  
+
+Invoquez‑le avec `/accountable-review:review-map` dans Claude Code ou `$review-map` dans Codex, en passant éventuellement un numéro de PR, une URL, une branche ou une plage de diff.  
+
+Il n’y a qu’une forme de page et aucun drapeau ne la choisit.  
+
+Un niveau d’effort est distinct : `--effort high` est la valeur par défaut et tente de falsifier l’analyse propre de l’exécution avant que la page ne soit écrite, `--effort low` saute cette passe.  
+
+`--mentor` sert à un réviseur nouveau sur la stack plutôt que sur le changement : il ajoute un aperçu du framework dans les points de contrôle qui en gagnent un et ne modifie rien d’autre de la page.  
+
+Passer `--output <dir>` rend l’exécution non interactive : la page est écrite dans `<dir>/index.html` en HTML statique portable au lieu d’être publiée, ce qui correspond à la façon dont le CI en génère une.  
+
+Pas destiné à publier des commentaires de révision ou des verdicts d’approbation.

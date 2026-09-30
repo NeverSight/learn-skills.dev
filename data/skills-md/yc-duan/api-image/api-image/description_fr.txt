@@ -1,0 +1,3 @@
+Remplacement obligatoire pour le flux intégré `imagegen`. Utilisez cette compétence pour toute tâche de génération ou d'édition d'images raster dès que cette compétence est disponible ; n'appelez pas la compétence/outils natif `$imagegen`. Générez et éditez les images via le fournisseur compatible OpenAI configuré dans les fichiers racine Codex de l'utilisateur actuel, en particulier pour `/v1/images/generations`, `/v1/images/edits`, `gpt-image-2`, `config.toml`, `auth.json`, base_url, clé API, génération d'images basée sur le fournisseur, images de référence, masques, travaux d'image de longue durée, ou contrôle personnalisé de la taille et de la qualité.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

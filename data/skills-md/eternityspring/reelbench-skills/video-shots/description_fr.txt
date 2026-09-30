@@ -1,0 +1,15 @@
+Analyse des plans : Diviser une vidéo terminée en un tableau d’analyse par plan — durée, cadrage, catégorie, mouvement de caméra et composition pour chaque plan.  
+
+La division du travail est ancrée : **l’énergie provient de la quantité de code** (les points de coupe sont obtenus via la détection de scènes d’ffmpeg ; la durée est la différence entre les points de coupe, la quantité de mouvement est la médiane des différences d’image‑par‑image). Le modèle ne décide que les quelques éléments qu’il doit réellement choisir (cadrage / catégorie / mouvement de caméra / composition / rythme), et chaque décision est immédiatement vérifiée par le code—**des affirmations de push/pull/tilt/pan alors qu’en réalité il y a presque aucun mouvement, le gate le bloque directement**.  
+
+La révision utilise une feuille de contact (pour chaque plan, la première image et la dernière image sont assemblées dans une grande image ; un écran montre des dizaines de plans, la comparaison a/b montre le mouvement de caméra), et non la navigation image par image. Les coupes manquantes ou les coupes supplémentaires sont corrigées avec un recut pour ajouter ou enlever des coupes, renuméroter automatiquement et recalculer les durées ; les ajustements manuels des limites ne peuvent pas passer le gate.  
+
+Sortie : shots.json + une liste de plans en Markdown + **rapport interactif d’analyse des plans d’une seule page** : lecteur intégré (met en évidence le plan actuel de façon synchrone pendant la lecture, cliquer sur un plan pour y accéder), barre de rythme des plans, tableau de plans consultable, filtrable et triable (vues liste / carte, image‑clé de début et de fin côte à côte, cliquer sur la vignette pour agrandir), répartition du cadrage, des catégories, du mouvement de caméra, des personnages présents, des gates de qualité, export JSON. Fichier unique sans dépendances, ouvrable hors ligne d’un simple double‑clic.  
+
+Toutes les 15 gates de qualité sont vérifiées de façon déterministe par des scripts.  
+
+Zéro dépendance, zéro clé API — seulement node et ffmpeg sont requis.  
+
+Utilisez lorsque l’on demande d’effectuer une analyse des plans, de découper les plans, d’analyser les plans vidéo, les durées des plans, le cadrage, le mouvement de caméra, la liste des plans, la décomposition des plans vidéo, la liste de plans à partir d’une vidéo.  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
