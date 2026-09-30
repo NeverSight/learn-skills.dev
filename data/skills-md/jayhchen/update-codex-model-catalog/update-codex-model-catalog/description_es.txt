@@ -1,0 +1,3 @@
+Actualizar el catálogo de modelos de Codex: cuando Codex se autentica con una clave API (proveedor de modelo personalizado), recupera el catálogo de modelos del endpoint /models del proveedor y lo sincroniza con el archivo referenciado por model_catalog_json. Use esto cuando el usuario necesite actualizar el catálogo de modelos de Codex, sincronizar la lista de modelos, cuando se añaden o eliminan modelos del lado del servidor, o cuando se mencione model_catalog_json. En modo OAuth (inicio de sesión con ChatGPT), Codex extrae automáticamente el catálogo, por lo que esto no aplica.
+
+Por favor, siempre responda en el idioma del usuario.

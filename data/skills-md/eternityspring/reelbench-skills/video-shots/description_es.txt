@@ -1,0 +1,15 @@
+Desglose de tomas: divide un video terminado en una tabla de análisis por toma — la duración de cada toma, el tipo de toma, la categoría, el movimiento de cámara y el contenido visual.
+
+La división del trabajo está arraigada: **Todo el trabajo pesado lo hace el código** (los puntos de corte provienen de la detección de escenas de ffmpeg; la duración es la diferencia entre los puntos de corte, la cantidad de movimiento es la mediana de las diferencias por cuadro). El modelo solo decide las pocas cosas que realmente debe decidir (tipo de toma / categoría / movimiento de cámara / contenido visual / ritmo), y cada decisión se reconcilia inmediatamente con el código — **las afirmaciones de push‑pull‑zoom‑pan se encuentran prácticamente estáticas en la medición, y la puerta las bloquea directamente**.
+
+La revisión utiliza una hoja de contacto (para cada toma, el primer cuadro y el último cuadro se unen en una gran imagen; una pantalla muestra docenas de tomas, la comparación a/b revela el movimiento de cámara), en lugar de pasar cuadro por cuadro. Los cortes perdidos o adicionales se detectan y corrigen con recorte; el sistema renumera automáticamente, recalcula las duraciones, y los límites ajustados manualmente que no pasan la puerta son rechazados.
+
+Salidas: shots.json + una tabla de tomas en Markdown + **un informe interactivo de desglose de tomas de una sola página**: reproductor integrado (resaltando la toma actual en sincronía durante la reproducción, al hacer clic en una toma se salta a ella), una línea de tiempo de ritmo, tabla de tomas buscable / filtrable / ordenable (vistas de lista y tarjeta, fotogramas clave de inicio y fin lado a lado, hacer clic en la miniatura para ampliarla), distribuciones de tipo de toma, categoría y movimiento de cámara, personajes que aparecen, puertas de calidad y exportación a JSON. Es un solo archivo sin dependencias; se puede abrir offline con un doble clic.
+
+Los 15 puertas de calidad son verificadas determinísticamente por scripts.
+
+Cero dependencias, cero claves de API – solo se requieren node y ffmpeg.
+
+Úsalo cuando se solicite realizar un desglose de tomas, dividir tomas, analizar tomas de video, duración de toma, tipo de toma, movimiento de cámara, lista de tomas, desglose de tomas de video, lista de tomas a partir de un video.
+
+Por favor, siempre responde en el idioma del usuario.

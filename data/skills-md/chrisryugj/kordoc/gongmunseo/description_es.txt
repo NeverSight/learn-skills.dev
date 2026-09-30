@@ -1,0 +1,5 @@
+Una habilidad orquestadora que recibe contenido y lo genera como HWPX en el formato estándar para documentos oficiales administrativos coreanos (borrador, promulgación, informe, plan, aviso, acta). Convierte al modo de documento oficial de Kordoc aplicando la numeración de ítems de ocho niveles (1. 가. 1) 가) (1) (가) ① ㉮) basada en el “Manual de Operaciones Administrativas” del Ministerio del Interior y Seguridad y sus normas de ejecución, alineación de sangría en segunda línea, márgenes oficiales (superior 20 mm, inferior 10 mm, izquierdo/derecho 20 mm), fuente Myeongjo 15 pt, interlineado, y la notación de fecha, anexo, cierre y monto.  
+
+Disparadores — “escribir un informe”, “hacer un borrador”, “exportar como documento oficial”, “escribir un plan”, “organizar actas a hwpx”, “en formato de documento oficial”, “hacer un aviso”, “documento oficial hwpx”, “escribir un documento administrativo”.  
+
+La conversión simple de markdown a hwpx (independiente del formato) usa kordoc generate directamente. Completar los espacios en blanco en plantillas hwp/hwpx existentes usa kordoc fill.
