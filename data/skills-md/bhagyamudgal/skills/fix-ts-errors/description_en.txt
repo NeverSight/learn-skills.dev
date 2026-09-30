@@ -1,0 +1,1 @@
+Fix TypeScript errors and loop the type-check until green. Use when the user says "ts errors" or "fix types", when a change "still isn't working" in a TS context, after editing any TypeScript file, and when another skill needs the type-check loop (/done, /parallel-review, /fix-pr-review).

@@ -1,0 +1,6 @@
+Runs an end-to-end spec-driven delivery pipeline from a requirement or Jira issue using a
+pluggable provider: github-speckit (repo-installed GitHub Spec Kit agents) or superpowers
+(obra/superpowers skills library). Handles provider setup and auto-install, Jira intake via
+jira-to-speckit, spec/design, implementation, a speckit-code-review remediation loop until
+pass, then human review (default) or YOLO commit and push. Use when a feature must go from
+requirement to committed implementation in one run.
