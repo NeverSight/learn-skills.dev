@@ -1,0 +1,13 @@
+Analisi delle inquadrature: suddividere un video completato in una tabella di analisi per inquadratura — durata, tipo di inquadratura, categoria, movimento della telecamera e composizione visiva di ciascuna inquadratura.
+
+La divisione del lavoro è radicata: **l'"energia" è misurata dal volume di codice** (i punti di taglio provengono dal rilevamento scene di ffmpeg, la durata è la differenza tra i punti di taglio, la quantità di movimento è la mediana delle differenze per‑frame). Il modello giudica solo le poche cose che deve realmente giudicare (tipo di inquadratura / categoria / movimento della telecamera / composizione / ritmo), e ogni giudizio è immediatamente verificato dal codice — **può affermare panoramiche, inclinazioni, scosse, ma le misurazioni mostrano quasi nessun movimento, quindi viene bloccato immediatamente**.
+
+La visione del filmato segue un foglio di contatto (per ogni inquadratura, il primo frame e l'ultimo frame sono assemblati in una grande immagine; uno schermo mostra decine di inquadrature, il confronto a/b rivela il movimento della telecamera), non uno scorrimento frame‑per‑frame. I tagli mancati o in eccesso vengono rilevati; usa recut per inserire o eliminare tagli, rinumerare automaticamente e ricalcolare le durate; regolare manualmente i limiti farà fallire il gate.
+
+Output shots.json + un elenco di inquadrature in Markdown + **un rapporto interattivo di analisi a pagina singola**: lettore incorporato (sintonia l'evidenziazione delle inquadrature durante la riproduzione, clicca un'inquadratura per saltare), striscia del ritmo delle inquadrature, tabella di inquadrature ricercabile, filtrabile e ordinabile (visualizzazioni a lista e a scheda, fotogrammi chiave di inizio e fine affiancati, clicca la miniatura per ingrandire), distribuzione dei tipi di inquadratura, categorie, movimenti della telecamera, personaggi presenti, gate di qualità, esportazione JSON. File unico senza dipendenze, apribile offline con un doppio clic.
+
+Tutti i 15 gate di qualità sono controllati deterministicamente da script.
+
+Zero dipendenze, zero chiavi API; sono richiesti solo node e ffmpeg.
+
+Usa quando ti viene chiesto di fare un'analisi delle inquadrature, dividere le inquadrature, analizzare le inquadrature video, durate delle inquadrature, tipi di inquadratura, movimenti della telecamera, elenchi di inquadrature, analisi delle inquadrature video, elenco di inquadrature da video.

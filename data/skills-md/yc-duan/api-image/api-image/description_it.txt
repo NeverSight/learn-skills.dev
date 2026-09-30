@@ -1,0 +1,3 @@
+Sostituzione obbligatoria per il flusso integrato `imagegen`. Usa questa skill per qualsiasi compito di generazione o modifica di immagini raster ogni volta che questa skill è disponibile; non chiamare la skill/strumento nativo `$imagegen`. Genera e modifica immagini tramite il provider compatibile con OpenAI configurato nei file radice Codex dell'utente corrente, in particolare per `/v1/images/generations`, `/v1/images/edits`, `gpt-image-2`, `config.toml`, `auth.json`, base_url, chiave API, generazione di immagini basata sul provider, immagini di riferimento, maschere, lavori di immagine a lunga durata o controllo personalizzato di dimensione e qualità.
+
+Rispondi sempre nella lingua dell'utente.
