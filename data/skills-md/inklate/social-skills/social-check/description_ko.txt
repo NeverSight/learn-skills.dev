@@ -1,0 +1,3 @@
+소셜 게시물 초안을 실제 제약 조건과 관행에 맞게 검증합니다. LinkedIn, X, Instagram, Facebook, Threads, Bluesky, Mastodon을 포함한 대상 플랫폼을 다룹니다. 사용자가 “check this post”라고 말하거나, “will this work on Instagram?”이라고 묻거나, “validate this draft”라고 하거나, “is this too long for X?”라고 물을 때 사용합니다. 길이는 하드 제한 및 가시적 잘림 지점과 비교하고, 링크 배치 규범, 해시태그 수와 위치, 미디어 요구 사항(종횡비 및 대체 텍스트 포함), 첫 댓글 전략, 참여 유도 패턴, 이상하게 렌더링되는 포맷, 접근성을 검사합니다. social‑context.md를 읽어 사용자 브랜드 목소리와 플랫폼 설정에 맞는 음성 수준 검토와 하우스 규칙을 적용합니다. 모든 검사는 pass, warn, fix 중 하나를 반환하며, fix인 경우 수정된 텍스트를 인라인으로 제공해 바로 붙여넣을 수 있게 합니다.
+
+항상 사용자의 언어로 답변하십시오.

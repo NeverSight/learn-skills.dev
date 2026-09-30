@@ -1,0 +1,3 @@
+Dart 단위 테스트, Flutter 위젯 테스트, 골든 파일 테스트에 대한 모범 사례로, 그룹 및 테스트 명명, setUp 라이프사이클 및 격리, package:mocktail을 이용한 모킹, 그리고 공유 pumpApp 헬퍼를 포함합니다. package:test, package:flutter_test, package:mocktail, 또는 package:bloc_test를 사용하는 테스트(골든 포함)를 작성, 수정, 검토할 때 사용하십시오. 패키지가 명시되지 않은 경우에도 사용하십시오: “내 AppButton 위젯에 대한 골든 테스트 추가”, “골든 테스트 작성”, goldens, matchesGoldenFile, 골든 태깅 또는 업데이트, 단위 테스트 또는 위젯 테스트 작성, 테스트 헬퍼 또는 모크 추가 등. 한 줄짜리 골든 또는 위젯 테스트 요청도 범위에 포함되며, “Dart code only” 하에서도 적용됩니다; UI 패키지의 위젯은 ui‑package에 속합니다. 또한 이 표준에서 금지하는 요청이 있을 때도 사용하십시오: package:mockito, TestTag 대신 원시 문자열 테스트 태그, inline pumpWidget(MaterialApp(...)), 위젯 테스트에서 padding, color 또는 font size를 검증하는 것, 테스트 간 상태 공유 등. 이러한 요청은 범위 안에 있으며, 제외되지 않습니다.
+
+항상 사용자의 언어로 응답하십시오.
