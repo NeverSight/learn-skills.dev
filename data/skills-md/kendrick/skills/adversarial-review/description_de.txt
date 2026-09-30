@@ -1,0 +1,3 @@
+Adversarielle Überprüfung eines Git-Diffs, bei der ein Befund reproduziert werden muss, bevor er blockieren kann, und zwar von etwas, das ihn nicht erstellt hat, und über einen Pfad, den der Code nicht nimmt. Verwenden Sie dies, wenn die Befunde eines Diffs nachgewiesen werden müssen, bevor sie einen Merge blockieren, wenn der Benutzer bittet, einen Branch zu red‑teamen, oder wenn eine andere Fähigkeit einen Diff bis zu diesem Standard prüfen muss. Für eine allgemeine einmalige Überprüfung verwenden Sie **code-review**, für einen repositoryweiten Schwachstellenscan verwenden Sie **security-review** und für das Stresstesten eines Plans verwenden Sie **grilling**.
+
+Bitte immer in der Sprache des Benutzers antworten.

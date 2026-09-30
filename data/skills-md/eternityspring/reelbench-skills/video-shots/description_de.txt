@@ -1,0 +1,13 @@
+Shot‑Analyse: ein fertiges Video in eine pro‑Shot‑Analyse‑Tabelle aufteilen — Dauer, Bildgröße, Kategorie, Kamerabewegung und visuelle Komposition für jeden Shot.  
+
+Die Arbeitsteilung ist fest verankert: **alle Arbeit wird vom Code erledigt** (Schnittpunkte stammen aus der Szenenerkennung von ffmpeg; die Dauer ist die Differenz zwischen den Schnittpunkten, die Bewegungsmenge ist der Median der pro‑Frame‑Differenzen). Das Modell entscheidet nur die wenigen Dinge, die es wirklich entscheiden muss (Bildgröße / Kategorie / Kamerabewegung / visuelle Komposition / Rhythmus), und jede Entscheidung wird sofort vom Code abgeglichen — **Behauptungen über Push‑Pull, Neigung, Schwenk usw., aber Messungen zeigen fast keine Bewegung, daher blockiert das Gate es sofort**.  
+
+Überprüfung mittels Kontaktbogen (für jeden Shot werden das Start‑ und End‑Frame zu einem großen Bild zusammengenäht; ein Bildschirm zeigt Dutzende von Shots, ein A/B‑Vergleich stellt die Kamerabewegung dar), anstatt einzelne Frames durchzublättern. Verpasste Schnitte und zusätzliche Schnitte werden mit einem „Recut“ behandelt, das Schnitte hinzufügt oder entfernt, die Nummerierung und die Dauer automatisch neu berechnet; das manuelle Anpassen von Grenzen lässt das Gate scheitern.  
+
+Ausgaben: `shots.json` + eine Markdown‑Shot‑Tabelle + **ein einseitiger interaktiver Shot‑Analyse‑Report**: eingebetteter Player (hebt den aktuellen Shot synchron zur Wiedergabe hervor, Klick auf einen Shot springt dorthin), Shot‑Rhythmus‑Leiste, durchsuchbare, filterbare, sortierbare Shot‑Tabelle (Listen‑ und Kartenansicht, Start‑ und End‑Keyframes nebeneinander, Klick auf das Thumbnail öffnet das Vollbild), Verteilung von Bildgröße, Kategorie, Kamerabewegung, erscheinenden Charakteren, Qualitäts‑Gates, Export nach JSON. Eine Datei, keine Abhängigkeiten, kann offline mit einem Doppelklick geöffnet werden.  
+
+Alle 15 Qualitäts‑Gates werden deterministisch durch Skripte geprüft.  
+
+Keine Abhängigkeiten, kein API‑Schlüssel — nur Node und ffmpeg.  
+
+Verwenden, wenn nach einer Aufschlüsselung von Shots, Analyse von Video‑Shots, Shot‑Dauern, Bildgröße, Kamerabewegung, Shot‑Listen, Video‑Shot‑Analyse oder Shot‑Liste aus einem Video gefragt wird.
