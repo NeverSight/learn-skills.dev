@@ -1,0 +1,7 @@
+生成一個自包含的會話交接檔案，使工作可以在其他 AI 工具中無需重新說明地繼續。
+
+當使用者說「handoff」、『/handoff』、『write a handoff』、『I'm about to run out of messages』、『session limit』、『continue this somewhere else』、『hand this off』，要求在上下文重設或使用限制截止前檢查點／保存狀態，或明顯顯示出對話已接近使用限制且其中包含真實決策或需保留的進行中工作時，觸發 OUTPUT。
+
+當訊息包含或引用符合交接檔案名稱／前言格式（見正文）的附件時——無論使用何種語言，也不論伴隨的動詞為「intake」「resume」「use this」「ingest」「acquisisci」「importa」「leggi」等——觸發 INTAKE；該檔案的存在即為決定性訊號。
+
+請參閱正文以了解兩種模式的完整規則，包括何時不應觸發。

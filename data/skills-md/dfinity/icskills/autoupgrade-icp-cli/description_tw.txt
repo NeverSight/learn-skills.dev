@@ -1,0 +1,1 @@
+一次性安裝程式，可讓專案的 Internet Computer CLI 工具鏈保持最新。會設定 SessionStart 鉤子以及一段腳本，將已安裝的 `icp` 與 `ic-wasm` 與最新發行版比對，若有更新則回報或直接套用，並使用各工具最初安裝時的渠道（npm、Homebrew 或 shell 安裝程式）。當使用者想要安裝、啟動或啟用自動 icp‑cli / ic‑wasm 更新、要求停止執行過時的 `icp`、詢問如何升級或檢查 ICP CLI 版本，或貼上此技能的連結時，請使用此功能。這是一個一次性的設定動作，非持續的 IC 知識。請勿用於撰寫 icp.yaml、部署 canisters，或其他 icp‑cli 使用問題 — 請載入 `icp-cli` 以處理那些需求。

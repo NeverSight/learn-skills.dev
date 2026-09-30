@@ -1,0 +1,3 @@
+從工程 tripack、原始報告/發現文件，或直接從實際程式碼變更（diff/分支比較）產生工單（標題 + 描述，僅限 markdown），當沒有文件時使用。於實作工作結束時使用，正好在推送至分支之前，或在工作已經提交/推送但從未撰寫工單時追溯使用。當使用者要求「buat tiket」(建立工單)、「generate ticket」(產生工單)、「write a ticket for this change」(為此變更撰寫工單) 或想要從 tripack、發現（例如相依性升級、SonarQube 發現）或 diff/分支比較中取得工單/任務描述時，皆請使用此功能。不要將此用於前置規劃工單（那是 engineering‑tripack‑generator 的 task‑plan）——此技能記錄實際完成或正在變更的內容。
+
+請始終以使用者的語言回應。

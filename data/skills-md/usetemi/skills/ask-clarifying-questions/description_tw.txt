@@ -1,0 +1,3 @@
+在編寫程式碼、調查模糊的錯誤或變更設計或架構之前，先進行澄清訪談，然後利用得到的模型來代表使用者在實作時的決策。使用 Claude Code 中的 AskUserQuestion、Codex 中的 request_user_input（若可使用），或在沒有互動提問工具時使用純文字說明。當使用者呼叫 /ask-clarifying-questions 或 $ask-clarifying-questions、提及 ask-clarifying-questions，或要求建構、設計、重構、調查、除錯等具有足夠模糊度的任務，使得不同的實作方式都能滿足時，請使用此方式。輸出為當前會話中的共享理解；不產生檔案成果。
+
+請始終以使用者的語言回覆。

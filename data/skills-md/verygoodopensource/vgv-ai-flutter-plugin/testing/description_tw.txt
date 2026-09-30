@@ -1,0 +1,7 @@
+Dart 單元測試、Flutter 小部件測試以及 golden 檔案測試的最佳實踐，涵蓋 group 與 test 命名、setUp 生命週期與隔離、使用 package:mocktail 進行 mock，以及共享的 pumpApp 輔助函式。  
+在編寫、修改或審查使用 package:test、package:flutter_test、package:mocktail 或 package:bloc_test 的測試（包括 golden 測試）時使用。  
+當未指明套件時也使用它，例如：「add a golden test for my AppButton widget」、『write a goldens test』、goldens、matchesGoldenFile、標記或更新 golden、編寫單元測試或小部件測試，或加入測試輔助工具或 mock。  
+單行的 golden 或小部件測試請求屬於範圍內，包括在「Dart code only」情況下；位於 UI 套件中的小部件屬於 ui-package。  
+當請求要求本標準所禁止的內容時也使用它：package:mockito、使用原始字串測試標籤而非 TestTag、內嵌 pumpWidget(MaterialApp(...))、在小部件測試中斷言 padding、顏色或字體大小，或在測試之間共享狀態。  
+這些請求屬於範圍內，而非排除在外。  
+請始終以使用者的語言回覆。

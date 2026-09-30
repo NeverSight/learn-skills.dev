@@ -1,0 +1,7 @@
+建立一個內部備援伺服器，保持站點在 Firestore 中切片的即時雙向 RxDB 複製，當雲端無法連線時接管 LAN 終端的服務，並在重新連線時將離線工作回寫。適用情境：  
+1️⃣ 實體據點（如商店、健身房、診所、倉庫）在網路中斷時仍需持續接受預訂、移動庫存與切換硬體。  
+2️⃣ kiosk 或員工 PWA 必須自行在雲端 API 與本地 API 之間切換。  
+3️⃣ 現有離線伺服器需要稽核：重新連線時的回寫會導致庫存重複計算、複製品停止拉取、備援無法找到裝置等問題。  
+4️⃣ 使用者提及的關鍵字：island mode、offline fallback server、LAN failover、on‑prem replica、local server with two‑way sync to Firestore、「internet down 時站點仍能運作」、replicateFirestore、rxdb/plugins/replication-firestore、serverTimestamp checkpoint、_offlineCreated、_locallyModified、syncedIds、FieldValue.increment、heartbeat cron、apiBaseUrl、HMAC device auth、island.local、avahi。
+
+此方案包含三層複製機制、每次雲端寫入所需的 checkpoint 標記、按 ID 的庫存增減摺疊展開、以客戶端產生的 ID 為鍵的冪等寫入、離線限制的員工令牌備援、heartbeat 與狀態鏈，以及 17 項 vitest 測試套件，用以驗證關鍵信任邏輯。參考實作為 Node/NestJS 本地伺服器搭配 Firestore 雲端，使用 Next.js 路由處理程式作為 API；HTTP 框架、IdP 與詞彙表列於 architecture.md 中作為接縫。**此方案不是讀取快取、不是站點間的多主同步，也不適用於除 Firestore 之外的雲端資料庫。**

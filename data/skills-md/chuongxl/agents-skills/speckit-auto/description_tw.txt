@@ -1,0 +1,1 @@
+從需求或 Jira 問題啟動端對端規格驅動的交付管道，使用可插拔的提供者：github‑speckit（倉庫安裝的 GitHub Spec Kit 代理）或 superpowers（obra/superpowers 技能庫）。處理提供者的設定與自動安裝，透過 jira‑to‑speckit 進行 Jira 輸入，完成規格／設計、實作，並在 speckit‑code‑review 中進行修復迴圈直至通過，之後進行人工審核（預設）或 YOLO 提交與推送。適用於必須在一次執行中完成從需求到已提交實作的功能。

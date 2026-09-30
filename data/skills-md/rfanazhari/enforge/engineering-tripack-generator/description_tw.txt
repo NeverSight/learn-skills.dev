@@ -1,0 +1,3 @@
+生成或修訂軟體專案功能開發的三份標準技術文件（「tripack」）：technical-design.md、tactical-strategy.md 與 task-plan.md — 另外在輸入包含此類資訊時，可選擇生成 decision‑log.md，記錄業務驅動的技術決策（供 PM/PO/技術主管閱讀）。與技術棧無關 — 系統會從專案根目錄的 CLAUDE.md 以及程式碼本身發掘專案的技術棧、架構與慣例。每當使用者需要實作計畫時，皆可使用此功能 — 無論是全新功能、既有功能的調整，或是對先前產生的 tripack 進行修訂（在開發中期需求變更後加強、調整或移除部分內容）。輸入可以是 PRD、FSD、分析文件，或直接的功能描述 — 不需要特定的上游文件。觸發詞包括：「generate tripack」「buat technical design」「buatkan task plan」「generate implementation plan」「buat rencana implementasi」「update tripack」「revisi technical design」「ada perubahan requirement」「re-sync doc」「adjust tripack」「tripack dari PRD/FSD ini」。請勿用於：小範圍錯誤修復、僅做文件審閱不產出文件，或一般的架構問題。
+
+請始終以使用者的語言回覆。

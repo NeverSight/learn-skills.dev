@@ -1,0 +1,3 @@
+在社交貼文草稿發佈前，根據目標平台的實際限制與慣例進行驗證，涵蓋 LinkedIn、X、Instagram、Facebook、Threads、Bluesky 與 Mastodon。當使用者說「check this post」或詢問「will this work on Instagram」、說「validate this draft」或問「is this too long for X」時使用。它會檢查字數是否超過硬性上限與可見截斷點、連結放置規則、標籤數量與位置、媒體要求（包括長寬比與替代文字）、第一條評論策略、吸睛互動模式、會產生奇怪顯示的格式以及無障礙性。它會讀取 social-context.md，以確保語調檢查與內部規範符合使用者的品牌聲音與平台設定。每項檢查皆回傳「pass」、「warn」或「fix」——所有修正皆以內嵌的修正文本形式提供，直接可貼上使用。
+
+請始終以使用者的語言回覆。

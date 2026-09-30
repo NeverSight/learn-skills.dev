@@ -1,0 +1,1 @@
+即時樣本收集（從現象到可用樣本）：當目標沒有獨立的進程且樣本未寫入磁碟時，核心定位載體是「異常執行記憶體 + 到達該記憶體的執行上下文」，並在執行時提取。涵蓋四種觀測模型：Windows（VAD/執行緒/ETW）、Linux（VMA/BPF LSM）、macOS（Mach VM/Endpoint Security）、seL4（能力來源）。觸發詞彙：樣本獲取、即時收集、無樣本、僅現象、未持久化、檔案無痕、注入、記憶體馬、執行時捕獲、記憶體提取樣本。英文觸發詞：sample acquisition、live acquisition、no sample、fileless、injected code、memory‑resident、runtime capture。
