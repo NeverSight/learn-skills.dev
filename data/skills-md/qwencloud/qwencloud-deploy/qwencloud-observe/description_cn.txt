@@ -1,0 +1,3 @@
+报告由 qwencloud-deploy 部署到阿里巴巴云国际 (alibabacloud.com) 的应用的健康状况、性能、资源状态以及实际计费成本，以通俗语言且不打开控制台。读取本地 .qwencloud-deploy 状态文件以确定应用及其 ECS（以及可选的 RDS MySQL）资源，然后查询只读云 API，概括应用可用性、ECS/RDS 性能和美元成本。使用场景：用户询问已部署应用的运行情况、需要健康/性能/成本概览、询问 CPU/内存/连接数/慢 SQL 风险，或查询 qwencloud 部署的应用的月度费用。禁用场景：不存在 .qwencloud-deploy 状态文件、目标是阿里云中国区（使用 qianwenai-observe），或用户想要更改/恢复资源（使用 qwencloud-operate）。
+
+请始终使用用户的语言作答。

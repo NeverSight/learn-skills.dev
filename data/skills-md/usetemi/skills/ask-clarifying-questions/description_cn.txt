@@ -1,0 +1,3 @@
+在编写代码、调查模糊的 bug 或更改设计/架构之前，先进行澄清性访谈，然后利用得到的模型代表用户在实现时做出决策。使用 Claude Code 中的 AskUserQuestion、Codex 中公开时的 request_user_input，或在没有交互式提问工具时使用普通文字。当用户调用 /ask-clarifying-questions 或 $ask-clarifying-questions、使用名称 ask-clarifying-questions，或要求构建、设计、重构、调查或调试某些具有足够歧义、不同实现都能满足的任务时使用。输出为当前会话中的共享理解；不生成文件制品。
+
+请始终使用用户的语言作答。

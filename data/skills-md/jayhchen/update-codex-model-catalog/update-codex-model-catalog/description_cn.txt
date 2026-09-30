@@ -1,0 +1,1 @@
+更新 Codex 模型目录：当 Codex 使用 API 密钥（自定义模型提供商）进行身份验证时，它会从提供商的 /models 接口获取模型目录，并将其同步到 model_catalog_json 指向的文件。用户需要更新 Codex 模型目录、同步模型列表、服务器端模型出现新增或删除，或引用了 model_catalog_json 时，请使用此操作。在 OAuth（ChatGPT 登录）模式下，Codex 会自动获取目录，因此不适用此操作。

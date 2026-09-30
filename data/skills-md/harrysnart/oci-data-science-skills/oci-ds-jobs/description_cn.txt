@@ -1,0 +1,1 @@
+原生管理 OCI 数据科学作业及作业运行（列出、详情、从脚本或容器创建、启动运行、监控、取消、删除）。在将 Python 脚本或容器作为批处理作业进行编排时使用。需要 compartment_id 和 project_id（来自 oci-ds-setup）。列出/运行时更倾向使用 OCI CLI；创建时使用 ADS Python。

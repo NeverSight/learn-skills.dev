@@ -1,0 +1,1 @@
+构建、诊断、优化并验证本地 Linger 3.x 项目的量化感知训练工作流。在需要 Codex 将 PyTorch 浮点模型转换为 Linger 受限/QAT 模型时使用，设计适合量化的模型结构，创建或审查 Linger YAML 量化设置，使用 YAML 部分、const_module 或 quant_module 配置混合精度或本地 clamp 覆盖，正确校准 MOM 或 TQT 量化器，在量化未达标时恢复精度，检查 QAT 检查点或浮点与量化输出的对比，使用 linger.onnx.export 导出已训练的量化模型，检查生成的 Linger ONNX 图，或准备模型进行 Thinker 打包及一致性验证。

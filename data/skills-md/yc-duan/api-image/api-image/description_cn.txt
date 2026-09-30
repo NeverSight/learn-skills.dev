@@ -1,0 +1,4 @@
+强制替代内置的 `imagegen` 流程。  
+在此技能可用时，请使用该技能进行任何光栅图像生成或编辑任务；不要调用本机的 `$imagegen` 技能/工具。  
+通过当前用户 Codex 根文件中配置的兼容 OpenAI 的提供商来生成和编辑图像，尤其是针对 `/v1/images/generations`、`/v1/images/edits`、`gpt-image-2`、`config.toml`、`auth.json`、base_url、API 密钥、基于提供商的图像生成、参考图像、遮罩、长时间运行的图像任务，或自定义尺寸和质量控制。  
+请始终使用用户的语言作答。

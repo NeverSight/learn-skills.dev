@@ -1,0 +1,3 @@
+生成一个自包含的会话交接文件，以便工作可以在其他 AI 工具中继续，无需重新解释。当用户说“handoff”“/handoff”“write a handoff”“I'm about to run out of messages”“session limit”“continue this somewhere else”“hand this off”，或请求在上下文重置或使用限制截断前检查点/保存状态，或明显显示出对话已接近使用限制且已有真实决策/正在进行的工作值得保留时，触发 OUTPUT。只要消息中包含或引用了符合交接文件名/前言结构（见正文）的附件文件——该文件的存在即为决定性信号，无论使用何种语言，也不受伴随动词（“intake”“resume”“use this”“ingest”“acquisisci”“importa”“leggi”等，非详尽列表）的影响，即触发 INTAKE。请参阅正文了解两种模式的完整规则，包括何时不触发。
+
+请始终使用用户的语言作答。

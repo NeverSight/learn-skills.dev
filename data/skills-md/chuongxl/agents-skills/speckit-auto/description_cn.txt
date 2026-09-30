@@ -1,0 +1,1 @@
+从需求或 Jira 问题出发，使用可插拔的提供者（github‑speckit（仓库安装的 GitHub Spec Kit 代理）或 superpowers（obra/superpowers 技能库））运行端到端的规范驱动交付流水线。处理提供者的设置和自动安装，通过 jira‑to‑speckit 接收 Jira，进行规范/设计、实现、speckit 代码审查的整改循环直至通过，然后进行人工审查（默认）或 YOLO 提交并推送。当功能必须在一次运行中从需求转为已提交实现时使用。

@@ -1,13 +1,13 @@
-拉片：把一条成片拆成逐镜头的分析表——每个镜头的时长、景别、类别、运镜、画面。
-分工刻在骨子里：**能量的都由代码量**（切点来自 ffmpeg 场景检测，时长是切点相减，
-运动量是逐帧差分的中位数），模型只判断它真正该判断的那几件事（景别 / 类别 / 运镜 / 画面 / 节奏），
-然后每一条判断都被代码当场对账——**声称推拉摇移却实测几乎不动，门直接拦**。
-看片走联系表（每镜起手帧 + 收尾帧各拼一张大图，一屏二十几个镜头，a/b 对照就是运镜），
-不是一张张翻。检测漏刀多刀用 recut 补刀并刀，自动重编号重算时长，手改边界过不了门。
-产出 shots.json + Markdown 镜头表 + **单页交互式拉片报告**：内嵌播放器（播放时同步高亮镜头、
-点镜头跳转）、镜头节奏带、可搜索可筛选可排序的镜头表（列表 / 卡片两种视图、首尾关键帧并排、
-点图开大图）、景别类别运镜分布、出场人物、质量门、导出 JSON。单文件零依赖，离线双击能开。
-15 道质量门全部由脚本确定性检查。
-零依赖、零 API key，只要 node 和 ffmpeg。
-Use when asked to 拉片、拆镜头、分析视频镜头、镜头时长、景别、运镜、镜头表、
-video shot breakdown、shot list from video。
+Shot breakdown: split a finished video into a per‑shot analysis table—duration, shot type, category, camera movement, and visual composition of each shot.
+
+The division of labor is ingrained: **the "energy" is measured by code volume** (cut points come from ffmpeg scene detection, duration is the difference between cut points, motion amount is the median of per‑frame differences). The model only judges the few things it truly needs to judge (shot type / category / camera movement / composition / rhythm), and each judgment is immediately verified by the code—**it may claim pans, tilts, shakes, but measurements show almost no movement, so it gets blocked outright**.
+
+Watching the footage follows a contact sheet (for each shot, the first frame and the last frame are stitched into a large image; one screen shows dozens of shots, a/b comparison reveals camera movement), not frame‑by‑frame scrolling. Missed or extra cuts are detected; use recut to insert or delete cuts, automatically renumber and recompute durations; manually adjusting boundaries will fail the gate.
+
+Output shots.json + a Markdown shot list + **a single‑page interactive breakdown report**: embedded player (synchronizes highlighting of shots during playback, click a shot to jump), shot rhythm strip, searchable, filterable, sortable shot table (list and card views, start and end keyframes side‑by‑side, click thumbnail to enlarge), distribution of shot types, categories, camera movements, appearing characters, quality gates, export JSON. Single file with zero dependencies, can be opened offline with a double‑click.
+
+All 15 quality gates are deterministically checked by scripts.
+
+Zero dependencies, zero API keys; only node and ffmpeg are required.
+
+Use when asked to do a shot breakdown, split shots, analyze video shots, shot durations, shot types, camera movements, shot lists, video shot breakdown, shot list from video.

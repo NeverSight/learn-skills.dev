@@ -1,0 +1,3 @@
+针对 Dart 单元测试、Flutter 小部件测试以及 golden 文件测试的最佳实践，涵盖 group 和 test 的命名、setUp 生命周期与隔离、使用 package:mocktail 进行 Mock，以及共享的 pumpApp 辅助函数。在编写、修改或审查使用 package:test、package:flutter_test、package:mocktail 或 package:bloc_test 的测试（包括 golden 测试）时请遵循这些实践。即使未指定使用的包，也请在以下情况下使用这些规范：“为我的 AppButton 小部件添加 golden 测试”、 “编写 golden 测试”、 goldens、matchesGoldenFile、标记或更新 goldens、编写单元测试或小部件测试，或添加测试辅助函数或 mock。单行的 golden 或小部件测试请求也在范围之内，包括在“仅 Dart 代码”情形下；UI 包中的小部件属于该 UI 包。若请求要求这些标准所禁止的做法时也请遵循本指南：使用 package:mockito、使用原始字符串作为测试标签而不是 TestTag、直接在代码中使用 pumpWidget(MaterialApp(...))、在小部件测试中断言 padding、color 或字体大小，或在测试之间共享状态。这些请求仍然在范围之内，而不是被排除。
+
+请始终使用用户的语言作答。

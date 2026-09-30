@@ -1,0 +1,1 @@
+示例实时获取（从现象到可用样本）：当目标没有独立进程且样本未写入磁盘时，核心定位载体是“异常执行内存 + 到达该内存的执行上下文”，并在运行时进行提取。覆盖四种观察模型：Windows（VAD/线程/ETW）、Linux（VMA/BPF LSM）、macOS（Mach VM/Endpoint Security）、seL4（能力来源）。触发词：样本获取、实时获取、无样本、仅现象、未写入磁盘、无文件、注入、内存马、运行时捕获、内存提取样本。英文触发词：sample acquisition, live acquisition, no sample, fileless, injected code, memory‑resident, runtime capture.

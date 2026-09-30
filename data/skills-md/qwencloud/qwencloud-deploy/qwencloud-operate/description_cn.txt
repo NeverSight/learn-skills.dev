@@ -1,0 +1,1 @@
+诊断由 qwencloud-deploy 部署到阿里巴巴云国际（alibabacloud.com）的应用为何不可用或响应缓慢，并且——仅在得到用户明确确认后——执行安全恢复并验证结果。读取本地 .qwencloud-deploy 状态文件以识别 ECS（以及可选的 RDS MySQL）资源，运行最小化的只读诊断，然后一次提出一个恢复操作（启动 ECS、重启应用服务、重新加载 Nginx），每个操作都需在确认其影响后才能执行。使用场景：用户表示应用宕机 / 返回 502 / 无法连接数据库，或请求重启并验证应用。不要使用的情况：不存在 .qwencloud-deploy 状态文件，目标是阿里云中国区（使用 qianwenai-operate），或用户仅想要状态/费用概览（使用 qwencloud-observe）。

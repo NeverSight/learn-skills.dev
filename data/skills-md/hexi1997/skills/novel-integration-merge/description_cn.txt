@@ -1,0 +1,1 @@
+使用 Novel 的 `fix/niudieyi-merge-issue` 过渡分支来处理将开发或特性分支合并到 dev/test 时的冲突。它用于 “通过过渡分支合并 dev/test”， “将分支重置到 origin/dev 或 origin/test 然后合并源分支并强制推送”，以及其他完整的集成请求，并且还支持仅报告冲突范围。它不适用于直接发布 dev/test/master 或常规的特性分支同步。
