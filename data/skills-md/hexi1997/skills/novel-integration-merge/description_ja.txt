@@ -1,0 +1,1 @@
+Novel の fix/niudieyi-merge-issue トランジションブランチを使用して、development や feature ブランチを dev/test にマージする際の競合を処理します。これは「トランジションブランチ経由で dev/test をマージする」や「origin/dev または origin/test にリセットし、ソースブランチをマージして強制プッシュする」などの完全統合リクエストに使用され、競合範囲のみの報告もサポートします。dev/test/master を直接公開したり、通常の feature ブランチの同期に使用することは意図されていません。

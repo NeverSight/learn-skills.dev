@@ -1,0 +1,11 @@
+オンプレミスのフェイルバックサーバーを構築し、サイトの Firestore の一部をリアルタイムで双方向に RxDB レプリカとして保持し、クラウドに接続できないときに LAN 端末へのサービスを引き継ぎ、再接続時にオフライン作業をフラッシュする。
+
+使用シーン:
+1. 実店舗、ジム、診療所、倉庫などの物理拠点がインターネット障害時でも予約受付、在庫移動、ハードウェア操作を継続する必要がある場合。
+2. キオスクやスタッフ向け PWA が自律的にクラウド API とローカル API を切り替える必要がある場合。
+3. 既存のオフラインサーバーに監査が必要な場合（再接続時のフラッシュで在庫が二重カウントされる、レプリカがプルを停止する、フェイルオーバーがサーバーボックスを見つけられない等）。
+4. ユーザーが以下のキーワードを挙げた場合: island mode、offline fallback server、LAN failover、on‑prem replica、Firestore への双方向同期ローカルサーバー、「インターネットがダウンしてもサイトが稼働し続ける」、replicateFirestore、rxdb/plugins/replication‑firestore、serverTimestamp checkpoint、_offlineCreated、_locallyModified、syncedIds、FieldValue.increment、heartbeat cron、apiBaseUrl、HMAC デバイス認証、island.local、avahi。
+
+このシステムは 3 層のレプリケーションを保持し、クラウド書き込みごとに必要な checkpoint スタンプ、ID 毎の在庫変動フォールドアウト、クライアント生成 ID をキーにした冪等的インジェスト、オフライン時に限定されたスタッフトークンフォールバック、ハートビートとステータスチェーン、そして信頼性クリティカルなロジックを検証する 17 件の Vitest テストスイートを備える。参照 API として Node/NestJS ローカルサーバーと Firestore クラウドを使用し、Next.js のルートハンドラで実装する。HTTP フレームワーク、IdP、語彙は architecture.md のシームとして記述する。
+
+※これは読み取りキャッシュでもなく、拠点間のマルチマスタ同期でもなく、Firestore 以外のクラウドデータベース向けでもありません。

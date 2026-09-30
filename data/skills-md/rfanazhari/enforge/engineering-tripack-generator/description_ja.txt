@@ -1,0 +1,3 @@
+ソフトウェアプロジェクトにおける機能作業のための標準的な3つの技術文書（「tripack」）を生成または改訂します：technical-design.md、tactical-strategy.md、task‑plan.md ─ さらに、入力にビジネス主導の技術的判断が含まれる場合は、decision‑log.md（PM/PO/テックリードが読める）をオプションで作成します。スタックに依存せず、プロジェクトルートの CLAUDE.md とコードベースからプロジェクトの技術スタック、アーキテクチャ、慣例を自動的に検出します。ユーザーが実装計画を求めたときにこのスキルを使用します――新規機能、既存機能への調整、または以前に生成した tripack の改訂（要件変更に伴う機能の強化・調整・削除）に対してです。入力は PRD、FSD、分析文書、あるいは直接的な機能説明で構いません――特定の上流文書は不要です。トリガーフレーズの例： "generate tripack"、"buat technical design"、"buatkan task plan"、"generate implementation plan"、"buat rencana implementasi"、"update tripack"、"revisi technical design"、"ada perubahan requirement"、"re-sync doc"、"adjust tripack"、"tripack dari PRD/FSD ini"。使用しないでください：小規模なバグ修正、生成なしのドキュメントレビュー、一般的なアーキテクチャ質問。
+
+常にユーザーの言語で回答してください。
