@@ -1,0 +1,1 @@
+查找可能通过生成的序列化泄露的秘密、令牌、密码和 API 密钥：Python dataclass 的 repr 和 asdict、attrs、pydantic model_dump、NamedTuple、JavaScript JSON.stringify 和 util.inspect、结构化日志、追踪跨度以及错误报告。应在以下情形使用：需要“检查秘密序列化”、出现“repr 中的凭证”、进行“repr=False 审计”、“跨度中的秘密”、“日志中的令牌”，或当更改向 dataclass、模型或配置对象中添加凭证字段，或添加代码将整个对象或每个关键字参数序列化为遥测时。请始终使用用户的语言回复。
