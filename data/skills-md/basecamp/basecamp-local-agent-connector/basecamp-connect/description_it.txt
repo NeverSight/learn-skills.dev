@@ -1,0 +1,5 @@
+Gestisci gli agenti Claude Code locali da Basecamp. Avvia il ponte di collegamento (bin/connect), osserva il suo STDOUT alla ricerca di eventi attendibili — generati da un utente autorizzato (solo l’operatore, per impostazione predefinita) e @menzionando un vero utente agente di Basecamp — li riconosce come agente entro pochi secondi (un rapido potenziamento con contenuto appropriato o una risposta adeguata), poi li passa a un agente in background che raccoglie il contesto, svolge il lavoro e risponde come quell’utente agente, così il thread di monitoraggio resta libero per continuare a ricevere nuove menzioni.  
+
+Invocato senza argomenti richiama l’agente e i progetti usati per ultimi da ~/.config/basecamp‑connect/last.json, confermandoli prima di avviare.  
+
+Usalo quando ti viene chiesto di guidare gli agenti locali da Basecamp o per monitorare Basecamp alla ricerca di comandi per gli agenti.
