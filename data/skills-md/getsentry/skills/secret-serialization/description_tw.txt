@@ -1,0 +1,1 @@
+找到可能透過生成的序列化洩漏的機密、代幣、密碼與 API 金鑰：Python dataclass 的 repr 與 asdict、attrs、pydantic 的 model_dump、NamedTuple、JavaScript 的 JSON.stringify 與 util.inspect、結構化日誌、追蹤 span 與錯誤報告。當被要求「檢查機密序列化」、『repr 中的憑證』、『repr=False 審計』、『span 中的機密』、『日誌中的代幣』，或當變更為 dataclass、模型或設定物件新增憑證欄位，或加入將整個物件或每個關鍵字參數字串化並傳送至遙測的程式碼時使用。請始終以使用者的語言回覆。
