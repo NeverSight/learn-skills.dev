@@ -1,0 +1,3 @@
+パブリックな `aio-ade` CLI を使用して、AIO‑ADE が管理するワークツリー、フォルダーコンテキスト、端末、リポジトリ、オートメーション、ワークツリーコメント、そして AIO‑ADE アプリ内に埋め込まれたブラウザを操作します。ユーザーが「$aio-ade-cli」や「use aio-ade cli」「AIO‑ADE worktree」「child worktree」「cardStatus」「spawn codex/claude in a worktree」「read/wait/send AIO‑ADE terminal」「terminal send」「full handoff」「handover」「give this to another agent」「another worktree」「AIO‑ADE browser」または「control the browser inside AIO‑ADE」と言ったときに使用してください。タスクが AIO‑ADE 管理下の状態に関係する場合は、生の `git worktree`、アドホック PTY、Playwright、または Computer Use よりもこちらを優先します。AIO‑ADE の埋め込みブラウザ以外のブラウザウィンドウ、WebView、デスクトップ UI に対しては Computer Use を使用してください。
+
+常にユーザーの言語で応答してください。
