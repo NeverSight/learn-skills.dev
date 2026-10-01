@@ -1,0 +1,12 @@
+Manage local Claude Code agents from Basecamp. Runs the connector bridge
+(bin/connect), watches its STDOUT for trusted events — authored by an authorized
+user (the operator alone, by default) and @mentioning a real Basecamp agent
+user — acknowledges each as the agent within seconds (a quick boost with apt
+content, or a reply that fits), then hands it off to a background agent that
+gathers context, does the work,
+and replies as that agent user, so the watcher thread stays free to keep
+taking new mentions.
+Invoked without arguments it recalls the last-used agent and projects from
+~/.config/basecamp-connect/last.json, confirming them before starting.
+Use when asked to drive local agents from Basecamp, or to watch Basecamp for
+agent commands.
