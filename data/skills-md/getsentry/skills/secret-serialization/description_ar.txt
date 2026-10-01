@@ -1,0 +1,3 @@
+يبحث عن الأسرار والرموز وكلمات المرور ومفاتيح الـ API التي قد تتسرب عبر التسلسل المُولَّد: تمثيل (repr) وقاموس (asdict) فئات البيانات في بايثون، attrs، pydantic model_dump، NamedTuple، JavaScript JSON.stringify و util.inspect، السجلات المهيكلة، تتبع الـ spans، وتقارير الأخطاء. يُستَخدم عند الطلب بـ "check for secret serialization"، "credential in repr"، "repr=False audit"، "secret in spans"، "token in logs"، أو عندما يضيف تعديل حقل اعتماد إلى فئة بيانات (dataclass) أو نموذج أو كائن تكوين، أو يضيف كودًا يحول الكائنات بالكامل أو كل معلمة (kwarg) إلى بيانات التتبع.
+
+يرجى دائماً الرد بلغة المستخدم.
