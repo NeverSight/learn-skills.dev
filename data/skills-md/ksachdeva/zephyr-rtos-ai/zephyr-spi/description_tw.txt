@@ -1,0 +1,1 @@
+全面的 Zephyr SPI 子系統專業知識，用於串列週邊通訊。使用情境：① 透過 devicetree 或 Kconfig 配置 SPI 控制器或裝置；② 使用 spi_transceive、spi_read、spi_write 實作同步 SPI 傳輸；③ 使用 spi_transceive_cb 或 spi_transceive_signal 實作非同步 SPI；④ 設定 SPI 模式（CPOL、CPHA、字元大小、位元順序）；⑤ 透過 GPIO 或硬體 CS 管理晶片選擇；⑥ 使用 scatter‑gather 緩衝區處理多段交易；⑦ 依需求在同步與非同步 API 之間做選擇；⑧ 疑難排除 SPI 通訊問題（時鐘極性、CS 時序、資料損毀）。

@@ -1,0 +1,1 @@
+在撰寫、審查、除錯或重構用於 LuaJIT 2.1／Lua 5.1 相容執行環境的 Lua 程式時，請使用此技巧，也包括使用 LuaJIT 或 Lua 5.1 風格 Lua 的 LÖVE/Love2D 專案。採用針對 LuaJIT 的語法、以 `local` 為主的作用域、回傳 table 的模組、一致的 method 語法、可預測的 table／array 處理、nil 安全的邏輯，並避免使用僅限於 Lua 5.2／5.3／5.4 的功能，除非專案明確支援它們。

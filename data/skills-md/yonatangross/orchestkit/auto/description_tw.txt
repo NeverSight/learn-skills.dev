@@ -1,0 +1,1 @@
+意圖分類路由器，是 OrchestKit 的前門，也是任何目標型請求的 DEFAULT 入口點。將簡單的英文目標分類，並將其路由至正確的專業技能。路由永遠不會產生成本，因此即使目標技能顯而易見也請使用；僅在已在另一個技能內執行時才跳過（避免遞迴）。觸發詞包括：auto、do this、figure out、just make、I want、help me、fix、build、improve，或任何目標描述。請始終以使用者的語言回覆。

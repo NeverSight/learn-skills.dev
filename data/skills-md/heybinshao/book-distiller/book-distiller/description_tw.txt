@@ -1,0 +1,1 @@
+【Book Juicer】從 epub、pdf、md 檔案中提取完整知識：思維模型、關鍵概念、金句、案例研究、反模式與行動清單。當使用者提供檔案並說「disassemble」「distill」或「juice」時即觸發。當使用者說「integrate」「merge disassembly」或「produce knowledge manual」時，則走內容整合流程（單冊拆解 → 批次拆解 → 主題手冊全鏈）。命名標準化會抽取乾淨的書名作為基礎名稱（去除副標題、括號、作者冗餘，同時保留系列編號），轉換後自動清理 HTML 標籤與損壞的圖片連結。輸出路徑由 config.json 讀取（預設為 knowledge‑base inbox/book disassembly；若不存在則自動建立）。

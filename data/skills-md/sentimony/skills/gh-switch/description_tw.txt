@@ -1,0 +1,1 @@
+您必須在對 github.com 執行專案範圍的 GitHub CLI 指令（如 gh pr、issue、repo、api、release、run）之前使用此指令，在同一會話中每次稍後的 gh 指令之前也要使用，在 gh 指令因存取錯誤（例如「無法解析至儲存庫」）失敗時，以及在被要求檢查或切換目前專案的 gh 帳號時使用。它會將 gh 切換到專案的 .env/.env 中已登入的、由 GH_ACC 指定的帳號，並以單行報告切換結果。不適用於純 git 或 SSH 操作、gh help 或版本輸出、登入，或是 github.com 以外的主機。

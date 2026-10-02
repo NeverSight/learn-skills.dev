@@ -1,0 +1,3 @@
+使用 `jev` 命令列工具（非官方、開源的 TypeSafe AI Jev 模型 CLI）取得對文字或 JSON 的類型化問題的校準機率：是/否（noul）、多選其一（choice）或在評分標準上的分數（score）。涵蓋使用 `jev spec` 探索 CLI、從 `jev schema` 撰寫請求檔、以 `jev validate` 離線檢查、以 JSON 輸出執行、根據退出代碼分支、以答案作為門檻管控 Shell 腳本與 CI、使用 `jev batch run` 為大量記錄標記，以及在 CLI 與 `jev mcp serve` 工具之間的選擇。當任務需要對某些內容進行語意判斷（分類、路由、偵測、評分、驗證）且 `jev` 可用，或在撰寫呼叫 `jev` 的腳本或 CI 步驟時使用。
+
+請始終以使用者的語言回應。

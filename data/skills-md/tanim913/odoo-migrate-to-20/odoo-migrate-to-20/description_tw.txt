@@ -1,0 +1,3 @@
+將自訂 Odoo 模組（或整個 addons 資料夾）從 Odoo 14、15、16、17、18 或 19 移植到 Odoo 20，並證明它能安裝且執行。將模組複製到獨立的 Odoo 20 addons 樹中，安全執行 Odoo 20 自帶的 upgrade_code 腳本，掃描所有已知的 14→20 破壞性變更（manifest、Python/ORM、覆寫簽名、重新命名的 xmlid 與欄位、控制器、視圖、伺服器 QWeb t‑esc、ir.access 安全性、Owl 3 後端 JS、publicWidget→Interactions、jQuery/Font Awesome/Bootstrap 4 移除、網站建構器、eCommerce、Portal、導覽與測試、secrets），檢查每個 JS 與 Python 匯入是否對應真實的 Odoo 20 原始碼，針對其餘部分以平行的各領域子代理人手動修正，然後在臨時資料庫上循環執行安裝 + 無頭瀏覽器冒煙測試與流程導覽，直到全部乾淨，最後進行程式碼審查。當使用者說「migrate <module> to 20」或「make it installable on Odoo 20」或「port to v20」或「upgrade module from 16/17/18 to 20」或呼叫 /odoo-migrate-to-20 時使用。
+
+請始終以使用者的語言回覆。

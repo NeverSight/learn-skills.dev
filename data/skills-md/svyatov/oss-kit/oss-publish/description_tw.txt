@@ -1,0 +1,1 @@
+為開源套件設定安全的發布流程，避免存在可被竊取的長期發布令牌。涵蓋使用 OIDC 的受信任發布、建置來源驗證，以及針對 npm、PyPI、RubyGems、crates.io、NuGet、Maven Central、Hex、pub.dev 與容器映像的批准門檻發布工作流程，另加 Go 模組與 Packagist 的標籤發布流程，適用於 GitHub Actions 與 GitLab CI/CD。可用於任何套件或容器映像的發布請求，強化或加固發布流程，設定受信任發布或來源驗證，產生 SBOM，簽署發布二進位檔，發布發布資產的校驗碼，或建立發布工作流程。

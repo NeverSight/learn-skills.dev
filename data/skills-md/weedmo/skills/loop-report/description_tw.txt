@@ -1,0 +1,1 @@
+構建並傳遞長時間委派迴圈（matt-auto、autocode，以及任何代表使用者執行數分鐘至數小時的迴圈）的即時進度頁面——一個使用者在迴圈執行期間可閱讀、之後可保存的自包含 HTML。建置使用 `assets/render.py` 於 `assets/shell.html` 上，結合呼叫迴圈的視圖；傳遞則使用 `assets/deliver.py`（Orca 產物連結，或當連結不可用時使用 worktree 的 Orca 瀏覽器分頁，或是路徑），以確保整個執行期間路徑穩定。呼叫者執行這兩個腳本並轉送答案，永不自行執行 `orca` 指令。此功能被 interview‑report（matt-auto 的決策圖）與 autocode（實驗看板）呼叫；不會單獨觸發。

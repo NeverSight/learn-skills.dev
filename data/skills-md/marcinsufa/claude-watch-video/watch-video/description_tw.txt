@@ -1,0 +1,3 @@
+讓 Claude「觀看」影片——本機檔案、公開 URL（yt‑dlp）或 Jira 附件（在配置 Atlassian API 令牌時全自動化）。使用 ffmpeg 擷取關鍵影格，並以 faster‑whisper（多語言）轉錄音訊，之後 Claude 讀取影格與轉錄文字，以回答使用者的問題。適用於使用者想分析螢幕錄製、錯誤重現影片、示範錄製或任何指向的影片。觸發詞包括：「watch this video」, 「analyze this video」, 「what happens in <file>.mp4」, 「transcribe and watch」, 「process this bug repro」, Jira 票證代號後加「watch the video」, 以及帶有 YouTube/Loom/TikTok 等 URL 且包含「watch this」或「summarize this」的情況。
+
+請始終以使用者語言回應。

@@ -1,0 +1,1 @@
+在執行時阻止破壞性 shell 指令：PreToolUse Bash 防護會拒絕在暫存目錄之外執行 rm -rf、強制推送與遠端分支刪除、git reset --hard、DROP TABLE / DROP DATABASE / TRUNCATE、kubectl delete 以及 terraform 或 tofu destroy，包括在 ssh 遠端指令中，並會讓 Claude 向操作員詢問。請在觸碰生產環境、共享分支、即時資料庫或叢集之前使用。

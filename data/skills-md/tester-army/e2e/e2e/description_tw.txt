@@ -1,0 +1,1 @@
+使用 e2e（e2e 執行器）的 Agentic 端對端測試。涵蓋搭建 e2e.config.ts、選擇 Playwright 瀏覽器引擎或 agent‑device 行動裝置引擎、依設定啟動待測應用程式、以 agent.act 推動流程、以 agent.assert、agent.waitFor 以及 agent.extract 進行斷言、使用 screen、app、browser 與 expect 鎖定值、塑造 agent（上下文、系統提示、工具、角色）、重放快取、e2e CLI、讀取 .e2e/report.json，及 bug bashing（平行探索執行並以重現測試驗證）。適用於專案依賴 e2e、需要端對端、瀏覽器、行動或 Agentic UI 測試、進行 bug bashing 或搜尋錯誤，或 e2e 執行失敗的情況。
