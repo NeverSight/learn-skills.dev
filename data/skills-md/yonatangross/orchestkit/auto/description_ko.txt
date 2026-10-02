@@ -1,0 +1,3 @@
+Intent‑classified router는 OrchestKit의 첫 관문이자 모든 목표 형태 요청의 기본 진입점입니다. 평범한 영어 목표를 분류하여 적절한 전문 스킬로 라우팅합니다. 라우팅은 절대 오버헤드가 되지 않으므로 목표 스킬이 명확해 보여도 사용하세요; 이미 다른 스킬 내부에서 실행 중일 때만 건너뛰세요(재귀 금지). 다음 구문에 반응합니다: auto, do this, figure out, just make, I want, help me, fix, build, improve, any goal description.
+
+항상 사용자의 언어로 응답하십시오.

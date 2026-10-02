@@ -1,0 +1,3 @@
+Odoo 14, 15, 16, 17, 18 또는 19에서 Odoo 20으로 커스텀 Odoo 모듈(또는 전체 addons 폴더)을 마이그레이션하고 설치 및 실행을 입증합니다. 모듈을 별도의 Odoo 20 addons 트리로 복사하고, Odoo 20의 자체 upgrade_code 스크립트를 안전하게 실행하며, 알려진 14→20 중단 변경 사항(매니페스트, Python/ORM, 오버라이드 시그니처, 이름이 변경된 xmlid 및 필드, 컨트롤러, 뷰, 서버 QWeb t‑esc, ir.access 보안, Owl 3 백엔드 JS, publicWidget→Interactions, jQuery/Font Awesome/Bootstrap 4 제거, 웹사이트 빌더, 전자상거래, 포털, 투어 및 테스트, 시크릿)들을 스캔합니다. 모든 JS와 Python import를 실제 Odoo 20 소스와 대조하고, 나머지는 영역별 서브 에이전트를 병행하여 수작업으로 수정한 뒤, 임시 데이터베이스에서 설치 + 헤드리스 브라우저 연기 테스트와 플로우 투어를 반복하여 깨끗해질 때까지 실행하고, 마지막으로 코드 리뷰를 수행합니다. 사용자가 “migrate <module> to 20”, “make it installable on Odoo 20”, “port to v20”, “upgrade module from 16/17/18 to 20” 라고 말하거나 /odoo-migrate-to-20을 호출할 때 사용합니다.
+
+항상 사용자의 언어로 응답하십시오.

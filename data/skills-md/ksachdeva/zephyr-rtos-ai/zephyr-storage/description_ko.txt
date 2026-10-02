@@ -1,0 +1,1 @@
+Zephyr OS의 NVS(Non‑Volatile Storage) 및 ZMS(Zephyr Memory Storage) 서브시스템을 이용한 직접 키‑값 저장. 숫자 ID(문자열 키가 아닌)로 데이터를 플래시에 직접 저장하거나, NVS와 ZMS 중 선택할 때, 저장용 플래시 파티션을 구성할 때, 플래시 마모와 장치 수명을 계산할 때, 혹은 저장 API(마운트, 읽기, 쓰기, 삭제)를 사용할 때 사용하십시오. 고수준 문자열 키 영속성을 원한다면 zephyr‑settings 스킬을 대신 사용하십시오.

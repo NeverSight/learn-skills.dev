@@ -1,0 +1,1 @@
+실행된 파괴적인 쉘 명령을 차단합니다: PreToolUse Bash 가드는 temp 디렉터리 외부에서의 rm -rf, 강제 푸시 및 원격 브랜치 삭제, git reset --hard, DROP TABLE / DROP DATABASE / TRUNCATE, kubectl delete 및 terraform 또는 tofu destroy 명령을 거부하고, ssh 원격 명령 내부도 포함하여 Claude가 운영자에게 확인을 요청합니다. 프로덕션, 공유 브랜치, 실시간 데이터베이스 또는 클러스터에 접근하기 전에 사용하십시오.
