@@ -1,0 +1,226 @@
+---
+name: prd-to-goal
+description: "Decomposes a PRD, issue, or spec into a copy-pasteable single `/goal until ..., or stop after N turns` line. Use when running /goal against a spec, to reduce acceptance criteria to AND-joined boolean assertions."
+argument-hint: "[prd-text | issue#N | path/to/spec.md]"
+license: MIT
+compatibility: "Claude Code 2.1.277+ (uses GA `/goal` loop)."
+user-invocable: true
+context: inherit
+allowed-tools: "Read Write Bash Grep Agent"
+metadata:
+  category: planning
+  milestone: M140
+  version: "0.1.0"
+  author: "OrchestKit"
+  complexity: "low"
+  tags: "/goal, planning, prd, automation, cc-2.1.139"
+triggers:
+  keywords: ["prd to goal", "goal from prd", "convert prd to goal", "/goal from issue", "decompose acceptance criteria"]
+  examples:
+    - "turn this PRD into a /goal line"
+    - "what should my /goal until clause be for issue #1792"
+    - "decompose this spec into observable assertions"
+  anti-triggers: [implement, fix, commit, refactor, push]
+---
+
+# prd-to-goal — PRD → /goal Decomposition
+
+Converts a PRD / issue / spec into a single copy-pasteable `/goal` line. The hard part of `/goal` is not running it — it is writing an `until` clause that is *convergent* (terminates), *falsifiable* (testable boolean), and *observable* (the agent can actually check it without subjective judgement). This skill makes that decomposition reproducible.
+
+## 1. When to use
+
+**Use it when:**
+- You have a written PRD, GitHub issue, or spec and want to run `/goal` against it.
+- Past `/goal` runs drifted, looped, or burned tokens because the `until` clause was vague (`until tests pass`, `until done`, `until design is good`).
+- You need to justify the abort budget — turns, tokens, no-progress threshold.
+
+**Skip it when:**
+- One-shot bug fix where the failing test *is* the acceptance criterion. Just run `/goal until pnpm test -- auth.spec.ts passes`.
+- No written PRD exists. Run `write-prd` first — vibes do not decompose.
+- The work is destructive or irreversible (DB migrations, mass file deletes). `/goal` retries; you do not want retries on `DROP TABLE`.
+
+## 2. Inputs the skill accepts
+
+| Input | How |
+|---|---|
+| Pasted PRD text | Provide as the argument, or paste into the chat after invoking. |
+| GitHub issue | `gh issue view <N> --json title,body,labels` — the skill reads `body`. |
+| Spec file | Path to a Markdown / text file; the skill `Read`s it. |
+| ADR / design doc | Same as spec file. |
+
+## 3. The decomposition algorithm
+
+1. **Extract acceptance criteria.** Pull every `MUST`, `SHOULD`, `Definition of Done`, `Acceptance Criteria`, and checkbox-style line. If the doc has none, stop and tell the user to run `write-prd` first — there is nothing to converge on.
+2. **Map each criterion to an observable boolean.** Each criterion must reduce to a single shell-checkable assertion. Examples of observable state:
+   - `test -f path/to/file` (file exists)
+   - `pnpm test -- pattern passes` (test command exits 0)
+   - `gh pr view <N> --json state | jq -r .state == "MERGED"`
+   - `wc -l < src/auth.ts` returns a number within bound
+   - `pnpm lint` exits 0
+   - `curl -sf $URL` returns 2xx
+3. **Reject non-observable criteria.** Drop or rewrite criteria that depend on subjective judgement (`code is clean`, `design feels right`, `users are happy`). Either find a proxy (`lint exits 0`, `Lighthouse score > 90`, `NPS survey ID exists`) or surface the criterion back to the user as out of scope for `/goal`.
+4. **Compose the `until` clause.** AND-join the observable assertions in priority order — the cheapest, most likely-to-fail check first so the loop short-circuits early. Three to five assertions is the sweet spot; more than seven usually means the PRD is two PRDs.
+5. **Fold the budget INTO the same condition.** Claude Code accepts one goal per
+   session, replace-on-set, and the bound is written inside that single condition
+   (`…, or stop after 15 turns`). It is not a second command. Sensible turn caps:
+   - `15` for a single feature, `30` for a refactor, `5` for a bug fix.
+
+   > **Never emit a second `/goal` line.** A second line does not add a rail — it
+   > parses as a fresh condition, REPLACES the first, and leaves the session
+   > goaled on the budget alone with every acceptance assertion discarded. The
+   > `abort-if` form this skill used to emit was never Claude Code syntax at all:
+   > `grep -c -a -F 'abort-if'` against the 2.1.226 binary returns `0`, and it
+   > appears in none of the 357 archived changelogs. Verified 2026-08-08 (#3312).
+
+## 4. Output template
+
+The skill emits exactly ONE line, ready to paste:
+
+```
+/goal until <assertion_1> AND <assertion_2> AND <assertion_3>, or stop after <N> turns
+```
+
+Emit the line first, on its own. A fenced code block around it is fine, since
+the user copies it out. Any notes (assertion ordering, what a grep cannot prove)
+go after the line and stay short. Never emit a second `/goal` line, and never
+emit a goal line at all when the input has no observable acceptance criteria
+(step 1 of the algorithm): say so and point at `write-prd` instead.
+
+### Optional: rubric emission (`.claude/rubric.json`)
+
+When the user wants graded feedback beyond pass/fail booleans, the skill MAY also emit `.claude/rubric.json` conforming to `ork-rubric/1.0` (schema: `${CLAUDE_PLUGIN_ROOT}/shared/rubric.schema.json`), mapping each acceptance criterion to one dimension:
+
+```json
+{
+  "rubric": "ork-rubric/1.0",
+  "skill": "prd-to-goal",
+  "dimensions": [
+    { "name": "regression_test_added", "weight": 0.4, "min_pass": 8, "min_blocker": 3 },
+    { "name": "auth_suite_green",      "weight": 0.4, "min_pass": 10, "min_blocker": 5 },
+    { "name": "lint_clean",            "weight": 0.2, "min_pass": 10, "min_blocker": 0 }
+  ]
+}
+```
+
+Scores are 0–10 (`min_pass` = soft floor, `min_blocker` = hard blocker regardless of composite); dimension weights MUST sum to 1.0 — see the schema for the full contract.
+
+The file is deliberately **user-editable before the `/goal` run** — that is the point. Adjusting weights and `min_pass` thresholds is how the user injects judgement into the loop without rewriting assertions (rubric-as-environment-feedback, Lance Martin 2026-06-09). The post-timeout grader (§8) treats the rubric, if present, as the user's intent — senior to the literal assertion text.
+
+## 5. Worked examples
+
+### Example A — Bug fix PRD
+
+Input (issue body):
+
+```
+Title: Login fails on emails containing "+"
+Acceptance Criteria:
+- New regression test in tests/auth/test_login.py covers email with "+"
+- The new test passes
+- All existing auth tests still pass
+```
+
+Output:
+
+```
+/goal until test -f tests/auth/test_login.py AND pnpm test -- tests/auth/test_login.py passes AND pnpm test -- tests/auth passes, or stop after 5 turns
+```
+
+Rationale: file existence is the cheapest check; the targeted test is the regression gate; the broad auth suite catches collateral damage.
+
+### Example B — Feature PRD
+
+Input (PRD excerpt):
+
+```
+Feature: User Avatar Endpoint
+MUST:
+- New route GET /users/:id/avatar registered
+- Returns 200 with { url: string, updatedAt: ISO8601 } for known user
+- Returns 404 for unknown user
+- Integration test covers both cases
+- OpenAPI spec updated
+```
+
+Output:
+
+```
+/goal until grep -q "users/:id/avatar" src/routes/users.ts AND pnpm test -- tests/integration/users.avatar.spec.ts passes AND grep -q "/users/{id}/avatar" openapi.yaml AND pnpm lint passes, or stop after 15 turns
+```
+
+Rationale: route `grep` catches a handler that was stubbed but never wired; the integration spec encodes both 200 and 404; OpenAPI grep enforces the docs MUST; lint guards against half-typed code shipping.
+
+### Example C — Refactor PRD
+
+Input (PRD excerpt):
+
+```
+Refactor: split monolithic src/auth.ts (1842 LOC) into per-strategy files
+Definition of Done:
+- src/auth.ts under 200 LOC
+- New files in src/auth/strategies/*.ts cover oauth, jwt, password
+- All auth tests still pass
+- Lint clean
+- No new files outside src/auth/
+```
+
+Output:
+
+```
+/goal until [ $(wc -l < src/auth.ts) -lt 200 ] AND test -f src/auth/strategies/oauth.ts AND test -f src/auth/strategies/jwt.ts AND test -f src/auth/strategies/password.ts AND pnpm test -- tests/auth passes AND pnpm lint passes, or stop after 30 turns
+```
+
+Rationale: the LOC bound is the convergent signal — without it, `/goal` can keep "improving" forever. File-existence checks pin the structural decomposition; tests + lint guard correctness. Higher budget because refactors run longer than bug fixes.
+
+## 6. Recipe Library — pre-built loops
+
+Where §3–5 *generate* a custom `/goal` line from a spec, the recipe library *ships* ready-made ones for the recurring autonomous loops. Each is a loop shape wrapped around an ork worker skill, following the same convergent / falsifiable / budgeted rules as a generated line.
+
+| Recipe | Use when | Worker |
+|---|---|---|
+| 🧪 Coverage climb | raise coverage to a target, meaningfully | `cover` |
+| 🔴 Production error sweep | clear a backlog of actionable errors | `fix-issue` |
+| 📚 Docs-drift sweep | docs / reference drifted from code | `audit-full` |
+| ⚡ Page-load budget | a page exceeds its latency budget | `performance` |
+| 🧹 Repository cleanup | stale memory / state accumulated | `dream` |
+| ✅ Quality streak | don't trust a single green (flaky suite) | `verify` |
+| 🎫 Ticket → PR-ready | drive an issue to a CI-green PR | `fix-issue` → `create-pr` |
+| 🧼 Type/lint zero | clear a type/lint backlog without suppressions | fixer agent |
+
+Full recipes — the exact single-line `/goal until …, or stop after N turns` lines, convergent signal, and per-recipe guardrail: `references/recipe-library.md`. That file is the in-repo source intended for an `ork-loops` pack on skills.sh (not yet built; the channel Forward Future's Loop Library uses), so the loop *recipes* can travel while ork supplies the *machinery* each pass runs on.
+
+## 7. Anti-patterns
+
+| Bad | Why it fails | Good |
+|---|---|---|
+| `/goal until tests pass` | Which tests? Existing or new? On which command? The agent can pick whatever subset is already green and claim done. | `/goal until pnpm test -- tests/auth/test_login.py passes AND pnpm test -- tests/auth passes` |
+| `/goal until the code looks clean` | Not falsifiable. The agent cannot check "looks clean" — it will either declare victory immediately or never. | `/goal until pnpm lint passes AND [ $(wc -l < src/auth.ts) -lt 200 ]` |
+| `/goal until done` | Unbounded. There is no terminating condition; combined with a generous `, or stop after 50 turns` this is how runs eat 500K tokens overnight. | Pick 3–5 observable assertions. If you cannot, the PRD is not ready — go to `write-prd`. |
+
+## 8. Post-timeout assertion grader
+
+If the `/goal` loop hits its turn bound, do NOT retry the same line and do NOT let the looping agent critique its own assertions. Spawn a FRESH-context grader that audits the assertion set itself:
+
+```python
+# Bare-eval pattern — independent context window, zero shared state:
+Bash("CLAUDE_CODE_FORK_SUBAGENT=1 claude -p --bare \"$(cat /tmp/grader-prompt.txt)\"")
+# or: Agent(subagent_type="general-purpose", prompt=grader_prompt)  # fresh spawn, no producer prose
+```
+
+The grader receives the `/goal` line, `.claude/rubric.json` (if emitted), a compressed summary of the last N turns, and freshly regenerated repo-state evidence. It returns one verdict:
+
+| Verdict | Diagnosis | Action |
+|---|---|---|
+| `tighten` | Assertions too weak — agent could satisfy them without real success | Re-run with the stricter revised line |
+| `loosen` | Assertions unsatisfiable as written (wrong path, impossible bound, pre-broken suite) | Re-run with the achievable revised line |
+| `abort` | Task genuinely blocked (missing access, contradictory spec, broken env) | Stop; surface the blocker to the user |
+
+Grading must happen in an independent context window — never self-critique (verifier sub-agents outperform self-critique because the grader does not share the producer's context; Lance Martin, 2026-06-09). Budget: one grader call per timeout, and the grader never loops itself.
+
+Full pattern (prompt template, independence rules, worked example): `${CLAUDE_PLUGIN_ROOT}/skills/chain-patterns/references/assertion-grader.md`.
+
+## 9. Related skills
+
+- `ork:write-prd` — if the input has no acceptance criteria, run this first.
+- `ork:brainstorm` — useful when the PRD itself is contested and you want options before writing the goal.
+- `ork:audit-full` — after `/goal` exits, run audit-full to confirm the assertions actually held end-to-end (the loop trusts the boolean; audit re-checks the intent).
