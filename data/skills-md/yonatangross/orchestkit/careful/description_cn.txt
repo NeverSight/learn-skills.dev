@@ -1,0 +1,1 @@
+在被调用后阻止破坏性 Shell 命令：PreToolUse Bash 守护程序拒绝在临时目录之外执行 rm -rf、强制推送和远程分支删除、git reset --hard、DROP TABLE / DROP DATABASE / TRUNCATE、kubectl delete 以及 terraform 或 tofu destroy，包括在 SSH 远程命令内部，并让 Claude 向操作员询问。请在接触生产环境、共享分支、实时数据库或集群之前使用。

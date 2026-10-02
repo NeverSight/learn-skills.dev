@@ -1,0 +1,1 @@
+每日自主分类器，用于检测你仓库中失败的 PR。对每个带有红色必需检查的打开 PR 以无头方式运行 /ci-debug，将判决以折叠的 PR 评论形式发布，并追加到每个仓库的 .sentinel/ledger.jsonl。v1 为 propose‑don’t‑apply —— 永不自动推送修复。当你厌倦了 /status 巡检一次又一次捕获相同的十种 CI 失败模式时，请使用它。

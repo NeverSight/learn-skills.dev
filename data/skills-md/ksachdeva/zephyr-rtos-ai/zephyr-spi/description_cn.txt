@@ -1,0 +1,1 @@
+针对串行外设通信的全面 Zephyr SPI 子系统专业知识。使用场景包括：(1) 通过 devicetree 或 Kconfig 配置 SPI 控制器或设备；(2) 使用 spi_transceive / spi_read / spi_write 实现同步 SPI 传输；(3) 使用 spi_transceive_cb 或 spi_transceive_signal 实现异步 SPI；(4) 设置 SPI 模式（CPOL、CPHA、字长、位序）；(5) 通过 GPIO 或硬件 CS 管理片选；(6) 使用散射‑聚集缓冲区进行多段事务；(7) 根据使用场景在同步和异步 API 之间做选择；(8) 排查 SPI 通信问题（时钟极性、CS 时序、数据损坏）。

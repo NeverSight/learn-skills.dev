@@ -1,0 +1,1 @@
+关闭一个工作前线并将其推送到生产环境，只有一个审批点：它自行检查将要提交的内容（语法、测试、diff 中的机密、基线是否过时），一次性显示到底哪些内容会进入生产以及推送是否会自行发布，只有在用户确认后才提交、合并、发布并检查。当用户说“release”“publicar”“subir para produção”“fechar a frente”或“integrar”时，在该前线的目录中使用。这是 skill sdd‑new‑session 的另一端。

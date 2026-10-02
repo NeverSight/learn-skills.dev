@@ -1,0 +1,3 @@
+【书籍榨汁机】从 epub/pdf/md 文件中提取完整知识：思维模型、关键概念、金句、案例研究、反模式以及行动清单。当用户提供文件并说“disassemble”（拆解）、“distill”（提炼）或“juice”（榨汁）时触发。用户说“integrate”（整合）、“merge disassembly”（合并拆解）或“produce knowledge manual”（生成知识手册）时，则走内容整合流水线（单本拆解 → 批量拆解 → 主题手册全链路）。命名标准化提取干净的书名作为基准名（去除副标题、括号、作者冗余，同时保留系列编号），转换后自动清理 HTML 标签和失效的图片链接。输出路径从 config.json 读取（默认 knowledge‑base inbox/book disassembly；若不存在则自动创建）。
+
+请始终使用用户的语言回复。

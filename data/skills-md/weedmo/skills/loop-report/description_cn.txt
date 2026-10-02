@@ -1,0 +1,1 @@
+构建并交付一个长时间委托循环（matt-auto、autocode，以及任何代表用户运行数分钟至数小时的循环）的实时进度页面——一个用户在循环运行期间可以阅读并在之后保存的独立 HTML。构建过程是使用 `assets/render.py` 结合 `assets/shell.html` 以及调用循环的视图；交付过程由 `assets/deliver.py` 完成（Orca 制品链接，或在链接不可用时使用工作区的 Orca 浏览器标签，或文件路径），此方式在整个运行期间保持路由稳定。调用方运行这两个脚本并转发结果；他们从不直接运行 `orca` 命令。此功能由 interview‑report（matt‑auto 的决策图）和 autocode（实验板）调用；请勿单独触发。

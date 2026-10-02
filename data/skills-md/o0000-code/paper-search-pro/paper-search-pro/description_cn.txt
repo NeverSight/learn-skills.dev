@@ -1,0 +1,14 @@
+在多达 8 种来源中检索学术论文（英文使用 OpenAlex、Semantic Scholar、CrossRef、PubMed、arXiv，AI 会议使用 OpenReview，另加通过 NSSD 国家哲社文献中心 + yiigle 中华医学期刊进行的中文原生检索），并可调节检索深度——快速扫描（5 分钟）至审计准备（3 小时）。当用户需要：
+
+- 找论文、进行文献检索、收集参考文献、界定研究主题；
+- 检索中文文献/中文原生文献（如 中文文献、中文核心、CSSCI、C 刊、国内研究、国内文献、中华××期刊、心理学报、经济研究）；
+- 按期刊分区过滤结果（中科院分区、一区/几区、Q1、JCR/SJR 四分位、影响因子/impact factor、期刊分区、顶刊/top journal、“按分区筛”等）；
+- 导出可直接粘贴的专业检索式/检索式，用于外部数据库（PubMed、WOS、Scopus、Embase、知网 CNKI、万方、SinoMed——如“写检索式”“导出检索式”“WOS 检索式”“知网专业检索”“search strategy”“boolean search strategy”）；
+
+时请使用本功能。触发词包括搜索动词（如 “find papers”“literature search”“papers about X”）、综述类型（如 “scoping review”“systematic review”“SR prep”“literature review”“lit review”“help me write a lit review”），以及中文关键词（如 “找文献”“找论文”“论文搜索”“学术检索”“文献检索”“文献综述”“综述前期”“求文献”“中文文献”“中文核心”“CSSCI”“C刊”“国内研究”“找中文的”）。
+
+输出内容为 Shadcn HTML 报告 + BibTeX/RIS/CSV 文件 + PRISMA‑S 日志。
+
+**请勿用于**：概念解释（如 “what is X” / “X 是什么”，例 “影响因子怎么算”）、写作帮助（如 “帮我写”“help me write a paragraph”）、单篇论文解读或带元数据的 PDF 下载（使用 paper‑downloader‑portable），以及用户已有文献集合的情境（使用 literature‑set‑review）。
+
+请始终使用用户的语言进行回复。

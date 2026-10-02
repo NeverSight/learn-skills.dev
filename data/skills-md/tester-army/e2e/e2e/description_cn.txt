@@ -1,0 +1,1 @@
+使用 e2e（e2e 运行器）进行 Agentic 端到端测试。包括搭建 e2e.config.ts、选择 Playwright 浏览器引擎或 agent‑device 移动引擎、从配置启动被测应用、使用 agent.act 驱动流程、使用 agent.assert、agent.waitFor 和 agent.extract 进行判断、使用 screen、app、browser 和 expect 锁定值、构建 agent（上下文、系统提示、工具、角色）、回放缓存、e2e CLI、读取 .e2e/report.json，以及 bug bash（通过复现测试验证的并行探索运行）。当项目依赖 e2e、需要端到端、浏览器、移动或 Agentic UI 测试、进行 bug bash 或查找 bug，或 e2e 运行失败时使用。

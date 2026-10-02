@@ -1,0 +1,1 @@
+您必须在针对 github.com 运行项目范围的 GitHub CLI 命令（gh pr、issue、repo、api、release、run）之前使用此操作，在同一会话中每次后续 gh 命令之前、在 gh 命令因访问错误（如 “Could not resolve to a Repository”）而失败后，以及在被要求检查或切换当前项目的 gh 账户时使用。它会将 gh 切换到项目的 .env/.env 中由 GH_ACC 指定的已登录账户，并在一行中报告切换情况。仅适用于 gh，而不适用于普通 git 或 SSH 操作、gh help 或 version 输出、登录操作，或除 github.com 之外的主机。
