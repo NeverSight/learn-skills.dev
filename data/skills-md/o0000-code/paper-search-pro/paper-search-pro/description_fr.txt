@@ -1,0 +1,13 @@
+Trouvez des articles académiques à partir d’un maximum de 8 sources (OpenAlex / Semantic Scholar / CrossRef / PubMed / arXiv pour l’anglais, OpenReview pour les conférences IA, ainsi que la recherche native chinoise via NSSD 国家哲社文献中心 + yiigle 中华医学期刊) avec une profondeur réglable — de l’inspection rapide (5 min) à la préparation d’audit (3 h). Utilisez‑le lorsque l’utilisateur veut :  
+
+- trouver des articles, lancer une recherche bibliographique, rassembler des références, délimiter un sujet de recherche, rechercher de la littérature en langue chinoise / 中文原生 (中文文献/中文核心/CSSCI/C刊/国内研究/国内文献/中华××期刊/心理学报/经济研究),  
+- filtrer les résultats par rang de revue (中科院分区/一区/几区, Q1, quartile JCR/SJR, 影响因子 / impact factor, 期刊分区, 顶刊 / top journal, « 按分区筛 »),  
+- ou exporter des stratégies de recherche professionnelles prêtes à coller / 检索式 pour des bases externes (PubMed / WOS / Scopus / Embase / 知网 CNKI / 万方 / SinoMed — « 写检索式 », « 导出检索式 », « WOS 检索式 », « 知网专业检索 », « search strategy », « boolean search strategy »).  
+
+Déclencheurs : verbes de recherche (« find papers », « literature search », « papers about X »), types de revues (« scoping review », « systematic review », « SR prep », « literature review », « lit review », « help me write a lit review »), ou expressions chinoises (« 找文献 », « 找论文 », « 论文搜索 », « 学术检索 », « 文献检索 », « 文献综述 », « 综述前期 », « 求文献 », « 中文文献 », « 中文核心 », « CSSCI », « C刊 », « 国内研究 », « 找中文的 »).  
+
+Sorties : rapport HTML Shadcn + fichiers BibTeX/RIS/CSV + journal PRISMA‑S.  
+
+NE PAS utiliser pour : explications de concepts (« what is X » / « X 是什么 », p. ex. « 影响因子怎么算 »), rédaction (« 帮我写 » / « help me write a paragraph »), interprétation d’un seul article ou téléchargement PDF avec métadonnées (utiliser paper‑downloader‑portable), ou lorsqu’un jeu de littérature existe déjà (utiliser literature‑set‑review).  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
