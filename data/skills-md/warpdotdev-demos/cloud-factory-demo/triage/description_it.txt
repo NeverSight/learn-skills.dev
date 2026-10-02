@@ -1,0 +1,3 @@
+Eseguire il triage di un problema proveniente da GitHub, Jira, Linear o altri tracker di issue rispetto al codebase attuale e alle issue aperte correlate, quindi restituire una decisione strutturata con esattamente uno stato di prontezza all'implementazione. Utilizzare ogni volta che l'utente richiede di triage, classificare, valutare, dare priorità o etichettare un problema per la prontezza all'implementazione, soprattutto quando nel prompt viene fornito un URL, una chiave o un numero di issue. Per bug di UI o interattivi, opzionalmente invocare la skill verify-behavior come subagente cloud di utilizzo del computer per riprodurre il problema prima di decidere.
+
+Rispondere sempre nella lingua dell'utente.
