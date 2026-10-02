@@ -1,0 +1,1 @@
+破壊的なシェルコマンドが呼び出された際にブロックします：PreToolUse Bash ガードは、temp ディレクトリ外での rm -rf、force push やリモートブランチの削除、git reset --hard、DROP TABLE / DROP DATABASE / TRUNCATE、kubectl delete、terraform または tofu destroy、さらに ssh リモートコマンド内でも拒否し、Claude にオペレーターへの確認を促します。プロダクションや共有ブランチ、ライブデータベース、クラスターに触れる前に使用してください。

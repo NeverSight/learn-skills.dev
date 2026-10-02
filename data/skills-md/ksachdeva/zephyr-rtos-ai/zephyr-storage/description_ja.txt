@@ -1,0 +1,1 @@
+Zephyr OS の NVS（Non-Volatile Storage）および ZMS（Zephyr Memory Storage）サブシステムを使用した直接的なキー‑バリュー格納です。数値 ID（文字列キーではなく）でデータをフラッシュに直接保存する場合、NVS と ZMS の選択、ストレージ用フラッシュパーティションの設定、フラッシュの摩耗とデバイス寿命の計算、またはストレージ API（mount、read、write、delete）を使用する際に利用します。高レベルの文字列キーによる永続化には、代わりに zephyr‑settings スキルを使用してください。
