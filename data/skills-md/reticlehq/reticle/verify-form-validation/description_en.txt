@@ -1,0 +1,1 @@
+Check that a form actually rejects bad input: the error message renders, the submit button stays disabled, and no request goes out. Use when validation logic was written but never driven, when a "required" or pattern check looks right on screen but was never proven, or when a bug report says the form submitted invalid data anyway.
