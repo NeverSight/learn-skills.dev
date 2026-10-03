@@ -1,0 +1,1 @@
+即時上線導覽新實作的程式碼。結合 /deep-trace、vscode-debug-mcp 橋接以及 playwright-cli，於除錯階段執行目標應用程式、操作 UI、在新程式碼內的精選斷點暫停，並解說「this modal is the newly created one」——將每個 UI 時刻映射到精確的檔案:行號。適用於使用者想了解 AI 撰寫的功能程式碼在執行中的位置與運作方式（「どの UI / どのロジックで動くのか分からない」、「オンボーディングして」、「/pr-tour」）。

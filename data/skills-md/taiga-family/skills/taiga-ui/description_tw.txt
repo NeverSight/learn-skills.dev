@@ -1,0 +1,1 @@
+任何在使用 Taiga UI（`@taiga-ui/*`）的 Angular 專案中的介面工作：它是應用程式的 UI 層，所有元件、模板、表單、對話框、通知與樣式皆透過它。當建立或變更 UI 時、在挑選哪個 `Tui*` 元件符合需求時、以及當 Taiga 程式碼無法編譯、渲染未加樣式或呈現為 inert 時使用。如果專案尚未有 `@taiga-ui/*` 套件，則屬於 `taiga-ui-setup`；版本升級後的 schematics migration TODO 則屬於 `taiga-ui-migration`。

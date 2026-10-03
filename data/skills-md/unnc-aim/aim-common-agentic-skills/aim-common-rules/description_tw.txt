@@ -1,0 +1,3 @@
+UNNC AIM 團隊的倉庫與程式碼標準。涵蓋倉庫命名（competition / aim‑academic‑year / reusable）、分支與 Conventional Commits 規則、AI 代理的 git 行為（除非使用者在當前任務中明確要求，否則絕不 commit / push；未經明確許可絕不呼叫 gh CLI；不加入 AI Co‑Authored‑By 後記；在代碼變更任務結束時建議提交訊息），以及 Python（autopep8 / PEP 8）、C++（clang‑format / clang‑tidy）、TypeScript（Prettier + ESLint，pnpm）、Go（gofmt）、CMake，以及 Markdown / YAML / JSON 的格式化標準，並提供可直接複製的典範規則檔案。於建立或命名倉庫、驗證 ROS2 package.xml 名稱、建立分支、撰寫 git commit 訊息、任何可能涉及 commit、push 或呼叫 gh 的任務、組合競賽工作區（src/ 內的 git submodules），或設定 Python、C++（.clang‑format / setup.cfg / .clang‑tidy）、TypeScript（Prettier / ESLint / pnpm）或 Go（gofmt）工具鏈、調整 CMakeLists.txt 或 Markdown / YAML / JSON 檔案樣式，或套用團隊建議的 git 設定時使用。
+
+請始終以使用者的語言回覆。
