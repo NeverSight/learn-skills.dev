@@ -1,0 +1,4 @@
+Python/wheel 레이어: 가속기 플랫폼의 PyTorch 스택을 위한 Python 환경을 생성하거나 복구합니다 — 벤더 소스와 공개 소스 관리, 버전 매칭 매트릭스, 환경 변수, 설치 과정, 검증 및 일반적인 오류, 모든 벤더 플랫폼에 적용 가능합니다.  
+어떤 플랫폼이든 가속기 플랫폼 PyTorch(벤더 torch 백엔드, torchvision/torchaudio, 플랫폼 triton, 벤더 통신 라이브러리)의 Python 환경을 생성하거나 복구할 때 사용합니다.  
+주 본문은 현재 검증된 예시(현재 MUSA/MooreThread 소스)이며; 다른 플랫폼에 처음 초기화할 때는 “How to specialize” 헤더에 따라 본문을 먼저 재작성하십시오.  
+트리거 단어: install torch, wheel source, version matching, pip source, dependency conflicts.

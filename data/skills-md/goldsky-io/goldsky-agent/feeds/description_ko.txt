@@ -1,0 +1,1 @@
+Goldsky Feeds를 쿼리하세요. 이는 하나의 지갑 잔액과 전송을 위한 REST API입니다. 지갑 보유량, 포트폴리오 가치, 전송 내역, 입금 확인 등에 사용합니다. edge.goldsky.com/data/feeds, Feeds API 키 또는 GOLDSKY_FEEDS_API_KEY를 사용하세요. Goldsky feeds 명령은 없으며, CLI 로그인 토큰은 이 키가 아닙니다. 사용자의 자체 데이터베이스 행에 대해서는 /turbo-builder를 사용하세요. Turbo 데이터셋 이름에는 /datasets를 사용하세요. JSON‑RPC를 사용할 때는 /edge 또는 /boost를 사용하세요. 항상 사용자의 언어로 응답해 주세요.
