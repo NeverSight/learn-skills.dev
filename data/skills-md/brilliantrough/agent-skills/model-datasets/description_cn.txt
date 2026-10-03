@@ -1,0 +1,1 @@
+统一的模型和数据集下载、存储、加载约定：平台（HF / ModelScope）仅是下载工具；在本地，所有内容应放在 /data/models/<org>__<name> 和 /data/datasets/<org>__<name> 下，并且仅使用绝对路径传递给 transformers / datasets。包含新机器的 /data 磁盘准备规则（当 /data 不存在时进行初始化或创建符号链接）。在下载或组织模型/数据集、决定存放位置、使用 hf / modelscope CLI，或通过 from_pretrained / load_dataset 加载时使用。触发词：模型放在哪里，数据集放在哪里，下载模型，from_pretrained 路径，/data，hf，modelscope，大文件放在哪里。

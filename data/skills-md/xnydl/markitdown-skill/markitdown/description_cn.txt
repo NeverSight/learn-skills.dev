@@ -1,0 +1,3 @@
+将所有“非纯文本”文件转换为 Markdown，作为统一的 AI 预处理技能（基于 Microsoft MarkItDown CLI 包装）。当用户上传或提及文件让你阅读、摘要、提取、翻译、回答问题或比较时使用此技能——尤其是 .docx、.xlsx、.pptx、.xls（Office 二进制）、.pdf、.epub、.html、.csv、.json、.xml、.zip、.msg（Outlook）、音频（.mp3、.wav、.m4a 转录），甚至 YouTube 链接。触发短语包括：“read this file / pdf / word / excel / ppt”（读取此文件/PDF/Word/Excel/PPT），“convert this document to markdown”（将此文档转换为 Markdown），“what does this file discuss”（这个文件讨论了什么），“extract / summarize / translate this document”（提取/摘要/翻译此文档），“process this attachment”（处理此附件），“convert this file”（转换此文件），“read this docx / xlsx”（读取此 docx/xlsx）。**用户长期协议：从现在起，任何提供给 AI 的文件都应首先使用 MarkItDown 处理**——看到文件时首先想到此技能。例外情况：纯文本或代码可以直接读取；图片和扫描版 PDF 更适合使用原生视觉读取（MarkItDown 无法从图像中提取文字）。不要低触发。
+
+请始终使用用户语言回复。

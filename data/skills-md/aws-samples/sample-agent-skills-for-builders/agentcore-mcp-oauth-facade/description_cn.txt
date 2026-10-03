@@ -1,0 +1,1 @@
+在 Bedrock AgentCore Gateway 或 Runtime 前构建一个 OAuth + MCP 协议门面，使严格的 MCP 客户端（Claude Code、Cursor、Amazon Quick、mcp-remote）能够连接。当 MCP 客户端未通过 OAuth 发现（“修复标记字段”、DCR 错误）时使用；当工具超过 30 条目时静默消失（Gateway tools/list 分页）时使用；当工具调用返回 404 或“未知工具”（双 session‑id、工具名称前缀）时使用；或在将 Cognito 适配到 RFC 9728/8414 元数据、重写 redirect_uri 或处理 Gateway 模式限制时使用。
