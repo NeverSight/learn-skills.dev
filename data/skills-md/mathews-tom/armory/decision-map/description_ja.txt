@@ -1,0 +1,12 @@
+計画開始前に回答が必要な未解決のアーキテクチャ、ポリシー、スコープに関する意思決定をマッピングします：課題トラッカー上の質問ごとに耐久性のある意思決定チケットを1つ作成し、親マップの下でタイプ付けされブロッカーとリンクさせ、フォグ・オブ・ウォー、対象外、計算されたフロンティアを設定し、呼び出しごとに1つの意思決定を解決します。  
+
+トリガーは以下のときに発動します：  
+「map the decisions」, 「what do we need to decide」, 「identify the unknowns」, 「not ready to plan yet」, 「decision map」, 「chart this effort」, 「work the next decision ticket」, 「wayfinder」。  
+
+目的地がまだ不確定な場合に使用します。  
+
+既知の機能の実装スライスには使用しないでください。代わりに **task‑decomposer** を使用してください。  
+
+マイルストーン計画には使用しないでください。代わりに **plan‑prompts** を使用してください。  
+
+常にユーザーの言語で回答してください。

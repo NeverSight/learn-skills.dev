@@ -1,0 +1,3 @@
+UNNC AIMチームのリポジトリとコード標準。リポジトリ名（competition / aim‑academic‑year / reusable）、ブランチとConventional Commitsのルール、AIエージェントのgit動作（現在のタスクでユーザーが明示的に要求しない限り、決してコミット／プッシュしない；明示的な許可なしにgh CLIを呼び出さない；AI Co‑Authored‑Byトレーラを追加しない；コード変更タスクの最後にコミットメッセージを提案する）をカバーし、Python（autopep8／PEP 8）、C++（clang‑format／clang‑tidy）、TypeScript（Prettier＋ESLint、pnpm）、Go（gofmt）、CMake、Markdown／YAML／JSON のフォーマット標準を提供し、すぐにコピーして使える正規ルールファイルを含む。リポジトリの作成・命名、ROS2 の package.xml 名の検証、ブランチ作成、git コミットメッセージ作成、コミット・プッシュ・gh の呼び出しが関わるすべてのタスク、コンペティションワークスペース（src/ 以下の git サブモジュール）の構成、Python、C++（.clang‑format／setup.cfg／.clang‑tidy）、TypeScript（Prettier／ESLint／pnpm）または Go（gofmt）ツールチェーンのセットアップ、CMakeLists.txt や Markdown／YAML／JSON ファイルのスタイリング、チーム推奨の git 設定の適用時に使用してください。
+
+必ずユーザーの言語で回答してください。

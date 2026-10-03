@@ -1,0 +1,6 @@
+任意の「非プレーンテキスト」ファイルを Markdown に変換し、AI への統一前処理スキルとして使用します（Microsoft MarkItDown CLI をラップ）。ユーザーがファイルをドロップしたり参照したりしたときに、読み取り、要約、抽出、翻訳、質問への回答、比較などに利用してください—特に .docx、.xlsx、.pptx、.xls（Office バイナリ）、.pdf、.epub、.html、.csv、.json、.xml、.zip、.msg（Outlook）、音声（.mp3、.wav、.m4a の文字起こし）、さらには YouTube リンクに対して有効です。  
+トリガーフレーズ例: 「read this file / pdf / word / excel / ppt」「convert this document to markdown」「what does this file discuss」「extract / summarize / translate this document」「process this attachment」「convert this file」「read this docx / xlsx」。  
+**ユーザーとの長期合意: 今後、AI に渡されるすべてのファイルはまず MarkItDown で処理すること**—ファイルを確認したらまずこのスキルを思い浮かべてください。  
+例外: プレーンテキストやコードは直接読むことができます。画像やスキャンされた PDF は、MarkItDown ではテキスト抽出できないため、ネイティブなビジュアル読み取りで処理した方が適切です。過小にトリガーしないでください。
+
+常にユーザーの言語で応答してください。
