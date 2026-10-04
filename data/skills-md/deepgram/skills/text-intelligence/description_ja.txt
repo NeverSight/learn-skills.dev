@@ -1,0 +1,3 @@
+Deepgram の Read API を使用して、既に持っているテキストを分析します。「text intelligence」や「read API」や「/v1/read」や「analyze text」や「sentiment of this text」や「summarize this transcript」や「summarize a document」や「topic detection on text」や「intent recognition on text」や「analyze a support ticket」または「analyze a chat log」といったタスクがある場合に使用します。1 回の REST 呼び出し、POST /v1/read で、summarize、sentiment、topics、intents の 4 つの機能を使用します。人々が見落としがちな必須クエリパラメータ 2 つ、テキストと URL のボディの違い、英語のみの制限、そしてエンティティ検出がここにない理由について説明します。音声入力の場合は audio‑intelligence にルーティングし、api、docs、recipes、starters、各言語の SDK スキルへもリンクします。
+
+常にユーザーの言語で回答してください。

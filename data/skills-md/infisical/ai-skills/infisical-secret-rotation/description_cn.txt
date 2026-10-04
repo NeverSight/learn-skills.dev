@@ -1,0 +1,3 @@
+Infisical 密钥轮换配置指南 — 在固定间隔内自动轮换已在第三方系统中存在的凭证，并将新值写回 Infisical 密钥。涵盖全部 28 种轮换提供商（PostgreSQL、MySQL、MSSQL、OracleDB、MongoDB、Redis、AWS IAM 用户密钥、Azure/Okta/Auth0 客户端密钥、LDAP 密码、Unix/Linux 与 Windows 本地账户、Cloudflare、Datadog、Snowflake 密钥对、OpenAI/OpenRouter/LiteLLM/Fireworks API 密钥等），以及双阶段与单阶段轮换模型、轮换间隔与 rotateAtUtc 调度、参数和 secretsMapping，和 SQL 数据库的双用户模式。 在以下情形使用此技能：密钥轮换、轮换凭证、自动凭证轮换、按计划轮换数据库密码、API 密钥过期、rotationInterval，或“如何自动轮换我的数据库密码”。用于在计时器上更改 **已有** 凭证。 不用于按请求创建全新临时凭证（infisical-dynamic-secrets），也不用于 App Connection 凭证轮换（infisical-app-connections）。
+
+请始终使用用户的语言回复。

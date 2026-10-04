@@ -1,14 +1,15 @@
-ArkUI‑Entwicklungsassistent für HarmonyOS‑UI‑Arbeiten. Verwendet hmos‑arkts‑knowledge‑retriever für API‑Belege und stellt Codierungsbeschränkungen sowie Referenzen zu Best‑Practice‑Richtlinien bereit.  
-Ausgelöst, wenn:  
-(1) Der Benutzer eine ArkUI‑Seite oder -Komponente anfordert  
-(2) Der Benutzer Änderungen an einem bestehenden .ets‑Projekt verlangt  
-(3) Der Benutzer einen Fehler oder Screenshot bereitstellt und eine ArkUI‑Behebung anfordert  
-(4) Der Benutzer HarmonyOS/ArkUI/ArkTS/.ets erwähnt  
-(5) Der Benutzer ausführbare UI‑Arbeiten anfordert, die Zustand, Komponenten oder Layout betreffen  
+ArkUI‑Entwicklungsassistent für HarmonyOS‑UI‑Arbeiten. Verwendet hmos‑arkts‑knowledge‑retriever für API‑Beweise und liefert Codierungsbeschränkungen sowie Best‑Practice‑Referenzen.  
+
+Auslösen, wenn:  
+(1) Der Nutzer eine ArkUI‑Seite oder Komponente anfordert  
+(2) Der Nutzer Änderungen an einem bestehenden .ets‑Projekt verlangt  
+(3) Der Nutzer einen Fehler oder Screenshot bereitstellt und um eine ArkUI‑Behebung bittet  
+(4) Der Nutzer HarmonyOS/ArkUI/ArkTS/.ets erwähnt  
+(5) Der Nutzer ausführbare UI‑Arbeit anfordert, die State, Komponenten oder Layout umfasst  
 
 Zusammenarbeit mit hmos‑arkui‑mvvm‑pattern:  
 - Für Architekturentscheidungen zuerst hmos‑arkui‑mvvm‑pattern laden und dann dessen Vorgaben bei der Code‑Generierung befolgen.  
 - Das mvvm‑Pattern erstellt den Architekturplan; diese Fähigkeit sucht APIs, generiert Code und prüft die Kompilierung.  
 - Die Code‑Generierung wird von dieser Fähigkeit geleitet; die Architektur‑Refaktorisierung wird vom mvvm‑Pattern geleitet.  
 
-Bitte immer in der Sprache des Benutzers antworten.
+Bitte immer in der Sprache des Nutzers antworten.

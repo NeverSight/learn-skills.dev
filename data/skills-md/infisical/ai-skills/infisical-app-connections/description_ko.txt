@@ -1,0 +1,3 @@
+Infisical 앱 연결 생성 및 관리 가이드 — Infisical과 타사 서비스 간에 재사용 가능한 인증된 링크로, 비밀 동기화, 비밀 회전, PKI 인증서 발급기관, PKI 동기화, 비밀 스캔 데이터 소스가 모두 의존합니다. 총 83가지 연결 유형과 정확한 인증 방법(AWS assume‑role vs access‑key, GitHub OAuth vs GitHub App vs PAT, Azure OAuth vs client‑secret vs certificate, GCP 서비스 계정 위임 등), 플랫폼 관리 자격 증명, 프라이빗 네트워크용 Gateway 라우팅 연결, 연결 수준 자격 증명 회전을 모두 다룹니다. 다음과 같은 질문이 있을 때 이 스킬을 사용하세요: 앱 연결, Infisical을 AWS/GCP/Azure/GitHub에 연결, 동기화 생성 시 ‘연결을 찾을 수 없습니다’ 오류, 연결에 필요한 인증 방법, 동기화 간 연결 재사용, 혹은 ‘Infisical을 타사 서비스에 어떻게 인증하나요’ 등. 이는 Infisical이 외부(타사)로 인증하는 경우이며, 워크로드가 Infisical에 인증되는 기계 정체성(​infisical-setup​)에는 해당되지 않습니다. 
+
+항상 사용자의 언어로 답변하십시오.

@@ -1,0 +1,1 @@
+管理產品功能規格——功能清單、互動邏輯以及類似 Flyway 的版本化新增與變更記錄——產生可直接餵入 AI 設計工具（如 Claude Design、v0、Figma Make、Lovable 等）的規格檔案。這些規格放置於 products/specs/<產品線>/ 目錄下，使用 V‑chain（V1__baseline、V2__xxx）紀錄演進；合成的 CURRENT.md 為餵入設計工具的唯一入口。當使用者說「建立產品功能規格」、「撰寫功能規格」、「記錄此產品變更」、「產生設計工具用的規格」、「同步 CURRENT.md」、「product‑spec」時，或在為新產品線初始化規格或規格與實作漂移需要驗證時，皆會使用它。

@@ -1,0 +1,3 @@
+音声で言われた内容を文字起こしだけでなく分析してください。タスクで「audio intelligence」「sentiment」「sentiment analysis」「summarize a recording」「summarization」「topics」「topic detection」「intents」「intent recognition」「entity detection」「detect entities」「extract names and amounts from a call」「analyze a call recording」のいずれかが言及されている場合に使用します。これらは、別個の API ではなく、speech-to-text エンドポイント /v1/listen に重ね合わせた 5 つのクエリパラメータ（summarize、sentiment、topics、intents、detect_entities）です。録音のみかつ英語のみの制限、各結果が JSON に格納されること、制限を超えたときに発生するエラーを網羅しています。API、ドキュメント、レシピ、スターター、言語別 SDK のスキルへのルーティングを提供します。
+
+常にユーザーの言語で回答してください。

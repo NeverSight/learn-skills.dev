@@ -1,14 +1,14 @@
-Assistant de développement ArkUI pour le travail d'interface utilisateur HarmonyOS. Utilise hmos-arkts-knowledge-retriever pour fournir des preuves d'API et offre des contraintes de codage ainsi que des références de meilleures pratiques.  
+Assistant de développement ArkUI pour le travail d'interface utilisateur HarmonyOS. Utilise hmos-arkts-knowledge-retriever pour fournir des preuves d'API et propose des contraintes de codage ainsi que des références de bonnes pratiques.  
 Déclencher lorsque :  
 (1) L'utilisateur demande une page ou un composant ArkUI  
 (2) L'utilisateur demande des modifications d'un projet .ets existant  
 (3) L'utilisateur fournit une erreur ou une capture d'écran et demande une correction ArkUI  
 (4) L'utilisateur mentionne HarmonyOS/ArkUI/ArkTS/.ets  
-(5) L'utilisateur demande un travail UI exécutable impliquant l'état, les composants ou la mise en page  
+(5) L'utilisateur demande un travail UI exécutable impliquant état, composants ou mise en page  
 
 Collaboration avec hmos-arkui-mvvm-pattern :  
-- Pour les décisions d'architecture, chargez d'abord hmos-arkui-mvvm-pattern, puis suivez ses directives lors de la génération du code.  
-- Le mvvm-pattern produit le plan d'architecture ; cette compétence recherche les API, génère le code et vérifie la compilation.  
-- La génération du code est dirigée par cette compétence ; le refactoring d'architecture est dirigé par mvvm-pattern.  
+- Pour les décisions d'architecture, charger d'abord hmos-arkui-mvvm-pattern, puis suivre ses directives lors de la génération de code.  
+- mvvm-pattern produit le plan d'architecture ; cette compétence recherche les API, génère le code et vérifie la compilation.  
+- La génération de code est dirigée par cette compétence ; le refactoring d'architecture est dirigé par mvvm-pattern.  
 
 Veuillez toujours répondre dans la langue de l'utilisateur.

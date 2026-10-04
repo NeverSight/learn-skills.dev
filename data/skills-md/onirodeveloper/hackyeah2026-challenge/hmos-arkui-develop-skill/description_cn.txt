@@ -1,0 +1,15 @@
+ArkUI 开发助手，用于 HarmonyOS UI 工作。使用 hmos-arkts-knowledge-retriever 获取 API 证据，并提供编码约束和最佳实践参考。
+
+触发条件：
+(1) 用户请求 ArkUI 页面或组件  
+(2) 用户请求修改现有 .ets 项目  
+(3) 用户提供错误或截图并请求 ArkUI 修复  
+(4) 用户提到 HarmonyOS/ArkUI/ArkTS/.ets  
+(5) 用户请求涉及状态、组件或布局的可运行 UI 工作  
+
+与 hmos-arkui-mvvm-pattern 的协作：
+- 对于架构决策，先加载 hmos-arkui-mvvm-pattern，然后在代码生成过程中遵循其指导。  
+- mvvm-pattern 生成架构方案；此技能搜索 API、生成代码并验证编译。  
+- 代码生成由此技能主导，架构重构由 mvvm-pattern 主导。  
+
+请始终使用用户的语言回复。

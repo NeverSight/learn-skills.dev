@@ -1,0 +1,14 @@
+HarmonyOS UI 작업을 위한 ArkUI 개발 어시스턴트입니다. API 근거를 위해 hmos-arkts-knowledge-retriever를 사용하며 코딩 제약 조건 및 모범 사례 레퍼런스를 제공합니다.  
+트리거 조건:  
+(1) 사용자가 ArkUI 페이지 또는 컴포넌트를 요청할 때  
+(2) 사용자가 기존 .ets 프로젝트의 변경을 요청할 때  
+(3) 사용자가 오류 또는 스크린샷을 제공하고 ArkUI 수정을 요청할 때  
+(4) 사용자가 HarmonyOS/ArkUI/ArkTS/.ets를 언급할 때  
+(5) 사용자가 상태, 컴포넌트 또는 레이아웃을 포함한 실행 가능한 UI 작업을 요청할 때  
+
+hmos-arkui-mvvm-pattern과의 협업:  
+- 아키텍처 결정을 위해 먼저 hmos-arkui-mvvm-pattern을 로드하고, 코드 생성 시 그 가이드를 따릅니다.  
+- mvvm-pattern은 아키텍처 계획을 제공하고, 이 스킬은 API 검색, 코드 생성 및 컴파일 검증을 수행합니다.  
+- 코드 생성은 이 스킬이 주도하고, 아키텍처 리팩터링은 mvvm-pattern이 주도합니다.  
+
+항상 사용자의 언어로 답변하십시오.

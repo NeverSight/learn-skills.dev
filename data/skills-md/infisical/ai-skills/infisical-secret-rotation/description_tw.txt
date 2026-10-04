@@ -1,0 +1,3 @@
+Infisical 秘密輪換設定指南 — 在固定間隔內自動輪換已存在於第三方系統的憑證，並將新值寫回 Infisical 秘密。涵蓋全部 28 種輪換提供者（PostgreSQL、MySQL、MSSQL、OracleDB、MongoDB、Redis、AWS IAM 使用者秘密、Azure/Okta/Auth0 用戶端秘密、LDAP 密碼、Unix/Linux 與 Windows 本機帳戶、Cloudflare、Datadog、Snowflake 金鑰對、OpenAI/OpenRouter/LiteLLM/Fireworks API 金鑰等），雙階段與單階段輪換模式、輪換間隔與 rotateAtUtc 排程、參數與 secretsMapping，以及 SQL 資料庫的雙使用者模式。當有人詢問以下內容時請使用此技能：秘密輪換、憑證輪換、自動憑證輪換、按排程輪換資料庫密碼、API 金鑰到期、rotationInterval，或「如何自動輪換我的資料庫密碼」。用於在計時器上更改**已存在**的憑證。不適用於根據請求建立全新短暫憑證（infisical-dynamic-secrets），也不適用於 App Connection 憑證輪換（infisical-app-connections）。
+
+請始終使用使用者的語言回覆。

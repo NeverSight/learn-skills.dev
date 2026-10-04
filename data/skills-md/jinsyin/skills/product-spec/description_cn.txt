@@ -1,0 +1,1 @@
+管理产品功能规格——功能列表、交互逻辑以及类似 Flyway 的版本化增补和变更记录——生成可直接提供给 AI 设计工具（如 Claude Design、v0、Figma Make、Lovable 等）的规格文件。规格文件存放在 products/specs/<product line>/ 目录下，使用 V‑链（V1__baseline、V2__xxx）记录演进；合成的 CURRENT.md 是喂入设计工具的唯一入口。当用户说“创建产品功能规格”“编写功能规格”“记录此产品变更”“生成供设计工具使用的规格”“同步 CURRENT.md”“product‑spec”等指令时，以及在为新产品线初始化规格或出现规格实现漂移需要验证时，都会使用它。

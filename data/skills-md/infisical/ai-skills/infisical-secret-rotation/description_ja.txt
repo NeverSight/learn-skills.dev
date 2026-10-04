@@ -1,0 +1,3 @@
+Infisical シークレットローテーションの設定ガイド — 既存のサードパーティシステムの認証情報を固定間隔で自動的にローテーションし、新しい値を Infisical シークレットに書き戻す。全 28 のローテーションプロバイダー（PostgreSQL、MySQL、MSSQL、OracleDB、MongoDB、Redis、AWS IAM ユーザーシークレット、Azure/Okta/Auth0 クライアントシークレット、LDAP パスワード、Unix/Linux および Windows ローカルアカウント、Cloudflare、Datadog、Snowflake キーペア、OpenAI/OpenRouter/LiteLLM/Fireworks API キーなど）を網羅し、デュアルフェーズとシングルフェーズのローテーションモデル、ローテーション間隔と rotateAtUtc スケジューリング、パラメータと secretsMapping、SQL データベース向けの二ユーザーパターンについて解説する。次のような質問があったときにこのスキルを使用する：シークレットローテーション、認証情報のローテーション、自動認証情報ローテーション、スケジュールに基づくデータベースパスワードのローテーション、API キーの有効期限切れ、rotationInterval、または「データベースパスワードを自動的にローテーションするにはどうすればいいか」。既存の認証情報をタイマーで変更するためのもの。リクエストごとに新しいエフェメラル認証情報を作成する（infisical-dynamic-secrets）や、アプリ接続認証情報ローテーション（infisical-app-connections）には使用しない。
+
+常にユーザーの言語で回答してください。

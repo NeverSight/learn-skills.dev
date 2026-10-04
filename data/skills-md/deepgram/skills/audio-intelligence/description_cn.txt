@@ -1,0 +1,3 @@
+分析音频中所说的内容，而不仅仅是转录它。当任务提到“audio intelligence”（音频智能）、“sentiment”（情感）、“sentiment analysis”（情感分析）、“summarize a recording”（对录音进行摘要）、“summarization”（摘要）、“topics”（主题）、“topic detection”（主题检测）、“intents”（意图）、“intent recognition”（意图识别）、“entity detection”（实体检测）、“detect entities”（检测实体）、“extract names and amounts from a call”（从通话中提取姓名和金额），或“analyze a call recording”（分析通话录音）时使用。这些是叠加在语音转文本端点 /v1/listen 上的五个查询参数（summarize、sentiment、topics、intents、detect_entities），而不是单独的 API。涉及仅限预录音和仅限英语的限制，每个结果都位于 JSON 中，以及超出限制时会出现的错误。提供指向 API、文档、示例、入门项目以及各语言 SDK 功能的路径。
+
+请始终使用用户的语言回复。
