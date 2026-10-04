@@ -1,0 +1,219 @@
+---
+name: ffmpeg-skill
+description: 'Edit video and audio with local FFmpeg from natural-language requests: cut, trim, join, resize/reframe (9:16, 1:1), speed change, captions and subtitles (SRT/ASS, animated, karaoke), logos and text overlays, lower-thirds and titles, silence removal, multicam and external-mic sync, loudness normalisation, HDR/Dolby Vision to SDR, LUTs, background music with ducking, platform exports (YouTube, Reels, TikTok, X), compliance checks, scene detection and highlight reels, contact sheets to inspect results, and whole-edit project files. Use this skill whenever the user mentions a video or audio file (mp4, mov, mkv, wav, m4a), footage, a clip, captions, subtitles, a reel or short, YouTube/Instagram/TikTok delivery, LUFS, sync, transcoding, ffmpeg, or asks to make something "60 seconds", "vertical", "louder", "captioned" — even when they do not say "edit". Python 3.9 standard library only, no cloud, no API keys.'
+---
+
+# ffmpeg-skill
+
+Scripts live in `scripts/` next to this file; run them with `python3 <skill-dir>/scripts/<name>.py`, and delivery templates in `templates/`. This file is enough to do a job: the table below routes the request, and `--help` on the script about to run is the cheapest full flag list. A reference file costs as much as this one; open one only for a question you have: `references/scripts.md` (every flag of all 42 scripts), `references/devices.md` (iPhone HDR, GoPro, DJI, screen recordings, Zoom), `references/gotchas.md` (the long form of the one-line rules at the end). MCP: `tools/list` shows only the core 12 by default; the other 30 (per this table) stay callable by name via `tools/call`, described by `contract --json`; set `FFMPEG_SKILL_MCP_FULL=1` for all 42.
+
+Shared flags, on every script: `--dry-run`; `--json` (output path, a probe of the output, the commands run); `--json-brief` (status/output/verified plus a `summary`; prefer on writing steps); `--fast` (preview quality); `--progress`; `--timeout SECONDS` (`kind: timeout`, default 1800); `--overwrite` (step 7); `--plan FILE` (the dry run as a plan `render.py FILE` runs later; refuses if an input changed). Re-encoding tools also take `--codec h264|hevc|av1|prores` and `--quality N`: unset, SDR is x264, HDR is x265 Main10; `prores` needs `-o NAME.mov`, `h264` refuses HDR (`color.py --to-sdr` first).
+
+Writing tools run nothing under `--dry-run`; the measuring tools (`probe`, `check`, `sync`, `multicam`, `scenes`, `cropdetect`, `report`, `silence`, `loudness`, `stabilize`) may still run ffmpeg/ffprobe, skipping artifacts/side files (`--edl`, `--sheet`, a generated `.ass`); `verify` ignores the flag. Per tool: `contract --json` `dry_run`.
+
+## Workflow (in this order)
+
+0. **Environment, only on failure.** Never start a job with `doctor`: a broken machine fails with `kind: missing_tool` or an ffmpeg error naming the filter/encoder. Run `python3 <skill-dir>/scripts/_contract.py doctor` (or `npx ffmpeg-skill doctor`) after such a failure, or when asked what the machine can do: read `ok`/`usable`, report the missing capability. `contract --json`'s tool schema is for a *planning* agent, not this workflow.
+1. **Probe what you must plan from.** Run `probe.py` on each input you plan from — duration, fps, resolution, codecs, channels, `variable_frame_rate_suspected` — and whenever the user asks about a file. No separate probe before every edit: every writing tool's `--json` already carries its input and a probe of the output. Plan from real numbers, never assumptions.
+2. **Prefer lossless.** If the request can be met without re-encoding (plain cuts on keyframes, remuxing, audio-only changes), do not re-encode. `cut.py` and `loudness.py` stream-copy video by default; `--accurate` on `cut.py` only for frame-exact cuts.
+3. **Plan with `--dry-run --json`, then execute.** Trust `--json`, not a dry run's summary line, for any number in the plan (a dimension there can be a placeholder). Use before long encodes, to report facts. `--fast` is preview quality, `--progress` prints percent/ETA on stderr. Never point `-o` at a file you did not create in this job unless the user asked for it to be replaced; pass `--overwrite` only then.
+4. **Chain in a sensible order.** A delivery request with no other editing is one template run (`render.py --template NAME INPUT`), not a hand-built chain. Otherwise: colour (HDR→SDR / LUT) → cut → join → silence → fit → caption/overlay → sync → audio → loudness → export. Frame changes before captions, so text is sized for the final frame. Re-encode as few times as possible: intermediates at CRF 18, `export.py` last. **Three or more steps: `render.py` with a project.json.**
+5. **Check the deliverable.** Before reporting, run `check.py OUTPUT --platform X` for the destination named (a template run already does). Format rows (codec, pixel format, size, true peak, colour tags, VFR) are safe to fix. Judgement rows change content: duration (cut loses material), aspect (crop loses edges), fps (drops motion), loudness (ambience must not be boosted) — fix only when the request implies the answer, else state the choice and its cost. Mention WARNs; do not chase them.
+6. **Verify the output.** Confirm duration, resolution, fps and audio match the request, from the writing tool's `--json`/`--json-brief` probe or `probe.py`, and report those numbers ("final.mp4: 59.98 s, 1080x1920, 30 fps, AAC stereo"). A step is done only when the script exited 0 and the output probes as expected: a non-zero exit, a missing or empty file, or a probe that contradicts the request is a failure reported with the script's error message.
+7. **Keep the user's originals.** Never overwrite the source; write new files next to input or where asked. An existing output path is refused (`kind: input`); `--overwrite` is the one way to say "yes, replace it".
+8. **Look at the picture.** Whenever the picture changed (captions, overlays, graphics, crop/pad, resize, colour, transitions, a `join.py` scaling a clip to the first clip's frame, `color.py --to-sdr`) run `look.py OUTPUT --tiles 3x2` (or `--at T` for one frame) and view the PNG (4x3 for whole-clip layout). Not finished until `Look:` names that PNG — a probe cannot see a caption on a face. Audio-only: `Look: not needed`. What to look for splits like `check.py`'s rows in step 5:
+   - **Mechanical (this skill's own job to verify and report):** the specified text/logo is at the specified position, subtitles appear at the specified timestamps, dimensions are even. Letterboxing from `fit.py --fit pad` is the *correct* result of that mode, never a defect to flag.
+   - **Judgement (report it, don't silently pass or fail):** whether a subject or face is cut off, text sits over a face, colours look washed out, a transition lands. These need deciding what the subject *is*, the calling agent's call — say what you see in one line; they judge.
+   With no vision capability, write `Look: PATH (pixels not inspected; agent has no image view)` — never claim a picture was inspected when it wasn't, without stalling for a capability that isn't there.
+
+## Before you run anything: what to ask, what to assume
+
+Ask a short question only when the answer changes the output materially and the request does not imply it. When several things are open at once (a vague "make it for social media" leaves destination, aspect, length and captions open), don't ask one per turn: propose one bundle with your defaults and let the user change any part ("Reels: 9:16 padded, 60 s, -14 LUFS, no captions — OK?"). One question, one answer, then the run. Never ask for what `probe.py` can tell you.
+
+- **Destination** decides aspect, length limit, loudness and codec; "for Reels" answers all four and names a template. No destination and a plain cut/caption: keep the source format and say so. If the user says "export", "post" or "deliver", ask where.
+- **Duration** ("make it 60 s") without a method: speed up for ≤1.5× changes, trim otherwise, say which. Ask when the content is a talk (trimming loses words) and the change is large.
+- **Captions** without a text source: `--transcribe` if a local whisper exists, else ask for the text or a timed file; never invent dialogue.
+- **Fonts and brand**: if the user mentions a brand, colours or "our font", ask for or create `brand.json` once, reuse it.
+- **CJK / non-Latin text**: let the tool pick the font by script (`--font` turns it off); `--lang ja|ko` for Han-only text. `doctor --json` `.fonts.scripts` says what renders here. Tofu is a failed job.
+- **Crop position** for `--fit crop`: centre by default, but when the request or the source names an off-centre subject ("keep the product on the right", someone visibly off-centre in the sheet) use `--crop-x`/`--crop-y` (0=left/top, 1=right/bottom) instead of guessing centre, or ask which edge to keep.
+- Anything else (transition type, caption style): pick the conventional default, say what you picked, offer the alternative in one line.
+
+## What this skill does and does not decide
+
+This skill cuts, joins, measures, syncs, exports and checks files — it executes an edit, it does not decide one. What belongs to the human, the calling agent or another skill:
+
+- **Which cut is right, or whether a deliverable is approvable** — this skill measures and reports (`check.py`'s PASS/WARN/FAIL, `cut.py`'s duration error); the user or production agent decides whether that ships.
+- **What makes a highlight interesting** — `scenes.py --highlights` ranks by a measured proxy (audio energy, duration): candidates, not a verdict.
+- **Thumbnail or cover composition** — a design decision, not measurement.
+- **Understanding what a video is *about*** — there is no vision here beyond `look.py`'s contact sheets, for the calling agent's eyes, not for this skill to interpret.
+- **Judging what looks good** — "apply this LUT", "correct exposure by +0.3 stops" (`color.py`) is mechanical; "grade this scene to look cinematic" belongs to a colour-grading skill ([`color-grading-skill`](https://github.com/kajisho5/color-grading-skill)) that decides the parameters, then calls `color.py`.
+- **The words in a caption** — cue text is burned as written. Too long for the frame means a smaller size, `--max-lines`, or the user's own edit; never rewrite, shorten or paraphrase it, even when asked to "make it fit" — say so, offer `--max-lines 1` at a smaller size.
+- **Picking a subject or region you were not given** — "crop to x=200,y=0" is mechanical once the box is known; "crop to keep the speaker in frame" needs deciding *what* the speaker is, a judgement for the calling agent (from a `look.py` sheet).
+
+The line: same input + same explicit parameters always producing the same verifiable output belongs here; anything depending on taste, understanding or what looks or sounds good belongs to whoever makes that judgement.
+
+If a request needs an FFmpeg feature none of the 42 scripts expose, say so and name the closest built-in option — never guess a raw `ffmpeg`/`ffprobe` invocation outside `scripts/*.py`. It bypasses every guarantee this skill makes, so never a fallback when a script's flag doesn't cover something.
+
+## Request → script
+
+This table and `doctor --json`'s `tools` list are the source of truth for what exists: name only a script you have seen in one of them (there is no `doctor.py`, no `trim.py`, no `subtitle.py`).
+
+Timestamp flags (`--start`, `--end`, `--at`, `--from`, `--duration`, `--offset`, and the times in cue and chapter files) take seconds, `mm:ss(.fff)`, `hh:mm:ss(.fff)` or SMPTE `hh:mm:ss:ff` with `@fps` (`00:01:02:15@29.97`) — paste an NLE cue sheet as-is; length flags (`--min-silence`, `--margin`, `--fade`) are plain seconds.
+
+| User says | Do |
+|-----------|----|
+| "cut from 1:20 to 2:05", "trim the first 10 s" | `cut.py input.mp4 --start 1:20 --end 2:05` |
+| "keep only these parts", "remove the middle" | `cut.py input.mp4 --segments 0-1:00,1:30-2:00` |
+| "make it exactly 60 seconds" | `fit.py input.mp4 --duration 60` (speed) or `--method trim` |
+| "cut this and make it HEVC / AV1 / ProRes" (output codec named) | `cut.py input.mp4 --start 0:10 --end 0:40 --codec hevc` (`--codec`/`--quality` on any re-encoding tool; ProRes needs `-o NAME.mov`) |
+| "cut out the pauses", "jump cuts" | `silence.py input.mp4 [--threshold -40 --min-silence 0.8]` |
+| "cut the ums and uhs", "remove the filler words" | `silence.py input.mp4 --filler --words words.json` (measured word timings; `--transcribe` makes them) |
+| "don't cut inside a sentence, just the real pauses" | `silence.py input.mp4 --speech-aware` — a breath under `--min-silence` inside a sentence is kept, only sentence-boundary pauses cut; composes with `--filler` into one list |
+| "a 60 s highlight from this hour" | `scenes.py long.mp4 --highlights 6 --target 60 --edl picks.txt` → `cut.py --segments` |
+| "cut on the beat", "edit it to the music" | `scenes.py track.mp4 --beats --json > beats.json`, then `cut.py input.mp4 --segments ... --snap beats --snap-source beats.json` (`--snap-source` carries the measured grid over) |
+| "speed up here, slow-mo there" (known segments) | `speedramp.py action.mp4 --segment 0-3:1.0 --segment 3-4:0.25 --segment 4-8:2.0` |
+| "hold on this frame", "freeze the last frame" | `freeze.py clip.mp4 --hold 2` |
+| "smooth slow motion", "half speed but fluid" | `fit.py input.mp4 --duration 2x --smooth interpolate` (slow) or `--smooth blend` |
+| "reverse this clip" | `reverse.py input.mp4` |
+| "loop this clip to fill 30 seconds" | `loop.py bg_loop.mp4 --duration 30` |
+| "make it vertical / 9:16 / square" | `fit.py input.mp4 --aspect 9:16 --fit pad` (or `--fit crop`; `--pad-fill blur` for blurred bars) |
+| "resize to a height/width" | `fit.py input.mp4 --height 1080` (or `--width`, or both for an exact frame) |
+| "crop to this exact box" (known x/y/w/h) | `crop.py input.mp4 --x 100 --y 0 --width 1080 --height 1920` |
+| "blurred background instead of black bars" | `fit.py input.mp4 --aspect 9:16 --fit blur` (whole picture kept, borders a blurred, darkened copy) |
+| "rotate 90 degrees", "mirror it" | `fit.py input.mp4 --rotate 90` / `fit.py input.mp4 --flip h` |
+| "the horizon is tilted" (known degrees) | `straighten.py tilted.mp4 --degrees -2.5` |
+| "flat view out of this 360 video" (known yaw/pitch/fov) | `sphere.py insta360.mp4 --yaw 90 --pitch 0 --h-fov 100 --v-fov 70` |
+| "this old footage is interlaced" | `deinterlace.py input.mp4` |
+| "it's grainy/noisy, clean it up" | `denoise.py input.mp4 --strength medium` |
+| "blur/pixelate this face/plate" (known box) | `redact.py input.mp4 --x 820 --y 140 --width 240 --height 240 --mode pixelate` |
+| "stabilize this shaky footage" | `stabilize.py input.mp4` |
+| "are there black bars on this?" | `cropdetect.py input.mp4` |
+| "iPhone Dolby Vision clip looks wrong" | `color.py clip.mov --to-sdr` or `--strip-dovi` (keep HDR, drop the DV layer) |
+| "the colours look washed out / iPhone HDR" | `color.py input.mov --to-sdr` (probe shows `hdr: true`) |
+| "apply this LUT", "convert the S-Log footage" | `color.py input.mp4 --lut grade.cube [--lut-strength 0.7]` |
+| "the colours are tagged wrong" | `color.py input.mp4 --retag bt709` (stream copy; re-encodes only if the copy can't carry it — see `reencoded`) |
+| "brighten it / punch up contrast / fix white balance" | `color.py input.mp4 --correct --exposure 0.3 --contrast 1.1 --saturation 1.05 --temperature 5600 --tint -0.05` |
+| "add subtitles from this SRT", "burn in captions" | `caption.py input.mp4 --srt subs.srt` |
+| "caption it with these lines" (text with times) | `caption.py input.mp4 --text cues.txt` |
+| "keep the subtitles toggleable", "mux in an SRT" | `caption.py input.mp4 --srt subs.srt --mode mux`; repeat `--srt file:lang` for several languages, `.mkv` for more than two |
+| "the captions are tiny / three lines on a Short", "don't chop the sentence" | `caption.py` shrinks the size until the cue fits `--max-lines` before splitting it (`--fit-size off` keeps `--size` and splits instead, `--min-size` the floor). Keep the template's `--max-lines` (2 on a vertical) and let the size drop; raising it to dodge a shrink stacks two words per line. A word still wider than the column at the floor is sliced at the edge (hyphen preferred), never rewritten, automatic; `broken_inside_word` in the JSON counts it |
+| "transcribe it and caption it" | `caption.py input.mp4 --transcribe --animate pop --karaoke` (needs a local whisper; else `--text`) |
+| "TikTok-style captions with the words popping" | `caption.py input.mp4 --text cues.txt --animate pop --karaoke` |
+| "our logo top-right", "a watermark" | `overlay.py input.mp4 --image logo.png --position top-right --scale 200` |
+| "a title for the first 4 seconds" | `overlay.py input.mp4 --text "Title" --position top --start 0 --end 4 --fade 0.4` |
+| "webcam clip in the corner", "picture-in-picture" | `overlay.py input.mp4 --video webcam.mp4 --position bottom-right --scale 480` |
+| "remove the green screen" | `overlay.py bg.mp4 --video greenscreen.mp4 --chromakey 0x00ff00` |
+| "a lower third with my name", "countdown intro", "progress bar" | `graphics.py input.mp4 --template lower-third --name "..." --title "..." --start 2 --end 8` |
+| "a sticker", "a hook card for the first 3 s", "meme text" | `graphics.py input.mp4 --template sticker --text "NEW" --platform tiktok` / `--template hook --title "..." --duration 3` / `--template meme --top "..." --bottom "..."` |
+| "use our brand fonts/colours/logo" | `--brand brand.json` on caption/overlay/graphics, or `"brand"` in project.json |
+| "sync the lav mic", "line up two cameras" | `sync.py camera.mp4 mic.wav --replace-audio` / `sync.py camA.mp4 camB.mp4 --trim-second`; a third+ recorder is another positional (`sync.py ref.mp4 mic.wav cam2.mp4`), one offsets JSON |
+| "fix the audio levels", "normalise to -14 LUFS" | `loudness.py input.mp4` (`-I -16 --tp -1.5` podcast, `-I -23` broadcast; `--lra N` for the range) |
+| "clean up the audio", "remove the hiss" | `audio.py input.mp4 --voice` (speech; `--voice light\|medium\|strong`) or `--denoise` |
+| "add background music under the talking" | `audio.py input.mp4 --music bed.mp3 --duck --fade-out 3` (`--effects sfx.wav` adds a third bed, never ducked; project levels: `audio.stems`) |
+| "make the music duck harder / come back faster" | add `--duck-amount 18 --duck-threshold -30 --duck-release 250` (`--duck-attack` too) |
+| "the mix sounds narrow", "wider stereo" | `audio.py band.wav --stereo-widen 0.5` (needs a real stereo source; 5.1 needs `--downmix`) |
+| "convert the 5.1 to stereo" | `audio.py input.mov --downmix` |
+| "swap in the narration track" | `audio.py input.mp4 --replace narration.wav` |
+| "pull the audio out", "give me the sound as WAV" | `audio.py input.mp4 -o input.wav` (an audio extension drops the picture; `--audio-stream 1` picks a track) |
+| "compress the voice", "limit the peaks", "gate the room noise" | `audio.py input.mp4 --compress --comp-threshold -20 --comp-ratio 4` / `--limit --limit-ceiling -1` / `--gate --gate-threshold -45` |
+| "the audio drifts out of sync over the hour" | `sync.py camera.mp4 recorder.wav --fix-drift --replace-audio` |
+| "turn this podcast into a video", "audiogram" | `render.py --template audiogram ep.m4a --image cover.png` — waveform over a still or colour plate; nothing is fetched |
+| "make this a TikTok / Reel / Short / YouTube / X / LinkedIn / podcast" | `render.py --template tiktok\|reels\|shorts\|youtube-shorts\|youtube\|x\|linkedin\|facebook\|podcast input.mp4 [--cues cues.txt] [--title "..."]` — frame, captions, loudness, export, check in one command (`--list-templates`; `--write-project` to edit first) |
+| "post it everywhere", "one edit for every platform" | `render.py --template all input.mp4 --cues cues.txt` (or a comma list) → one file per destination plus `<name>_pack.md` (`report.py --pack` renders the HTML) |
+| "export for YouTube / Reels / X", "a ProRes master" | `export.py input.mp4 --preset youtube\|reels\|tiktok\|shorts\|linkedin\|facebook\|x\|prores\|h265` (`--normalize` hits the loudness spec in the same call; `youtube-hdr` keeps HDR, `youtube-av1` writes AV1) |
+| "make a GIF preview" | `export.py input.mp4 --preset gif` |
+| "a small proxy / cheap preview file" | `proxy.py input.mp4 [--width 640 --no-audio]` — not a delivery preset (that is `export.py`) |
+| "is this OK to upload?" | `check.py final.mp4 --platform reels` |
+| "a podcast episode with chapters" | `loudness.py ep.wav -I -16 --tp -1.5` → `metadata.py ep.m4a --chapters chapters.txt` → `check.py ep.m4a --platform podcast` (chapters and channels rows) |
+| "send me a summary of what you did" | `report.py --before raw.mov --after final.mp4 --platform youtube -o report.html` |
+| "turn this image into a clip", "title card" | `insert.py title.png --duration 3` |
+| "slow zoom on a photo", "Ken Burns" | `insert.py photo.jpg --duration 6 --zoom in --pan right --width 1920 --height 1080` |
+| "make a blank/colour background clip" | `background.py -o bg.mp4 --duration 3 --width 1920 --height 1080 --color 0x101010` |
+| "turn these numbered frames into a video" | `sequence.py --dir frames --pattern "frame_%04d.png" --fps 24` |
+| "waveform/spectrum video for this track" | `waveform.py podcast.wav -o waveform.mp4` |
+| "add black at the start" | `pad.py clip.mp4 --start 1.5` |
+| "cut to the product shot 0:12-0:16", "B-roll over this bit" | `broll.py talk.mp4 --insert product.mp4 --at 12 --end 16` (repeat `--insert/--at`; `--audio b\|mix`) |
+| "add chapters", "chapter markers for YouTube" | `metadata.py episode.mp4 --chapters chapters.txt` (`TIME TITLE` per line; streams copied; in a project: `"chapters"`). `--auto-chapters` proposes them from measured pauses/scene cuts (`Chapter N`) |
+| "set the title / artist / comment" | `metadata.py episode.mp4 --title "Episode 12" --artist "Studio"` |
+| "put these videos in a 4x2 grid" | `grid.py t1.mp4 ... t8.mp4 --cols 4 --rows 2` |
+| "stitch these clips", "add a crossfade" | `join.py a.mp4 b.mp4 c.mp4 --transition fade --duration 0.5` (TTS: `--list parts.txt`, `--on-missing skip`, `--on-silent fail`) |
+| "several changes to one edit", 3+ steps | `render.py --init project.json`, edit, `render.py project.json` |
+| "I changed one stage, don't redo the rest" | `render.py project.json --cache DIR` — identical stages reused (`--from STAGE` starts there) |
+| "open it in Premiere / Resolve / Final Cut" | `render.py project.json --export-timeline edit.fcpxml\|.edl\|.otio` — renders nothing; read `not_exported`; no project? `--write-project` |
+| "do this to every file in the folder", "use all the cores" | `batch.py FOLDER --recipe batch.json --jobs auto` (steps or a render project; cached) |
+| "three cameras, cut between them" | `multicam.py camA.mp4 camB.mp4 camC.mp4 --switch "0-20:0,20-40:1,40-60:2"` (manual) or `--switch energy` (`--min-shot`); `--edl` = cut list; editor: `--write-project p.json` → `--export-timeline` |
+| "what's in this file", "how long is it" | `probe.py input.mp4` |
+| "show me what it looks like", "are the captions readable" | `look.py output.mp4 --tiles 3x2`, then view the PNG |
+| "what would you run?", "don't render yet" | any script with `--dry-run` |
+| "which shots are static vs moving", "volume peaks per second", "is this speech or music" | `scenes.py input.mp4 --shots` (static/pan/motion per shot, measured flow) / `--audio-peaks` (dBFS list) / `--speech` (a speech-vs-music ratio, not a classification) — combine, or alone |
+| "where does the subject move, so I can crop it myself" | `cropdetect.py input.mp4 --motion-centre` — motion centroid per second, report-only; the calling agent picks the crop |
+| "does it look like Log / S-Log?" | `probe.py clip.mp4 --analyze` (`looks_like_log`) then `color.py --lut` |
+| "test the tool on my real files" | `verify.py ~/Footage --report verify.md` |
+| "show me progress", "quick preview first" | any encoding script with `--progress` and/or `--fast` |
+| "it's a phone video with variable frame rate" | nothing extra: re-encodes conform VFR to constant fps; `fit.py --fps 30` picks the rate |
+
+## Audio-only files
+
+Audio is a first-class input: `probe`, `cut`, `silence`, `loudness`, `audio`, `sync`, `check --platform podcast`, `render --template podcast` take WAV, FLAC, MP3, M4A/AAC, OGG, Opus; output extension picks the format. Scripts needing a picture (`fit`, `caption`, `overlay`, `graphics`, `color`, `export`, `scenes`, `look`) refuse audio with "input has no video stream" — don't force a video wrapper. Recipes: `references/gotchas.md#audio-only-files`.
+
+
+## Report format
+
+Reply in the language the request is written in — subtitles in another language are still reported in the request's language. Keep the labels (`Done:`, `Steps:`, `Check:`, `Look:`, `Notes:`) in English; everything else is the user's language. Never drift because the job was short or failed: even a one-line "file does not exist". A mid-conversation switch follows the user's latest message.
+
+Finish every job with this shape (numbers from `--json` or `probe.py`/`check.py`, not memory):
+
+```
+Done: final.mp4 — 59.98 s, 1080x1920, 30 fps, H.264, AAC stereo, -14.1 LUFS
+Steps: cut 0:12-1:12 (lossless) -> fit 9:16 crop -> captions (pop, karaoke) -> loudness -14 -> export reels
+Check: reels — all 12 checks pass (verified: true)
+Look: final_sheet.png (captions inside the safe area, logo top-right)
+Notes: source was VFR, conformed to 30 fps; audio was mono, made stereo
+```
+
+The same five lines for a Japanese request:
+
+```
+Done: final.mp4 — 59.98 秒、1080x1920、30 fps、H.264、AAC ステレオ、-14.1 LUFS
+Steps: 0:12-1:12 をカット（無劣化）-> 9:16 にクロップ -> 字幕（ポップ、カラオケ）-> ラウドネス -14 -> Reels 書き出し
+Check: reels — 12 項目すべて合格（verified: true）
+Look: final_sheet.png（字幕はセーフエリア内、ロゴは右上）
+Notes: 元は VFR だったので 30 fps に揃えた。音声はモノラルだったのでステレオにした
+```
+
+Keep it to those five lines plus anything the user must decide. Never report success without the output probe; never describe a fix you did not run.
+
+When a step fails, replace `Done:` with `Failed:` and keep the rest honest:
+
+```
+Failed: color.py --lut grade.cube exited 1 — ffmpeg: "Unable to parse LUT file" (the .cube is not a valid LUT)
+Steps: probe -> color (failed); nothing written
+Check: nothing to verify
+Look: not needed
+Notes: send a valid .cube, or say if you want the clip left as is
+```
+
+Those filler lines are sentences, not labels: the same report for a Japanese request ends
+`Check: 検証するものなし` / `Look: 不要`.
+
+A refusal uses the same shape: `Failed:` names what was refused and why, `Steps:` lists what did run, `Look: not needed`. The shortest failure gets all five labels, never headings. A partial result is `Done:` with the shortfall in `Notes:`; a refusal that still delivers something is `Failed:` — never a third label like `Done (partially):`. Quote a failure's `error.hint` in `Notes:` — the flag change a retry needs.
+
+Every script prints `{"status": "failed", "error": {"kind": input | ffmpeg | output | missing_tool | timeout | verification | interrupted, "message": ...}}` with `--json` and exits non-zero; quote the message, never paraphrase it.
+
+## Things that look right but are wrong
+
+One line each; open the linked `references/gotchas.md` section when the job is in that area.
+
+- HDR (iPhone, HDR10) re-encoded through an SDR path goes flat; the scripts keep HDR; `hdr: true` is a real PQ/HLG/DV signal, `bt2020_or_hdr: true` also BT.2020 SDR. -> [#hdr-and-colour](references/gotchas.md#hdr-and-colour)
+- Log footage (S-Log/V-Log/C-Log) is tagged SDR and looks grey: `probe.py --analyze`, then `color.py --lut` first. -> [#log-footage](references/gotchas.md#log-footage)
+- A `-c copy` cut can start on a wrong or frozen frame; `cut.py` re-encodes past a 0.5 s snap, respect it. -> [#keyframe-cuts](references/gotchas.md#keyframe-cuts)
+- VFR phone/screen recordings: re-encodes conform to CFR, `cut.py` switches to `--accurate`; pick the rate with `fit.py --fps` when odd. -> [#variable-frame-rate](references/gotchas.md#variable-frame-rate)
+- Sync/multicam `confidence` under 0.3 (or a huge offset) is suspect — check every camera; these align audio, never lip sync. -> [#sync-multicam-and-drift](references/gotchas.md#sync-multicam-and-drift)
+- "Normalised" audio can still clip (check true peak); ambience at -40 LUFS or below must never be raised to a speech target. -> [#loudness-and-ambience](references/gotchas.md#loudness-and-ambience)
+- Captions burned before a crop/resize land off-frame; burned small then upscaled by `export.py` come out soft. -> [#captions-fonts-and-text-order](references/gotchas.md#captions-fonts-and-text-order)
+- Emoji need `--emoji-assets DIR` (a PNG per glyph) to render in colour; without it they come out monochrome, reported. -> [#emoji](references/gotchas.md#emoji)
+- Non-Latin text picks a font by script (`graphics.py` shapes Devanagari, Bengali, Tamil, Thai via libass; drawtext cannot); no font = failed job. -> [#fonts-by-script](references/gotchas.md#fonts-by-script)
+- `--fit crop` 16:9→9:16 throws away 70% of the width; "60 seconds" by speed or by trim are different answers — say which and why. -> [#reframing-fps-and-duration](references/gotchas.md#reframing-fps-and-duration)
+- TikTok/Reels cover the bottom fifth and right column with their own UI — templates keep text out of those zones; `look.py --safe tiktok` shows them. -> [#platform-safe-zones](references/gotchas.md#platform-safe-zones)
+- `scenes.py --highlights` ranks by loudness (or duration), never by meaning: check the sheet before trusting picks. -> [#highlights](references/gotchas.md#highlights)
+- Re-encodes use x264 `medium`; chain 3+ in one `render.py` project. -> [#chaining-and-speed](references/gotchas.md#chaining-and-speed)

@@ -1,0 +1,12 @@
+Drive the pollo-cli to generate images and videos through the Pollo
+platform open API — discover a model, read its input fields, submit a
+generation with local or hosted image inputs, and poll it to a finished
+URL. Use this
+whenever the user asks to generate/create/make an image or video, animate a
+photo, do image-to-video / text-to-video / reference-to-video, check Pollo
+credit balance or estimate the credit cost of a generation, or asks what
+Pollo models are available — trigger even if they don't name "pollo-cli" or
+"pollo" explicitly, e.g. "turn this photo into a video" or "how many
+credits do I have left". NOT for building the platform API itself
+(server-side model exposure — use the expose-platform-model-api skill) or
+wiring a model into the web frontend (use the add-model skill).
