@@ -1,0 +1,7 @@
+Leitfaden zur Konfiguration der Infisical‑Geheimnisrotation — automatisches Rotieren von Anmeldeinformationen, die bereits in einem Drittanbietersystem existieren, in festen Intervallen, wobei die neuen Werte zurück in Infisical‑Geheimnisse geschrieben werden.
+
+Behandelt alle 28 Rotationsanbieter (PostgreSQL, MySQL, MSSQL, OracleDB, MongoDB, Redis, AWS IAM‑Benutzergeheimnisse, Azure/Okta/Auth0‑Client‑Geheimnisse, LDAP‑Passwörter, Unix/Linux‑ und Windows‑Lokalkonten, Cloudflare, Datadog, Snowflake‑Schlüsselpaar, OpenAI/OpenRouter/LiteLLM/Fireworks‑API‑Schlüssel und weitere), die Dual‑Phase‑ versus Single‑Phase‑Rotationsmodelle, Rotationsintervalle und die rotateAtUtc‑Planung, Parameter und secretsMapping sowie das Zwei‑Benutzer‑Muster für SQL‑Datenbanken.
+
+Verwende diese Fähigkeit, wenn jemand nach folgenden Themen fragt: Geheimnisrotation, Rotieren von Anmeldeinformationen, automatische Anmeldeinformationsrotation, das Rotieren eines Datenbank‑Passworts nach einem Zeitplan, ablaufende API‑Schlüssel, rotationInterval oder „wie rotate ich mein Datenbank‑Passwort automatisch“. Für das Ändern einer BESTEHENDEN Anmeldeinformation nach einem Timer. Nicht für das Erstellen brandneuer kurzlebiger Anmeldeinformationen pro Anfrage (infisical‑dynamic‑secrets) und nicht für die Rotation von App‑Verbindungs‑Anmeldeinformationen (infisical‑app‑connections).
+
+Bitte antworte stets in der Sprache des Benutzers.
