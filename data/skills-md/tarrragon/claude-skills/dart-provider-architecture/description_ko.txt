@@ -1,0 +1,7 @@
+Riverpod Provider 아키텍처 설계 사양 — 의존성 주입, 인터페이스 분리, 필수 와이어링 프로바이더 및 와이어링 테스트 페어링 규칙, 테스트 타당성.  
+
+사용 용도: (1) 새로운 ViewModel/Notifier 클래스를 설계할 때, (2) Provider 의존성 주입 및 앱 루트 와이어링이 올바른지 검토할 때, (3) UnimplementedError를 발생시키는 필수 프로바이더를 선언할 때 와이어링 테스트를 페어링할 때, (4) 테스트에서 ProviderScope.overrides를 설정할 때, (5) ref.read/watch의 오용이나 ProviderException이 예외를 발생시킬 때 감지할 때.  
+
+사용 시점: 코드에 Riverpod Provider, Notifier, ViewModel, DI 와이어링, 오버라이드 설계가 포함되어 있거나 앱 실행 시 프로바이더 오류 화면이 표시될 때.  
+
+항상 사용자의 언어로 답변해주세요.

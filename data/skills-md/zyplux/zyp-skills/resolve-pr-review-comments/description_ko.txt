@@ -1,0 +1,1 @@
+번들로 제공되는 실시간 상태 스크립트를 사용하여 `ci`, `copilot-pull-request-reviewer` 및 `copilot-review-complete` 를 반복합니다. 실행 가능한 오류를 수정하고, 해결되지 않은 모든 Copilot 스레드를 해결하고, 검토를 다시 트리거하고, 세 가지가 모두 녹색이거나 하나가 루프를 종료할 때까지 반복합니다. 명시적/resolve-pr-review-comments 호출을 통해서만 실행되며 자연어 요청에서 트리거되지 않습니다.

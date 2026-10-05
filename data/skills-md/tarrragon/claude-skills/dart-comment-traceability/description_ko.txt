@@ -1,0 +1,1 @@
+Dart 이벤트 핸들러 함수와 UseCase/Domain 계층 어노테이션 추적성 품질 검사. 사용 목적: (1) Write/Edit 후 자동으로 이벤트 핸들러 함수와 추적 어노테이션이 누락된 독립 위젯을 스캔, (2) 권장 어노테이션 템플릿을 포함한 품질 보고서 생성, (3) 주로 Dart를 위한 다국어 어노테이션 검사를 지원하고 JavaScript/TypeScript를 보조적으로 지원. 트리거 시나리오: PostToolUse Hook (matcher: Write|Edit), 이벤트 기반 아키텍처 하의 코드 리뷰.
