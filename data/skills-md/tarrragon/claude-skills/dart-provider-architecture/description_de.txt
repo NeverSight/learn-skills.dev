@@ -1,0 +1,7 @@
+Riverpod Provider-Architektur‑Designrichtlinien — Dependency Injection, Interface Segregation, verpflichtende Wiring‑Provider‑ und Wiring‑Test‑Paarungsregeln, Testmachbarkeit.
+
+Verwendung für: (1) Entwerfen neuer ViewModel/Notifier‑Klassen, (2) Überprüfen, ob die Provider‑Dependency‑Injection und die App‑Root‑Verkabelung korrekt sind, (3) Zuordnen eines Wiring‑Tests, wenn ein Provider deklariert wird, der mit `throw UnimplementedError` verkabelt sein muss, (4) Konfigurieren von `ProviderScope.overrides` in Tests, (5) Erkennen falscher Nutzung von `ref.read`/`watch` oder wenn eine `ProviderException` eine Ausnahme auslöst.
+
+Anwenden, wenn: der Code Riverpod‑Provider, Notifier, ViewModel, DI‑Verkabelung, Override‑Design enthält oder die App mit einem Provider‑Error‑Screen startet.
+
+Bitte immer in der Sprache des Benutzers antworten.

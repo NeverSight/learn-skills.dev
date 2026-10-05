@@ -1,0 +1,10 @@
+Führen Sie einen Codependix-Dependency‑Graph‑Export oder Boundary‑Check aus, wählen Sie zwischen --check boundaries, --check reports und --write, richten Sie den Lauf auf ein Workspace‑Root oder eine Konfigurationsdatei aus oder lesen Sie einen erzeugten Mermaid‑Block bzw. das JSON‑Diagramm. Verwenden Sie es, wenn Sie
+
+* Codependix oder npx codependix ausführen,
+* ein Lauf mit Rückgabecode 0 endet, ohne etwas geschrieben zu haben,
+* --check abgelehnt wird, weil kein Wert übergeben wurde,
+* nach einem Schalter suchen, der einen Diagrammtyp auswählt,
+* Codependix in einen CI‑Schritt einbinden,
+* ein exportiertes Nx‑Neighborhood, NestJS‑Modul‑Diagramm oder ein dateibasierter Import‑Graph gelesen werden soll.
+
+Es adressiert den Befehlszeilen‑Host direkt, ohne einen Task‑Runner vorauszusetzen.
