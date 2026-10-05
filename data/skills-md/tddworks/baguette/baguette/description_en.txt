@@ -1,0 +1,13 @@
+Drive iOS simulators programmatically via the `baguette` CLI — taps, swipes,
+multi-finger gestures, hardware buttons (Home / Lock / Volume / Action /
+Power), ASCII keyboard text, and frame capture, all without opening Xcode.
+Use when: (1) an agent needs to drive a booted iOS simulator from a script —
+tap a coordinate, swipe, type text; (2) building a smoke test, demo, or
+end-to-end UI flow on a simulator; (3) pairing iOS dev with Claude Code to
+verify on-screen state after a code change; (4) the user asks to "automate
+iPhone gestures", "control iOS sim programmatically", or "drive simulator
+without Xcode"; (5) the user names `baguette`, `baguette input`,
+`baguette tap`, `baguette serve`, or `baguette stream`; (6) a SwiftUI
+verification needs to touch the running app, not just inspect static code.
+Avoid for plain "open the iOS Simulator" / "install Xcode" questions — those
+are about Xcode itself, not driving a sim.

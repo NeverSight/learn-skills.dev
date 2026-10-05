@@ -1,0 +1,1 @@
+Dart 事件處理函式與 UseCase/Domain 層的註解追溯品質檢查。用於：(1) Write/Edit 後自動掃描缺少追溯註解的事件處理函式與獨立 Widget，(2) 產出含建議註解範本的品質報告，(3) 支援 Dart 為主、JavaScript/TypeScript 為輔的多語言註解檢查。觸發場景：PostToolUse Hook（matcher: Write|Edit），事件驅動架構下的程式碼審查。
