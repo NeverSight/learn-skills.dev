@@ -1,0 +1,17 @@
+Strumento di guida end‑to‑end per TDD.
+
+Utilizzo:
+1. Avviare il processo TDD per una nuova funzionalità (Fase 0‑4)
+2. Passare alla fase successiva del TDD
+3. Analisi della decomposizione funzionale guidata dai principi SOLID nella Fase 1
+4. Visualizzare lo stato attuale del progresso TDD e lo stato della fase
+5. Valutare se è necessario il refactoring della Fase 4 e analizzare la suddivisione 3b
+6. Collegare i documenti di requisito (Spec/UC) al processo di test
+7. Progettazione di test in batch per l’avvio di un nuovo progetto
+8. Strategia di stub per test con luce rossa (superamento della compilazione di linguaggi statici)
+9. Implementare la determinazione del limite di suddivisione dei ticket (punto di accettazione del test che diventa verde)
+10. Matrice di tracciabilità Test ↔ Caso d'Uso
+
+Utilizzare quando: avviare lo sviluppo di una nuova funzionalità, entrare in qualsiasi fase del TDD, aver bisogno di guida per la suddivisione SOLID, dover confermare la fase corrente del TDD, dover esprimere un giudizio di esenzione per la Fase 4, scrivere test a partire da specifica/UC, pianificare test in batch per un nuovo progetto, quando il test con luce rossa non compila e richiede uno stub, valutare se la granularità della suddivisione dei ticket è ragionevole, confermare se i test coprono gli scenari dei casi d'uso.
+
+Trigger: tdd, test, luce rossa, luce verde, stub, granularità della suddivisione, copertura dei test, tracciabilità, spec‑to‑test, UC‑to‑test, test in batch, test di nuovo progetto, test diventa verde, Fase 0, Fase 1, Fase 2, Fase 3, Fase 4, valutazione del refactoring, outside‑in, luce rossa del cerchio esterno, on‑device, verifica su dispositivo reale, tag wip.
