@@ -1,0 +1,5 @@
+Guías de diseño de arquitectura de Riverpod Provider — inyección de dependencias, segregación de interfaces, reglas de proveedor de cableado obligatorio y emparejamiento con pruebas de cableado, viabilidad de pruebas.
+
+Uso para: (1) Diseñar nuevas clases ViewModel/Notifier, (2) Revisar si la inyección de dependencias del Provider y el cableado raíz de la aplicación son correctos, (3) Declarar un proveedor de cableado obligatorio con `throw UnimplementedError` y emparejarlo con una prueba de cableado, (4) Configurar `ProviderScope.overrides` en pruebas, (5) Detectar uso incorrecto de `ref.read`/`watch` o cuando una `ProviderException` desencadena una excepción.
+
+Uso cuando: El código involucra Riverpod Provider, Notifier, ViewModel, cableado DI, diseño de overrides, o el lanzamiento de la aplicación muestra una pantalla de error del provider.
