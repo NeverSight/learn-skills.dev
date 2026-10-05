@@ -1,0 +1,1 @@
+运行 codependix 依赖图导出或边界检查，在 --check boundaries、--check reports 和 --write 之间进行选择，将运行指向工作区根目录或配置文件，或读取它生成的 Mermaid 块或 JSON 图。适用于运行 codependix 或 npx codependix 时、运行返回 0 且未写入任何内容时、--check 因无值而被拒绝时、寻找选择图类型的标志时、将 codependix 接入 CI 步骤时，或读取导出的 Nx Neighborhood、NestJS 模块图或文件级导入图时。直接覆盖命令行主机，无需假设任何任务运行器。

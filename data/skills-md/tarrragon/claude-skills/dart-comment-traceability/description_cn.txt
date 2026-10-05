@@ -1,0 +1,1 @@
+Dart 事件处理函数和 UseCase/Domain 层注解追踪质量检查。用途：(1) 在 Write/Edit 之后自动扫描缺少追踪注解的事件处理函数和独立小部件，(2) 生成包含建议注解模板的质量报告，(3) 支持多语言注解检查，主要针对 Dart，其次是 JavaScript/TypeScript。触发场景：PostToolUse Hook（匹配器：Write|Edit），在事件驱动架构下进行代码审查。请始终使用用户的语言回应。

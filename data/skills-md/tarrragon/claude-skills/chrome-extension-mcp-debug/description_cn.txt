@@ -1,0 +1,1 @@
+Chrome Extension 实际设备测试和调试工作流，以 chrome-devtools-mcp 为核心工具。使用场景：（1）完成特性后在真实设备上进行验证/手动测试/尝试运行/验证功能；（2）扩展调试/弹窗不工作/内容脚本未注入/Service Worker 错误/后台问题；（3）安装未打包的扩展/加载未打包的扩展；（4）查看控制台/查看网络/查看日志/检查请求；（5）特性更新后重新加载扩展/重新构建后重新加载。涵盖 chrome-devtools-mcp 在 Manifest V3 Service Worker、内容脚本、弹窗、选项页中的调用流程。并不取代 Puppeteer/Playwright 的自动化端到端（CI）测试；定位于开发期间的手动验证以及 LLM 辅助调试。

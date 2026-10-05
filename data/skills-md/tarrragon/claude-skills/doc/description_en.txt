@@ -1,1 +1,14 @@
-需求追蹤文件系統（proposals/spec/usecases）的查詢、建立、導航和管理。Use for: (1) 查詢提案、規格、用例文件, (2) 建立新提案/規格/用例（從模板）, (3) 跨文件導航（從 UC 找 spec/ticket）, (4) Domain 地圖查詢, (5) 追蹤索引管理, (6) UC 測試對應驗證, (7) 提案評估與審查, (8) 測試追溯矩陣查詢（UC↔測試覆蓋狀態）, (9) UC 編號治理（uc list 列合法 UC / uc verify 白名單驗證可掛 CI / uc trace 引用追溯 / uc context 派發 UC 定位）。Use when: user mentions PROP-, UC-, SPEC-, 功能, 需求, feature, issue, 提案, 用例, 規格, 需求文件, 需求追蹤, 測試覆蓋, 追溯, traceability, test-map, UC 編號, 編號驗證, uc verify, 偽 UC, 合法 UC 清單
+Query, creation, navigation, and management of a requirements‑tracking document system (proposals/spec/use cases).
+
+Use for:
+1. Query proposal, specification, and use‑case documents.
+2. Create new proposals/specifications/use cases (from templates).
+3. Cross‑document navigation (find spec/ticket from a UC).
+4. Domain map query.
+5. Tracking index management.
+6. UC test correspondence verification.
+7. Proposal evaluation and review.
+8. Test traceability matrix query (UC ↔ test‑coverage status).
+9. UC number governance (UC list enumerates valid UCs / UC verify whitelist validation for CI attachment / UC trace reference tracing / UC context dispatches UC location).
+
+Use when: user mentions PROP‑, UC‑, SPEC‑, 功能 (function), 需求 (requirement), feature, issue, proposal, use case, specification, requirement document, requirement tracking, test coverage, traceability, test‑map, UC number, number verification, uc verify, pseudo UC, valid UC list.

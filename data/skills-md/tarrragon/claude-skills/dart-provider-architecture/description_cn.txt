@@ -1,0 +1,1 @@
+Riverpod Provider 架构设计指南 — 依赖注入、接口隔离、强制绑定 Provider 与绑定测试配对规则、测试可行性。适用于：① 设计新的 ViewModel/Notifier 类，② 审查 Provider 依赖注入及应用根层绑定是否正确，③ 在声明会抛出 UnimplementedError 的强制绑定 Provider 时配对绑定测试，④ 在测试中配置 ProviderScope.overrides，⑤ 检测对 ref.read/watch 的不当使用或 ProviderException 触发异常的情况。使用场景：代码涉及 Riverpod Provider、Notifier、ViewModel、DI 绑定、override 设计，或应用启动时出现 provider 错误页面。

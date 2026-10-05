@@ -1,0 +1,1 @@
+断链检测工具。扫描 .claude/ 目录下的所有 Markdown 文件的路径引用并检测断开的链接。使用场景：①一次性扫描所有断链；②结合 /loop 进行周期性监控；③在修改 rule、methodology 或 agent 文件后验证路径完整性。使用时机：用户运行 /broken-link-check，或通过 /loop 定期运行，或在发现断链错误后使用。

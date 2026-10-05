@@ -1,0 +1,1 @@
+构建一个符合认证要求的 Splunk 应用或插件的首次运行设置页面，该页面通过 configurations REST 端点收集非机密设置，通过 storage/passwords 收集机密信息，正确配置 app.conf/default.meta，并且避免使用已废弃的 setup.xml 机制。当用户需要“设置您的应用”屏幕、首次运行配置向导，或需要为 Splunkbase 应用或 TA 收集端点/凭证/API 令牌时使用此方法。将与设置页面本身无关的一般应用打包、兼容性、升级或移除生命周期指导转交给 app-and-add-on-lifecycle-advisor，将超出该应用 default.meta 范围的更广泛知识对象治理转交给 knowledge-object-governance。
