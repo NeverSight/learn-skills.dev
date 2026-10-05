@@ -1,0 +1,17 @@
+TDD 端到端指導工具。
+
+使用於：  
+（1）開始針對新功能的 TDD 流程（第 0‑4 階段）；  
+（2）推進至下一個 TDD 階段；  
+（3）第 1 階段以 SOLID 原則為導向的功能分解分析；  
+（4）查看當前 TDD 進度與階段狀態；  
+（5）評估是否需要第 4 階段的重構及 3b 拆分評估；  
+（6）將需求文件（規格/用例）與測試流程連結；  
+（7）為新專案啟動設計批次測試；  
+（8）紅燈測試 Stub 策略（靜態語言編譯通過）；  
+（9）實作票據拆分邊界判斷（測試至綠燈的驗收點）；  
+（10）測試↔用例可追溯性矩陣。
+
+使用時機：開始新功能開發、進入任一 TDD 階段、需要 SOLID 拆分指導、需要確認當前 TDD 階段、需要對第 4 階段作免除判斷、根據規格/用例編寫測試、規劃新專案的批次測試、無法編譯且需使用 Stub 的紅燈測試、判斷票據拆分粒度是否合理、確認測試覆蓋用例情境。
+
+觸發關鍵詞：tdd、test、red‑light、green‑light、stub、mock、split granularity、test coverage、traceability、spec‑to‑test、UC‑to‑test、batch testing、new‑project testing、test‑to‑green、Phase 0、Phase 1、Phase 2、Phase 3、Phase 4、refactoring assessment、outside‑in、outer‑loop red‑light、on‑device、hardware verification、wip tag。

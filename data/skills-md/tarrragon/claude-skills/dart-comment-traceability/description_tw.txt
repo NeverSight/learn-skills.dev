@@ -1,0 +1,1 @@
+Dart 事件處理函式與 UseCase/Domain 層註釋可追蹤性品質檢查。用途：(1) 在寫入/編輯後自動掃描缺乏可追蹤性註釋的事件處理函式與獨立元件，(2) 產生包含建議註釋範本的品質報告，(3) 支援多語言註釋檢查，主要針對 Dart，次要支援 JavaScript/TypeScript。觸發情境：PostToolUse Hook（匹配條件：Write|Edit），事件驅動架構下的程式碼審查。

@@ -1,0 +1,1 @@
+單一入口點與路由層，用於基礎建設工作。逐維度確定「本專案的基礎交付項目是什麼」；權限僅提供預設交付項目，若形式不符，則改寫交付項目，而不是跳過該維度。維度包括 UI、測試、資料庫、DevOps、可觀測性與事件流仲裁，每個維度都指名現有的權限，並說明在該權限缺失時的處理方式。此規則同時適用於新專案與舊專案：接手他人專案時，先進行盤點與抽取，然後重新命名並鞏固。觸發詞：foundation、foundation wave、component library、design token、fixture、seed、migration、scaffold、scaffolding、taking over an old project。請勿用於環境設定（使用 project‑init）。

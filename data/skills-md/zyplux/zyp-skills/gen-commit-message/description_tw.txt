@@ -1,0 +1,3 @@
+根據檢查 git 狀態（status、已暫存的 diff、最近的 log），為當前專案草擬一條符合 Conventional Commits v1.0.0 規範的提交訊息。使用此規則於使用者執行 /gen-commit-message、請求提交訊息或 PR 標題，或在即將提交且尚未撰寫訊息時。僅輸出訊息 —— 不要執行 `git commit` 或暫存檔案。
+
+請始終以使用者的語言回覆。

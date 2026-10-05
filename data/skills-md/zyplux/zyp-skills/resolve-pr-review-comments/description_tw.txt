@@ -1,0 +1,3 @@
+使用捆綁的 live-state 腳本，循環檢查 `ci`、`copilot-pull-request-reviewer` 與 `copilot-review-complete`：修復可操作的失敗，處理所有未解決的 Copilot 討論串，重新觸發審查，並持續重複，直到三者皆為綠色或有任一終止迴圈。僅透過明確的 /resolve-pr-review-comments 呼叫執行；絕不可從自然語言請求觸發。
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,1 @@
+Dart/Flutter 專案風格與文字強制執行工具：掃描硬編碼的顏色值、原始間距、原始字體大小、原始圓角半徑，以及硬編碼的文字，指出每項應該以哪個 token 或 i18n 鍵取代，並使用 PostEdit 鉤子阻止新的違規。觸發關鍵字：raw value、hard‑coded color、hard‑coded text、style violation、style guardian、unused token、i18n missing translation。請勿將其用於建立 token 系統（使用 foundation‑design）或元件合約設計（使用 component‑contract‑design）。請始終以使用者的語言回覆。
