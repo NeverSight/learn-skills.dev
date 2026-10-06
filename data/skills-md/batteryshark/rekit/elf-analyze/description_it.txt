@@ -1,0 +1,1 @@
+Triage statico di binari ELF (Linux/BSD) con pyelftools: classe/architettura/tipo, sezioni + entropia per sezione (packing), librerie necessarie, RPATH/RUNPATH, simboli importati classificati per capacità (network/exec/inject/load/crypto) e hardening (PIE/NX/RELRO). Emette atomi BINARY.*. Legge solo la struttura — non esegue mai il binario.
