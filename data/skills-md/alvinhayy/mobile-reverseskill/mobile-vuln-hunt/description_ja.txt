@@ -1,0 +1,1 @@
+逆コンパイルされたAndroid （ jadx/apktool ）およびiOS （ class - dump/otool/nm ）ツリーでモバイル脆弱性クラスをハントする—最初にripgrepシグネチャスキャン（ 0 DEP ）、データフロークラスのオプションのsemgrep汚染分析、次にトリアージ（エクスポートされたチェック、攻撃者- APK規律）、バンドルされた参照ドキュメントからクラスごとに一致する動的PoC （ adb/drozer/Frida ）を選択します。
