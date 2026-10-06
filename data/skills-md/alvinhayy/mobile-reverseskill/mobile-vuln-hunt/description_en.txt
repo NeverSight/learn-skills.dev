@@ -1,0 +1,1 @@
+Hunt mobile vulnerability classes in decompiled Android (jadx/apktool) and iOS (class-dump/otool/nm) trees — ripgrep signature scan first (zero deps), optional semgrep taint analysis for dataflow classes, then triage (exported check, attacker-APK discipline) and pick the matching dynamic PoC (adb/drozer/Frida) per class from the bundled reference docs.

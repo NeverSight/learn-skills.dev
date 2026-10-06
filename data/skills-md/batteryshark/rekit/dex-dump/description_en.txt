@@ -1,0 +1,1 @@
+Dump decrypted DEX and CompactDex images from a RUNNING Android app's memory with Rekit's clean-room Apache-2.0 device tool (ptrace on a rooted aarch64 device). Defeats class-loading packers by reading the image after the app decrypts it. Does not launch the app or execute a sample on the host. BYO rooted device + adb; build the device tool from the included Rust source.

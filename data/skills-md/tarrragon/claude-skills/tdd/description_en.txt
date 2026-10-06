@@ -1,17 +1,1 @@
-TDD end‑to‑end guidance tool.
-
-Use for:
-1. Start the TDD process for a new feature (Phase 0‑4)
-2. Advance to the next TDD stage
-3. Phase 1 SOLID principle‑driven functional decomposition analysis
-4. View current TDD progress and stage status
-5. Assess whether Phase 4 refactoring is needed and evaluate 3b split
-6. Link requirement documents (Spec/UC) to the testing process
-7. Batch test design for the start of a new project
-8. Red‑light test stub strategy (static language compilation passes)
-9. Implement ticket split boundary determination (test turning green acceptance point)
-10. Test ↔ UseCase traceability matrix
-
-Use when: starting new feature development, entering any TDD phase, needing SOLID split guidance, needing to confirm the current TDD stage, needing to make a Phase 4 exemption judgment, writing tests starting from spec/UC, planning batch tests for a new project, red‑light test fails to compile and requires a stub, judging whether ticket split granularity is reasonable, confirming whether tests cover UC scenarios.
-
-Triggers: tdd, test, red light, green light, stub, split granularity, test coverage, traceability, spec‑to‑test, UC‑to‑test, batch testing, new project testing, test turns green, Phase 0, Phase 1, Phase 2, Phase 3, Phase 4, refactor evaluation, outside‑in, outer‑ring red light, on‑device, real‑device verification, wip tag.
+TDD 全流程指導工具。Use for: (1) 開始新功能的 TDD 流程（Phase 0-4）, (2) 推進到下一個 TDD 階段, (3) Phase 1 SOLID 原則驅動功能拆分分析, (4) 查看當前 TDD 進度和階段狀態, (5) 評估是否需要 Phase 4 重構以及 3b 拆分評估, (6) 需求文件（Spec/UC）銜接到測試流程, (7) 新專案起手的批量測試設計, (8) 紅燈測試存根策略（靜態語言編譯通過）, (9) 實作 Ticket 拆分邊界判讀（測試變綠驗收點）, (10) 測試↔UseCase 追溯矩陣。Use when: 開始新功能開發、進入任何 TDD Phase、需要 SOLID 拆分指導、需要確認當前所在 TDD 階段、需要做 Phase 4 豁免判斷時、從 spec/UC 開始寫測試、新專案批量測試規劃、紅燈測試編譯不過需要 stub、判斷 ticket 拆分粒度是否合理、確認測試是否覆蓋 UC 場景。Triggers: tdd, 測試, 紅燈, 綠燈, stub, 存根, 拆分粒度, 測試覆蓋, 追溯, traceability, spec 轉測試, UC 轉測試, 批量測試, 新專案測試, 測試變綠, Phase 0, Phase 1, Phase 2, Phase 3, Phase 4, 重構評估, outside-in, 外圈紅燈, on-device, 實機驗證, wip tag。
