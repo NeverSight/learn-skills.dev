@@ -1,0 +1,4 @@
+증거 체인과 근본 원인 분석을 사용해 역공학에서 발생하는 불일치를 해결하고 무작위 시도‑오류를 금지합니다. 서명 불일치, 환경‑보조 실패, 훅 비효과, 결과 드리프트가 발생할 때 호출합니다.  
+트리거 단어: “inconsistent”(불일치), “doesn’t match”(맞지 않음), “result slightly off”(결과 약간 차이), “hook not effective”(훅 비효과), “environment‑supplement failure”(환경‑보조 실패), “result drift”(결과 드리프트), “troubleshooting”(문제 해결).  
+범위: 이 스킬은 진단 및 수정 제안을 제공할 뿐이며 다른 스킬의 핵심 책임을 대신하지 않습니다.  
+서명 알고리즘 문제는 param‑encryptor에, 환경 차이는 env‑patcher에, 난독화 문제는 ast‑deobfuscation에 전달됩니다.
