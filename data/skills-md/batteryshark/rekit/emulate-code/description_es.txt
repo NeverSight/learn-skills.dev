@@ -1,3 +1,1 @@
-Emular un bloque de código/shellcode crudo en una CPU virtual (x86/x64/arm/arm64) con Unicorn y reportar el estado final de los registros, el recuento de instrucciones y las escrituras de memoria. Contenido: los bytes se ejecutan en una CPU emulada, no en el host (solo memoria; sin llamadas al sistema del host a menos que se conecten) — la forma segura de “ejecutar” shellcode o una función aislada.
-
-Por favor, responde siempre en el idioma del usuario.
+Emule un blob de código sin procesar/shellcode en una CPU virtual (x86/x64/ARM/ARM64) con Unicorn e informe el estado final del registro, el recuento de instrucciones y las escrituras en la memoria. Contenidos: los bytes se ejecutan en una CPU emulada, no en el host (solo memoria; no hay llamadas al sistema del host a menos que esté cableado): la forma segura de "ejecutar" código shell o una función aislada.

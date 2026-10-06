@@ -1,9 +1,4 @@
-Utiliza una cadena de evidencia y un análisis de causa raíz para resolver inconsistencias en ingeniería inversa, prohibiendo la prueba y error aleatoria. Invoca esto al encontrar desajustes de firmas, fallos de parches de entorno, ganchos ineficaces o desviación de resultados.
-
-Palabras desencadenantes: “inconsistencia”, “no coincide”, “resultado ligeramente incorrecto”, “gancho no eficaz”, “fallo de parche de entorno”, “desviación de resultados”, “solución de problemas”.
-
-Alcance: Esta habilidad solo proporciona sugerencias de diagnóstico y remediación; no sustituye las responsabilidades principales de otras habilidades.
-
-Los problemas de algoritmo de firma se delegan a param‑encryptor; las diferencias de entorno a env‑patcher; los problemas de ofuscación a ast‑deobfuscation.
-
-Por favor, responde siempre en el idioma del usuario.
+Utiliza cadenas de evidencia y análisis de causa raíz para resolver inconsistencias en la ingeniería inversa, prohibiendo pruebas aleatorias de ensayo y error. Invoca cuando encuentres desajustes de firmas, fallos en la suplementación del entorno, ganchos ineficaces o deriva de resultados.  
+Palabras activadoras: “inconsistency”, “doesn’t match”, “result is a bit off”, “hook ineffective”, “environment supplementation failed”, “result drift”, “troubleshooting”.  
+Ámbito: Esta habilidad solo brinda diagnósticos y sugerencias de remediación y no reemplaza las responsabilidades principales de otras habilidades.  
+Los problemas del algoritmo de firma se delegan a param‑encryptor; las diferencias de entorno a env‑patcher; los problemas de ofuscación a ast‑deobfuscation.

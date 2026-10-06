@@ -1,3 +1,1 @@
-Busca clases de vulnerabilidades móviles en árboles de Android descompilado (jadx/apktool) e iOS (class-dump/otool/nm) — primero escaneo de firmas con ripgrep (cero dependencias), análisis opcional de taint con semgrep para clases de flujo de datos, luego triage (verificación de exportación, disciplina de APK atacante) y elige la PoC dinámica correspondiente (adb/drozer/Frida) por clase a partir de la documentación de referencia incluida.
-
-Por favor, responde siempre en el idioma del usuario.
+Busque clases de vulnerabilidad móvil en árboles descompilados de Android (jadx/apktool) e iOS (class-dump/otool/nm): primero escaneo de firma ripgrep (cero deps), análisis opcional de contaminación semgrep para clases de flujo de datos, luego triaje (cheque exportado, disciplina atacante-APK) y elija el PoC dinámico correspondiente (adb/drozer/Frida) por clase de los documentos de referencia incluidos.
