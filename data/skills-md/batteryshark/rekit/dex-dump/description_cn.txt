@@ -1,0 +1,1 @@
+使用Rekit的洁净室Apache-2.0设备工具（ ptrace在根aarch64设备上）从正在运行的Android应用内存中转储解密的DEX和CompactDex图像。通过在应用程序解密图像后读取图像来击败类加载打包程序。不启动应用程序或在主机上执行示例。BYO rooted device + adb ；从随附的Rust源代码构建设备工具。

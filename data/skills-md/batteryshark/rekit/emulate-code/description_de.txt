@@ -1,1 +1,3 @@
-Emulieren Sie einen Rohcode-/Shellcode-Blob auf einer virtuellen CPU (x86/x64/arm/arm64) mit Unicorn und melden Sie den endgültigen Registerstatus, die Anzahl der Anweisungen und die Schreibvorgänge im Speicher. Enthalten: Die Bytes laufen auf einer emulierten CPU, nicht auf dem Host (nur Arbeitsspeicher; keine Host-Syscalls, es sei denn, sie sind verkabelt) — der sichere Weg, Shellcode oder eine isolierte Funktion auszuführen.
+Emuliere einen rohen Code-/Shellcode-Blob auf einer virtuellen CPU (x86/x64/arm/arm64) mit Unicorn und berichte über den finalen Registerzustand, die Instruktionsanzahl und Speicher­schreibvorgänge. Eingeschlossen: Die Bytes laufen auf einer emulierten CPU, nicht auf dem Host (nur Speicher; keine Host‑Systemaufrufe, außer sie sind verbunden) – der sichere Weg, Shellcode oder eine isolierte Funktion „auszuführen“.
+
+Bitte antworte immer in der Sprache des Benutzers.

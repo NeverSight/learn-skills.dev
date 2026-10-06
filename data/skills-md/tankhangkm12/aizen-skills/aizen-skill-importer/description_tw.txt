@@ -1,3 +1,3 @@
-將外部知識導入 Aizen (v4) — 可以是來自 GitHub 資料夾或本機路徑的完整技能（複製、正規化為 Aizen 標準、標註來源與授權、與使用者共同自訂、透過 A/B 測試證明其優於原版），或將上游最佳實踐加入既有套件作為固定供應的知識（vendor.lock.json + bin/vendor.js）。在使用者提供技能連結或資料夾以進行克隆、匯入、分支或調整，或想從熱門技能倉庫學習時使用（clone skill、chép skill、lấy skill từ GitHub、học theo skill nhiều sao）。不適用於：從頭撰寫技能或改進已在倉庫中的技能（aizen-skill-creator），或僅對技能進行評估（aizen-skill-eval）。
+將外部知識引入 Aizen (v4)——可以是整個來自 GitHub 資料夾或本機路徑的 skill（複製、依 Aizen 標準正規化、標註來源與授權、與使用者共同客製化、證明其在 A/B 測試中優於原版），或將上游最佳實踐以釘住的 vendored 知識形式加入既有套件（vendor.lock.json + bin/vendor.js）。在使用者提供 skill 連結或資料夾以 clone、import、fork 或 adapt，或想從熱門 skill 倉庫學習（clone skill、chép skill、lấy skill 從 GitHub、學習多星 skill）時使用。非適用情況：從頭撰寫 skill 或改進倉庫中已有的 skill（aizen-skill-creator），或僅評估 skill（aizen-skill-eval）。
 
 請始終以使用者的語言回覆。

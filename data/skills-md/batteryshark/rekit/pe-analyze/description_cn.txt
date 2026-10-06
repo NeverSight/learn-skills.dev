@@ -1,0 +1,1 @@
+使用pefile对Windows PE二进制文件（ EXE/DLL ）进行静态分类： machine/arch、subsystem、entry/imagebase、sections + per-section entropy （打包）和RWX标志、按功能分类的导入（ inject/exec/network/anti-debug/persist/crypto ）、export、TLS回调、overlay和Authenticode presence。发射二进制. *原子。仅读取结构—从不运行二进制。

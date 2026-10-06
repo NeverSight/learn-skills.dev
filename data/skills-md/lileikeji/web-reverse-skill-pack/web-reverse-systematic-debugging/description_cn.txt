@@ -1,0 +1,9 @@
+使用证据链和根因分析来解决逆向工程中的不一致问题，禁止随意的试错。当遇到签名不匹配、环境补丁失败、钩子无效或结果漂移时调用此方法。
+
+触发词：“inconsistency”（不一致）、“doesn’t match”（不匹配）、“result off by a little”（结果略有偏差）、“hook not effective”（钩子无效）、“environment‑patch failure”（环境补丁失败）、“result drift”（结果漂移）、“troubleshooting”（故障排除）。
+
+范围：此技能仅提供诊断和补救建议；它不取代其他技能的核心职责。
+
+签名算法问题委派给 param‑encryptor；环境差异委派给 env‑patcher；混淆问题委派给 ast‑deobfuscation。
+
+请始终使用用户的语言作答。

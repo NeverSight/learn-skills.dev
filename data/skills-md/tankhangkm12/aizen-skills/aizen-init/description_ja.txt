@@ -1,18 +1,16 @@
-GitHub / GitLab リポジトリとプロジェクト文書からチーム向けバックエンドプロジェクトを立ち上げる手順を、レビューチェックポイントを設けた 11 段階の厳密な順序で実行します（v3）。  
-- Git Flow（develop ブランチ＋feature ブランチ）  
+GitHub/GitLab リポジトリとプロジェクトドキュメントから、チーム向けバックエンドプロジェクトをブートストラップする。11 の厳密な順序ステップとレビューチェックポイント（v3）で実施する。  
+- Git Flow（develop と feature ブランチ）  
 - .aizen/runs/init/plans/ に承認済みプランを配置  
-- /health と /health/ready エンドポイントを備えたバックエンドスケルトン  
-- すべてのインフラを含むマルチステージ Dockerfile と Docker Compose  
-- .env / .env.example と単一の集中設定ファイル  
-- 失敗時に即座に止まるインフラ接続  
+- /health と /health/ready エンドポイントを持つバックエンドスケルトン  
+- 全インフラを含むマルチステージ Dockerfile と Docker Compose  
+- .env/.env.example と一元管理された設定ファイル  
+- フェイルファストなインフラ接続  
 - インターフェースの背後に配置したアダプタ（ロガーを含む）  
 - AOP レイヤー  
 - request-id ミドルウェア  
-- 認証／認可機構  
+- 認証・認可機能  
 - 完全な README  
 
-その後、引き継ぎ前に文書と照らし合わせた graphify レビューを実施します。  
-
-新しいバックエンドプロジェクトをチームで開始／ブートストラップする際に使用します（khởi tạo dự án backend, dựng khung backend, init backend, setup docker compose + health check, bắt đầu dự án backend cho team）。  
-
-対象外: 既存プロジェクト内の機能追加、バグ修正、パイプライン、スキーマ変更（aizen‑build）。
+最後に、ドキュメントと照らし合わせた graphify レビューを実施し、引き渡しを行う。  
+新規バックエンドプロジェクトの開始/ブートストラップ時に使用（khởi tạo dự án backend, dựng khung backend, init backend, setup docker compose + health check, bắt đầu dự án backend cho team）。  
+対象外: 既存プロジェクトの機能追加、バグ修正、パイプライン、スキーマ（aizen-build）。

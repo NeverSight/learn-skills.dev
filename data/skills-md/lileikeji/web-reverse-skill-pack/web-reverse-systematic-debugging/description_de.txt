@@ -1,6 +1,9 @@
-Verwende Evidenzketten und Ursachenanalyse, um Inkonsistenzen beim Reverse Engineering zu beheben und zufälliges Ausprobieren zu verhindern. Nutze dies, wenn Signaturabweichungen, Fehlgeschlagene Umwelt‑Ergänzungen, unwirksame Hooks oder Ergebnis‑Drift auftreten.  
-Trigger‑Wörter: „inconsistency“, „doesn’t match“, „result is slightly off“, „hook not effective“, „environment supplementation failed“, „result drift“, „troubleshooting“.  
-Umfang: Diese Fähigkeit liefert nur Diagnose‑ und Behebungsvorschläge und ersetzt nicht die Kernverantwortlichkeiten anderer Fähigkeiten.  
-Probleme mit Signaturalgorithmen werden an param‑encryptor übergeben; Umgebungsunterschiede an env‑patcher; Obfuskationsprobleme an ast‑deobfuscation.  
+Verwenden Sie eine Beweiskette und Ursachenanalyse, um Inkonsistenzen beim Reverse Engineering zu beheben und zufälliges Ausprobieren zu verhindern. Rufen Sie dies auf, wenn Sie Signaturabweichungen, Fehler bei Environment‑Patch‑Ausführungen, unwirksame Hooks oder Ergebnisdrift feststellen.
 
-Bitte antworte immer in der Sprache des Benutzers.
+Trigger‑Wörter: „inconsistency“, „doesn’t match“, „result off by a little“, „hook not effective“, „environment‑patch failure“, „result drift“, „troubleshooting“.
+
+Umfang: Diese Fähigkeit liefert nur Diagnose‑ und Behebungs­vorschläge; sie ersetzt nicht die Kernverantwortlichkeiten anderer Fähigkeiten.
+
+Probleme mit Signatur‑Algorithmen werden an param‑encryptor delegiert; Unterschiede in der Umgebung an env‑patcher; Obfuskations‑Probleme an ast‑deobfuscation.
+
+Bitte antworten Sie stets in der Sprache des Benutzers.

@@ -1,1 +1,1 @@
-使用macholib對Mach-O二進位檔案（ macOS/iOS可執行檔、dylibs、套件、kexts ）進行靜態分類： arch/fat切片、檔案類型、PIE、連結的dylibs、RPATH、程式碼簽章存在和加密（ LC_ENCRYPTION_INFO ）。發射二進位. *原子。僅讀取結構—從不執行二進位。
+使用 macholib 對 Mach-O 二進制檔（macOS/iOS 可執行檔、dylib、bundle、kext）進行靜態檢查：架構/胖切片、檔案類型、PIE、已鏈結的 dylib、RPATH、程式碼簽章是否存在，以及加密（LC_ENCRYPTION_INFO）。輸出 BINARY.* 原子。僅讀取結構——永不執行該二進制檔。

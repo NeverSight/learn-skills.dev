@@ -1,11 +1,7 @@
-Utilisez l'AST de Babel pour réaliser une désobfuscation ciblée, en couches et réversible du JavaScript. Applicable aux identifiants `_0x`, aux tables de chaînes, aux wrappers de décodage auto‑exécutés, aux objets dispatcher, aux branches constantes factices, à l’aplatissement du flux de contrôle `while/for + switch`, aux chaînes de dispatch `if (literal === opcode)`, et aux scénarios nécessitant le basculement de scripts dédiés en fonction du site ou des caractéristiques de la famille d’obfuscation.  
-
-Lorsque l’utilisateur mentionne explicitement reese84, DingXiang, Geetest 4, TongHuaShun, NetEase Yidun, Xiaohongshu, les variantes OB ou des adaptations similaires de sites, cette compétence doit également être utilisée.  
-
-Mots déclencheurs : « deobfuscation », « _0x », « string table », « control flow flattening », « OB », etc.  
-
-Portée : Cette compétence ne gère que la restauration structurelle du code JS ; elle n’effectue pas d’analyse d’algorithme de chiffrement (param‑encryptor), d’émulation d’environnement (env‑patcher) ou de résolution de captcha (captcha‑solver).  
-
-La désobfuscation est une étape préliminaire pour localiser la logique de chiffrement ; après la restauration, le résultat doit être transmis à la compétence spécialisée appropriée.  
+Utilisez Babel AST pour effectuer une déobfuscation en couches, réversible et ciblée du JavaScript. Applicable aux identificateurs `_0x`, aux tables de chaînes, aux enveloppes de décodage auto‑exécutées, aux objets répartiteurs, aux branches fausses constantes, à l’aplatissement de flux de contrôle `while/for + switch`, aux chaînes de dispatch `if (literal === opcode)`, et aux scénarios nécessitant le basculement de scripts dédiés en fonction des correspondances d’empreintes de site ou de famille d’obfuscation.  
+Lorsque l’utilisateur mentionne explicitement reese84, DingXiang, Geetest 4, Tonghuashun, NetEase Yidun, Xiaohongshu, les variantes OB ou des adaptations similaires de sites, cette compétence doit également être utilisée.  
+Mots déclencheurs : « deobfuscation », « _0x », « string table », « control‑flow flattening », « OB » (et leurs équivalents chinois).  
+Portée : Cette compétence ne traite que la reconstruction structurelle du code JS ; elle n’effectue pas d’analyse d’algorithme de chiffrement (param‑encryptor), de simulation d’environnement (env‑patcher) ou de résolution de captcha (captcha‑solver).  
+La déobfuscation est une étape préalable pour localiser la logique de chiffrement ; après la reconstruction, le résultat doit être transmis à la compétence spécialisée appropriée.  
 
 Veuillez toujours répondre dans la langue de l’utilisateur.

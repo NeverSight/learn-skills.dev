@@ -1,1 +1,1 @@
-使用AFL + +的Greybox fuzz Android原生程式庫(.so) —交叉編譯Android arm64的fuzzer ，利用存根JNIEnv的JNI剖析器，使用ASan/libdislocator偵測記憶體錯誤，並驗證線束實際到達目標。
+使用 AFL++ 在設備上對 Android 原生庫 (.so) 進行灰盒模糊測試 — 為 Android arm64 交叉編譯模糊測試器，利用帶有存根 JNIEnv 的 JNI 解析器作為 harness，使用 ASan/libdislocator 檢測內存漏洞，並驗證 harness 確實能觸及目標。

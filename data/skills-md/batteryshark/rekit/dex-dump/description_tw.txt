@@ -1,1 +1,1 @@
-使用Rekit的無塵室Apache-2.0設備工具（ ptrace在根aarch64設備上）從正在運行的Android應用程序內存中轉儲解密的DEX和CompactDex映像。在應用程式解密影像後，透過讀取影像來擊敗類別載入封裝程式。不啟動應用程式或在主機上執行範例。BYO rooted device + adb ；從隨附的Rust來源建立裝置工具。
+使用 Rekit 的乾淨室 Apache-2.0 裝置工具（在已 root 的 aarch64 裝置上使用 ptrace）從執行中的 Android 應用程式記憶體中轉存已解密的 DEX 與 CompactDex 映像。透過在應用程式解密後讀取映像，擊敗類別載入型封包器。不會在主機上啟動應用程式或執行範例。自備已 root 的裝置 + adb；從隨附的 Rust 原始碼建置裝置工具。

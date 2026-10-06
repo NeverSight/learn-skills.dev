@@ -1,0 +1,1 @@
+检测 Python 中的隐蔽/规避策略：隐藏的代码执行（对 base64/hex/zlib/marshal 输出的 exec/eval/compile，pickle 反序列化，动态导入，chr()/\x 字符串构造），基于环境的规避（平台/虚拟机/沙箱/分析者检测，时区/区域设置，调试器/追踪器检查），以及 Unicode 隐写。发出无判断的视差原子（XFRM.UNICODE / XFRM.ENCODE / LOAD.EVAL / LOAD.DESER / LOAD.REFLECT / ENVI.ENVCHECK / ENVI.SANDBOX / ENVI.DEBUG），每个标记 method="covert-scan"，以便消费者的镜头能够依据来源调用混淆/规避，并标记家族共现。静态且只读。请始终使用用户的语言进行回复。

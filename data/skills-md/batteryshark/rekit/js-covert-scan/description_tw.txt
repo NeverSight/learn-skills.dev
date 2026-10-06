@@ -1,1 +1,1 @@
-偵測 JavaScript/TypeScript 中的隱蔽/迴避策略：Unicode 隱寫（不可見/零寬度/雙向字符、易混淆同形標點與字母）、XOR/字元代碼/逃脫字串隱藏，以及基於環境鍵的條件行為（時區/語系/地理位置/代理）。發出不帶評斷的視差原子（XFRM.UNICODE / XFRM.BITWISE / XFRM.ENCODE / LOAD.EVAL / ENVI.ENVCHECK），每個皆標記 method="covert-scan"，使消費者的鏡頭能依據來源辨識模糊/迴避呼叫，並在原子族同時出現時標示。靜態且唯讀。
+偵測 JavaScript/TypeScript 中的隱蔽／迴避手法：Unicode 隱寫（不可見／零寬度／雙向文字字元、易混淆的同形字標點與字母）、XOR／字元代碼／跳脫字串隱蔽，及以環境為鍵的條件行為（時區／語系／地理位置／代理伺服器）。產生不帶判斷的視差原子 (XFRM.UNICODE / XFRM.BITWISE / XFRM.ENCODE / LOAD.EVAL / ENVI.ENVCHECK)，每個原子皆標記 method="covert-scan"，以便使用者的鏡頭依來源對混淆／迴避行為進行呼叫，並在原子族同時出現時標記。靜態且唯讀。請始終以使用者的語言回覆。

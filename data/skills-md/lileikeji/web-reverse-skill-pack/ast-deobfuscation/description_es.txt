@@ -1,0 +1,7 @@
+Utiliza Babel AST para realizar una desobfuscación en capas, reversible y dirigida de JavaScript. Aplicable a identificadores `_0x`, tablas de cadenas, envoltorios de decodificación auto‑ejecutables, objetos despachadores, ramas constantes falsas, aplanamiento de control de flujo `while/for + switch`, cadenas de despacho `if (literal === opcode)`, y escenarios que requieren cambiar scripts dedicados basados en coincidencias de huellas del sitio o de la familia de ofuscación.  
+Cuando el usuario mencione explícitamente reese84, DingXiang, Geetest 4, Tonghuashun, NetEase Yidun, Xiaohongshu, variantes de OB o adaptaciones similares de sitios, también debe usarse esta habilidad.  
+Palabras activadoras: “deobfuscation”, “_0x”, “string table”, “control‑flow flattening”, “OB” (y sus equivalentes chinos).  
+Ámbito: Esta habilidad solo maneja la reconstrucción estructural del código JS; no realiza análisis de algoritmos de cifrado (param‑encryptor), simulación de entorno (env‑patcher) ni resolución de captchas (captcha‑solver).  
+La desobfuscación es un paso previo necesario para localizar la lógica de cifrado; tras la reconstrucción, el resultado debe entregarse a la habilidad especializada correspondiente.  
+
+Por favor, responde siempre en el idioma del usuario.

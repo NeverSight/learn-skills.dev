@@ -1,1 +1,3 @@
-Triage statique des binaires Windows PE (EXE/DLL) avec fichier pefile : machine/arch, sous-système, entrée/base d'image, sections + entropie par section (emballage) et drapeaux RWX, importations classées par capacité (injecter/exec/réseau/anti-débogage/persister/crypto), exportations, rappels TLS, superposition et présence Authenticode. Émet des atomes BINAIRES.*. Lit uniquement la structure — n'exécute jamais le binaire.
+Triage statique des binaires Windows PE (EXE/DLL) avec pefile : machine/architecture, sous‑système, point d’entrée/base d’image, sections + entropie par section (packing) et indicateurs RWX, imports classés par capacité (injection/exécution/réseau/anti‑debug/persistence/cryptographie), exports, callbacks TLS, superposition et présence d’Authenticode. Émet des atomes BINARY.*. Lit uniquement la structure — ne jamais exécuter le binaire.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

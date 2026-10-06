@@ -1,0 +1,1 @@
+使用AFL + +的设备上的Greybox fuzz Android本机库(.so) —交叉编译适用于Android arm64的fuzzer ，使用存根JNIEnv利用JNI解析器，使用ASan/libdislocator检测内存错误，并验证线束实际到达目标。

@@ -1,1 +1,1 @@
-使用Rizin內建的Ghidra反編譯器（所有函數的pdg ）將原生二進制文件（ ELF/PE/Mach-O ）反編譯為類似C的偽代碼。靜態：分析和反編譯，從不執行目標。在Rizin/r2上進行預先設定；在沒有安裝提示的情況下，提供誠實的盲點。搭配ELF/pe/macho-analyze。
+使用 rizin 內建的 Ghidra 反編譯器（對所有函式執行 pdg）將原生二進位檔（ELF/PE/Mach-O）反編譯為類 C 偽代碼。靜態：僅分析與反編譯，永不執行目標程式。前置條件限於 rizin/r2；若缺少時會提供安裝提示的誠實盲點。與 elf/pe/macho-analyze 搭配使用。

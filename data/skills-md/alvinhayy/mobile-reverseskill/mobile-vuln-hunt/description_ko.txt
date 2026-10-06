@@ -1,1 +1,3 @@
-디컴파일된 Android (jadx/apktool) 및 iOS (class-dump/otool/nm) 트리에서 모바일 취약점 클래스를 사냥 — ripgrep signature scan first (zero deps), 선택적 semgrep taint analysis for dataflow classes, then triage (exported check, attacker-APK discipline) 및 번들 참조 문서에서 클래스별로 일치하는 동적 PoC (adb/drozer/Frida) 를 선택합니다.
+디컴파일된 Android(jadx/apktool)와 iOS(class-dump/otool/nm) 트리에서 모바일 취약점 클래스를 탐색합니다 — 먼저 ripgrep 서명 스캔을 수행하고(의존성 없음), 선택적으로 semgrep 오염 분석으로 데이터 흐름 클래스를 검토한 뒤, 트라이에이징(내보내기 확인, 공격자‑APK 규칙)하고 번들된 참고 문서에서 각 클래스에 맞는 동적 PoC(adb/drozer/Frida)를 선택합니다.
+
+항상 사용자의 언어로 응답해 주세요.

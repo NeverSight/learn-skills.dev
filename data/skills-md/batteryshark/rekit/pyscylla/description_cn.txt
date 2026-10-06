@@ -1,0 +1,1 @@
+通过Rekit用于外部libscylla引擎的Python适配器转储、重新对齐和重建Windows PE二进制文件的导入地址表。支持进程枚举、实时转储、IAT搜索/解析/修复、XML树往返和引用扫描。仅限Windows ；请自带拱形匹配的libscylla DLL ，并遵守其上游仅限GPL-3.0的许可证。实时进程（ ReadProcessMemory ）上的动态，但不执行目标。

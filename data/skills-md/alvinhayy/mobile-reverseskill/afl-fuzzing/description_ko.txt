@@ -1,1 +1,1 @@
-Greybox fuzz Android native libraries (.so) on-device with AFL + + — Android arm64용 퍼저를 교차 컴파일하고, 스텁 JNIEnv와 함께 JNI 파서를 활용하고, ASan/libdislocator로 메모리 버그를 감지하고, 하네스가 실제로 목표에 도달하는지 확인합니다.
+Greybox fuzz Android 네이티브 라이브러리(.so)를 기기에서 AFL++로 수행 — fuzzer를 Android arm64용으로 교차 컴파일하고, stub JNIEnv를 활용해 JNI 파서를 하네스하며, ASan/libdislocator로 메모리 버그를 탐지하고, 하네스가 실제로 목표에 도달하는지 검증한다.

@@ -1,1 +1,1 @@
-使用pefile對Windows PE二進位檔案(EXE/DLL)進行靜態分類： machine/arch、subsystem、entry/imagebase、sections + per-section entropy (packing)和RWX flags、依功能分類的匯入(inject/exec/network/anti-debug/persist/crypto)、匯出、TLS回呼、overlay和Authenticode presence。發射二進位. *原子。僅讀取結構—從不執行二進位。
+使用 pefile 對 Windows PE 二進位檔（EXE/DLL）進行靜態分流：機器/架構、子系統、入口/映像基址、節段 + 每個節段的熵值（壓縮）與 RWX 標記，依功能（注入／執行／網路／防偵錯／持久化／加密）分類的匯入，匯出、TLS 回呼、附加資料以及 Authenticode 的存在。產生 BINARY.* 原子。僅讀取結構——絕不執行二進位檔。

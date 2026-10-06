@@ -1,0 +1,1 @@
+使用macholib对Mach-O二进制文件（ macOS/iOS可执行文件、dylibs、捆绑包、kexts ）进行静态分类： arch/fat切片、文件类型、饼图、链接的dylibs、RPATH、代码签名存在和加密（ LC_ENCRYPTION_INFO ）。发射二进制. *原子。仅读取结构—从不运行二进制。

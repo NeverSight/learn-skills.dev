@@ -1,0 +1,1 @@
+在反编译的Android （ jadx/apktool ）和iOS （ class-dump/otool/nm ）树中寻找移动漏洞类—首先ripgrep签名扫描（零DEP ） ，可选的数据流类semgrep污点分析，然后分类（导出检查，攻击者-APK纪律） ，并从捆绑的参考文档中选择每个类的匹配动态PoC （ adb/drozer/Frida ）。

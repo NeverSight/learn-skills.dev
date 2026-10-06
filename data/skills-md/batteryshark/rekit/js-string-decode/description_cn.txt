@@ -1,0 +1,1 @@
+在 JavaScript 中静态解码常量密钥 XOR / charCode 字符串混淆，使下游扫描器能够读取隐藏的字符串（C2 URL、受害者域名、时区名称、Shell 命令）。通过正则/启发式查找解码位置——`String.fromCharCode(x ^ KEY)` / `x ^ KEY` 应用于静态编码的文字（整数数组、字符串或 `\xNN`/`\uNNNN` 代码块，包括 `Buffer.from(p,"base64")`/`atob(p)` 前置转换）——在 KEY 为小整数字面量或附近变量被赋予小整数时（尽力常量传播）解析 KEY，执行 XOR，并将恢复的明文写入 outdir/decoded-strings.js 以供重新扫描。只读：读取字节并进行算术运算；绝不将输入解析为代码或执行。

@@ -1,6 +1,9 @@
-使用證據鏈與根本原因分析來解決逆向工程中的不一致性，禁止隨機的試錯方法。  
-在遇到簽名不匹配、環境補充失敗、掛鉤無效或結果漂移時，調用此方法。  
-觸發詞：“inconsistency”、“doesn’t match”、“result slightly off”、“hook not effective”、“environment supplementation failed”、“result drift”、“troubleshooting”。  
-範圍：此技能僅提供診斷與修復建議，並不取代其他技能的核心職責。  
-簽名演算法問題委由 param‑encryptor；環境差異委由 env‑patcher；混淆問題委由 ast‑deobfuscation。  
+使用證據鏈與根本原因分析來解決逆向工程中的不一致，禁止隨機的試錯。遇到簽名不匹配、環境補丁失敗、掛鉤無效或結果漂移時，啟用此方法。
+
+觸發詞：「inconsistency」、「doesn’t match」、「result off by a little」、「hook not effective」、「environment‑patch failure」、「result drift」、「troubleshooting」。
+
+範圍：此技能僅提供診斷與修復建議；不取代其他技能的核心職責。
+
+簽名演算法問題交由 param‑encryptor 處理；環境差異交由 env‑patcher 處理；混淆問題交由 ast‑deobfuscation 處理。
+
 請始終以使用者的語言回應。

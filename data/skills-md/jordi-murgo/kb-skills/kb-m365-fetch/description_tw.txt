@@ -1,1 +1,1 @@
-將 Microsoft 365 專案情境拉入 .raw/ — 包括 Outlook 郵件、Teams 聊天與頻道、附件、SharePoint — 透過確定性的 Graph API 腳本，在範圍被租戶管理員同意阻止時使用 LLM 後備。觸發詞為：「fetch emails」「pull teams chats」「sync m365」「graph fetch」「/kb-m365-fetch」。
+將 Microsoft 365 專案情境拉入 .raw/ — 包括 Outlook 郵件、Teams 聊天與頻道、附件、SharePoint — 透過確定性的 Graph API 腳本，若範圍被租戶管理員同意阻止，則使用 LLM 回退。觸發關鍵字：「fetch emails」、「pull teams chats」、「sync m365」、「graph fetch」、「/kb-m365-fetch」。

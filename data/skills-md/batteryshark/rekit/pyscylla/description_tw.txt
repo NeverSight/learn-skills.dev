@@ -1,1 +1,1 @@
-透過Rekit適用於外部libscylla引擎的Python適配器，傾印、重新對齊和重建Windows PE二進位檔的匯入位址表。支援處理列舉、即時傾印、IAT搜尋/剖析/修正、XML樹往返和參考掃描。僅限Windows ；帶上您自己的拱形匹配libscylla DLL ，並遵守其上遊GPL-3.0-only許可證。(ReadProcessMemory) ，但不執行目標。
+透過 Rekit 的 Python 介面與外部 libscylla 引擎，對 Windows PE 二進位檔的匯入位址表（Import Address Table）進行傾印、重新對齊與重建。支援行程列舉、即時傾印、IAT 搜尋/解析/修復、XML 樹的往返處理以及參考掃描。僅限 Windows；自行提供與架構相符的 libscylla DLL，並遵守其上游 GPL‑3.0‑only 授權。於實時行程上以 DYNAMIC 方式（ReadProcessMemory）操作，但不執行目標程式。

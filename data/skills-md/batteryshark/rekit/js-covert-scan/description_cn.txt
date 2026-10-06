@@ -1,0 +1,1 @@
+检测 JavaScript/TypeScript 中的隐蔽/规避策略：Unicode 隐写（不可见/零宽/双向字符，易混淆的同形标点和字母）、XOR/字符码/转义字符串隐藏，以及基于环境的条件行为（时区/语言/地理位置/代理）。发出无偏见的视差原子（XFRM.UNICODE / XFRM.BITWISE / XFRM.ENCODE / LOAD.EVAL / ENVI.ENVCHECK），每个标记 method="covert-scan"，使消费者的视角能够根据来源对混淆/规避进行调用，并在原子族共现时标记。静态且只读。

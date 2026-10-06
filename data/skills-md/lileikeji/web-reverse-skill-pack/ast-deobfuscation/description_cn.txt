@@ -1,0 +1,7 @@
+使用 Babel AST 对 JavaScript 进行分层、可逆、针对性的去混淆。适用于 `_0x` 标识符、字符串表、自执行解码包装器、调度器对象、伪常量分支、`while/for + switch` 控制流扁平化、`if (literal === opcode)` 调度链，以及需要根据站点或混淆家族指纹匹配切换专用脚本的场景。  
+当用户明确提及 reese84、DingXiang、Geetest 4、Tonghuashun、NetEase Yidun、小红书、OB 变体或类似站点适配时，也应使用此技能。  
+触发词：“deobfuscation”（去混淆）、“_0x”、 “string table”（字符串表）、“control‑flow flattening”（控制流扁平化）、“OB”（以及它们的中文对应）。  
+范围：此技能仅处理 JS 代码的结构重构；不进行加密算法分析（param‑encryptor）、环境模拟（env‑patcher）或验证码破解（captcha‑solver）。  
+去混淆是定位加密逻辑的前置步骤；结构重构后应将结果交给相应的专用技能。  
+
+请始终使用用户的语言回复。
