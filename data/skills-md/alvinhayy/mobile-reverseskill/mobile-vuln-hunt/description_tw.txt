@@ -1,0 +1,1 @@
+在反編譯的Android （ jadx/apktool ）和iOS （ class-dump/otool/nm ）樹狀結構中搜尋行動弱點類別—首先ripgrep簽名掃描（零DEP ） ，可選的資料流類別的semgrep污染分析，然後分流（匯出檢查，攻擊者-APK紀律） ，並從捆綁的參考文檔中選擇每個類別的匹配動態PoC （ adb/drozer/Frida ）。

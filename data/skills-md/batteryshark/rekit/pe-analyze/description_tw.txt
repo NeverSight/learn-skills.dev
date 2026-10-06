@@ -1,0 +1,1 @@
+使用pefile對Windows PE二進位檔案(EXE/DLL)進行靜態分類： machine/arch、subsystem、entry/imagebase、sections + per-section entropy (packing)和RWX flags、依功能分類的匯入(inject/exec/network/anti-debug/persist/crypto)、匯出、TLS回呼、overlay和Authenticode presence。發射二進位. *原子。僅讀取結構—從不執行二進位。

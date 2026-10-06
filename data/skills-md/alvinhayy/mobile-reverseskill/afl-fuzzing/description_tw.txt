@@ -1,0 +1,1 @@
+使用AFL + +的Greybox fuzz Android原生程式庫(.so) —交叉編譯Android arm64的fuzzer ，利用存根JNIEnv的JNI剖析器，使用ASan/libdislocator偵測記憶體錯誤，並驗證線束實際到達目標。

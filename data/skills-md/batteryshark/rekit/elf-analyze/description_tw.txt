@@ -1,0 +1,1 @@
+使用pyelftools對ELF二進制文件（ Linux/BSD ）進行靜態分類： class/arch/type、sections + per-section entropy （打包）、所需的庫、RPATH/RUNPATH、按功能分類的匯入符號（ network/exec/inject/load/crypto ）和hardening （ PIE/NX/RELRO ）。發射二進位. *原子。僅讀取結構—從不執行二進位。

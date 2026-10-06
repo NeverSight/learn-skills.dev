@@ -1,0 +1,1 @@
+以明確的影像扇區偏移量從EXT、NTFS、FAT或其他Sleuth Kit支援的檔案系統中恢復分配、刪除或所有檔案。在磁碟影像掃描驗證檔案系統啟動後使用。在不掛載來源的情況下執行tsk_recover ，發出fls metadata-address/MFT記錄到名稱對映，從存活的中繼資料中安全地重新命名明確的OrphanFile-record佔位符，並雜湊恢復的文件。
