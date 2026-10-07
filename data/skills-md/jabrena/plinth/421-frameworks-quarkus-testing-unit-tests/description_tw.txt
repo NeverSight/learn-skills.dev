@@ -1,0 +1,3 @@
+使用時機：需要為 Quarkus 應用程式編寫快速單元測試時——包括使用 @ExtendWith(MockitoExtension.class) 的純測試、使用 @InjectMock 的 @QuarkusTest 以完整取代 CDI 模擬、使用 @InjectSpy 進行部分 CDI Bean 模擬、使用 REST Assured 進行資源導向測試、使用 @ParameterizedTest 搭配 @CsvSource / @MethodSource、使用 QuarkusTestProfile 進行測試專屬的設定覆寫，以及命名慣例（*Test → Surefire、*IT → Failsafe）。對於與框架無關的 Java，請使用 @131-java-testing-unit-testing。此標籤應在以下需求時觸發：在 Quarkus 專案中新增或改進單元測試；透過 Mockito 為先的測試減少緩慢的 @QuarkusTest 使用；在 Quarkus 測試中加入 @InjectSpy 部分模擬或 QuarkusTestProfile 設定；將重複的測試方法轉換為使用 @CsvSource 或 @MethodSource 的 @ParameterizedTest；為 Quarkus 服務撰寫快速的純單元測試。屬於 Plinth Toolkit 的一部份。
+
+請始終使用使用者的語言回覆。

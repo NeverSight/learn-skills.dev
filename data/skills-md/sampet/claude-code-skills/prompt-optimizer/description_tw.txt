@@ -1,0 +1,3 @@
+分析原始提示，辨識意圖與缺口，匹配 ECC 元件（技能／指令／代理／掛鉤），並輸出可直接貼上的最佳化提示。僅以諮詢角色出現——絕不執行實際任務。觸發條件：使用者說「optimize prompt」、「improve my prompt」、「how to write a prompt for」、「help me prompt」、「rewrite this prompt」，或明確要求提升提示品質；亦接受中文等價詞彙：「優化prompt」、「改進prompt」、「怎麼寫prompt」、「幫我優化這個指令」。不觸發情形：使用者直接要求執行任務，或說「just do it」／「直接做」；以及說「優化代碼」、「優化性能」、「optimize performance」、「optimize this code」等屬於重構／效能優化的請求，而非提示優化。
+
+請始終以使用者的語言回應。

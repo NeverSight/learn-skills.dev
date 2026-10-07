@@ -1,0 +1,6 @@
+在 RunComfy 上為任何靜止圖像製作動畫 — 這項功能是一個智慧路由器，能將使用者的意圖對應到 RunComfy 目錄中合適的 i2v 模型。  
+選擇 HappyHorse 1.0 I2V（Arena #1、本地音訊、身份保留）作為一般動畫，使用帶有 `audio_url` 的 Wan 2.7 進行自訂配音口形同步，或使用 Seedance 2.0 Pro 以圖像 + 參考影片 + 參考音訊的多模態動畫。  
+將每個模型文件化的提示模式捆綁起來，讓呼叫者能在不浪費迭代於錯誤模型的情況下獲得更精確的輸出。  
+透過本機 RunComfy CLI 呼叫 `runcomfy run <vendor>/<model>/image-to-video`（或其端點變體）。  
+在出現 “image to video”、 “image-to-video”、 “i2v”、 “animate image”、 “make this move” 或任何明確要求將靜止圖像轉為影片的語句時觸發。  
+請始終以使用者的語言回覆。

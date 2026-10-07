@@ -1,0 +1,3 @@
+透過 `runcomfy` CLI 在 RunComfy 上生成 AI 影片——一個智慧路由器，涵蓋完整的影片模型目錄：HappyHorse 1.0（Arena #1，原生 in‑pass 音訊）、Wan‑AI Wan 2‑7（開源權重，音訊驅動唇形同步）、ByteDance Seedance v2 / 1‑5 / 1‑0（多模態電影感）、Kling 3.0 / 2‑6、Google Veo 3‑1、MiniMax Hailuo 2‑3、ByteDance Dreamina 3‑0。涵蓋文字轉影片（t2v）、圖像轉影片（i2v）以及 Veo 的 video‑extend 端點。此技能會根據使用者意圖挑選合適的模型（Arena‑#1 質量、多鏡頭角色身份、in‑pass 音訊、電影式運動、最快路徑、15 秒以下剪輯、最長時長），並提供每個模型的文件化提示範本及最小化的 `runcomfy run` 呼叫。觸發語詞包括「generate video」「make a video」「text to video」「t2v」「image to video」「i2v」「animate」「AI video」「make X move」「video from prompt」「video from image」或任何明確要求從提示或靜態圖產生影片剪輯的請求。
+
+請始終以使用者語言回應。
