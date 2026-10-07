@@ -1,0 +1,1 @@
+TypeScript における認可やその他の前提条件をコンパイル時の証明として扱う gdp-ts ライブラリ（Ghosts of Departed Proofs）を使用します。gdp-ts（`name`、`Named`、`Proof`、`defineProof` のインポート）を利用している TypeScript コードベースで、認可・権利・所有権チェックを追加・変更・レビューする際、コードベースにこのパターンを導入する際、あるいは `Named<...>` や証明型に関する型エラーを修正する際に使用してください。

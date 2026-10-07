@@ -1,0 +1,3 @@
+RunComfy で既存の動画を編集 — このスキルは、ユーザーの意図を RunComfy カタログ内の適切な編集モデルにマッチさせるスマートルーターです。Wan 2.7 Edit-Video（一般的なリスタイル／背景差し替え／パッケージ差し替え、身元＋モーション保持）、Kling 2.6 Pro Motion Control（参照動画からターゲットキャラクターへ正確なモーションを転送）、または Lucy Edit Restyle（軽量な身元安定リスタイル／衣装差し替え）のいずれかを選択します。各モデルのドキュメント化されたプロンプトパターンをバンドルし、誤ったモデルでイテレーションを消費せずに、より鋭い編集が可能です。ローカルの RunComfy CLI を通じて `runcomfy run <vendor>/<model>/<endpoint>` を呼び出します。「video edit」「edit video」「restyle video」「swap video background」「motion control」「outfit swap video」などのトリガー、または動画変換を明示的に要求された場合に起動します。
+
+常にユーザーの言語で回答してください。

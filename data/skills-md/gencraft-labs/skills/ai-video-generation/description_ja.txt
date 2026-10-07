@@ -1,0 +1,3 @@
+RunComfy の `runcomfy` CLI を使って AI ビデオを生成する — 完全なビデオモデルカタログ全体を賢くルーティングします: HappyHorse 1.0（Arena #1、ネイティブ in-pass オーディオ）、Wan‑AI Wan 2‑7（オープンウェイト、音声駆動リップシンク）、ByteDance Seedance v2 / 1‑5 / 1‑0（マルチモーダルシネマティック）、Kling 3.0 / 2‑6、Google Veo 3‑1、MiniMax Hailuo 2‑3、ByteDance Dreamina 3‑0。テキストからビデオ（t2v）、画像からビデオ（i2v）、および Veo の video‑extend エンドポイントに対応しています。スキルはユーザーの意図に合わせて適切なモデルを選択します（Arena‑#1 の品質、マルチショットのキャラクターアイデンティティ、in‑pass オーディオ、シネマティックモーション、最速パス、15 秒未満のクリップ、最長再生時間）そして各モデルのドキュメント化されたプロンプトパターンと最小限の `runcomfy run` 呼び出しを提供します。「generate video」「make a video」「text to video」「t2v」「image to video」「i2v」「animate」「AI video」「make X move」「video from prompt」「video from image」またはプロンプトや静止画からビデオクリップを作成するという明示的な要求でトリガーされます。
+
+必ずユーザーの言語で回答してください。
