@@ -1,0 +1,3 @@
+RunComfy에서 기존 비디오를 편집하기 — 이 스킬은 사용자의 의도를 RunComfy 카탈로그에 있는 적절한 편집 모델에 매핑하는 스마트 라우터입니다. Wan 2.7 Edit-Video(일반 리스타일 / 배경 교체 / 패키징 교체, 정체성 + 모션 보존), Kling 2.6 Pro Motion Control(참조 비디오의 정확한 모션을 대상 캐릭터에 전송), 또는 Lucy Edit Restyle(경량 정체성 유지 리스타일 / 의상 교체) 중에서 선택합니다. 각 모델의 문서화된 프롬프트 패턴을 묶어, 잘못된 모델에 반복을 낭비하지 않고 더 정교한 편집을 수행합니다. 로컬 RunComfy CLI를 통해 `runcomfy run <vendor>/<model>/<endpoint>`를 호출합니다. “video edit”, “edit video”, “restyle video”, “swap video background”, “motion control”, “outfit swap video”와 같은 문구 또는 비디오 변환을 명시적으로 요청하는 경우에 트리거됩니다. 
+
+항상 사용자의 언어로 응답하십시오.
