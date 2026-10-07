@@ -1,5 +1,5 @@
-Use Babel AST to perform layered, reversible, targeted deobfuscation of JavaScript. Applicable to `_0x` identifiers, string tables, self‑executing decode wrappers, dispatcher objects, fake constant branches, `while/for + switch` control‑flow flattening, `if (literal === opcode)` dispatch chains, and scenarios that require switching dedicated scripts based on site or obfuscation‑family fingerprint matches.  
-When the user explicitly mentions reese84, DingXiang, Geetest 4, Tonghuashun, NetEase Yidun, Xiaohongshu, OB variants, or similar site adaptations, this skill should also be used.  
-Trigger words: “deobfuscation”, “_0x”, “string table”, “control‑flow flattening”, “OB” (and their Chinese equivalents).  
-Scope: This skill only handles structural reconstruction of JS code; it does not perform encryption‑algorithm analysis (param‑encryptor), environment simulation (env‑patcher), or captcha solving (captcha‑solver).  
-Deobfuscation is a prerequisite step for locating encryption logic; after reconstruction, the result should be handed off to the appropriate specialized skill.
+使用 Babel AST 对 JavaScript 做分层、可回退的定向反混淆。适用于 `_0x` 标识符、字符串表、自执行解码包装、dispatcher 对象、虚假常量分支、`while/for + switch` 控制流平坦化、`if (literal === opcode)` 分发链，以及需要按站点或混淆家族命中特征切换专用脚本的场景。
+用户明确提到 reese84、顶象、极验4、同花顺、网易易盾、小红书、OB 变种或类似站点适配时也使用本 skill。
+触发词：「反混淆」「deobfuscation」「_0x」「解混淆」「字符串表」「控制流平坦化」「OB」。
+边界：本 Skill 只负责 JS 代码的结构性还原，不负责加密算法分析（param-encryptor）、环境模拟（env-patcher）或验证码求解（captcha-solver）。
+反混淆是定位加密逻辑的前置步骤，还原后应将结果转交给对应专业 Skill。

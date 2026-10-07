@@ -1,7 +1,4 @@
-Use an evidence chain and root‑cause analysis to resolve inconsistencies in reverse engineering, prohibiting random trial‑and‑error. Invoke this when encountering signature mismatches, environment‑patch failures, ineffective hooks, or result drift.
-
-Trigger words: “inconsistency”, “doesn’t match”, “result off by a little”, “hook not effective”, “environment‑patch failure”, “result drift”, “troubleshooting”.
-
-Scope: This skill only provides diagnostic and remediation suggestions; it does not replace the core responsibilities of other skills.
-
-Signature‑algorithm issues are delegated to param‑encryptor; environment differences to env‑patcher; obfuscation issues to ast‑deobfuscation.
+用证据链和根因分析解决逆向中的不一致问题，禁止随机试错。遇到签名不一致、补环境失败、Hook 无效、结果漂移时调用。
+触发词：「不一致」「对不上」「结果差一点」「Hook 不生效」「补环境失败」「结果漂移」「排错」。
+边界：本 Skill 只做诊断和修复建议，不替代其他 Skill 的核心职责。
+签名算法问题转交 param-encryptor；环境差异转交 env-patcher；混淆问题转交 ast-deobfuscation。
