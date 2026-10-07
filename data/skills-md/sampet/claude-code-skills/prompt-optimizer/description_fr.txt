@@ -1,0 +1,7 @@
+Analyse les invites brutes, identifie l’intention et les lacunes, associe les composants ECC (compétences/commandes/agents/hooks) et génère une invite optimisée prête à copier‑coller. Rôle purement consultatif — n’exécute jamais la tâche elle‑même.  
+
+**Déclencheur** lorsque l’utilisateur dit « optimize prompt », « improve my prompt », « how to write a prompt for », « help me prompt », « rewrite this prompt », ou demande explicitement d’améliorer la qualité de l’invite. S’applique aussi aux équivalents chinois : « 优化prompt », « 改进prompt », « 怎么写prompt », « 帮我优化这个指令 ».  
+
+**Ne pas déclencher** lorsque l’utilisateur veut que la tâche soit exécutée directement, ou dit « just do it » / « 直接做 ». Ne pas déclencher non plus si l’utilisateur dit « 优化代码 », « 优化性能 », « optimize performance », « optimize this code » — ce sont des tâches de refactorisation/performance, pas d’optimisation d’invite.  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
