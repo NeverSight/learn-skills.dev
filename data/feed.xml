@@ -4,573 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Wed, 07 Oct 2026 04:23:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 04:25:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-07)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-08)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:snapshot</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:snapshot</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8306
-Trending skills: 7843
-Hot skills: 2990
-Top All Time: find-skills (3723790)
-Top Trending: design-mobile-apps (19832)
-Top Hot: vercel-cli-with-tokens (33)]]></description>
+All Time skills: 8321
+Trending skills: 7884
+Hot skills: 2872
+Top All Time: find-skills (3741176)
+Top Trending: media-use (26795)
+Top Hot: video-edit (335)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): vercel-cli-with-tokens]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-cli-with-tokens</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:vercel-labs/agent-skills/vercel-cli-with-tokens</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#42): hyperframes-keyframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topAllTime:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #42
+Installs: 555493
+Source: heygen-com/hyperframes
+Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): video-edit]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/video-edit</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:gencraft-labs/skills/video-edit</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 33
-Source: vercel-labs/agent-skills
-Description: Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up vercel", "add environment variables to vercel".]]></description>
+Installs: 335
+Source: gencraft-labs/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): design-agent]]></title>
-            <link>https://skills.sh/crewaiinc/skills/design-agent</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:crewaiinc/skills/design-agent</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): google-agents-cli-workflow]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 3
-Source: crewaiinc/skills
-Description: CrewAI agent design and configuration. Use when creating, configuring, or debugging crewAI agents — choosing role/goal/backstory, selecting LLMs, assigning tools, tuning max_iter/max_rpm/max_execution_time, enabling planning/code execution/delegation, setting up knowledge sources, using guardrails, or configuring agents in YAML vs code.]]></description>
+Installs: 68
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): ask-docs]]></title>
-            <link>https://skills.sh/crewaiinc/skills/ask-docs</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:crewaiinc/skills/ask-docs</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): google-agents-cli-scaffold]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 3
-Source: crewaiinc/skills
-Description: Query the official CrewAI documentation for answers. Use when the user has a CrewAI question that isn't fully covered by the getting-started, design-agent, design-task skills — e.g., specific API details, configuration options, advanced features, troubleshooting errors, enterprise features, tool references, or anything where the latest docs are the best source of truth.]]></description>
+Installs: 68
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): design-task]]></title>
-            <link>https://skills.sh/crewaiinc/skills/design-task</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:crewaiinc/skills/design-task</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): metabase-data-app-routing]]></title>
+            <link>https://skills.sh/metabase/metabase/metabase-data-app-routing</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:metabase/metabase/metabase-data-app-routing</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 3
-Source: crewaiinc/skills
-Description: CrewAI task design and configuration. Use when creating, configuring, or debugging crewAI tasks — writing descriptions and expected_output, setting up task dependencies with context, configuring output formats (output_pydantic, output_json, output_file), using guardrails for validation, enabling human_input, async execution, markdown formatting, or debugging task execution issues.]]></description>
+Installs: 14
+Source: metabase/metabase
+Description: Add client-side routing (multiple pages) to an existing Metabase data-app project using the host-provided `DataAppRouter`, `DataAppLink`, and `useDataAppLocation` primitives. Use when the user has an existing data-app project and wants more than one page.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): bmod-toolsmith]]></title>
-            <link>https://skills.sh/bmad-code-org/bmad-method/bmod-toolsmith</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:bmad-code-org/bmad-method/bmod-toolsmith</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): metabase-data-app-setup]]></title>
+            <link>https://skills.sh/metabase/metabase/metabase-data-app-setup</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:metabase/metabase/metabase-data-app-setup</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 3
-Source: bmad-code-org/bmad-method
-Description: Required bmod metadata. Never invoke this skill.]]></description>
+Installs: 14
+Source: metabase/metabase
+Description: Scaffold a new Metabase data-app into the connected remote-sync repository's `data_apps/<app>/` directory from the `data-app-template`. Use when the user asks to start, create, scaffold, or set up a data-app from scratch.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): convex-reviewer]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-reviewer</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-reviewer</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): metabase-data-app-semantic-layer]]></title>
+            <link>https://skills.sh/metabase/metabase/metabase-data-app-semantic-layer</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:metabase/metabase/metabase-data-app-semantic-layer</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 7
-Source: get-convex/agent-skills
-Description: Convex code reviewer — security, auth, validators, performance, and pattern checks for code in a convex/ directory. Use to review or audit Convex functions before shipping.]]></description>
+Installs: 14
+Source: metabase/metabase
+Description: Use when building, creating, or editing data apps that should query Metabase tables and metrics through generated schema files like metabase.data.ts or *.metabase.data.ts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): convex-suggest]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-suggest</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-suggest</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): rde-data-apps]]></title>
+            <link>https://skills.sh/metabase/agent-skills/rde-data-apps</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:metabase/agent-skills/rde-data-apps</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 7
-Source: get-convex/agent-skills
-Description: Suggest the matching Convex component when the user hand-rolls a pattern it already solves (crons, sharded-counter, rate-limiter, storage, search, presence, workflow, RAG, prosemirror-sync). Passive — suggest after the task, never interrupt. Never install without consent.]]></description>
+Installs: 14
+Source: metabase/agent-skills
+Description: Build or change a Metabase data app on an rde machine: settles what the `metabase-data-app-*` skills need from the local setup (the remote-sync repository, the Metabase URL, the API key rde stores, how the app reaches Metabase), makes sure everything the app reads is Library content already synced into that repository, confirms every sync step with the user, and hands the build to them. Use only when an app is asked for explicitly: "build me an app for X", "create a data app", "make an internal tool / portal in Metabase", "add a page / a form / a filter to my data app". A dashboard, a question, or a metric is not an app; those stay with the `rde` skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): convex-monitor]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-monitor</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-monitor</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): rde]]></title>
+            <link>https://skills.sh/metabase/agent-skills/rde</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:metabase/agent-skills/rde</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 7
-Source: get-convex/agent-skills
-Description: Watch for the next dev/prod error or request in a Convex app and react to it.]]></description>
+Installs: 14
+Source: metabase/agent-skills
+Description: Expert data engineering with Metabase at the center of any company's stack: explore and profile raw warehouse tables, build clean tables as Metabase transforms pinned by transform tests, build the semantic layer (models, metrics, measures, segments, metadata), design dashboards, answer questions with checked numbers, reconcile against a reference, change delivered definitions safely. Use for data work, not one `mb` command (`metabase-cli`): "make sense of my data", "model this raw schema", "set up analytics for X", "build a data model", "define MRR / active customers officially", "build a semantic layer", "go from raw tables to a dashboard", "does this number match finance", "our numbers look wrong", "two cards disagree", "test this transform", "why does this transform get case X wrong", "make Metabot answer questions about X", "explain this table", "change this definition", "build a data app", "donor retention", "event attendance", "quarterly board report", "be my data engineer / analyst".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): convex-explain-app]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-explain-app</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-explain-app</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): google-agents-cli-deploy]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 7
-Source: get-convex/agent-skills
-Description: Explain an existing Convex app — data model + relationships, public vs internal functions, auth/ownership model, components, a request→data flow — read from the schema and function surface. Read-only.]]></description>
+Installs: 69
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): convex-sentinel]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-sentinel</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-sentinel</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): manta-cli]]></title>
+            <link>https://skills.sh/paidaxingyo666/manta/manta-cli</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:paidaxingyo666/manta/manta-cli</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 7
-Source: get-convex/agent-skills
-Description: Set up Sentinel production error capture in your own Convex deployment.]]></description>
+Installs: 12
+Source: paidaxingyo666/manta
+Description: Use the public `manta` CLI to operate Manta-managed worktrees, folder contexts, terminals, repos, automations, artifacts, skill sharing, worktree comments, and the browser embedded inside the Manta app. Use when the user says "$manta-cli", "use manta cli", "Manta worktree", "child worktree", "cardStatus", "spawn codex/claude in a worktree", "read/wait/send Manta terminal", "terminal send", "full handoff", "handover", "give this to another agent", "another worktree", "Manta browser", "manta artifacts", "share HTML/Markdown", "public artifact link", "share skills", or "control the browser inside Manta". Prefer this over raw `git worktree`, ad hoc PTYs, Playwright, or Computer Use when the task touches Manta-managed state. Use Computer Use for browser windows, webviews, or desktop UI outside Manta's embedded browser.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): convex-migrate-rehearse]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-migrate-rehearse</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-migrate-rehearse</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): byted-web-search]]></title>
+            <link>https://skills.sh/kotot/byted-web-search/byted-web-search</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:kotot/byted-web-search/byted-web-search</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 7
-Source: get-convex/agent-skills
-Description: Rehearse a live-app schema change + backfill on a snapshot-seeded preview deployment, verify, then promote the proven change to prod with the snapshot as rollback.]]></description>
+Installs: 11
+Source: kotot/byted-web-search
+Description: 火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent Plan、融合信息搜索、Harness、有什么/有哪些/推荐、价格/政策/汇率/行情、对比/区别/哪个好、听说/据说/不太确定、热搜/热门/火、帮我看/了解一下、求证/辟谣、值不值得/该不该。任务依赖在线事实或时效性时优先使用。若回答可能依赖外部事实，优先调用本 skill 再作答。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): vercel-optimize]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-optimize</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:vercel-labs/agent-skills/vercel-optimize</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): ai-music]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/ai-music</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:gencraft-labs/skills/ai-music</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 35
-Source: vercel-labs/agent-skills
-Description: Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.]]></description>
+Installs: 332
+Source: gencraft-labs/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): convex-optimize]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-optimize</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-optimize</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): lark-approval]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-approval</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-approval</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 7
-Source: get-convex/agent-skills
-Description: Audit and optimize an existing Convex app: security, scale, upgrades, observability.]]></description>
+Installs: 23
+Source: larksuite/cli
+Description: 飞书审批 API：审批实例、审批任务管理。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): convex-verify]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-verify</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-verify</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): lark-attendance]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-attendance</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-attendance</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 7
-Source: get-convex/agent-skills
-Description: Prove a Convex feature works — seed, drive as multiple mocked users via convex-test, assert behavior including the negative authz cases (wrong user refused, data-scope enforced).]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书考勤打卡：查询自己的考勤打卡记录]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): convex-improve-convex-plugin]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-improve-convex-plugin</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-improve-convex-plugin</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): lark-event]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-event</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-event</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 7
-Source: get-convex/agent-skills
-Description: Send this coding session's transcript to the Convex team for an AI post-mortem that improves the quickstart system.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): convex-launch-readiness]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-launch-readiness</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-launch-readiness</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): lark-minutes]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-minutes</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-minutes</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 7
-Source: get-convex/agent-skills
-Description: Run every Convex audit (authz, reviewer, advisor, insights) into one scored, deduped readiness report with an ordered fix plan — Lighthouse for your backend.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): convex-insights]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-insights</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-insights</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): lark-calendar]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-calendar</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-calendar</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 7
-Source: get-convex/agent-skills
-Description: Query a running Convex app's logs + health in natural language (official MCP): failures, slow/expensive functions, deploy causality — scoped, evidence-backed, with a dashboard deep link.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): convex-self-heal]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-self-heal</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-self-heal</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): lark-contact]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-contact</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-contact</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 7
-Source: get-convex/agent-skills
-Description: Production error → triaged, root-caused, repaired, and certified (tsc + rehearsal + reproduce-then-gone) fix PR for a human to merge — then confirm the error stops recurring. Never auto-merges.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): convex-seed]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-seed</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-seed</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): lark-markdown]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-markdown</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-markdown</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 7
-Source: get-convex/agent-skills
-Description: Seed or import data into the Convex database.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): convex-migrate]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-migrate</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-migrate</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): lark-base]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-base</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-base</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 7
-Source: get-convex/agent-skills
-Description: Migrate schema + backfill data on a deployed Convex app using @convex-dev/migrations.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): convex-quickstart]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-quickstart</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-quickstart</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): lark-mail]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-mail</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-mail</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 7
-Source: get-convex/agent-skills
-Description: Initialize a new Convex backend from scratch with schema, auth, and basic CRUD operations. Use when starting a new project or adding Convex to an existing app.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): think]]></title>
-            <link>https://skills.sh/tw93/waza/think</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:tw93/waza/think</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): lark-apps]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-apps</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-apps</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 3
-Source: tw93/waza
-Description: Challenges the problem, pressure-tests the design, and validates architecture before any code is written. Use before building anything new or when a plan needs review. Not for bug fixes or small edits.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): writing-guidelines]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/writing-guidelines</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:vercel-labs/agent-skills/writing-guidelines</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): image-to-video]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/image-to-video</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:gencraft-labs/skills/image-to-video</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 33
-Source: vercel-labs/agent-skills
-Description: Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and tone", or "check this page against the writing handbook".]]></description>
+Installs: 175
+Source: gencraft-labs/skills
+Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): frontend-slides]]></title>
-            <link>https://skills.sh/affaan-m/ecc/frontend-slides</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:affaan-m/ecc/frontend-slides</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): lark-drive]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-drive</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-drive</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 3
-Source: affaan-m/ecc
-Description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): health]]></title>
-            <link>https://skills.sh/tw93/waza/health</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:tw93/waza/health</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): lark-note]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-note</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-note</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 3
-Source: tw93/waza
-Description: Audits Claude Code setup across CLAUDE.md, rules, skills, hooks, and MCP. Run when Claude ignores rules, hooks malfunction, or MCP needs auditing. Not for debugging code or reviewing PRs.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书会议纪要（Note）直查：已知 note_id 时查询纪要详情、展示类型、关联文档 token，并读取 unified 原始逐字记录。当用户已持有 note_id，或从文档显式 vc-node-id 获得 note_id 时使用。不负责会议/日程/妙记定位、文档标题搜索或 Docx 正文读取。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): planning-with-files]]></title>
-            <link>https://skills.sh/othmanadi/planning-with-files/planning-with-files</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:othmanadi/planning-with-files/planning-with-files</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): lark-meeting]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-meeting</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-meeting</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 3
-Source: othmanadi/planning-with-files
-Description: Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls. Now with automatic session recovery after /clear.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): check]]></title>
-            <link>https://skills.sh/tw93/waza/check</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:tw93/waza/check</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): lark-vc-agent]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-vc-agent</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-vc-agent</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 3
-Source: tw93/waza
-Description: Use after completing a task or before merging. Not for exploring ideas or debugging.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): production-audit]]></title>
-            <link>https://skills.sh/affaan-m/ecc/production-audit</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:affaan-m/ecc/production-audit</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): lark-okr]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-okr</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-okr</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 3
-Source: affaan-m/ecc
-Description: Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what breaks in prod?" questions without sending repo data to an external audit service.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): product-launch-video]]></title>
-            <link>https://skills.sh/memex-lab/product-launch-video-skill/product-launch-video</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:memex-lab/product-launch-video-skill/product-launch-video</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): lark-skill-maker]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-skill-maker</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 2
-Source: memex-lab/product-launch-video-skill
-Description: Design and build spectacular, high-impact product launch videos using Remotion (React). Use this skill whenever the user wants to create a product launch video, promotional video, demo video, feature announcement video, brand reveal, or any motion-graphics-driven product showcase. Also trigger when the user mentions "launch video," "promo video," "product trailer," "product intro," "feature reveal," storyboarding for video, or wants to turn a product into a cinematic visual experience — even if they don't explicitly say "launch video."]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): linear-cli]]></title>
-            <link>https://skills.sh/schpet/linear-cli/linear-cli</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:schpet/linear-cli/linear-cli</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): lark-openapi-explorer]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-openapi-explorer</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-openapi-explorer</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 2
-Source: schpet/linear-cli
-Description: Manage Linear issues from the command line using the linear cli. This skill allows automating linear management.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): short-form-video]]></title>
-            <link>https://skills.sh/iart-ai/tiktok-video-skills/short-form-video</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:iart-ai/tiktok-video-skills/short-form-video</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): lark-vc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-vc</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-vc</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 2
-Source: iart-ai/tiktok-video-skills
-Description: This skill should be used when the user asks to "make a Reels/TikTok/YouTube Shorts video", "build a short-form video template", "write a hook for a short", "edit for retention", "add pattern interrupts", "make a video loop", "fix the first 3 seconds", "pace cuts for a vertical video", or "set up 9:16 safe areas". Covers the hook→retention→loop grammar of vertical short-form (distinct from a launch hype film).]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): nia]]></title>
-            <link>https://skills.sh/nozomio-labs/nia-skill/nia</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:nozomio-labs/nia-skill/nia</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): lark-task]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-task</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-task</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 2
-Source: nozomio-labs/nia-skill
-Description: Index and search code repositories, documentation, research papers, and HuggingFace datasets with Nia AI.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): obelisk-installer]]></title>
-            <link>https://skills.sh/tommy0103/obelisk/obelisk-installer</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:tommy0103/obelisk/obelisk-installer</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): lark-workflow-standup-report]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-workflow-standup-report</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-workflow-standup-report</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 2
-Source: tommy0103/obelisk
-Description: Install the official Obelisk CLI and then install the Obelisk agent skill. Use only for initial setup or repair when the `obelisk` command is missing.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): open-knowledge-discovery]]></title>
-            <link>https://skills.sh/inkeep/open-knowledge-skills/open-knowledge-discovery</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:inkeep/open-knowledge-skills/open-knowledge-discovery</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): ai-image-generation]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:gencraft-labs/skills/ai-image-generation</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 11
-Source: inkeep/open-knowledge-skills
-Description: Read when the user asks what OpenKnowledge is, wants to install it on a repository, wants to open or preview a single markdown file that is not part of an OpenKnowledge project, wants to share an OpenKnowledge project with collaborators, or asks how `ok init` / `ok cowork` / OK Desktop set up a project. Do NOT load to perform OpenKnowledge reads/writes — the runtime guidance for editing markdown inside an initialized OK project ships as a separate project-local skill at `.claude/skills/open-knowledge/` whenever `ok init` runs.]]></description>
+Installs: 166
+Source: gencraft-labs/skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): scenes-gathered-zine-v1-3]]></title>
-            <link>https://skills.sh/zeejay0/gathered-scenes-zine-skill/scenes-gathered-zine-v1-3</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:zeejay0/gathered-scenes-zine-skill/scenes-gathered-zine-v1-3</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): lark-workflow-meeting-summary]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-workflow-meeting-summary</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-workflow-meeting-summary</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 2
-Source: zeejay0/gathered-scenes-zine-skill
-Description: Transform a user-supplied photo into a vertical 3:5 Gathered Scenes Zine poster that anchors truthful photography inside a spacious source-derived abstract illustration field, aggressively compresses dense foliage and other micro-detail into a few large quiet forms, integrates one high-chroma hue as compositional structure, and preserves a visibly hand-torn fibrous photo-to-paper edge. Use when the user wants a tactile minimal paper collage with simplified illustration, active negative space, restrained English-default, Chinese, or bilingual micro-text, and an unmistakable but quiet torn-paper boundary.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): excel-automation]]></title>
-            <link>https://skills.sh/claude-office-skills/skills/excel-automation</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:claude-office-skills/skills/excel-automation</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): vega-multi-tv-migration]]></title>
+            <link>https://skills.sh/amazonappdev/devices-agent-skills/vega-multi-tv-migration</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:amazonappdev/devices-agent-skills/vega-multi-tv-migration</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 2
-Source: claude-office-skills/skills
-Description: >]]></description>
+Installs: 11
+Source: amazonappdev/devices-agent-skills
+Description: Migrate Vega OS (Amazon Fire TV) applications to multi-platform React Native monorepo supporting Android TV, Apple TV, and other platforms. Covers analysis, implementation, and native module integration. Use when migrating TV apps to support multiple platforms or building new multi-platform TV applications.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): core]]></title>
-            <link>https://skills.sh/vercel-labs/json-render/core</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:vercel-labs/json-render/core</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): lark-doc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-doc</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-doc</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 2
-Source: vercel-labs/json-render
-Description: Core package for defining schemas, catalogs, and AI prompt generation for json-render. Use when working with @json-render/core, defining schemas, creating catalogs, or building JSON specs for UI/video generation.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): convex-authz]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-authz</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-authz</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): lark-sheets]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-sheets</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-sheets</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 7
-Source: get-convex/agent-skills
-Description: Audit and harden Convex authorization: identity-from-arg impersonation, missing per-document ownership checks, PII-leaking public queries, and writes into containers the caller doesn't own. Deterministic scan + canonical requireIdentity/requireOwner fix + tsc verify. Use for 'secure my app' / 'audit auth' / 'who can access this data', not generic code review.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): convex-cost]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-cost</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-cost</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): lark-wiki]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-wiki</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 7
-Source: get-convex/agent-skills
-Description: Preview Convex spend — rank functions by bytes/documents-read × call-volume from insights, project each cost driver's growth curve, name the cheapest fix; confirm-cost for paid actions.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): convex-agent]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-agent</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-agent</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): lark-whiteboard]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-whiteboard</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-whiteboard</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 7
-Source: get-convex/agent-skills
-Description: Add an AI agent / RAG backend (@convex-dev/agent) to the Convex app.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): convex-add]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-add</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-add</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): lark-slides]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-slides</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-slides</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 7
-Source: get-convex/agent-skills
-Description: Add a capability to the CURRENT Convex app — consults the served Convex capability catalog for always-current procedures (billing, crons, auth, agent, search, …); falls back to built-in hosting or @convex-dev component search. TRIGGER when the user runs /add, or asks to add hosting/publishing or any backend capability to an existing Convex app.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): convex-crons]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-crons</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-crons</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): lark-im]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-im</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-im</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 7
-Source: get-convex/agent-skills
-Description: Add recurring scheduled jobs (crons) to the Convex app.]]></description>
+Installs: 22
+Source: larksuite/cli
+Description: 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): convex-auth]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-auth</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-auth</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): lark-shared]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-shared</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:larksuite/cli/lark-shared</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 7
-Source: get-convex/agent-skills
-Description: Add authentication (passkeys/OAuth) to the current Convex app, including the auth.config.ts wiring.]]></description>
+Installs: 21
+Source: larksuite/cli
+Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): convex-advisor]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-advisor</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-advisor</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): actionbook]]></title>
+            <link>https://skills.sh/actionbook/actionbook/actionbook</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:actionbook/actionbook/actionbook</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 7
-Source: get-convex/agent-skills
-Description: Read the Convex deployment's 72h insights (read limits, OCC contention), root-cause each event in code, report evidence-backed perf/cost findings with fixes.]]></description>
+Installs: 6
+Source: actionbook/actionbook
+Description: This skill should be used when the user needs to automate multi-step website tasks. Activates for browser automation, web scraping, UI testing, or building AI agents. Provides complete action manuals with step-by-step instructions and verified selectors.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): deploy-to-vercel]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/deploy-to-vercel</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:vercel-labs/agent-skills/deploy-to-vercel</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): ai-video-generation]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:gencraft-labs/skills/ai-video-generation</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 33
-Source: vercel-labs/agent-skills
-Description: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".]]></description>
+Installs: 156
+Source: gencraft-labs/skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): convex-env]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-env</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:get-convex/agent-skills/convex-env</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): active-research]]></title>
+            <link>https://skills.sh/actionbook/actionbook/active-research</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:actionbook/actionbook/active-research</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 7
-Source: get-convex/agent-skills
-Description: Set and wire Convex deployment env vars / secrets for the app.]]></description>
+Installs: 6
+Source: actionbook/actionbook
+Description: Deep research and analysis tool. Generates comprehensive HTML reports on any topic, domain, paper, or technology. Use when user asks to research, analyze, investigate, deep-dive, or generate a report on any subject. Supports academic papers (arXiv), technologies, trends, comparisons, and general topics.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): open-knowledge-write-skill]]></title>
-            <link>https://skills.sh/inkeep/open-knowledge-skills/open-knowledge-write-skill</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:inkeep/open-knowledge-skills/open-knowledge-write-skill</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-publish]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 8
-Source: inkeep/open-knowledge-skills
-Description: Use when the user wants to create, author, write, or design a new Agent Skill (a SKILL.md) — for OpenKnowledge or for their editors — including requests like 'help me write a skill', 'make a skill that…', 'turn this workflow into a skill', or improving an existing skill's triggering and discipline. Also use when capturing reusable agent guidance that should live as an installable skill rather than a one-off prompt. Covers choosing scope (project vs global), the SKILL.md frontmatter contract, progressive-disclosure structure, evaluating the skill, and installing it into the user's editors.]]></description>
+Installs: 69
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): bmad-eval]]></title>
-            <link>https://skills.sh/bmad-code-org/bmad-method/bmad-eval</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:bmad-code-org/bmad-method/bmad-eval</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-adk-code]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 4
-Source: bmad-code-org/bmad-method
-Description: Runs the evals of a BMad skill through the agent harness the user works in and reports what they show: baseline against the bare model, variant against a stripped or prior version, quality against a rubric, and trigger accuracy of the description with an optional optimization loop. Use when the user asks to evaluate, benchmark, test the triggers of, grade, or compare versions of a skill, or when the bmad-toolsmith skill asks for an eval of a skill it built.]]></description>
+Installs: 70
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): gh-issue-sync]]></title>
-            <link>https://skills.sh/mitsuhiko/gh-issue-sync/gh-issue-sync</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:mitsuhiko/gh-issue-sync/gh-issue-sync</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): google-agents-cli-observability]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
+            <guid isPermaLink="false">2026-10-08T04:25:03.463Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
+            <pubDate>Thu, 08 Oct 2026 04:25:03 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 4
-Source: mitsuhiko/gh-issue-sync
-Description: Manage GitHub issues locally as Markdown files. Use for triaging, searching, editing, and creating issues without leaving your editor or terminal.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): getting-started]]></title>
-            <link>https://skills.sh/crewaiinc/skills/getting-started</link>
-            <guid isPermaLink="false">2026-10-07T04:23:16.976Z:topHot:new:crewaiinc/skills/getting-started</guid>
-            <pubDate>Wed, 07 Oct 2026 04:23:16 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 3
-Source: crewaiinc/skills
-Description: CrewAI architecture decisions and project scaffolding. Use when starting a new crewAI project, choosing between LLM.call() vs Agent.kickoff() vs Crew.kickoff() vs Flow, scaffolding with 'crewai create flow', setting up YAML config (agents.yaml, tasks.yaml), wiring @CrewBase crew.py, writing Flow main.py with @start/@listen, or using {variable} interpolation.]]></description>
+Installs: 68
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,1 @@
+Use when writing or reviewing Rust that handles recoverable errors with Result and `?`, uses `.unwrap()` or `.expect()`, chooses between `&str` and `String`, adds `.clone()` or `.to_string()`, or uses async code, the Tokio runtime, or older futures 0.1 APIs.

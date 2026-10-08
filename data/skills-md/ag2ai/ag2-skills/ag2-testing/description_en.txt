@@ -1,0 +1,1 @@
+Test AG2 agents and tools without hitting a real LLM provider. Pass `TestConfig(...)` from `ag2.testing` as the agent's config (or per-`ask`) to mock LLM responses, inject `ToolCallEvent`s to simulate tool execution, and assert success / error paths. Use when the user is writing pytest tests for an Agent or Tool.

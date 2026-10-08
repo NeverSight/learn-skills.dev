@@ -1,0 +1,1 @@
+Signals scout for PostHog workflows. Looks at the workflows whose owner asked for suggestions, reads each email step's per-version delivery metrics, and proposes one concrete change a person can approve, filed through the workflows suggestions API. It files no report and emits no signal: the suggestion on the workflow page is the output.
