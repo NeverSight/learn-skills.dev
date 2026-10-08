@@ -1,0 +1,1 @@
+帮助用户调试 PostHog 错误跟踪的堆栈跟踪符号化，适用于任何受支持的平台——JavaScript/TypeScript Web、React Native（Hermes）、Android（Proguard / R8）或 iOS / macOS（dSYM）。PostHog 符号集查找流程在各平台之间是通用的；构建工具和制品细节位于各平台的参考文档中（JavaScript 已完整，其他将在我们遇到时补充）。当符号上传后堆栈帧仍保持缩小或混淆、PostHog 符号集显示 last_used 但帧不可读、chunk ID 或 dSYM UUID 不匹配、“Token not found” 出现、上传的 source map / dSYM / Proguard 映射文件为空，或需要排查打包器 / 符号上传配置时使用本指南。

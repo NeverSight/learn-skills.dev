@@ -1,0 +1,1 @@
+在通过 `posthog:insight-create` 或 `posthog:insight-update` 创建或更新洞察时（包括 TrendsQuery（`trendsFilter.aggregationAxisFormat`）和 SQL 洞察（`DataVisualizationNode`、`chartSettings.yAxis[].settings.formatting`）），请选择正确的 y 轴单位。当代理即将添加仅用于单位转换的 `formula`（例如将秒除以 60 以显示分钟）、当 `math_property` 或 SQL 列表示持续时间、货币、比例或大计数，或在用户在图表洞察的上下文中提到“格式化 y 轴”“持续时间”“秒”“分钟”“小时”“毫秒”“ms”“百分比”“%%”“货币”“小数位”“轴标签”或“轴单位”时，请使用。

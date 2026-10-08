@@ -1,0 +1,1 @@
+引导用户连接新的数据仓库来源——Postgres、MySQL、Stripe、Hubspot、MongoDB、Salesforce、BigQuery、Snowflake 等。当用户想要“连接 Stripe”“从 Postgres 导入数据”“添加新数据源”“同步我的仓库表”或为每个表选择同步方式时使用。整个流程包括：数据源类型发现、凭证验证、表发现、为每个表选择 sync_type（同步方式），以及最终的创建调用。同时说明如何挑选合适的前缀以及创建后需要立即进行的操作。

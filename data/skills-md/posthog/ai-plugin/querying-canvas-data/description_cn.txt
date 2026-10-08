@@ -1,0 +1,1 @@
+正确将 PostHog 数据导入到 canvas：宿主注入的 `ph` SDK（loadInsight、query、capture、state、connectors、openExternal、navigate），数据层级（先是已保存的 insight，其次是已键入的查询节点，最后是内联 HogQL），可验证性（基于 insight 的指标会链接到它们在 PostHog 中保存的 insight；临时查询会公开实际运行的查询），按 insight 类型的结果形状，逐查询的渐进式加载，日期范围的绑定，通过查看者自己的连接（ph.connectors）获取实时第三方数据，以及来自 canvas 的事件捕获。每当 canvas 显示指标、图表、表格、任何 PostHog 数据，或来自 GitHub 或 MCP 服务器的数据，或需要发送分析事件时，都应使用它。

@@ -1,0 +1,4 @@
+将工程分析（PR / CI）数据转换为已保存的 PostHog 洞察、仪表盘和订阅，并说明如何使用 SQL 直接查询产品数据。涵盖通过 engineering-analytics-sources 发现各团队的 GitHub 仓库表、在 HogQL 中复现精心整理的列语义、读取涉及产品逻辑的已公开 engineering_analytics_* 仓库视图（CI 成本、指纹化的失败行、提交归属），使用 insight‑create 保存查询，以及使用 subscriptions‑create 安排交付。  
+在被要求“将此保存为洞察”“在仪表盘上放置 CI 健康/合并时间”“每周通过邮件发送 PR 吞吐量”“绘制 CI 成本”“跟踪首次审查时间”“订阅这些数字”“对 CI 成功率触发警报”或“工程分析读取了哪些数据/表格/视图”时使用。对于临时的 CI 与合并问题使用 diagnosing-ci-and-merge-bottlenecks；要调查单个 CI 失败则使用 investigating-ci-failures。  
+
+请始终使用用户的语言进行回复。

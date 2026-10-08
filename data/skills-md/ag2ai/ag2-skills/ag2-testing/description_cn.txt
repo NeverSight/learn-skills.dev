@@ -1,0 +1,1 @@
+测试AG2代理和工具，而不会影响真正的LLM提供商。从`ag2.testing`传递`TestConfig (...)`作为代理的配置（或per- `ask` ）来模拟LLM响应，注入`ToolCallEvent`来模拟工具执行，并断言成功/错误路径。在用户为Agent或Tool编写pytest测试时使用。

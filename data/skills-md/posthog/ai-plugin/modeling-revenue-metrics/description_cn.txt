@@ -1,0 +1,7 @@
+构建可复用的收入模型——MRR、ARR、毛收入、新增/扩张/收缩/流失、ARPU、LTV 以及每客户/每账户收入——可以在 PostHog 数据仓库视图（HogQL）或外部 dbt 项目上实现。当用户希望对经常性收入、月度/年度经常性收入、收入流失或保留、生命周期价值、每用户平均收入，或按客户、群体、产品或货币的收入进行建模、定义或计算时使用。
+
+在 PostHog 上，基于受管的 revenue_analytics_* 视图（revenue_item、mrr、customer、subscription、charge、product），这些视图由 Stripe 或自定义收入事件提供数据——而非原始 Stripe 表——并使用 convertCurrency() 对金额进行规范化。
+
+在 dbt 中，对支付源进行分层，并使用测试计算 fct_mrr、fct_revenue_item、dim_customer 等数据集市。
+
+涵盖了选择正确的数据源、导致 MRR 为空的 subscription-config 陷阱、货币处理以及将收入关联到个人/组的内容。请先阅读 modeling-warehouse-foundations 了解 view 与 dbt 的机制。

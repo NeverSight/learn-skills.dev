@@ -1,0 +1,4 @@
+引导代理获取 Replay Vision 扫描仪的观察结果，阅读发现并采取行动——总结跨会话的模式，深入检查单个记录，并将真实、经证实的问题转化为 PostHog 任务、洞察或调查回放交接。  
+触发条件：用户希望获取/读取/分类 Replay Vision 观察结果，询问“我的扫描仪发现了什么”，想要对扫描结果采取行动或进行汇总，将观察结果转化为任务/工作，或指向 /replay-vision/<scanner-id> URL。  
+不触发条件：创建或调整扫描仪（使用 creating-replay-vision-scanners），执行一次性扫描后不进行分析，或编写 signals scout。  
+请始终使用用户的语言进行回复。

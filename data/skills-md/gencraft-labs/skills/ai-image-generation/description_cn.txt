@@ -1,0 +1,3 @@
+通过 `runcomfy` CLI 在 RunComfy 上生成和编辑图像——一个跨完整图像模型目录的智能路由器：FLUX 2（Klein 9B/4B、Pro、Dev、Flash、Turbo、Max），Google Nano Banana 2 / Pro，OpenAI GPT Image 2，ByteDance Seedream 5 / 4-5 / 4-0 和 Dreamina 4-0，阿里巴巴 Qwen Image 与 Z-Image Turbo，Wan 2-7。覆盖文本到图像（t2i）和图像到图像/编辑（i2i）接口——技能会根据用户的实际意图（排版精度、写实肖像、亚秒迭代、多参考品牌风格、开放权重工作流）挑选合适模型，并提供每个模型的文档化提示模式以及最简化的 `runcomfy run` 调用。触发词包括“生成图像”“制作图片”“text to image”“AI image”“生成……的图像”“image to image”“i2i”，或任何明确要求创建或重塑图像的请求。
+
+请始终使用用户的语言回复。

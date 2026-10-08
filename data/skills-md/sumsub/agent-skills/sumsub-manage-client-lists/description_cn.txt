@@ -1,0 +1,1 @@
+创建并填充 Sumsub 客户端列表——具名的键集合，用于工作流条件和 KYT 规则匹配（`clientLists.<name>`）。当用户希望构建高风险国家列表、添加或删除条目、检查键是否在列表中、将列表名称解析为其 ID，或将申请人从黑名单中移除时，触发（TRIGGER）。对将申请人加入黑名单的操作（即 `POST /resources/applicants/{id}/blacklist`，不是列表写入）以及写入引用列表的规则（`sumsub-create-kyt-rules`、`sumsub-create-workflow`），跳过（SKIP）。

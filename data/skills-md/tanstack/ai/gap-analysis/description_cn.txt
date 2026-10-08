@@ -1,0 +1,1 @@
+审计 TanStack AI 提供者适配器，以发现功能兼容性差距和过时的模型列表。通过 `/gap-analysis <provider|feature <name>|models|--all>` 触发。在 `.agent/gap-analysis/` 目录下生成带日期的 Markdown 报告。维护者工具 — 不直接编辑 `feature-support.ts` 或 `model-meta.ts`。请始终使用用户的语言作答。

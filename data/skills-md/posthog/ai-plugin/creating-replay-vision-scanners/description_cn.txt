@@ -1,0 +1,7 @@
+引导代理创建并安全地确定 Replay Vision 扫描器的规模：选择扫描器类型（监控/分类器/评分器/摘要器），构建用于选择会话的 RecordingsQuery，并且——至关重要的是——估算其将消耗的积分并在创建前检查组织的剩余预算，以免一个范围广泛的扫描器在首次计划扫面时耗尽预算。
+
+触发条件：用户请求创建、设置或配置 Replay Vision 扫描器，或者当你即将调用 vision-scanners-create，或通过 vision-scanners-update 扩大现有扫描器的查询、sampling_rate 或 sampling_mode（或将其迁移到更昂贵的模型）时。
+
+不触发的情况：仅仅读取扫描器或观察结果、删除扫描器，或按需运行现有扫描器对会话进行扫描（vision-scanners-scan-session / -scan-sessions）。对于已有会话的单次查询，请使用 vision-scanners-inline-scan 而不是创建扫描器——技能的第一部分说明了何时适用。
+
+请始终使用用户的语言作答。

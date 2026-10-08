@@ -1,0 +1,3 @@
+将图像、音频、视频或文档与文本一起发送到 AG2 `Agent`。将 `ImageInput`、`AudioInput`、`VideoInput` 或 `DocumentInput` 作为位置参数传递给 `agent.ask(...)`。当用户希望代理处理非文本输入时使用——描述照片、转录音频、摘要 PDF、分析视频。涵盖各提供商的支持矩阵、获取数据的四种方式（URL / 路径 / 字节 / file_id）、Gemini 专用的 YouTube + 媒体解析 + 剪辑、OpenAI 图像细节、Anthropic 对附件的提示缓存，以及用于上传生命周期的 `FilesAPI`。
+
+请始终使用用户的语言回复。

@@ -1,0 +1,3 @@
+执行 Go 工程任务计划（通常是来自 engineering‑tripack‑generator 的任务计划输出，或任何粘贴的任务文档），通过编写实际的 Go 代码和测试，遵循团队内部的 Go 编码标准（Clean Architecture、DDD、TDD）。每当用户粘贴/嵌入任务计划或任务描述并要求 Claude 实现、构建、编码或在 Go 中执行时，都使用此功能——而不仅仅是规划或审计。用户必须为每个任务（或整个文档）标记为 “new” 或 “legacy” 代码；如果缺少此标签，在编写任何代码之前先询问。触发词包括 “go‑task‑executor:”、 “execute this task plan”、 “implement this in Go following our standards”，或粘贴的 Go 实现任务清单。
+
+请始终使用用户的语言进行回复。
