@@ -1,0 +1,5 @@
+Leitet Agenten an, die Beobachtungen eines Replay‑Vision‑Scanners abzurufen, die Ergebnisse zu lesen und darauf zu reagieren – Muster über Sitzungen hinweg zusammenfassen, in einzelne Aufzeichnungen eintauchen und echte, bestätigte Probleme in PostHog‑Aufgaben, Erkenntnisse oder eine Übergabe zur Replay‑Untersuchung umwandeln.  
+AUSLÖSEN, wenn: der Nutzer die Replay‑Vision‑Beobachtungen abrufen/lesen/triagieren möchte, fragt „Was hat mein Scanner gefunden“, die Scanner‑Ergebnisse nutzen oder zusammenfassen will, Beobachtungen in Aufgaben/Arbeit umwandeln möchte oder auf eine /replay-vision/<scanner-id>‑URL verweist.  
+NICHT AUSLÖSEN, wenn: ein Scanner erstellt oder skaliert wird (verwende creating-replay-vision-scanners), ein einmaliger Scan ausgeführt wird, den man anschließend nicht analysiert, oder ein Signals‑Scout erstellt wird.  
+
+Bitte stets in der Sprache des Benutzers antworten.

@@ -1,0 +1,3 @@
+Finde Feature‑Flags, die im aktiven Projekt innerhalb eines kürzlichen Zeitfensters soft‑gelöscht wurden. Verwende dies, wenn der Benutzer fragt: „Welche Flags wurden in den letzten N Tagen gelöscht?“, „Zeige mir kürzlich gelöschte Feature‑Flags“, „Wer hat Flag X gelöscht?“, „Auditiere kürzliche Flag‑Löschungen“ oder Ähnliches. Berücksichtige die nicht offensichtliche Besonderheit, dass system.feature_flags das Boolean „deleted“ bereitstellt, aber keinen Löschzeitstempel – der tatsächliche Löschzeitpunkt befindet sich im Aktivitäts‑Log pro Flag und muss abgeglichen werden.
+
+Bitte immer in der Sprache des Benutzers antworten.

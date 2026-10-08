@@ -1,0 +1,15 @@
+Erstelle ein Runbook für das Boosten eines LinkedIn Company Page‑Beitrags, der einen Blog‑Post bewirbt: was ein Boost bietet und was er nicht kann, ein Laufzeit‑Budget, das an die Kampagnendauer angepasst ist, das Bild, den Beitragstext und den ersten Kommentar mit dem Link, die ersten 90 Minuten, Founder‑Reposts und Netzwerk‑DMs, den Campaign‑Manager‑Aufbau einer Engagement‑Kampagne rund um einen bestehenden Beitrag, eine Pre‑Launch‑Checkliste, bei der jedem Punkt eine benannte Person zugeordnet ist, wöchentliche Entscheidungsregeln und die Monats‑End‑Ergebnis‑Zeile.  
+
+Verwenden, wenn:  
+(1) ein Company‑Page‑Beitrag mit dem Link im ersten Kommentar bezahlte Reichweite erhalten soll,  
+(2) ein Beitrags‑Kampagnen‑Runbook existiert und ein Boost der günstigere Ersttest ist,  
+(3) das Veröffentlichungsdatum verschoben wird und Boost, Reposts sowie DMs mitbewegt werden müssen,  
+(4) der Nutzer die Begriffe erwähnt: boost, boost this post, boosted post, sponsor the company page post, engagement campaign, link in the first comment, founder repost, repost with your thoughts, DM to our network, BOOST‑01, utm_content=boost-01, „who owns this task“, „move the post to tomorrow“.  
+
+Berücksichtigt die Gegenüberstellung zu einer Website‑Visits‑Kampagne, die vom Boost‑Button versteckten Aufbauschritte, die Datums‑Kaskade und die Regel, dass keine Aufgabe ohne zugeordnete Person bleibt.  
+
+Erwartet den Pfad zur Markdown‑Datei des Blog‑Posts als zwingendes Argument und bricht ab, wenn er fehlt.  
+
+Geschrieben für eine Next.js App‑Router‑Marketing‑Seite, deren Beiträge als Markdown im Repository vorliegen; das Personal des Hosts, das Conversion‑Vokabular, die Sprachen und der Runbook‑Ordner bilden die Naht.  
+
+Nur LinkedIn. Nicht die Website‑Visits‑Kampagne (ad‑campaign‑runbook), nicht ein Beitragsschreiber für das persönliche Profil, nicht ein Ads‑API‑Client.
