@@ -1,0 +1,5 @@
+エージェントがReplay Visionスキャナーを作成し、安全にサイズ設定できるようにガイドする：スキャナーのタイプ（monitor／classifier／scorer／summarizer）を選択し、セッションを選択するRecordingsQueryを構築し、そして最も重要なのは、使用するクレジットを見積もり、作成前に組織の残予算を確認することです。これにより、広範なスキャナーが最初のスケジュール実行で予算を使い切ることを防ぎます。  
+TRIGGER when: ユーザーがReplay Visionスキャナーの作成、設定、または構成を求めたとき、またはvision‑scanners‑create を呼び出す直前、またはvision‑scanners‑update を使用して既存スキャナーのクエリ、sampling_rate、sampling_mode を拡大（あるいは高額モデルへ変更）する場合。  
+DO NOT TRIGGER when: スキャナーや観測結果を読むだけの場合、スキャナーを削除する場合、またはオンデマンドで既存スキャナーをセッションに対して実行する場合（vision‑scanners‑scan‑session／vision‑scanners‑scan‑sessions）。既に持っているセッションについての単発質問の場合は、スキャナーを作成せずにvision‑scanners‑inline‑scan を使用してください—このスキルの最初のセクションで適用条件が説明されています。  
+
+常にユーザーの言語で回答してください。

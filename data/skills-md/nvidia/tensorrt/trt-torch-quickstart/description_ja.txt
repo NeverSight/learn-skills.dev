@@ -1,0 +1,4 @@
+新しい強い型付けデフォルトの下で、Torch‑TensorRT（AOT または JIT）を使って PyTorch モデルを TensorRT エンジンにコンパイルする。ONNX を使用せずに PyTorch を TensorRT にコンパイルしようとしたとき、"enabled_precisions should not be used when use_explicit_typing=True" エラーが出た場合、Dynamo グラフが途切れるまたは PyTorch がフォールバックするのを確認したとき、import torch_tensorrt 時に ABI エラーのデバッグが必要なとき、あるいは TensorRT 11 用の torch / torch_tensorrt / tensorrt‑cu13 の互換バージョンピンが必要なときに使用する。  
+トリガー: torch_tensorrt、torch_tensorrt.dynamo.compile、torch.compile バックエンド torch_tensorrt、pytorch to tensorrt、ExportedProgram、Dynamo グラフの途切れ、use_explicit_typing、enabled_precisions、torch_tensorrt.Input、min_block_size、truncate_double、tensorrt‑cu13、バージョンピン止め、バージョン互換性。  
+関連スキル: `trt-onnx-quickstart`、`trt-cpp-runtime-quickstart`。  
+LLM のトークン生成は TensorRT‑LLM に属する。

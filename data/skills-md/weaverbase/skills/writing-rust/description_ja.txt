@@ -1,0 +1,1 @@
+Result と `?` を使って回復可能なエラーを扱う Rust のコードを書く・レビューする際、`.unwrap()` や `.expect()` を使う場合、`&str` と `String` のどちらかを選ぶ場合、`.clone()` や `.to_string()` を追加する場合、あるいは async コードや Tokio ランタイム、古い futures 0.1 API を使う場合に使用します。

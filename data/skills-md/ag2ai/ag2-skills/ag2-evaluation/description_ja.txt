@@ -1,0 +1,3 @@
+AG2エージェントをオフラインで評価、テスト、追跡します。タスクのスイートを構築し、run_agentでエージェントを実行し、事前構築されたスコアラー（final_answer_matches、tool_called、no_tool_errors、token_budget）またはカスタム @scorer（agent_judge LLMジャッジを含む）で回答を採点します。RunResultのスコアカード（pass_rate、score_stats、value_counts）を読み取り、決定論的なTestConfigカセットを使用してCIでゲートし、store_dirに永続化し、実行間の差分を取ってリグレッションを検出し、evaluate_tracesで既存のトレースを採点します。エージェントの評価、テスト、採点、ベンチマークを行いたい場合や、CIやリグレッションゲートを構築したい場合、正確性、ツール使用、コスト、品質をスコア付けしたい場合に使用します。ビルドをヘッドツーヘッドで比較したり、リーダーボードで比較したりするには、ag2-eval-comparisonをご覧ください。
+
+常にユーザーの言語で回答してください。

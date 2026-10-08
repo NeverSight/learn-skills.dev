@@ -1,0 +1,1 @@
+Sumsub のクライアントリストを作成・入力する — ワークフロー条件や KYT ルールが照合するキーの名前付きセット（`clientLists.<name>`）。ユーザーがハイリスク国リストを構築したり、エントリを追加・削除したり、キーがリストに含まれているか確認したり、リスト名を ID に解決したり、応募者のブロックリスト解除を行う場合に TRIGGER とする。応募者をブロックリストに入れる操作（`POST /resources/applicants/{id}/blacklist`、リスト書き込みではない）およびリストを参照するルールの作成（`sumsub-create-kyt-rules`、`sumsub-create-workflow`）は SKIP とする。
