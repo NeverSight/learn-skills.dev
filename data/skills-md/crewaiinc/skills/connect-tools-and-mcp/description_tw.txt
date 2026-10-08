@@ -1,0 +1,8 @@
+在 crewai 1.15.x 上為 crewAI 代理提供工具與 MCP 伺服器：自訂帶有 args_schema 與 @tool 的 BaseTool、實際存在的 crewai_tools 名稱、工具快取、max_usage_count、ToolFailure、Agent(mcps=[…]) 字串以及 MCPServerStdio/HTTP/SSE 形式、重新命名的 MCP 工具名稱、MCPServerAdapter、逾時設定，以及在託管部署中可用的功能。寫作或除錯工具或 MCP 連線時使用，尤其在看到以下訊息時：  
+「cannot import name BaseTool from crewai_tools」  
+「You are missing the mcp package」  
+「MCPConnectionError」  
+「Operation timed out after 30 seconds」  
+「reached its usage limit」  
+「Invalid MCP reference」  
+「Anthropic function name … must start with a letter」、代理從未呼叫任何 MCP 工具、mcps=[…] 未產生工具（例如 akickoff 或 CrewAI AMP 下的 https:// 字串），或是本機可用但部署後失效的 stdio MCP 伺服器。

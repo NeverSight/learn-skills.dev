@@ -1,0 +1,7 @@
+撰寫一份針對提升單一 LinkedIn 公司專頁貼文（推廣部落格文章）的作業手冊，內容包括：提升能帶來的效益與限制、與執行期間相稱的全程預算、圖片、貼文文字與第一則含連結的評論、前 90 分鐘的策略、創辦人轉貼與網路 DM、於 Campaign Manager 中圍繞既有貼文建立互動活動的流程、每項任務皆指派負責人的上線前檢查清單、每週決策規則，以及月末成果列。適用情境：  
+1. 需讓第一則評論中含連結的公司專頁貼文獲得付費觸及；  
+2. 已有貼文活動作業手冊，且提升是較低成本的首次測試；  
+3. 發布日期變動時，提升、轉貼與 DM 必須同步調整；  
+4. 使用者提及以下關鍵字或代號：boost、boost this post、boosted post、sponsor the company page post、engagement campaign、link in the first comment、founder repost、repost with your thoughts、DM to our network、BOOST-01、utm_content=boost-01、「who owns this task」以及「move the post to tomorrow」。
+
+手冊需說明相較於「網站流量」廣告活動的取捨、Boost 按鈕隱藏的建置步驟、日期層疊的處理方式，並明確規定每項任務皆不得無人負責。必須以部落格文章的 Markdown 檔案路徑作為必填參數，若未提供則直接中止執行。此手冊針對使用 Next.js App Router 架構的行銷網站撰寫，該網站的貼文皆存於版本庫的 Markdown 檔案，相關人員、轉換詞彙、語系與作業手冊資料夾為系統接點。僅適用於 LinkedIn，排除「網站流量」活動（ad‑campaign‑runbook）、個人檔案貼文寫手與廣告 API 客戶端。

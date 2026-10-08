@@ -1,0 +1,3 @@
+使用 `BaseMiddleware` 攔截 AG2 代理迴圈——可包裹完整回合 (`on_turn`)、每次 LLM 呼叫 (`on_llm_call`)、每次工具執行 (`on_tool_execution`) 或每次使用者輸入請求 (`on_human_input`)。可用於重試、記錄、歷史裁剪、請求變更、工具稽核、保護機制或速率限制。內建中介軟體包括：`LoggingMiddleware`、`RetryMiddleware`、`HistoryLimiter`、`TokenLimiter`、`TelemetryMiddleware`（請參見 `ag2-telemetry`）。如需針對每個工具的掛鉤，亦請參閱 `ag2-add-custom-tool` 的 tool-middleware 章節。
+
+請始終以使用者的語言回覆。

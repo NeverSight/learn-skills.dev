@@ -1,0 +1,1 @@
+建立並填充 Sumsub 客戶清單——即工作流程條件與 KYT 規則匹配的具名鍵集合（`clientLists.<name>`）。當使用者想要建立高風險國家清單、加入或移除條目、檢查鍵是否在清單中、將清單名稱解析為其 ID，或解除申請人的封鎖清單時，觸發（TRIGGER）。對於將申請人加入封鎖清單的操作（即 `POST /resources/applicants/{id}/blacklist`，不是清單寫入）以及寫入引用清單的規則（`sumsub-create-kyt-rules`、`sumsub-create-workflow`），則跳過（SKIP）。

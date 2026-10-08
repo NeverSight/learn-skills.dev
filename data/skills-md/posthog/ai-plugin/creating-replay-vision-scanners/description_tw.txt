@@ -1,0 +1,7 @@
+指導代理在建立與安全設定 Replay Vision 掃描器時的流程：選擇掃描器類型（監控器/分類器/評分器/摘要器）、規劃選取會話的 RecordingsQuery，且——關鍵的是——估算將消耗的點數並在建立前檢查組織剩餘預算，避免寬鬆的掃描器在首次排程掃描時耗盡預算。
+
+觸發時機：使用者請求建立、設定或配置 Replay Vision 掃描器，或當您即將呼叫 vision-scanners-create，或透過 vision-scanners-update 擴大現有掃描器的 query、sampling_rate 或 sampling_mode（或將其升級至較高價位模型）時。
+
+不要觸發的情況：僅僅是閱讀掃描器或觀測結果、刪除掃描器，或在需求下對會話執行現有掃描器（vision-scanners-scan-session / -scan-sessions）。若是針對已擁有的會話進行一次性查詢，請使用 vision-scanners-inline-scan 而非建立掃描器——此技能的第一節說明何時適用。
+
+請始終以使用者的語言回覆。

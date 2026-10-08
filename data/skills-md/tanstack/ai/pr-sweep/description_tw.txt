@@ -1,0 +1,1 @@
+以最多 100 個平行代理掃描開放（或已列出的）PR：對外部貢獻者進行安全掃描、當落後於 main 時執行 rebase（使用 push --force-with-lease）、在相關時批准首次貢獻者的待處理 CI、可選地 rebase 內部 PR，並回報誰應該審查。支援完整、僅變更、僅落後、僅衝突等範圍，以實現廉價的每日執行。當使用者執行 /pr-sweep（或 /pr-inbound-sweep），或要求「sweep PRs」「sweep inbound PRs」「security-check outside PRs」「rebase outsider PRs」「rebase our PRs」「approve waiting CI on PRs」「daily PR sweep」或「prep external PRs for review」時使用。

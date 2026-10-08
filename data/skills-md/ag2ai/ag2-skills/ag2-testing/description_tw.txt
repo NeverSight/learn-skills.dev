@@ -1,0 +1,1 @@
+測試AG2客服人員和工具，而不會碰到真正的LLM供應商。從`ag2.testing`傳遞`TestConfig (...)`作為客服人員的配置（或per- `ask` ）以模擬LLM回應，注入`ToolCallEvent`以模擬工具執行，並斷言成功/錯誤路徑。在使用者為客服人員或工具撰寫pytest測試時使用。

@@ -1,0 +1,3 @@
+更改現有資料倉儲結構的同步設定—切換 sync_type、選擇不同的 incremental_field、設定 primary_key_columns、選擇 cdc_table_mode，或更改 sync_frequency。當使用者提出「將我的 orders 表從全量刷新切換為增量同步」、「此表同步太慢／太頻繁」、「我需要選擇不同的增量欄位」、「為這個 Postgres 表設置 CDC」或診斷失敗的同步問題指向增量欄位或主鍵配置錯誤時，使用此說明。
+
+請始終以使用者的語言回覆。

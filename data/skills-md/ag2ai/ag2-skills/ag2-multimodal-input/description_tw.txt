@@ -1,0 +1,3 @@
+將影像、音訊、影片或文件與文字一起傳送到 AG2 `Agent`。將 `ImageInput`、`AudioInput`、`VideoInput` 或 `DocumentInput` 作為位置參數傳入 `agent.ask(...)`。當使用者希望代理處理非文字輸入時使用——描述照片、轉錄音訊、摘要 PDF、分析影片。涵蓋各供應商的支援矩陣、四種取得資料的方式（URL / 路徑 / 位元組 / file_id）、Gemini 專屬的 YouTube + 媒體解析度 + 剪輯、OpenAI 圖片細節、Anthropic 在附件上的提示快取，以及用於上傳生命週期的 `FilesAPI`。
+
+請始終以使用者的語言回覆。

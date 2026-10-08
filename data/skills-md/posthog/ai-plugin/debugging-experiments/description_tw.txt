@@ -1,0 +1,3 @@
+除錯並支援客戶查看自己結果的 PostHog 實驗（A/B 測試）。在貼上實驗支援票證或客戶詢問結果問題時使用，最常見的問題包括「why aren't my exposures even?」「why is one variant getting no traffic?」「why am I missing / seeing too few exposures?」「why does the bias banner show?」或「why don't PostHog's numbers match my SQL?」。讀取實驗的實際資料（唯讀），對照已知原因目錄，產生面向客戶的說明、解決方案以及相關數據的檢視。載入 diagnosing‑experiment‑results 作為深度診斷函式庫。請勿在以下情況觸發：建立實驗（use creating‑experiments）、僅設定推出（configuring‑experiment‑rollout）或指標（configuring‑experiment‑analytics）、詢問生命週期問題（managing‑experiment‑lifecycle），或基礎的功能旗標出問題而非結果（use debugging‑feature‑flags）。  
+
+請始終以使用者的語言回覆。

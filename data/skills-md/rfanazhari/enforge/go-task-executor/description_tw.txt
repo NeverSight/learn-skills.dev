@@ -1,0 +1,1 @@
+執行 Go 工程任務計畫（通常是來自 engineering‑tripack‑generator 的任務計畫輸出，或任何貼上的任務文件），透過撰寫實際的 Go 程式碼與測試，並符合團隊內部的 Go 程式碼標準（Clean Architecture、DDD、TDD）。每當使用者貼上/嵌入任務計畫或任務說明，且要求 Claude 實作、建置、編碼或在 Go 中執行時，就使用此指令——而非僅僅規劃或審核。使用者必須將每個任務（或整份文件）標記為「new」或「legacy」程式碼；若缺少此標記，請先詢問再撰寫任何程式碼。以「go-task-executor:」 、「execute this task plan」 、「implement this in Go following our standards」 或貼上的 Go 實作任務檢查清單等詞句觸發。

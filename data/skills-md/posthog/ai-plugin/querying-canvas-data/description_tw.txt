@@ -1,0 +1,1 @@
+正確將 PostHog 資料載入畫布：主機注入的 `ph` SDK（loadInsight、query、capture、state、connectors、openExternal、navigate）、資料層級（先載入已儲存的洞察，其次是類型化查詢節點，最後是內嵌的 HogQL）、可驗證性（以洞察為基礎的指標會連結到它們在 PostHog 中儲存的洞察；即時查詢會顯示實際執行的查詢語句）、依據洞察類型的結果形態、逐查詢的漸進式載入、日期範圍的串接、透過觀者自身的連線（ph.connectors）即時取得第三方資料，以及從畫布捕捉事件。於畫布顯示指標、圖表、表格、任何 PostHog 資料、GitHub 或 MCP 伺服器資料，或需要傳送分析事件時，請使用本功能。
