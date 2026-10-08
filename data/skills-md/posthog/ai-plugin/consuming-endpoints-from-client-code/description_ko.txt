@@ -1,0 +1,1 @@
+PostHog 엔드포인트를 클라이언트 앱이나 SDK에 연결합니다. OpenAPI 스펙을 가져오고, openapi-generator 또는 @hey-api/openapi-ts 로 타입이 지정된 클라이언트를 생성하며, 올바른 인증 헤더를 전송하고, 변수 페이로드를 구성합니다 (HogQL code_name vs insight breakdown property). 또한 레이트리밋 및 materialised-endpoint 오류 응답을 처리합니다. 사용자는 “how do I call my endpoint”, “generate a client for this”, 또는 “what auth header do I use” 라고 말할 때 사용합니다.

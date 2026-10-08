@@ -1,0 +1,4 @@
+Replay Vision 스캐너를 만들고 안전하게 크기를 조정하도록 에이전트를 안내합니다: 스캐너 유형(모니터/분류기/스코어러/요약기) 선택, 세션을 선택하는 RecordingsQuery 구성, 그리고 무엇보다도 스캐너가 사용할 크레딧을 추정하고 생성 전에 조직의 남은 예산을 확인하여, 광범위한 스캐너가 첫 번째 예약 스윕에서 예산을 소진하지 않도록 합니다.  
+TRIGGER 조건: 사용자가 Replay Vision 스캐너를 생성, 설정 또는 구성하려고 요청할 때, 또는 vision‑scanners‑create 를 호출하려고 할 때, 또는 기존 스캐너의 쿼리, sampling_rate, sampling_mode 를 확장하거나(더 비싼 모델로) vision‑scanners‑update 를 통해 변경할 때.  
+DO NOT TRIGGER 조건: 스캐너나 관찰 결과를 읽는 것만 할 때, 스캐너를 삭제할 때, 또는 기존 스캐너를 세션에 대해 즉시 실행할 때(vision‑scanners‑scan‑session/-scan‑sessions). 이미 보유하고 있는 세션에 대한 일회성 질문인 경우, 스캐너를 생성하지 말고 vision‑scanners‑inline‑scan을 사용하세요 — 기술의 첫 번째 섹션에서 적용 시점을 다룹니다.  
+항상 사용자의 언어로 응답하십시오.

@@ -1,0 +1,3 @@
+Sumsub 클라이언트 리스트를 생성하고 채워 넣습니다 — 워크플로 조건과 KYT 규칙이 매칭되는 키들의 이름이 지정된 집합(`clientLists.<name>`).  
+사용자가 고위험 국가 리스트를 만들거나, 항목을 추가·삭제하거나, 키가 리스트에 존재하는지 확인하거나, 리스트 이름을 ID로 변환하거나, 지원자를 블랙리스트 해제하려는 경우 TRIGGER합니다.  
+지원자를 블랙리스트 하는 경우(SKIP: `POST /resources/applicants/{id}/blacklist`, 리스트 쓰기가 아님)와 리스트를 참조하는 규칙을 작성하는 경우(`sumsub-create-kyt-rules`, `sumsub-create-workflow`)는 SKIP합니다.

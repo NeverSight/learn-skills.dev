@@ -1,0 +1,1 @@
+복구 가능한 오류를 `Result`와 `?` 로 처리하고, `.unwrap()` 혹은 `.expect()` 를 사용하거나, `&str` 과 `String` 중 하나를 선택하고, `.clone()` 또는 `.to_string()` 을 추가하거나, async 코드, Tokio 런타임, 혹은 오래된 futures 0.1 API 를 사용할 때 사용합니다.
