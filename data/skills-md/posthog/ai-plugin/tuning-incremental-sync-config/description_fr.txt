@@ -1,0 +1,3 @@
+Modifiez la configuration de synchronisation d’un schéma de data warehouse existant — changez le sync_type, choisissez un autre incremental_field, définissez les primary_key_columns, choisissez le cdc_table_mode ou modifiez le sync_frequency. Utilisez cela lorsque l’utilisateur demande « passez ma table orders de la mise à jour complète à incrémentielle », « cette table se synchronise trop lentement / trop fréquemment », « je dois choisir une colonne incrémentielle différente », « configurer le CDC pour cette table Postgres », ou lorsqu’un diagnostic d’échec de synchronisation pointe vers une mauvaise configuration du champ incrémentiel ou de la clé primaire.  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
