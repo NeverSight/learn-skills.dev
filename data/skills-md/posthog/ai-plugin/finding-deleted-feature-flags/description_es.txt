@@ -1,0 +1,3 @@
+Encuentra banderas de características que fueron eliminadas suavemente en el proyecto activo dentro de una ventana de tiempo reciente. Úsalo cuando el usuario pregunte “qué banderas fueron eliminadas en los últimos N días”, “muéstrame las banderas de características eliminadas recientemente”, “quién eliminó la bandera X”, “auditar eliminaciones recientes de banderas” o algo similar. Maneja el detalle no evidente de que system.feature_flags expone el booleano deleted pero no expone una marca de tiempo de eliminación — el tiempo real de eliminación vive en el registro de actividad de cada bandera y debe cruzarse.
+
+Por favor, responde siempre en el idioma del usuario.

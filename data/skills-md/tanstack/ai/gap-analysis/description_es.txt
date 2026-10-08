@@ -1,0 +1,1 @@
+Auditar los adaptadores de proveedor de IA de TanStack para detectar brechas de paridad de funcionalidades y listas de modelos desactualizadas. Se activa como `/gap-analysis <provider|feature <name>|models|--all>`. Genera un informe markdown con fecha bajo `.agent/gap-analysis/`. Herramienta de mantenimiento — no edita directamente `feature-support.ts` ni `model-meta.ts`.

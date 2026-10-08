@@ -1,0 +1,3 @@
+Cambia la configuración de sincronización de un esquema de almacén de datos existente: cambia sync_type, elige un incremental_field diferente, establece primary_key_columns, selecciona cdc_table_mode o modifica sync_frequency. Utilízalo cuando el usuario solicite “cambiar mi tabla de pedidos de actualización completa a incremental”, “esta tabla se está sincronizando demasiado despacio / con demasiada frecuencia”, “necesito seleccionar una columna incremental diferente”, “configurar CDC para esta tabla de Postgres”, o cuando el diagnóstico de una sincronización fallida apunte a una mala configuración del campo incremental o de la clave primaria.
+
+Por favor, responde siempre en el idioma del usuario.
