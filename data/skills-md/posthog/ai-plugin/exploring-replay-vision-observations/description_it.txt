@@ -1,0 +1,7 @@
+Guida gli agenti nel recuperare le osservazioni di uno scanner Replay Vision, nella lettura dei risultati e nell’agire su di essi — riassumendo i pattern tra le sessioni, approfondendo le singole registrazioni e trasformando problemi reali e confermati in task PostHog, insight o un passaggio di indagine del replay.  
+
+**ATTIVA quando:** l’utente vuole recuperare/leggere/triage le osservazioni di Replay Vision, chiede “cosa ha trovato il mio scanner”, vuole agire o riassumere i risultati dello scanner, trasformare le osservazioni in task/lavoro, oppure indica un URL del tipo `/replay-vision/<scanner-id>`.  
+
+**NON ATTIVARE quando:** si sta creando o dimensionando uno scanner (usare *creating-replay-vision-scanners*), si esegue una scansione una tantum senza poi analizzarla, o si sta redigendo un *signals scout*.  
+
+Rispondi sempre nella lingua dell’utente.

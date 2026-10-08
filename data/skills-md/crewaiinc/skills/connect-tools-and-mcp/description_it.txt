@@ -1,0 +1,5 @@
+Fornire agli agenti crewAI strumenti e server MCP su crewai 1.15.x: BaseTool personalizzato con args_schema e @tool, quali nomi di crewai_tools esistono realmente, cache degli strumenti, max_usage_count, ToolFailure, stringa Agent(mcps=[…]), forme MCPServerStdio/HTTP/SSE, nomi degli strumenti MCP riscritti, MCPServerAdapter, timeout e ciò che funziona in un’implementazione hostata.  
+
+Da usare quando si scrive o si esegue il debug di uno strumento o di una connessione MCP, quando compaiono messaggi come “cannot import name BaseTool from crewai_tools”, “You are missing the mcp package”, “MCPConnectionError”, “Operation timed out after 30 seconds”, “reached its usage limit”, “Invalid MCP reference”, “Anthropic function name … must start with a letter”, un agente che non chiama mai uno strumento MCP, mcps=[…] che non restituiscono strumenti (ad esempio una stringa https:// sotto akickoff o su CrewAI AMP), o un server MCP stdio che funziona localmente ma non dopo il deploy.  
+
+Rispondi sempre nella lingua dell’utente.

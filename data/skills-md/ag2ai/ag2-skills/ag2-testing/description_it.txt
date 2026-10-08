@@ -1,0 +1,1 @@
+Testa gli agenti e gli strumenti AG2 senza contattare un provider LLM reale. Passa `TestConfig(...)` da `ag2.testing` come configurazione dell'agente (o per `ask`) per simulare le risposte LLM, inietta `ToolCallEvent`s per simulare l'esecuzione dello strumento e verifica i percorsi di successo/errore. Usalo quando l'utente sta scrivendo test pytest per un Agent o un Tool.
