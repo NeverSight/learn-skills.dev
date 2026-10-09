@@ -1,0 +1,1 @@
+Переносит наблюдаемость LLM из LangSmith в Arize AX — импорт исторических трассировок через OTLP (выходы LS → output.value, сессия/поток → session.id), наборы данных и запросы Prompt Hub (последние или версии). Используйте при миграции с LangSmith на Arize, импортируя запуски LangSmith в AX, или заменяя LangSmith на Arize.
