@@ -1,0 +1,3 @@
+現在の crewai 1.15.x API と、コーディング アシスタントが記憶している 0.x API を比較: インポート、Agent/Task/Crew のパラメータとデフォルト、キックオフのバリエーション、CrewOutput フィールド、LLM モデル文字列とプロバイダーの追加情報、構造化出力（output_pydantic、response_model、response_format）、ガードレール、統合メモリ、ナレッジ埋め込み、`crewai create crew` ウィザード vs --classic、reset-memories フラグ、そして削除された機能。crewai のコードを書いたり、レビューしたり、デバッグしたりするとき、記憶された crewai 構文を信頼する前、またはユーザーが以下のようなエラーを貼り付けたときに使用してください: `cannot import name 'BaseTool' from 'crewai_tools'`、`cannot import name 'persist'`、`ShortTermMemory`、`Anthropic native provider not available`、`LiteLLM fallback package is not installed`、`got an unexpected keyword argument 'response_format'`、`OPENAI_API_KEY is required`、`If return type is annotated, it must be Tuple[bool, Any]`、または `result.pydantic is None`。
+
+常にユーザーの言語で回答してください。

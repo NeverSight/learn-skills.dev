@@ -1,0 +1,3 @@
+機能のコードが1行も書かれる前に、spec（`SPEC NN`）の作成、レビュー、ライフサイクル管理を行います — spec駆動設計フローの意図的に遅いフェーズです。`templates/SPEC.template.md` の各セクション（コンテキスト、ゴール、非ゴール、依存関係、機能要件、インターフェースと契約、非機能要件、エッジケース、受け入れ基準、リスク、未解決の質問）を埋めるためにソクラテス式の質問を行い、`NN` を順番に割り当て、`Depends on:` の参照を検証し、ステータスの遷移（Draft → In review → Approved → Implemented → Obsolete、またはスペイン語の同等表記 — Borrador → En revisión → Aprobado → Implementado → Obsoleto）を管理します。ユーザーが「escribamos el spec de...」「necesito un spec para...」「let's spec out...」「write a spec for...」「manda este spec a revisión」「apruebo el SPEC 04」「approve SPEC 04」「¿qué dice el SPEC 02?」「este spec quedó obsoleto」などと要求したり、`specs/SPEC-NN` を明示的に言及したときにこのスキルを使用します。アプリケーションコードを書いたり実装を開始したりしません — それは **bambu-spec-implement** の仕事で、対応する spec が Approved に達した時点でのみ起動します。
+
+常にユーザーの言語で応答してください。
