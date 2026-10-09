@@ -1,0 +1,2 @@
+Interfaz pública para revisiones manuales: un contrato de superficie + un puente + un host local para cuando no hay plugin, que permite que la página de revisión de cualquier skill se adjunte a la barra lateral de DSH y también se ejecute normalmente sin DSH.  
+Es invocada por todas las skills que incluyen un paso de revisión, **no se activa directamente por el usuario**. El único escenario para usarla directamente es cuando ya tienes un `review-surface.json`, deseas validarlo por separado o quieres ejecutar esa página de revisión sin DSH.

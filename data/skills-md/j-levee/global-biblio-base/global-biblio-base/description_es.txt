@@ -1,0 +1,11 @@
+Base de conocimiento global de 1.200 millones de documentos (80 millones de revistas chinas descargables) – ofrece capacidades de búsqueda y descarga de literatura académica china y extranjera a través de la API de la plataforma abierta SmartLib, abarcando 80 millones de artículos de revistas chinas de texto completo autorizados + 1,228 mil millones de registros de metadatos globales (revistas 719 millones / patentes 215 millones / conferencias 71,55 millones / tesis 24,73 millones / normas 2,68 millones).
+
+Características: búsqueda por palabras clave en chino e inglés, detalles del documento, descarga de PDF de texto completo de revistas chinas, descarga gratuita de literatura OA extranjera mediante canales de diez niveles (sin consumo de cuota), expansión inteligente de palabras clave, orden de prioridad de revistas centrales, reordenación por relevancia, rastreo de citas, búsqueda por número de clasificación.
+
+Cuota: Primer uso con registro automático, 100 búsquedas gratuitas + 10 descargas por mes; al agotarse, aparece automáticamente un paquete (tarjeta de prueba / mensual personal / mensual profesional / descarga de artículo único / paquete de descargas). Di “actualizar / recargar” para activarlo. Para personalizaciones empresariales/institucionales, contactar a vipsmart@vipslib.com.
+
+Activación: Se genera cuando el usuario expresa intenciones como “buscar artículos”, “encontrar literatura”, “búsqueda académica”, “buscar revistas”, “consultar patentes”, “buscar normas”, “descargar artículo”, “escribir revisión de literatura”, “encontrar referencias”, “verificar SCI/EI”, etc.; también se aplica a “ayúdame a encontrar artículos sobre XX”, “escribe una revisión de literatura”, “encuentra algunas citas para respaldar un argumento”. Frases en inglés: “find papers”, “search literature”, “write literature review”, “find supporting citations”.
+
+Antes de llamar, debes usar primero /consume para obtener un consume_token, y luego invocar /search con el token (cada llamada API facturada requiere un /consume previo).
+
+Por favor, responde siempre en el idioma del usuario.
