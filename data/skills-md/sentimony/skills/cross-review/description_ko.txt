@@ -1,0 +1,3 @@
+구현 계획이나 완성된 구현이 다른 에이전트에 의한 독립적인 검토가 필요할 때 반드시 이를 사용해야 합니다. 예를 들어 CLI‑Codex가 Claude Code에서 수행된 작업을 검토하거나, Claude Code가 Codex에서 수행된 작업을 검토하는 경우처럼, 사용자가 교차 검토 또는 다른 에이전트의 두 번째 의견을 요청하든, plan‑crafting, inline‑plan‑dev, 혹은 subagent‑plan‑dev가 교차 검토 단계에 도달하든 적용됩니다. 동일 호스트 내 구현 검토는 review‑request 및 검토 결과를 결정하는 review‑resolution에 속하며, 사양 검토와 작업별 검토는 이 기술 범위에 포함되지 않습니다.
+
+항상 사용자의 언어로 응답하십시오.
