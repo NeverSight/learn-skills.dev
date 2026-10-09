@@ -1,0 +1,3 @@
+创建、审查并管理 specs（`SPEC NN`）的生命周期，以便在任何代码行写入之前为功能制定规范——这是 spec‑driven 设计流程中特意放慢的阶段。通过苏格拉底式提问填充 `templates/SPEC.template.md` 的每个部分（背景、目标、非目标、依赖、功能需求、接口和契约、非功能需求、边缘情况、验收标准、风险、未解问题），为每个 spec 分配顺序编号 `NN`，验证 `Depends on:` 的引用，并控制状态转换：Draft → In review → Approved → Implemented → Obsolete（或其西班牙语等价 — Borrador → En revisión → Aprobado → Implementado → Obsoleto）。当用户请求“escribamos el spec de…”、 “necesito un spec para…”、 “let's spec out…”、 “write a spec for…”、 “manda este spec a revisión”、 “apruebo el SPEC 04”、 “approve SPEC 04”、 “¿qué dice el SPEC 02?”、“este spec quedó obsoleto”，或明确提到 `specs/SPEC‑NN` 时，使用此技能。绝不编写应用代码或开始实现——那是 **bambu‑spec‑implement** 的工作，只有在相应的 spec 达到 Approved 状态后才会启动。
+
+请始终使用用户的语言回复。

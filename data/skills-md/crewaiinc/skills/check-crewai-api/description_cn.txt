@@ -1,0 +1,3 @@
+当前 crewai 1.15.x API 与编码助手记得的 0.x API 对比：导入、Agent/Task/Crew 参数及默认值、启动变体、CrewOutput 字段、LLM 模型字符串和提供者额外参数、结构化输出（output_pydantic、response_model、response_format）、安全防护、统一 Memory、知识嵌入器、`crewai create crew` 向导 vs --classic、reset-memories 标志，以及已移除的功能。编写、审查或调试任何 crewai 代码时使用，在信任记忆中的 crewai 语法之前，或当用户粘贴错误如 `cannot import name 'BaseTool' from 'crewai_tools'`、`cannot import name 'persist'`、`ShortTermMemory`、`Anthropic native provider not available`、`LiteLLM fallback package is not installed`、`got an unexpected keyword argument 'response_format'`、`OPENAI_API_KEY is required`、`If return type is annotated, it must be Tuple[bool, Any]` 或 `result.pydantic is None` 时使用。
+
+请始终以用户的语言作答。

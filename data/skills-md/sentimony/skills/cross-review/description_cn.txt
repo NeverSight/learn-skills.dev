@@ -1,0 +1,3 @@
+当实现计划或已完成的实现需要另一代理 CLI（Codex 对 Claude Code 完成的工作进行审查，或 Claude Code 对 Codex 完成的工作进行审查）进行独立审查时，您必须使用此功能——无论用户是请求交叉审查、向另一代理寻求第二意见，还是在计划制定、inline‑plan‑dev 或 subagent‑plan‑dev 达到交叉审查步骤时。 同主机的实现审查属于 review‑request 并决定 findings 到 review‑resolution；规范审查和每任务审查不在此技能范围内。
+
+请始终使用用户的语言作答。

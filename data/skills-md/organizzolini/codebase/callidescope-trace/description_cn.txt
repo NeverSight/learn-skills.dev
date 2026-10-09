@@ -1,0 +1,11 @@
+运行 callidescope 并阅读它的输出——整个工作区的追踪、某个项目的 gate 判决，或针对一个或多个可调用对象的 depth 与 breadth 命令，每个对象用 file#qualified-name 表示。使用场景包括：
+
+- 运行 callidescope 或 npx callidescope 时；
+- 阅读调用栈或 breadth 行时；
+- 阅读每个项目的 gate 或 trace 目标的输出时；
+- 阅读项目 README 中的 Limits 表时；
+- 当深度以 “≥ n” 形式打印，需要解释时；
+- 阅读已提交的 markdown 报告、mermaid 图或 JSON 报告时；
+- 当使用 --directories 限定运行后报告了一个帧、一个栈或一个该运行本未指向的项目时；
+- 当深度移动却没有相应的编辑解释时；
+- 或者在询问“谁调用了它”、 “它调用了什么”、 “此重命名会影响哪些内容”、以及“在重构开始前应在何处将此可调用对象拆分” 时。

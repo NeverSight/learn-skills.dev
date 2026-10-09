@@ -1,9 +1,9 @@
-全球12亿文献知识库（8千万中文期刊可下载）——通过 SmartLib 开放平台 API 提供中外文学术文献检索与下载能力，覆盖 8000 万篇授权中文期刊全文 + 12.28 亿条全球文献元数据（期刊 7.19 亿 / 专利 2.15 亿 / 会议 7155 万 / 学位论文 2473 万 / 标准 268 万）。
+Global 1.2 billion-document knowledge base (80 million downloadable Chinese journals) — provides Chinese and foreign academic literature search and download capabilities via the SmartLib open platform API, covering 80 million full‑text authorized Chinese journals plus 1.228 billion global document metadata (journals 719 million / patents 215 million / conferences 71.55 million / dissertations 24.73 million / standards 2.68 million).
 
-能力：中英文关键词检索、文献详情、中文期刊 PDF 全文下载、外文 OA 文献十级渠道免费下载（不消耗配额）、智能关键词扩展、核心期刊优先排序、相关性重排、引文追溯、分类号检索。
+Capabilities: Chinese and English keyword search, document details, full‑text PDF download of Chinese journals, free download of foreign OA literature through ten‑level channels (no quota consumption), intelligent keyword expansion, core‑journal priority sorting, relevance re‑ranking, citation tracing, classification‑number search.
 
-配额：首次使用自动注册，免费 100 次检索 + 10 次下载 / 月；耗尽自动弹出套餐（体验卡 / 个人版月 / 专业版月 / 单篇下载 / 下载包），可说「升级 / 充值」唤起；企业 / 机构定制联系 vipsmart@vipslib.com。
+Quota: Automatic registration on first use, free 100 searches + 10 downloads per month; when exhausted, a package automatically pops up (trial card / personal monthly / professional monthly / single download / download bundle), which can be invoked by saying “upgrade / recharge”; corporate/institution custom contact vipsmart@vipslib.com.
 
-触发：用户表达"查论文""找文献""检索学术""搜期刊""查专利""找标准""下论文""写文献综述""找参考文献""查 SCI/EI"等意图时启用；也适用"帮我找关于 XX 的论文""写文献综述""找几篇引用支撑论点"。英文："find papers" "search literature" "write literature review" "find supporting citations"。
+Trigger: Activated when a user expresses intents such as “search paper”, “find literature”, “academic search”, “search journal”, “search patent”, “find standard”, “download paper”, “write literature review”, “find references”, “search SCI/EI”, etc.; also applies to phrases like “help me find papers about XX”, “write literature review”, “find a few citations to support arguments”. English examples: “find papers”, “search literature”, “write literature review”, “find supporting citations”.
 
-调用前必须先用 /consume 获取 consume_token，再凭 token 调 /search（每次计费接口调用都需一次 /consume）。
+Before calling, you must first use /consume to obtain a consume_token, then use the token to call /search (each billed API call requires a /consume).
