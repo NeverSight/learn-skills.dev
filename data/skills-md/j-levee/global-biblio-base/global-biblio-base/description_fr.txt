@@ -1,0 +1,11 @@
+Base de connaissances mondiale de 1,2 milliard de documents (80 millions de revues chinoises téléchargeables) — offre des fonctions de recherche et de téléchargement de littérature académique chinoise et étrangère via l’API de la plateforme ouverte SmartLib, couvrant 80 millions de revues chinoises autorisées en texte intégral ainsi que 1,228 milliard de métadonnées de documents mondiaux (revues 719 millions / brevets 215 millions / conférences 71,55 millions / thèses 24,73 millions / normes 2,68 millions).
+
+Fonctionnalités : recherche par mots‑clé en chinois et en anglais, détails du document, téléchargement PDF en texte intégral des revues chinoises, téléchargement gratuit de littérature OA étrangère via dix canaux (ne consomme pas de quota), expansion intelligente des mots‑clé, tri prioritaire des revues de base, re‑classement par pertinence, traçage des citations, recherche par numéro de classification.
+
+Quota : enregistrement automatique à la première utilisation, 100 recherches gratuites + 10 téléchargements par mois ; lorsqu’il est épuisé, un forfait s’affiche automatiquement (carte d’essai / forfait mensuel individuel / forfait mensuel professionnel / téléchargement d’un article unique / lot de téléchargements), qui peut être activé en disant « upgrade / recharge » ; pour les solutions personnalisées d’entreprise/institution, contacter vipsmart@vipslib.com.
+
+Déclencheur : activé lorsque l’utilisateur exprime des intentions telles que « search papers », « find literature », « search academic », « search journals », « search patents », « find standards », « download paper », « write literature review », « find reference literature », « search SCI/EI », etc. ; cela s’applique également à « help me find papers on XX », « write a literature review », « find a few citations to support my argument ». En anglais : « find papers », « search literature », « write literature review », « find supporting citations ».
+
+Avant d’appeler, vous devez d’abord obtenir un consume_token via /consume, puis utiliser le jeton pour appeler /search (chaque appel d’API facturé nécessite un /consume).
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

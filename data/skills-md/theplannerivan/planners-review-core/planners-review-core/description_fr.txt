@@ -1,0 +1,3 @@
+Point de jonction public pour la révision manuelle : un contrat de surface + un pont + un hôte local lorsqu’il n’y a pas de plugin, permettant d’attacher la page de révision de n’importe quelle compétence à la barre latérale DSH, et également de la faire fonctionner normalement en l’absence de DSH.
+
+Il est invoqué par toutes les compétences qui incluent une étape de révision, **non déclenché directement par l’utilisateur**. Le seul cas où vous l’utilisez directement est lorsque vous avez déjà un `review-surface.json` et que vous souhaitez le valider séparément, ou exécuter cette surface de révision sans DSH.
