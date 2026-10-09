@@ -1,0 +1,11 @@
+Database globale di 1,2 miliardi di documenti (80 milioni di riviste cinesi scaricabili) — offre capacità di ricerca e download di letteratura accademica cinese e straniera tramite l'API della piattaforma aperta SmartLib, coprendo 80 milioni di articoli di riviste cinesi a testo integrale autorizzato più 1,228 miliardi di metadati di documenti globali (riviste 719 milioni / brevetti 215 milioni / conferenze 71,55 milioni / tesi 24,73 milioni / standard 2,68 milioni).
+
+Caratteristiche: ricerca per parole chiave in cinese e inglese, dettagli del documento, download PDF a testo integrale delle riviste cinesi, download gratuito della letteratura OA straniera tramite canali a dieci livelli (senza consumo di quota), espansione intelligente delle parole chiave, ranking prioritario di riviste di base, riorganizzazione per rilevanza, tracciamento delle citazioni, ricerca per numero di classificazione.
+
+Quota: registrazione automatica al primo utilizzo, 100 ricerche + 10 download gratuiti al mese; una volta esauriti, viene proposto automaticamente un pacchetto (carta di prova / mensile personale / mensile professionale / download di singolo articolo / pacchetto download), che può essere attivato dicendo “upgrade / ricarica”. Per soluzioni personalizzate per aziende/istituzioni contattare vipsmart@vipslib.com.
+
+Attivatore: si attiva quando un utente esprime intenzioni come “cercare articoli”, “trovare letteratura”, “ricerca accademica”, “cercare riviste”, “cercare brevetti”, “trovare standard”, “scaricare articolo”, “scrivere una revisione della letteratura”, “trovare riferimenti”, “cercare SCI/EI”, ecc.; vale anche per “aiutami a trovare articoli su XX”, “scrivi una revisione della letteratura”, “trova alcune citazioni per supportare un argomento”. Parole chiave in inglese: “find papers”, “search literature”, “write literature review”, “find supporting citations”.
+
+Prima di effettuare una chiamata, è necessario ottenere prima un consume_token tramite /consume, poi utilizzare il token per chiamare /search (ogni chiamata API a pagamento richiede un /consume).
+
+Rispondi sempre nella lingua dell'utente.
