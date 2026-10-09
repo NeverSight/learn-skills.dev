@@ -1,0 +1,1 @@
+將Metabase標記為已過期的現有Metabase資料應用程式（其`data_app.yaml` `版本`低於已安裝技能和SDK目標的資料應用程式合約版本）遷移到當前版本，一次升級一次，具有可恢復的程序。當Metabase將應用程式顯示為已過期、SDK升級後「npm run typecheck」或「npm run build」失敗，或現有應用程式的「版本」落後於已安裝的技能目標時使用。不適用於建立應用程式。

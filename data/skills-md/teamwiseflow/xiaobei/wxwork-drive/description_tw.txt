@@ -1,0 +1,1 @@
+管理企業微信微盤（WeDrive）中的空間、資料夾與檔案，透過 wiseflow‑relay —— 建立空間、建立資料夾、上傳圖片／影片、列出、取得資訊、重新命名、搬移、刪除，並透過檔案層級分享連結分享檔案。標準流程 為 建空間 → 傳檔案 → file‑share 發分享連結給同事。認證資訊（corp_id + corp_secret）從 daemon.env 讀取，並於每次請求時傳遞；relay 為無狀態。空間／資料夾 ID 會本機快取於 spaces.json。

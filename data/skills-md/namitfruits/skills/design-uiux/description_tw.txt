@@ -1,0 +1,3 @@
+將 UI 設計成可點擊的 HTML 原型，像真實 App 一樣。能閱讀提供的 design system（DESIGN.md、CSS token 檔案、專案的 component）以及現有的畫面；若沒有 design system，則列出 getdesign 的設計清單讓使用者選取；若需求模糊則以預設的問題與答案詢問；題目可以是單一畫面或一個流程：單一畫面時依使用情境找出方案，平行建立兩個 A/B 方案，不問使用者選擇；流程時則拆成多個畫面，在聊天中列出畫面表，每個畫面一個 page，平行建立。每個位於 `.design/NNN‑slug/` 的 page 由子代理依六步列表建構；開始建構即產生連結，開啟的 page 於每一步完成時自動顯示新版本，若中斷則從中斷的步驟繼續。Page 含 data‑panel 供變更資料（變數），config‑panel 供調整設定（調整：角色、版面、厚度），toolbar 可切換方案或畫面，支援 desktop / tablet / mobile 尺寸，亮色／暗色模式。收到意見即直接修改該 page 直到完成。交付前以程式碼（`check.mjs`）檢查輸出。僅提供 HTML，不修改專案程式碼。使用 `--auto` 參數可不停止詢問。於使用者說「設計畫面 X」「設計流程 X」「思考顯示方案」「製作 prototype」「可點擊的 mockup」「改進頁面 Y 介面」「design this screen」「design this flow」「prototype」「show me options」或提供 UI 需求與 design system 時使用。
+
+請始終以使用者語言回覆。

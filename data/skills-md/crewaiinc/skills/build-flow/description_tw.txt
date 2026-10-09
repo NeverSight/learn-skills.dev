@@ -1,0 +1,8 @@
+在 crewai 1.15.x 上構建 CrewAI Flows：結構化（Pydantic）與 dict 狀態以及 state.id、@start/@listen/@router 連線、or_/and_ 語義、router 標籤與方法名稱、@persist（正確的 import、它存放狀態的位置、restore_from_state_id）、使用 CheckpointConfig 的檢查點、@human_feedback 與 HumanFeedbackResult.feedback、plot()、在 flow 方法中呼叫 crews 與 agents、kickoff 輸入，以及 `crewai create flow` 架構。於撰寫或除錯 Flow 子類或使用 `from crewai.flow import ...` 的 main.py 時使用，當監聽器永不觸發或觸發兩次，或看到類似以下錯誤時：  
+「listen condition 'x' references the handler name 'x'」  
+「cannot import name 'persist'」  
+「'StateWithId' object is not subscriptable」  
+「Flow state model must have an 'id' field」  
+「--inputs requires a declarative flow definition」  
+「invoked synchronously from within a running event loop」  
+或 HumanFeedbackCollapseError。
