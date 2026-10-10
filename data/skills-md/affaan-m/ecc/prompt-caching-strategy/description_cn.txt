@@ -1,0 +1,3 @@
+优化 LLM 提示缓存命中率，以降低 API 成本并提升延迟。分析提示结构，识别可缓存与不可缓存的内容，并建议重构以最大化缓存复用。触发条件：用户说 “prompt cache”、 “cache hit rate”、 “reduce LLM cost”、 “optimize token usage”、 “cheaper LLM calls”，或询问关于 OpenAI、Anthropic 或其他提供商的提示缓存策略。不要触发的情况：用户仅想优化单个提示的质量（请使用 prompt-optimizer），或询问通用缓存基础设施。
+
+请始终使用用户的语言回复。

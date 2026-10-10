@@ -1,0 +1,1 @@
+在构建一个从外部来源（例如 Azure DevOps、内部 API、JSON 文件）摄取实体的目录后端模块时使用。涵盖普通的 EntityProvider 和用于大批量来源的 IncrementalEntityProvider，以及通过 catalogProcessingExtensionPoint 或 incrementalIngestionProvidersExtensionPoint 进行模块连接。可通过诸如 “catalog provider”、 “ingest entities from X”、 “import entities from <source>”、或 “incremental ingestion” 等短语触发。

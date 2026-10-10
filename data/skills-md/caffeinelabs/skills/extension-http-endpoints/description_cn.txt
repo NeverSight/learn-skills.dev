@@ -1,0 +1,1 @@
+通过IC HTTP网关方法“HTTP_REQUEST”/“HTTP_REQUEST_UPDATE”从Motoko罐（ webhooks、curl POST/GET、机器人回调、摄取/健康API ）提供入站HTTP。每当用户或规格需要外部HTTP客户端可以访问的罐子URL时加载— Stripe/GitHub/Slack webhook、Telegram机器人、健康检查或任何普通的REST-ish端点。不适用于从罐中调用外部API （使用`extension-http-outcalls' ） ；不适用于认证静态资产服务。
