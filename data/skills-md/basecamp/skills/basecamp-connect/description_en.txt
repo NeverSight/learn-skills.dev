@@ -1,0 +1,14 @@
+Drive your own Claude Code session from Basecamp. Starts the local connector
+(basecamp connect), which listens to the account's event feed as a Basecamp
+agent and prints one line per trusted request: a mention, an assignment, a
+comment on a thread the agent follows. This session acknowledges each one
+within seconds (a boost in its own words), picks the repo for the project,
+and hands the request to a background subagent that reads the context, does
+the work with your settings and tools, and replies as the agent. The session
+stays free to take the next request, and you can keep using it.
+Also connects an agent to this computer and manages its setup: the agent's
+credential (basecamp auth agent connect), who may give it work, and which
+projects it serves (basecamp connect setup), plus status and doctor.
+Use when asked to connect an agent, drive agents from Basecamp, watch
+Basecamp for an agent's mentions, start or stop the connector, or change
+who can give the agent work or which projects it serves.
