@@ -1,0 +1,1 @@
+Переносит наблюдаемость LLM из Braintrust в Arize AX — импорт исторических трассировок через OTLP (BT output→output.value, span_parents, одна трасса AX на каждый ход + session.id), наборы данных и подсказки (последние или версии). Использовать при миграции из Braintrust в Arize или при импорте логов Braintrust в AX.
