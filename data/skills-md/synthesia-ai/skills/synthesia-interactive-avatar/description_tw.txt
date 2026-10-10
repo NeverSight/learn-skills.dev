@@ -1,0 +1,3 @@
+將 Synthesia 互動化身整合至 LiveKit 代理的端對端流程 —— 偵測使用者現有的 LiveKit 設定，並以三行模式附加化身；若不存在則搭建完整的範本語音代理。使用時機：（1）為 LiveKit 代理、應用或網站加入即時、互動、對話或口型同步的化身，或在會議進行中切換/交換化身；（2）使用者提及 Synthesia 化身外掛、livekit-plugins-synthesia、synthesia.AvatarSession，或 Interactive Avatar；（3）從其他化身供應商（HeyGen LiveAvatar、Tavus、Beyond Presence、Hedra）遷移至 Synthesia；（4）除錯 Synthesia 化身問題 —— SynthesiaError（類型 AUTH、UNKNOWN_AVATAR、TIMEOUT 等）、化身始終未加入、化身加入但無口型同步；（5）建立任何需要在人臉顯示的語音代理，即使使用者未明確提及 Synthesia。
+
+請始終以使用者的語言回覆。

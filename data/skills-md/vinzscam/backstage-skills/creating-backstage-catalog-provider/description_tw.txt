@@ -1,0 +1,1 @@
+當建置從外部來源（例如 Azure DevOps、內部 API、JSON 檔）擷取實體的目錄後端模組時使用。涵蓋普通的 EntityProvider 以及針對大容量來源的 IncrementalEntityProvider，並透過 catalogProcessingExtensionPoint 或 incrementalIngestionProvidersExtensionPoint 進行模組接線。會在出現「catalog provider」「ingest entities from X」「import entities from <source>」或「incremental ingestion」等詞句時觸發。
