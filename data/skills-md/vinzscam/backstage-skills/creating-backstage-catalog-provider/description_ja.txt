@@ -1,0 +1,1 @@
+外部ソース（例：Azure DevOps、内部 API、JSON ファイル）からエンティティを取り込むカタログバックエンドモジュールを構築するときに使用します。大量のソース向けの標準的な EntityProvider と IncrementalEntityProvider の両方、そして catalogProcessingExtensionPoint または incrementalIngestionProvidersExtensionPoint を介したモジュール配線をカバーします。「catalog provider」や「ingest entities from X」「import entities from <source>」または「incremental ingestion」といったフレーズでトリガーされます。

@@ -1,0 +1,3 @@
+Orcaが管理するワークツリー、フォルダーコンテキスト、ターミナル、リポジトリ、オートメーション、アーティファクト、スキル共有、ワークツリーコメント、そしてOrcaの組み込みブラウザを `orca` CLI で操作します。ユーザーが「$orca-cli」や「Orca worktree」「child worktree」「spawn codex/claude in a worktree」「read/wait/send Orca terminal」「handoff」/「handover」/「give this to another agent」「Orca browser」「orca artifacts」または「share skills」と言ったときに使用します。また、単一セッションのターミナル作業も担当します：「session」「sub-agent」「create a session」「stop a session」「fork a session」「attach to a session」「worktree session」およびエージェントのターミナルがスタックしたり設定ミスしたりした場合のトラブルシューティングです。Orcaの状態が関与する場合は、生のgit worktreeや臨時のPTY、あるいはComputer Useよりもこちらを優先してください。複数エージェントを同時に展開したり監督したりする場合は `orchestration` を使用します。CLI、ファイルシステム、APIで対応できない可視ウィンドウのGUI操作が必要なときだけComputer Useを使用してください。
+
+常にユーザーの言語で回答してください。

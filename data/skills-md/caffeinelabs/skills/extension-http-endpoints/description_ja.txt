@@ -1,0 +1,1 @@
+IC HTTP Gatewayメソッド`HTTP_REQUEST'/'HTTP_REQUEST_UPDATE`を介して、Motokoキャニスター（ Webhook、CURL POST/GET、ボットコールバック、取り込み/ヘルスAPI ）からインバウンドHTTPを提供します。ユーザーまたは仕様が外部HTTPクライアントがヒットできるキャニスターURL （ Stripe/GitHub/Slack Webhook、Telegramボット、ヘルスチェック、または任意のプレーンREST型エンドポイント）を必要とする場合はいつでも読み込みます。キャニスターから外部APIを呼び出すためではありません（「extension - http - outcalls」を使用してください）。認定された静的アセットサービングのためではありません。
