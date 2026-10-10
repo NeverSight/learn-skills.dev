@@ -1,0 +1,1 @@
+외부 소스(e.g. Azure DevOps, 내부 API, JSON 파일)에서 엔터티를 수집하는 카탈로그 백엔드 모듈을 구축할 때 사용합니다. 대용량 소스를 위한 일반 EntityProvider와 IncrementalEntityProvider 모두를 지원하며, catalogProcessingExtensionPoint 또는 incrementalIngestionProvidersExtensionPoint를 통한 모듈 연결도 포함합니다. “catalog provider”, “ingest entities from X”, “import entities from <source>”, “incremental ingestion”과 같은 구문에 반응합니다.

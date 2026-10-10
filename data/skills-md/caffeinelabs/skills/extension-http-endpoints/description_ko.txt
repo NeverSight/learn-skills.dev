@@ -1,0 +1,1 @@
+IC HTTP 게이트웨이 메서드 `http_request'/`http_request_update` 를 통해 Motoko 캐니스터 (웹훅, curl POST/GET, bot callbacks, ingest/health API) 에서 인바운드 HTTP를 제공합니다. 사용자 또는 스펙이 외부 HTTP 클라이언트가 칠 수 있는 캐니스터 URL을 필요로 할 때마다 로드 — Stripe/GitHub/Slack 웹후크, Telegram 봇, 상태 점검 또는 일반 REST-ish 엔드포인트. 캐니스터에서 외부 API를 호출하기 위한 것이 아니라 (`extension-http-outcalls` 사용), 인증된 정적 자산 서빙을 위한 것이 아닙니다.
