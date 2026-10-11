@@ -1,0 +1,8 @@
+Proporcione imágenes de referencia reales para cualquier personaje de una historia (adaptación de novela, su propia historia original o un diseño de personaje independiente; no se requiere texto original de la novela):
+Un párrafo que describe al personaje se divide en campos superpuestos, se completa y luego se confirma.
+Primero genere una imagen ancla frontal de cuerpo completo; todas las demás vistas (primer plano, vista lateral a 90°, vista trasera, detalles, primer plano a 45°) se basan únicamente en esta ancla.
+Genere imágenes en niveles según sea necesario. Cada imagen lleva un identificador, puede regenerarse individualmente y, después de la regeneración, el sistema marca automáticamente qué imágenes han quedado obsoletas.
+Admite Qwen Image (ComfyUI), renderizado incorporado de Codex, API de Imágenes de OpenAI (GPT Image 2) y comandos personalizados; la imagen principal y las derivadas pueden usar diferentes modelos.
+Produce asset.json + un conjunto de PNG + un informe que se abre con doble clic. Cero dependencias.
+Si sólo se proporciona un prompt y no se produce ninguna imagen, use novel‑characters.
+Utilícelo cuando se le pida generar imágenes de personajes, crear imágenes de referencia de personajes, renderizar mi personaje, producir un retrato (con maquillaje fijo), generar realmente referencias de tres vistas, imágenes de referencia de personajes.

@@ -1,0 +1,7 @@
+SOLO OPERACIONES CON ACCIONES — Construye una escalera post‑ganancias “captura la caída flash, vende la fuerza” (财报接飞刀 / 盘后捞货). Obtiene el precio más reciente + el precio fuera de horario, las estadísticas clave, los muros de opciones + el “max pain” + el movimiento esperado del straddle, localiza la repisa de precio MÁS RECIENTE y genera niveles escalonados de compra límite de captura + niveles de venta + un stop estructural. 
+
+Úsalo cuando el usuario solicite en chino: “$TICKER 财报接飞刀”, “$TICKER 财报后怎么接”, “盘后捞货”, “$TICKER 闪跌接刀”, “财报后抄底 $TICKER”, “$TICKER 财报砸下来怎么买”, o en inglés: “catch the dip on $TICKER earnings”, “$TICKER post-earnings flash dip”, “where to buy $TICKER after earnings”, “$TICKER earnings knife‑catch ladder”. 
+
+NO activar para: capturas de pruebas “flaky” en código/CI, manejo de excepciones/errores, phishing, o cualquier tema que no sea de acciones. Requiere un ticker claro + contexto de ganancias/post‑ganancias. 
+
+Responde siempre en el idioma del usuario.
