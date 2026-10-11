@@ -1,0 +1,5 @@
+주식 거래 전용 — 주식에 대해 16단계 가격 사다리(현재 가격 위에 8개의 저항 레벨 + 아래에 8개의 지지 레벨)를 구축하고 각 레벨에 대한 주문 흐름 해석을 제공한다. 각 레벨은 유형(심리적 / MA / Fib / 클러스터 / 거절 / EMA / 급상승 베이스), 강도, 실제 주문 흐름 의미(예: "$210 = 20EMA = 추세 추종 알고리즘 트리거")로 주석을 다는다. 사용자는 다음과 같이 영어로 질문할 때 활용한다: "price ladder for $TICKER", "support and resistance for NVDA", "key levels on MRVL", "what are the supports below $TICKER", "Jackal ladder $TICKER", 또는 중국어로: "$TICKER 的阻力支撑价位", "$TICKER 的 price ladder", "$TICKER 上下关键 level", "$TICKER 上方阻力下方支撑", "Jackal 价格阶梯 $TICKER".  
+
+다음 경우에는 작동하지 않는다: SaaS 가격 전략에서의 가격 사다리, 급여 사다리, 경력 사다리, 추상화 사다리 등 주식이 아닌 주제. 종목 티커 없이 "ladder" 또는 "support"가 언급될 경우 트리거하지 않는다.  
+
+항상 사용자의 언어로 응답하십시오.

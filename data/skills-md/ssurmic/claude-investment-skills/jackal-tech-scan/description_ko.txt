@@ -1,0 +1,5 @@
+주식 거래 전용 — MA 정렬, RS 라인 발산, MACD 수렴, 거래량 서명 및 200‑MA 편차 극단점 검사를 결합한 다중 지표 기술 심층 스캔으로 기관 자금 흐름 방향을 추론합니다. 투명한 이유를 제시하며 “스마트 머니가 X를 하고 있다”는 결론을 출력합니다. 사용자는 다음과 같은 영어 요청 시 사용합니다: “tech scan $TICKER”, “technical analysis NVDA”, “institutional flow MRVL”, “is smart money buying $TICKER”, “Jackal tech scan”, 또는 다음과 같은 중국어 요청 시: “$TICKER 技术面深度扫描”, “看一下 $TICKER 机构资金流”, “$TICKER 的 RS line / MA / MACD 综合判断”, “Jackal 技术分析 $TICKER”.
+
+다음 경우에는 트리거하지 않습니다: 코드 “tech debt scan”, “tech stack analysis”, 보안 스캔, 취약점 스캔, 의존성 스캔 또는 주식 외 기술 분석 등. “tech scan”이 종목 티커 없이 나타날 경우 호출하지 마십시오.
+
+항상 사용자의 언어로 답변하십시오.

@@ -1,0 +1,3 @@
+미국 상장 주식이나 ETF에 대해 매개변수화된 가격 알림을 설정하고, 목록을 조회하며, 취소할 수 있습니다. 절대 가격 임계값(상회/하회)과 비율 변동(앵커 대비 하락/상승)을 지원합니다. 알림은 GitHub Actions cron(미국 거래 시간 동안 15분마다)으로 실행되며 Telegram 알림을 전송합니다. 사용자는 주식이 특정 가격에 도달하거나 특정 비율로 움직일 때 알림을 받고 싶을 때 사용합니다. 영어 트리거 예시: ("alert me when X hits Y", "notify me if X drops Z%", "set price alert", "watch X at Y", "list my alerts", "cancel alert") 또는 중국어 트리거 예시: ("X 跌到 Y 通知我", "X 涨到 Y 提醒", "设个 alert", "盯一下 X", "列出我的 alert", "取消 alert").
+
+항상 사용자의 언어로 응답하십시오.

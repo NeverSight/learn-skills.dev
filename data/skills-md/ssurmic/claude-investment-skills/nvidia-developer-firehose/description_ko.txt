@@ -1,0 +1,4 @@
+실시간 AI-ECOSYSTEM 파이어호스(v3 멀티소스, 2026년 5월). 12개 피드 폴링  
+Atom/RSS 피드를 30분마다 확인: NVIDIA(개발자 블로그 + 메인 블로그 + 뉴스룸), 하이퍼스케일러(Azure, AWS, AWS‑ML, Meta‑Engineering), AI 연구소(OpenAI, DeepMind, Hugging Face), 그리고 네오클라우드(CoreWeave, Together AI). 새로운 게시물이 나오면 HEURISTIC EXTRACTION + yfinance.Search를 사용해 언급된 모든 회사를 자동으로 미국 티커로 변환(수동으로 유지관리하는 name→ticker 사전 없이)하며, 시간이 지남에 따라 학습하는 지속적인 티커 캐시를 유지함. 텔레그램을 통해 출처별로 태그된 이름을 표시하고, 🎯 포트폴리오 추적 티커와 🔍 새롭게 발견된 티커로 구분함. 왜 중요한가: 하이퍼스케일러 + NVIDIA + AI 연구소가 800V HVDC, CPO, 광학, 전력, 맞춤형 실리콘 파트너를 공개하면서, 판매 측에서 몇 주 후에 재평가되는 미래 지향적인 설계 생태계가 형성됨. (AMD는 공개 RSS가 없으며, SEC 8‑K 전략 파트너 파이어호스로 별도 다룸.)  
+트리거는 영어("nvidia developer firehose", "ai ecosystem firehose", "ai partner monitor", "hyperscaler blog scraper") 또는 중국어("NVIDIA Developer 爬虫", "AI 生态 firehose", "超大厂博客实时", "英伟达 + 超大厂 + AI 实验室博客")로 설정.  
+다음 경우에는 트리거하지 않을 것: 일반 웹 스크레이퍼, 비주식 관련 상황, 개별 블로그 읽기.

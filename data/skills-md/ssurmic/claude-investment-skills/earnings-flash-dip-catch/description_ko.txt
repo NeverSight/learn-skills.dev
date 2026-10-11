@@ -1,0 +1,3 @@
+주식 거래 전용 — 실적 발표 후 "플래시 급락 포착, 강세 매도" 사다리를 구축합니다 (재무보고 접비도 / 장후 낚시). 최신 및 장외 가격, 핵심 통계, 옵션 월벽 + 최대 고통 + 스트래들 예상 움직임을 가져와 가장 최근 가격 선반을 찾고, 단계별 제한 매수 포착 수준 + 매도 수준 + 구조적 손절매를 출력합니다. 사용자는 다음과 같은 중국어 요청이 있을 때 사용합니다: "$TICKER 财报接飞刀", "$TICKER 财报后怎么接", "盘后捞货", "$TICKER 闪跌接刀", "财报后抄底 $TICKER", "$TICKER 财报砸下来怎么买", 혹은 영어 요청: "catch the dip on $TICKER earnings", "$TICKER post-earnings flash dip", "where to buy $TICKER after earnings", "$TICKER earnings knife-catch ladder". 
+
+다음 경우에는 작동하지 않음: 코드/CI "flaky test" 포착, 예외/오류 포착, 피싱, 혹은 비주식 관련 주제. 명확한 티커와 실적/실적 후 문맥이 필요합니다. 항상 사용자의 언어로 응답하십시오.
