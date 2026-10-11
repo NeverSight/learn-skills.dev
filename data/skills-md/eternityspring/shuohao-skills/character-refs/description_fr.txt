@@ -1,0 +1,10 @@
+Fournissez des images de référence authentiques pour tout personnage d'une histoire (qu'il s'agisse d'une adaptation de roman, d'une histoire originale ou d'un design de personnage autonome — aucun texte de roman original requis) :
+Commencez par un paragraphe décrivant le personnage, décomposez-le en champs superposés, remplissez-les et confirmez ;
+Générez d'abord une image d'ancrage frontale en pied. Toutes les autres vues (portrait, vue latérale à 90°, vue arrière, plan détaillé, portrait à 45°) doivent être basées uniquement sur cette ancre ;
+Produit des images superposées au besoin. Chaque image inclut un identifiant, peut être régénérée individuellement, et après régénération le système marque automatiquement les images devenues obsolètes.
+Prend en charge Qwen Image (ComfyUI), la génération d'images intégrée de Codex, l'API Images d'OpenAI (GPT‑4 Image 2) et les commandes personnalisées ; l'image principale et les images dérivées peuvent utiliser différents modèles.
+Produit un asset.json + un ensemble de PNG + un rapport double‑clicable. Aucune dépendance.
+Si seul un prompt est fourni et aucune image n’est produite, utilisez novel‑characters.
+Utilisez lorsque l’on demande de générer des images de personnages, créer des fiches de référence de personnages, rendre mon personnage, fournir un portrait soigné, produire de véritables références en trois vues ou fournir des images de référence de personnage.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
