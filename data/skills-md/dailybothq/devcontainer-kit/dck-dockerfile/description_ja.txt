@@ -1,0 +1,3 @@
+devcontainer-kit を使用してリポジトリ独自の開発コンテナを作成または再生成します — .devcontainer/devcontainer.json、docker/local/<service>/Dockerfile（公式ランタイムイメージをダイジェストで固定、DeepWorkPlan Vim、Herdr、agentkit を通じたコーディングエージェント）、docker/local/docker-compose.yaml、dev.sh — そして実際のビルドでそれを検証します。ユーザーが開発コンテナ、devcontainer、docker/local/<service>/Dockerfile、またはリポジトリ用の `dev.sh up` コンテナを要求した場合、あるいは devcontainer-kit が作成したものを再生成またはアップグレードする場合にのみ使用してください。プロダクションイメージ、デプロイ、Kubernetes、CI ランナー、または単にリポジトリに Dockerfile が含まれているだけで使用しないでください。
+
+常にユーザーの言語で回答してください。

@@ -1,0 +1,4 @@
+リアルタイムAIエコシステム・ファイアホース（v3マルチソース、2026年5月）。12回ポーリング  
+Atom/RSS フィードを30分ごとに取得：NVIDIA（developer‑blog＋main‑blog＋newsroom）、ハイパースケーラー（Azure、AWS、AWS‑ML、Meta‑Engineering）、AIラボ（OpenAI、DeepMind、Hugging Face）、およびネオクラウド（CoreWeave、Together AI）。新しい投稿があるたびに、HEURISTIC EXTRACTION と yfinance.Search を使用して、言及されたすべての企業を自動的に米国ティッカーへ解決（手作業の name→ticker 辞書は不要）し、時間とともに学習する永続的なティッカーキャッシュを保持。名前は Telegram でソース別にタグ付けして表示し、🎯 ポートフォリオ追跡ティッカー と 🔍 新規発見ティッカー に分ける。重要性：ハイパースケーラー、NVIDIA、AIラボは 800V HVDC、CPO、光、電力、カスタムシリコン パートナーを公表しており、売り手が数週間後に注目すると設計エコシステムが再評価される。（AMD は公開 RSS がなく、SEC 8‑K の戦略的パートナー・ファイアホースで別途カバー。）  
+トリガーは英語（"nvidia developer firehose"、"ai ecosystem firehose"、"ai partner monitor"、"hyperscaler blog scraper"）または中国語（"NVIDIA Developer 爬虫"、"AI 生态 firehose"、"超大厂博客实时"、"英伟达 + 超大厂 + AI 实验室博客"）。  
+以下の場合はトリガーしないこと：一般的なウェブスクレイパー、株式以外の文脈、個別ブログの閲覧。

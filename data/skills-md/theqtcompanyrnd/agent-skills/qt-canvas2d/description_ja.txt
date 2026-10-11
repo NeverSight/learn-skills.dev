@@ -1,0 +1,3 @@
+Qt Canvas2D（QtCanvas2D / Qt Canvas Painter、Qt 6.12 以降）のベストプラクティスを、Canvas2D QML ソースコードの作成や作業時に適用します。Canvas2D、Canvas2DContext、path2d、boxshadow2d、boxgradient2d、gridpattern2d、conicalgradient2d、または transform2d が対象の場合は、執筆、レビュー、修正、最適化、あるいは Qt Quick Canvas／HTML5 canvas の描画コードを Canvas2D に移植する際に使用してください。また、QML における GPU 加速された命令型 2D 描画（ゲージ、ダイヤル、チャート、波形、オシロスコープ、時計、フリーハンド描画など）にも利用し、レンダラーが未決定のときに Canvas2D と Shape/ShapePath のどちらを選択すべきか判断する際にも役立ちます。旧 CPU 要素に留める必要がある単なる Qt Quick Canvas の作業や、レンダラーがすでに決定している既存の Shape/ShapePath コードのレビューには使用しないでください。
+
+常にユーザーの言語で回答してください。

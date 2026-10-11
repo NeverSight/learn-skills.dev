@@ -1,0 +1,3 @@
+USD資金調達／リポ取引流動性レーダー。SOFR‑IORBスプレッド、SOFRテイル、ON RRPバッファ、銀行準備金対LCLoR、TGAの流出／流入、純流動性、そしてSRF取得（資金ストレスアラーム）を追跡します。緩みのレジームを 🟢 豊富 / 🟡 十分 / 🟠 収縮中 / 🔴 ストレス として出力し、二つの視点――「緩すぎ → バブル」および「タイトすぎ → 資金ストレス」で評価します。全データはNY Fed Markets API と FRED（APIキー不要）から取得。オンデマンドまたは GitHub Actions による日次実行で、レジーム変更時に Telegram へプッシュ通知します。トリガーは英語（"liquidity check"、"is liquidity tight"、"SOFR IORB spread"、"RRP balance"、"when does liquidity tighten"、"repo stress"）または中国語（"流动性怎么样"、"流动性紧不紧"、"什么时候收紧"、"SOFR IORB 利差"、"RRP 还剩多少"、"回购市场压力"、"美元流动性"）で行います。
+
+常にユーザーの言語で回答してください。

@@ -1,0 +1,8 @@
+株式取引限定 — MA の整合、RSラインの乖離、MACD の収束、ボリュームシグネチャ、200日MA 偏差の極端さチェックを組み合わせたマルチ指標テクニカル深層スキャンにより、機関投資家の資金フロー方向を推測します。透明性のある根拠と共に「スマートマネーが X を行っている」という結論を出力します。  
+
+使用例（ユーザーが英語で質問したとき）: 「tech scan $TICKER」「technical analysis NVDA」「institutional flow MRVL」「is smart money buying $TICKER」「Jackal tech scan」  
+使用例（ユーザーが中国語で質問したとき）: 「$TICKER 技术面深度扫描」「看一下 $TICKER 机构资金流」「$TICKER 的 RS line / MA / MACD 综合判断」「Jackal 技术分析 $TICKER」  
+
+以下の場合はトリガーしないでください: コード「tech debt scan」や「tech stack analysis」、セキュリティスキャン、脆弱性スキャン、依存関係スキャン、または株式以外のテクニカル分析。「tech scan」のみでティッカーが付いていない場合も呼び出さないでください。  
+
+常にユーザーの言語で回答してください。
