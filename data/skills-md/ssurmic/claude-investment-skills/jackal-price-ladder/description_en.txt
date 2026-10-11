@@ -1,0 +1,13 @@
+STOCK TRADING ONLY — Builds a 16-level price ladder for a stock (8 resistance levels
+above current price + 8 support levels below) with order-flow interpretation for
+each level. Annotates each level by type (psychological / MA / Fib / cluster /
+rejection / EMA / jump-up base), strength, and the actual order-flow meaning (e.g.,
+"$210 = 20EMA = trend follower algo trigger"). Use when user asks English: "price
+ladder for $TICKER", "support and resistance for NVDA", "key levels on MRVL",
+"what are the supports below $TICKER", "Jackal ladder $TICKER", or Chinese:
+"$TICKER 的阻力支撑价位", "$TICKER 的 price ladder", "$TICKER 上下关键 level",
+"$TICKER 上方阻力下方支撑", "Jackal 价格阶梯 $TICKER".
+
+DO NOT trigger for: pricing ladders in SaaS pricing strategy, salary ladders, career
+ladders, abstraction ladders, or any non-equity-market topic. If "ladder" or
+"support" appears without a stock ticker, do NOT invoke.

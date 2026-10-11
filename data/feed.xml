@@ -4,573 +4,605 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 10 Oct 2026 04:29:46 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 04:09:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-10)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-11)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:snapshot</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:snapshot</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8332
-Trending skills: 8181
-Hot skills: 3472
-Top All Time: find-skills (3774432)
-Top Trending: ai-image-generation (28712)
-Top Hot: replicas-agent (15)]]></description>
+All Time skills: 8336
+Trending skills: 8026
+Hot skills: 1170
+Top All Time: find-skills (3787386)
+Top Trending: ai-image-generation (28803)
+Top Hot: gh-issue-sync (11)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): replicas-agent]]></title>
-            <link>https://skills.sh/replicas-group/skill/replicas-agent</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:replicas-group/skill/replicas-agent</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): gh-issue-sync]]></title>
+            <link>https://skills.sh/mitsuhiko/gh-issue-sync/gh-issue-sync</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:mitsuhiko/gh-issue-sync/gh-issue-sync</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 15
-Source: replicas-group/skill
-Description: Guide for background coding agents running inside Replicas cloud workspaces]]></description>
+Installs: 11
+Source: mitsuhiko/gh-issue-sync
+Description: Manage GitHub issues locally as Markdown files. Use for triaging, searching, editing, and creating issues without leaving your editor or terminal.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): limrun-maestro-testing]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-maestro-testing</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-maestro-testing</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): nvidia-developer-firehose]]></title>
+            <link>https://skills.sh/ssurmic/claude-investment-skills/nvidia-developer-firehose</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:ssurmic/claude-investment-skills/nvidia-developer-firehose</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 13
-Source: limrun-inc/skills
-Description: Run Maestro YAML flows against a Limrun cloud iOS simulator with `lim ios maestro`, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to run, write, or debug Maestro flows or `maestro test` on iOS, migrate an existing Maestro suite to remote simulators, or asks for UI testing with Maestro. iOS simulators only today. For Detox suites use limrun-detox-testing; for driving the simulator without a test framework use limrun-ios-simulator.]]></description>
+Installs: 1
+Source: ssurmic/claude-investment-skills
+Description: Real-time AI-ECOSYSTEM firehose (v3 multi-source, May 2026). Polls 12
+Atom/RSS feeds every 30 min: NVIDIA (developer-blog + main-blog +
+newsroom), hyperscalers (Azure, AWS, AWS-ML, Meta-Engineering), AI labs
+(OpenAI, DeepMind, Hugging Face), and neoclouds (CoreWeave, Together
+AI). For each new post, uses HEURISTIC EXTRACTION + yfinance.Search to
+auto-resolve every mentioned company → US ticker (no hand-maintained
+name→ticker dict), with a persistent ticker cache that learns over
+time. Surfaces names via Telegram tagged by source, separated into
+🎯 portfolio-tracked tickers vs 🔍 newly discovered tickers. Why it
+matters: hyperscalers + NVIDIA + AI labs publicly name 800V HVDC, CPO,
+optical, power, and custom-silicon partners — the forward-looking
+design ecosystem that re-rates weeks later when sell-side picks it up.
+(AMD has no public RSS — covered separately by SEC 8-K
+strategic-partner-firehose.)
+Triggers in English ("nvidia developer firehose", "ai ecosystem
+firehose", "ai partner monitor", "hyperscaler blog scraper") or
+Chinese ("NVIDIA Developer 爬虫", "AI 生态 firehose", "超大厂博客实时",
+"英伟达 + 超大厂 + AI 实验室博客").
+Do NOT trigger for: generic web scrapers, non-equity contexts, or
+individual blog reading.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): limrun-expo-development]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-expo-development</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-expo-development</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): active-directory-acl-abuse]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/active-directory-acl-abuse</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/active-directory-acl-abuse</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 13
-Source: limrun-inc/skills
-Description: Prepare and run Expo / React Native apps on Limrun with Expo dev-client iteration. Use when the user wants an Expo dev build, Metro tunnel, hot reload, JS/TS iteration without repeated native rebuilds, or to run/test an Expo app on a remote iOS simulator.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Active Directory ACL abuse playbook. Use when exploiting misconfigured AD permissions including GenericAll, WriteDACL, DCSync rights, shadow credentials, LAPS reading, GPO abuse, and BloodHound-guided attack paths.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): huggingface-llm-trainer]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-llm-trainer</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-llm-trainer</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): clickjacking]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/clickjacking</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/clickjacking</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 11
-Source: huggingface/skills
-Description: This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, and model persistence. Should be invoked for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Clickjacking playbook. Use when testing whether target pages can be framed, whether X-Frame-Options or CSP frame-ancestors are properly configured, and whether UI redress attacks can trigger sensitive actions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): huggingface-local-models]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-local-models</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-local-models</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): rive-generator]]></title>
+            <link>https://skills.sh/stevysmith/rive-skills/rive-generator</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:stevysmith/rive-skills/rive-generator</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 11
-Source: huggingface/skills
-Description: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.]]></description>
+Installs: 1
+Source: stevysmith/rive-skills
+Description: Trigger when: (1) User wants to create a Rive animation programmatically,
+(2) User mentions "generate .riv file" or "create Rive animation",
+(3) User wants to see a visual animation created from code,
+(4) Working with the rive-generator project.
+
+Generate .riv files programmatically using TypeScript. Creates static shapes
+and animations. Requires npm package @stevysmith/rive-generator.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): huggingface-community-evals]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-community-evals</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-community-evals</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): price-alert]]></title>
+            <link>https://skills.sh/ssurmic/claude-investment-skills/price-alert</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:ssurmic/claude-investment-skills/price-alert</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 11
-Source: huggingface/skills
-Description: Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.]]></description>
+Installs: 1
+Source: ssurmic/claude-investment-skills
+Description: Set, list, and cancel parameterized price alerts on any US-listed stock or ETF. Supports absolute price thresholds (above/below) and percentage moves (drop/rise from anchor). Alerts run via GitHub Actions cron (every 15 min during US trading hours) and fire Telegram notifications. Use when user wants to be notified when a stock hits a specific price or moves a specific percentage. Triggers in English ("alert me when X hits Y", "notify me if X drops Z%", "set price alert", "watch X at Y", "list my alerts", "cancel alert") or Chinese ("X 跌到 Y 通知我", "X 涨到 Y 提醒", "设个 alert", "盯一下 X", "列出我的 alert", "取消 alert").]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): huggingface-gradio]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-gradio</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-gradio</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): docker-agent-deploy]]></title>
+            <link>https://skills.sh/docker/skills/docker-agent-deploy</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:docker/skills/docker-agent-deploy</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 11
-Source: huggingface/skills
-Description: Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.]]></description>
+Installs: 1
+Source: docker/skills
+Description: Use this skill when exposing a Docker Agent as a server (MCP, HTTP API, A2A, ACP, or OpenAI-compatible chat), distributing an agent via an OCI registry with `docker agent share`, or measuring agent quality with `docker agent eval`. Even if the user just says they want to "turn my agent into an MCP server", "let Claude Desktop use my agent", "publish my agent to Docker Hub", "push my agent like an image", or "test my agent in CI", this skill applies. Covers `serve mcp/api/a2a/acp/chat` listen addresses and auth flags, `share push/pull`, eval session JSON format, scoring metrics, and the `--baseline` regression gate.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): huggingface-tool-builder]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-tool-builder</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-tool-builder</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): thermos]]></title>
+            <link>https://skills.sh/mariusflorescu/thermos-t3/thermos</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:mariusflorescu/thermos-t3/thermos</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 11
-Source: huggingface/skills
-Description: Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.]]></description>
+Installs: 1
+Source: mariusflorescu/thermos-t3
+Description: Launch both thermo-nuclear review subagents in parallel, then synthesize their findings. Use for thermos, double thermo review, or combined bug/security and code-quality branch audits.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): huggingface-best]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-best</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-best</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): sap-hana-cli]]></title>
+            <link>https://skills.sh/secondsky/sap-skills/sap-hana-cli</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:secondsky/sap-skills/sap-hana-cli</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 11
-Source: huggingface/skills
-Description: Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores. Triggers on: "best model for X", "what model should I use for", "top models for [task]", "which model runs on my laptop/machine/device", "recommend a model for", "what LLM should I use for", "compare models for", "what's state of the art for", or any question about choosing an AI model for a specific use case. Always use this skill when the user wants model recommendations or comparisons, even if they don't explicitly mention HuggingFace or benchmarks.]]></description>
+Installs: 1
+Source: secondsky/sap-skills
+Description: Assists with SAP HANA Developer CLI (hana-cli) for database development and administration.
+Use when: installing hana-cli, connecting to SAP HANA databases, inspecting database objects
+(tables, views, procedures, functions), managing HDI containers, executing SQL queries,
+converting metadata to CDS/EDMX/OpenAPI formats, managing SAP HANA Cloud instances,
+working with BTP CLI integration, or troubleshooting hana-cli commands.
+Covers: 91 commands, 17+ output formats, HDI container management, cloud operations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): huggingface-zerogpu]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-zerogpu</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-zerogpu</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): sap-hana-cloud-data-intelligence]]></title>
+            <link>https://skills.sh/secondsky/sap-skills/sap-hana-cloud-data-intelligence</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:secondsky/sap-skills/sap-hana-cloud-data-intelligence</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 11
-Source: huggingface/skills
-Description: AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requirements.txt` for a ZeroGPU Space, or handling ZeroGPU-specific code constraints — pickle-based process isolation, `gr.State` semantics across the worker boundary, no `torch.compile` (use AoTI instead), CUDA wheel-only builds (no `nvcc` at build or runtime), large vs xlarge sizing, and dynamic duration callables. Make sure to use this skill whenever the user mentions ZeroGPU, `@spaces.GPU`, or the `spaces` Python package, or hits ZeroGPU-specific code errors like `PicklingError` across the worker boundary, `illegal duration`, or `flash-attn` wheel-build failures — even when the user does not explicitly ask for ZeroGPU coding guidance. Trigger on `import spaces` or `@spaces.GPU` in code.]]></description>
+Installs: 1
+Source: secondsky/sap-skills
+Description: Develops data processing pipelines, integrations, and machine learning scenarios in SAP Data Intelligence Cloud. Use when building graphs/pipelines with operators, integrating ABAP/S4HANA systems, creating replication flows, developing ML scenarios with JupyterLab, or using Data Transformation Language functions. Covers Gen1/Gen2 operators, subengines (Python, Node.js, C++), structured data operators, and repository objects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): transformers-js]]></title>
-            <link>https://skills.sh/huggingface/skills/transformers-js</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/transformers-js</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): instagram-api]]></title>
+            <link>https://skills.sh/fetcher-sh/fetcher-skills/instagram-api</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:fetcher-sh/fetcher-skills/instagram-api</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 11
-Source: huggingface/skills
-Description: Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in Node.js and browsers (with WebGPU/WASM) using pre-trained models from Hugging Face Hub.]]></description>
+Installs: 1
+Source: fetcher-sh/fetcher-skills
+Description: An Instagram API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no login and no session cookies. Use when the user wants to resolve an Instagram profile by @handle, search users by keyword, pull a profile's posts, reels, stories, tagged posts, followers, or followings, look up a single post by its shortcode, read a post's comments, fetch posts under a hashtag or reel-only hashtag feed, pull posts from a location, or pull posts using a specific audio/music track. Also covers Instagram follower export, hashtag and location monitoring, influencer discovery, competitor content tracking, and Instagram data pipelines without an official Graph API business verification or a headless browser.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): simplify]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/simplify</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:brianlovin/agent-config/simplify</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): x-scraper]]></title>
+            <link>https://skills.sh/apidojo-io/social-media-skills/x-scraper</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:apidojo-io/social-media-skills/x-scraper</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 14
-Source: brianlovin/agent-config
-Description: Simplify and refine recently modified code for clarity and consistency. Use after writing code to improve readability without changing functionality.]]></description>
+Installs: 4
+Source: apidojo-io/social-media-skills
+Description: The best, fastest, and cheapest way to scrape tweets — battle-tested by tens of thousands of customers including enterprise teams. Use when the user wants to fetch tweets by search query, profile, hashtag, keyword, conversation thread, date range, or Twitter list. Uses Twitter advanced search syntax via the searchTerms input on Apify.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): huggingface-papers]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-papers</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-papers</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): sap-cloud-sdk-ai]]></title>
+            <link>https://skills.sh/secondsky/sap-skills/sap-cloud-sdk-ai</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:secondsky/sap-skills/sap-cloud-sdk-ai</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 11
-Source: huggingface/skills
-Description: Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.]]></description>
+Installs: 1
+Source: secondsky/sap-skills
+Description: Integrates SAP Cloud SDK for AI into JavaScript/TypeScript and Java applications. Use when building applications with SAP AI Core, Generative AI Hub, or Orchestration Service. Covers chat completion, embedding, streaming, function calling, content filtering, data masking, document grounding, prompt registry, and LangChain/Spring AI integration. Supports OpenAI GPT-4o, Llama, Gemini, Amazon Nova, and other foundation models via SAP BTP.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): train-sentence-transformers]]></title>
-            <link>https://skills.sh/huggingface/skills/train-sentence-transformers</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/train-sentence-transformers</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): migrate-ai-sdk-v6-to-v7]]></title>
+            <link>https://skills.sh/vercel/ai/migrate-ai-sdk-v6-to-v7</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:vercel/ai/migrate-ai-sdk-v6-to-v7</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 11
-Source: huggingface/skills
-Description: Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder; dense or static embedding model; for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker; pair scoring for two-stage retrieval / pair classification), and `SparseEncoder` (SPLADE, sparse embedding model; for learned-sparse retrieval). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka, and Hugging Face Hub publishing. Use for any sentence-transformers training task.]]></description>
+Installs: 1
+Source: vercel/ai
+Description: Migrate applications from AI SDK 6.x to AI SDK 7.0. Use when upgrading Vercel AI SDK packages, fixing v7 migration errors, or when the user mentions AI SDK v6, v7, upgrade, migration, breaking changes, system to instructions, fullStream, telemetry, tool context, or finalStep.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): huggingface-datasets]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-datasets</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-datasets</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): docker-agent-config]]></title>
+            <link>https://skills.sh/docker/skills/docker-agent-config</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:docker/skills/docker-agent-config</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 11
-Source: huggingface/skills
-Description: Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.]]></description>
+Installs: 1
+Source: docker/skills
+Description: Use this skill when creating or editing an agent.yaml (or .yml/.hcl) configuration file for Docker Agent (cagent), including defining agents, models/providers, built-in or MCP toolsets, multi-agent teams with sub_agents. Even if the user just says they want to "build an AI agent with Docker", "make a coding agent config", "add a tool to my agent", or "set up a team of agents", this skill applies. Covers agent properties (model, instruction, toolsets, sub_agents, fallback), the models/providers sections, built-in toolsets (filesystem, shell, think, todo, memory, fetch), MCP toolset references, and named commands.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): huggingface-paper-publisher]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-paper-publisher</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-paper-publisher</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): windows-lateral-movement]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/windows-lateral-movement</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/windows-lateral-movement</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 11
-Source: huggingface/skills
-Description: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Windows lateral movement playbook. Use when pivoting between Windows hosts via PsExec, WMI, WinRM, DCOM, RDP, pass-the-hash, overpass-the-hash, or pass-the-ticket techniques.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): hf-cli]]></title>
-            <link>https://skills.sh/huggingface/skills/hf-cli</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/hf-cli</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): tanstack-router-best-practices]]></title>
+            <link>https://skills.sh/deckardger/tanstack-agent-skills/tanstack-router-best-practices</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:deckardger/tanstack-agent-skills/tanstack-router-best-practices</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 11
-Source: huggingface/skills
-Description: Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub. Replaces now deprecated `huggingface-cli` command.]]></description>
+Installs: 1
+Source: deckardger/tanstack-agent-skills
+Description: TanStack Router best practices for type-safe routing, data loading, search params, and navigation. Activate when building React applications with complex routing needs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): huggingface-vision-trainer]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-vision-trainer</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-vision-trainer</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): git-commit-pr]]></title>
+            <link>https://skills.sh/zc277584121/mygitplugin/git-commit-pr</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:zc277584121/mygitplugin/git-commit-pr</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 11
-Source: huggingface/skills
-Description: Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.]]></description>
+Installs: 1
+Source: zc277584121/mygitplugin
+Description: Commit changes and create a pull request to the official upstream repo]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): huggingface-trackio]]></title>
-            <link>https://skills.sh/huggingface/skills/huggingface-trackio</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:huggingface/skills/huggingface-trackio</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): upload-insecure-files]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/upload-insecure-files</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/upload-insecure-files</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 11
-Source: huggingface/skills
-Description: Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Insecure file upload playbook. Use when testing upload validation, storage paths, processing pipelines, preview behavior, overwrite risks, and upload-to-RCE chains.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): mcp-builder]]></title>
-            <link>https://skills.sh/anthropics/skills/mcp-builder</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/mcp-builder</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): business-logic-vuln]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/business-logic-vuln</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/business-logic-vuln</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 17
-Source: anthropics/skills
-Description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Entry P1 category router for business logic testing. Use when workflow abuse, race conditions, pricing flaws, or multi-step state attacks matter more than parser-level input injection.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): claude-api]]></title>
-            <link>https://skills.sh/anthropics/skills/claude-api</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/claude-api</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): tunneling-and-pivoting]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/tunneling-and-pivoting</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/tunneling-and-pivoting</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 16
-Source: anthropics/skills
-Description: Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Tunneling and pivoting playbook. Use when establishing network tunnels through compromised hosts including SSH tunneling, Chisel, Ligolo-ng, socat, DNS/ICMP/HTTP tunneling, ProxyChains, and multi-layer pivoting strategies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): internal-comms]]></title>
-            <link>https://skills.sh/anthropics/skills/internal-comms</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/internal-comms</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): grill-me]]></title>
+            <link>https://skills.sh/secondsky/sap-skills/grill-me</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:secondsky/sap-skills/grill-me</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 14
-Source: anthropics/skills
-Description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).]]></description>
+Installs: 1
+Source: secondsky/sap-skills
+Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): limrun-xcode-bazel]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode-bazel</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-xcode-bazel</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): google-search]]></title>
+            <link>https://skills.sh/fetcher-sh/fetcher-skills/google-search</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:fetcher-sh/fetcher-skills/google-search</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 13
-Source: limrun-inc/skills
-Description: Build a Bazel-based iOS / macOS / Apple app on Limrun's remote build execution (RBE) instead of a local Mac, and install it on a remote iOS simulator. Use when the project is a Bazel workspace (MODULE.bazel / WORKSPACE) building rules_apple / rules_swift targets and the user wants to `bazel build` it or run it on a simulator, or when a `--config=limrun` build or install misbehaves. To then tap, type, screenshot, or otherwise interact with the running app, use limrun-ios-simulator. For non-Bazel (plain xcodebuild) projects use limrun-xcode instead.]]></description>
+Installs: 2
+Source: fetcher-sh/fetcher-skills
+Description: A Google Search API alternative and SERP API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no API key application. Use when the user wants programmatic Google search results as clean JSON, including Google's own operators — site:, filetype:, intitle:, and quoted exact phrases — plus pagination, language (hl), and country/region scoping. Also covers rank tracking input, competitive research, and search-result monitoring without Google's own Custom Search API quota and billing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): no-ai-slop]]></title>
-            <link>https://skills.sh/petergyang/no-ai-slop/no-ai-slop</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:petergyang/no-ai-slop/no-ai-slop</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): git-fork-clone]]></title>
+            <link>https://skills.sh/zc277584121/mygitplugin/git-fork-clone</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:zc277584121/mygitplugin/git-fork-clone</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 13
-Source: petergyang/no-ai-slop
-Description: Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft clearer, more direct, more opinionated, or less AI-sounding, or asks whether writing reads as AI.]]></description>
+Installs: 1
+Source: zc277584121/mygitplugin
+Description: Fork a GitHub repo and clone it locally with proper remote setup]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): algorithmic-art]]></title>
-            <link>https://skills.sh/anthropics/skills/algorithmic-art</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/algorithmic-art</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): narrative-reversal-screen]]></title>
+            <link>https://skills.sh/ssurmic/claude-investment-skills/narrative-reversal-screen</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:ssurmic/claude-investment-skills/narrative-reversal-screen</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 14
-Source: anthropics/skills
-Description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.]]></description>
+Installs: 1
+Source: ssurmic/claude-investment-skills
+Description: Screens for "narrative reversal" candidates — stocks down 30%+ from 52W high with concrete catalyst still intact, worst-case priced in, early reversal signal (first higher low, 50DMA cross, insider buying after capitulation). Returns top 3 with entry plan. Triggers in English ("beaten-down stocks with thesis", "find reversal plays", "stocks at bottom that can recover", "fallen angel screen", "comeback candidates") or Chinese ("找暴跌反转股", "找回归类股票", "ORCL 那种反转", "已经跌透的好股", "底部反弹候选").]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): slack-gif-creator]]></title>
-            <link>https://skills.sh/anthropics/skills/slack-gif-creator</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/slack-gif-creator</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): sap-btp-build-work-zone-advanced]]></title>
+            <link>https://skills.sh/secondsky/sap-skills/sap-btp-build-work-zone-advanced</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:secondsky/sap-skills/sap-btp-build-work-zone-advanced</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 13
-Source: anthropics/skills
-Description: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."]]></description>
+Installs: 1
+Source: secondsky/sap-skills
+Description: Develops and administers SAP Build Work Zone, advanced edition digital workplace solutions. Use when creating workspaces, workpages, and collaborative sites, developing UI Integration Cards in SAP Business Application Studio, building content packages and workspace templates, integrating with Microsoft 365/Teams/SharePoint/Google Drive, configuring chatbots and webhooks, implementing SCIM API user provisioning, setting up OData business records, managing themes and branding, configuring role-based access and SSO, troubleshooting deployment issues, or working with the Administration Console.
+
+Keywords: SAP Build Work Zone advanced edition, digital workplace, UI Integration Cards, content packages, workspace templates, SAP Business Application Studio, SAP Conversational AI, SCIM API, OData, Microsoft Teams integration, SSO, theming, Administration Console]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): openspec-onboard]]></title>
-            <link>https://skills.sh/fission-ai/openspec/openspec-onboard</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:fission-ai/openspec/openspec-onboard</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): stock-analysis]]></title>
+            <link>https://skills.sh/gracefullight/stock-checker/stock-analysis</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:gracefullight/stock-checker/stock-analysis</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 9
-Source: fission-ai/openspec
-Description: Guided onboarding for OpenSpec - walk through a complete workflow cycle with narration and real codebase work.]]></description>
+Installs: 1
+Source: gracefullight/stock-checker
+Description: Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management (create, add, remove assets), crypto analysis (Top 20 by market cap), and periodic performance reports (daily/weekly/monthly/quarterly/yearly). 8 analysis dimensions for stocks, 3 for crypto. Use for stock analysis, portfolio tracking, earnings reactions, or crypto monitoring.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): speckit-clarify]]></title>
-            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-clarify</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:dceoy/speckit-agent-skills/speckit-clarify</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): twitter-reader]]></title>
+            <link>https://skills.sh/himself65/finance-skills/twitter-reader</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:himself65/finance-skills/twitter-reader</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 9
-Source: dceoy/speckit-agent-skills
-Description: Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec.]]></description>
+Installs: 1
+Source: himself65/finance-skills
+Description: Read Twitter/X for financial research using the twitter-cli tool (read-only). Use this skill whenever the user wants to read their Twitter feed, search for financial tweets, view bookmarks, look up user profiles, or gather market sentiment from Twitter/X. Triggers include: "check my feed", "search Twitter for", "show my bookmarks", "who follows", "look up @user", "what's trending about", "market sentiment on Twitter", "what are people saying about AAPL", "fintwit", any mention of Twitter/X in context of reading financial news or market research. This skill is READ-ONLY — it does NOT support posting, liking, retweeting, or any write operations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): speckit-implement]]></title>
-            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-implement</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:dceoy/speckit-agent-skills/speckit-implement</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): deep-research]]></title>
+            <link>https://skills.sh/daymade/claude-code-skills/deep-research</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:daymade/claude-code-skills/deep-research</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 9
-Source: dceoy/speckit-agent-skills
-Description: Execute the implementation plan by processing and executing all tasks defined in tasks.md]]></description>
+Installs: 1
+Source: daymade/claude-code-skills
+Description: Generate format-controlled research reports with evidence tracking, citations, and iterative review. This skill should be used when users request a research report, literature review, market or industry analysis, competitive landscape, policy or technical brief, or require a strict report template and section formatting that a single deepresearch pass cannot reliably enforce.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): speckit-constitution]]></title>
-            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-constitution</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:dceoy/speckit-agent-skills/speckit-constitution</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): rc-revenuecat-api-quick-reference]]></title>
+            <link>https://skills.sh/revenuecat/ai-toolkit/rc-revenuecat-api-quick-reference</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:revenuecat/ai-toolkit/rc-revenuecat-api-quick-reference</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 9
-Source: dceoy/speckit-agent-skills
-Description: Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync.]]></description>
+Installs: 1
+Source: revenuecat/ai-toolkit
+Description: Use this skill as a quick reference for the RevenueCat Android SDK 10.x and REST API. Covers SDK init, common Purchases calls, CustomerInfo / Offerings access patterns, and the most used REST endpoints.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): speckit-tasks]]></title>
-            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-tasks</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:dceoy/speckit-agent-skills/speckit-tasks</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): deserialization-insecure]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/deserialization-insecure</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/deserialization-insecure</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 9
-Source: dceoy/speckit-agent-skills
-Description: Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Insecure deserialization playbook. Use when Java, PHP, or Python applications deserialize untrusted data via ObjectInputStream, unserialize, pickle, or similar mechanisms that may lead to RCE, file access, or privilege escalation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): openspec-ff-change]]></title>
-            <link>https://skills.sh/fission-ai/openspec/openspec-ff-change</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:fission-ai/openspec/openspec-ff-change</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): analyze-stock]]></title>
+            <link>https://skills.sh/ssurmic/claude-investment-skills/analyze-stock</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:ssurmic/claude-investment-skills/analyze-stock</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 9
-Source: fission-ai/openspec
-Description: Fast-forward through OpenSpec artifact creation. Use when the user wants to quickly create all artifacts needed for implementation without stepping through each one individually.]]></description>
+Installs: 1
+Source: ssurmic/claude-investment-skills
+Description: Top-down deep dive analysis on a US-listed stock with macro context, valuation audit, insider check, catalysts, and 3-tier entry plan with LEAPS option. Pulls live data via yfmcp. Triggers in English ("analyze X", "is X a buy", "deep dive on X", "should I buy X", "what about X stock", "research X") or Chinese ("分析 X", "X 怎么样", "X 能买吗", "深度看一下 X", "调研 X", "X 这只股票").]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): openspec-bulk-archive-change]]></title>
-            <link>https://skills.sh/fission-ai/openspec/openspec-bulk-archive-change</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:fission-ai/openspec/openspec-bulk-archive-change</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): open-redirect]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/open-redirect</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/open-redirect</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 9
-Source: fission-ai/openspec
-Description: Archive multiple completed changes at once. Use when archiving several parallel changes.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Open redirect playbook. Use when URL parameters, form actions, or JavaScript sinks control navigation targets and may redirect users to attacker-controlled destinations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): limrun-xcode]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-xcode</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): app-store]]></title>
+            <link>https://skills.sh/fetcher-sh/fetcher-skills/app-store</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:fetcher-sh/fetcher-skills/app-store</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 13
-Source: limrun-inc/skills
-Description: Build an iOS / Apple app on remote Xcode with `lim xcode build` instead of local xcodebuild, from any environment (Linux, Windows, macOS, VM, container). Use for non-Bazel projects (an `.xcodeproj` / `.xcworkspace`, an XcodeGen `project.yml` with a gitignored project, React Native / Expo native build) when the user wants to build, compile, reload, produce a preview build, or ship a signed device IPA. To run, tap, screenshot, or otherwise interact with the result on a simulator, use limrun-ios-simulator. For Bazel workspaces, use limrun-xcode-bazel.]]></description>
+Installs: 2
+Source: fetcher-sh/fetcher-skills
+Description: An Apple App Store API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no Apple Developer Program membership. Use when the user wants to search iOS apps by keyword in any country's storefront, fetch an app's or app bundle's full details, reviews sorted by recent/helpful, apps similar to a given app, search or fetch app bundles, or fetch a developer's app catalog. Also covers iOS app store optimization (ASO) research, competitor app monitoring, localized storefront comparison, and app discovery without Apple Developer Program access.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): speckit-plan]]></title>
-            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-plan</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:dceoy/speckit-agent-skills/speckit-plan</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): 401-403-bypass-techniques]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/401-403-bypass-techniques</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/401-403-bypass-techniques</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 9
-Source: dceoy/speckit-agent-skills
-Description: Execute the implementation planning workflow using the plan template to generate design artifacts.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: 401/403 bypass playbook. Use when encountering access-denied responses on admin panels, API endpoints, or restricted paths. Covers path manipulation, HTTP method tampering, header injection, protocol downgrade, and automated bypass tools.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): speckit-specify]]></title>
-            <link>https://skills.sh/dceoy/speckit-agent-skills/speckit-specify</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:dceoy/speckit-agent-skills/speckit-specify</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): revenuecat-customer-center]]></title>
+            <link>https://skills.sh/revenuecat/ai-toolkit/revenuecat-customer-center</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:revenuecat/ai-toolkit/revenuecat-customer-center</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 9
-Source: dceoy/speckit-agent-skills
-Description: Create or update a feature specification from a natural language feature description.]]></description>
+Installs: 1
+Source: revenuecat/ai-toolkit
+Description: Add the RevenueCat Customer Center (self service subscription management UI) to an app. Use when the user asks to add a customer center, build a self service subscriptions screen, let users manage subscriptions in app, add a subscription management screen, present CustomerCenterView, call presentCustomerCenter, or wire a 'manage subscription' button to the RevenueCat customer center on iOS, Android, Kotlin Multiplatform, Flutter, or React Native.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): openspec-update-change]]></title>
-            <link>https://skills.sh/fission-ai/openspec/openspec-update-change</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:fission-ai/openspec/openspec-update-change</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): capcut-edit]]></title>
+            <link>https://skills.sh/renezander030/capcut-cli/capcut-edit</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:renezander030/capcut-cli/capcut-edit</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 9
-Source: fission-ai/openspec
-Description: Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code.]]></description>
+Installs: 1
+Source: renezander030/capcut-cli
+Description: Edit CapCut / JianYing video projects — read and write subtitles, timing, speed, volume, templates, animations (fade/ken-burns), and cut long-form to shorts. Use when the user mentions capcut, jianying, subtitles, video editing, draft_content.json, draft_info.json, or cutting videos.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): doc-coauthoring]]></title>
-            <link>https://skills.sh/anthropics/skills/doc-coauthoring</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/doc-coauthoring</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): nuxt]]></title>
+            <link>https://skills.sh/antfu/skills/nuxt</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:antfu/skills/nuxt</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 14
-Source: anthropics/skills
-Description: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.]]></description>
+Installs: 1
+Source: antfu/skills
+Description: Nuxt is a Vue.js framework for building full-stack web applications with SSR, auto-imports, file-based routing, and hybrid rendering]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): dry-refactoring]]></title>
-            <link>https://skills.sh/kucherenko/jscpd/dry-refactoring</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:kucherenko/jscpd/dry-refactoring</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): unauthorized-access-common-services]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/unauthorized-access-common-services</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/unauthorized-access-common-services</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 9
-Source: kucherenko/jscpd
-Description: Guided workflow to eliminate copy-paste duplication detected by jscpd. Refactor clones using extract function, module, constant, or base class strategies.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Unauthorized access playbook for common exposed services. Use when Redis, Rsync, PHP-FPM, AJP/Ghostcat, Hadoop YARN, H2 Console, or similar management interfaces are exposed without authentication.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): extension-http-endpoints]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-http-endpoints</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:caffeinelabs/skills/extension-http-endpoints</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): chrome-automation]]></title>
+            <link>https://skills.sh/zc277584121/marketing-skills/chrome-automation</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:zc277584121/marketing-skills/chrome-automation</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 5
-Source: caffeinelabs/skills
-Description: Serve inbound HTTP from a Motoko canister (webhooks, curl POST/GET, bot callbacks, ingest/health APIs) via the IC HTTP Gateway methods `http_request` / `http_request_update`. Load whenever the user or spec needs a canister URL that external HTTP clients can hit — Stripe/GitHub/Slack webhooks, Telegram bots, health checks, or any plain REST-ish endpoint. NOT for calling external APIs from the canister (use `extension-http-outcalls`); NOT for certified static asset serving.]]></description>
+Installs: 1
+Source: zc277584121/marketing-skills
+Description: Automate Chrome browser tasks using agent-browser CLI. Navigate pages, fill forms, click buttons, take screenshots, extract data, and replay recorded workflows — all inside the user's real Chrome session.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): theme-factory]]></title>
-            <link>https://skills.sh/anthropics/skills/theme-factory</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/theme-factory</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): sector-rotation-analysis]]></title>
+            <link>https://skills.sh/ssurmic/claude-investment-skills/sector-rotation-analysis</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:ssurmic/claude-investment-skills/sector-rotation-analysis</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 14
-Source: anthropics/skills
-Description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.]]></description>
+Installs: 1
+Source: ssurmic/claude-investment-skills
+Description: Top-down sector heat map across 11 GICS sectors + AI sub-sectors (GPU, ASIC, Memory, Power, Cloud, Network, Materials). Identifies overheated vs undervalued sectors, leader-laggard pairs, rotation signals. Recommends specific trim-from / add-to pairs with named stocks. Triggers in English ("sector rotation", "what sector to add", "which sector is cheap", "am I too tech heavy", "sector heat map") or Chinese ("板块轮动", "该买哪个板块", "板块热力图", "我是不是 tech 太重", "板块对比").]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): web-artifacts-builder]]></title>
-            <link>https://skills.sh/anthropics/skills/web-artifacts-builder</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:anthropics/skills/web-artifacts-builder</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): api-sec]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/api-sec</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/api-sec</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 14
-Source: anthropics/skills
-Description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: Entry P1 category router for API security. Use when choosing between API recon, authorization, token abuse, and hidden-parameter workflows before any deeper API topic skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): meegle]]></title>
-            <link>https://skills.sh/larksuite/meegle-cli/meegle</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:larksuite/meegle-cli/meegle</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): idor-broken-object-authorization]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/idor-broken-object-authorization</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/idor-broken-object-authorization</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 5
-Source: larksuite/meegle-cli
-Description: 飞书项目（Meego/Meegle）操作工具。支持查询和管理工作项、节点流转、视图查询、个人待办、排期统计等功能。 Use when user needs to work with Feishu/Lark Meego project management — including querying work items, creating/updating work items, completing workflow nodes, checking views, listing todos, analyzing schedules/workloads, or searching with MQL. 关键词：飞书项目、meego、meegle、工作项、需求、任务、缺陷、排期、视图、待办、节点。]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: IDOR and broken object authorization testing playbook. Use when requests expose object identifiers, tenant boundaries, writable fields, or missing object-level authorization checks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): chrome-devtools-axi]]></title>
-            <link>https://skills.sh/kunchenguid/chrome-devtools-axi/chrome-devtools-axi</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:kunchenguid/chrome-devtools-axi/chrome-devtools-axi</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): git-get-notification]]></title>
+            <link>https://skills.sh/zc277584121/mygitplugin/git-get-notification</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:zc277584121/mygitplugin/git-get-notification</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 5
-Source: kunchenguid/chrome-devtools-axi
-Description: Control a Chrome browser session through the chrome-devtools-axi CLI - navigate, snapshot, click, fill forms, run JavaScript, inspect console and network, take screenshots, audit performance. Use whenever a task needs a real browser: opening or testing a web page, clicking through a flow, extracting page content, or debugging a website.]]></description>
+Installs: 1
+Source: zc277584121/mygitplugin
+Description: Check GitHub notifications and recent Issues/PRs for monitored repos]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): limrun-ios-simulator]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-ios-simulator</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-ios-simulator</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): workers-profiling]]></title>
+            <link>https://skills.sh/cloudflare/skills/workers-profiling</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:cloudflare/skills/workers-profiling</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 13
-Source: limrun-inc/skills
-Description: Drive an app running on a Limrun cloud iOS simulator: launch, tap, type, read the accessibility element tree, screenshot, record video, and run timed action chains. Use after a build (from any builder) when the user wants to see, test, or interact with their app on a simulator, or says 'show me a screenshot', 'tap', 'run the UI test', 'record a video', or 'launch on simulator'. To build the app first, use limrun-xcode-bazel (Bazel workspaces) or limrun-xcode (xcodebuild projects).]]></description>
+Installs: 2
+Source: cloudflare/skills
+Description: Profile or debug CPU usage and memory allocation in deployed Cloudflare Workers and Durable Objects. Then use this information to optimize your code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): mintlify]]></title>
-            <link>https://skills.sh/mintlify/docs/mintlify</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:mintlify/docs/mintlify</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): sepa-strategy]]></title>
+            <link>https://skills.sh/himself65/finance-skills/sepa-strategy</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:himself65/finance-skills/sepa-strategy</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 5
-Source: mintlify/docs
-Description: Build and maintain documentation sites with Mintlify. Use when creating docs pages, configuring navigation, adding components, or setting up API references.]]></description>
+Installs: 1
+Source: himself65/finance-skills
+Description: Analyze stocks using Mark Minervini's SEPA (Specific Entry Point Analysis) methodology. Use this skill whenever the user mentions SEPA, Minervini, superperformance, trend template, VCP (Volatility Contraction Pattern), Stage 2 uptrend, stage analysis, pivot point breakout, or asks about growth stock screening criteria. Also triggers when the user wants to evaluate whether a stock meets swing trading entry criteria, check moving average alignment (bullish stacking: price above 50MA above 150MA above 200MA), assess breakout quality with volume confirmation, calculate position sizing based on risk percentage, or identify consolidation patterns like cup-with-handle, flat base, bull flag, or high tight flag. Use this skill even when the user simply asks "should I buy this stock" or "is this a good setup" in the context of growth/momentum trading, or when they share a stock chart and want pattern analysis.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): limrun-detox-testing]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-detox-testing</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-detox-testing</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): openfilm]]></title>
+            <link>https://skills.sh/openfilm/openfilm/openfilm</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:openfilm/openfilm/openfilm</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 13
-Source: limrun-inc/skills
-Description: Configure, run, or debug Detox on Limrun iOS simulators. Use when attaching the Limrun Detox runtime to an app, wiring Detox mediator connectivity, or validating app/tester connections over reverse tunnels.]]></description>
+Installs: 2
+Source: openfilm/openfilm
+Description: Make videos as web pages with OpenFilm. Use when the user asks for a video, motion graphics, an animation, a launch film, an explainer, a music video, to edit, cut, check or render a film (film.html and pages with window.film), or to open OpenFilm or its Studio.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): limrun-android-emulator]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-android-emulator</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-android-emulator</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): codex-ppt]]></title>
+            <link>https://skills.sh/ningzimu/codex-ppt-skill/codex-ppt</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:ningzimu/codex-ppt-skill/codex-ppt</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 13
-Source: limrun-inc/skills
-Description: Drive an app running on a Limrun cloud Android emulator: install an APK, launch and terminate apps with crash reports, tap, type, read the UI element tree, screenshot, record video, inject microphone audio, shape network bandwidth, and use adb over the CLI's tunnel for logcat, files, and shell. Use after a build (from limrun-gradle or any builder) when the user wants to see, test, or interact with their app on an emulator, or says 'show me a screenshot', 'tap', 'run it on the emulator', 'check logcat', or 'record a video'. To build the APK or AAB first, use limrun-gradle.]]></description>
+Installs: 1
+Source: ningzimu/codex-ppt-skill
+Description: Generate image-based PowerPoint decks from articles, reports, papers, notes, or outlines. Use this skill when the user asks to create a visually unified PPT/PPTX deck where each slide is a full-slide generated image, then assemble those images into a PowerPoint file.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): opentui]]></title>
-            <link>https://skills.sh/msmps/opentui-skill/opentui</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:msmps/opentui-skill/opentui</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): revenuecat-app-valuation]]></title>
+            <link>https://skills.sh/revenuecat/ai-toolkit/revenuecat-app-valuation</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:revenuecat/ai-toolkit/revenuecat-app-valuation</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 13
-Source: msmps/opentui-skill
-Description: Comprehensive OpenTUI skill for building terminal user interfaces. Covers the core imperative API, React reconciler, and Solid reconciler. Use for any TUI development task including components, layout, keyboard handling, animations, and testing.]]></description>
+Installs: 1
+Source: revenuecat/ai-toolkit
+Description: Use this skill when the user asks how much their app is worth, what they could sell their app for, how app valuations or acquisitions work, or how to prepare a subscription app for sale/exit.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): limrun-gradle]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-gradle</link>
-            <guid isPermaLink="false">2026-10-10T04:29:46.944Z:topHot:new:limrun-inc/skills/limrun-gradle</guid>
-            <pubDate>Sat, 10 Oct 2026 04:29:46 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): jndi-injection]]></title>
+            <link>https://skills.sh/yaklang/hack-skills/jndi-injection</link>
+            <guid isPermaLink="false">2026-10-11T04:09:42.126Z:topHot:new:yaklang/hack-skills/jndi-injection</guid>
+            <pubDate>Sun, 11 Oct 2026 04:09:42 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #9
-Installs: 13
-Source: limrun-inc/skills
-Description: Build an Android app on a remote Gradle sandbox with `lim gradle build` instead of local Gradle or Android Studio, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to build an APK or AAB, sign a release with an upload key, or prepare a Play Store publish, for native Android projects, React Native, and Expo. To run, tap, screenshot, or otherwise interact with the built APK on an emulator, use the `lim android` commands shown here. For iOS builds, use limrun-xcode or limrun-expo-development.]]></description>
+Installs: 1
+Source: yaklang/hack-skills
+Description: JNDI injection playbook. Use when Java applications perform JNDI lookups with attacker-controlled names, especially via Log4j2, Spring, or any code path reaching InitialContext.lookup().]]></description>
         </item>
     </channel>
 </rss>

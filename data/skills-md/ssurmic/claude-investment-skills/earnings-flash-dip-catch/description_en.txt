@@ -1,0 +1,11 @@
+STOCK TRADING ONLY — Build a post-earnings "catch the flash dip, sell the strength"
+ladder (财报接飞刀 / 盘后捞货). Pulls latest + after-hours price, the key stats,
+option walls + max pain + the straddle expected move, finds the MOST-RECENT price
+shelf, and outputs tiered limit-buy catch levels + sell levels + a structural stop.
+Use when user asks Chinese: "$TICKER 财报接飞刀", "$TICKER 财报后怎么接", "盘后捞货",
+"$TICKER 闪跌接刀", "财报后抄底 $TICKER", "$TICKER 财报砸下来怎么买", or English:
+"catch the dip on $TICKER earnings", "$TICKER post-earnings flash dip", "where to buy
+$TICKER after earnings", "$TICKER earnings knife-catch ladder".
+
+DO NOT trigger for: code/CI "flaky test" catches, exception/error catching, fishing,
+or any non-equity topic. Requires a clear ticker + an earnings/post-earnings context.

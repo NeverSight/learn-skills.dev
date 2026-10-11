@@ -1,0 +1,20 @@
+Real-time AI-ECOSYSTEM firehose (v3 multi-source, May 2026). Polls 12
+Atom/RSS feeds every 30 min: NVIDIA (developer-blog + main-blog +
+newsroom), hyperscalers (Azure, AWS, AWS-ML, Meta-Engineering), AI labs
+(OpenAI, DeepMind, Hugging Face), and neoclouds (CoreWeave, Together
+AI). For each new post, uses HEURISTIC EXTRACTION + yfinance.Search to
+auto-resolve every mentioned company → US ticker (no hand-maintained
+name→ticker dict), with a persistent ticker cache that learns over
+time. Surfaces names via Telegram tagged by source, separated into
+🎯 portfolio-tracked tickers vs 🔍 newly discovered tickers. Why it
+matters: hyperscalers + NVIDIA + AI labs publicly name 800V HVDC, CPO,
+optical, power, and custom-silicon partners — the forward-looking
+design ecosystem that re-rates weeks later when sell-side picks it up.
+(AMD has no public RSS — covered separately by SEC 8-K
+strategic-partner-firehose.)
+Triggers in English ("nvidia developer firehose", "ai ecosystem
+firehose", "ai partner monitor", "hyperscaler blog scraper") or
+Chinese ("NVIDIA Developer 爬虫", "AI 生态 firehose", "超大厂博客实时",
+"英伟达 + 超大厂 + AI 实验室博客").
+Do NOT trigger for: generic web scrapers, non-equity contexts, or
+individual blog reading.

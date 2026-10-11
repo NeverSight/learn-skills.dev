@@ -1,0 +1,10 @@
+STOCK TRADING ONLY — Classify a stock's current price action into 1 of 5 states
+(Breakout / Range / Pullback / Deep-Correction / Structural-Break) from Jackal Quant's
+framework, and output the corresponding position-sizing playbook. Use when user types
+English: "what state is $TICKER in", "state classify NVDA", "Jackal state for MRVL",
+"5-state $TICKER", or Chinese: "$TICKER 现在是哪个 state", "$TICKER 在哪个阶段",
+"$TICKER 的 5态分类", "用 Jackal 框架看 $TICKER".
+
+DO NOT trigger for: software state machines, code state diagrams, finite-state
+automata, React state, Redux state, or any non-equity-market query. If "state" appears
+without a ticker symbol or market context, do NOT invoke.
