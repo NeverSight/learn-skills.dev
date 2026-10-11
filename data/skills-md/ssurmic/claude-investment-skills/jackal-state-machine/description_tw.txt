@@ -1,0 +1,1 @@
+僅限股票交易 — 從 Jackal Quant 的框架中，將股票當前的價格走勢分類為 5 種狀態之一（突破 / 區間 / 回撤 / 深度回調 / 結構性突破），並輸出相應的倉位大小操作手冊。當使用者輸入以下英文時使用：「what state is $TICKER in」「state classify NVDA」「Jackal state for MRVL」「5-state $TICKER」，或中文：「$TICKER 现在是哪个 state」「$TICKER 在哪个阶段」「$TICKER 的 5態分類」「用 Jackal 框架看 $TICKER」。不要對以下情況觸發：軟體狀態機、程式碼狀態圖、有限狀態自動機、React 狀態、Redux 狀態，或任何非股票市場的查詢。如果出現「state」卻沒有股票代碼或市場上下文，請勿啟動。請始終以使用者的語言回應。

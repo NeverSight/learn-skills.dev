@@ -1,0 +1,5 @@
+僅限證券交易 — 結合多指標的技術深度掃描，包括 MA 對齊、RS 線分歧、MACD 收斂、成交量特徵及 200‑MA 偏離極端檢測，用以推斷機構資金流向。輸出「聰明資金正在執行 X」的結論，並提供透明的推理。於使用者以英文提出以下需求時使用：\"tech scan $TICKER\"、\"technical analysis NVDA\"、\"institutional flow MRVL\"、\"is smart money buying $TICKER\"、\"Jackal tech scan\"；或以中文提出：\"$TICKER 技術面深度掃描\"、\"看一下 $TICKER 機構資金流\"、\"$TICKER 的 RS line / MA / MACD 綜合判斷\"、\"Jackal 技術分析 $TICKER\"。
+
+勿在以下情況觸發：代碼 \"tech debt scan\"、\"tech stack analysis\"、安全掃描、漏洞掃描、相依性掃描，或任何非股票的技術分析。若出現 \"tech scan\" 但未附股票代號，則不啟動。
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,3 @@
+使用 devcontainer-kit 建立或重新產生儲存庫自己的開發容器 — .devcontainer/devcontainer.json、docker/local/<service>/Dockerfile（官方執行映像以 digest 鎖定、DeepWorkPlan Vim、Herdr、透過 agentkit 的程式編寫代理）、docker/local/docker-compose.yaml 與 dev.sh — 然後以實際建置驗證。僅在使用者要求 dev container、devcontainer、docker/local/<service>/Dockerfile 或 `dev.sh up` 容器（針對某個儲存庫）時使用，或是要重新產生或升級由 devcontainer-kit 所製作的容器。切勿用於生產映像、部署、Kubernetes、CI 執行器，或僅因儲存庫內含 Dockerfile 而使用。
+
+請始終以使用者的語言回覆。
