@@ -1,0 +1,5 @@
+仅限股票交易 — 为股票构建 16 层价位阶梯（当前价格上方 8 条阻力位 + 下方 8 条支撑位），并为每一层提供订单流解释。对每一层进行注释，标明类型（心理价位 / 移动均线 / 斐波那契 / 集群 / 拒绝区 / EMA / 跳升基准）、强度，以及实际的订单流含义（例如，“$210 = 20EMA = 趋势跟随算法触发”）。在用户使用以下英文或中文请求时使用：“price ladder for $TICKER”（$TICKER 的价位阶梯）、“support and resistance for NVDA”（NVDA 的支撑阻力）、“key levels on MRVL”（MRVL 的关键价位）、“what are the supports below $TICKER”（$TICKER 以下的支撑位）、“Jackal ladder $TICKER”（Jackal 价位阶梯 $TICKER），或中文：“$TICKER 的阻力支撑价位”、 “$TICKER 的 price ladder”、 “$TICKER 上下关键 level”、 “$TICKER 上方阻力下方支撑”、 “Jackal 价格阶梯 $TICKER”。
+
+请勿对以下情况触发：SaaS 定价策略中的价格阶梯、薪酬阶梯、职业阶梯、抽象阶梯或任何非股票市场的话题。如果出现 “ladder” 或 “support” 但没有股票代码，也不要触发。
+
+始终使用用户的语言进行回复。

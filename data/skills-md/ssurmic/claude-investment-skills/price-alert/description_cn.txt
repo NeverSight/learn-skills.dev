@@ -1,0 +1,3 @@
+在任何美国上市的股票或ETF上设置、列出和取消参数化的价格提醒。支持绝对价格阈值（高于/低于）和百分比变动（相对于基准的下跌/上涨）。提醒通过 GitHub Actions 的 cron 运行（在美国交易时间每 15 分钟一次），并发送 Telegram 通知。当用户希望在股票达到特定价格或移动特定百分比时使用。触发指令包括英文（"alert me when X hits Y", "notify me if X drops Z%", "set price alert", "watch X at Y", "list my alerts", "cancel alert"）或中文（"X 跌到 Y 通知我", "X 涨到 Y 提醒", "设个 alert", "盯一下 X", "列出我的 alert", "取消 alert"）。
+
+请始终使用用户的语言回复。

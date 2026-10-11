@@ -1,0 +1,1 @@
+为 Claude Code 设置此仓库的代理框架：提供一个检查入口点（scripts/check.sh）、一个 pre‑commit 运行器、其运行的 lint、formatter、typechecker 和测试，编辑后以及每回合结束时运行的钩子，经过真实 LSP 悬停验证的内置语言服务器，以及在每个 Claude Code Web 会话中安装它们的云配置，已在真实环境中验证；每个第三方工具都已固定版本并通过安装检查。独立于 Ship；请在 /setup‑skills 之前运行。随时重新运行以生成差距报告，仅列出缺失、损坏或落后的部分，保留仓库自身的新增和既定选择。

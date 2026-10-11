@@ -1,0 +1,3 @@
+诊断 ROCm、HIP SDK、PyTorch 或 llama.cpp 在 Linux、Windows 或 WSL2 上的 AMD GPU 出现故障的原因，然后经用户同意后应用低风险修复，或提供确切的后续步骤。还会将 Lemonade、LM Studio 和 Ollama 的问题转至相应的上游渠道。适用于用户报告 ROCm 或 HIP“无法工作”、torch.cuda.is_available() 返回 False、rocminfo / hipInfo 看不到 GPU，或出现 hipErrorNoBinaryForGpu、HSA_STATUS_ERROR_INVALID_ISA、“invalid device function”、“no kernel image is available”、无法打开 /dev/kfd、/dev/kfd 权限被拒绝、“ROCk module is NOT loaded”、缺少 libamdhip64.so / amdhip64_6.dll / hipblas.dll / vcruntime140_1.dll、HSA_OVERRIDE_GFX_VERSION 页面错误、iGPU+dGPU 崩溃、容器看不到 GPU，或 amdgpu‑install / DKMS 失败等情况。该功能依托 `rocm` CLI（`rocm examine` / `rocm diagnose` / `rocm fix`），是对这些命令的薄层调用，而非重新实现。
+
+请始终使用用户的语言进行回复。

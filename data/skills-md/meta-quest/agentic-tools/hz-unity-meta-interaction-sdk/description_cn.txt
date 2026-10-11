@@ -1,0 +1,1 @@
+Meta XR Interaction SDK（com.meta.xr.sdk.interaction.ovr）在 Unity 中使用。适用于在 Meta VR 或 Horizon OS 场景中添加任何交互——抓取（手部、距离、射线、触摸）、戳、传送/移动、凝视、可交互 UI 画布——无论是使对象可抓取、向手部或控制器添加交互器、创建交互装置，还是将交互烘焙进预制体或其装置将在其他位置加载的场景（动态、DontDestroyOnLoad、加加载）。除非用户明确要求跨平台，否则使用 OVR 后端。涵盖 QuickActionsAPI 和 OVRQuickActionsAPI 作为默认的交互接线方式，通过 unity‑cli、编辑器脚本或 MCP 运行，包含安装过程，以及未文档化的行为——需要读取源码或在播放模式下运行才能发现。
