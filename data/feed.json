@@ -2,7 +2,7 @@
   "title": "Skills.sh Feed",
   "description": "Latest skill data from skills.sh",
   "link": "https://skills.sh",
-  "updatedAt": "2026-10-11T04:09:42.126Z",
+  "updatedAt": "2026-10-12T04:26:13.510Z",
   "providers": [
     {
       "id": "skills.sh",
@@ -15,7 +15,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 3787386,
+      "installs": 3801009,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -24,7 +24,7 @@
       "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
       "source": "mattpocock/skills",
-      "installs": 1327468,
+      "installs": 1332947,
       "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
@@ -33,34 +33,34 @@
       "id": "mattpocock/skills/grill-with-docs",
       "title": "grill-with-docs",
       "source": "mattpocock/skills",
-      "installs": 1136981,
+      "installs": 1141706,
       "link": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "providerId": "skills.sh",
       "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
     },
     {
-      "id": "mattpocock/skills/improve-codebase-architecture",
-      "title": "improve-codebase-architecture",
-      "source": "mattpocock/skills",
-      "installs": 1085171,
-      "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
-      "providerId": "skills.sh",
-      "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
-    },
-    {
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 1084679,
+      "installs": 1092233,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
     },
     {
+      "id": "mattpocock/skills/improve-codebase-architecture",
+      "title": "improve-codebase-architecture",
+      "source": "mattpocock/skills",
+      "installs": 1089779,
+      "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+      "providerId": "skills.sh",
+      "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
+    },
+    {
       "id": "mattpocock/skills/tdd",
       "title": "tdd",
       "source": "mattpocock/skills",
-      "installs": 1058860,
+      "installs": 1063791,
       "link": "https://skills.sh/mattpocock/skills/tdd",
       "providerId": "skills.sh",
       "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
@@ -69,7 +69,7 @@
       "id": "mattpocock/skills/setup-matt-pocock-skills",
       "title": "setup-matt-pocock-skills",
       "source": "mattpocock/skills",
-      "installs": 978050,
+      "installs": 982612,
       "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
       "providerId": "skills.sh",
       "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
@@ -78,7 +78,7 @@
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 972493,
+      "installs": 975732,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
@@ -87,7 +87,7 @@
       "id": "mattpocock/skills/handoff",
       "title": "handoff",
       "source": "mattpocock/skills",
-      "installs": 958354,
+      "installs": 963170,
       "link": "https://skills.sh/mattpocock/skills/handoff",
       "providerId": "skills.sh",
       "description": "Compact the current conversation into a handoff document for another agent to pick up."
@@ -96,7 +96,7 @@
       "id": "heygen-com/hyperframes/hyperframes-cli",
       "title": "hyperframes-cli",
       "source": "heygen-com/hyperframes",
-      "installs": 928974,
+      "installs": 943733,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
       "providerId": "skills.sh",
       "description": "Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps."
@@ -105,7 +105,7 @@
       "id": "mattpocock/skills/triage",
       "title": "triage",
       "source": "mattpocock/skills",
-      "installs": 921056,
+      "installs": 925120,
       "link": "https://skills.sh/mattpocock/skills/triage",
       "providerId": "skills.sh",
       "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
@@ -114,7 +114,7 @@
       "id": "mattpocock/skills/prototype",
       "title": "prototype",
       "source": "mattpocock/skills",
-      "installs": 916764,
+      "installs": 920713,
       "link": "https://skills.sh/mattpocock/skills/prototype",
       "providerId": "skills.sh",
       "description": "Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\"."
@@ -123,115 +123,115 @@
       "id": "heygen-com/hyperframes/hyperframes",
       "title": "hyperframes",
       "source": "heygen-com/hyperframes",
-      "installs": 886642,
+      "installs": 901443,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes",
       "providerId": "skills.sh",
       "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill."
     },
     {
-      "id": "mattpocock/skills/grilling",
-      "title": "grilling",
-      "source": "mattpocock/skills",
-      "installs": 882880,
-      "link": "https://skills.sh/mattpocock/skills/grilling",
-      "providerId": "skills.sh",
-      "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
-    },
-    {
       "id": "flowkit-labs/skills/reddit-automation",
       "title": "reddit-automation",
       "source": "flowkit-labs/skills",
-      "installs": 881744,
+      "installs": 896175,
       "link": "https://skills.sh/flowkit-labs/skills/reddit-automation",
       "providerId": "skills.sh",
       "description": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on \"find reddit opportunities\", \"reddit marketing\", \"reddit automation\", \"reply on reddit for my product\", \"reddit community engagement\", \"reddit lead gen\", or any ask to turn Reddit threads into genuine, disclosed marketing replies."
     },
     {
+      "id": "mattpocock/skills/grilling",
+      "title": "grilling",
+      "source": "mattpocock/skills",
+      "installs": 888478,
+      "link": "https://skills.sh/mattpocock/skills/grilling",
+      "providerId": "skills.sh",
+      "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
+    },
+    {
       "id": "heygen-com/hyperframes/media-use",
       "title": "media-use",
       "source": "heygen-com/hyperframes",
-      "installs": 802575,
+      "installs": 820621,
       "link": "https://skills.sh/heygen-com/hyperframes/media-use",
       "providerId": "skills.sh",
       "description": "Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons."
     },
     {
-      "id": "mattpocock/skills/domain-modeling",
-      "title": "domain-modeling",
-      "source": "mattpocock/skills",
-      "installs": 795926,
-      "link": "https://skills.sh/mattpocock/skills/domain-modeling",
-      "providerId": "skills.sh",
-      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
-    },
-    {
       "id": "heygen-com/hyperframes/hyperframes-registry",
       "title": "hyperframes-registry",
       "source": "heygen-com/hyperframes",
-      "installs": 791404,
+      "installs": 802360,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-registry",
       "providerId": "skills.sh",
       "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery."
     },
     {
+      "id": "mattpocock/skills/domain-modeling",
+      "title": "domain-modeling",
+      "source": "mattpocock/skills",
+      "installs": 800593,
+      "link": "https://skills.sh/mattpocock/skills/domain-modeling",
+      "providerId": "skills.sh",
+      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
+    },
+    {
       "id": "mattpocock/skills/teach",
       "title": "teach",
       "source": "mattpocock/skills",
-      "installs": 789210,
+      "installs": 793573,
       "link": "https://skills.sh/mattpocock/skills/teach",
       "providerId": "skills.sh",
       "description": "Teach the user a new skill or concept, within this workspace."
     },
     {
-      "id": "vercel-labs/agent-skills/vercel-react-best-practices",
-      "title": "vercel-react-best-practices",
-      "source": "vercel-labs/agent-skills",
-      "installs": 787274,
-      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
-      "providerId": "skills.sh",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
-    },
-    {
       "id": "heygen-com/hyperframes/hyperframes-animation",
       "title": "hyperframes-animation",
       "source": "heygen-com/hyperframes",
-      "installs": 778910,
+      "installs": 793092,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-animation",
       "providerId": "skills.sh",
       "description": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic."
     },
     {
+      "id": "vercel-labs/agent-skills/vercel-react-best-practices",
+      "title": "vercel-react-best-practices",
+      "source": "vercel-labs/agent-skills",
+      "installs": 790010,
+      "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "providerId": "skills.sh",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+    },
+    {
       "id": "mattpocock/skills/codebase-design",
       "title": "codebase-design",
       "source": "mattpocock/skills",
-      "installs": 772369,
+      "installs": 776898,
       "link": "https://skills.sh/mattpocock/skills/codebase-design",
       "providerId": "skills.sh",
       "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
     },
     {
-      "id": "mattpocock/skills/diagnosing-bugs",
-      "title": "diagnosing-bugs",
-      "source": "mattpocock/skills",
-      "installs": 757387,
-      "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
-      "providerId": "skills.sh",
-      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
-    },
-    {
       "id": "heygen-com/hyperframes/hyperframes-core",
       "title": "hyperframes-core",
       "source": "heygen-com/hyperframes",
-      "installs": 753295,
+      "installs": 763778,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-core",
       "providerId": "skills.sh",
       "description": "HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects."
     },
     {
+      "id": "mattpocock/skills/diagnosing-bugs",
+      "title": "diagnosing-bugs",
+      "source": "mattpocock/skills",
+      "installs": 762029,
+      "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
+      "providerId": "skills.sh",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
+    },
+    {
       "id": "designed-by-ai/skills/design-mobile-apps",
       "title": "design-mobile-apps",
       "source": "designed-by-ai/skills",
-      "installs": 738206,
+      "installs": 756355,
       "link": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "providerId": "skills.sh",
       "description": "Use when the user wants to design a mobile app or UI screens, when they mention their Sleek (sleek.design) projects, or when implementing Sleek designs in code (HTML, React Native, SwiftUI)."
@@ -240,16 +240,25 @@
       "id": "101-skills/superpowers/ai-video-generation",
       "title": "ai-video-generation",
       "source": "101-skills/superpowers",
-      "installs": 725901,
+      "installs": 735537,
       "link": "https://skills.sh/101-skills/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
     },
     {
+      "id": "heygen-com/hyperframes/hyperframes-creative",
+      "title": "hyperframes-creative",
+      "source": "heygen-com/hyperframes",
+      "installs": 734970,
+      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-creative",
+      "providerId": "skills.sh",
+      "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`."
+    },
+    {
       "id": "101-skills/superpowers/ai-image-generation",
       "title": "ai-image-generation",
       "source": "101-skills/superpowers",
-      "installs": 725189,
+      "installs": 734802,
       "link": "https://skills.sh/101-skills/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
@@ -258,7 +267,7 @@
       "id": "101-skills/superpowers/twitter-automation",
       "title": "twitter-automation",
       "source": "101-skills/superpowers",
-      "installs": 725075,
+      "installs": 734678,
       "link": "https://skills.sh/101-skills/superpowers/twitter-automation",
       "providerId": "skills.sh",
       "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
@@ -267,25 +276,16 @@
       "id": "101-skills/superpowers/ai-avatar-video",
       "title": "ai-avatar-video",
       "source": "101-skills/superpowers",
-      "installs": 724794,
+      "installs": 734399,
       "link": "https://skills.sh/101-skills/superpowers/ai-avatar-video",
       "providerId": "skills.sh",
       "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
     },
     {
-      "id": "heygen-com/hyperframes/hyperframes-creative",
-      "title": "hyperframes-creative",
-      "source": "heygen-com/hyperframes",
-      "installs": 723942,
-      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-creative",
-      "providerId": "skills.sh",
-      "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`."
-    },
-    {
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 720232,
+      "installs": 723642,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
@@ -294,7 +294,7 @@
       "id": "mattpocock/skills/code-review",
       "title": "code-review",
       "source": "mattpocock/skills",
-      "installs": 708409,
+      "installs": 713299,
       "link": "https://skills.sh/mattpocock/skills/code-review",
       "providerId": "skills.sh",
       "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\"."
@@ -303,7 +303,7 @@
       "id": "mattpocock/skills/implement",
       "title": "implement",
       "source": "mattpocock/skills",
-      "installs": 699048,
+      "installs": 703493,
       "link": "https://skills.sh/mattpocock/skills/implement",
       "providerId": "skills.sh",
       "description": "Implement a piece of work based on a PRD or set of issues."
@@ -312,7 +312,7 @@
       "id": "mattpocock/skills/ask-matt",
       "title": "ask-matt",
       "source": "mattpocock/skills",
-      "installs": 697657,
+      "installs": 701807,
       "link": "https://skills.sh/mattpocock/skills/ask-matt",
       "providerId": "skills.sh",
       "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo."
@@ -321,7 +321,7 @@
       "id": "mattpocock/skills/wayfinder",
       "title": "wayfinder",
       "source": "mattpocock/skills",
-      "installs": 646118,
+      "installs": 650399,
       "link": "https://skills.sh/mattpocock/skills/wayfinder",
       "providerId": "skills.sh",
       "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
@@ -330,7 +330,7 @@
       "id": "mattpocock/skills/to-spec",
       "title": "to-spec",
       "source": "mattpocock/skills",
-      "installs": 643463,
+      "installs": 647509,
       "link": "https://skills.sh/mattpocock/skills/to-spec",
       "providerId": "skills.sh",
       "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed."
@@ -339,7 +339,7 @@
       "id": "mattpocock/skills/research",
       "title": "research",
       "source": "mattpocock/skills",
-      "installs": 641412,
+      "installs": 645349,
       "link": "https://skills.sh/mattpocock/skills/research",
       "providerId": "skills.sh",
       "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent."
@@ -348,7 +348,7 @@
       "id": "mattpocock/skills/to-tickets",
       "title": "to-tickets",
       "source": "mattpocock/skills",
-      "installs": 636249,
+      "installs": 640619,
       "link": "https://skills.sh/mattpocock/skills/to-tickets",
       "providerId": "skills.sh",
       "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker."
@@ -357,7 +357,7 @@
       "id": "heygen-com/hyperframes/hyperframes-keyframes",
       "title": "hyperframes-keyframes",
       "source": "heygen-com/hyperframes",
-      "installs": 608695,
+      "installs": 619668,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes",
       "providerId": "skills.sh",
       "description": "Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning."
@@ -366,7 +366,7 @@
       "id": "remotion-dev/skills/remotion-best-practices",
       "title": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "installs": 598898,
+      "installs": 603180,
       "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "providerId": "skills.sh",
       "description": "Best practices for Remotion - Video creation in React"
@@ -375,7 +375,7 @@
       "id": "leonxlnx/taste-skill/design-taste-frontend",
       "title": "design-taste-frontend",
       "source": "leonxlnx/taste-skill",
-      "installs": 589304,
+      "installs": 593672,
       "link": "https://skills.sh/leonxlnx/taste-skill/design-taste-frontend",
       "providerId": "skills.sh",
       "description": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering."
@@ -384,7 +384,7 @@
       "id": "juliusbrussee/caveman/caveman",
       "title": "caveman",
       "source": "juliusbrussee/caveman",
-      "installs": 566946,
+      "installs": 568040,
       "link": "https://skills.sh/juliusbrussee/caveman/caveman",
       "providerId": "skills.sh",
       "description": "Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested."
@@ -393,7 +393,7 @@
       "id": "microsoft/azure-skills/microsoft-foundry",
       "title": "microsoft-foundry",
       "source": "microsoft/azure-skills",
-      "installs": 559096,
+      "installs": 559696,
       "link": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
       "providerId": "skills.sh",
       "description": "Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare)."
@@ -402,34 +402,34 @@
       "id": "microsoft/azure-skills/azure-diagnostics",
       "title": "azure-diagnostics",
       "source": "microsoft/azure-skills",
-      "installs": 550980,
+      "installs": 551591,
       "link": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
       "providerId": "skills.sh",
       "description": "Debug and troubleshoot Azure Container Apps and Function Apps production issues using log analysis, health checks, and KQL. WHEN: debug production issues, troubleshoot containerized apps, troubleshoot Azure Functions, analyze logs with KQL, fix image pull failures, investigate health probe failures, troubleshoot cold starts, check resource health, find root cause of errors, function not working."
     },
     {
-      "id": "mattpocock/skills/resolving-merge-conflicts",
-      "title": "resolving-merge-conflicts",
-      "source": "mattpocock/skills",
-      "installs": 550950,
-      "link": "https://skills.sh/mattpocock/skills/resolving-merge-conflicts",
-      "providerId": "skills.sh",
-      "description": "Use when you need to resolve an in-progress git merge/rebase conflict."
-    },
-    {
       "id": "microsoft/azure-skills/azure-prepare",
       "title": "azure-prepare",
       "source": "microsoft/azure-skills",
-      "installs": 550496,
+      "installs": 551102,
       "link": "https://skills.sh/microsoft/azure-skills/azure-prepare",
       "providerId": "skills.sh",
       "description": "Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: \"create app\", \"build web app\", \"create API\", \"create serverless HTTP API\", \"create frontend\", \"create back end\", \"build a service\", \"modernize application\", \"update application\", \"add authentication\", \"add caching\", \"host on Azure\", \"create and deploy\", \"deploy to Azure\", \"deploy to Azure using Terraform\", \"deploy to Azure App Service\", \"deploy to Azure App Service using Terraform\", \"deploy to Azure Container Apps\", \"deploy to Azure Container Apps using Terraform\", \"generate Terraform\", \"generate Bicep\", \"function app\", \"timer trigger\", \"service bus trigger\", \"event-driven function\", \"containerized Node.js app\", \"social media app\", \"static portfolio website\", \"todo list with frontend and API\", \"prepare my Azure application to use Key Vault\", \"managed identity\"."
     },
     {
+      "id": "mattpocock/skills/resolving-merge-conflicts",
+      "title": "resolving-merge-conflicts",
+      "source": "mattpocock/skills",
+      "installs": 550959,
+      "link": "https://skills.sh/mattpocock/skills/resolving-merge-conflicts",
+      "providerId": "skills.sh",
+      "description": "Use when you need to resolve an in-progress git merge/rebase conflict."
+    },
+    {
       "id": "microsoft/azure-skills/azure-ai",
       "title": "azure-ai",
       "source": "microsoft/azure-skills",
-      "installs": 550251,
+      "installs": 550853,
       "link": "https://skills.sh/microsoft/azure-skills/azure-ai",
       "providerId": "skills.sh",
       "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech."
@@ -438,7 +438,7 @@
       "id": "microsoft/azure-skills/azure-deploy",
       "title": "azure-deploy",
       "source": "microsoft/azure-skills",
-      "installs": 550121,
+      "installs": 550718,
       "link": "https://skills.sh/microsoft/azure-skills/azure-deploy",
       "providerId": "skills.sh",
       "description": "Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: \"run azd up\", \"run azd deploy\", \"execute deployment\", \"push to production\", \"push to cloud\", \"go live\", \"ship it\", \"bicep deploy\", \"terraform apply\", \"publish to Azure\", \"launch on Azure\". DO NOT USE WHEN: \"create and deploy\", \"build and deploy\", \"create a new app\", \"set up infrastructure\", \"create and deploy to Azure using Terraform\" — use azure-prepare for these."
@@ -447,7 +447,7 @@
       "id": "microsoft/azure-skills/azure-validate",
       "title": "azure-validate",
       "source": "microsoft/azure-skills",
-      "installs": 549558,
+      "installs": 550149,
       "link": "https://skills.sh/microsoft/azure-skills/azure-validate",
       "providerId": "skills.sh",
       "description": "Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment."
@@ -456,7 +456,7 @@
       "id": "microsoft/azure-skills/azure-storage",
       "title": "azure-storage",
       "source": "microsoft/azure-skills",
-      "installs": 549022,
+      "installs": 549615,
       "link": "https://skills.sh/microsoft/azure-skills/azure-storage",
       "providerId": "skills.sh",
       "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging)."
@@ -467,7 +467,7 @@
       "id": "magentosh/superpowers/ai-image-generation",
       "title": "ai-image-generation",
       "source": "magentosh/superpowers",
-      "installs": 28803,
+      "installs": 28809,
       "link": "https://skills.sh/magentosh/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
@@ -476,7 +476,7 @@
       "id": "magentosh/superpowers/ai-video-generation",
       "title": "ai-video-generation",
       "source": "magentosh/superpowers",
-      "installs": 28793,
+      "installs": 28796,
       "link": "https://skills.sh/magentosh/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
@@ -485,7 +485,7 @@
       "id": "magentosh/superpowers/twitter-automation",
       "title": "twitter-automation",
       "source": "magentosh/superpowers",
-      "installs": 28790,
+      "installs": 28794,
       "link": "https://skills.sh/magentosh/superpowers/twitter-automation",
       "providerId": "skills.sh",
       "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
@@ -494,79 +494,79 @@
       "id": "magentosh/superpowers/ai-avatar-video",
       "title": "ai-avatar-video",
       "source": "magentosh/superpowers",
-      "installs": 28790,
+      "installs": 28794,
       "link": "https://skills.sh/magentosh/superpowers/ai-avatar-video",
       "providerId": "skills.sh",
       "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
     },
     {
-      "id": "heygen-com/hyperframes/hyperframes-audio",
-      "title": "hyperframes-audio",
-      "source": "heygen-com/hyperframes",
-      "installs": 22502,
-      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-audio",
-      "providerId": "skills.sh",
-      "description": "Use when audio already placed in a HyperFrames composition needs to be mixed: a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), or automation envelopes drawn on a track's volume or any effect parameter. Don't use for sourcing or generating audio — finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`."
-    },
-    {
-      "id": "heygen-com/hyperframes/hyperframes-cli",
-      "title": "hyperframes-cli",
-      "source": "heygen-com/hyperframes",
-      "installs": 20482,
-      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
-      "providerId": "skills.sh",
-      "description": "Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps."
-    },
-    {
       "id": "heygen-com/hyperframes/media-use",
       "title": "media-use",
       "source": "heygen-com/hyperframes",
-      "installs": 20353,
+      "installs": 18393,
       "link": "https://skills.sh/heygen-com/hyperframes/media-use",
       "providerId": "skills.sh",
       "description": "Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons."
     },
     {
-      "id": "heygen-com/hyperframes/hyperframes",
-      "title": "hyperframes",
+      "id": "heygen-com/hyperframes/hyperframes-audio",
+      "title": "hyperframes-audio",
       "source": "heygen-com/hyperframes",
-      "installs": 20249,
-      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes",
+      "installs": 18298,
+      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-audio",
       "providerId": "skills.sh",
-      "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill."
-    },
-    {
-      "id": "heygen-com/hyperframes/hyperframes-animation",
-      "title": "hyperframes-animation",
-      "source": "heygen-com/hyperframes",
-      "installs": 18707,
-      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-animation",
-      "providerId": "skills.sh",
-      "description": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic."
+      "description": "Use when audio already placed in a HyperFrames composition needs to be mixed: a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), or automation envelopes drawn on a track's volume or any effect parameter. Don't use for sourcing or generating audio — finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`."
     },
     {
       "id": "designed-by-ai/skills/design-mobile-apps",
       "title": "design-mobile-apps",
       "source": "designed-by-ai/skills",
-      "installs": 17306,
+      "installs": 18206,
       "link": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "providerId": "skills.sh",
       "description": "Use when the user wants to design a mobile app or UI screens, when they mention their Sleek (sleek.design) projects, or when implementing Sleek designs in code (HTML, React Native, SwiftUI)."
     },
     {
-      "id": "flowkit-labs/skills/reddit-automation",
-      "title": "reddit-automation",
-      "source": "flowkit-labs/skills",
-      "installs": 16256,
-      "link": "https://skills.sh/flowkit-labs/skills/reddit-automation",
+      "id": "heygen-com/hyperframes/hyperframes",
+      "title": "hyperframes",
+      "source": "heygen-com/hyperframes",
+      "installs": 15065,
+      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes",
       "providerId": "skills.sh",
-      "description": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on \"find reddit opportunities\", \"reddit marketing\", \"reddit automation\", \"reply on reddit for my product\", \"reddit community engagement\", \"reddit lead gen\", or any ask to turn Reddit threads into genuine, disclosed marketing replies."
+      "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill."
+    },
+    {
+      "id": "heygen-com/hyperframes/hyperframes-cli",
+      "title": "hyperframes-cli",
+      "source": "heygen-com/hyperframes",
+      "installs": 15024,
+      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
+      "providerId": "skills.sh",
+      "description": "Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps."
+    },
+    {
+      "id": "heygen-com/hyperframes/hyperframes-animation",
+      "title": "hyperframes-animation",
+      "source": "heygen-com/hyperframes",
+      "installs": 14467,
+      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-animation",
+      "providerId": "skills.sh",
+      "description": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic."
+    },
+    {
+      "id": "vercel-labs/skills/find-skills",
+      "title": "find-skills",
+      "source": "vercel-labs/skills",
+      "installs": 14183,
+      "link": "https://skills.sh/vercel-labs/skills/find-skills",
+      "providerId": "skills.sh",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
     },
     {
       "id": "gencraft-labs/skills/ai-video-generation",
       "title": "ai-video-generation",
       "source": "gencraft-labs/skills",
-      "installs": 16251,
+      "installs": 13443,
       "link": "https://skills.sh/gencraft-labs/skills/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still."
@@ -575,52 +575,52 @@
       "id": "gencraft-labs/skills/video-edit",
       "title": "video-edit",
       "source": "gencraft-labs/skills",
-      "installs": 16226,
+      "installs": 13431,
       "link": "https://skills.sh/gencraft-labs/skills/video-edit",
       "providerId": "skills.sh",
       "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video."
     },
     {
-      "id": "gencraft-labs/skills/ai-image-generation",
-      "title": "ai-image-generation",
-      "source": "gencraft-labs/skills",
-      "installs": 16219,
-      "link": "https://skills.sh/gencraft-labs/skills/ai-image-generation",
-      "providerId": "skills.sh",
-      "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image."
-    },
-    {
-      "id": "gencraft-labs/skills/ai-music",
-      "title": "ai-music",
-      "source": "gencraft-labs/skills",
-      "installs": 16217,
-      "link": "https://skills.sh/gencraft-labs/skills/ai-music",
-      "providerId": "skills.sh",
-      "description": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", \"music with lyrics\", \"extend music\", \"fix this song\", \"inpaint music\", or any explicit ask to generate or edit music."
-    },
-    {
       "id": "gencraft-labs/skills/image-to-video",
       "title": "image-to-video",
       "source": "gencraft-labs/skills",
-      "installs": 16141,
+      "installs": 13411,
       "link": "https://skills.sh/gencraft-labs/skills/image-to-video",
       "providerId": "skills.sh",
       "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on \"image to video\", \"image-to-video\", \"i2v\", \"animate image\", \"make this move\", or any explicit ask to turn a still into video."
     },
     {
-      "id": "heygen-com/hyperframes/general-video",
-      "title": "general-video",
-      "source": "heygen-com/hyperframes",
-      "installs": 15103,
-      "link": "https://skills.sh/heygen-com/hyperframes/general-video",
+      "id": "flowkit-labs/skills/reddit-automation",
+      "title": "reddit-automation",
+      "source": "flowkit-labs/skills",
+      "installs": 13408,
+      "link": "https://skills.sh/flowkit-labs/skills/reddit-automation",
       "providerId": "skills.sh",
-      "description": "Use as the fallback for custom HyperFrames HTML video composition authoring when no specialized workflow fits. Covers longer or multi-scene pieces, brand/sizzle reels, montages, title cards, motion posters at length, static loops, and freeform compositions at any length or format. Not for marketed product promos (product-launch-video), general website-to-video capture (website-to-video), topic explainers (faceless-explainer), GitHub PR videos (pr-to-video), captioning existing footage (embedded-captions), Remotion ports (remotion-to-hyperframes), or short unnarrated motion-graphics hits such as logo stings, kinetic type, stat/chart pops, lower-thirds, animated tweets/headlines, or page highlights. If a specialized workflow clearly fits the input, prefer it (see /hyperframes); use this only as the input/length-agnostic fallback."
+      "description": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on \"find reddit opportunities\", \"reddit marketing\", \"reddit automation\", \"reply on reddit for my product\", \"reddit community engagement\", \"reddit lead gen\", or any ask to turn Reddit threads into genuine, disclosed marketing replies."
+    },
+    {
+      "id": "gencraft-labs/skills/ai-music",
+      "title": "ai-music",
+      "source": "gencraft-labs/skills",
+      "installs": 13403,
+      "link": "https://skills.sh/gencraft-labs/skills/ai-music",
+      "providerId": "skills.sh",
+      "description": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", \"music with lyrics\", \"extend music\", \"fix this song\", \"inpaint music\", or any explicit ask to generate or edit music."
+    },
+    {
+      "id": "gencraft-labs/skills/ai-image-generation",
+      "title": "ai-image-generation",
+      "source": "gencraft-labs/skills",
+      "installs": 13392,
+      "link": "https://skills.sh/gencraft-labs/skills/ai-image-generation",
+      "providerId": "skills.sh",
+      "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image."
     },
     {
       "id": "heygen-com/hyperframes/hyperframes-creative",
       "title": "hyperframes-creative",
       "source": "heygen-com/hyperframes",
-      "installs": 14260,
+      "installs": 11278,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-creative",
       "providerId": "skills.sh",
       "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`."
@@ -629,7 +629,7 @@
       "id": "heygen-com/hyperframes/hyperframes-keyframes",
       "title": "hyperframes-keyframes",
       "source": "heygen-com/hyperframes",
-      "installs": 14207,
+      "installs": 11216,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes",
       "providerId": "skills.sh",
       "description": "Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning."
@@ -638,7 +638,7 @@
       "id": "heygen-com/hyperframes/hyperframes-registry",
       "title": "hyperframes-registry",
       "source": "heygen-com/hyperframes",
-      "installs": 14195,
+      "installs": 11202,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-registry",
       "providerId": "skills.sh",
       "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery."
@@ -647,7 +647,7 @@
       "id": "heygen-com/hyperframes/hyperframes-studio",
       "title": "hyperframes-studio",
       "source": "heygen-com/hyperframes",
-      "installs": 14176,
+      "installs": 11170,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-studio",
       "providerId": "skills.sh",
       "description": "Use when building or editing a HyperFrames project that people open in Studio: how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`."
@@ -656,124 +656,25 @@
       "id": "heygen-com/hyperframes/hyperframes-core",
       "title": "hyperframes-core",
       "source": "heygen-com/hyperframes",
-      "installs": 13632,
+      "installs": 10735,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-core",
       "providerId": "skills.sh",
       "description": "HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects."
     },
     {
-      "id": "vercel-labs/skills/find-skills",
-      "title": "find-skills",
-      "source": "vercel-labs/skills",
-      "installs": 12845,
-      "link": "https://skills.sh/vercel-labs/skills/find-skills",
-      "providerId": "skills.sh",
-      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
-    },
-    {
-      "id": "heygen-com/hyperframes/product-launch-video",
-      "title": "product-launch-video",
+      "id": "heygen-com/hyperframes/general-video",
+      "title": "general-video",
       "source": "heygen-com/hyperframes",
-      "installs": 10915,
-      "link": "https://skills.sh/heygen-com/hyperframes/product-launch-video",
+      "installs": 10154,
+      "link": "https://skills.sh/heygen-com/hyperframes/general-video",
       "providerId": "skills.sh",
-      "description": "Use when the user wants a product launch, SaaS promo, feature reveal, app/company/site marketing video, or a script/brief turned into a product-focused video. Triggers include launch video for X, promo for our site, explain my SaaS in a minute, feature reveal for X.com, and turn this script into a 60s promo. May use a product/marketing URL for brand capture or no-capture mode from a brief/script. Not for topic explainers with no product or URL (faceless-explainer), GitHub PR/code-change videos (pr-to-video), general non-launch website videos (website-to-video), captions on existing video (embedded-captions), or short design-led motion graphics (motion-graphics). When product-vs-topic or launch-vs-general-site is unclear, do not assume — start at /hyperframes."
-    },
-    {
-      "id": "heygen-com/hyperframes/faceless-explainer",
-      "title": "faceless-explainer",
-      "source": "heygen-com/hyperframes",
-      "installs": 10594,
-      "link": "https://skills.sh/heygen-com/hyperframes/faceless-explainer",
-      "providerId": "skills.sh",
-      "description": "faceless-explainer video workflow - arbitrary text (article / notes / topic / brief) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> typography / abstract-graphics / diagram / data-viz video. Typical length up to ~3 min (sweet spot ~30-90s); a genuinely longer piece is general-video, not this workflow. Generates its OWN narration (TTS) — it does not sync to a user-supplied / pre-recorded voiceover (that is general-video). No website capture, no real product screenshots. If the text names a product / its site to promote, that is /product-launch-video; when product-vs-topic is unclear, start at /hyperframes."
-    },
-    {
-      "id": "uizze/uizze/image-to-ui",
-      "title": "image-to-ui",
-      "source": "uizze/uizze",
-      "installs": 10468,
-      "link": "https://skills.sh/uizze/uizze/image-to-ui",
-      "providerId": "skills.sh",
-      "description": "Recreate an image, screenshot, or mockup as a 1:1 UI implementation. Match the reference rather than redesigning it, then render and compare the result to correct visible differences."
-    },
-    {
-      "id": "its-a-skill-issue/superpowers/ai-image-generation",
-      "title": "ai-image-generation",
-      "source": "its-a-skill-issue/superpowers",
-      "installs": 9699,
-      "link": "https://skills.sh/its-a-skill-issue/superpowers/ai-image-generation",
-      "providerId": "skills.sh",
-      "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
-    },
-    {
-      "id": "its-a-skill-issue/superpowers/ai-avatar-video",
-      "title": "ai-avatar-video",
-      "source": "its-a-skill-issue/superpowers",
-      "installs": 9698,
-      "link": "https://skills.sh/its-a-skill-issue/superpowers/ai-avatar-video",
-      "providerId": "skills.sh",
-      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
-    },
-    {
-      "id": "its-a-skill-issue/superpowers/ai-video-generation",
-      "title": "ai-video-generation",
-      "source": "its-a-skill-issue/superpowers",
-      "installs": 9698,
-      "link": "https://skills.sh/its-a-skill-issue/superpowers/ai-video-generation",
-      "providerId": "skills.sh",
-      "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
-    },
-    {
-      "id": "its-a-skill-issue/superpowers/twitter-automation",
-      "title": "twitter-automation",
-      "source": "its-a-skill-issue/superpowers",
-      "installs": 9698,
-      "link": "https://skills.sh/its-a-skill-issue/superpowers/twitter-automation",
-      "providerId": "skills.sh",
-      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
-    },
-    {
-      "id": "skills-shell/superpowers/twitter-automation",
-      "title": "twitter-automation",
-      "source": "skills-shell/superpowers",
-      "installs": 9638,
-      "link": "https://skills.sh/skills-shell/superpowers/twitter-automation",
-      "providerId": "skills.sh",
-      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
-    },
-    {
-      "id": "skills-shell/superpowers/ai-video-generation",
-      "title": "ai-video-generation",
-      "source": "skills-shell/superpowers",
-      "installs": 9638,
-      "link": "https://skills.sh/skills-shell/superpowers/ai-video-generation",
-      "providerId": "skills.sh",
-      "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
-    },
-    {
-      "id": "skills-shell/superpowers/ai-image-generation",
-      "title": "ai-image-generation",
-      "source": "skills-shell/superpowers",
-      "installs": 9638,
-      "link": "https://skills.sh/skills-shell/superpowers/ai-image-generation",
-      "providerId": "skills.sh",
-      "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
-    },
-    {
-      "id": "skills-shell/superpowers/ai-avatar-video",
-      "title": "ai-avatar-video",
-      "source": "skills-shell/superpowers",
-      "installs": 9638,
-      "link": "https://skills.sh/skills-shell/superpowers/ai-avatar-video",
-      "providerId": "skills.sh",
-      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
+      "description": "Use as the fallback for custom HyperFrames HTML video composition authoring when no specialized workflow fits. Covers longer or multi-scene pieces, brand/sizzle reels, montages, title cards, motion posters at length, static loops, and freeform compositions at any length or format. Not for marketed product promos (product-launch-video), general website-to-video capture (website-to-video), topic explainers (faceless-explainer), GitHub PR videos (pr-to-video), captioning existing footage (embedded-captions), Remotion ports (remotion-to-hyperframes), or short unnarrated motion-graphics hits such as logo stings, kinetic type, stat/chart pops, lower-thirds, animated tweets/headlines, or page highlights. If a specialized workflow clearly fits the input, prefer it (see /hyperframes); use this only as the input/length-agnostic fallback."
     },
     {
       "id": "101-skills/superpowers/ai-video-generation",
       "title": "ai-video-generation",
       "source": "101-skills/superpowers",
-      "installs": 9609,
+      "installs": 9711,
       "link": "https://skills.sh/101-skills/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
@@ -782,8 +683,98 @@
       "id": "101-skills/superpowers/ai-image-generation",
       "title": "ai-image-generation",
       "source": "101-skills/superpowers",
-      "installs": 9584,
+      "installs": 9693,
       "link": "https://skills.sh/101-skills/superpowers/ai-image-generation",
+      "providerId": "skills.sh",
+      "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
+    },
+    {
+      "id": "101-skills/superpowers/ai-avatar-video",
+      "title": "ai-avatar-video",
+      "source": "101-skills/superpowers",
+      "installs": 9680,
+      "link": "https://skills.sh/101-skills/superpowers/ai-avatar-video",
+      "providerId": "skills.sh",
+      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
+    },
+    {
+      "id": "101-skills/superpowers/twitter-automation",
+      "title": "twitter-automation",
+      "source": "101-skills/superpowers",
+      "installs": 9679,
+      "link": "https://skills.sh/101-skills/superpowers/twitter-automation",
+      "providerId": "skills.sh",
+      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
+    },
+    {
+      "id": "bankai-skills/superpowers/ai-video-generation",
+      "title": "ai-video-generation",
+      "source": "bankai-skills/superpowers",
+      "installs": 9644,
+      "link": "https://skills.sh/bankai-skills/superpowers/ai-video-generation",
+      "providerId": "skills.sh",
+      "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
+    },
+    {
+      "id": "bankai-skills/superpowers/ai-image-generation",
+      "title": "ai-image-generation",
+      "source": "bankai-skills/superpowers",
+      "installs": 9644,
+      "link": "https://skills.sh/bankai-skills/superpowers/ai-image-generation",
+      "providerId": "skills.sh",
+      "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
+    },
+    {
+      "id": "bankai-skills/superpowers/ai-avatar-video",
+      "title": "ai-avatar-video",
+      "source": "bankai-skills/superpowers",
+      "installs": 9644,
+      "link": "https://skills.sh/bankai-skills/superpowers/ai-avatar-video",
+      "providerId": "skills.sh",
+      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
+    },
+    {
+      "id": "bankai-skills/superpowers/twitter-automation",
+      "title": "twitter-automation",
+      "source": "bankai-skills/superpowers",
+      "installs": 9644,
+      "link": "https://skills.sh/bankai-skills/superpowers/twitter-automation",
+      "providerId": "skills.sh",
+      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
+    },
+    {
+      "id": "its-a-skill-issue/superpowers/twitter-automation",
+      "title": "twitter-automation",
+      "source": "its-a-skill-issue/superpowers",
+      "installs": 9582,
+      "link": "https://skills.sh/its-a-skill-issue/superpowers/twitter-automation",
+      "providerId": "skills.sh",
+      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
+    },
+    {
+      "id": "its-a-skill-issue/superpowers/ai-avatar-video",
+      "title": "ai-avatar-video",
+      "source": "its-a-skill-issue/superpowers",
+      "installs": 9582,
+      "link": "https://skills.sh/its-a-skill-issue/superpowers/ai-avatar-video",
+      "providerId": "skills.sh",
+      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
+    },
+    {
+      "id": "its-a-skill-issue/superpowers/ai-video-generation",
+      "title": "ai-video-generation",
+      "source": "its-a-skill-issue/superpowers",
+      "installs": 9582,
+      "link": "https://skills.sh/its-a-skill-issue/superpowers/ai-video-generation",
+      "providerId": "skills.sh",
+      "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
+    },
+    {
+      "id": "its-a-skill-issue/superpowers/ai-image-generation",
+      "title": "ai-image-generation",
+      "source": "its-a-skill-issue/superpowers",
+      "installs": 9582,
+      "link": "https://skills.sh/its-a-skill-issue/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
     },
@@ -791,579 +782,588 @@
       "id": "qu-skills/superpowers/ai-video-generation",
       "title": "ai-video-generation",
       "source": "qu-skills/superpowers",
-      "installs": 9573,
+      "installs": 9562,
       "link": "https://skills.sh/qu-skills/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
     },
     {
-      "id": "qu-skills/superpowers/twitter-automation",
-      "title": "twitter-automation",
-      "source": "qu-skills/superpowers",
-      "installs": 9573,
-      "link": "https://skills.sh/qu-skills/superpowers/twitter-automation",
-      "providerId": "skills.sh",
-      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
-    },
-    {
       "id": "qu-skills/superpowers/ai-avatar-video",
       "title": "ai-avatar-video",
       "source": "qu-skills/superpowers",
-      "installs": 9573,
+      "installs": 9561,
       "link": "https://skills.sh/qu-skills/superpowers/ai-avatar-video",
       "providerId": "skills.sh",
       "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
     },
     {
+      "id": "qu-skills/superpowers/twitter-automation",
+      "title": "twitter-automation",
+      "source": "qu-skills/superpowers",
+      "installs": 9559,
+      "link": "https://skills.sh/qu-skills/superpowers/twitter-automation",
+      "providerId": "skills.sh",
+      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
+    },
+    {
       "id": "qu-skills/superpowers/ai-image-generation",
       "title": "ai-image-generation",
       "source": "qu-skills/superpowers",
-      "installs": 9573,
+      "installs": 9559,
       "link": "https://skills.sh/qu-skills/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
     },
     {
-      "id": "101-skills/superpowers/twitter-automation",
-      "title": "twitter-automation",
-      "source": "101-skills/superpowers",
-      "installs": 9572,
-      "link": "https://skills.sh/101-skills/superpowers/twitter-automation",
-      "providerId": "skills.sh",
-      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
-    },
-    {
-      "id": "101-skills/superpowers/ai-avatar-video",
-      "title": "ai-avatar-video",
-      "source": "101-skills/superpowers",
-      "installs": 9570,
-      "link": "https://skills.sh/101-skills/superpowers/ai-avatar-video",
-      "providerId": "skills.sh",
-      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
-    },
-    {
-      "id": "bankai-skills/superpowers/ai-avatar-video",
-      "title": "ai-avatar-video",
-      "source": "bankai-skills/superpowers",
-      "installs": 9555,
-      "link": "https://skills.sh/bankai-skills/superpowers/ai-avatar-video",
-      "providerId": "skills.sh",
-      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
-    },
-    {
-      "id": "bankai-skills/superpowers/ai-video-generation",
+      "id": "skills-shell/superpowers/ai-video-generation",
       "title": "ai-video-generation",
-      "source": "bankai-skills/superpowers",
-      "installs": 9555,
-      "link": "https://skills.sh/bankai-skills/superpowers/ai-video-generation",
+      "source": "skills-shell/superpowers",
+      "installs": 9531,
+      "link": "https://skills.sh/skills-shell/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
     },
     {
-      "id": "bankai-skills/superpowers/twitter-automation",
+      "id": "skills-shell/superpowers/twitter-automation",
       "title": "twitter-automation",
-      "source": "bankai-skills/superpowers",
-      "installs": 9555,
-      "link": "https://skills.sh/bankai-skills/superpowers/twitter-automation",
+      "source": "skills-shell/superpowers",
+      "installs": 9529,
+      "link": "https://skills.sh/skills-shell/superpowers/twitter-automation",
       "providerId": "skills.sh",
       "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
     },
     {
-      "id": "bankai-skills/superpowers/ai-image-generation",
+      "id": "skills-shell/superpowers/ai-image-generation",
       "title": "ai-image-generation",
-      "source": "bankai-skills/superpowers",
-      "installs": 9555,
-      "link": "https://skills.sh/bankai-skills/superpowers/ai-image-generation",
+      "source": "skills-shell/superpowers",
+      "installs": 9529,
+      "link": "https://skills.sh/skills-shell/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
     },
     {
-      "id": "heygen-com/hyperframes/pr-to-video",
-      "title": "pr-to-video",
+      "id": "skills-shell/superpowers/ai-avatar-video",
+      "title": "ai-avatar-video",
+      "source": "skills-shell/superpowers",
+      "installs": 9529,
+      "link": "https://skills.sh/skills-shell/superpowers/ai-avatar-video",
+      "providerId": "skills.sh",
+      "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
+    },
+    {
+      "id": "vercel-labs/agent-browser/agent-browser",
+      "title": "agent-browser",
+      "source": "vercel-labs/agent-browser",
+      "installs": 7909,
+      "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
+      "providerId": "skills.sh",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
+    },
+    {
+      "id": "heygen-com/hyperframes/product-launch-video",
+      "title": "product-launch-video",
       "source": "heygen-com/hyperframes",
-      "installs": 8818,
-      "link": "https://skills.sh/heygen-com/hyperframes/pr-to-video",
+      "installs": 6578,
+      "link": "https://skills.sh/heygen-com/hyperframes/product-launch-video",
       "providerId": "skills.sh",
-      "description": "pr-to-video workflow - a GitHub pull request (URL like github.com/<owner>/<repo>/pull/<N>, or <owner>/<repo>#<N>, or \"this PR\" in a checked-out repo) -> ingested PR facts (title, body, diff, commits, files, +/- stats) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> code-diff / before-after / impact explainer video. Input is a CODE CHANGE. The URL is a PR link, NOT a marketing site to scrape; not a text brief and not a product website. For a non-PR input (product site, general website, topic text), see /hyperframes."
+      "description": "Use when the user wants a product launch, SaaS promo, feature reveal, app/company/site marketing video, or a script/brief turned into a product-focused video. Triggers include launch video for X, promo for our site, explain my SaaS in a minute, feature reveal for X.com, and turn this script into a 60s promo. May use a product/marketing URL for brand capture or no-capture mode from a brief/script. Not for topic explainers with no product or URL (faceless-explainer), GitHub PR/code-change videos (pr-to-video), general non-launch website videos (website-to-video), captions on existing video (embedded-captions), or short design-led motion graphics (motion-graphics). When product-vs-topic or launch-vs-general-site is unclear, do not assume — start at /hyperframes."
     },
     {
-      "id": "heygen-com/hyperframes/motion-graphics",
-      "title": "motion-graphics",
+      "id": "heygen-com/hyperframes/faceless-explainer",
+      "title": "faceless-explainer",
       "source": "heygen-com/hyperframes",
-      "installs": 8235,
-      "link": "https://skills.sh/heygen-com/hyperframes/motion-graphics",
+      "installs": 6205,
+      "link": "https://skills.sh/heygen-com/hyperframes/faceless-explainer",
       "providerId": "skills.sh",
-      "description": "Use when the user wants a short, design-led motion graphic where motion is the message: kinetic typography, stat or number count-up, chart/data-viz hit, logo sting, brand lockup, lower-third, callout, social overlay, animated headline/tweet/news item, motion poster, or quick captured-page highlight. Usually under 10s and up to ~30s, with no narration arc, voice-over, or live-action subject. Can render to MP4 or transparent overlay. Not for longer, multi-scene, narrated, or brand-reel pieces (use general-video), narrated website videos (website-to-video), topic explainers (faceless-explainer), product promos (product-launch-video), PR videos (pr-to-video), or captions on existing footage (embedded-captions). When unsure whether it's a quick motion-first piece or a longer / narrated treatment, see /hyperframes."
+      "description": "faceless-explainer video workflow - arbitrary text (article / notes / topic / brief) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> typography / abstract-graphics / diagram / data-viz video. Typical length up to ~3 min (sweet spot ~30-90s); a genuinely longer piece is general-video, not this workflow. Generates its OWN narration (TTS) — it does not sync to a user-supplied / pre-recorded voiceover (that is general-video). No website capture, no real product screenshots. If the text names a product / its site to promote, that is /product-launch-video; when product-vs-topic is unclear, start at /hyperframes."
     },
     {
-      "id": "heygen-com/hyperframes/music-to-video",
-      "title": "music-to-video",
-      "source": "heygen-com/hyperframes",
-      "installs": 7622,
-      "link": "https://skills.sh/heygen-com/hyperframes/music-to-video",
+      "id": "mattpocock/skills/grilling",
+      "title": "grilling",
+      "source": "mattpocock/skills",
+      "installs": 5875,
+      "link": "https://skills.sh/mattpocock/skills/grilling",
       "providerId": "skills.sh",
-      "description": "Use when the user has a music track (an audio file, or a video to pull audio from) and wants a beat-synced HyperFrames video, calm to hard-hitting. The music drives everything: one analyzer reads it once, the orchestrator lays out the frames and fills a per-frame plan, and one sub-agent builds each frame. Typography and templates are the floor — a complete video needs zero assets — but any images or videos the user supplies are cut into the frames on the same beat grid (beat-cut / ken-burns). The genre (lyric video, slideshow, kinetic promo) falls out of the per-frame choices; the pipeline never branches on it."
+      "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
     },
     {
-      "id": "heygen-com/hyperframes/talking-head-recut",
-      "title": "talking-head-recut",
-      "source": "heygen-com/hyperframes",
-      "installs": 7435,
-      "link": "https://skills.sh/heygen-com/hyperframes/talking-head-recut",
+      "id": "uizze/uizze/image-to-ui",
+      "title": "image-to-ui",
+      "source": "uizze/uizze",
+      "installs": 5757,
+      "link": "https://skills.sh/uizze/uizze/image-to-ui",
       "providerId": "skills.sh",
-      "description": "Package an existing talking-head / interview / podcast video by layering timed, designed GRAPHIC OVERLAY cards onto the playing video — titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript. The source video plays in full; the agent designs and writes each card's HTML in conversation, then renders to MP4 via hyperframes. Use when the user asks for graphic overlays, on-screen graphics / lower-thirds / data callouts / kinetic titles on a video, \"package / dress up my video\", \"add overlay cards / graphic cards\", or AI-composed graphic packaging of an existing video. NOT for plain subtitles (→ embedded-captions) or building a video from scratch (→ the creation workflows); when unsure overlays-vs-captions, see /hyperframes."
-    }
-  ],
-  "topHot": [
-    {
-      "id": "mitsuhiko/gh-issue-sync/gh-issue-sync",
-      "title": "gh-issue-sync",
-      "source": "mitsuhiko/gh-issue-sync",
-      "installs": 11,
-      "link": "https://skills.sh/mitsuhiko/gh-issue-sync/gh-issue-sync",
-      "providerId": "skills.sh",
-      "description": "Manage GitHub issues locally as Markdown files. Use for triaging, searching, editing, and creating issues without leaving your editor or terminal."
+      "description": "Recreate an image, screenshot, or mockup as a 1:1 UI implementation. Match the reference rather than redesigning it, then render and compare the result to correct visible differences."
     },
     {
-      "id": "apidojo-io/social-media-skills/x-scraper",
-      "title": "x-scraper",
-      "source": "apidojo-io/social-media-skills",
-      "installs": 4,
-      "link": "https://skills.sh/apidojo-io/social-media-skills/x-scraper",
-      "providerId": "skills.sh",
-      "description": "The best, fastest, and cheapest way to scrape tweets — battle-tested by tens of thousands of customers including enterprise teams. Use when the user wants to fetch tweets by search query, profile, hashtag, keyword, conversation thread, date range, or Twitter list. Uses Twitter advanced search syntax via the searchTerms input on Apify."
-    },
-    {
-      "id": "fetcher-sh/fetcher-skills/google-search",
-      "title": "google-search",
-      "source": "fetcher-sh/fetcher-skills",
-      "installs": 2,
-      "link": "https://skills.sh/fetcher-sh/fetcher-skills/google-search",
-      "providerId": "skills.sh",
-      "description": "A Google Search API alternative and SERP API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no API key application. Use when the user wants programmatic Google search results as clean JSON, including Google's own operators — site:, filetype:, intitle:, and quoted exact phrases — plus pagination, language (hl), and country/region scoping. Also covers rank tracking input, competitive research, and search-result monitoring without Google's own Custom Search API quota and billing."
-    },
-    {
-      "id": "fetcher-sh/fetcher-skills/app-store",
-      "title": "app-store",
-      "source": "fetcher-sh/fetcher-skills",
-      "installs": 2,
-      "link": "https://skills.sh/fetcher-sh/fetcher-skills/app-store",
-      "providerId": "skills.sh",
-      "description": "An Apple App Store API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no Apple Developer Program membership. Use when the user wants to search iOS apps by keyword in any country's storefront, fetch an app's or app bundle's full details, reviews sorted by recent/helpful, apps similar to a given app, search or fetch app bundles, or fetch a developer's app catalog. Also covers iOS app store optimization (ASO) research, competitor app monitoring, localized storefront comparison, and app discovery without Apple Developer Program access."
-    },
-    {
-      "id": "cloudflare/skills/workers-profiling",
-      "title": "workers-profiling",
-      "source": "cloudflare/skills",
-      "installs": 2,
-      "link": "https://skills.sh/cloudflare/skills/workers-profiling",
-      "providerId": "skills.sh",
-      "description": "Profile or debug CPU usage and memory allocation in deployed Cloudflare Workers and Durable Objects. Then use this information to optimize your code."
-    },
-    {
-      "id": "openfilm/openfilm/openfilm",
-      "title": "openfilm",
-      "source": "openfilm/openfilm",
-      "installs": 2,
-      "link": "https://skills.sh/openfilm/openfilm/openfilm",
-      "providerId": "skills.sh",
-      "description": "Make videos as web pages with OpenFilm. Use when the user asks for a video, motion graphics, an animation, a launch film, an explainer, a music video, to edit, cut, check or render a film (film.html and pages with window.film), or to open OpenFilm or its Studio."
-    },
-    {
-      "id": "ningzimu/codex-ppt-skill/codex-ppt",
-      "title": "codex-ppt",
-      "source": "ningzimu/codex-ppt-skill",
-      "installs": 1,
-      "link": "https://skills.sh/ningzimu/codex-ppt-skill/codex-ppt",
-      "providerId": "skills.sh",
-      "description": "Generate image-based PowerPoint decks from articles, reports, papers, notes, or outlines. Use this skill when the user asks to create a visually unified PPT/PPTX deck where each slide is a full-slide generated image, then assemble those images into a PowerPoint file."
-    },
-    {
-      "id": "revenuecat/ai-toolkit/revenuecat-app-valuation",
-      "title": "revenuecat-app-valuation",
-      "source": "revenuecat/ai-toolkit",
-      "installs": 1,
-      "link": "https://skills.sh/revenuecat/ai-toolkit/revenuecat-app-valuation",
-      "providerId": "skills.sh",
-      "description": "Use this skill when the user asks how much their app is worth, what they could sell their app for, how app valuations or acquisitions work, or how to prepare a subscription app for sale/exit."
-    },
-    {
-      "id": "yaklang/hack-skills/jndi-injection",
-      "title": "jndi-injection",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/jndi-injection",
-      "providerId": "skills.sh",
-      "description": "JNDI injection playbook. Use when Java applications perform JNDI lookups with attacker-controlled names, especially via Log4j2, Spring, or any code path reaching InitialContext.lookup()."
-    },
-    {
-      "id": "ssurmic/claude-investment-skills/nvidia-developer-firehose",
-      "title": "nvidia-developer-firehose",
-      "source": "ssurmic/claude-investment-skills",
-      "installs": 1,
-      "link": "https://skills.sh/ssurmic/claude-investment-skills/nvidia-developer-firehose",
-      "providerId": "skills.sh",
-      "description": "Real-time AI-ECOSYSTEM firehose (v3 multi-source, May 2026). Polls 12\nAtom/RSS feeds every 30 min: NVIDIA (developer-blog + main-blog +\nnewsroom), hyperscalers (Azure, AWS, AWS-ML, Meta-Engineering), AI labs\n(OpenAI, DeepMind, Hugging Face), and neoclouds (CoreWeave, Together\nAI). For each new post, uses HEURISTIC EXTRACTION + yfinance.Search to\nauto-resolve every mentioned company → US ticker (no hand-maintained\nname→ticker dict), with a persistent ticker cache that learns over\ntime. Surfaces names via Telegram tagged by source, separated into\n🎯 portfolio-tracked tickers vs 🔍 newly discovered tickers. Why it\nmatters: hyperscalers + NVIDIA + AI labs publicly name 800V HVDC, CPO,\noptical, power, and custom-silicon partners — the forward-looking\ndesign ecosystem that re-rates weeks later when sell-side picks it up.\n(AMD has no public RSS — covered separately by SEC 8-K\nstrategic-partner-firehose.)\nTriggers in English (\"nvidia developer firehose\", \"ai ecosystem\nfirehose\", \"ai partner monitor\", \"hyperscaler blog scraper\") or\nChinese (\"NVIDIA Developer 爬虫\", \"AI 生态 firehose\", \"超大厂博客实时\",\n\"英伟达 + 超大厂 + AI 实验室博客\").\nDo NOT trigger for: generic web scrapers, non-equity contexts, or\nindividual blog reading."
-    },
-    {
-      "id": "yaklang/hack-skills/active-directory-acl-abuse",
-      "title": "active-directory-acl-abuse",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/active-directory-acl-abuse",
-      "providerId": "skills.sh",
-      "description": "Active Directory ACL abuse playbook. Use when exploiting misconfigured AD permissions including GenericAll, WriteDACL, DCSync rights, shadow credentials, LAPS reading, GPO abuse, and BloodHound-guided attack paths."
-    },
-    {
-      "id": "yaklang/hack-skills/clickjacking",
-      "title": "clickjacking",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/clickjacking",
-      "providerId": "skills.sh",
-      "description": "Clickjacking playbook. Use when testing whether target pages can be framed, whether X-Frame-Options or CSP frame-ancestors are properly configured, and whether UI redress attacks can trigger sensitive actions."
-    },
-    {
-      "id": "stevysmith/rive-skills/rive-generator",
-      "title": "rive-generator",
-      "source": "stevysmith/rive-skills",
-      "installs": 1,
-      "link": "https://skills.sh/stevysmith/rive-skills/rive-generator",
-      "providerId": "skills.sh",
-      "description": "Trigger when: (1) User wants to create a Rive animation programmatically,\n(2) User mentions \"generate .riv file\" or \"create Rive animation\",\n(3) User wants to see a visual animation created from code,\n(4) Working with the rive-generator project.\n\nGenerate .riv files programmatically using TypeScript. Creates static shapes\nand animations. Requires npm package @stevysmith/rive-generator."
-    },
-    {
-      "id": "ssurmic/claude-investment-skills/price-alert",
-      "title": "price-alert",
-      "source": "ssurmic/claude-investment-skills",
-      "installs": 1,
-      "link": "https://skills.sh/ssurmic/claude-investment-skills/price-alert",
-      "providerId": "skills.sh",
-      "description": "Set, list, and cancel parameterized price alerts on any US-listed stock or ETF. Supports absolute price thresholds (above/below) and percentage moves (drop/rise from anchor). Alerts run via GitHub Actions cron (every 15 min during US trading hours) and fire Telegram notifications. Use when user wants to be notified when a stock hits a specific price or moves a specific percentage. Triggers in English (\"alert me when X hits Y\", \"notify me if X drops Z%\", \"set price alert\", \"watch X at Y\", \"list my alerts\", \"cancel alert\") or Chinese (\"X 跌到 Y 通知我\", \"X 涨到 Y 提醒\", \"设个 alert\", \"盯一下 X\", \"列出我的 alert\", \"取消 alert\")."
-    },
-    {
-      "id": "docker/skills/docker-agent-deploy",
-      "title": "docker-agent-deploy",
-      "source": "docker/skills",
-      "installs": 1,
-      "link": "https://skills.sh/docker/skills/docker-agent-deploy",
-      "providerId": "skills.sh",
-      "description": "Use this skill when exposing a Docker Agent as a server (MCP, HTTP API, A2A, ACP, or OpenAI-compatible chat), distributing an agent via an OCI registry with `docker agent share`, or measuring agent quality with `docker agent eval`. Even if the user just says they want to \"turn my agent into an MCP server\", \"let Claude Desktop use my agent\", \"publish my agent to Docker Hub\", \"push my agent like an image\", or \"test my agent in CI\", this skill applies. Covers `serve mcp/api/a2a/acp/chat` listen addresses and auth flags, `share push/pull`, eval session JSON format, scoring metrics, and the `--baseline` regression gate."
-    },
-    {
-      "id": "mariusflorescu/thermos-t3/thermos",
-      "title": "thermos",
-      "source": "mariusflorescu/thermos-t3",
-      "installs": 1,
-      "link": "https://skills.sh/mariusflorescu/thermos-t3/thermos",
-      "providerId": "skills.sh",
-      "description": "Launch both thermo-nuclear review subagents in parallel, then synthesize their findings. Use for thermos, double thermo review, or combined bug/security and code-quality branch audits."
-    },
-    {
-      "id": "secondsky/sap-skills/sap-hana-cli",
-      "title": "sap-hana-cli",
-      "source": "secondsky/sap-skills",
-      "installs": 1,
-      "link": "https://skills.sh/secondsky/sap-skills/sap-hana-cli",
-      "providerId": "skills.sh",
-      "description": "Assists with SAP HANA Developer CLI (hana-cli) for database development and administration.\nUse when: installing hana-cli, connecting to SAP HANA databases, inspecting database objects\n(tables, views, procedures, functions), managing HDI containers, executing SQL queries,\nconverting metadata to CDS/EDMX/OpenAPI formats, managing SAP HANA Cloud instances,\nworking with BTP CLI integration, or troubleshooting hana-cli commands.\nCovers: 91 commands, 17+ output formats, HDI container management, cloud operations."
-    },
-    {
-      "id": "secondsky/sap-skills/sap-hana-cloud-data-intelligence",
-      "title": "sap-hana-cloud-data-intelligence",
-      "source": "secondsky/sap-skills",
-      "installs": 1,
-      "link": "https://skills.sh/secondsky/sap-skills/sap-hana-cloud-data-intelligence",
-      "providerId": "skills.sh",
-      "description": "Develops data processing pipelines, integrations, and machine learning scenarios in SAP Data Intelligence Cloud. Use when building graphs/pipelines with operators, integrating ABAP/S4HANA systems, creating replication flows, developing ML scenarios with JupyterLab, or using Data Transformation Language functions. Covers Gen1/Gen2 operators, subengines (Python, Node.js, C++), structured data operators, and repository objects."
-    },
-    {
-      "id": "fetcher-sh/fetcher-skills/instagram-api",
-      "title": "instagram-api",
-      "source": "fetcher-sh/fetcher-skills",
-      "installs": 1,
-      "link": "https://skills.sh/fetcher-sh/fetcher-skills/instagram-api",
-      "providerId": "skills.sh",
-      "description": "An Instagram API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no login and no session cookies. Use when the user wants to resolve an Instagram profile by @handle, search users by keyword, pull a profile's posts, reels, stories, tagged posts, followers, or followings, look up a single post by its shortcode, read a post's comments, fetch posts under a hashtag or reel-only hashtag feed, pull posts from a location, or pull posts using a specific audio/music track. Also covers Instagram follower export, hashtag and location monitoring, influencer discovery, competitor content tracking, and Instagram data pipelines without an official Graph API business verification or a headless browser."
-    },
-    {
-      "id": "secondsky/sap-skills/sap-cloud-sdk-ai",
-      "title": "sap-cloud-sdk-ai",
-      "source": "secondsky/sap-skills",
-      "installs": 1,
-      "link": "https://skills.sh/secondsky/sap-skills/sap-cloud-sdk-ai",
-      "providerId": "skills.sh",
-      "description": "Integrates SAP Cloud SDK for AI into JavaScript/TypeScript and Java applications. Use when building applications with SAP AI Core, Generative AI Hub, or Orchestration Service. Covers chat completion, embedding, streaming, function calling, content filtering, data masking, document grounding, prompt registry, and LangChain/Spring AI integration. Supports OpenAI GPT-4o, Llama, Gemini, Amazon Nova, and other foundation models via SAP BTP."
-    },
-    {
-      "id": "vercel/ai/migrate-ai-sdk-v6-to-v7",
-      "title": "migrate-ai-sdk-v6-to-v7",
-      "source": "vercel/ai",
-      "installs": 1,
-      "link": "https://skills.sh/vercel/ai/migrate-ai-sdk-v6-to-v7",
-      "providerId": "skills.sh",
-      "description": "Migrate applications from AI SDK 6.x to AI SDK 7.0. Use when upgrading Vercel AI SDK packages, fixing v7 migration errors, or when the user mentions AI SDK v6, v7, upgrade, migration, breaking changes, system to instructions, fullStream, telemetry, tool context, or finalStep."
-    },
-    {
-      "id": "docker/skills/docker-agent-config",
-      "title": "docker-agent-config",
-      "source": "docker/skills",
-      "installs": 1,
-      "link": "https://skills.sh/docker/skills/docker-agent-config",
-      "providerId": "skills.sh",
-      "description": "Use this skill when creating or editing an agent.yaml (or .yml/.hcl) configuration file for Docker Agent (cagent), including defining agents, models/providers, built-in or MCP toolsets, multi-agent teams with sub_agents. Even if the user just says they want to \"build an AI agent with Docker\", \"make a coding agent config\", \"add a tool to my agent\", or \"set up a team of agents\", this skill applies. Covers agent properties (model, instruction, toolsets, sub_agents, fallback), the models/providers sections, built-in toolsets (filesystem, shell, think, todo, memory, fetch), MCP toolset references, and named commands."
-    },
-    {
-      "id": "yaklang/hack-skills/windows-lateral-movement",
-      "title": "windows-lateral-movement",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/windows-lateral-movement",
-      "providerId": "skills.sh",
-      "description": "Windows lateral movement playbook. Use when pivoting between Windows hosts via PsExec, WMI, WinRM, DCOM, RDP, pass-the-hash, overpass-the-hash, or pass-the-ticket techniques."
-    },
-    {
-      "id": "deckardger/tanstack-agent-skills/tanstack-router-best-practices",
-      "title": "tanstack-router-best-practices",
-      "source": "deckardger/tanstack-agent-skills",
-      "installs": 1,
-      "link": "https://skills.sh/deckardger/tanstack-agent-skills/tanstack-router-best-practices",
-      "providerId": "skills.sh",
-      "description": "TanStack Router best practices for type-safe routing, data loading, search params, and navigation. Activate when building React applications with complex routing needs."
-    },
-    {
-      "id": "zc277584121/mygitplugin/git-commit-pr",
-      "title": "git-commit-pr",
-      "source": "zc277584121/mygitplugin",
-      "installs": 1,
-      "link": "https://skills.sh/zc277584121/mygitplugin/git-commit-pr",
-      "providerId": "skills.sh",
-      "description": "Commit changes and create a pull request to the official upstream repo"
-    },
-    {
-      "id": "yaklang/hack-skills/upload-insecure-files",
-      "title": "upload-insecure-files",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/upload-insecure-files",
-      "providerId": "skills.sh",
-      "description": "Insecure file upload playbook. Use when testing upload validation, storage paths, processing pipelines, preview behavior, overwrite risks, and upload-to-RCE chains."
-    },
-    {
-      "id": "yaklang/hack-skills/business-logic-vuln",
-      "title": "business-logic-vuln",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/business-logic-vuln",
-      "providerId": "skills.sh",
-      "description": "Entry P1 category router for business logic testing. Use when workflow abuse, race conditions, pricing flaws, or multi-step state attacks matter more than parser-level input injection."
-    },
-    {
-      "id": "yaklang/hack-skills/tunneling-and-pivoting",
-      "title": "tunneling-and-pivoting",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/tunneling-and-pivoting",
-      "providerId": "skills.sh",
-      "description": "Tunneling and pivoting playbook. Use when establishing network tunnels through compromised hosts including SSH tunneling, Chisel, Ligolo-ng, socat, DNS/ICMP/HTTP tunneling, ProxyChains, and multi-layer pivoting strategies."
-    },
-    {
-      "id": "secondsky/sap-skills/grill-me",
+      "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
-      "source": "secondsky/sap-skills",
-      "installs": 1,
-      "link": "https://skills.sh/secondsky/sap-skills/grill-me",
+      "source": "mattpocock/skills",
+      "installs": 5733,
+      "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
     },
     {
-      "id": "zc277584121/mygitplugin/git-fork-clone",
-      "title": "git-fork-clone",
-      "source": "zc277584121/mygitplugin",
-      "installs": 1,
-      "link": "https://skills.sh/zc277584121/mygitplugin/git-fork-clone",
+      "id": "magentosh/superpowers/agent-browser",
+      "title": "agent-browser",
+      "source": "magentosh/superpowers",
+      "installs": 5384,
+      "link": "https://skills.sh/magentosh/superpowers/agent-browser",
       "providerId": "skills.sh",
-      "description": "Fork a GitHub repo and clone it locally with proper remote setup"
+      "description": "Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video"
+    }
+  ],
+  "topHot": [
+    {
+      "id": "intellectronica/agent-skills/notion-api",
+      "title": "notion-api",
+      "source": "intellectronica/agent-skills",
+      "installs": 38,
+      "link": "https://skills.sh/intellectronica/agent-skills/notion-api",
+      "providerId": "skills.sh",
+      "description": "This skill provides comprehensive instructions for interacting with the Notion API via REST calls. This skill should be used whenever the user asks to interact with Notion, including reading, creating, updating, or deleting pages, databases, blocks, comments, or any other Notion content. The skill covers authentication, all available endpoints, pagination, error handling, and best practices."
     },
     {
-      "id": "ssurmic/claude-investment-skills/narrative-reversal-screen",
-      "title": "narrative-reversal-screen",
-      "source": "ssurmic/claude-investment-skills",
-      "installs": 1,
-      "link": "https://skills.sh/ssurmic/claude-investment-skills/narrative-reversal-screen",
+      "id": "wheresryan22/anatomy/anatomy",
+      "title": "anatomy",
+      "source": "wheresryan22/anatomy",
+      "installs": 31,
+      "link": "https://skills.sh/wheresryan22/anatomy/anatomy",
       "providerId": "skills.sh",
-      "description": "Screens for \"narrative reversal\" candidates — stocks down 30%+ from 52W high with concrete catalyst still intact, worst-case priced in, early reversal signal (first higher low, 50DMA cross, insider buying after capitulation). Returns top 3 with entry plan. Triggers in English (\"beaten-down stocks with thesis\", \"find reversal plays\", \"stocks at bottom that can recover\", \"fallen angel screen\", \"comeback candidates\") or Chinese (\"找暴跌反转股\", \"找回归类股票\", \"ORCL 那种反转\", \"已经跌透的好股\", \"底部反弹候选\")."
+      "description": "Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a real physical object (a test rig, a dial gauge, a cabinet of drawers, a plotter, a lock), with many small precise solid parts, four-tone shading, correct painter's order, a framed card with title, hint and live readout, and calm eased motion. Use this whenever someone wants an isometric illustration, an explanatory diagram or figure for docs, a blog post, a landing page or an article, a \"Linear-style\" or \"premium\" technical drawing, an interactive explainer, or an SVG that shows how a system, algorithm or component works, even if they never say \"isometric\". Works framework-free (TypeScript/JS that writes SVG and HTML) and in React/Next.js, and can add realistic WebGL shaders (fire, exhaust, water, caustics, lamp light) that live inside the drawing in the same isometric perspective."
     },
     {
-      "id": "secondsky/sap-skills/sap-btp-build-work-zone-advanced",
-      "title": "sap-btp-build-work-zone-advanced",
-      "source": "secondsky/sap-skills",
-      "installs": 1,
-      "link": "https://skills.sh/secondsky/sap-skills/sap-btp-build-work-zone-advanced",
+      "id": "emilkowalski/skills/animation-performance",
+      "title": "animation-performance",
+      "source": "emilkowalski/skills",
+      "installs": 12,
+      "link": "https://skills.sh/emilkowalski/skills/animation-performance",
       "providerId": "skills.sh",
-      "description": "Develops and administers SAP Build Work Zone, advanced edition digital workplace solutions. Use when creating workspaces, workpages, and collaborative sites, developing UI Integration Cards in SAP Business Application Studio, building content packages and workspace templates, integrating with Microsoft 365/Teams/SharePoint/Google Drive, configuring chatbots and webhooks, implementing SCIM API user provisioning, setting up OData business records, managing themes and branding, configuring role-based access and SSO, troubleshooting deployment issues, or working with the Administration Console.\n\nKeywords: SAP Build Work Zone advanced edition, digital workplace, UI Integration Cards, content packages, workspace templates, SAP Business Application Studio, SAP Conversational AI, SCIM API, OData, Microsoft Teams integration, SSO, theming, Administration Console"
+      "description": "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the layout/paint/composite pipeline, cheaper property swaps, CSS vs WAAPI vs requestAnimationFrame, Framer Motion's hardware-accelerated path, React re-rendering per frame, inherited CSS variable recalculation, blur cost, and when `will-change` actually helps. Use when an animation is janky, choppy, stutters, or drops frames; when choosing which property to animate; when deciding between CSS and JS animation on performance grounds; or when reaching for `will-change` or GPU layers. For choosing easing, duration, or whether to animate at all use animate; for reviewing motion as a whole use review-animations."
     },
     {
-      "id": "gracefullight/stock-checker/stock-analysis",
-      "title": "stock-analysis",
-      "source": "gracefullight/stock-checker",
-      "installs": 1,
-      "link": "https://skills.sh/gracefullight/stock-checker/stock-analysis",
+      "id": "doozyx/orca/orca-cli",
+      "title": "orca-cli",
+      "source": "doozyx/orca",
+      "installs": 11,
+      "link": "https://skills.sh/doozyx/orca/orca-cli",
       "providerId": "skills.sh",
-      "description": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management (create, add, remove assets), crypto analysis (Top 20 by market cap), and periodic performance reports (daily/weekly/monthly/quarterly/yearly). 8 analysis dimensions for stocks, 3 for crypto. Use for stock analysis, portfolio tracking, earnings reactions, or crypto monitoring."
+      "description": "Operate Orca-managed worktrees, folder contexts, terminals, repos, automations, artifacts, skill sharing, worktree comments, and Orca's embedded browser through the `orca` CLI. Use when the user says \"$orca-cli\", \"Orca worktree\", \"child worktree\", \"spawn codex/claude in a worktree\", \"read/wait/send Orca terminal\", \"handoff\" / \"handover\" / \"give this to another agent\", \"Orca browser\", \"orca artifacts\", or \"share skills\". It also owns single-session terminal work: \"session\", \"sub-agent\", \"create a session\", \"stop a session\", \"fork a session\", \"attach to a session\", \"worktree session\", and troubleshooting a stuck or misconfigured agent terminal. Prefer it over raw git worktree, ad hoc PTYs, or Computer Use when Orca state is involved. Use `orchestration` instead to fan out several agents at once or to supervise them. Use Computer Use only when a visible window needs GUI control that a CLI, filesystem, or API cannot do."
     },
     {
-      "id": "himself65/finance-skills/twitter-reader",
-      "title": "twitter-reader",
-      "source": "himself65/finance-skills",
-      "installs": 1,
-      "link": "https://skills.sh/himself65/finance-skills/twitter-reader",
+      "id": "datadog-labs/agent-skills/dd-pup",
+      "title": "dd-pup",
+      "source": "datadog-labs/agent-skills",
+      "installs": 5,
+      "link": "https://skills.sh/datadog-labs/agent-skills/dd-pup",
       "providerId": "skills.sh",
-      "description": "Read Twitter/X for financial research using the twitter-cli tool (read-only). Use this skill whenever the user wants to read their Twitter feed, search for financial tweets, view bookmarks, look up user profiles, or gather market sentiment from Twitter/X. Triggers include: \"check my feed\", \"search Twitter for\", \"show my bookmarks\", \"who follows\", \"look up @user\", \"what's trending about\", \"market sentiment on Twitter\", \"what are people saying about AAPL\", \"fintwit\", any mention of Twitter/X in context of reading financial news or market research. This skill is READ-ONLY — it does NOT support posting, liking, retweeting, or any write operations."
+      "description": "Datadog CLI (Go). OAuth2 auth with token refresh."
     },
     {
-      "id": "daymade/claude-code-skills/deep-research",
-      "title": "deep-research",
-      "source": "daymade/claude-code-skills",
-      "installs": 1,
-      "link": "https://skills.sh/daymade/claude-code-skills/deep-research",
+      "id": "skymavis/skills/decision-records",
+      "title": "decision-records",
+      "source": "skymavis/skills",
+      "installs": 9,
+      "link": "https://skills.sh/skymavis/skills/decision-records",
       "providerId": "skills.sh",
-      "description": "Generate format-controlled research reports with evidence tracking, citations, and iterative review. This skill should be used when users request a research report, literature review, market or industry analysis, competitive landscape, policy or technical brief, or require a strict report template and section formatting that a single deepresearch pass cannot reliably enforce."
+      "description": "Draft, promote, archive, and supersede ADR-style decision records (types are open: architecture, product, security, policy, legal, …) and keep INDEX.md and cross-links generated, via the bundled scripts/decisions.py tool. Use when creating or promoting decision drafts, superseding or archiving a decision, fixing a promotion breach, or running build, check, promote, rename-draft-id, or install."
     },
     {
-      "id": "revenuecat/ai-toolkit/rc-revenuecat-api-quick-reference",
-      "title": "rc-revenuecat-api-quick-reference",
-      "source": "revenuecat/ai-toolkit",
-      "installs": 1,
-      "link": "https://skills.sh/revenuecat/ai-toolkit/rc-revenuecat-api-quick-reference",
+      "id": "replicas-group/skill/replicas-agent",
+      "title": "replicas-agent",
+      "source": "replicas-group/skill",
+      "installs": 4,
+      "link": "https://skills.sh/replicas-group/skill/replicas-agent",
       "providerId": "skills.sh",
-      "description": "Use this skill as a quick reference for the RevenueCat Android SDK 10.x and REST API. Covers SDK init, common Purchases calls, CustomerInfo / Offerings access patterns, and the most used REST endpoints."
+      "description": "Guide for background coding agents running inside Replicas cloud workspaces"
     },
     {
-      "id": "yaklang/hack-skills/deserialization-insecure",
-      "title": "deserialization-insecure",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/deserialization-insecure",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/game-ui-ux",
+      "title": "game-ui-ux",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/game-ui-ux",
       "providerId": "skills.sh",
-      "description": "Insecure deserialization playbook. Use when Java, PHP, or Python applications deserialize untrusted data via ObjectInputStream, unserialize, pickle, or similar mechanisms that may lead to RCE, file access, or privilege escalation."
+      "description": "Design and build game UI/UX — HUDs, menus, and overlays — that survive every screen: anchor- based responsive layout, resolution/aspect scaling and safe areas, keyboard/gamepad focus navigation, a screen/menu state stack, and event-driven (not polled) HUD updates. Engine- neutral patterns that pair with the detected engine's UI skill. Use when the user mentions HUD, health bar, main menu, pause menu, settings screen, UI layout, anchors, UI scaling, aspect ratio, safe area, controller/keyboard menu navigation, or wiring UI to game state."
     },
     {
-      "id": "ssurmic/claude-investment-skills/analyze-stock",
-      "title": "analyze-stock",
-      "source": "ssurmic/claude-investment-skills",
-      "installs": 1,
-      "link": "https://skills.sh/ssurmic/claude-investment-skills/analyze-stock",
+      "id": "sergebulaev/linkedin-skills/linkedin-marketing",
+      "title": "linkedin-marketing",
+      "source": "sergebulaev/linkedin-skills",
+      "installs": 3,
+      "link": "https://skills.sh/sergebulaev/linkedin-skills/linkedin-marketing",
       "providerId": "skills.sh",
-      "description": "Top-down deep dive analysis on a US-listed stock with macro context, valuation audit, insider check, catalysts, and 3-tier entry plan with LEAPS option. Pulls live data via yfmcp. Triggers in English (\"analyze X\", \"is X a buy\", \"deep dive on X\", \"should I buy X\", \"what about X stock\", \"research X\") or Chinese (\"分析 X\", \"X 怎么样\", \"X 能买吗\", \"深度看一下 X\", \"调研 X\", \"X 这只股票\")."
+      "description": "Plan, draft, audit, and publish LinkedIn posts and comments. Use when the user wants to write a viral LinkedIn post, draft a comment or reply on any LinkedIn post URL, audit a draft against 2026 algorithm heuristics, remove AI tells, extract hook formulas from viral posts, or plan a week of content. Powered by the Publora API for publishing. User provides post/comment URLs, skill drafts content, user approves, then publishes."
     },
     {
-      "id": "yaklang/hack-skills/open-redirect",
-      "title": "open-redirect",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/open-redirect",
+      "id": "ejirocodes/agent-skills/svelte5-best-practices",
+      "title": "svelte5-best-practices",
+      "source": "ejirocodes/agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices",
       "providerId": "skills.sh",
-      "description": "Open redirect playbook. Use when URL parameters, form actions, or JavaScript sinks control navigation targets and may redirect users to attacker-controlled destinations."
+      "description": "Svelte 5 runes, snippets, SvelteKit patterns, and modern best practices for TypeScript and component development. Use when writing, reviewing, or refactoring Svelte 5 components and SvelteKit applications. Triggers on: Svelte components, runes ($state, $derived, $effect, $props, $bindable, $inspect), snippets ({#snippet}, {@render}), event handling, SvelteKit data loading, form actions, Svelte 4 to Svelte 5 migration, store to rune migration, slots to snippets migration, TypeScript props typing, generic components, SSR state isolation, performance optimization, or component testing."
     },
     {
-      "id": "yaklang/hack-skills/401-403-bypass-techniques",
-      "title": "401-403-bypass-techniques",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/401-403-bypass-techniques",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/audio-design",
+      "title": "audio-design",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/audio-design",
       "providerId": "skills.sh",
-      "description": "401/403 bypass playbook. Use when encountering access-denied responses on admin panels, API endpoints, or restricted paths. Covers path manipulation, HTTP method tampering, header injection, protocol downgrade, and automated bypass tools."
+      "description": "Implement game audio practice — bus/mixer architecture and gain in decibels, ducking (sidechain), adaptive/dynamic music via layering and re-sequencing, SFX variation, and beat synchronization. Engine-neutral. Use when the user mentions audio mixing, audio buses, adaptive/dynamic music, ducking, SFX variation, music layers, or syncing gameplay to the beat."
     },
     {
-      "id": "revenuecat/ai-toolkit/revenuecat-customer-center",
-      "title": "revenuecat-customer-center",
-      "source": "revenuecat/ai-toolkit",
-      "installs": 1,
-      "link": "https://skills.sh/revenuecat/ai-toolkit/revenuecat-customer-center",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-physics",
+      "title": "godot-physics",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-physics",
       "providerId": "skills.sh",
-      "description": "Add the RevenueCat Customer Center (self service subscription management UI) to an app. Use when the user asks to add a customer center, build a self service subscriptions screen, let users manage subscriptions in app, add a subscription management screen, present CustomerCenterView, call presentCustomerCenter, or wire a 'manage subscription' button to the RevenueCat customer center on iOS, Android, Kotlin Multiplatform, Flutter, or React Native."
+      "description": "Use Godot 4.x physics bodies and detection in 2D and 3D: RigidBody, StaticBody, Area, and CharacterBody; collision layers vs masks; contact/overlap signals; and raycasts (RayCast nodes and direct space-state queries). Use when configuring collision layers/masks, detecting overlaps with Area2D/Area3D, applying forces to a RigidBody, or casting rays in a Godot project (.tscn with physics bodies)."
     },
     {
-      "id": "renezander030/capcut-cli/capcut-edit",
-      "title": "capcut-edit",
-      "source": "renezander030/capcut-cli",
-      "installs": 1,
-      "link": "https://skills.sh/renezander030/capcut-cli/capcut-edit",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/performance-optimization",
+      "title": "performance-optimization",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/performance-optimization",
       "providerId": "skills.sh",
-      "description": "Edit CapCut / JianYing video projects — read and write subtitles, timing, speed, volume, templates, animations (fade/ken-burns), and cut long-form to shorts. Use when the user mentions capcut, jianying, subtitles, video editing, draft_content.json, draft_info.json, or cutting videos."
+      "description": "Find and fix game performance problems methodically — measure with the engine profiler first, reason about the frame-time budget, locate the CPU-vs-GPU bottleneck, then apply the right fix: object pooling, draw-call batching, fewer allocations/GC spikes, and asset budgets. Engine- neutral method that pairs with each engine's profiler. Use when the user mentions performance, optimize, low/dropping FPS, frame drops, stutter, lag, profiler, frame budget, draw calls, batching, garbage collection/GC spikes, object pooling, or \"the game runs slow\"."
     },
     {
-      "id": "antfu/skills/nuxt",
-      "title": "nuxt",
-      "source": "antfu/skills",
-      "installs": 1,
-      "link": "https://skills.sh/antfu/skills/nuxt",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/camera-systems",
+      "title": "camera-systems",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/camera-systems",
       "providerId": "skills.sh",
-      "description": "Nuxt is a Vue.js framework for building full-stack web applications with SSR, auto-imports, file-based routing, and hybrid rendering"
+      "description": "Build game cameras that feel good — 2D follow with a deadzone, look-ahead, smoothing, and level-bounds clamping; 3D third-person orbit with collision and first-person look; plus multi-target framing and a shake hook. Engine-neutral techniques that pair with the engine's camera node and rigs like Unity Cinemachine or Godot Camera2D/PhantomCamera. Use when the user mentions camera follow, follow camera, deadzone, look-ahead, camera smoothing, camera bounds/ limits, third-person camera, orbit camera, first-person look, Cinemachine, or camera jitter."
     },
     {
-      "id": "yaklang/hack-skills/unauthorized-access-common-services",
-      "title": "unauthorized-access-common-services",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/unauthorized-access-common-services",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-shaders",
+      "title": "godot-shaders",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-shaders",
       "providerId": "skills.sh",
-      "description": "Unauthorized access playbook for common exposed services. Use when Redis, Rsync, PHP-FPM, AJP/Ghostcat, Hadoop YARN, H2 Console, or similar management interfaces are exposed without authentication."
+      "description": "Write Godot 4.7 shaders in the Godot Shading Language: canvas_item shaders for 2D and spatial shaders for 3D, with vertex/fragment functions, uniforms (source_color, hint_range), TIME/UV animation, and screen-reading via hint_screen_texture. Use when authoring .gdshader files, writing fragment/vertex code, making 2D/3D visual effects, or porting 3.x shaders (SCREEN_TEXTURE, hint_color) to 4.x."
     },
     {
-      "id": "zc277584121/marketing-skills/chrome-automation",
-      "title": "chrome-automation",
-      "source": "zc277584121/marketing-skills",
-      "installs": 1,
-      "link": "https://skills.sh/zc277584121/marketing-skills/chrome-automation",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/game-feel",
+      "title": "game-feel",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/game-feel",
       "providerId": "skills.sh",
-      "description": "Automate Chrome browser tasks using agent-browser CLI. Navigate pages, fill forms, click buttons, take screenshots, extract data, and replay recorded workflows — all inside the user's real Chrome session."
+      "description": "Add \"juice\" and game feel that makes actions satisfying — screen shake, hit-stop/freeze frames, tweened/eased motion, squash & stretch, knockback, and layered audio-visual feedback — as engine-neutral techniques that pair with the detected engine's tween, particle, and camera APIs. Use when the user mentions game feel, juice, \"make it feel good/punchy\", screen shake, hit stop, screen freeze, easing, squash and stretch, impact frames, or feedback/polish on hits, jumps, pickups, and deaths."
     },
     {
-      "id": "ssurmic/claude-investment-skills/sector-rotation-analysis",
-      "title": "sector-rotation-analysis",
-      "source": "ssurmic/claude-investment-skills",
-      "installs": 1,
-      "link": "https://skills.sh/ssurmic/claude-investment-skills/sector-rotation-analysis",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/input-systems",
+      "title": "input-systems",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/input-systems",
       "providerId": "skills.sh",
-      "description": "Top-down sector heat map across 11 GICS sectors + AI sub-sectors (GPU, ASIC, Memory, Power, Cloud, Network, Materials). Identifies overheated vs undervalued sectors, leader-laggard pairs, rotation signals. Recommends specific trim-from / add-to pairs with named stocks. Triggers in English (\"sector rotation\", \"what sector to add\", \"which sector is cheap\", \"am I too tech heavy\", \"sector heat map\") or Chinese (\"板块轮动\", \"该买哪个板块\", \"板块热力图\", \"我是不是 tech 太重\", \"板块对比\")."
+      "description": "Architect game input — action mapping (abstracting keys into named actions), rebinding with conflict detection and persistence, multi-device support (keyboard, gamepad, touch), analog deadzones, and feel features like input buffering and coyote time, plus accessibility. Engine-neutral. Use when the user mentions input mapping, rebind controls, gamepad support, deadzone, input buffering, coyote time, or accessible controls."
     },
     {
-      "id": "yaklang/hack-skills/api-sec",
-      "title": "api-sec",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/api-sec",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-animation",
+      "title": "godot-animation",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-animation",
       "providerId": "skills.sh",
-      "description": "Entry P1 category router for API security. Use when choosing between API recon, authorization, token abuse, and hidden-parameter workflows before any deeper API topic skill."
+      "description": "Animate in Godot 4.7 three ways: AnimationPlayer for keyframed clips (incl. call and signal tracks), AnimationTree with state machines and blend spaces for character animation, and Tween for short procedural/UI tweens via create_tween(). Use when working with AnimationPlayer/AnimationTree nodes in a .tscn, blending character states, sprite-sheet animation, or code-driven Tweens."
     },
     {
-      "id": "yaklang/hack-skills/idor-broken-object-authorization",
-      "title": "idor-broken-object-authorization",
-      "source": "yaklang/hack-skills",
-      "installs": 1,
-      "link": "https://skills.sh/yaklang/hack-skills/idor-broken-object-authorization",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-nodes-scenes",
+      "title": "godot-nodes-scenes",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-nodes-scenes",
       "providerId": "skills.sh",
-      "description": "IDOR and broken object authorization testing playbook. Use when requests expose object identifiers, tenant boundaries, writable fields, or missing object-level authorization checks."
+      "description": "Structure a Godot 4.x project with the scene tree and node composition: build reusable scenes, instance PackedScenes at runtime, navigate the tree safely, and register autoload singletons. Use when designing .tscn scenes, deciding how to split nodes, spawning instances with instantiate(), wiring autoloads, or fixing \"node not found\"/freed-node errors in a Godot project."
     },
     {
-      "id": "zc277584121/mygitplugin/git-get-notification",
-      "title": "git-get-notification",
-      "source": "zc277584121/mygitplugin",
-      "installs": 1,
-      "link": "https://skills.sh/zc277584121/mygitplugin/git-get-notification",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-ui-control",
+      "title": "godot-ui-control",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-ui-control",
       "providerId": "skills.sh",
-      "description": "Check GitHub notifications and recent Issues/PRs for monitored repos"
+      "description": "Build Godot 4.x user interfaces with Control nodes: anchors and offsets for responsive layout, Container nodes (VBox/HBox/Grid/Margin) for automatic arrangement, Theme resources for consistent styling, and keyboard/gamepad focus navigation. Use when laying out a HUD, menu, or UI in a Godot project, working with Control/Container nodes, anchors, themes, or focus in a .tscn."
     },
     {
-      "id": "himself65/finance-skills/sepa-strategy",
-      "title": "sepa-strategy",
-      "source": "himself65/finance-skills",
-      "installs": 1,
-      "link": "https://skills.sh/himself65/finance-skills/sepa-strategy",
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/save-systems",
+      "title": "save-systems",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/save-systems",
       "providerId": "skills.sh",
-      "description": "Analyze stocks using Mark Minervini's SEPA (Specific Entry Point Analysis) methodology. Use this skill whenever the user mentions SEPA, Minervini, superperformance, trend template, VCP (Volatility Contraction Pattern), Stage 2 uptrend, stage analysis, pivot point breakout, or asks about growth stock screening criteria. Also triggers when the user wants to evaluate whether a stock meets swing trading entry criteria, check moving average alignment (bullish stacking: price above 50MA above 150MA above 200MA), assess breakout quality with volume confirmation, calculate position sizing based on risk percentage, or identify consolidation patterns like cup-with-handle, flat base, bull flag, or high tight flag. Use this skill even when the user simply asks \"should I buy this stock\" or \"is this a good setup\" in the context of growth/momentum trading, or when they share a stock chart and want pattern analysis."
+      "description": "Design save/load for game state — choosing what to serialize, file formats, save slots, atomic crash-safe writes, schema versioning and migration, and autosave. Engine-neutral. Use when the user mentions save system, save/load, game state persistence, save slots, autosave, save file corruption, or migrating old saves to a new version."
+    },
+    {
+      "id": "zenstory-ai/drama-skills/short-drama-write",
+      "title": "short-drama-write",
+      "source": "zenstory-ai/drama-skills",
+      "installs": 3,
+      "link": "https://skills.sh/zenstory-ai/drama-skills/short-drama-write",
+      "providerId": "skills.sh",
+      "description": "编写或修订可拍摄的中文短剧、漫剧单集 Markdown 剧本，也负责保留作者原文地规范化现成剧本。用户提出“写/改一集短剧”“把大纲写成剧本”“优化场景/对白”“去模板感”“去 AI 味润色”“续写下一集”或提供剧本要求进入后续制作时使用；不负责资产、分镜、媒体提示词或终审。"
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-gdscript",
+      "title": "godot-gdscript",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 3,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-gdscript",
+      "providerId": "skills.sh",
+      "description": "Write idiomatic GDScript for Godot 4.x: static typing, the node lifecycle (_ready/_process/_physics_process), @export/@onready/@tool annotations, signals, and await for asynchronous flow. Use when editing .gd scripts in a Godot project (project.godot), writing or debugging GDScript, or porting 3.x GDScript to 4.x (func signatures, yield -> await, export -> @export)."
+    },
+    {
+      "id": "elevenlabs/skills/music",
+      "title": "music",
+      "source": "elevenlabs/skills",
+      "installs": 3,
+      "link": "https://skills.sh/elevenlabs/skills/music",
+      "providerId": "skills.sh",
+      "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata."
+    },
+    {
+      "id": "googleworkspace/cli/gws-calendar-agenda",
+      "title": "gws-calendar-agenda",
+      "source": "googleworkspace/cli",
+      "installs": 3,
+      "link": "https://skills.sh/googleworkspace/cli/gws-calendar-agenda",
+      "providerId": "skills.sh",
+      "description": "Google Calendar: Show upcoming events across all calendars."
+    },
+    {
+      "id": "diegosouzapw/omniroute/cli-health",
+      "title": "cli-health",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/cli-health",
+      "providerId": "skills.sh",
+      "description": "Check server health, component status, and live metrics from the CLI. Run `health`, `health components`, and `health watch` for a real-time dashboard of circuit breakers and provider status."
+    },
+    {
+      "id": "diegosouzapw/omniroute/omni-cli-tools",
+      "title": "omni-cli-tools",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/omni-cli-tools",
+      "providerId": "skills.sh",
+      "description": "Manage CLI tool integrations exposed via the API. List, configure, and invoke CLI tool plugins that extend OmniRoute's automation surface."
+    },
+    {
+      "id": "diegosouzapw/omniroute/omni-providers",
+      "title": "omni-providers",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/omni-providers",
+      "providerId": "skills.sh",
+      "description": "Manage provider connections, API keys, OAuth flows, and connection tests via the REST API. List, add, update, remove, and test AI provider integrations (OpenAI, Anthropic, Gemini, and 160+)."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/threejs-scene-setup",
+      "title": "threejs-scene-setup",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/threejs-scene-setup",
+      "providerId": "skills.sh",
+      "description": "Stand up a three.js scene: import maps and the three/addons path, the Scene/PerspectiveCamera/WebGLRenderer trio, the setAnimationLoop render loop, responsive resize, and OrbitControls. Use when starting or debugging a three.js app — when the user mentions three.js, THREE.Scene, WebGLRenderer, PerspectiveCamera, the render loop, resizing, or OrbitControls. For models use threejs-gltf-loading; for materials/lights use threejs-materials-lighting."
+    },
+    {
+      "id": "diegosouzapw/omniroute/ponytail",
+      "title": "ponytail",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/ponytail",
+      "providerId": "skills.sh",
+      "description": "External agent skill (MIT, github.com/DietrichGebert/ponytail). Forces the laziest solution that actually works: question whether the task needs to exist at all (YAGNI), reuse what is already in the codebase, reach for the standard library before custom code, native platform features before dependencies, one line before fifty. Climb the ladder on every coding task — writing, adding, refactoring, fixing, reviewing, or designing code, and choosing libraries or dependencies. Supports intensity levels: lite, full (default), ultra. Never cut validation, error handling, security, or accessibility."
+    },
+    {
+      "id": "diegosouzapw/omniroute/cli-chat",
+      "title": "cli-chat",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/cli-chat",
+      "providerId": "skills.sh",
+      "description": "Send chat completions, stream responses, and start an interactive REPL session from the CLI. Supports all OmniRoute providers, combo routing, and system prompt configuration."
+    },
+    {
+      "id": "diegosouzapw/omniroute/omni-usage-logs",
+      "title": "omni-usage-logs",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/omni-usage-logs",
+      "providerId": "skills.sh",
+      "description": "Access detailed call logs and usage analytics. Filter by provider, model, time range, status, and cost. Export logs and aggregate token usage across all connections."
+    },
+    {
+      "id": "nick-vels/skills/autopilot",
+      "title": "autopilot",
+      "source": "nick-vels/skills",
+      "installs": 2,
+      "link": "https://skills.sh/nick-vels/skills/autopilot",
+      "providerId": "skills.sh",
+      "description": "Use when the user dictates an app, site, bot, or feature to build end-to-end and expects a finished result without reviewing specs, tickets, or code — vibecoding sessions, non-technical users, \"собери под ключ\", \"build it for me\", \"не задавай лишних вопросов\" requests. Also use when the user explicitly invokes /autopilot."
+    },
+    {
+      "id": "diegosouzapw/omniroute/cli-tunnel",
+      "title": "cli-tunnel",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/cli-tunnel",
+      "providerId": "skills.sh",
+      "description": "Start and stop tunnel connections (ngrok, Cloudflare, custom) from the CLI. Inspect active tunnel URLs, configure authentication, and test external reachability."
+    },
+    {
+      "id": "diegosouzapw/omniroute/omni-webhooks",
+      "title": "omni-webhooks",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/omni-webhooks",
+      "providerId": "skills.sh",
+      "description": "Register, list, test, and remove webhook endpoints. Configure event subscriptions (request.completed, provider.error, budget.exceeded, etc.) and manage delivery retries."
+    },
+    {
+      "id": "diegosouzapw/omniroute/cli-skill-collector",
+      "title": "cli-skill-collector",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/cli-skill-collector",
+      "providerId": "skills.sh",
+      "description": "Detect installed CLI coding tools (Claude Code, Codex, Cursor, Copilot, Cline and more), search GitHub for matching agent skills, and install them to the detected tools via OmniRoute's built-in APIs."
+    },
+    {
+      "id": "diegosouzapw/omniroute/omni-sync-cloud",
+      "title": "omni-sync-cloud",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/omni-sync-cloud",
+      "providerId": "skills.sh",
+      "description": "Synchronise OmniRoute configuration, provider connections, and settings to/from cloud storage. Manage cloud worker authentication and remote backup targets."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/roguelike",
+      "title": "roguelike",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/roguelike",
+      "providerId": "skills.sh",
+      "description": "Build a roguelike: turn-based grid movement, procedural dungeons, permadeath, field-of-view, and loot tables. Use for a roguelike/roguelite or turn-based grid dungeon crawler with procedural levels."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-export",
+      "title": "godot-export",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-export",
+      "providerId": "skills.sh",
+      "description": "Export and build a Godot 4.x project for distribution: install export templates, define export presets (Windows/macOS/Linux/Web/Android), run headless command-line exports for CI, and handle web (HTML5) COOP/COEP and dedicated-server/headless builds. Use when exporting a Godot game, configuring export_presets.cfg, building for web/desktop/mobile, or automating builds from the command line."
+    },
+    {
+      "id": "huggingface/skills/huggingface-local-models",
+      "title": "huggingface-local-models",
+      "source": "huggingface/skills",
+      "installs": 2,
+      "link": "https://skills.sh/huggingface/skills/huggingface-local-models",
+      "providerId": "skills.sh",
+      "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/level-design",
+      "title": "level-design",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/level-design",
+      "providerId": "skills.sh",
+      "description": "Design and build playable levels — the blockout/whitebox-to-playable workflow, player metrics and grid layout, pacing and flow (tension/rest curve), gating and the critical path, and encounter design. Engine-neutral practice. Use when the user mentions level design, blockout/whitebox/greybox, level layout, level pacing, encounter design, or the critical path through a level."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/steam-publish",
+      "title": "steam-publish",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/steam-publish",
+      "providerId": "skills.sh",
+      "description": "Publish or update a game on Steam with Steamworks and SteamPipe: configure depots and packages, upload builds with steamcmd, set a build live on a branch, and run the release checklists. Use for Steam publishing, app_build.vdf/steamcmd uploads, depots, beta branches, or a store page release."
+    },
+    {
+      "id": "diegosouzapw/omniroute/omni-api-keys",
+      "title": "omni-api-keys",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/omni-api-keys",
+      "providerId": "skills.sh",
+      "description": "Create, list, rotate, and revoke OmniRoute API keys. Control per-key scopes, spending limits, and expiration. Keys gate access to all proxy and management endpoints."
+    },
+    {
+      "id": "huggingface/skills/hf-cli",
+      "title": "hf-cli",
+      "source": "huggingface/skills",
+      "installs": 2,
+      "link": "https://skills.sh/huggingface/skills/hf-cli",
+      "providerId": "skills.sh",
+      "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub. Replaces now deprecated `huggingface-cli` command."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/survival-crafting",
+      "title": "survival-crafting",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/survival-crafting",
+      "providerId": "skills.sh",
+      "description": "Build a survival-crafting game: resource gathering, inventory, crafting and a tech tree, needs (hunger/thirst/temperature), and base building. Use for a survival or crafting/base-building game."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/unity-build-pipeline",
+      "title": "unity-build-pipeline",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/unity-build-pipeline",
+      "providerId": "skills.sh",
+      "description": "Build and ship Unity 6 players: build settings and scenes, player/quality settings, the IL2CPP vs Mono scripting backend, managed code stripping, scripted BuildPipeline.BuildPlayer, and CI/headless builds. Use when configuring or automating a build, choosing a scripting backend, shrinking build size, or when the user mentions Unity build, player settings, IL2CPP, code stripping, or Addressables."
+    },
+    {
+      "id": "diegosouzapw/omniroute/cli-contexts",
+      "title": "cli-contexts",
+      "source": "diegosouzapw/omniroute",
+      "installs": 2,
+      "link": "https://skills.sh/diegosouzapw/omniroute/cli-contexts",
+      "providerId": "skills.sh",
+      "description": "Manage context engineering configurations, RTK filter sets, and conversation sessions from the CLI. Apply context-relay settings and inspect active context pipelines."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/godot-audio",
+      "title": "godot-audio",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/godot-audio",
+      "providerId": "skills.sh",
+      "description": "Play and mix audio in Godot 4.7: AudioStreamPlayer (2D/3D variants), audio buses with volume/mute and effects, music vs SFX routing, db/linear volume, and precise sync-to-beat playback timing. Use when playing sounds or music in a Godot project, routing AudioStreamPlayer nodes to buses, adjusting bus volume via AudioServer, or syncing gameplay to the beat."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/pygame-core",
+      "title": "pygame-core",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/pygame-core",
+      "providerId": "skills.sh",
+      "description": "Structure a pygame (pygame-ce) game in Python: the init/event/update/draw loop, delta-time movement, Surface/Rect blitting, keyboard/mouse input, and Sprite/Group management with collision. Use when building or debugging a pygame game — when the user mentions pygame, pygame-ce, the game loop, blit, Surface, Rect, sprite groups, or clock.tick. Targets pygame-ce."
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/procedural-gen",
+      "title": "procedural-gen",
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "installs": 2,
+      "link": "https://skills.sh/gamedev-skills/awesome-gamedev-agent-skills/procedural-gen",
+      "providerId": "skills.sh",
+      "description": "Generate game content procedurally — seeded deterministic RNG, value/Perlin/ Simplex noise for terrain and heightmaps, grid dungeon generation (rooms + corridors, BSP, random walk), and weighted loot/drop tables. Engine-neutral algorithms. Use when the user mentions procedural generation, perlin/simplex noise, random seed, dungeon generator, heightmap/terrain, or loot tables."
     }
   ]
 }

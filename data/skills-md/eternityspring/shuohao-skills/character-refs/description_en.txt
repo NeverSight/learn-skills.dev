@@ -1,8 +1,8 @@
-Provide true reference images for any character in a story (novel adaptations, original stories, or a standalone designed character, no original novel text required):
-Start with a paragraph describing the character, split it into layered fields, complete and confirm it.
-First generate a front full‑body anchor image; all other views (headshot, 90° side view, back view, details, 45° headshot) are based only on this anchor.
-Generate images on demand in separate tiers. Each image carries an identifier, can be regenerated individually, and after regeneration the system automatically marks which images are obsolete.
-Supports Qwen Image (ComfyUI), Codex built‑in rendering, OpenAI Images API (GPT‑4 Image 2) and custom commands; the main image and derived images can use different models.
-Outputs an asset.json, a set of PNGs, and a click‑to‑open report. Zero dependencies.
-If only a prompt is provided and no image is produced, use novel‑characters.
-Use when asked to generate character images, create character reference images, render my character, produce a set‑dress photo, truly output three‑view images, character reference images.
+给任何故事里的角色真出参考图（小说改编、自己原创的故事、单独设计一个角色都行，不需要小说原文）：
+一段话描述角色，拆成分层字段、补全后确认，
+先出一张正面全身锚点，其余视图（大头照、90° 侧面、背面、细节、45° 大头照）都只参考这张锚点，
+按需分档出图。每张图带标识、可单独重出，重出后自动标出哪些图过期。
+支持 Qwen Image（ComfyUI）、codex 内置出图、OpenAI Images API（GPT Image 2）和自定义命令，主图与派生图可以使用不同模型。
+产出 asset.json + 一组 PNG + 双击就能开的报告。零依赖。
+只要提示词、不出图的话使用 novel-characters。
+Use when asked to 出角色图、做角色参考图、给我的角色出图、定妆照、真出三视图、character reference images。
