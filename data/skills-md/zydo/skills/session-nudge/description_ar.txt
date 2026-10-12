@@ -1,0 +1,5 @@
+قم بتشغيل أو إيقاف تنبيه الحفاظ على الاتصال الدوري أو مرة واحدة للجلسة الحالية لوكيل البرمجة (Claude Code أو Codex CLI أو Grok Build)، واضبط سرعته، أو اعرض ما إذا كان مفعَّلاً.  
+التنبيه هو رسالة من الشكل "[HH:MM:SS] Automated nudge: continue working ..." يكتبها عملية نظام خلفية (launchd / systemd timer / cron / Windows Task Scheduler) في طرفيات الوكيل المشاركة، كل 61 دقيقة افتراضيًا.  
+يُستخدم للأوامر "/session-nudge on|off|enable|disable|status"، "nudge every 20 minutes"، "nudge once at 2:01 AM"، "turn the nudge off here"، "别给这个 session 发 nudge"، "每半小时 nudge 一次"، "给那个 codex 窗口开 nudge"، "nudge my grok window too"، وأيضًا عند إعداد التنبيه أو اختباره على جهاز جديد.  
+الجلسات غير مفعَّلة افتراضيًا.  
+يرجى دائمًا الرد بلغة المستخدم.

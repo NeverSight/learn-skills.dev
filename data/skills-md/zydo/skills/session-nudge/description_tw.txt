@@ -1,3 +1,10 @@
-為目前的 coding‑agent 會話（Claude Code、Codex CLI 或 Grok Build）開啟或關閉定期或一次性的 keepalive nudge，設定其頻率，或顯示其是否已開啟。nudge 是一則「[HH:MM:SS] Automated nudge: continue working …」訊息，由背景作業系統（launchd / systemd 計時器 / cron / Windows 工作排程器）輸入已同意的代理終端機，預設每 61 分鐘一次。適用於「/session‑nudge on|off|enable|disable|status」─「每 20 分鐘 nudge」─「在凌晨 2:01 發一次 nudge」─「在此關閉 nudge」─「別給這個 session 發 nudge」─「每半小時 nudge 一次」─「給那個 codex 視窗開 nudge」─「也 nudge 我的 grok 視窗」以及在新機器上設定或測試 nudge 時。會話的 nudge 預設為關閉。
+將當前編程代理（Claude Code、Codex CLI 或 Grok Build）會話的周期性或一次性保活提示（nudge）開啟或關閉，設定其頻率，或顯示其狀態。此 nudge 是一條「[HH:MM:SS] Automated nudge: continue working …」訊息，由背景作業系統（launchd / systemd 計時器 / cron / Windows 工作排程）輸入到已同意的代理終端，每 61 分鐘觸發一次（預設值）。可用於「/session-nudge on|off|enable|disable|status」、
+「nudge every 20 minutes」、
+「nudge once at 2:01 AM」、
+「turn the nudge off here」、
+「别给这个 session 发 nudge」、
+「每半小时 nudge 一次」、
+「给那个 codex 窗口开 nudge」、
+「nudge my grok window too」以及在新機器上設定或測試 nudge 時使用。會話預設為關閉。 
 
 請始終以使用者的語言回覆。
