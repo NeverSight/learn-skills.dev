@@ -1,0 +1,1 @@
+これは、Cursor Cloud Agent 環境における Git フックのチェーン設計、実装、テスト（特に commit‑msg と Co‑authored‑by の追加・削除）に関するリファレンスです。Cursor が管理するフックの実行順序、`commit-msg.cursor.co-author-strip` の命名規則、インストールスクリプト、lefthook の多層防御、テスト手順を定義しています。
