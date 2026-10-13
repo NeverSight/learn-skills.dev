@@ -1,0 +1,1 @@
+Tur​borepo와 pnpm을 사용하여 모노레포를 구성하고 운영합니다. 앱과 패키지를 분리하고, 내부 의존성에는 `workspace:*`를 사용하며, tsconfig를 공유하고, 책임 패키지를 정의하고, turbo.json에 작업 정의와 캐시를 설정하며, pnpm 명령을 통해 package.json을 생성하고, Cargo와 Go와 같은 비 JavaScript 프로젝트를 통합합니다. 이는 패키지를 추가하거나 turbo.json, pnpm-workspace.yaml, tsconfig를 편집할 때, 그리고 앱이나 패키지의 구성을 변경할 때 사용됩니다.
