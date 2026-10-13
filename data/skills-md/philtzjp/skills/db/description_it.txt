@@ -1,0 +1,3 @@
+Selezione del database, definizione dello schema, connessione e migrazione. Per Postgres, usa Neon; per SQLite, usa Cloudflare D1; l'ORM è Drizzle. Separa la destinazione e il ruolo con app_migrations e app_application. La migrazione dei dati avviene nell'ordine di conteggio dei record, dry‑run, convalida, esecuzione in produzione e cancellazione dell'API. Usa questo quando ti viene chiesto di modificare gli schemi, eseguire migrazioni, convertire in blocco i record esistenti e aggiungere/modificare/revisionare le impostazioni di connessione al DB.
+
+Rispondi sempre nella lingua dell'utente.
