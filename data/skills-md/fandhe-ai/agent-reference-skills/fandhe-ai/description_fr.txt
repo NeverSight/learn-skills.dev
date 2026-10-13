@@ -1,0 +1,1 @@
+Rust 製 AI/ML ライブラリ fandhe-ai のリファレンス。Burn / candle / tch 非依存の from-scratch 実装。 compat : :Sequential, compat : :array, tape(), tape_for(), Tape, Var, Tensor, Gradients, LinearVars, Device (Cpu / Cuda / Metal)。 tensor-core の kernel fusion, FusionPlan, BackendOps。dynamic-tape autodiff。 cfg ベースのバックエンド構成・数値一致契約。ONNX / safetensors 相互運用。 guardrail / self-repair CLI。
