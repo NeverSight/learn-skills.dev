@@ -1,0 +1,1 @@
+使用 Turborepo 和 pnpm 配置和管理 monorepo。将应用和包分离，内部依赖通过 workspace:*，共享 tsconfig，职责包，任务定义和 turbo.json 中的缓存，通过 pnpm 命令生成 package.json，集成 Cargo 或 Go 等非 JavaScript 项目。在添加包、编辑 turbo.json、pnpm‑workspace.yaml 或 tsconfig，以及更改应用或包的配置时使用。

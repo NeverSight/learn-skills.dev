@@ -1,0 +1,1 @@
+在 jp-executor 构建后，对 Juspay 支付集成进行测试/验证。检测仓库已有的测试栈并复制它（Playwright、Cypress、Jest、Vitest、pytest、supertest 等），若不存在则回退到内联 curl/bash。基于风险优先级覆盖订单/会话创建、服务器间状态对账、Webhook 签名 + 幂等性、各方法的处理负载、约束边界和错误码路径——后端和前端/SDK 按已构建的界面决定。最终生成可追溯矩阵、PASS/CONCERNS/FAIL 质量门，以及书面测试报告。可在 jp-executor 之后使用，也可单独针对已构建的集成进行。

@@ -1,0 +1,3 @@
+始终使用此技能来创建、检查状态、列出或删除 Scratch Org 快照。快照是对 Scratch Org 的元数据和数据在某一时点的复制，在 Scratch Org 定义文件的 `snapshot` 字段中通过名称引用。当用户请求创建/获取快照、检查快照的状态或创建进度、列出/显示/查看现有快照（包括筛选即将到期的快照），或删除/移除快照时使用。需要在已启用 Scratch Org 快照的 Dev Hub 上运行。不要在创建组织形状时触发此技能（使用 dx‑org‑shape‑manage），也不要在创建 Scratch Org 时使用此技能，包括通过 `--snapshot` 从现有快照创建时（使用 dx‑org‑manage）。
+
+请始终使用用户的语言回复。

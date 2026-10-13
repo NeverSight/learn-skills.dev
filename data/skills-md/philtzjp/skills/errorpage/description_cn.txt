@@ -1,0 +1,1 @@
+设计错误响应。区分 404、410 和 301，避免软 404，根据 Accept 头提供 HTML、Markdown 或 application/problem+json，使用 RFC 9457 的 Problem Details，定义缓存策略，防止内部信息泄露，并通过 curl 进行验证。当被要求实现、修改或审查 404 页面、错误页面、未找到处理、错误处理以及 API 错误响应时，请使用此指南。

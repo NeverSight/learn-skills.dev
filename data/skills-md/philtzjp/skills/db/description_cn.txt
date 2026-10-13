@@ -1,0 +1,1 @@
+数据库选择、架构定义、连接、迁移。如果使用Postgres ，则为Neon ；如果使用SQLite ，则为Cloudflare D1 ； ORM为Drizzle。使用APP_MIGRATIONS和APP_APPLICATION分隔目标和角色。数据迁移按照计数检索、试运行、验证、生产执行和API删除的顺序进行。当被要求对现有记录进行架构更改、迁移、批量转换或添加、修改或查看数据库连接设置时，请使用此选项。
