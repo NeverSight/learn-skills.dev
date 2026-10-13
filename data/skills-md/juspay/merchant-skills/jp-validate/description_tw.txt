@@ -1,0 +1,1 @@
+在 jp-executor 完成構建後，測試/驗證 Juspay 付款整合。偵測儲存庫現有的測試堆疊並複製它（Playwright、Cypress、Jest、Vitest、pytest、supertest …），若不存在則回退至內嵌 curl/bash。以風險優先的方式覆蓋訂單/會話建立、伺服器間狀態對帳、Webhook 簽名 + 冪等性、各方法的處理負載、約束邊界及錯誤代碼路徑——依照已建構的介面，同時涵蓋後端與前端/SDK。最終產出可追溯矩陣、PASS/CONCERNS/FAIL 品質閘門以及書面測試報告。可於 jp-executor 之後使用，亦可獨立於已建好的整合進行測試。

@@ -1,0 +1,1 @@
+使用 Turborepo 與 pnpm 配置與運營 monorepo。將應用與套件分離，使用 workspace:* 管理內部相依，分享 tsconfig，定義責任套件，在 turbo.json 中設定任務定義與快取，透過 pnpm 指令產生 package.json，並納入非 JavaScript 專案（如 Cargo 與 Go）。在新增套件、編輯 turbo.json、pnpm‑workspace.yaml 或 tsconfig，或變更應用或套件的設定時，使用此說明。

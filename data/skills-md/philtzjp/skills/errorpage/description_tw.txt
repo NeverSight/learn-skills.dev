@@ -1,0 +1,1 @@
+設計錯誤回應。區分 404、410 與 301，避免 soft 404，根據 Accept 標頭提供 HTML、Markdown 或 application/problem+json，遵循 RFC 9457 Problem Details，制定快取政策，防止內部資訊洩漏，並使用 curl 進行驗證。當被要求實作、修改或審查 404 頁面、錯誤頁面、「Not Found」以及錯誤處理與 API 錯誤回應時使用。請始終以使用者的語言回覆。

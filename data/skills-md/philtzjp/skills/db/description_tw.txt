@@ -1,0 +1,1 @@
+資料庫選擇、架構定義、連線和遷移。使用Neon for Postgres、Cloudflare D1 for SQLite和Drizzle作爲ORM。使用APP_MIGRATIONS和APP_APPLICATION分隔連線目標和角色。依序執行資料遷移：計數記錄、試運行、驗證、生產執行和API刪除。當要求處理架構變更、遷移、現有記錄的批次轉換，以及新增/修改/檢閱資料庫連線設定時，請使用此功能。
