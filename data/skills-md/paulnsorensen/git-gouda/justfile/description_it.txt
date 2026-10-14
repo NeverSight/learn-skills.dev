@@ -1,0 +1,3 @@
+Crea o migra a un justfile (casey/just command runner) per qualsiasi progetto. Usa questa abilità quando l'utente chiede di aggiungere un justfile, sostituire un Makefile con just, configurare i comandi del progetto, creare task runner o menziona “just” nel contesto dei flussi di lavoro di build/sviluppo. Non attivare solo perché un progetto ha un Makefile o è nuovo; la richiesta deve chiedere di creare o migrare i comandi del progetto. Copre gli ecosistemi Rust, Python, TypeScript/JavaScript, Go e Ruby. NON usarlo per la configurazione di pipeline CI, Dockerfile o la configurazione reale del sistema di build (cargo, webpack, ecc.).  
+
+Rispondi sempre nella lingua dell'utente.
