@@ -1,0 +1,1 @@
+用于通过 PermissionSetAssignment DML 将 Salesforce 随附的标准 ContactCenterSupervisor PermissionSet（默认）分配给 N 个已有的主管用户。幂等——在 POST 之前，SOQL 会检测已有的（用户，权限集）对，且 DUPLICATE_VALUE 被视为已复用。该标准权限集自带其权限集许可证，并可在已启用 Service‑Cloud 的组织中清晰分配；如果用户的许可证缺少相应授权，则会抛出 FIELD_INTEGRITY_EXCEPTION，以便操作员修复其配置文件/许可证。触发器：分配主管权限集、授予主管权限、完成主管配置。请勿在生产组织中使用或用于分配坐席权限集。

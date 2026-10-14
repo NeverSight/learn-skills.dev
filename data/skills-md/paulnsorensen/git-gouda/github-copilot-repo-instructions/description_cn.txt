@@ -1,0 +1,3 @@
+添加、审计或修复 GitHub Copilot 仓库自定义指令 — `.github/copilot-instructions.md`（全仓库）和 `.github/instructions/*.instructions.md`（路径特定）— 使 Copilot Chat、Copilot 代码审查和 Copilot 编码代理都能获取项目范围的指导。还包括 `AGENTS.md`、`CLAUDE.md` 和 `GEMINI.md` 作为备用代理指令文件。当用户说 “add Copilot instructions”、 “set up copilot-instructions.md”、 “audit our Copilot config”、 “make Copilot follow our conventions”、 “configure Copilot code review”、 “add path-specific Copilot rules”、 “applyTo glob”、 “excludeAgent”、 “Copilot is ignoring our guidance”，或调用 /github-copilot-repo-instructions 时使用。不要用于个人（每用户）的 Copilot 指令；这些不在本技能范围内。有关 AGENTS.md 除文件布局外的编写指南，请参见 agents-md 技能。
+
+请始终使用用户的语言回复。

@@ -1,0 +1,3 @@
+为仓库配置 .gitattributes、.editorconfig、.gitignore 和 Git LFS 过滤器：规范化换行符，标记生成的、外部的和文档路径给 GitHub Linguist 使用，为每种语言设置编辑器默认值，并合并来自 GitHub 模板的 .gitignore 内容。当用户说 “add .gitattributes”、 “fix line endings”、 “CRLF”、 “linguist”、 “mark generated files”、 “set up .editorconfig”、 “gitignore template”、 “git lfs”，或调用 /repo-attributes 时使用。不要用于 prek 或 pre‑commit 钩子配置——使用 /prek。GitHub 自定义属性（组织级元数据）不在范围内；此技能仅涉及每个仓库的属性、编辑器和忽略文件。社区健康文件（README、LICENSE、CODE_OF_CONDUCT、CONTRIBUTING、SECURITY）属于 /oss-hygiene，不在此技能范围。
+
+请始终使用用户的语言回复。

@@ -1,0 +1,3 @@
+为 GitHub 仓库提供端到端的发布切割：根据自上一次标签以来的 Conventional Commits 决定下一个语义版本，起草合适的发行说明（通过 `.github/release.yml` 自动生成的 GitHub 发行说明，或手动按变更类型分组并包含亮点及破坏性更改的升级说明），创建并推送带注释的标签，发布 GitHub 发行版，并可选地更新 `CHANGELOG.md`。在用户说“cut a release”“tag a release”“publish a release”“ship vX.Y.Z”“bump the version”“what version should this be”“write the release notes”“draft the changelog”或调用 /release 时使用。与 /gh-bootstrap（一次性搭建 `.github/release.yml` + 发布工作流脚手架）不同：此技能执行实际的发布仪式——版本决定、说明、标签、发布。应在代码合并到默认分支后运行。
+
+请始终使用用户的语言回复。

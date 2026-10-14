@@ -1,0 +1,1 @@
+构建并迭代一个 Apollo Connectors 子图，用于从 REST API（无论是否有 OpenAPI 或 Swagger 规范）为 GraphOS 超图创建子图，在专用的 git 工作空间中记录 API 提供的内容、用户的操作和字段选择、每一个设计决策以及每个验证层产生的证据。每当用户想要将 REST API 包装成其超图的 GraphQL 子图、在现有连接器子图中添加或删除操作或字段、根据新规范刷新子图，或将实时 API 流量记录为测试夹具时，都可以使用它，即使用户没有提及 “connector”“subgraph” 或 “Apollo”。

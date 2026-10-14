@@ -1,0 +1,1 @@
+在 Spring 应用中，使用 Processor + Context + Handler 模式来编排多步骤业务操作，将长流程拆分为有序的 Handler，并通过 Context 在各步骤之间传递中间结果。当需要添加或重构由多个可独立描述的步骤组成的写操作，或需要调整已有 Processor 流程的步骤和顺序时，便使用此方法。
