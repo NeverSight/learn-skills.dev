@@ -1,0 +1,1 @@
+Modèle de comportement et d'autorisations pour l'agent IA à l'intérieur du devcontainer sandbox. L'agent dispose de sudo et peut modifier librement l'environnement de son conteneur pour résoudre des tâches, mais ne doit jamais contourner les restrictions de sécurité explicites (hooks/git blocks, règles de politique) ou s'échapper du sandbox.
