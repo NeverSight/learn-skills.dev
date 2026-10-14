@@ -1,0 +1,3 @@
+any 프로젝트에 대해 justfile(casey/just 명령 실행기)을 만들거나 마이그레이션합니다. 사용자가 justfile을 추가하거나, Makefile을 just으로 교체하거나, 프로젝트 명령을 설정하거나, 작업 러너를 만들거나, 빌드/개발 워크플로우 맥락에서 “just”를 언급할 때 이 스킬을 사용하세요. 프로젝트에 Makefile이 있거나 새 프로젝트라서만 트리거하지 마세요; 요청이 프로젝트 명령을 만들거나 마이그레이션하라는 내용이어야 합니다. Rust, Python, TypeScript/JavaScript, Go, Ruby 생태계를 포함합니다. CI 파이프라인 설정, Dockerfile, 실제 빌드 시스템 설정(cargo, webpack 등)에는 사용하지 마세요.
+
+언제나 사용자의 언어로 응답하세요.

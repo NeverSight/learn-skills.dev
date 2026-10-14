@@ -1,0 +1,5 @@
+AGENTS.md와 해당 하네스 복제본(CLAUDE.md, GEMINI.md, .github/copilot-instructions.md, .cursor/rules)을 생성, 감사 또는 정리하여 빌드/테스트 명령이 정확하게 유지되고 파일이 각 하네스의 용량 제한 이하로 유지되도록 합니다. 사용자는 “create AGENTS.md”, “audit AGENTS.md”, “trim AGENTS.md”, “AGENTS.md is stale”, “CLAUDE.md drift”, “agent instructions hygiene”와 같이 말하거나 /agents‑md를 호출할 때 이 작업을 수행합니다. 이는 모노레포 패키지의 중첩된 AGENTS.md, 가장 가까운 파일 우선순위, 그리고 포함된 scripts/agents_md_check.py 측정 스크립트를 포괄합니다. 
+
+다음 경우에는 사용하지 마세요:
+- `.github/copilot-instructions.md` 작성 또는 Copilot 코드 리뷰 설정 — 이는 /github-copilot-repo-instructions에 해당합니다.
+- 개인 사용자 또는 전역(머신 전체) 지시 파일(`~/.claude/CLAUDE.md`, 개인 Copilot 지시 파일) — 이 리포지터리 범위 기술에는 포함되지 않습니다.
