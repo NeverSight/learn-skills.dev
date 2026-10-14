@@ -1,1 +1,1 @@
-Create and run E2E tests. Primarily use agent-browser, falling back to Playwright only for interactions it cannot handle. Define conditions for when to write tests and when not to, prohibit timing dependence via sleep, and use explicit waiting conditions. Apply this when adding major user flows, making important UI changes, or altering the success criteria of existing flows.
+E2E テストを作成・実行する。agent-browser を主に使い、対応できないインタラクションに限って Playwright にフォールバックする。テストを書く条件と書かない条件、sleep によるタイミング依存の禁止、明示的な待機条件。ユーザー向け主要フローの追加、重要な UI 変更、既存フローの成功条件を変えたときに使う。

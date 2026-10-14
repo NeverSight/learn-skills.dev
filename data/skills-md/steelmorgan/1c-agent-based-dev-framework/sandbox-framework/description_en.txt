@@ -1,0 +1,1 @@
+Behavior + permission model for the AI agent inside the sandbox devcontainer. The agent has sudo and may modify its container environment freely to solve tasks, but must never bypass explicit safety restrictions (git hooks/blocks, policy rules) or escalate beyond the sandbox.

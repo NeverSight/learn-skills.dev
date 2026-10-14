@@ -1,0 +1,1 @@
+Static secret/token scanning for codebases and git repos: detects leaked credentials (AWS, GitHub, OpenAI, Anthropic, Stripe, Google, Slack, private keys, JWTs) using gitleaks v8.30.1 pattern table + Shannon entropy gating + allowlist noise filters. Stdlib-only Python script with JSON/Markdown/text reports, redaction, CI exit-code gate.
