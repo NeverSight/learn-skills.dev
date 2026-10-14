@@ -1,0 +1,1 @@
+將 Salesforce 預設的 ContactCenterSupervisor PermissionSet（預設）指派給 N 個已存在的主管使用者，透過 PermissionSetAssignment DML 進行。具備冪等性——在 POST 前先以 SOQL 檢查已存在的 (使用者, 權限集合) 配對，若出現 DUPLICATE_VALUE 則視為已重複使用。此標準集合自行攜帶權限集合許可證，並能在已啟用 Service Cloud 的組織中順利指派；若使用者的許可證缺少相應權限，會拋出 FIELD_INTEGRITY_EXCEPTION，讓操作人員調整個人檔案或許可證。觸發時機：指派主管權限集合、授予主管權限、完成主管佈署。請勿在正式環境組織或用於指派代理人權限集合時使用。

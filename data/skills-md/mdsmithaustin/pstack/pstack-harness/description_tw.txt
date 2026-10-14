@@ -1,0 +1,1 @@
+將 pstack 的委派與可移植資源原語映射到當前的 CLI（Claude Code、Codex、Hermes、Grok Build 或任何其他 harness）。說明如何定位已安裝的技能和最新的主幹資源、產生子代理、設定每個子代理的模型、平行化臂、改為唯讀、提出結構化問題（AskQuestion）、追蹤工作清單、迴圈，以及定位文字紀錄儲存。每當 pstack 技能說 spawn、Task tool、subagent_type、per‑subagent model、AskQuestion 或 worklist，或提及你找不到的同級技能，或執行 playbook 中的路徑時，請閱讀本說明。每個原語在不同 harness 中的名稱均不同，請在斷定你的 harness 沒有此功能或資源之前先閱讀本說明。

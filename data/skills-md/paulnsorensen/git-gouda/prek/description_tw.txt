@@ -1,0 +1,3 @@
+將 prek（基於 Rust 的 pre‑commit）導入任何專案，並根據語言/框架建議相應的 hook。當使用者說「add prek」「set up pre‑commit hooks」「configure prek」「what hooks should I use」時，或是你發現專案缺少能受益於 pre‑commit 檢查的 prek.toml 時使用。亦在使用者想為既有 prek.toml 添加新 hook、審核其 hook 設定，或從 pre‑commit 遷移至 prek 時觸發。支援 Rust、Python、TypeScript/JavaScript、Go、Ruby 與 Shell 專案。請勿用於 husky、lint‑staged 或 CI pipeline 的 hook 設定——此功能僅用於 prek。
+
+請始終以使用者的語言回應。

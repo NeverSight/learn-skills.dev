@@ -1,0 +1,3 @@
+將 Profile Plus 的待辦事項 (MCP profile-plus) 轉換為格式化的 Polinema 實習日誌 (DOCX + PDF)。於使用者執行 /pis-todo-to-tch，或要求「buat log book」、「bikin laporan magang」、「generate log book」、「cetak log book」、「rekap todo jadi log book」、「log book bulanan」等指令，或希望將其 Profile Plus 待辦/出勤資料轉換為正式的 LOG BOOK KEGIATAN 文件時使用。未指定期間時預設為當前工作週（週一至週五）；亦支援月份、月份/週以及日期範圍的期間，並將檔案輸出至目前工作目錄下的「Laporan <月份>」資料夾。PDF 會在有 LibreOffice 時由 DOCX 轉換，若無則使用 fpdf2 作為備援。SETUP 參數用於建立空的工作資料夾（個人設定、環境報告）。
+
+請始終以使用者的語言回覆。

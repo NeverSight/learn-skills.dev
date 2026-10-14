@@ -1,0 +1,1 @@
+從 REST API 建立並迭代 Apollo Connectors 子圖，以用於 GraphOS 超圖，無論是否具備 OpenAPI 或 Swagger 規格，皆在專屬的 git 工作區中進行，該工作區會記錄 API 所提供的功能、使用者的操作與欄位選擇、每項設計決策，以及每個驗證層所產生的證據。當使用者想將 REST API 包裝為其超圖的 GraphQL 子圖、在既有的連接子圖中新增或移除操作或欄位、根據新規格刷新子圖，或將即時 API 流量記錄為測試樣本時，都可以使用，即使他們未提及「connector」、「subgraph」或「Apollo」。

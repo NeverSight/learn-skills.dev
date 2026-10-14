@@ -1,0 +1,3 @@
+新增或驗證 CI 對 Conventional Commits 拉取請求標題的強制執行。偵測倉庫是否以 PR 標題作為提交主旨進行 squash‑merge，檢查是否已存在標題檢查，使用 amannn/action-semantic-pull-request 於固定的 SHA 產生 `.github/workflows/pr-title.yml`，並驗證它在不良標題時失敗、在良好標題時通過。當使用者說「enforce conventional commit PR titles」(強制 Conventional Commits PR 標題)、「lint PR titles」(檢查 PR 標題)、「semantic pull request check」(語意化拉取請求檢查)、「add a PR title check」(新增 PR 標題檢查)或呼叫 /pr‑title‑lint 時使用。請勿用於將倉庫切換為使用 PR 標題作為提交訊息的 squash‑merge（使用 gh‑bootstrap 設定合併預設值與規則集）、切割發行版（使用 release）或本機提交訊息掛鉤（使用 prek）。  
+
+請始終以使用者的語言回覆。

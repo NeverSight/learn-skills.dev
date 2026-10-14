@@ -1,0 +1,3 @@
+檢查、建構或擴充 Figma 設計系統——並可選擇同步至程式碼。此技能包含兩種模式：檢查模式（僅讀審核，包含 WCAG 檢查、元件評分、分離實例偵測、交付文件）以及建構模式（建立具變數綁定、插槽式組合、結構化描述、驗證，並可選擇匯出 tokens.css + AI 規則至使用者的程式碼庫）。當使用者說「audit my design system」、「check component quality」、「create design system」、「build DS in Figma」、「generate component library」、「add slots to my components」、「sync design tokens from code」、「find detached instances」、「check WCAG compliance」、「export tokens to code」、「generate CLAUDE.md for design system」，或想將設計系統從程式碼推送至 Figma 或反向時，即使用本技能。技能會自動從請求辨識模式，若不清楚則詢問。檢查完畢後，必須**始終**暫停，等待使用者明確決定才可執行任何建構動作。第 6 階段（同步至程式碼）預設為關閉——僅在使用者明確要求時觸發。**不**將 Figma 設計實作成程式碼——請使用 figma-implement-design 完成此工作。**不**建立單一畫面——請使用 figma-generate-design 完成此工作。
+
+請始終以使用者的語言回覆。

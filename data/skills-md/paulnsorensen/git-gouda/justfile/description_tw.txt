@@ -1,0 +1,1 @@
+為任何專案建立或遷移至 justfile（casey/just 指令執行器）。當使用者要求加入 justfile、以 just 取代 Makefile、設定專案指令、建立任務執行器，或在建置/開發工作流程中提及「just」時，使用此技能。僅因專案有 Makefile 或是新專案而觸發是不行的；請求必須是要建立或遷移專案指令。支援 Rust、Python、TypeScript/JavaScript、Go 與 Ruby 生態系。請勿將此用於 CI 流水線設定、Dockerfile，或實際的建置系統設定（cargo、webpack 等）。

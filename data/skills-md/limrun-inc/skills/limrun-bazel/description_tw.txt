@@ -1,0 +1,7 @@
+在 Limrun 上構建任何 Bazel 工作空間的預設方法：使用 `lim bazel setup` 與 `bazel build --config=limrun`，在 Limrun 的共享建置平台上建置其 iOS 與 Android 目標，無論在任何環境（Linux、Windows、macOS、虛擬機、容器、CI）皆可執行，且使用全公司共享的單一遠端快取。
+
+適用於專案是包含 rules_apple 或 rules_android 的 Bazel 工作空間（MODULE.bazel），且使用者希望遠端建置、在 Limrun 模擬器或模擬器上執行建置出的應用程式、在 CI 中設定 Bazel 遠端執行，或是修復因驗證、工作節點或缺少 MODULE.bazel 行而導致的 `--config=limrun` 建置失敗。
+
+limrun‑xcode‑bazel 僅支援舊版的 `lim xcode rbe` 流程；僅在工作空間已在 `lim xcode rbe` 上運行或使用者特別要求時才使用。
+
+對於非 Bazel 的 Android 建置，請使用 limrun‑gradle。

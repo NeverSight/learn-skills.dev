@@ -1,0 +1,3 @@
+為儲存庫設定 .gitattributes、.editorconfig、.gitignore 以及 Git LFS 過濾器：將換行字元正規化、為 GitHub linguist 標記產生的、第三方的與文件路徑、設定每種語言的編輯器預設值，並從 GitHub 範本合併 .gitignore 內容。當使用者說「add .gitattributes」、「fix line endings」、「CRLF」、「linguist」、「mark generated files」、「set up .editorconfig」、「gitignore template」、「git lfs」或呼叫 /repo-attributes 時使用。本技能**不**用於 prek 或 pre‑commit 鉤子設定──請使用 /prek。GitHub 自訂屬性（組織層級的中繼資料）不在範圍內；此技能僅處理每個儲存庫的屬性、編輯器與 ignore 檔案。社群健康檔案（README、LICENSE、CODE_OF_CONDUCT、CONTRIBUTING、SECURITY）屬於 /oss‑hygiene，非本技能範圍。
+
+請始終以使用者的語言回覆。
