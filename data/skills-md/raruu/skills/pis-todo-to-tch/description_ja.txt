@@ -1,0 +1,3 @@
+Profile Plusのtodo（MCP profile-plus）を、Polinemaインターンシップ用のフォーマット済みログブック（DOCX + PDF）に変換します。ユーザーが /pis-todo-to-tch を実行したとき、または「buat log book」「bikin laporan magang」「generate log book」「cetak log book」「rekap todo jadi log book」「log book bulanan」などと依頼したとき、あるいはProfile Plusのtodo/出席データを公式の LOG BOOK KEGIATAN 文書に変換したいときに使用してください。期間が指定されていない場合は、デフォルトで当週の作業週（月〜金）になります。月単位、月/週単位、日付範囲の期間もサポートし、現在の作業ディレクトリにある「Laporan <Bulan>」フォルダーへ出力します。PDFはLibreOffice が利用可能な場合は DOCX から変換し、利用できない場合は fpdf2 をフォールバックとして使用します。SETUP 引数は、空の作業フォルダー（個人設定、環境レポート）を初期化します。
+
+常にユーザーの言語で応答してください。

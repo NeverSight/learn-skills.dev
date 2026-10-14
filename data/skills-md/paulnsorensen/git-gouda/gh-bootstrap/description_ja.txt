@@ -1,0 +1,4 @@
+`gh` CLI を使用した一度限りの GitHub リポジトリ設定：デフォルトブランチを PR と CI ルールで保護し、必要に応じてサポートされているマージキューを有効化し、マージを PR タイトルをコミットメッセージとした squash のみでロックし、`.github/release.yml` に自動生成されるリリースノートの雛形を作成し、さらに必要に応じてタグ駆動のリリースワークフローを追加します。  
+以下のようなユーザーの指示があったときに使用します：「set up the repo」（リポジトリのセットアップ）、「configure the merge queue」（マージキューの設定）、「enable squash merging」（スクワッシュマージの有効化）、「lock down main」（main の保護）、「set up branch protection」（ブランチ保護の設定）、「configure release notes」（リリースノートの設定）、「scaffold releases」（リリースの雛形作成）、「set up release tagging」（リリースタグ付けの設定）、または新規または設定が緩い GitHub リポジトリで /gh-bootstrap を呼び出したとき。  
+冪等性が保証されており、既に設定済みのリポジトリに対して再実行しても安全で、欠けている部分だけを追加できます。  
+このスキルは一度限りのリポジトリポリシー設定を対象としており、タスク単位の GitHub 操作、ローカル git コマンド、またはプロジェクトタスクの実行は対象外です。

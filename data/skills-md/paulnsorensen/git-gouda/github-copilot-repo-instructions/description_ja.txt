@@ -1,0 +1,11 @@
+GitHub Copilot リポジトリのカスタム指示を追加、監査、または修正します — `.github/copilot-instructions.md`（リポジトリ全体）と `.github/instructions/*.instructions.md`（パス別） — これにより Copilot Chat、Copilot コードレビュー、Copilot コーディングエージェントがすべてプロジェクト全体のガイダンスを取得します。  
+
+`AGENTS.md`、`CLAUDE.md`、`GEMINI.md` も代替エージェント指示ファイルとして対象です。  
+
+ユーザーが「add Copilot instructions」「set up copilot-instructions.md」「audit our Copilot config」「make Copilot follow our conventions」「configure Copilot code review」「add path-specific Copilot rules」「applyTo glob」「excludeAgent」「Copilot is ignoring our guidance」と言ったとき、または /github-copilot-repo-instructions を呼び出したときに使用してください。  
+
+個人（ユーザー単位）の Copilot 指示には使用しないでください。これらは本スキルの対象外です。  
+
+`AGENTS.md` のファイル構成以外の執筆ガイダンスについては、agents-md スキルをご参照ください。  
+
+常にユーザーの言語で応答してください。

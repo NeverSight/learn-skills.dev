@@ -1,0 +1,3 @@
+.gitattributes、.editorconfig、.gitignore、およびリポジトリ用の Git LFS フィルタを設定します：改行コードを正規化し、GitHub Linguist 用に生成済み、ベンダー提供、ドキュメントパスをマークし、言語ごとのエディタデフォルトを設定し、GitHub テンプレートから .gitignore の内容をマージします。ユーザーが「add .gitattributes」「fix line endings」「CRLF」「linguist」「mark generated files」「set up .editorconfig」「gitignore template」「git lfs」などと言ったとき、または /repo-attributes を呼び出したときに使用します。prek や pre‑commit フックの設定には使用しないでください — /prek を使用します。GitHub カスタムプロパティ（組織レベルのメタデータ）は対象外です。このスキルはリポジトリ単位の attribute、editor、ignore ファイルのみを扱います。README、LICENSE、CODE_OF_CONDUCT、CONTRIBUTING、SECURITY といったコミュニティヘルスファイルは /oss-hygiene の対象であり、このスキルの範囲外です。
+
+常にユーザーの言語で応答してください。

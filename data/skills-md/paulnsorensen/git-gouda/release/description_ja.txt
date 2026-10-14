@@ -1,0 +1,3 @@
+GitHub リポジトリのエンドツーエンドリリース作業：最後のタグ以降の Conventional Commits から次のセマンティックバージョンを決定し、適切なリリースノートを作成（`.github/release.yml` を用いた GitHub の自動生成、または変更タイプ別にハイライトと破壊的変更のアップグレードノートを含めて手動で整理）、注釈付きタグを作成してプッシュし、GitHub リリースを公開し、必要に応じて `CHANGELOG.md` を更新する。ユーザーが「cut a release」「tag a release」「publish a release」「ship vX.Y.Z」「bump the version」「what version should this be」「write the release notes」「draft the changelog」などと言ったとき、または /release を呼び出したときに使用する。`.github/release.yml` とリリースワークフローの配管を一度だけ作成する /gh-bootstrap とは異なり、このスキルは実際のリリース儀式（バージョン決定、ノート作成、タグ付け、公開）を実行する。作業がデフォルトブランチにマージされた後に実行する。
+
+常にユーザーの言語で応答してください。

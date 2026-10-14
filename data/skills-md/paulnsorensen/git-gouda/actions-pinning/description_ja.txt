@@ -1,0 +1,3 @@
+GitHub Actions のワークフロー、コンポジットアクション、再利用可能なワークフローにあるすべての `uses:` 参照をインベントリ化し、分類し、検証済みのコミット SHA にピン留めし、Dependabot でそれらのピンを常に最新に保ちます。ユーザーが「pin actions」「unpinned actions」「SHA pin」「supply chain for workflows」と言ったとき、または /actions-pinning を呼び出したときに使用してください。ワークフローファイルの権限やインジェクションのハードニング（/oss-hygiene へルーティング）や CI 実行時の速度向上（/ci-optimize へルーティング）には使用しないでください。
+
+常にユーザーの言語で応答してください。

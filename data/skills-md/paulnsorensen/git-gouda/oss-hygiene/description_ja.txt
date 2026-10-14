@@ -1,0 +1,3 @@
+オープンソースの GitHub リポジトリをコミュニティ標準とサプライチェーン衛生のベースラインに合わせる：GitHub Community Standards のファイル（README のチェック、LICENSE、CODE_OF_CONDUCT、CONTRIBUTING、SECURITY、issue と PR のテンプレート）を構築し、Dependabot のバージョン更新、Dependency Review アクション、OpenSSF Scorecard、CodeQL（該当する場合）を設定し、Dependabot アラートとシークレットスキャンを確認し、OpenSSF Best Practices バッジへのリンクを追加する。ユーザーが「OSS 衛生を設定」「このリポジトリをオープンソース対応に」「コミュニティヘルスファイルを追加」「Dependabot を組み込む」「スコアカードを追加」「OSSF バッジ」「サプライチェーン硬化」などと言ったとき、またはパブリックリポジトリで /oss-hygiene を呼び出したときに使用する。冪等性が保証され、再実行しても安全；テンプレートとの差分を比較し、上書きする前に確認を求める。/gh-bootstrap（マージボタン＋ブランチ保護）や /safe-settings（組織レベルの設定をコード化）とは区別され、貢献者向けとサプライチェーンの表層に焦点を当て、マージや組織ポリシーには関与しない。/gh-bootstrap の後、リポジトリを公開する前に実行する。
+
+常にユーザーの言語で回答してください。
