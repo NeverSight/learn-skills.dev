@@ -1,0 +1,6 @@
+Usato quando uno sviluppatore vuole iterare su UN SOLO trace di Agent Observability / LLM Obs il cui output non gli è piaciuto — rieseguendo quel trace sul proprio CODICE LOCALE, visualizzando un diff conciso tra output vecchio e nuovo, e ciclando (cambiare codice → ripetere → diff) finché non è soddisfatto. Invocato come **/agent-observability-replay-trace <trace-id> [modifiche da testare]**.  
+Segnali: “riproduci questo trace”; “itera su un trace”; “l'output di questo trace è sbagliato, correggilo e riesegui”; “riesegui il trace <id> con <modifica>”; incollare un trace ID dall'interfaccia Agent Observability con una descrizione di cosa correggere.  
+
+Recupera il trace tramite il **datadog-llmo MCP** o il **pup CLI**, modifica il codice, riesegue l'app per emettere un NUOVO trace e confronta i due – senza server locale, senza browser. Per agenti tracciati con **ddtrace / LLM Obs** (prima classe per Python), con input di ingresso serializzabile in JSON.  
+
+NON usarlo per: esperimenti con punteggio o il pulsante “Replay” del browser (quello è **agent-observability-replay-experiment**), costruire un esperimento da un dataset/CSV, scrivere valutatori, individuare la causa di trace falliti, o per il replay di sessioni RUM/HTTP.
