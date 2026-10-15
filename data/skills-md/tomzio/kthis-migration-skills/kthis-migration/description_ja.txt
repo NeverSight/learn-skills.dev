@@ -1,0 +1,3 @@
+レガシー KTHIS/eHealth（Eclipse RCP + SWT、Java 6 / GBK）の特定機能を WebHIS（React 18 + antd 4 + dva フロントエンド / Spring Boot 2.7 + MyBatis バックエンド）へ移行、書き直し、ポート、または 1 対 1 再現する際に使用します。これは「レガシーリンクのエンド‑ツー‑エンドトレース → レイヤーごとのマッピングとバックエンド webhis‑<mod>-* API の実装 → フロントエンド src/pages/<mod>/ page·modal·model·registration·i18n の実装 → アクセス制御の検証」という一連のプロセスを網羅しています。ユーザーが KTHIS、eHealth、レガシー／旧システム、SWT、RCP、Eclipse プラグイン、レガシーコードに沿った実装を言及したり、webhis‑front／webhis‑server で「旧システムから移行した」ページ／モーダル／API を実装したいと望む場合に使用してください—たとえ「移行」という語が明示的に使われていなくてもです。
+
+常にユーザーの言語で応答してください。

@@ -1,0 +1,1 @@
+@yss-ui/hooks の usePollingTask をページレベルのサイレントポーリング、タスクステータスポーリング、動的インターバルスケジューリングに使用する際のガイダンス；start/stop/restart/runNow、pauseWhenHidden、generation/isCurrent、AbortSignal をオーバーライドし、リクエストの loading / data / error Hook として扱ったり、ページのメインローディングに直接バインドしたりすることを禁止します。
