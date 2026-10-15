@@ -1,0 +1,3 @@
+在使用者同時執行或想要同時執行多個 AI 程式碼帳號（Claude Code、Codex、Grok Build、pi）時使用。涵蓋安裝 sideby 與設定新帳號（「install sideby」「set up another Claude account」「add cc008」「配置一個 cc00x」「再加一個 Codex 帳號」），說明各帳號之間共享什麼、哪些保持獨立（「what do my accounts share?」「這些帳號共享了什麼」），顯示會話所屬的帳號（「show [cc001] in the status line」「加上帳號標識」），檢視帳號、配額與使用情況，當某個帳號達到 5 小時或每週上限時切換，新增簡短指令（別名），以及修復偏離的帳號目錄（技能、掛鉤、規則或設定未共享、符號連結錯誤、憑證檔案權限）。以 `--json` 參數驅動 `sideby` CLI；代理執行所有步驟，僅剩瀏覽器登入、填入機密資訊與啟動互動式會話，這些交給使用者一次指令完成。
+
+請始終以使用者的語言回覆。

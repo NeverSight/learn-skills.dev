@@ -1,0 +1,1 @@
+指導在頁面層級使用 @yss-ui/hooks 的 `usePollingTask` 進行靜默輪詢、任務狀態輪詢以及動態間隔排程；覆寫 `start`/`stop`/`restart`/`runNow`、`pauseWhenHidden`、`generation`/`isCurrent` 以及 `AbortSignal`，並禁止將其當作請求的 loading/data/error 鉤子使用，或直接綁定至頁面的主要 loading。

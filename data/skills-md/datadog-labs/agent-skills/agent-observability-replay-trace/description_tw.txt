@@ -1,0 +1,6 @@
+使用情境：當開發者想針對單一特定的 Agent Observability / LLM Obs 追蹤且其輸出不滿意時，重新在本機程式碼上執行該追蹤，看到舊輸出與新輸出的簡潔差異，並在（修改程式碼 → 重播 → 差異）的迴圈中持續調整直至滿意。  
+呼叫方式：/agent-observability-replay-trace <trace-id> [要測試的變更]。  
+觸發語句：「重新播放此追蹤」；「對追蹤進行迭代」；「此追蹤的輸出錯誤，請修正後重跑」；「用 <change> 重新執行追蹤 <id>」；從 Agent Observability UI 複製追蹤 ID 並附上要修正的說明。  
+它會透過 datadog-llmo MCP 或 pup CLI 取得追蹤資料，編輯程式碼，重新執行應用產生新追蹤，並將兩者做差異比較——不需要本機伺服器，也不需要瀏覽器。  
+適用於使用 ddtrace / LLM Obs（以 Python 為第一類）追蹤的代理，且輸入為可 JSON 序列化的條目。  
+不適用於：已評分的實驗或瀏覽器的「Replay」按鈕（那是 agent‑observability‑replay‑experiment）、從資料集/CSV 建立實驗、編寫評估器、找出失敗追蹤的根本原因，或 RUM/HTTP 會話重播。

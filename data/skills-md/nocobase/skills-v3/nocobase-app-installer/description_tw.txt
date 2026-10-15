@@ -1,0 +1,1 @@
+部署已建置的 NocoBase 3 應用程式至本機或透過 SSH 部署至離線的 Linux 伺服器，供正式環境使用，使用 `@nocobase/app-installer` 從部署壓縮檔（`pnpm build --tar` 產生）寫入，之後進行升級、回滾與檢查。當使用者要求將應用程式部署到正式環境或伺服器、升級或回滾此類安裝，或目錄中包含由 app‑installer 產生的 `installer.json` 時使用。本技能不適用於建立開發專案，該功能屬於 `nocobase-create-app` 技能。

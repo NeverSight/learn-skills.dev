@@ -1,0 +1,1 @@
+使用已登入的 ChatGPT 網站，採用 Chat UI Pro 模式，切勿使用 Work 模式，以透過已配置的安全隧道與唯讀 MCP 來研究、架構及審查單一本機專案，同時僅讓 Codex 在本地進行編輯與測試。當出現明確的 $yichen-codex-chatgpt、讓 ChatGPT 設計後由 Codex 寫程式、ChatGPT 架構並審查 Codex，或要求 Codex 與 ChatGPT 合作循環時即觸發。純研究保留在官方 ChatGPT 網站上；程式碼與混合工作遵循 ChatGPT 計畫 → Codex 執行 → ChatGPT 審查 的流程。網站控制預設為應用程式內瀏覽器，其次為 Chrome，最後為受限的電腦使用。僅在使用者明確要求本機模式且已配置該可選依賴時，才使用相容的本機專用 MCP，絕不作為自動備援。請始終以使用者的語言回覆。
