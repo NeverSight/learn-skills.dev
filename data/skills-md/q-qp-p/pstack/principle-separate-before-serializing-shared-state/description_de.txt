@@ -1,0 +1,1 @@
+Anwenden, wenn concurrente Akteure dieselbe Datei, denselben Branch, denselben Schlüssel oder dasselbe Zustandsobjekt schreiben könnten. Entfernen Sie zuerst die gemeinsame Nutzung; serialisieren Sie strukturell nur, wenn ein gemeinsam genutzter Schreiber ein echtes Invariant ist.
