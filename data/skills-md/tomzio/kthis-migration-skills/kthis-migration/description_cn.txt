@@ -1,0 +1,1 @@
+在将遗留的 KTHIS/eHealth（Eclipse RCP + SWT，Java 6/GBK）迁移、重写、移植或 1:1 重现特定功能到 WebHIS（React 18 + antd 4 + dva 前端 / Spring Boot 2.7 + MyBatis 后端）时使用它。它覆盖完整工作流：“端到端追踪遗留链路 → 层层映射并实现后端 webhis‑<mod>-* 接口 → 实现前端 src/pages/<mod>/ 页面、对话框、模型、注册、i18n → 访问控制校验”。当用户提及 KTHIS、eHealth、遗留/旧系统、SWT、RCP、Eclipse 插件、依据遗留代码实现，或想在 webhis‑front/webhis‑server 中添加“从旧系统迁移而来”的页面/对话框/接口时，请使用它，即使用户没有明确说“迁移”。

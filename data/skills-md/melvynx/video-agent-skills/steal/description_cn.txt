@@ -1,0 +1,1 @@
+将其他创作者的剪辑风格复制为一个命名的风格，short-editing 会将其应用到你的自行拍摄素材上。当用户说“偷”、"copy the style of"、"edit like @x"、"make a style from this reel"、"vole le style de"，或提供一个短片/视频作为参考时使用。下载该短片（使用 yt-dlp，或使用 Treg 下载 Instagram 和 TikTok），使用 ffmpeg 而非肉眼测量风格（生成联系表、每秒硬切次数、节拍及切割声效的频谱图、音乐相对于人声的音量、人物脸部尺寸和变焦），将结果写入 video-agent/styles/<name>.md，然后使用 short-editing 编辑一个测试视频，并逐帧与原始视频对比。

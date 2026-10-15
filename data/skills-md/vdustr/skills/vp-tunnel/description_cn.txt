@@ -1,0 +1,1 @@
+在需要让该机器外部的某些对象访问本地服务时使用：例如部署的或公开的页面对 localhost、本地代理或本地 WebSocket 的请求卡住、循环或因 net::ERR_BLOCKED_BY_CLIENT（Chrome 本地网络访问）而失败；Webhook；拒绝 localhost 重定向的 OAuth 提供商；不在局域网内的手机；远程或云浏览器；或团队成员或客户观看演示。也在需要暴露或共享 localhost、获取公共 URL，或比较 ngrok、cloudflared、trycloudflare、tmole 及其替代方案时使用。决定是否需要隧道、控制暴露并选择工具。范围界定：不用于本地客户端访问 localhost、启动开发服务器，或将隧道作为生产基础设施运行；每个工具的文档涵盖其命令，vp-long-running-processes 拥有该进程。
