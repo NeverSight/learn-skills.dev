@@ -1,0 +1,120 @@
+---
+name: email-sdk
+description: Use when adding, reviewing, or documenting Email SDK integrations in TypeScript/Bun apps. Dynamically refreshes the current Email SDK docs/source before implementation, then covers adapter selection, fallbacks, CLI smoke tests, hooks, and secret-safe observability.
+---
+
+# Email SDK
+
+Use this skill when an agent works with this repository or wires `@opencoredev/email-sdk` into another TypeScript app.
+
+This skill is intentionally dynamic: do not treat the examples below as the full current API or template catalog. First refresh the local package docs/source for the installed version, then implement against what the repo, dependency, and current machine-readable documentation actually expose.
+
+## Refresh Current Docs
+
+Before changing code, inspect the most relevant current sources:
+
+1. If you are inside this repo, read:
+   - `README.md`
+   - `packages/email-sdk/README.md`
+   - `packages/email-sdk/package.json`
+   - `apps/fumadocs/content/docs/**/*.mdx`
+   - `packages/email-sdk/src/index.ts`
+   - the specific adapter file in `packages/email-sdk/src/<adapter>.ts`
+   - `packages/email-sdk/src/types.ts`, `core.ts`, and `errors.ts` when message shape, routing, retries, hooks, or error handling matter.
+2. If you are inside an app that has `@opencoredev/email-sdk` installed, inspect:
+   - the app lockfile and `node_modules/@opencoredev/email-sdk/package.json`
+   - `node_modules/@opencoredev/email-sdk/README.md`
+   - `node_modules/@opencoredev/email-sdk/dist/*.d.ts`
+   - the app's existing email, notification, queue, environment, and test patterns.
+3. If local docs are missing or the task depends on version-sensitive behavior, fetch the current published package metadata/docs before implementing:
+   - `bun pm view @opencoredev/email-sdk`
+   - `bun email-sdk version` when the CLI is installed in the target app
+   - `https://email-sdk.dev/docs/llms.txt` to discover the current documentation tree
+   - the exact raw Markdown page at `https://email-sdk.dev/docs/<path>.md`
+   - the repository docs or package README for the exact version in use.
+
+Prefer the raw `.md` endpoints over scraping rendered HTML. They return `Content-Type: text/markdown`, preserve current internal links, and include the page title and canonical route.
+
+For React Email UI or template work:
+
+1. Fetch `https://email-sdk.dev/docs/ui.md` first.
+2. Follow its current category and template links instead of relying on a hard-coded template list.
+3. Fetch the chosen template page as raw Markdown, for example `https://email-sdk.dev/docs/ui/account/verification-code.md`.
+4. Use the documented `shadcn@latest add` registry URL when installation is requested, or copy the Manual source from the same page.
+5. Keep templates on the actual `@opencoredev/email-sdk/react` primitives and verify both light and dark email themes when changing presentation.
+
+When local source and external docs disagree, prefer the code/types for the exact installed version and mention the mismatch.
+
+## Defaults
+
+- Prefer `bun` and `bunx`.
+- Keep the core dependency-free.
+- Import adapters from separate entry points such as `@opencoredev/email-sdk/resend`, `@opencoredev/email-sdk/smtp`, and the adapter-specific entry point shown by the current package exports.
+- Do not add Nodemailer for SMTP; Email SDK includes its own SMTP transport.
+- SMTP auth on non-secure ports upgrades with STARTTLS by default. Only use `allowInsecureAuth` for trusted local test servers.
+- Adapters must either map a normalized `EmailMessage` field or reject it clearly. Never silently drop CC, BCC, reply-to, headers, tags, metadata, or attachments.
+- Keep adapter credentials in environment variables.
+- Never log API keys, SMTP passwords, raw tokens, full message bodies, or unnecessary recipient data.
+- Preserve the host app's architecture for queues, templates, env validation, retries, and tests.
+
+## Integration Pattern
+
+Entry point names like `@opencoredev/email-sdk/resend` and `@opencoredev/email-sdk/smtp` are illustrative. Verify the exact exports from the installed version before copying these imports.
+
+Prefer wiring Email SDK as a production send pipeline: one normalized message shape, explicit adapter routes, fail-fast field support, retries, compatible fallback routes, secret-safe observability, tests, and CLI verification.
+
+```ts
+import { createEmailClient } from "@opencoredev/email-sdk";
+import { resend } from "@opencoredev/email-sdk/resend";
+import { smtp } from "@opencoredev/email-sdk/smtp";
+
+export const email = createEmailClient({
+  adapters: [
+    resend({ apiKey: process.env.RESEND_API_KEY! }),
+    smtp({
+      host: process.env.SMTP_HOST!,
+      port: Number(process.env.SMTP_PORT ?? 587),
+      auth: {
+        user: process.env.SMTP_USER!,
+        pass: process.env.SMTP_PASS!,
+      },
+    }),
+  ],
+  fallback: { adapters: ["smtp"] },
+  retry: { maxAttempts: 2 },
+});
+```
+
+## Fallback and retry guidance
+
+- Choose fallback routes only after checking the current field support docs or adapter source.
+- Use fallback only when the backup adapter can send the same class of email and preserve the fields that matter to the app.
+- Do not treat SMTP as a universal backup; it is best for simple text/html sends with address fields and headers.
+- Use idempotency keys for externally visible transactional sends that may be retried or sent through fallback routes.
+- Use hooks or `observabilityPlugin()` for redacted route, attempt, retry, success, and error events.
+- Add tests with `memoryAdapter()`, `failingAdapter()`, and `capturePlugin()` when fallback or retry behavior matters.
+- Use the CLI `doctor` and `send --dry-run` before live provider authentication checks.
+- Use the separate `email-sdk-migrate` skill for v0-to-v1 application migrations instead of applying static find-and-replace rules.
+- For 2.x to v3 upgrades, follow `/docs/guides/migrate/v2-to-v3`: run the type checker and fix send-option `metadata` that is not plain data.
+
+Inside this repo, the main public docs for this pattern are:
+
+- `apps/fumadocs/content/docs/guides/production-send-pipeline.mdx`
+- `apps/fumadocs/content/docs/concepts/fallbacks-and-retries.mdx`
+- `apps/fumadocs/content/docs/adapters/field-support.mdx`
+
+## Validation
+
+- For SDK changes, run `bun test` in `packages/email-sdk`.
+- For docs changes, run `bun run check-types` and `bun run build` from the repo root when practical.
+- For app integrations, run the narrowest test/typecheck that covers the send path.
+- For real provider authentication checks, use the repository's non-sending `live:*` scripts when available. Do not send external mail without the user's separate approval.
+
+## Review Checklist
+
+- Does every send include `from`, `to`, `subject`, and either `html` or `text`?
+- Are fallbacks configured only for adapters that can send the same class of email?
+- Are idempotency keys used for externally visible transactional sends?
+- Are provider errors surfaced instead of swallowed?
+- Are hooks used for metadata and status, not secret or full-body logging?
+- Does each adapter payload have a test when its field mapping changes?

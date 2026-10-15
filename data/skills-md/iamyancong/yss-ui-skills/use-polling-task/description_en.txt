@@ -1,0 +1,1 @@
+指导使用 @yss-ui/hooks 的 usePollingTask 做页面级静默轮询、任务状态轮询和动态间隔调度；覆盖 start/stop/restart/runNow、pauseWhenHidden、generation/isCurrent、AbortSignal，禁止把它当成请求 loading/data/error Hook 或直接绑定页面主 loading。

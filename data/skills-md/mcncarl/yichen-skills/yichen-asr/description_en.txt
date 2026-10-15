@@ -1,0 +1,1 @@
+逸尘自用的统一音视频转写入口，在 StepFun Step ASR 与火山引擎豆包 ASR 之间按输出需求、安全边界和可用状态路由。用于本地音频或视频的纯文本转写、时间戳、SRT 字幕、口播粗剪，以及转写前体检；用户明确指定服务商时不得静默切换。Use when a local audio or video file needs transcription and the correct ASR backend is unclear, or when the user explicitly invokes $yichen-asr.
