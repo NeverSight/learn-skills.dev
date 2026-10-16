@@ -1,0 +1,7 @@
+为此代码库设计并审查 PostgreSQL 模式：双键特性表（`id` + `uuid`），根据使用场景进行软删除或硬删除，索引，JSONB，约束，查询性能（键集分页、EXPLAIN、反模式），以及用于追加写入/时间序列数据的 TimescaleDB 超表。包括针对迁移、sqlc 查询和 PR 的关键/推荐/细节审查清单。
+
+当用户请求设计、创建、修改或审查 PostgreSQL 表、迁移、数据类型、外键、索引、分区、连续聚合、慢查询、分页、sqlc 查询或 OLTP/写入密集型模式时触发。根据对话选择模式（schema_design、schema_review、migrate_evolve、query_tune、timescale）。
+
+关键词：PostgreSQL、模式、表设计、双键、软删除、硬删除、IDENTITY、UUID、FOREIGN KEY、索引、JSONB、Timestamptz、TimescaleDB、超表、迁移、golang-migrate、sqlc、模式审查、查询优化、EXPLAIN、键集分页、tenant_id、关键、推荐、细节
+
+请始终使用用户的语言作答。

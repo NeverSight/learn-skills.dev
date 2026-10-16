@@ -1,0 +1,1 @@
+捕获已部署的 Cloudflare Worker 或 Durable Object 的 CPU 或堆分析，并使用 pprof 读取。适用于 Worker 运行缓慢、CPU 占用高、接近内存限制、抛出 “Exceeded Memory” 错误，或需要了解在生产环境中哪个函数消耗最多资源的情况。

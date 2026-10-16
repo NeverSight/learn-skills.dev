@@ -1,0 +1,1 @@
+当应用的布局必须适应在运行时大小会变化的窗口，或当应用必须支持多个窗口时使用。这包括需要使应用可调整大小或支持可调整大小的窗口、布局在窗口调整大小时出现错位或无法自适应，以及为可折叠的 iPhone Duo、分屏多任务或 Stage Manager 做准备或优化。通过用上下文适配的替代方案（如 mainScreen、interfaceOrientation、userInterfaceIdiom、application 与 scene 生命周期以及安全区域 inset）替换传统的共享状态 API，对应用进行现代化改造。

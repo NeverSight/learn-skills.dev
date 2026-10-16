@@ -1,0 +1,5 @@
+设计并端到端执行 AI 代理的防护栏：行为边界（内容／动作／语气／范围／置信度），在 Cursor、Claude、Codex、OpenCode、Pi、Hermes、Droid、Devin 等平台上的灾难性 Shell 命令黑名单，Claude Code git PreToolUse 钩子，权限白名单，机密／PII 保护，提示注入与主题过滤，沙箱／网络隔离，代理 PR 审查门禁，审计尾部，以及团队政策。
+
+当添加或调优被阻止的命令；接线新代理或新机器；安装 git push／reset 保护；设计产品防护栏；添加内容审查／PII 抹除／注入检测；让代理加入团队；对代理运行进行沙箱化；对 AI 生成的 PR 需要人工审查；或者用户说 “guardrail”“command guard”“PreToolUse”“safety filter”“agent policy” 或 “deny-dangerous” 时触发。
+
+关键词：guardrails、PreToolUse、beforeShellExecution、denylist、dangerous‑patterns、git hooks、CLAUDE.md、secrets、PII、prompt injection、sandbox、CODEOWNERS、agent‑policy、AI‑Generated‑By、hard block、soft warn

@@ -1,0 +1,6 @@
+创建、修改和调试 openQA 测试并审查 openQA 结果。  
+在用户提到 openQA、o3、os-autoinst、isotovideo、testapi 调用（例如 assert_script_run 或 assert_screen）、needles、类似 openqa.opensuse.org/tests/123 的作业 URL、openQA 作业组或构建、软失败、force_result 或验证运行，或询问 openQA 作业为何失败、如何编写、调度、运行或修复 openQA 测试，或审查测试 PR，或审查或标记 openQA 结果时使用。  
+测试：用 Perl 或 Python 编写的 os-autoinst 测试模块、YAML 调度、测试数据、针对 os-autoinst-distri-opensuse 或自定义测试发行版的拉取请求。  
+结果：根据日志对失败、未完成或超时的作业进行分类处理，清理作业组或构建，区分产品缺陷、测试问题和基础设施问题，起草漏洞报告和作业评论，其中包含 bugrefs、标签以及后续的 openQA 解析。  
+不适用于 OBS 包构建失败、使用 mtui 的维护更新验证、普通缺陷跟踪工作、其他 CI 系统或一般的 Perl 问题。  
+请始终使用用户的语言回复。

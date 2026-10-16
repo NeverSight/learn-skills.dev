@@ -1,0 +1,1 @@
+使用 13 角度评分标准和对抗噪声过滤，对 GitHub 拉取请求或本地 Git 分支差异进行缺陷、已删除行为和规范漂移的审查。适用于审查 GitHub PR（#N 或 URL）、在打开 PR 前审计本地特性分支，或通过 /pr‑review 调用。请勿用于对已有 PR 审查评论或 CI 失败进行分拣（使用 pr‑triage），多仓库分支清理扫荡（使用 pr‑cleanup），或 Google3 Piper 更改列表（使用 cl‑finalize 或 review）。

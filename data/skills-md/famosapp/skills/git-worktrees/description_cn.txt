@@ -1,0 +1,7 @@
+创建、管理、比较和合并 Git worktree，以实现隔离的并行开发：功能/热修分支、无需 stash 的 PR 评审、并排差异、以及代理任务隔离。首选本地平台的 worktree 工具；如不可用则回退到 `git worktree`。默认目录采用业界公认的 `.worktrees/<X>-<Y>/` 命名（type‑slug）以避免冲突。包含关键 / 推荐 / 小细节的评审清单。
+
+当用户请求使用 worktree、隔离分支、避免 stash、并行审查 PR、比较不同分支的实现、设置 `.worktrees/`，或执行 git worktree add/list/remove/prune/repair 时触发。
+
+关键词：git worktree、linked worktree、branch lock、.worktrees、X‑Y 命名、隔离、并行开发、PR 评审、热修、比较、合并、cherry‑pick、prune、EnterWorktree、orca worktree
+
+请始终使用用户的语言作答。

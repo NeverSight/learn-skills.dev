@@ -1,0 +1,5 @@
+在 Next.js App Router 应用中构建自托管的排程链接：为每个主机和事件类型提供公开的预订页面，支持带日期覆盖的每周可用性、缓冲时间、最少提前通知、每日限制和滚动时间窗口，支持一对一和群组事件类型，支持 Google Calendar 与 Microsoft 365 的忙碌时间同步和事件写回，发送带有 ICS 邀请的确认邮件，提供提醒，通过私密链接进行重新安排和取消，支持签名 webhook 和可嵌入的 widget。
+
+使用场景：（1）团队希望拥有自己的类 Calendly 预订页面，而不是按座位订阅；（2）应用需要为教练、顾问、销售或客服提供“预约我的时间”链接；（3）现有排程模块出现双预订、跨夏令时偏移、发送过期提醒或产生重复的日历事件；（4）用户提到的关键词包括：排程链接、预订页面、Calendly 替代方案、Calendly 克隆、Cal.com 替代、事件类型、可用性规则、日期覆盖、缓冲时间、最少提前通知、每日限制、轮询、时间段、free busy、freeBusy、calendarView、Google Calendar 同步、Outlook 同步、Microsoft Graph 订阅、watch channel、ICS 邀请、METHOD:REQUEST、SEQUENCE、重新安排链接、取消链接、嵌入式 widget、预订 webhook、双预订、DST、排他约束、btree_gist、pg_cron。
+
+内置一个纯粹的时段引擎，页面和写入操作均调用它；为每个主机提供基于 Postgres 排他约束的锁；副作用以租约式幂等作业实现；使用封装的 OAuth 令牌、签名的状态和通道令牌；拥有 53 条单元测试以及在 Supabase 和 Firestore 模拟器上运行的存储契约。部署在 Vercel 的 Next.js App Router；默认使用 Supabase，Firestore 通过同一 SchedulingStore 接口提供。此版本不包含支付功能，不支持团队轮询，也不是视频会议服务。
