@@ -1,0 +1,9 @@
+**WORKFLOW SKILL** - 対象となる Aspire 13.6+ の AppHost を、レガシーな ProjectResource API から実験的な DotnetProjectResource API へ、安全に移行します。移行はリソースごとの評価と、正確な編集内容に対する明示的な承認を得た上で行います。
+
+使用目的: 既存の AddProject、addProject、AddCSharpApp、addCSharpApp、または AddBlazorGateway リソースを Project v2 に評価または移行すること；ProjectResource を DotnetProjectResource に移行すること；結果として残る古い AppHost の ProjectReference エッジをクリーンアップすること。
+
+使用しないでください: Aspire のバージョンアップ、 新しい AppHost の作成・配線、 Azure Functions の移行、汎用的なソースのモダナイゼーション、 通常の C# リソース配線や新規 AddProject リソースの追加（aspirify を使用）、 発行、 ビルド／ライフサイクル診断。
+
+呼び出し: Aspire のドキュメント／API 参照、 aspire add／restore／start／wait、 AppHost とパッケージの編集。
+
+単一操作の場合: まず評価してください；汎用的な移行リクエストだけで編集しないでください。

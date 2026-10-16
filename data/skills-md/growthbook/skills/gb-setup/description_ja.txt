@@ -1,0 +1,3 @@
+GrowthBook の API 資格情報と信頼できるアプリのオリジンを設定し、他のスキルが実行でき UI にリンクできるようにします。ユーザーが「set up growthbook」や「configure my api key」「growthbook isn't working」「where do I put my key」などと言ったとき、あるいは別のスキルが「GB_API_KEY is not set」「authentication failed」「GB_APP_URL is required」といったエラーを出したときに使用します。`~/.config/growthbook/.env` に chmod 600 で書き込み、ライブ API に対して検証します。フラグの一覧取得や実験の実行は、ドメインスキルが担当します。
+
+必ずユーザーの言語で応答してください。

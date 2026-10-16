@@ -1,0 +1,7 @@
+このコードベースの PostgreSQL スキーマを設計・レビューする：デュアルキー機能テーブル（`id` + `uuid`）、ユースケースに応じたソフトデリートまたはハードデリート、インデックス、JSONB、制約、クエリパフォーマンス（キーセットページネーション、EXPLAIN、アンチパターン）、および TimescaleDB ハイパーテーブル（追記専用／時系列データ）。マイグレーション、sqlc クエリ、PR のための重要／推奨／細部のレビュー項目チェックリストを含む。
+
+ユーザーが PostgreSQL テーブル、マイグレーション、データ型、外部キー、インデックス、パーティショニング、継続的集計、スロークエリ、ページネーション、sqlc クエリ、または OLTP／インサート重視スキーマの設計、作成、変更、レビューを要求したときにトリガーする。会話からモードを選択（schema_design、schema_review、migrate_evolve、query_tune、timescale）。
+
+キーワード：PostgreSQL、スキーマ、テーブル設計、デュアルキー、ソフトデリート、ハードデリート、IDENTITY、UUID、FOREIGN KEY、インデックス、JSONB、Timestamptz、TimescaleDB、ハイパーテーブル、マイグレーション、golang-migrate、sqlc、スキーマレビュー、クエリ最適化、EXPLAIN、キーセットページネーション、tenant_id、重要、推奨、細部
+
+常にユーザーの言語で回答してください。

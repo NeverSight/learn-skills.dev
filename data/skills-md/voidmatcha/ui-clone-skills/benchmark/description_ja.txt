@@ -1,0 +1,8 @@
+ローカル専用の回帰／ベンチマークスキル（ui‑clone‑skills のメンテナ）  
+標準の ui‑reverse‑engineering パイプラインを正規参照サイト（https://realfood.gov）に対して実行し、AE／SSIM、反復回数、ゲート失敗回数、結果を benchmark/history.csv に記録することで、プロンプト／サブドキュメント／モデルバージョンのドリフトがトレンドとして浮かび上がります。  
+
+トリガーフレーズ: 「run benchmark」／「regression benchmark」／「benchmark clone」。Makefile にはもはや `benchmark` ターゲットはありません ― 設定はこのスキル内のインライン bash（以下 Step 1）です。  
+
+内部: `.claude-plugin/plugin.json` の `skills` には登録されていません。公開の 3 スキルマーケットプレイスの表面には含まれません。メンテナ用ツールのみです。  
+
+常にユーザーの言語で回答してください。

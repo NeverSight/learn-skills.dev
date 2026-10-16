@@ -1,0 +1,7 @@
+特定の vLLM モデル（例：Qwen3-VL、DeepSeek-V3、Llama 4、InternVL3 など）向けに、包括的な中国語技術チュートリアル文書を生成します。Mermaid アーキテクチャ図、比較表、入力前処理フロー、フォワードパス分析、ViT 計算（VLM 用）、vLLM コード実装分析、技術原理の説明（MoE、MLA、Gated Attention、ViT、DiT など）を含む深堀りモデルウォークスルー文書を作成します。出力は Markdown 形式でスキルの outputs/ ディレクトリに保存されます。  
+
+**トリガー条件**：ユーザーが特定の vLLM モデルについて学びたいと求めたとき（例：「我想了解 vllm 中的 Qwen3-VL」「帮我生成 Qwen3-VL 的模型教程」「generate a model tutorial for InternVL3 in vllm」「vllm 中的 DeepSeek-V3 是怎么实现的」「写一个 Llama 4 的vllm教程」）。  
+
+**トリガーしない条件**：非 vLLM モデルに関する質問、チュートリアルの要求がない一般的な LLM に関する質問、または具体的なモデルではなく vLLM の機能／モジュールについて尋ねる場合。  
+
+必ずユーザーの言語で応答してください。
