@@ -1,0 +1,9 @@
+**WORKFLOW SKILL** - 在對每個資源進行評估並取得對精確編輯的明確批准後，安全地將符合條件的 Aspire 13.6+ AppHost 從舊版 ProjectResource API 遷移至實驗性的 DotnetProjectResource API。  
+
+**使用情境**：評估或遷移現有的 AddProject、addProject、AddCSharpApp、addCSharpApp 或 AddBlazorGateway 資源至 Project v2；將 ProjectResource 遷移至 DotnetProjectResource；清除產生的過時 AppHost ProjectReference 邊。  
+
+**不要使用於**：升級 Aspire 版本、建立/連接新 AppHost、Azure Functions 遷移、一般原始碼現代化、普通 C# 資源連線或新增 AddProject 資源（請使用 aspireify）、發布、或建置/生命周期診斷。  
+
+**調用**：Aspire 文件/API 查詢、aspire add/restore/start/wait、AppHost 與套件編輯。  
+
+**單次操作時**：先進行評估；絕不可僅依一般遷移請求進行編輯。

@@ -1,0 +1,5 @@
+產生針對特定 vLLM 模型（例如 Qwen3‑VL、DeepSeek‑V3、Llama 4、InternVL3 等）的完整中文技術教學文件。文件內容包括深入的模型說明文件、Mermaid 架構圖、比較表格、輸入前處理流程、前向傳播分析、ViT 計算（針對 VLM）、vLLM 程式碼實作分析，以及技術原理說明（MoE、MLA、Gated Attention、ViT、DiT 等）。輸出以 Markdown 格式儲存至 skill 的 outputs/ 目錄。
+
+觸發時機：使用者詢問特定 vLLM 模型的學習資訊（例如「我想了解 vllm 中的 Qwen3‑VL」、「幫我生成 Qwen3‑VL 的模型教程」、「generate a model tutorial for InternVL3 in vllm」、「vllm 中的 DeepSeek‑V3 是怎麼實現的」、「寫一個 Llama 4 的 vllm 教程」）。
+
+不觸發時機：使用者詢問非 vLLM 模型、一般 LLM 問題且未要求教學，或僅詢問 vLLM 功能/模組而未指定特定模型。

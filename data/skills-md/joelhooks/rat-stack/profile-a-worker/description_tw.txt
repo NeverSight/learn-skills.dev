@@ -1,0 +1,1 @@
+捕獲已部署的 Cloudflare Worker 或 Durable Object 的 CPU 或堆記憶體配置檔，並使用 pprof 進行分析。當 Worker 執行緩慢、耗用 CPU、接近記憶體上限、拋出「Exceeded Memory」錯誤，或需要了解在生產環境中哪個函式耗費最多時使用。

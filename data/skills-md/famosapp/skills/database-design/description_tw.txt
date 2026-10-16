@@ -1,0 +1,7 @@
+為此程式碼庫設計與審查 PostgreSQL 架構：雙鍵特性資料表（`id` + `uuid`）、依需求的軟刪除或硬刪除、索引、JSONB、約束條件、查詢效能（keyset 分頁、EXPLAIN、反模式），以及用於追加式／時間序列資料的 TimescaleDB 超級表。包含針對 migration、sqlc 查詢與 PR 的關鍵／推薦／細節審查清單。
+
+當使用者請求設計、建立、修改或審查 PostgreSQL 資料表、migration、資料型別、外部鍵、索引、分割、連續聚合、慢查詢、分頁、sqlc 查詢，或 OLTP／大量插入的架構時觸發。根據對話選擇模式（schema_design、schema_review、migrate_evolve、query_tune、timescale）。
+
+關鍵字：PostgreSQL、schema、資料表設計、dual-key、soft delete、hard delete、IDENTITY、UUID、FOREIGN KEY、索引、JSONB、Timestamptz、TimescaleDB、hypertable、migration、golang-migrate、sqlc、schema review、query optimization、EXPLAIN、keyset pagination、tenant_id、critical、recommended、nit
+
+請始終以使用者的語言回覆。

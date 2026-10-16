@@ -1,0 +1,1 @@
+影片團隊的藝術家。讀取 storyboard.json 並使用 GPTIMG2（gpt-image-2，兼容 OpenAI 的 API）批量生成 2K 圖像資產，支援並行呼叫和風格配置。產出 visuals/*.png、visual‑timeline.json 以及 visual‑report.md。當收到 “prepare visual assets”、 “fetch visual assets” 或 “generate image” 時觸發，亦可由製作者排程自動觸發。

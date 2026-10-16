@@ -1,0 +1,1 @@
+Google 地圖爬蟲，用於產生潛在客戶。將業務類型與地點轉換為本地企業的乾淨 CSV，透過駕駛 gosom/google-maps-scraper 引擎，在 Docker 中本地執行，作為位於 localhost:8080 的 REST API。預設返回 8 個潛在客戶欄位（名稱、電話、電子郵件、網站、類別、地址、評分與評論數），另可選擇 Instagram、Facebook 與 LinkedIn 個人檔案或全部約 34 個原始欄位。當使用者需要潛在客戶清單、「[地點] 的 [業務] 列表」、本地商業資料、地點的聯絡資訊豐富（電子郵件、電話、社群平台）或一次性抓取整個城市的 Google 約 120 筆搜尋結果時使用。請勿直接用於抓取 Instagram、TikTok、YouTube、X 或任何其他社群媒體平台。

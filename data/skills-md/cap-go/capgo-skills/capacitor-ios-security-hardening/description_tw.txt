@@ -1,0 +1,3 @@
+審核並逐步加固 Capacitor iOS 應用（ios/App/App.xcodeproj，方案 App）及原生插件程式碼（Swift/ObjC/C、Package.swift、podspec）的 Xcode 安全建置設定。涵蓋 `xcodebuild -showBuildSettings -json`、安全編譯器警告、靜態分析檢查器（`xcodebuild analyze`）、Xcode 強化安全（ENABLE_ENHANCED_SECURITY、com.apple.security.hardened‑process 權限、指標驗證 / arm64e、記憶體標記軟模式）、哪些對 WKWebView 混合應用安全、哪些會破壞 CocoaPods、SPM 二進位 xcframework 或 Cordova 插件、分階段採用以及決策記錄。適用於「加固我的 iOS 建置」「啟用 Enhanced Security」安全建置設定審核、啟用指標驗證後的 arm64e 連結錯誤，或 Build and Analyze 設定。不要用於 ATS/TLS、簽名、祕密或 WebView 規則（capacitor‑security），或 App Store 審核（capacitor‑apple‑review‑preflight）。
+
+請始終以使用者的語言回覆。

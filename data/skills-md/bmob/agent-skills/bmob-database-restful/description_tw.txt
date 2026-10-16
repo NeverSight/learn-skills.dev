@@ -1,0 +1,3 @@
+在以下情況下使用：透過純 HTTP / curl 與 Bmob 後端雲端互動，且使用的程式語言沒有 Bmob SDK —— 例如 Python（requests/httpx）、Go（net/http）、PHP（Guzzle）、C#（HttpClient）、Rust（reqwest）、Ruby、Java 後端、Bash、Deno、伺服器端腳本、資料遷移。當使用者明確要求 curl 或原始 REST API URL 格式時亦使用。API 基礎域名：https://api.codenow.cn（例如 /1/classes/Token）。觸發路徑：/1/classes/、/1/users、/1/batch、/1/cloudQuery、/1/timestamp、/1/requestSmsCode，及標頭 X‑Bmob‑Application‑Id、X‑Bmob‑REST‑API‑Key、X‑Bmob‑Safe‑Sign，簡易認證、加密認證、MD5 簽名、curl bmob、Bmob REST API、Bmob HTTP。**不適用於** JavaScript / Node / Web / 小程式（請使用 bmob‑database‑javascript）、Android（請使用 bmob‑database‑android）、iOS（請使用 bmob‑database‑ios）或 Flutter / Dart（請使用 bmob‑database‑flutter）。若已配置 Bmob MCP，generate_code MCP 工具可產生 13 種操作類型的即用型 curl，建議優先使用而非手動編寫 curl。
+
+請始終使用使用者的語言回覆。

@@ -1,0 +1,8 @@
+僅限本地的回歸／基準測試技能，供 ui‑clone‑skills 維護者使用。  
+將標準的 ui 逆向工程管道對準權威參考網站 (https://realfood.gov)，並記錄 AE／SSIM、迭代次數、門檻失敗次數以及結果至 benchmark/history.csv，讓提示／子文件／模型版本的漂移呈現為趨勢。  
+
+觸發短語：「run benchmark」／「regression benchmark」／「benchmark clone」。Makefile 已不再有 `benchmark` 目標──設定以此技能中的內嵌 bash 完成（如下步驟 1）。  
+
+內部：未在 `.claude-plugin/plugin.json` 的 `skills` 中註冊。非公開的 3‑skill 市場表面的一部分。僅供維護者工具使用。  
+
+請始終以使用者的語言回應。

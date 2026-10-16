@@ -1,0 +1,1 @@
+整合 CFDI Express REST API，從任何系統開立墨西哥 CFDI 4.0 發票：即時開立（PUE）/ 延遲付款（PPD）/ 全球發票、信用票據、付款補充（REP / Pagos 2.0）、薪資收據（nómina / Nómina 1.2）、帶 SAT 確認的取消、發行人（RFC/CSD）管理、SAT 目錄與預付餘額。採用類似 Stripe 的慣例。當使用者需要蓋章、列出、取得或取消 CFDI（包括薪資收據）、註冊發行人或上傳 CSD 證書、搜尋 SAT 產品/單位/用途/稅制/薪資代碼、檢查餘額與使用情況，或接收有關已蓋章文件的 webhook 時，請使用 api.cfdi.express。

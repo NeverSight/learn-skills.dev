@@ -1,0 +1,1 @@
+使用三個缺口框架（理解 / 規範 / 執行：情境 / 工具 / 推理）診斷當前 Claude Code 工作階段出錯的原因（或一般性地回顧其流程）。MAIN 會產生一個分支以進行診斷，呈現發現，並僅在取得使用者明確同意後才套用任何檔案修正——此分支會繼承對話上下文，但不會進行編輯。觸發條件：使用者說「the agent got it wrong」、『this isn't working』、『diagnose this session』、『why did Claude mess this up』、『debug this run』、『what went wrong』、『review this session』、『how did this session go』、『/debug-agent』，或詢問為何當前會話產生不良輸出。請始終以使用者的語言回應。
