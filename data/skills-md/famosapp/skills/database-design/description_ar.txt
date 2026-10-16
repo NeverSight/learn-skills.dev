@@ -1,0 +1,5 @@
+تصميم ومراجعة مخططات PostgreSQL لهذه القاعدة البرمجية: جداول ميزات ذات مفتاحين (`id` + `uuid`)، حذف ناعم أو صعب حسب حالة الاستخدام، الفهارس، JSONB، القيود، أداء الاستعلام (تصفح بالمفتاح، EXPLAIN، الأنماط المضادة)، وجداول TimescaleDB الفائقة للبيانات المتصلة فقط/السلاسل الزمنية. يتضمن قائمة مراجعة حرجة/موصى بها/تفصيلية للهجرات، استعلامات sqlc، وطلبات السحب.
+
+تشغيل عندما يطلب المستخدم تصميم، إنشاء، تعديل، أو مراجعة جداول PostgreSQL، الهجرات، أنواع البيانات، المفاتيح الخارجية، الفهارس، التجزيء، التجميعات المستمرة، الاستعلامات البطيئة، التصفح، استعلامات sqlc، أو مخططات OLTP/ذات إدخالات كثيفة. اختر الوضع من المحادثة (schema_design, schema_review, migrate_evolve, query_tune, timescale).
+
+الكلمات المفتاحية: PostgreSQL, schema, table design, dual-key, soft delete, hard delete, IDENTITY, UUID, FOREIGN KEY, indexes, JSONB, Timestamptz, TimescaleDB, hypertable, migration, golang-migrate, sqlc, schema review, query optimization, EXPLAIN, keyset pagination, tenant_id, critical, recommended, nit
