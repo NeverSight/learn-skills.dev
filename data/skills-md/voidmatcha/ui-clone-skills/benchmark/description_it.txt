@@ -1,0 +1,8 @@
+Skill di regressione/benchmark solo locale per i manutentori di ui-clone-skills.  
+Avvia la pipeline standard di reverse‑engineering UI contro il sito di riferimento canonico (https://realfood.gov) e registra AE/SSIM, conteggio delle iterazioni, conteggi dei fallimenti del gate e risultato in benchmark/history.csv, così che il drift di prompt / sub‑doc / versione del modello emerga come tendenza.  
+
+Frasi di attivazione: "run benchmark" / "regression benchmark" / "benchmark clone". Il Makefile non ha più un target `benchmark` — la configurazione è inline bash in questa skill (Passo 1 sotto).  
+
+Interno: NON registrato in `.claude-plugin/plugin.json` `skills`. Non fa parte della superficie pubblica del marketplace a 3 skill. Solo strumenti per i manutentori.  
+
+Rispondi sempre nella lingua dell'utente.

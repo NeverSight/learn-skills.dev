@@ -1,0 +1,7 @@
+Progetta e revisiona gli schemi PostgreSQL per questa codebase: tabelle con chiave doppia (`id` + `uuid`), eliminazioni soft o hard a seconda del caso d'uso, indici, JSONB, vincoli, performance delle query (paginazione keyset, EXPLAIN, anti‑pattern) e hypertable TimescaleDB per dati append‑only / serie temporali. Include una checklist di revisione critica / raccomandata / nit per migrazioni, query sqlc e PR.
+
+Attiva quando l'utente chiede di progettare, creare, modificare o revisionare tabelle PostgreSQL, migrazioni, tipi di dato, foreign key, indici, partizionamento, aggregate continue, query lente, paginazione, query sqlc o schemi OLTP / ad alta inserzione. Scegli la modalità dalla conversazione (schema_design, schema_review, migrate_evolve, query_tune, timescale).
+
+Parole chiave: PostgreSQL, schema, progettazione tabelle, dual‑key, soft delete, hard delete, IDENTITY, UUID, FOREIGN KEY, indici, JSONB, Timestamptz, TimescaleDB, hypertable, migrazione, golang‑migrate, sqlc, revisione schema, ottimizzazione query, EXPLAIN, paginazione keyset, tenant_id, critico, raccomandato, nit
+
+Rispondi sempre nella lingua dell'utente.

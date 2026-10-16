@@ -1,0 +1,12 @@
+Analizza le risorse duplicate/multi‑versione nell'unità cloud di PikPak (più risoluzioni dello stesso film, versioni con compressioni diverse) e fornisci un elenco di raccomandazioni su “cosa tenere, cosa eliminare” in base alla strategia selezionata. Dopo la conferma dell'utente, sposta le versioni vecchie nel cestino.
+
+Deve usare questa abilità quando:
+- L'utente menziona “controlla duplicati”, “deduplica”, “file duplicati”, “multi‑versione”, “pulisci versioni vecchie”, “ha scaricato lo stesso film più volte”.
+- L'utente scopre che la stessa risorsa esiste in più risoluzioni/versioni e vuole pulirle.
+- L'utente dice “tieni il più recente”, “tieni la massima qualità”, “mostrami quali sono i duplicati”.
+- L'utente dice “trova duplicati”, “deduplica il mio cloud drive”, “ho scaricato lo stesso film due volte”, “pulisci versioni vecchie”, “tieni la copia più recente/migliore qualità”.
+- L'utente richiede di “confrontare le versioni” o “risparmiare spazio rimuovendo i duplicati”.
+
+Esegui la cancellazione solo dopo che l'utente conferma l'elenco; la cancellazione significa sempre spostare nel cestino (recuperabile), e lo strumento è in sola lettura.
+
+Rispondi sempre nella lingua dell'utente.

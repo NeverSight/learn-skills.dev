@@ -1,0 +1,5 @@
+Crea, gestisci, confronta e unisci worktree Git per sviluppo parallelo isolato: rami feature/hotfix, revisione PR senza stash, diff affiancati e isolamento dei task dell'agente. Preferisce gli strumenti nativi di worktree della piattaforma; ricade su `git worktree`. Le directory predefinite usano la nomenclatura d’oro `.worktrees/<X>-<Y>/` (type‑slug) per evitare collisioni. Include una checklist critica / consigliata / nit di revisione.  
+
+Attiva quando l'utente chiede di usare i worktree, isolare un ramo, evitare lo stash, revisionare una PR in parallelo, confrontare implementazioni tra rami, impostare `.worktrees/`, o eseguire git worktree add/list/remove/prune/repair.  
+
+Parole chiave: git worktree, worktree collegato, blocco del ramo, .worktrees, nomenclatura X‑Y, isolamento, sviluppo parallelo, revisione PR, hotfix, confrontare, unire, cherry-pick, prune, EnterWorktree, orca worktree
