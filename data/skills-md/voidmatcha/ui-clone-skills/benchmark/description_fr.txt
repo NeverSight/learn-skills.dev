@@ -1,0 +1,8 @@
+Compétence de régression/benchmark locale uniquement pour les mainteneurs de ui-clone-skills.  
+Pilote le pipeline standard de rétro‑ingénierie UI contre le site de référence canonique (https://realfood.gov) et enregistre AE/SSIM, le nombre d’itérations, le nombre d’échecs de porte et le résultat dans benchmark/history.csv afin que la dérive du prompt / sous‑doc / version du modèle apparaisse comme une tendance.
+
+Expressions déclenchantes : « run benchmark » / « regression benchmark » / « benchmark clone ». Le Makefile ne comporte plus de cible `benchmark` — la configuration est en bash intégré dans cette compétence (Étape 1 ci‑dessous).
+
+Interne : NON enregistré dans `.claude-plugin/plugin.json` `skills`. Pas fait partie de la surface publique du marché à 3 compétences. Outils réservés aux mainteneurs.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

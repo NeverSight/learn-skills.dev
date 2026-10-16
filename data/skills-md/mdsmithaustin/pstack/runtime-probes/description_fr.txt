@@ -1,0 +1,3 @@
+Appliquer lorsqu’on vous demande explicitement de sonder, de soumettre à un stress, de fuzzing ou de test de chaos un produit, une fonctionnalité ou une PR afin de détecter des bugs non signalés, y compris préparer un transfert basé sur le code source lorsque le runtime n’est pas disponible. Ne pas appliquer pour une révision statique ordinaire ou l’investigation d’un défaut connu, à moins que la demande ne comprenne également un sondage exploratoire du runtime. Deux passes : une taxonomie de sonde fermée, puis une porte de promotion qui ne conserve que les résultats accessibles à l’appelant.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

@@ -1,0 +1,7 @@
+Concevoir et examiner les schémas PostgreSQL pour ce code‑base : tables à double clé (`id` + `uuid`), suppressions douces ou dures selon le cas d'usage, index, JSONB, contraintes, performance des requêtes (pagination par jeu de clés, EXPLAIN, anti‑patterns), et hypertables TimescaleDB pour les données en mode ajout uniquement / séries temporelles. Inclut une checklist de revue critique / recommandée / nit pour les migrations, les requêtes sqlc et les PR.  
+
+Déclencher lorsque l'utilisateur demande de concevoir, créer, modifier ou examiner des tables PostgreSQL, des migrations, des types de données, des clés étrangères, des index, du partitionnement, des agrégats continus, des requêtes lentes, la pagination, des requêtes sqlc ou des schémas OLTP / à forte insertion. Choisir le mode dans la conversation (schema_design, schema_review, migrate_evolve, query_tune, timescale).  
+
+Mots‑clés : PostgreSQL, schéma, conception de tables, double clé, suppression douce, suppression dure, IDENTITY, UUID, FOREIGN KEY, index, JSONB, Timestamptz, TimescaleDB, hypertable, migration, golang-migrate, sqlc, revue de schéma, optimisation de requêtes, EXPLAIN, pagination par jeu de clés, tenant_id, critique, recommandé, nit  
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

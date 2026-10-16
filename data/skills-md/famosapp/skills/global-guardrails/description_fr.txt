@@ -1,0 +1,7 @@
+Concevoir et appliquer des garde-fous d'agent IA de bout en bout : limites comportementales (contenu / action / ton / portée / confiance), liste noire catastrophique des commandes shell sur Cursor/Claude/Codex/OpenCode/Pi/Hermes/Droid/Devin, hooks git PreToolUse de Claude Code, listes d'autorisation, protection des secrets / PII, filtres d'injection de prompt et de sujets, isolement sandbox/réseau, portes de révision PR d'agent, traceurs d’audit, et politique d’équipe.
+
+Se déclenche lors de l'ajout ou du réglage de commandes bloquées ; du câblage d’un nouvel agent ou d’une nouvelle machine ; de l’installation de garde-fous pour les push/reset git ; de la conception de garde-fous produit ; de l’ajout de modération de contenu / de masquage de PII / de détection d’injection ; de l’intégration d’agents à une équipe ; de la mise en sandbox des exécutions d’agents ; de l’obligation d’une révision humaine pour les PR générés par IA ; ou lorsque l’utilisateur prononce garde-fou, garde de commande, PreToolUse, filtre de sécurité, politique d’agent, ou deny-dangerous.
+
+Mots‑clé : garde‑fous, PreToolUse, beforeShellExecution, denylist, dangerous-patterns, hooks git, CLAUDE.md, secrets, PII, injection de prompt, sandbox, CODEOWNERS, agent-policy, AI-Generated-By, blocage ferme, avertissement souple.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
