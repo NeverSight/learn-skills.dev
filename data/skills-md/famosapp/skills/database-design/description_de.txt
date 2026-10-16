@@ -1,0 +1,5 @@
+Entwerfen und überprüfen Sie PostgreSQL‑Schemata für diesen Code‑Base: Dual‑Key‑Feature‑Tabellen (`id` + `uuid`), Soft‑ oder Hard‑Deletes je nach Anwendungsfall, Indizes, JSONB, Constraints, Abfrage‑Performance (Keyset‑Paginierung, EXPLAIN, Anti‑Pattern) und TimescaleDB‑Hypertables für Append‑Only‑/Zeitreihendaten. Enthält kritische / empfohlene / Detail‑Checkliste für Migrationen, sqlc‑Abfragen und PRs.
+
+Auslösen, wenn der Benutzer auffordert, PostgreSQL‑Tabellen, Migrationen, Datentypen, Foreign‑Keys, Indizes, Partitionierung, Continuous Aggregates, langsame Abfragen, Paginierung, sqlc‑Abfragen oder OLTP‑/Insert‑heavy‑Schemas zu designen, zu erstellen, zu ändern oder zu reviewen. Modus aus dem Gespräch wählen (schema_design, schema_review, migrate_evolve, query_tune, timescale).
+
+Schlüsselwörter: PostgreSQL, Schema, Tabellendesign, Dual‑Key, Soft‑Delete, Hard‑Delete, IDENTITY, UUID, FOREIGN KEY, Indizes, JSONB, Timestamptz, TimescaleDB, Hypertable, Migration, golang‑migrate, sqlc, Schema‑Review, Abfrage‑Optimierung, EXPLAIN, Keyset‑Paginierung, tenant_id, kritisch, empfohlen, Detail.

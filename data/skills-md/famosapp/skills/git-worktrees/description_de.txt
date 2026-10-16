@@ -1,0 +1,5 @@
+Erstelle, verwalte, vergleiche und merge Git‑Worktrees für isolierte parallele Entwicklung: Feature‑/Hotfix‑Branches, PR‑Review ohne Stashing, nebeneinander dargestellte Diffs und Agenten‑Aufgabenisolierung. Bevorzugt native Plattform‑Worktree‑Tools; greift auf `git worktree` zurück. Standardverzeichnisse verwenden die bewährte `.worktrees/<X>-<Y>/`‑Benennung (Typ‑Slug), um Kollisionen zu vermeiden. Enthält eine kritische/empfohlene/Feinschliff‑Review‑Checkliste.
+
+Auslösen, wenn der Benutzer bittet, Worktrees zu nutzen, einen Branch zu isolieren, Stashing zu vermeiden, einen PR parallel zu reviewen, Implementierungen über Branches hinweg zu vergleichen, `.worktrees/` einzurichten oder `git worktree add/list/remove/prune/repair` auszuführen.
+
+Schlüsselwörter: git worktree, verknüpfter Worktree, Branch‑Lock, .worktrees, X‑Y‑Benennung, Isolation, parallele Entwicklung, PR‑Review, Hotfix, vergleichen, merge, cherry‑pick, prune, EnterWorktree, orca worktree
