@@ -1,0 +1,5 @@
+Spree 6을 외부 시스템에 연결할 때 제공자 계약을 통해 사용합니다 — 세금 엔진, 운송료 쇼핑, WMS/3PL 또는 라벨 제공자, 결제 게이트웨이, 검색 엔진(Meilisearch, Typesense, Algolia), 판매자 정산, 디지털 다운로드/라이선스 키, SSO/OpenID Connect 또는 커스텀 JWT 발행자, OpenTelemetry/APM, 혹은 ERP/PIM/DAM 등.  
+
+일반적인 표현 – “custom tax provider”, “Avalara”, “delivery rate provider”, “EasyPost”, “fulfillment provider”, “custom payment method”, “search provider”, “payout provider”, “digital asset provider”, “SSO”, “Okta/Entra login”, “Spree::Integration”, “store credentials for a provider”, “Spree.integrations”, “which registry do I append to”.  
+
+플러그인 포인트 전체 지도 – 기본 클래스, 등록 호출, 선택되는 위치, 그리고 참고할 문서.

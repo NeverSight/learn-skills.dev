@@ -1,0 +1,6 @@
+ui-clone-skills 유지보수자를 위한 로컬 전용 회귀/벤치마크 스킬.  
+표준 UI 역엔지니어링 파이프라인을 정식 레퍼런스 사이트(https://realfood.gov)에 적용하고 AE/SSIM, 반복 횟수, 게이트 실패 횟수, 결과를 benchmark/history.csv에 기록하여 프롬프트/서브문서/모델 버전 드리프트가 추세로 드러나게 함.
+
+트리거 문구: "run benchmark" / "regression benchmark" / "benchmark clone". Makefile에 더 이상 `benchmark` 타겟이 없으며—설정은 이 스킬 내의 인라인 bash(아래 단계 1)에서 수행됨.
+
+내부: `.claude-plugin/plugin.json` `skills`에 등록되지 않음. 공개 3‑스킬 마켓플레이스 표면에 포함되지 않음. 유지보수자 도구 전용.

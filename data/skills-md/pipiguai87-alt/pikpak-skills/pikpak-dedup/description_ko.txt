@@ -1,0 +1,12 @@
+PikPak 클라우드 드라이브에서 중복/다중 버전 리소스(같은 영화의 여러 해상도, 다른 압축 버전)를 분석하고, 선택한 전략에 따라 “보관할 파일과 정리할 파일” 목록을 제안합니다. 사용자가 확인하면 오래된 버전을 휴지통으로 이동합니다.
+
+이 기능을 사용해야 하는 경우:
+- 사용자가 “duplicate check”, “dedupe”, “duplicate files”, “multiple versions”, “clean old versions”, “downloaded the same movie several times” 등을 언급할 때
+- 동일한 리소스가 여러 해상도/버전으로 존재함을 발견하고 정리하고 싶을 때
+- 사용자가 “keep the newest”, “keep the highest quality”, “show me which are duplicates”라고 말할 때
+- 사용자가 “find duplicates”, “dedupe my cloud drive”, “I downloaded the same movie twice”, “clean up old versions”, “keep the newest/highest quality copy” 등을 말할 때
+- 사용자가 “compare versions” 또는 “save space by removing dupes”라고 요청할 때
+
+삭제는 사용자가 목록을 확인한 후에만 실행되며, 삭제된 파일은 항상 복구 가능한 휴지통으로 이동됩니다. 도구 자체는 읽기 전용입니다.
+
+항상 사용자의 언어로 응답하십시오.

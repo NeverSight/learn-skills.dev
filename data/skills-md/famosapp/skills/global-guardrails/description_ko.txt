@@ -1,0 +1,5 @@
+AI 에이전트 가드레일을 설계하고 끝까지 적용하기: 행동 경계(콘텐츠 / 행동 / 어조 / 범위 / 자신감), Cursor/Claude/Codex/OpenCode/Pi/Hermes/Droid/Devin 전반에 걸친 치명적인 쉘 명령 차단 리스트, Claude Code git PreToolUse 훅, 권한 허용 리스트, 비밀/PII 보호, 프롬프트 인젝션 및 주제 필터, 샌드박스/네트워크 격리, 에이전트 PR 검토 게이트, 감사 트레일러, 그리고 팀 정책.
+
+차단된 명령을 추가하거나 조정할 때; 새로운 에이전트나 머신을 연결할 때; git push/reset 방어 장치를 설치할 때; 제품 가드레일을 설계할 때; 콘텐츠 검토/PII 삭제/인젝션 탐지를 추가할 때; 에이전트를 팀에 온보딩할 때; 에이전트 실행을 샌드박스화할 때; AI 생성 PR에 대해 인간 검토를 요구할 때; 혹은 사용자가 guardrail, command guard, PreToolUse, safety filter, agent policy, deny-dangerous 라고 말할 때 트리거됩니다.
+
+키워드: guardrails, PreToolUse, beforeShellExecution, denylist, dangerous-patterns, git hooks, CLAUDE.md, secrets, PII, prompt injection, sandbox, CODEOWNERS, agent-policy, AI-Generated-By, hard block, soft warn

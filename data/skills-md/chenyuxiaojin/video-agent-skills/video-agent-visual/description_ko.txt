@@ -1,0 +1,1 @@
+비디오 팀의 아트 디렉터. storyboard.json을 읽고, GPTIMG2(gpt-image-2, OpenAI 호환 API)를 사용하여 2K 이미지 에셋을 일괄 생성하며, 동시 호출 및 스타일 구성을 지원한다. visuals/*.png, visual‑timeline.json, visual‑report.md를 생성한다. “prepare visual assets”, “fetch visual material”, “generate image”를 받았을 때 또는 프로듀서가 스케줄링할 때 자동으로 트리거된다.

@@ -1,0 +1,5 @@
+이 코드베이스를 위한 PostgreSQL 스키마 설계 및 검토: 이중 키 기능 테이블(`id` + `uuid`), 사용 사례에 따른 소프트 삭제 또는 하드 삭제, 인덱스, JSONB, 제약조건, 쿼리 성능(키셋 페이지네이션, EXPLAIN, 안티패턴), 그리고 Append‑only/시계열 데이터를 위한 TimescaleDB 하이퍼테이블. 마이그레이션, sqlc 쿼리, PR에 대한 핵심·권장·세부 검토 체크리스트 포함.
+
+사용자가 PostgreSQL 테이블, 마이그레이션, 데이터 타입, 외래 키, 인덱스, 파티셔닝, 연속 집계, 느린 쿼리, 페이지네이션, sqlc 쿼리, 혹은 OLTP·삽입‑중심 스키마를 설계·생성·수정·검토 요청할 때 트리거합니다. 대화 흐름에서 모드를 선택하세요( schema_design, schema_review, migrate_evolve, query_tune, timescale ).
+
+키워드: PostgreSQL, 스키마, 테이블 설계, 이중 키, 소프트 삭제, 하드 삭제, IDENTITY, UUID, FOREIGN KEY, 인덱스, JSONB, Timestamptz, TimescaleDB, 하이퍼테이블, 마이그레이션, golang‑migrate, sqlc, 스키마 검토, 쿼리 최적화, EXPLAIN, 키셋 페이지네이션, tenant_id, 핵심, 권장, 세부.

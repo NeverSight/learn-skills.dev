@@ -1,0 +1,5 @@
+Git 워크트리를 생성, 관리, 비교 및 병합하여 격리된 병렬 개발을 지원합니다: 기능/핫픽스 브랜치, 스태시 없이 PR 검토, 나란히 diff, 에이전트 작업 격리 등. 기본적으로 네이티브 플랫폼 워크트리 도구를 선호하며, 필요 시 `git worktree`를 사용합니다. 기본 디렉터리는 충돌 방지를 위해 표준 `.worktrees/<X>-<Y>/` (type‑slug) 명명법을 사용합니다. 중요한 / 권장 / 사소한 검토 체크리스트가 포함되어 있습니다.
+
+사용자가 워크트리를 사용하고 싶다, 브랜치를 격리하고 싶다, 스태시를 피하고 싶다, PR을 병렬로 검토하고 싶다, 브랜치 간 구현을 비교하고 싶다, `.worktrees/`를 설정하고 싶다, 혹은 `git worktree add/list/remove/prune/repair` 명령을 실행하고 싶을 때 트리거됩니다.
+
+키워드: git worktree, linked worktree, branch lock, .worktrees, X‑Y naming, isolation, parallel development, PR review, hotfix, compare, merge, cherry‑pick, prune, EnterWorktree, orca worktree.

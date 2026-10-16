@@ -1,0 +1,5 @@
+**WORKFLOW SKILL** - 각 리소스에 대한 평가와 정확한 편집에 대한 명시적 승인을 거친 후, 레거시 ProjectResource API에서 실험적인 DotnetProjectResource API로 적격 Aspire 13.6+ AppHost를 안전하게 마이그레이션합니다.  
+**USE FOR:** 기존 AddProject, addProject, AddCSharpApp, addCSharpApp, 또는 AddBlazorGateway 리소스를 Project v2로 평가하거나 마이그레이션; ProjectResource를 DotnetProjectResource로 마이그레이션; 결과로 남는 오래된 AppHost ProjectReference 연결을 정리.  
+**DO NOT USE FOR:** Aspire 버전 업그레이드, 새로운 AppHost 생성/연결, Azure Functions 마이그레이션, 일반 소스 현대화, 일반 C# 리소스 연결 또는 새로운 AddProject 리소스 추가(aspireify 사용), 배포, 빌드/수명 주기 진단.  
+**INVOKES:** Aspire 문서/API 조회, aspire add/restore/start/wait, AppHost 및 패키지 편집.  
+**FOR SINGLE OPERATIONS:** 먼저 평가하고, 일반 마이그레이션 요청만으로는 절대 편집하지 마십시오.

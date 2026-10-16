@@ -1,0 +1,11 @@
+Bmob 백엔드 클라우드와 일반 HTTP / curl을 사용할 때, Bmob SDK가 없는 모든 언어—Python (requests/httpx), Go (net/http), PHP (Guzzle), C# (HttpClient), Rust (reqwest), Ruby, Java 백엔드, Bash, Deno, 서버‑사이드 스크립팅, 데이터 마이그레이션—에서 사용합니다. 사용자가 명시적으로 curl이나 원시 REST API URL 패턴을 원할 때도 사용합니다.  
+
+API 기본 도메인: https://api.codenow.cn (예: /1/classes/Token).  
+
+트리거: /1/classes/, /1/users, /1/batch, /1/cloudQuery, /1/timestamp, /1/requestSmsCode, X-Bmob-Application-Id, X-Bmob-REST-API-Key, X-Bmob-Safe-Sign, simple auth, encrypted auth, MD5 signature, curl bmob, Bmob REST API, Bmob HTTP.  
+
+JavaScript / Node / 웹 / 미니 프로그램에는 사용하지 마세요(사용시 bmob-database-javascript 이용), Android에는 bmob-database-android, iOS에는 bmob-database-ios, Flutter / Dart에는 bmob-database-flutter를 사용합니다.  
+
+Bmob MCP가 구성된 경우, generate_code MCP 도구가 13가지 작업 유형에 대한 즉시 사용 가능한 curl을 생성할 수 있으니, 직접 curl을 작성하는 것보다 이를 우선 사용하세요.  
+
+항상 사용자의 언어로 답변해 주세요.

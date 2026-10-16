@@ -1,0 +1,7 @@
+특정 vLLM 모델(예: Qwen3‑VL, DeepSeek‑V3, Llama 4, InternVL3 등)에 대한 포괄적인 중국어 기술 튜토리얼 문서를 생성합니다. Mermaid 아키텍처 다이어그램, 비교 표, 입력 전처리 흐름, 순전파 분석, VLM을 위한 ViT 계산, vLLM 코드 구현 분석 및 기술 원리 설명(MoE, MLA, Gated Attention, ViT, DiT 등)을 포함한 심층 모델 워크스루 문서를 제공합니다. 출력은 Markdown 형식으로 skill의 outputs/ 디렉터리에 저장됩니다.  
+
+TRIGGER when: 사용자가 특정 vLLM 모델에 대해 배우고 싶다고 요청할 때(예: “我想了解 vllm 中的 Qwen3‑VL”, “帮我生成 Qwen3‑VL 的模型教程”, “generate a model tutorial for InternVL3 in vllm”, “vllm 中的 DeepSeek‑V3 是怎么实现的”, “写一个 Llama 4 的vllm教程”).  
+
+DO NOT TRIGGER when: 사용자가 비‑vLLM 모델에 대해 묻거나, 튜토리얼 요청 없이 일반 LLM 질문을 하거나, 특정 모델이 아닌 vLLM 기능/모듈에 대해 물을 때.  
+
+항상 사용자의 언어로 응답하십시오.

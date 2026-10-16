@@ -1,0 +1,1 @@
+13각 루브릭과 적대적 노이즈 필터링을 사용하여 GitHub 풀 리퀘스트 또는 로컬 Git 브랜치 차이를 검토하고, 결함, 제거된 동작 및 사양 드리프트를 확인합니다. GitHub PR(#N 또는 URL)을 검토할 때, PR을 열기 전에 로컬 기능 브랜치를 점검할 때, 혹은 /pr-review 로 호출될 때 사용하십시오. 기존 PR 리뷰 댓글이나 CI 실패를 triage할 때는 사용하지 말고(pr-triage 사용), 다중 레포 브랜치 정리 작업에는(pr-cleanup 사용), Google3 Piper 체인지리스트에는(cl-finalize 또는 review 사용).
