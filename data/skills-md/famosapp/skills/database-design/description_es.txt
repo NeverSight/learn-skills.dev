@@ -1,0 +1,5 @@
+Diseña y revisa esquemas de PostgreSQL para este código: tablas de características de clave dual (`id` + `uuid`), eliminaciones suaves o duras según el caso de uso, índices, JSONB, restricciones, rendimiento de consultas (paginación por keyset, EXPLAIN, anti‑patrones) y hypertables de TimescaleDB para datos de solo anexado / series temporales. Incluye lista de verificación crítica / recomendada / de detalle para migraciones, consultas sqlc y PRs.
+
+Se activa cuando el usuario solicite diseñar, crear, alterar o revisar tablas de PostgreSQL, migraciones, tipos de datos, claves foráneas, índices, particionamiento, agregados continuos, consultas lentas, paginación, consultas sqlc o esquemas OLTP / con alta inserción. Selecciona el modo de la conversación (schema_design, schema_review, migrate_evolve, query_tune, timescale).
+
+Palabras clave: PostgreSQL, esquema, diseño de tabla, clave dual, eliminación suave, eliminación dura, IDENTITY, UUID, FOREIGN KEY, índices, JSONB, Timestamptz, TimescaleDB, hypertable, migración, golang-migrate, sqlc, revisión de esquema, optimización de consultas, EXPLAIN, paginación por keyset, tenant_id, crítico, recomendado, detalle

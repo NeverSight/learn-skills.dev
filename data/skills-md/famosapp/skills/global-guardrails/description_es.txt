@@ -1,0 +1,7 @@
+Diseñar y aplicar guardrails para agentes de IA de extremo a extremo: límites de comportamiento (contenido / acción / tono / alcance / confianza), lista de denegación de comandos catastróficos de shell en Cursor/Claude/Codex/OpenCode/Pi/Hermes/Droid/Devin, hooks git PreToolUse de Claude Code, listas blancas de permisos, protección de secretos/PII, filtros de inyección de prompt y temas, aislamiento de sandbox/red, puertas de revisión de PR de agentes, registros de auditoría y política del equipo.
+
+Se activa al agregar o ajustar comandos bloqueados; al conectar un nuevo agente o máquina; al instalar protecciones de git push/reset; al diseñar guardrails de producto; al añadir moderación de contenido / redacción de PII / detección de inyección; al incorporar agentes a un equipo; al ejecutar agentes en sandbox; al requerir revisión humana de PR generados por IA; o cuando el usuario dice guardrail, command guard, PreToolUse, safety filter, agent policy o deny-dangerous.
+
+Palabras clave: guardrails, PreToolUse, beforeShellExecution, denylist, dangerous-patterns, git hooks, CLAUDE.md, secrets, PII, prompt injection, sandbox, CODEOWNERS, agent-policy, AI-Generated-By, hard block, soft warn
+
+Por favor, siempre responde en el idioma del usuario.

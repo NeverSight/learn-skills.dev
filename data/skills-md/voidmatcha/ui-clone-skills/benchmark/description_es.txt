@@ -1,0 +1,8 @@
+Habilidad de regresión/benchmark solo local para mantenedores de ui-clone-skills.  
+Ejecuta la canalización estándar de ingeniería inversa de UI contra el sitio de referencia canónico (https://realfood.gov) y registra AE/SSIM, recuento de iteraciones, recuento de fallos de puerta y resultado en benchmark/history.csv, de modo que la deriva de prompt/sub‑doc/version del modelo aparezca como una tendencia.  
+
+Frases disparadoras: "run benchmark" / "regression benchmark" / "benchmark clone". El Makefile ya no tiene un objetivo `benchmark` — la configuración está en línea bash en esta habilidad (Paso 1 a continuación).  
+
+Interno: NO registrado en `.claude-plugin/plugin.json` `skills`. No forma parte de la superficie pública del mercado de 3 habilidades. Solo herramientas para mantenedores.  
+
+Por favor, responde siempre en el idioma del usuario.

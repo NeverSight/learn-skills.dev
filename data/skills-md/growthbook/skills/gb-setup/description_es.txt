@@ -1,0 +1,3 @@
+Configura las credenciales de la API de GrowthBook y el origen confiable de la aplicación para que las demás habilidades puedan ejecutarse y enlazar con la UI. Utilízalo cuando el usuario diga “set up growthbook”, “configure my api key”, “growthbook isn’t working”, “where do I put my key”, o cuando otra habilidad emita un error que apunte aquí (“GB_API_KEY is not set”, “authentication failed”, “GB_APP_URL is required”). Escribe ~/.config/growthbook/.env con chmod 600 y valida contra la API en vivo. Para listar banderas o ejecutar experimentos, las habilidades de dominio se encargan de eso.
+
+Por favor, responde siempre en el idioma del usuario.
