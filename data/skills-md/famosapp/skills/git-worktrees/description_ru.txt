@@ -1,0 +1,5 @@
+Создавайте, управляйте, сравнивайте и объединяйте Git‑worktree для изолированной параллельной разработки: ветки feature/hotfix, обзор PR без stash, сравнение рядом, изоляция задач агента. Предпочтительно использовать встроенные инструменты платформы worktree; при необходимости откатывается к `git worktree`. По умолчанию каталоги используют проверенную схему именования `.worktrees/<X>-<Y>/` (type‑slug) во избежание конфликтов. Включает критический / рекомендованный / мелкий чек‑лист обзора.
+
+Срабатывает, когда пользователь просит использовать worktree, изолировать ветку, избежать stash, провести параллельный обзор PR, сравнить реализации в разных ветках, настроить `.worktrees/` или выполнить git worktree add/list/remove/prune/repair.
+
+Ключевые слова: git worktree, linked worktree, branch lock, .worktrees, X‑Y naming, isolation, parallel development, PR review, hotfix, compare, merge, cherry-pick, prune, EnterWorktree, orca worktree

@@ -1,0 +1,7 @@
+Разрабатывать и проверять схемы PostgreSQL для этой кодовой базы: таблицы с двойным ключом (`id` + `uuid`), мягкие или жёсткие удаления в зависимости от сценария, индексы, JSONB, ограничения, производительность запросов (постраничная навигация keyset, EXPLAIN, анти‑паттерны) и гипертаксы TimescaleDB для данных только для добавления/временных рядов. Включает критический / рекомендованный / детальный чек‑лист для миграций, sqlc‑запросов и PR‑ов.
+
+Срабатывать, когда пользователь просит спроектировать, создать, изменить или проверить таблицы PostgreSQL, миграции, типы данных, внешние ключи, индексы, партиционирование, непрерывные агрегаты, медленные запросы, пагинацию, sqlc‑запросы или схемы OLTP/с высокой нагрузкой на вставку. Выбирать режим из разговора (schema_design, schema_review, migrate_evolve, query_tune, timescale).
+
+Ключевые слова: PostgreSQL, schema, table design, dual-key, soft delete, hard delete, IDENTITY, UUID, FOREIGN KEY, indexes, JSONB, Timestamptz, TimescaleDB, hypertable, migration, golang-migrate, sqlc, schema review, query optimization, EXPLAIN, keyset pagination, tenant_id, critical, recommended, nit
+
+Пожалуйста, всегда отвечайте на языке пользователя.

@@ -1,0 +1,5 @@
+**WORKFLOW SKILL** — Безопасно мигрирует подходящие Aspire 13.6+ AppHost из устаревших API ProjectResource в экспериментальные API DotnetProjectResource после оценки каждого ресурса и явного одобрения точных правок.  
+ИСПОЛЬЗОВАТЬ ДЛЯ: оценки или миграции существующих ресурсов AddProject, addProject, AddCSharpApp, addCSharpApp или AddBlazorGateway в Project v2; миграции ProjectResource в DotnetProjectResource; очистки получившихся устаревших ребр AppHost ProjectReference.  
+НЕ ИСПОЛЬЗОВАТЬ ДЛЯ: обновления версий Aspire, создания/подключения нового AppHost, миграции Azure Functions, общей модернизации исходного кода, обычного подключения C#‑ресурсов или добавления нового ресурса AddProject (используйте aspireify), публикации, диагностики сборки/жизненного цикла.  
+ВЫЗЫВАЕТ: поиск в документации/API Aspire, aspire add/restore/start/wait, правки AppHost и пакетов.  
+ДЛЯ ОТДЕЛЬНЫХ ОПЕРАЦИЙ: сначала оцените; никогда не редактируйте по одному лишь запросу на миграцию.
