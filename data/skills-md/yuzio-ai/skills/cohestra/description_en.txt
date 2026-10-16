@@ -1,0 +1,1 @@
+通过 init 初始化项目协作上下文，按 need、design、code、review、fix、validate 执行指定阶段，按 verify 做阶段间偏差核对，或按 report 只读汇总项目任务状态与遗留问题。六阶段可从任意阶段起步；阶段缺 .cohestra 时先提醒并初始化，report 不初始化或写入；任务 README Front Matter 提供机器可读契约；仅讨论流程不触发执行。

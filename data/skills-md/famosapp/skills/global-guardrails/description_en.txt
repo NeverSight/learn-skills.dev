@@ -1,0 +1,17 @@
+Design and enforce AI agent guardrails end-to-end: behavioral boundaries
+(content / action / tone / scope / confidence), catastrophic shell command
+denylist across Cursor/Claude/Codex/OpenCode/Pi/Hermes/Droid/Devin,
+Claude Code git PreToolUse hooks, permission allowlists, secret/PII
+protection, prompt-injection & topic filters, sandbox/network isolation,
+agent PR review gates, audit trailers, and team policy.
+
+Trigger when adding or tuning blocked commands; wiring a new agent or
+machine; installing git push/reset guards; designing product guardrails;
+adding content moderation / PII redaction / injection detection; onboarding
+agents to a team; sandboxing agent runs; requiring human review for
+AI-generated PRs; or when the user says guardrail, command guard,
+PreToolUse, safety filter, agent policy, or deny-dangerous.
+
+Keywords: guardrails, PreToolUse, beforeShellExecution, denylist,
+dangerous-patterns, git hooks, CLAUDE.md, secrets, PII, prompt injection,
+sandbox, CODEOWNERS, agent-policy, AI-Generated-By, hard block, soft warn

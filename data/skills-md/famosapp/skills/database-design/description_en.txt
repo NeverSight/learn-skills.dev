@@ -1,0 +1,16 @@
+Design and review PostgreSQL schemas for this codebase: dual-key feature tables
+(`id` + `uuid`), soft or hard deletes by use case, indexes, JSONB, constraints,
+query performance (keyset pagination, EXPLAIN, anti-patterns), and TimescaleDB
+hypertables for append-only / time-series data. Includes critical / recommended /
+nit review checklist for migrations, sqlc queries, and PRs.
+
+Trigger when the user asks to design, create, alter, or review PostgreSQL
+tables, migrations, data types, foreign keys, indexes, partitioning,
+continuous aggregates, slow queries, pagination, sqlc queries, or OLTP /
+insert-heavy schemas. Pick mode from the conversation (schema_design,
+schema_review, migrate_evolve, query_tune, timescale).
+
+Keywords: PostgreSQL, schema, table design, dual-key, soft delete, hard delete,
+IDENTITY, UUID, FOREIGN KEY, indexes, JSONB, Timestamptz, TimescaleDB,
+hypertable, migration, golang-migrate, sqlc, schema review, query optimization,
+EXPLAIN, keyset pagination, tenant_id, critical, recommended, nit
