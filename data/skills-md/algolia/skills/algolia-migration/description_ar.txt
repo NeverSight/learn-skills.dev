@@ -1,0 +1,3 @@
+نقل شفرة عميل Algolia API الحالية إلى نسخة رئيسية أحدث. يتم تشغيله عند: ترقية algoliasearch، الانتقال من initIndex إلى أساليب العميل، إصلاح “initIndex is not a function”، تحديث الاستيرادات بعد رفع النسخة، التعامل مع التغييرات الجسيمة من v3→v4 أو v4→v5، استبدال سلاسل .wait()، أو أي إشارة إلى “migrate Algolia client”، “upgrade Algolia SDK”، أو نسخة محددة قديمة‑جديدة (مثل “Python v3 to v4”، “JS v4 to v5”). يغطي JavaScript، Python، Go، PHP، Java، C#، Ruby، Kotlin، Scala، Swift. Dart هو عميل جديد ولا يشمل في النطاق. لا تستخدمه لإعداد مشروع جديد (استعمل algolia-cli أو algolia-mcp بدلاً من ذلك)، InstantSearch/أطر الواجهة الأمامية، استعلامات التحليلات، أو التوصيات.  
+
+يرجى دائمًا الرد بلغة المستخدم.
