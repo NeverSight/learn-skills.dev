@@ -1,0 +1,1 @@
+针对 `copperconfig.ron` 的深度模式参考。用于读取、写入或调试 copper-rs 配置文件时：每个顶层键、每个任务/连接/桥接字段、已类型化的 `ComponentConfig` 访问规则（`get` 与 `get_value`），以及解析器发出的精确验证错误。所有声明均引用 `core/cu29_runtime/src/config.rs`。有关运行时架构和任务图的思维模型，请参见 `copper-arch`；有关 `fmtron` 格式化和 `just fmt` 循环，请参见 `copper-workflow`；有关“新配置字段应如何感觉”的品味规则（通过 `Deserialize` 的枚举，避免字符串式解析），请参见 `copper-api-flavor`。请始终使用用户的语言作答。

@@ -1,0 +1,1 @@
+为 copper-rs（`cu29`）仓库构建、测试和调试工作流。用于运行 CI 对齐的 `just` 目标（pr-check/lint/test/std-ci/nostd-ci/api-check）、添加或审查 justfile 配方、发布稳定版本、设置环境以使其通过、渲染 DAG、展开运行时宏，或通过统一的 `.copper` 日志调试运行中/已记录的应用：提取 copperlists、resim（确定性重放）、远程调试 API 或 Python 导出。架构请参见 `copper-arch`；代码风格请参见 `copper-coding-style`。

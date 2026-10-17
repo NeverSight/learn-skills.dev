@@ -1,0 +1,3 @@
+迁移 Python LangChain Deep Agents 应用到 Pydantic AI 和 Pydantic AI Harness。当源代码使用上游 `deepagents` 包或明确复现其中间件、后端、技能、记忆、子代理或沙箱合约时使用此方式。对于普通的 LangChain、LangGraph 或 LCEL 迁移，请使用 `migrating-langchain-to-pydantic-ai`；对于全新 Harness 使用，请使用 `pydantic-ai-harness`。
+
+请始终使用用户的语言作答。

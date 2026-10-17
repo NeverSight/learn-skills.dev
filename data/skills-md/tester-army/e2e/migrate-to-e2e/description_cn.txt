@@ -1,0 +1,1 @@
+一次将现有的 Playwright、Cypress、Selenium、Detox 或 Maestro 测试套件迁移到 e2e，每次迁移一小块，旧套件与新套件并行运行，直至每个迁移的测试得到验证。维护一个 MIGRATION.md 进度文件，后续会话可从上次停止的地方继续。可选地植入一个缺陷，以展示两个套件都能捕获它。用于 /migrate-to-e2e、“将我们的测试迁移到 e2e”、 “迁移这些 Maestro 流程”，或当项目既有 e2e 配置又有旧套件仍在运行时。

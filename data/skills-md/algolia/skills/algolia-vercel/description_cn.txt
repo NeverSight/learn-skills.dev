@@ -1,0 +1,3 @@
+Vercel Marketplace 集成的 Algolia 部分：它注入了哪些 Algolia 变量，Algolia CLI 和浏览器分别需要这些变量什么名称，以及如何实现一次验证通过的首次搜索。适用于用户在 Vercel 上并希望通过 Marketplace 添加 Algolia——比如“在 Vercel 上设置 Algolia”“vercel integration add algolia”——或当 Marketplace 注入的 ALGOLIA_APP_ID / ALGOLIA_SEARCH_API_KEY / ALGOLIA_WRITE_API_KEY 需要接入到应用并通过查询验证时。Vercel 自身的机制——团队、计划、条款、计费、环境指令——属于 Vercel 文档，这里不讨论。不要仅因为项目是 Next.js 就使用——仅有 Next.js 并不等同于 Vercel。不要在用户拥有想保留的独立 Algolia 应用时使用。不要用于已有应用的记录、设置、同义词、规则或密钥（algolia-cli），也不要用于搜索 UI（instantsearch），只读搜索和分析（algolia-mcp），或用于 Vercel 之外创建的账户（algolia-quickstart）。
+
+请始终使用用户的语言回复。

@@ -1,0 +1,3 @@
+调试 copper-rs（`cu29_derive`）中的 `#[copper_runtime]` 过程宏：阅读其编译错误，决定何时运行 `cargo expand` / `just expand-runtime`，了解宏在用户的 `App` 结构体周围生成的代码，并识别常见的陷阱（缺少 `Reflect`/`Freezable`、RON 解析为宏错误、`sim_mode` 分歧、特性门控的生命周期钩子）。每当编译器错误提及 `#[copper_runtime]`、指向 `App` 结构体行，或出现仅在展开代码中存在的符号时使用。执行模型请参阅 `copper-arch`；修改宏实现请参阅 `copper-core-dev`；`just` 命令请参阅 `copper-workflow`。
+
+请始终使用用户的语言回复。

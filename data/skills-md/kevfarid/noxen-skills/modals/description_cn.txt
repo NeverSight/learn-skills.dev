@@ -1,0 +1,1 @@
+在添加或审查模态框/对话框时使用——从多个位置打开、焦点捕获、可访问性或选择模态实现方式。触发条件包括“将此作为模态打开”“此模态需要从两个位置触发”“添加确认对话框”或“我应该使用哪个模态库”。与具体库无关——会加载 `references/<library>.md` 以获取项目使用的具体实现（nice-modal-react、Radix Dialog、原生 `<dialog>` 元素）。在 Next.js 中，还可参见 `nextjs/screen-config`，用于既可作为完整路由访问的模态。不要在仅包含 `useState('isOpen')` 且只有单一触发器的组件上触发——那只是普通的 React，请参见 `react-patterns`。
