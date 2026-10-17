@@ -1,0 +1,1 @@
+copper-rs(`cu29`) 저장소의 빌드, 테스트, 디버깅 워크플로우. CI에 맞춘 `just` 타깃(pr-check/lint/test/std-ci/nostd-ci/api-check)을 실행할 때, justfile 레시피를 추가하거나 검토할 때, 안정적인 릴리스를 배포할 때, 해당 작업을 통과하도록 환경을 설정할 때, DAG를 렌더링할 때, 런타임 매크로를 확장할 때, 혹은 통합 `.copper` 로그를 통해 실행 중이거나 기록된 앱을 디버깅할 때 사용합니다: copperlist 추출, 재시뮬레이션(결정론적 재생), 원격 디버그 API, 또는 Python 내보내기. 아키텍처는 `copper-arch`를, 코드 스타일은 `copper-coding-style`를 참고하세요.

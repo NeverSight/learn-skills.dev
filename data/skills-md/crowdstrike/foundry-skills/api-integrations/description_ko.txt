@@ -1,0 +1,1 @@
+OpenAPI 사양을 통해 외부 API를 팔콘 파운드리 (Falcon Foundry) 에 노출시킵니다. 사용자가 "API 통합 생성", "Foundry용 OpenAPI 사양 조정", "워크플로에 API 노출", "타사 API에 연결" 을 요청하거나 `파운드리 API 통합 생성` 을 실행할 때 트리거됩니다. 또한 사용자가 OpenAPI/Swagger 사양을 가지고 있으며 Falcon Foundry에서 작동하기를 원하는 경우 트리거됩니다. 사용자가 함수 코드에서 Falcon 플랫폼 API를 호출하고자 할 때 트리거하지 마십시오. 대신 functions-falcon-api를 사용하십시오.

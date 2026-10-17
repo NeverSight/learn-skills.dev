@@ -1,0 +1,1 @@
+Foundry 함수 핸들러 내에서 CrowdStrike Falcon 플랫폼 API (탐지, 경고, 호스트, RTR) 를 호출합니다. 사용자가 "함수에서 Falcon API 호출", "함수에서 FalconPy 사용", "함수에서 gofalcon 사용" 을 요청하거나 서버리스 함수 코드 내에 Falcon 플랫폼 API를 통합해야 할 때 트리거됩니다. 사용자가 외부 타사 API를 Foundry에 노출하고자 할 때 트리거하지 마십시오. 대신 api-integrations를 사용하십시오.

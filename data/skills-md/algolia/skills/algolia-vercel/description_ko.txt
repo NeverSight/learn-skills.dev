@@ -1,0 +1,3 @@
+Vercel Marketplace 통합의 Algolia 측면: Algolia가 주입하는 변수들, Algolia CLI와 브라우저가 각각 필요로 하는 변수 이름, 그리고 검증된 첫 번째 검색에 도달하는 방법. 사용자는 Vercel에 있으며 Marketplace에서 Algolia를 추가하고 싶을 때 — “set up Algolia on Vercel”, “vercel integration add algolia” — 혹은 Marketplace에서 주입된 ALGOLIA_APP_ID / ALGOLIA_SEARCH_API_KEY / ALGOLIA_WRITE_API_KEY 를 앱에 연결하고 쿼리로 입증해야 할 때 사용합니다. Vercel 자체 메커니즘 — 팀, 플랜, 약관, 청구, 환경 명령 — 은 Vercel 문서에 포함되며 여기서는 다루지 않습니다. 프로젝트가 Next.js라서만 사용하지 마세요 — Next.js만 있다고 Vercel인 것은 아닙니다. 사용자가 유지하려는 독립형 Algolia 애플리케이션을 가지고 있을 때는 사용하지 마세요. 기존 애플리케이션(algolia‑cli)의 레코드, 설정, 동의어, 규칙 또는 키, 검색 UI(instantsearch), 읽기 전용 검색 및 분석(algolia‑mcp), 또는 Vercel 외부에서 만든 계정(algolia‑quickstart) 등에 대해서도 사용하지 마세요.
+
+항상 사용자의 언어로 응답하십시오.
