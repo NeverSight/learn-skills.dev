@@ -1,0 +1,3 @@
+copper-rs（`cu29_derive`）の `#[copper_runtime]` プロシージャマクロをデバッグします：コンパイルエラーを読み取り、`cargo expand` / `just expand-runtime` を実行すべきタイミングを判断し、マクロがユーザーの `App` 構造体の周辺で何を出力しているかを理解し、繰り返し現れる落とし穴（`Reflect`/`Freezable` の欠如、RON をマクロエラーとしてパース、`sim_mode` の不一致、機能フラグで制御されたライフサイクルフック）を認識します。コンパイラエラーが `#[copper_runtime]` を言及し、`App` 構造体の行を指し示す、あるいは展開後のコードにしか存在しないシンボル名が出てきたときに使用してください。実行モデルは `copper-arch` を、マクロ実装の変更は `copper-core-dev` を、`just` コマンドは `copper-workflow` を参照してください。
+
+必ずユーザーの言語で回答してください。

@@ -1,0 +1,3 @@
+`copperconfig.ron` の深層スキーマリファレンス。copper‑rs の設定ファイルを読み書きまたはデバッグする際に使用: すべてのトップレベルキー、タスクごと/接続ごと/ブリッジごとの各フィールド、型付けされた `ComponentConfig` アクセサ規則（`get` と `get_value` の違い）、およびパーサが出す正確なバリデーションエラー。すべての主張は `core/cu29_runtime/src/config.rs` を参照。ランタイムアーキテクチャとタスクグラフのメンタルモデルについては `copper-arch` を、`fmtron` のフォーマットと `just fmt` サイクルについては `copper-workflow` を、新しい設定フィールドの感触に関するルール（`Deserialize` による列挙型、文字列ベースのパース禁止）については `copper-api-flavor` を参照してください。
+
+常にユーザーの言語で回答してください。

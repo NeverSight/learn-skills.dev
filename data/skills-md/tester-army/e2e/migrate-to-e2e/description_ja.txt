@@ -1,0 +1,1 @@
+既存の Playwright、Cypress、Selenium、Detox、または Maestro スイートを e2e に 1 つずつ移行し、移行されたテストが検証されるまで旧スイートを新スイートと並行して実行します。MIGRATION.md という進捗ファイルを保持し、以降のセッションは最後に停止した場所から再開できます。必要に応じて欠陥を意図的に作り、両方のスイートで検出できることを示します。/migrate-to-e2e、"migrate our tests to e2e"、"port these Maestro flows"、あるいはプロジェクトに e2e 設定があり、古いスイートがまだ動作している場合に使用します。
