@@ -1,0 +1,3 @@
+Usa quando l'utente chiede una panoramica su come è costruito il codice attuale, vuole essere introdotto a un repository o chiede qualcosa del tipo “spiega come funziona questa app”, “riassumi l’architettura”, “guidami attraverso questo codice” o “quali convenzioni usa questa app”. Questo è l’orchestratore Noxen — esegue la logica di rilevamento di tutte le altre skill Noxen sul repository corrente e restituisce un riepilogo consolidato nella conversazione. Non scrive mai file. Per approfondire un singolo argomento una volta completata la panoramica, delega alla skill specifica dell’argomento invece di rieseguire questa.
+
+Rispondi sempre nella lingua dell'utente.
