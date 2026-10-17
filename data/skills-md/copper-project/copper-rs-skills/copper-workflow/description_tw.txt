@@ -1,0 +1,1 @@
+用於 copper-rs (`cu29`) 倉庫的建置、測試與除錯工作流程。於執行 CI 對齊的 `just` 目標（pr-check、lint、test、std-ci、nostd-ci、api-check）時使用，或是新增或審查 justfile 配方、發布穩定版本、設定環境使其通過、繪製 DAG、展開執行時巨集，或透過統一的 `.copper` 日誌除錯執行中／已錄製的應用程式：擷取 copperlists、resim（確定性重放）、遠端除錯 API，或 Python 匯出。架構請參考 `copper-arch`；程式碼風格請參考 `copper-coding-style`。

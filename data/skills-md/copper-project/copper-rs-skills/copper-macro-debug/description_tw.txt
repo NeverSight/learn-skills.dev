@@ -1,0 +1,3 @@
+除錯 copper-rs（`cu29_derive`）中的 `#[copper_runtime]` 程序宏：閱讀其編譯錯誤，決定何時執行 `cargo expand` / `just expand-runtime`，了解宏在使用者的 `App` 結構周圍產生的程式碼，並辨識常見的陷阱（缺少 `Reflect`/`Freezable`、RON 解析成宏錯誤、`sim_mode` 不一致、功能門控的生命週期掛鉤）。每當編譯器錯誤提到 `#[copper_runtime]`、指向 `App` 結構那一行，或是提到僅在展開後的程式碼中存在的符號時，都使用此方法。執行模型請參考 `copper-arch`；修改宏實作請參考 `copper-core-dev`；`just` 指令請參考 `copper-workflow`。
+
+請始終以使用者的語言回覆。

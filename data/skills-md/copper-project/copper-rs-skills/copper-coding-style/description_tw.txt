@@ -1,0 +1,3 @@
+copper-rs（`cu29`）Rust 工作區的程式碼風格與慣例。撰寫、編輯或審核本倉庫中的 Rust 程式碼、使用者文件或主控台/ UI 輸出時請遵循，以符合內部風格：命名、匯入分組、`CuResult`/`CuError` 錯誤處理、std/no_std 規範、內建的 `debug!/info!/warning!/error!` 日誌巨集、文件註解/文件測試、clippy 陷阱、payload trait 限制，以及測試布局。執行時架構請參見 `copper-arch`；核心實作約束請參見 `copper-core-dev`；建置/測試/除錯指令請參見 `copper-workflow`。
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,3 @@
+將現有的 Algolia API 客戶端程式碼遷移到更新的主要版本。觸發條件包括：升級 algoliasearch、從 initIndex 改用 client 方法、修正「initIndex is not a function」、在版本升級後更新匯入、處理 v3→v4 或 v4→v5 的重大變更、取代 .wait() 鏈接，或任何提及「migrate Algolia client」、「upgrade Algolia SDK」或特定的舊版到新版（例如「Python v3 to v4」、 「JS v4 to v5」）的情況。涵蓋 JavaScript、Python、Go、PHP、Java、C#、Ruby、Kotlin、Scala、Swift。Dart 為新客戶端，已排除在範圍之外。請勿用於新專案設定（請使用 algolia-cli 或 algolia-mcp），InstantSearch / 前端框架、分析查詢或推薦亦不在適用範圍。
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,4 @@
+`copperconfig.ron` 的深度結構參考。  
+在閱讀、編寫或除錯 copper-rs 設定檔時使用：每一個頂層鍵、每個 task / cnx / bridge 的欄位、具型別的 `ComponentConfig` 存取規則（`get` 與 `get_value`），以及解析器產生的精確驗證錯誤。所有說明皆引用自 `core/cu29_runtime/src/config.rs`。  
+關於執行時架構與 task‑graph 心智模型，請參見 `copper-arch`；關於 `fmtron` 格式化與 `just fmt` 循環，請參見 `copper-workflow`；關於「新設定欄位應該如何感受」的品味規則（使用 `Deserialize` 的列舉、避免字串式解析），請參見 `copper-api-flavor`。  
+請始終以使用者的語言回覆。

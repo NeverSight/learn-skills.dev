@@ -1,0 +1,2 @@
+實作新 copper-rs 元件的配方手冊 — `CuSrcTask`、`CuTask`、`CuSinkTask` 或 `CuBridge`。在 `components/`（或應用程式本地任務）下建立新 crate 時使用：骨架長什麼樣子、需要覆寫哪些生命週期掛鉤、如何讀取節點的 RON `config:` 區塊、如何宣告資源生命週期、何時 `Freezable` 需要實作真實的實例而非使用預設。所有範例皆以 `components/` 中的實際 crate 為依據。此手冊補充 `copper-arch`（特徵與宏概覽）、`copper-api-flavor`（面向使用者特徵的風格規則）以及 `copper-coding-style`（衍生、錯誤處理、no_std）。欲了解配線的 RON 部分請參考 `copper-ron-config`；建置/驗證指令請參考 `copper-workflow`。  
+請始終以使用者的語言回覆。

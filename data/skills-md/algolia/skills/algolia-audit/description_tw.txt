@@ -1,0 +1,3 @@
+此為針對已存在的 Algolia 實作進行稽核、檢視或健康檢查的入口點。當需求類似以下情況時使用：「稽核我們的搜尋」、「檢視我們的設定」、「這樣配置正確嗎？」、「健康檢查」、「我們繼承了這個實作」、「搜尋有點異常」、「搜尋品質變差了」、「在上線前檢查我們的 Algolia」或任何對已存在且大致可運作的實作之故障排除。本技能會導向深層技能（algolia-index-configuration、algolia-data-modeling、algolia-events-insights、algolia-release-qa），並執行檢查以捕捉無症狀缺陷——那種永不拋錯、也不會在 demo 中失敗的問題。請勿將其用於全新建置；應先使用 algolia-discovery-planning。請勿將其用於即時帳號操作；即時呼叫請使用 algolia-cli 或 algolia-mcp，並讓本技能負責指引與解讀。
+
+請始終以使用者的語言回覆。

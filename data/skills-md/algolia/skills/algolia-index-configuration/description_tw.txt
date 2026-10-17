@@ -1,0 +1,3 @@
+Algolia 索引設定與相關性配置指南。使用於配置 searchableAttributes、attributesForFaceting、customRanking、ranking、replicas、virtual replicas、rules、synonyms、typo tolerance、distinct、filters、optional filters、merchandising、browse/category relevance，或可做 A/B 測試的相關性變更時。亦可在審核、檢視、健康檢查或排除已存在索引設定的問題時使用——「這個設定正確嗎」、繼承的實作、相關性衰退，或在上線前的設定檢討——不僅限於配置新項目時。請勿用於即時設定寫入、備份、複製或營運帳號任務；請改用 algolia‑cli 或 algolia‑mcp。請勿用於記錄結構或變體策略；請改用 algolia‑data‑modeling。
+
+請始終以使用者的語言回覆。

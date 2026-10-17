@@ -1,0 +1,3 @@
+使用於新增或審查 modal/對話框時——從多個位置開啟、焦點捕獲、無障礙或選擇 modal 方式。觸發於以下任務：「以 modal 開啟此項」、「此 modal 需要從兩個地方觸發」、「新增確認對話框」或「我該使用哪個 modal 函式庫」。與函式庫無關——載入 `references/<library>.md` 以取得專案使用的具體實作（nice-modal-react、Radix Dialog、原生 `<dialog>` 元素）。於 Next.js，亦請參考 `nextjs/screen-config`，用於同時可作為完整路由的 modal。請勿在僅包含單一觸發的 `useState('isOpen')` 切換的元件上觸發——那只是普通的 React，請參見 `react-patterns`。
+
+請始終以使用者語言回覆。

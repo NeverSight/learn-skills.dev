@@ -1,0 +1,14 @@
+在 Next.js App Router 應用中建立一個以策略驅動的時段產生器，支援可用性：每日範圍、每月第 N 個星期幾規則、一次性時段與整天時段，使用本地牆鐘時間撰寫並以 UTC 時間點儲存，包含座位、預訂、黑名單時段、主持人忙碌時間、共享資源與工作時段的排除，提供列出路由與在寫入交易中重新檢查容量的預訂路由。
+
+使用情境：  
+1. 應用需要根據規則產生約會、課程、租借或預訂時段，而不是逐筆儲存；  
+2. 時段程式在夏令時間切換時產生錯誤的日期、遠離 UTC 時的錯誤星期、週視圖卻只顯示一天，或時間隨伺服器時區變動；  
+3. 必須驗證策略、鎖定到特定時區，或將牆鐘時間作為 UTC 儲存的方式移除；  
+4. 兩位使用者同時預訂最後一個座位；  
+5. 使用者提到的關鍵字包括：時段、時段產生器、可用性、預訂時段、營業時間、時段策略、RANGE、PERIODICITY、DAY_RANGE、ONCE、slotInterval、slotDuration、slotsLimit、daysLimit、每月第一個星期一、最後一個星期五、跨夜時段、提前時間、預訂窗口、timeOffset、IANA 時區、DST、fromZonedTime、storageVersion、slot ID、md5、超額預訂、容量檢查、book_slots、slot‑no‑longer‑available、slot‑has‑not‑enough‑capacity。
+
+採用不依賴任何套件的 Intl 核心引擎，具備在四種執行時區下執行的 23 項測試套件，時段 ID 對既有預訂保持穩定，使用同一可用性映射供列出與預訂使用，且在兩個後端的預訂交易內部重新檢查容量。
+
+在 Node.js 執行環境的 Next.js App Router 路由處理器；SlotStore 後端使用 Firestore 或 Supabase/Postgres。
+
+不是行事曆 UI，也不是 RRULE 或 iCalendar 重覆規則，不涉及支付或預訂流程畫面。
