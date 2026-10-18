@@ -1,0 +1,1 @@
+在不需要使用者逐輪傳遞的情況下執行審閱者的文件審核迴圈——將當前 <DOC>.revN.md 審閱為 <DOC>.revN.notes.md，提交已結束的回合，等待作者的 rev(N+1)，並重複此過程，直至文件準備好最終版、達到回合上限，或僅剩使用者能推進。於 rev1 已存在時使用，當使用者在未編寫文件的全新會話中呼叫 /review-doc-loop <feature> [max-rounds]。其對應功能在作者的會話中稱為 answer-notes-loop。

@@ -1,0 +1,1 @@
+Neon Realtime 讓任何 SQL 查詢即時生效。使用 Lakebase Postgres，透過即時 SQL 查詢與反應式原語，構建即時、反应式的應用與代理程式。當應用 UI 或代理狀態必須即時根據資料庫列更新（儀表板、資訊流、協作、多使用者或多裝置同步）、需要樂觀更新，或想取代輪詢與其他即時同步系統時使用。觸發方式包括「live query」、「subscribe」、「sync engine」、「useLiveQuery」、「TanStack DB」、「optimistic updates」及「@neon/realtime」。對於非來源於資料庫列的推送（在場狀態、打字中、LLM 串流），請使用 neon-functions。
