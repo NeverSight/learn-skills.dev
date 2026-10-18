@@ -1,0 +1,17 @@
+Prepares a Claude Code session for compaction. Reads the session and prints
+ready-to-paste blocks: a /compact line with focus instructions tailored to this
+session, and a resume prompt for right after the compact or for a fresh session.
+Writes nothing to disk by default; `handoff` also saves the resume prompt to one
+file outside the project.
+Works in any language: everything the user sees comes back in the language of
+their messages.
+Use when the context is filling up or right before running /compact. Triggers:
+"prep me for compact", "prepare for compact", "before I compact",
+"ready to compact", "context is almost full", "the chat is getting long",
+"prompt to continue after compacting", "/smart-precompact",
+"תכין אותי לקומפאקט", "תכין לקומפאקט", "צריך לעשות קומפאקט", "לפני קומפאקט",
+"אחרי הקומפאקט", "הקונטקסט מתמלא", "השיחה ארוכה מדי".
+Also runs when the context hook (smart-precompact) adds a note that the context
+passed a threshold: answer the user first, then run with `handoff`.
+NOT for saving notes or memories when no compaction is in play, and NOT for
+shortening or compressing text, titles or files.

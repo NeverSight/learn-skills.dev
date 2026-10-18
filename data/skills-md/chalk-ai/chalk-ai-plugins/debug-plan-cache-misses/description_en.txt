@@ -1,0 +1,1 @@
+Find and debug Chalk query plan cache misses from engine logs. Use when a query is replanning on every request, an "ad-hoc query request missed the plan cache" warning shows up, latency spikes from repeated planning, or someone asks why two seemingly identical queries don't share a cached plan. Drives the `chalk logs` CLI search.
