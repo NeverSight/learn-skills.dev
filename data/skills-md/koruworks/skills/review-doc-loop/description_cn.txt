@@ -1,0 +1,1 @@
+运行审稿人在文档审查循环中的半程，而无需用户逐轮转达——审查当前的 <DOC>.revN.md 并生成 <DOC>.revN.notes.md，提交已完成的轮次，等待作者的 rev(N+1)，然后重复此过程，直至文档准备好进行最终审查、达到轮次上限，或只能由用户推进。仅在 rev1 已存在且用户在未编辑文档的全新会话中调用 `/review-doc-loop <feature> [max-rounds]` 时使用。其对应操作为作者会话中的 `answer-notes-loop`。

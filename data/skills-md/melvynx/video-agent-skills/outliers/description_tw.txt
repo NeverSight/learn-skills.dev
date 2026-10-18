@@ -1,3 +1,1 @@
-透過 Treg 找出 Instagram 帳號的異常 Reels（觀看次數達該帳號中位數的 3 倍或以上），並將表現最佳的 5 個製作成以創作者語調的翻拍腳本。兩種模式——`/outliers @handle` 針對單一帳號；`/outliers` 未提供帳號時，從創作者自己的 Reels 開始，使用並擴充競爭者觀察清單（video‑agent/competitors.json，觀看兩種語言時 70% 主語言 / 30% 次語言），將每個帳號的異常影片與其自身中位數比較排序，並將 5 個腳本寫入 video‑agent/scripts/。使用情境：使用者說 outliers、find outliers、what blew up for my competitors、what works in my niche、find me videos to remake、ideas from @someone 時即觸發。
-
-請始終以使用者的語言回應。
+透過 Treg 找出 Instagram 帳號的異常 Reel（觀看次數達該帳號中位數的 3 倍或以上），並將表現最佳的 5 支 Reel 轉換成創作者語調的改編腳本。兩種模式——/outliers @handle 針對單一帳號搜尋；/outliers 未指定帳號時，則從創作者自己的 Reel 開始，使用並擴充競爭者觀察清單（video-agent/competitors.json，觀看兩種語言時以 70% 主要語言 / 30% 次要語言為比例），將每個帳號的異常 Reel 依其自身中位數排序，並將 5 份腳本寫入 video-agent/scripts/。當使用者說 outliers、find outliers、what blew up for my competitors、what works in my niche、find me videos to remake、ideas from @someone 時使用此功能。

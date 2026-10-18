@@ -1,0 +1,25 @@
+为压缩准备 Claude Code 会话。读取会话并打印可粘贴的块：一行 `/compact` 带有针对本会话的聚焦指令，以及在压缩后或新会话中使用的继续提示。默认不写入磁盘；`handoff` 还会将继续提示保存到项目外的一个文件。
+
+适用于任何语言：用户看到的所有内容都会以其消息语言返回。
+
+在上下文快满或运行 `/compact` 前使用。触发词包括：
+
+- “prep me for compact”
+- “prepare for compact”
+- “before I compact”
+- “ready to compact”
+- “context is almost full”
+- “the chat is getting long”
+- “prompt to continue after compacting”
+- “/smart-precompact”
+- “תכין אותי לקומפאקט”
+- “תכין לקומפאקט”
+- “צריך לעשות קומפאקט”
+- “לפני קומפאקט”
+- “אחרי הקומפאקט”
+- “הקונטקסט מתמלא”
+- “השיחה ארוכה מדי”
+
+当上下文钩子（smart-precompact）添加说明上下文已超过阈值时也会运行：先回答用户，然后使用 `handoff` 运行。
+
+**不**用于在没有压缩的情况下保存笔记或记忆，也**不**用于缩短或压缩文本、标题或文件。

@@ -1,0 +1,1 @@
+关闭已完成的 <DOC>.final.md — 将已落地的内容合并到已有文档，将仍未完成的内容转移到 <DOC>-V2.rev1.md，并删除树中不再需要的规划产物。 当用户调用 /close-plan <feature>，或在 execute-plan 或 build-feature 完成后请求清理或退休小功能的文档时使用。 在标记任何内容为已落地之前，逐项检查 ACCEPTANCE.md，然后对每个阶段进行分类：已落地、待定、延期或放弃。 它是 close-roadmap 的小兄弟——适用于任何前缀（PLAN、TECHNICAL …）；计划通常不会拥有自己的永久文档文件夹，因此默认做法是向已有页面添加段落，而不是创建新页面。

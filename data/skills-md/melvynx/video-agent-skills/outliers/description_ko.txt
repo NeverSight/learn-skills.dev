@@ -1,7 +1,1 @@
-Instagram 계정들의 이상치 릴을 찾습니다(자신 계정의 평균 조회수보다 3배 이상) – Treg를 통해 검색하고, 가장 좋은 5개를 크리에이터의 목소리로 리메이크 스크립트로 변환합니다. 두 가지 모드가 있습니다.  
-- `/outliers @handle` 은 지정된 하나의 계정을 조사합니다.  
-- `/outliers` 를 계정 없이 사용할 경우, 크리에이터 자신의 릴에서 시작하고, 경쟁자 감시 리스트(video-agent/competitors.json)를 사용·확장합니다(두 언어를 볼 때 메인 언어 70 %·보조 언어 30 %). 각 계정의 이상치를 자체 평균과 비교해 순위를 매긴 뒤, 5개의 스크립트를 video-agent/scripts/에 저장합니다.  
-
-사용자가 “outliers”, “find outliers”, “what blew up for my competitors”, “what works in my niche”, “find me videos to remake”, “ideas from @someone” 등이라고 요청하면 수행합니다.  
-
-항상 사용자의 언어로 답변하십시오.
+Treg를 통해 Instagram 계정의 이상치 릴(자신 계정 중간 조회수의 3배 이상)을 찾아내고, 상위 5개를 크리에이터의 목소리로 재제작 스크립트로 변환합니다. 두 가지 모드가 있습니다 – /outliers @handle 은 하나의 계정을 탐색하고; /outliers 를 계정 없이 사용하면 크리에이터 자신의 릴에서 시작하여 경쟁자 감시 목록을 사용하고 확장합니다(video-agent/competitors.json, 두 개를 볼 때 메인 언어 70% / 보조 언어 30%). 각 계정의 이상치를 자체 중간값과 비교해 순위를 매기고, 5개의 스크립트를 video-agent/scripts/에 저장합니다. 사용자는 “outliers”, “find outliers”, “what blew up for my competitors”, “what works in my niche”, “find me videos to remake”, “ideas from @someone” 등이라고 말할 때 이 기능을 사용합니다.

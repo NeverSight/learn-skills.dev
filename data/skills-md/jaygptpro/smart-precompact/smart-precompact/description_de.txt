@@ -1,8 +1,24 @@
-Bereitet eine Claude‑Code‑Sitzung für die Kompaktion vor. Liest die Sitzung und gibt fertig‑einzufügende Blöcke aus: eine /compact‑Zeile mit fokussierten Anweisungen, die auf diese Sitzung zugeschnitten sind, sowie einen Wiederaufnahme‑Prompt für direkt nach der Kompaktion oder für eine neue Sitzung. Schreibt standardmäßig nichts auf die Festplatte; `handoff` speichert den Wiederaufnahme‑Prompt zudem in einer Datei außerhalb des Projekts. Funktioniert in jeder Sprache: Alles, was der Nutzer sieht, wird in der Sprache seiner Nachrichten zurückgegeben. Verwenden, wenn der Kontext voll wird oder kurz vor dem Ausführen von /compact.
+Bereitet eine Claude‑Code‑Sitzung für die Komprimierung vor. Liest die Sitzung und gibt fertig einzufügende Blöcke aus: eine /compact‑Zeile mit auf diese Sitzung zugeschnittenen Fokus‑Anweisungen sowie einen Wiederaufnahme‑Prompt für unmittelbar nach dem Kompaktieren oder für eine neue Sitzung. Schreibt standardmäßig nichts auf die Festplatte; `handoff` speichert den Wiederaufnahme‑Prompt zusätzlich in einer Datei außerhalb des Projekts. Funktioniert in jeder Sprache: Alles, was der Nutzer sieht, wird in der Sprache seiner Nachrichten zurückgegeben. Verwenden, wenn der Kontext sich füllt oder kurz bevor /compact ausgeführt wird.  
 
 Auslöser:  
-„bereite mich auf die Kompaktion vor“, „vorbereiten auf Kompaktion“, „bevor ich kompaktieren“, „bereit zur Kompaktion“, „der Kontext ist fast voll“, „der Chat wird lang“, „Prompt zum Fortsetzen nach der Kompaktion“, „/smart-precompact“, „תכין אותי לקומפאקט“, „תכין לקומפאקט“, „צריך לעשות קומפאקט“, „לפני קומפאקט“, „אחרי הקומפאקט“, „הקונטקסט מתמלא“, „השיחה ארוכה מדי“.
+- “prep me for compact”  
+- “prepare for compact”  
+- “before I compact”  
+- “ready to compact”  
+- “context is almost full”  
+- “the chat is getting long”  
+- “prompt to continue after compacting”  
+- “/smart-precompact”  
+- “תכין אותי לקומפאקט”  
+- “תכין לקומפאקט”  
+- “צריך לעשות קומפאקט”  
+- “לפני קומפאקט”  
+- “אחרי הקומפאקט”  
+- “הקונטקסט מתמלא”  
+- “השיחה ארוכה מדי”  
 
-Läuft außerdem, wenn der Kontext‑Hook (smart‑precompact) eine Notiz hinzufügt, dass der Kontext einen Schwellenwert überschritten hat: zuerst dem Nutzer antworten, dann mit `handoff` ausführen.
+Läuft außerdem, wenn der Kontext‑Hook (smart-precompact) eine Notiz hinzufügt, dass der Kontext einen Schwellenwert überschritten hat: zuerst dem Nutzer antworten, dann mit `handoff` ausführen.  
 
-NICHT zum Speichern von Notizen oder Erinnerungen, wenn keine Kompaktion stattfindet, und NICHT zum Kürzen oder Komprimieren von Text, Titeln oder Dateien.
+NICHT zum Speichern von Notizen oder Erinnerungen, wenn keine Komprimierung stattfindet, und NICHT zum Kürzen oder Komprimieren von Text, Titeln oder Dateien.  
+
+Bitte immer in der Sprache des Nutzers antworten.
