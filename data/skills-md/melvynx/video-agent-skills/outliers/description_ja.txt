@@ -1,0 +1,3 @@
+インスタグラムアカウントの異常リール（自分のアカウントの中央値ビューの3倍以上）をTregで見つけ、ベスト5をクリエイターの声でリメイクスクリプトに変換します。2つのモードがあります― /outliers @handle は1つのアカウントを掘り下げます；/outliers でアカウントを指定しない場合は、クリエイター自身のリールから開始し、競合観察リスト（video-agent/competitors.json、メイン言語70％／第二言語30％）を使用・拡大し、各アカウントの異常リールを自分の中央値と比較してランク付けし、5つのスクリプトを video-agent/scripts/ に書き込みます。ユーザーが「outliers」や「find outliers」や「what blew up for my competitors」や「what works in my niche」や「find me videos to remake」や「ideas from @someone」と言ったときに使用します。
+
+常にユーザーの言語で応答してください。
