@@ -1,0 +1,3 @@
+Exécutez la moitié du processus de révision du document du relecteur sans que l'utilisateur relaie chaque tour — réviser le <DOC>.revN.md actuel en <DOC>.revN.notes.md, valider le tour clôturé, attendre la rev(N+1) de l’auteur, puis répéter jusqu’à ce que le document soit prêt pour la version finale, qu’une limite de tours soit atteinte, ou que seul l’utilisateur puisse le faire avancer. Utilisez‑le après l’existence de rev1, lorsque l’utilisateur invoque /review-doc-loop <feature> [max‑rounds] dans une session nouvelle qui n’a pas créé le document. Son homologue est answer‑notes‑loop dans la session de l’auteur.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
