@@ -1,0 +1,3 @@
+使用 DeepSeek 官方的 Search/Fetch API 来补充搜索研究、交叉核实事实、定位最新数据和来源、获取网页的 Markdown 内容，模型调用 Skill 以理解任何主题、进行查询、填补信息空白、评估相关性并核对冲突；脚本负责检索、抓取和去重。当用户说 “use DeepSeek search”“DS search”“supplementary search”“find a few more sources”“DeepSeek fetch this webpage” 或在配置 qiaomu-ds-search API Key 时使用。进行带来源的搜索研究并获取公开页面。若缺少 API Key，需引导用户前往官方页面创建密钥，完成安全配置，并进行真实测试。排除纯离线改写/翻译、本地文件搜索、聊天模型调用、未指定 DeepSeek 的通用配置、登录墙绕过以及全站爬取；作为现有搜索功能的补充，不强制接管所有搜索。请始终以用户的语言作答。
+
+请始终以用户的语言作答。

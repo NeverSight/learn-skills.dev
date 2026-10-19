@@ -1,0 +1,1 @@
+Vercel守护进程指南—从Dockerfile构建的长期后台工作线程，并在vercel.json中的`daemons`键下声明。在Vercel上的应用程序旁边运行队列使用者、Celery/Sidekiq/BullMQ工作线程、工作流工作线程或作业运行器；按区域、内存或命令配置守护进程实例；处理SIGTERM ；或在守护进程、函数、队列和工作流之间进行选择时使用。
