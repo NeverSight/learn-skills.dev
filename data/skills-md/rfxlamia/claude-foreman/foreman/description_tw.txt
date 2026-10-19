@@ -1,0 +1,1 @@
+將實作工作委派給外部的編程代理 CLI（如 OpenAI Codex `codex exec`、Google Antigravity/Gemini `agy -p`，或任何帶有適配器的工具），而非使用 Claude 的子代理，這樣大量的程式編寫會消耗其他供應商的配額，而 Claude 充當監工——負責規劃、簡報、審查差異與驗證。當使用者呼叫 /foreman、要求「使用 codex/gemini/agy 作為工作者」、『節省 Claude 配額/限制』或「讓其他模型負責程式編寫，而你只負責審核」時，請使用此方式。工作者透過 scripts/dispatch.sh 在隔離的 git worktree 中執行。

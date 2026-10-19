@@ -1,0 +1,3 @@
+使用 DeepSeek 官方的搜尋 / 抓取 API 來補充搜尋研究、交叉驗證事實、尋找最新資訊與來源，並以 Markdown 文字格式抓取網頁。調用此技能的模型能理解任何主題、擴展查詢、填補資訊缺口、評估相關性並驗證衝突；腳本負責檢索、抓取與去重。當使用者說「use DeepSeek search」、「DS search」、「supplementary search」、「find a few more sources」、「DeepSeek fetch this webpage」或在配置 qiaomu-ds-search API 金鑰時，啟動此功能。進行帶來源的搜尋研究並抓取公開頁面。若缺少 API 金鑰，請指導使用者前往官方頁面建立金鑰、完成安全設定，並進行實際測試。排除純離線改寫/翻譯、本地檔案搜尋、聊天模型呼叫、未明確指明 DeepSeek 的通用設定、繞過登入牆以及全站爬取；作為現有搜尋功能的補充，並不強制接管所有搜尋。
+
+請始終以使用者的語言回應。
