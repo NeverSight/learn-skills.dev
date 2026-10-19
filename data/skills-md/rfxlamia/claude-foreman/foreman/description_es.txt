@@ -1,0 +1,3 @@
+Delegar el trabajo de implementación a CLIs de agentes de codificación externos (OpenAI Codex `codex exec`, Google Antigravity/Gemini `agy -p` o cualquier arnés con un adaptador) en lugar de subagentes de Claude, de modo que la codificación intensiva consuma la cuota de otros proveedores mientras Claude actúa como capataz: planificando, dando instrucciones, revisando diferencias y verificando. Utilízalo cuando el usuario invoque /foreman, solicite "usar codex/gemini/agy como trabajadores", "ahorrar la cuota/límites de Claude" o "dejar que otro modelo haga la codificación mientras tú revisas". Los trabajadores se ejecutan en árboles de trabajo Git aislados mediante scripts/dispatch.sh.  
+
+Por favor, responde siempre en el idioma del usuario.
