@@ -1,0 +1,1 @@
+Vercel Daemons 가이드 — Dockerfile 로 빌드된 장기 실행 백그라운드 워커이며 vercel.json 의 `daemons` 키 아래에 선언됩니다. Vercel 에서 앱과 함께 큐 컨슈머, Celery/Sidekiq/BullMQ 워커, 워크플로 워커 또는 작업 실행기를 실행할 때; 지역, 메모리, 명령별로 데몬 인스턴스를 구성할 때; SIGTERM 을 처리할 때; 혹은 Daemons, Functions, Queues, Workflows 중 선택할 때 사용합니다.

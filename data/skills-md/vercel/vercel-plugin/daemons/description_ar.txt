@@ -1,0 +1,1 @@
+دليل Vercel Daemons — عمال خلفية طويلة الأمد تُبنى من Dockerfile وتُعلن تحت المفتاح `daemons` في ملف vercel.json. يُستخدم عند تشغيل مستهلكي الطوابير، عمال Celery/Sidekiq/BullMQ، عمال سير العمل، أو مشغّلات الوظائف بجوار تطبيق على Vercel؛ تكوين مثيلات daemon حسب المنطقة أو الذاكرة أو الأمر؛ التعامل مع SIGTERM؛ أو الاختيار بين Daemons و Functions و Queues و Workflows.

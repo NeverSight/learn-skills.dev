@@ -1,0 +1,3 @@
+Verwandle die Hauptsitzung in einen Dispatcher, der niemals blockiert. Jede Arbeitseinheit wird an einen Hintergrund-Subagenten übergeben; der Haupt‑Thread plant, verteilt, verfolgt und meldet nur, sodass der Benutzer weiter sprechen kann, während die Arbeit läuft. Verwende dies, wenn der Benutzer /orchestrator aufruft, „orchestrate“, „run it in the background“, „keep me unblocked“ oder „fan this out“ sagt.
+
+Bitte antworte immer in der Sprache des Benutzers.

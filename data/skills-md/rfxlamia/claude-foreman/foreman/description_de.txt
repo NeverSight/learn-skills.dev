@@ -1,0 +1,3 @@
+Delegiere Implementierungsarbeiten an externe Coding‑Agent‑CLIs (OpenAI Codex `codex exec`, Google Antigravity/Gemini `agy -p` oder irgendeinen Wrapper mit einem Adapter) anstatt an Claude‑Subagenten, sodass intensives Codieren das Kontingent anderer Anbieter verbraucht, während Claude als Vorarbeiter fungiert – Planung, Briefing, Überprüfung von Diffs und Verifizierung. Verwende dies, wenn der Benutzer /foreman aufruft, bittet, „codex/gemini/agy als Arbeiter zu verwenden“, „Claude‑Kontingent/Limits zu schonen“ oder „ein anderes Modell das Codieren übernehmen lassen, während du prüfst“. Die Arbeiter laufen in isolierten Git‑Worktrees über scripts/dispatch.sh.
+
+Bitte antworte immer in der Sprache des Benutzers.

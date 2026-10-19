@@ -1,1 +1,1 @@
-Vercel守護程式指南—從Dockerfile建立的長期背景工作流程，並在vercel.json中的`daemons`鍵下聲明。在Vercel上的應用程式旁執行佇列使用者、Celery/Sidekiq/BullMQ工作者、工作流程工作者或工作執行者時使用；按區域、記憶體或命令設定背景程式執行個體時使用；處理SIGTERM時使用；或在背景程式、函數、佇列和工作流程之間進行選擇時使用。
+Vercel Daemons 指南 — 透過 Dockerfile 建置、並在 vercel.json 中的 `daemons` 鍵下聲明的長期執行背景工作者。適用於在 Vercel 上與應用程式一起執行佇列消費者、Celery／Sidekiq／BullMQ 工作者、工作流程工作者或作業執行者；可依區域、記憶體或指令配置 daemon 實例；處理 SIGTERM；或在 Daemons、Functions、Queues 與 Workflows 之間做選擇。

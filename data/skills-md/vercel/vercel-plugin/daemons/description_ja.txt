@@ -1,0 +1,1 @@
+Vercel Daemons ガイダンス — Dockerfile からビルドされ、vercel.json の `daemons` キーで宣言される長時間実行のバックグラウンドワーカー。キューコンシューマ、Celery/Sidekiq/BullMQ ワーカー、ワークフローワーカー、またはジョブランナーを Vercel のアプリと一緒に実行する場合に使用します。リージョン、メモリ、コマンドごとにデーモンインスタンスを設定したり、SIGTERM を処理したり、Daemons、Functions、Queues、Workflows のいずれかを選択したりする際に活用します。
