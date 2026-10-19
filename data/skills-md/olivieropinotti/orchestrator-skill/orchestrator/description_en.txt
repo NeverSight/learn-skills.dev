@@ -1,0 +1,1 @@
+Turn the main session into a dispatcher that never blocks. Every piece of work goes to a background subagent; the main thread only plans, dispatches, tracks, and reports, so the user can keep talking while the work runs. Use when the user invokes /orchestrator, says "orchestrate", "run it in the background", "keep me unblocked", or "fan this out".
