@@ -1,0 +1,1 @@
+CAPSTONE_USE_DEFAULT_ALLOC, CS_OPT_MEM 및 트리 내 Windows/OSX 커널 헬퍼를 통해 맞춤 할당자와 커널/펌웨어 임베딩을 위해 Capstone을 구성합니다. malloc를 교체하거나 드라이버 또는 kext에 임베드할 때, CS_ERR_MEMSETUP을 수정할 때, 또는 contrib/cs_driver, windows/winkernel_mm, 혹은 CAPSTONE_OSXKERNEL_SUPPORT 환경에서 작업할 때 사용하십시오.

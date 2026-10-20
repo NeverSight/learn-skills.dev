@@ -1,0 +1,1 @@
+API 6 알파용 Capstone 성능 및 동시성 제한을 안내합니다: 핫 루프에서는 cs_disasm_iter를 선호하고, 대규모에서는 CS_OPT_SYNTAX_CS_REG_ALIAS를 피하며, 스레드당 하나의 핸들을 사용하고, CS_OPT_MEM 훅은 프로세스 전체에 적용됩니다. Capstone 처리량 최적화, 멀티스레드 디스어셈블리, 또는 사용자 정의 할당자를 설치할 때 사용하십시오.
