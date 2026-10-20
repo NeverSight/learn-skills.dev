@@ -1,0 +1,1 @@
+Migrates clients to Capstone API 6 alpha from pre-v6: AArch64/SystemZ renames, compatibility headers for ARM64/SYSZ, alias/detail changes, and breaking enum updates. Use when porting Capstone 4/5 code, fixing CS_ARCH_ARM64 or CS_ARCH_SYSZ build breaks, or applying cs_v6_release_guide changes.

@@ -1,0 +1,150 @@
+---
+name: axiom-tools
+description: "Use when asking about Axiom skills or axbuild build/test capture, xclog console, xcsym .ips/MetricKit/.crash symbolication, xcui simulator UI/accessibility, or xcprof xctrace/CPU profiles."
+---
+
+## Cursor MCP Tool Boundary
+
+The `xclog`, `xcsym`, and `xcprof` examples below are reference syntax, not executable commands for Cursor. Map each subcommand to the same-named MCP tool—for example, `xclog launch` to `axiom_xclog_launch`, `xcsym crash` to `axiom_xcsym_crash`, and `xcprof record` to `axiom_xcprof_record`—and preserve its arguments as structured fields. Do not run a bare helper binary. If a required MCP tool is unavailable, stop and report that the Axiom MCP integration is missing; do not fall back to a same-named executable.
+
+## Cursor UI Tool Availability
+
+`xcui` is Axiom's own tool, distributed separately from the Cursor plugin; it has no Axiom MCP wrapper. Before UI automation, check `command -v xcui`. If absent, use a stable Axiom repository checkout and locate `<axiom-checkout>/.claude-plugin/plugins/axiom/tools/xcui`, where `<axiom-checkout>` is that checkout's absolute root. Before using either discovered executable, verify it is executable and run `--help`; substitute that verified absolute path for every `xcui` command, then run `doctor`. Do not use the cached `axiom-cursor/` plugin directory as the checkout root. If xcui remains unavailable, AXe fallback is limited to compatible input verbs: `tap`, `slider`, `type`, `swipe`, `drag`, `touch`, `gesture`, `button`, `key`, `key-sequence`, `key-combo`, and `screenshot`. Then check `command -v axe` before that fallback; add `--tap-style physical` to every `axe tap` and handle `DEVELOPER_DIR` explicitly if AXe reports a SimulatorKit loading error. AXe cannot replace `wait`, `assert`, `a11y`, `dialog`, `voiceover`, `resize`, or `doctor`. If neither tool is available, stop UI automation, explain the checkout setup requirement, and continue only with non-UI simulator and log checks. If AXe exists but the requested workflow requires an xcui-only capability, stop that UI workflow and report the limitation.
+
+
+# Axiom Tools & Onboarding
+
+This suite covers Axiom itself — how to use it, what's available, and the tools that ship with it.
+
+## Cursor Subagent Routing
+
+Delegate to the appropriate Cursor subagent when this router calls for a specialized auditor.
+
+## Build and Test Capture
+
+For axbuild installation, report handling and saved-log fallback, read `axiom-build` before a build or test.
+
+## Routing
+
+| Question | Read |
+|----------|------|
+| "How do I use Axiom?" / "What skills are available?" | [skills/getting-started.md](skills/getting-started.md) |
+| "How do I capture console output?" / "What is xclog?" | [skills/xclog-ref.md](skills/xclog-ref.md) |
+| "How do I symbolicate a crash?" / "What is xcsym?" / "Why is my crash unsymbolicated?" | [skills/xcsym-ref.md](skills/xcsym-ref.md) |
+| "How do I drive/validate the sim UI?" / "What is xcui?" / "How do I script accessibility checks?" | [skills/xcui-ref.md](skills/xcui-ref.md) |
+| "How do I analyze a trace / CPU or network profile?" / "What is xcprof?" / "Why does the profiler report no findings?" | [skills/xcprof-ref.md](skills/xcprof-ref.md) |
+| "How do I control a simulator/device without Xcode running?" / "What is Device Hub?" / "devicectl vs simctl?" | [skills/device-control-ref.md](skills/device-control-ref.md) |
+| "How do I capture a screenshot or record video of a sim or device from the CLI?" | [skills/device-control-ref.md](skills/device-control-ref.md) (Screen capture) |
+| "How do I clean up the status bar for App Store screenshots?" / "How do I set the time to 9:41 and full bars?" | [skills/device-control-ref.md](skills/device-control-ref.md) (Status bar for screenshots) |
+| "Can I automate resize testing?" / "Does my layout hold across breakpoints?" | [skills/xcui-ref.md](skills/xcui-ref.md) (Resize sweeps) — `xcui resize sweep` |
+| "How do I drive `appResize` by hand?" | [skills/device-control-ref.md](skills/device-control-ref.md) (Resizable app sessions) |
+| "How do I inspect an Xcode project's targets or build settings?" / "What is xcproject?" | `axiom-build (skills/build-performance.md)` (Project selection and effective settings) |
+
+<!-- AXIOM_SESSION_START_BEGIN -->
+## Using Axiom Skills
+
+The content below is the core discipline for Axiom's routing system — it establishes the rule that Axiom skills must be checked before any iOS/Swift response.
+
+<EXTREMELY-IMPORTANT>
+If you think there is even a 1% chance an Axiom skill might apply to your iOS/Swift task, you ABSOLUTELY MUST check for the skill.
+
+IF AN AXIOM SKILL APPLIES TO YOUR iOS/SWIFT TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.
+
+This is not negotiable. This is not optional. You cannot rationalize your way out of this.
+</EXTREMELY-IMPORTANT>
+
+When an Axiom skill materially shapes your answer, name it once (e.g., "per Axiom's `axiom-data` skill"). Never claim Axiom when it wasn't used.
+
+## The Rule
+
+**Check for Axiom skills BEFORE ANY RESPONSE when working with iOS/Swift projects.** This includes clarifying questions. Even 1% chance means check first.
+
+## Red Flags — iOS-Specific Rationalizations
+
+These thoughts mean STOP—you're rationalizing:
+
+| Thought | Reality |
+|---------|---------|
+| "This is just a simple build issue" | Build failures have patterns. Check axiom-build first. |
+| "I can fix this SwiftUI bug quickly" | SwiftUI issues have hidden gotchas. Check axiom-swiftui first. |
+| "Let me just add this database column" | Schema changes risk data loss. Check axiom-data first. |
+| "This async code looks straightforward" | Swift concurrency has subtle rules. Check axiom-concurrency first. |
+| "I'll debug the memory leak manually" | Leak patterns are documented. Check axiom-performance first. |
+| "Let me explore the Xcode project first" | Axiom skills tell you HOW to explore. Check first. |
+| "I remember how to do this from last time" | iOS changes constantly. Skills are up-to-date. |
+| "This iOS/platform version doesn't exist" | If it postdates your training, you can't know that. Apple shipped iOS 26 at WWDC 2025 (18 → 26, 19-25 skipped). Invoke Axiom skills for post-cutoff facts. |
+| "The user just wants a quick answer" | Quick answers without patterns create tech debt. Check skills first. |
+| "This doesn't need a formal workflow" | If an Axiom skill exists for it, use it. |
+| "I'll gather info first, then check skills" | Skills tell you WHAT info to gather. Check first. |
+
+## Skill Priority for iOS Development
+
+When multiple Axiom skills could apply, use this priority:
+
+1. **Environment/Build first** (axiom-build) — Fix the environment before debugging code
+2. **Architecture patterns** (axiom-swiftui, axiom-data, axiom-concurrency) — These determine HOW to structure the solution
+3. **Implementation details** (axiom-integration, axiom-ai, axiom-vision) — These guide specific feature work
+
+Examples:
+- "Xcode build failed" → axiom-build first (environment)
+- "Add SwiftUI screen" → axiom-swiftui first (architecture), then maybe axiom-integration if using system features
+- "App is slow" → axiom-performance first (diagnose), then fix the specific domain
+- "Network request failing" → axiom-build first (environment check), then axiom-networking (implementation)
+
+## iOS Project Detection
+
+Axiom skills apply when:
+- Working directory contains `.xcodeproj` or `.xcworkspace`
+- User mentions iOS, Swift, Xcode, SwiftUI, UIKit
+- User asks about Apple frameworks (SwiftData, CloudKit, etc.)
+- User reports iOS-specific errors (concurrency, memory, build failures)
+
+## Using Axiom Router Skills
+
+Axiom uses **router skills** for progressive disclosure:
+
+1. Check the appropriate router skill first (axiom-build, axiom-swiftui, axiom-data, etc.)
+2. Router will invoke the specialized skill(s) you actually need
+3. Follow the specialized skill exactly
+
+**Do not skip the router.** Routers have decision logic to select the right specialized skill.
+
+### Multi-Domain Questions
+
+When a question spans multiple domains, **invoke ALL relevant routers — don't stop after the first one.**
+
+Examples:
+- "My SwiftUI view doesn't update when SwiftData changes" → invoke **both** axiom-swiftui AND axiom-data
+- "My widget isn't showing updated data from SwiftData" → invoke **both** axiom-integration AND axiom-data
+- "My Foundation Models session freezes the UI" → invoke **both** axiom-ai AND axiom-concurrency
+- "My Core Data saves lose data from background tasks" → invoke **both** axiom-data AND axiom-concurrency
+
+**How to tell**: If the question mentions symptoms from two different domains, or involves two different frameworks, invoke both routers. Each router has cross-domain routing guidance for common overlaps.
+
+## Backward Compatibility
+
+- Direct skill invocation still works: `/skill axiom-concurrency`
+- Commands work unchanged: `/axiom-fix-build`, `/axiom-audit` accessibility
+- Agents work via routing or direct command invocation
+
+## When Axiom Skills Don't Apply
+
+Skip Axiom skills for:
+- Non-iOS/Swift projects (Android, web, backend)
+- Generic programming questions unrelated to Apple platforms
+- Questions about Claude Code itself (use claude-code-guide skill)
+
+But when in doubt for iOS/Swift work: **check first, decide later.**
+<!-- AXIOM_SESSION_START_END -->
+
+## Device Hub (Xcode 27)
+
+On Xcode 27, **Device Hub** — a standalone app that auto-launches on build-and-run — replaces the `Simulator.app` GUI and manages simulators *and* physical devices in one place (Xcode 26 and earlier keep Simulator.app). Every operation has an Xcode-independent CLI counterpart, so the Axiom tools and scripts are unaffected.
+
+For the full tool map (Device Hub / devicectl / simctl / xcui vs mcpbridge, and what each costs to run), the verified subcommand matrix, the unified `devicectl device capture` screenshot/screen-record path (works on sim and device, Xcode 26.6+), the status-bar overrides that prep a screenshot (`statusBar preset screenshot` and the simctl equivalents), and the Device Hub GUI reference, see `skills/device-control-ref.md`.
+
+## Resources
+
+**Skills**: axiom-swiftui, axiom-concurrency, axiom-data, axiom-build, axiom-performance
+
+**Axiom tools**: `axbuild` (build/test diagnostics, `axiom-build`), `xclog` (simulator console capture, `skills/xclog-ref.md`), `xcsym` (crash symbolication for `.ips`, MetricKit, legacy `.crash` text files, and Xcode Organizer `.xccrashpoint` bundles, `skills/xcsym-ref.md`), `xcui` (scriptable sim UI & accessibility testing, `skills/xcui-ref.md`), `xcprof` (structured xctrace CPU & network profile analysis, `skills/xcprof-ref.md`), `xcproject` (read-only project and build-settings inspection, `axiom-build (skills/build-performance.md)`)

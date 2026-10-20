@@ -1,0 +1,1 @@
+Chooses between Capstone batch cs_disasm and iterative cs_disasm_iter, including cs_malloc/cs_free ordering with CS_OPT_DETAIL. Use when writing disassembly loops, comparing batch vs iter, allocating insn caches, or tuning Capstone decode paths on API 6 alpha.

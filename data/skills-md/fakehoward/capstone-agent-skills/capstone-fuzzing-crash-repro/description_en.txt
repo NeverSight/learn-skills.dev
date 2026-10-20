@@ -1,0 +1,1 @@
+Reproduces Capstone OSS-Fuzz and suite/fuzz crashes by decoding the platform byte and replaying padded hex through cstool. Use when triaging fuzz reports, converting fuzzer inputs to cstool commands, building fuzz_disasm / fuzz_decode_platform, or handling suite/fuzz drivers.

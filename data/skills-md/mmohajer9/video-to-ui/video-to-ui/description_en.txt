@@ -1,0 +1,17 @@
+Take a UI screen recording (mobile/desktop/web/marketing video) and do one of four things — your
+pick: (1) just extract the frames as PNGs, (2) analyze the design system shown in the video and
+list the distinct screens, (3) compare the video against files in your codebase and produce a
+concrete list of edits to make those files feel like the video, or (4) scaffold a real frontend
+app (Vite + React + TypeScript + Tailwind) that recreates the UI's behavior — not just its
+appearance — with working interactions and animations. Option 3 always shows you the proposed
+changes first and waits for your approval before editing. Requires ffmpeg; mode 4 additionally
+needs Node.js to run the generated app. Mode 4 reads the `frontend-design` skill (if installed)
+before generating to inherit its component-quality and aesthetic guidance.
+
+Trigger whenever the user mentions a screen recording, video walkthrough, mobile-app demo,
+desktop-app capture, marketing/product video, or wants to extract design insights from a clip —
+even if they don't explicitly say "use the video skill". Phrases like "I have this video of a UI",
+"extract frames from this recording", "what's the design system in this video", "make my
+components look like this clip", "build a frontend app from this video", or "I have a UI demo,
+here are files I want to update" should all trigger it. The skill itself will ask which of the
+four modes to run.

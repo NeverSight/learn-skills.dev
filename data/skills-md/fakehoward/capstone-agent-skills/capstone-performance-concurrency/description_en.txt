@@ -1,0 +1,1 @@
+Guides Capstone performance and concurrency limits for API 6 alpha: prefer cs_disasm_iter for hot loops, avoid CS_OPT_SYNTAX_CS_REG_ALIAS at scale, use one handle per thread, and treat CS_OPT_MEM hooks as process-global. Use when optimizing Capstone throughput, multi-threading disassembly, or installing custom allocators.

@@ -1,0 +1,1 @@
+Configures Capstone for custom allocators and kernel/firmware embedding via CAPSTONE_USE_DEFAULT_ALLOC, CS_OPT_MEM, and in-tree Windows/OSX kernel helpers. Use when replacing malloc, embedding in drivers or kexts, fixing CS_ERR_MEMSETUP, or working under contrib/cs_driver, windows/winkernel_mm, or CAPSTONE_OSXKERNEL_SUPPORT.
