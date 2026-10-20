@@ -1,1 +1,8 @@
-Arrange the opening positions for each scene of an AI short drama: first identify from the scene diagram the items that can be stood on or sat on (projected onto a top‑down plane), then, according to the script, assign for each scene who is on which side of which item, whether they sit or stand, which direction they face, and whether there are background actors. The program generates a sentence describing the opening movement for each scene; copy that sentence as the first paragraph of the storyboard for that scene. By default, deliver an HTML tool report that allows dragging to adjust positions, with the ability to export a staging.json file from the page; the JSON is also saved as working data, and Markdown can be exported as needed. All eight quality checks are deterministically performed by the script (verify the number of recognized items, items placed on the diagram, the number of appearing characters is neither too many nor too few, present characters are placed on the recognized items, no overlapping characters on the same side, background actors clearly indicated, etc.). Use the script.json from novel‑script and art.json from novel‑art to pre‑fill the skeleton. Zero dependencies, zero API key. Use when asked for positioning, opening positioning, group‑scene positioning, who sits where, arranging seats, movement, blocking, staging for AI short drama.
+给 AI 短剧的每一场排开场站位：先从场景图里认出能站能坐的东西（推算到俯视平面上），
+再按剧本给每一场排谁在哪件东西的哪一侧、坐还是站、面朝哪、有没有群演，
+程序写出每一场的开场走位句，分镜这一场第一段照抄它。
+默认交付能拖动调整站位的 HTML 工具报告，页面内可导出 staging.json；JSON 同时作为工作数据保存，Markdown 按需导出。
+8 道质量门全部由脚本确定性检查（认图件数、东西在图上、出场人物不多不少、在场的人落在认出来的东西上、
+同一侧不叠人、群演写明在哪……）。吃 novel-script 的 script.json 和 novel-art 的 art.json 预填骨架。
+零依赖、零 API key。
+Use when asked to 站位、开场站位、群戏站位、谁坐在哪、排座位、走位、blocking、staging for AI short drama。
