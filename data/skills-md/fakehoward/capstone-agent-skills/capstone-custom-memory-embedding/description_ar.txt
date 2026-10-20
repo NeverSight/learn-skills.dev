@@ -1,0 +1,1 @@
+يضبط Capstone لاستخدام مخصصات الذاكرة وتضمين النواة/البرمجيات الثابتة عبر CAPSTONE_USE_DEFAULT_ALLOC، CS_OPT_MEM، ومساعدي نواة Windows/OSX داخل الشجرة. يُستخدم عند استبدال malloc، أو تضمينه في برامج التشغيل أو kexts، أو إصلاح CS_ERR_MEMSETUP، أو العمل تحت contrib/cs_driver، windows/winkernel_mm، أو CAPSTONE_OSXKERNEL_SUPPORT.
