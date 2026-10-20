@@ -1,0 +1,1 @@
+通过解码平台字节并通过 cstool 重放填充的十六进制，复现 Capstone OSS-Fuzz 与 suite/fuzz 的崩溃。可在审查模糊测试报告、将模糊输入转换为 cstool 命令、构建 fuzz_disasm / fuzz_decode_platform，或处理 suite/fuzz 驱动程序时使用。

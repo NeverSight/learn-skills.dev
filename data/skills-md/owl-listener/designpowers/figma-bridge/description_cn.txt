@@ -1,0 +1,1 @@
+用于将 Designpowers 的 Markdown 规范转换为设计师能够实际看到并操作的内容，并将已有的 Figma 工作拉回。实现双向桥接——将设计负责人的视觉决策或已编写的代码推送到真实的 Figma 画框（代码转设计），以及将 Figma 文件拉入用于审查或作为设计系统来源（设计转代码）。当 Figma 不可用时，回退为可点击的 HTML 原型。可在截图检查点、交付时、审阅 Figma 链接时，或用户说“show me”“put this in Figma”“make it real”时调用。

@@ -1,0 +1,1 @@
+在 PhysX 与 Newton MJWarp 之间双向传输 Isaac Lab 策略。用于检查已解析 PresetCfg 的任务和检查点兼容性、纠正跨后端的关节与刚体顺序、处理 Franka 模拟关节驱动差异、匹配跨后端执行器行为、添加面向传输的域随机化，或运行 PhysX/PhysX、PhysX/Newton、Newton/Newton 和 Newton/PhysX 的评估。已完整验证的任务包括 Isaac-Lift-Franka、Isaac-Velocity-Rough-G1 和 Isaac-Velocity-Rough-AnymalD。

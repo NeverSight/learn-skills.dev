@@ -1,0 +1,1 @@
+针对 API 6 alpha，指导 Capstone 的性能和并发限制：在热点循环中优先使用 cs_disasm_iter，避免在大规模时使用 CS_OPT_SYNTAX_CS_REG_ALIAS，每个线程使用一个句柄，并将 CS_OPT_MEM 钩子视为进程全局。用于优化 Capstone 吞吐量、多线程反汇编或安装自定义分配器时。

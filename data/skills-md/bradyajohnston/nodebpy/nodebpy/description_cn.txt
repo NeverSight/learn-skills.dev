@@ -1,0 +1,1 @@
+使用 nodebpy 库将 Blender 节点树（几何节点、着色器材质和世界、合成器）构建、编辑和验证为 Python 代码。当任务涉及从 Python 编写或更改 Blender 节点树、节点组或材质、将手工搭建的节点设置移植为代码、将已有的 .blend 节点树转换为代码（to_python）、编写可重用的节点组类（CustomGeometryGroup），或在实时 Blender 会话或使用 bpy 模块的无头模式下运行/重建节点树时，请始终使用 nodebpy，即使用户仅说 “geometry nodes”“make a node group”“a material with nodes” 而未提及 nodebpy。
