@@ -1,0 +1,1 @@
+Guía los límites de rendimiento y concurrencia de Capstone para la API 6 alfa: prefiera cs_disasm_iter para bucles críticos, evite CS_OPT_SYNTAX_CS_REG_ALIAS a gran escala, use un manejador por hilo y trate los ganchos CS_OPT_MEM como globales al proceso. Utilícelo al optimizar el rendimiento de Capstone, la desensambladura multihilo o al instalar asignadores personalizados.
