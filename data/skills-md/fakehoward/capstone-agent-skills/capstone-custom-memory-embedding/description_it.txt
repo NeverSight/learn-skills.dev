@@ -1,0 +1,1 @@
+Configura Capstone per allocator personalizzati e l’integrazione in kernel/firmware tramite CAPSTONE_USE_DEFAULT_ALLOC, CS_OPT_MEM e gli helper kernel Windows/OSX inclusi nel progetto. Da utilizzare quando si sostituisce malloc, si incorpora in driver o kext, si risolve CS_ERR_MEMSETUP o si lavora sotto contrib/cs_driver, windows/winkernel_mm o CAPSTONE_OSXKERNEL_SUPPORT.

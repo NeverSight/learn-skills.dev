@@ -1,0 +1,1 @@
+Sceglie tra il batch cs_disasm di Capstone e l'iterativo cs_disasm_iter, includendo l'ordine cs_malloc/cs_free con CS_OPT_DETAIL. Da utilizzare quando si scrivono cicli di disassemblaggio, si confrontano batch vs iter, si allocano cache di istruzioni o si ottimizzano i percorsi di decodifica di Capstone sull'API 6 alpha.

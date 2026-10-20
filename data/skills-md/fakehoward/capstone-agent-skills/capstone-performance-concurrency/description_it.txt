@@ -1,0 +1,1 @@
+Guida le prestazioni e i limiti di concorrenza di Capstone per l'API 6 alpha: preferisci cs_disasm_iter per i loop critici, evita CS_OPT_SYNTAX_CS_REG_ALIAS su larga scala, usa un handle per thread e tratta i hook CS_OPT_MEM come globali al processo. Usa quando ottimizzi il throughput di Capstone, la disassemblazione multi‑thread o l'installazione di allocatori personalizzati.

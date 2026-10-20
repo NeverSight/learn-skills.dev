@@ -1,0 +1,1 @@
+Diagnosi dei fallimenti di Capstone API 6 alpha: codici CS_ERR_*, problemi di puntatore detail, incongruenze nella callback skipdata, regs_access mancante e il probabile difetto della dimensione skipdata di Xtensa a 255. Da utilizzare quando il disassemblatore Capstone si comporta in modo anomalo, detail è nullo, le opzioni sembrano bloccate o le dimensioni skip sono errate.

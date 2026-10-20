@@ -1,0 +1,1 @@
+Riproduce i crash di Capstone OSS‑Fuzz e suite/fuzz decodificando il byte di piattaforma e riproducendo l’esadecimale con padding tramite cstool. Usalo durante la triage dei report di fuzz, convertendo gli input del fuzzer in comandi cstool, compilando fuzz_disasm / fuzz_decode_platform o gestendo i driver suite/fuzz.
