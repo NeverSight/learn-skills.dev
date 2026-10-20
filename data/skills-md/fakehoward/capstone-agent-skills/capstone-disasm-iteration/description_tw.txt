@@ -1,0 +1,1 @@
+在 Capstone 的批次 cs_disasm 與迭代 cs_disasm_iter 之間做選擇，並考慮使用 CS_OPT_DETAIL 時 cs_malloc / cs_free 的順序。當編寫反組譯迴圈、比較批次與迭代方式、分配指令快取，或在 API 6 alpha 上調校 Capstone 解碼路徑時使用。

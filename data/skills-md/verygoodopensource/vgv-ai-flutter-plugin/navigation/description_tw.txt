@@ -1,0 +1,3 @@
+使用 GoRouter 在 Flutter 中進行導航與路由的最佳實踐，涵蓋階層式路由樹、型別安全的 `@TypedGoRoute` 定義、命名導航、重定向以及深層連結設定。於建立、修改或檢視使用 package:go_router 或 package:go_router_builder 的路由、深層連結、重定向或導航邏輯時使用，亦包括以模擬 GoRouter 或透過 `InheritedGoRouter` 提供的 widget 測試。亦可用於呼叫端的導航，即使很小：如 `onTap`、按鈕或點擊處理程序，將使用者從一個畫面帶到另一個畫面，於 `context.go`、`goNamed`、`context.push`、`pushNamed` 或 `pop` 之間做選擇，導航至類似 `/products/p1` 的路徑、傳遞資料至目的地，或將結果返回給呼叫端。單行的導航呼叫仍屬於導航工作。路由動作屬於動畫技能，即便在 `GoRouteData` 子類別內亦是如此。
+
+請始終以使用者的語言回覆。

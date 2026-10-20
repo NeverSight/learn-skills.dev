@@ -1,0 +1,3 @@
+使用 ElevenLabs Realtime 模型（`eleven_realtime_v1_mini`、`eleven_realtime_v1_max`），這些是為語音對話打造的低延遲模型。當使用者想要在 Realtime 模型上建立 ElevenAgents 代理，或將現有代理的語音模式切換為 Realtime、設定 `conversation_config.realtime_model`、在 Realtime Mini 和 Max 之間選擇，或除錯無法發布或傳輸的 Realtime 代理時，請使用此模型。亦可在將基於 OpenAI Realtime API 及 SDK（`@openai/agents-realtime`、`gpt-realtime`）構建的語音應用遷移至相容 OpenAI 的 ElevenLabs Realtime API 時使用，包括 `client_secrets` 鑄造、WebSocket 傳輸，以及在離開 WebRTC 後的音訊（以 4001/4003 關閉，無音訊）。此模型不適用於在自訂模式下選擇代理的 LLM 或 TTS 模型、Scribe 實時語音轉文字，或遷移 Chat Completions 或 Responses API 的文字呼叫。
+
+請始終以使用者的語言回應。

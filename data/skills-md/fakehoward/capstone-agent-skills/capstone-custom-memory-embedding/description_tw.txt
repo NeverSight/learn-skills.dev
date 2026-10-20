@@ -1,0 +1,1 @@
+配置 Capstone 以使用自訂分配器以及透過 CAPSTONE_USE_DEFAULT_ALLOC、CS_OPT_MEM 和內建的 Windows/OSX 核心輔助程式進行核心/韌體嵌入。當取代 malloc、在驅動程式或 kext 中嵌入、修正 CS_ERR_MEMSETUP，或在 contrib/cs_driver、windows/winkernel_mm 或 CAPSTONE_OSXKERNEL_SUPPORT 下工作時使用。

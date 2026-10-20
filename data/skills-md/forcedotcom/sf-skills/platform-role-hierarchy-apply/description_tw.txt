@@ -1,0 +1,3 @@
+在單一經管理員批准的清單中，從外部組織圖檔（PDF、xlsx 或純文字的「角色-父角色」配對列表）大量重新對齊現有的 Salesforce UserRole 階層。說明範圍以及使用者是否會隨角色移動，解決身分不完全相符的情況，將檔案與目前的樹狀結構做差異比較，並一次提交建立、重新命名、變更父層、刪除空角色以及使用者指派等變更。觸發詞包括「reorganize the role hierarchy」、「apply this org chart to roles」、「bulk update role parents」、「realign roles from PDF」、「restructure the role hierarchy」以及「reparent roles from this spreadsheet」。除非同時有其他變更，否則單獨的角色建立、重新命名或僅變更父層時不會觸發；詢問哪些角色存在或它們的層級關係也不會觸發——那屬於 `managing-roles`。同樣地，領土、帳戶或預測階層，或是編寫共享規則時也不會觸發。
+
+請始終以使用者的語言回覆。

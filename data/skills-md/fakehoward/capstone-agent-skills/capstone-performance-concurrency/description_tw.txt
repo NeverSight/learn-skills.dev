@@ -1,0 +1,1 @@
+指導 Capstone 在 API 6 alpha 中的效能與併發限制：在熱迴圈中優先使用 cs_disasm_iter、在大規模時避免使用 CS_OPT_SYNTAX_CS_REG_ALIAS、每個執行緒使用一個 handle，並將 CS_OPT_MEM 鉤子視為全程式全域。適用於優化 Capstone 吞吐量、多執行緒反組譯或安裝自訂記憶體配置器時。

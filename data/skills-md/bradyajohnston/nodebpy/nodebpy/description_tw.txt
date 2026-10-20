@@ -1,0 +1,1 @@
+使用 nodebpy 套件，將 Blender 節點樹（Geometry Nodes、著色器材質與世界、合成器）以 Python 程式碼的形式建立、編輯與驗證。當任務涉及從 Python 撰寫或修改 Blender 節點樹、節點群組或材質、將手動搭建的節點設定移植為程式碼、將既有的 .blend 節點樹轉換成程式碼（to_python）、編寫可重複使用的節點群組類別（CustomGeometryGroup），或在即時 Blender 工作階段或使用 bpy 模組的無頭環境中執行/重建節點樹時，即使使用者僅說「geometry nodes」、「make a node group」或「a material with nodes」而未提及 nodebpy，也請採用此方式。

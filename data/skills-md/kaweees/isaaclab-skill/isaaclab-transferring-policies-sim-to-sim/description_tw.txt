@@ -1,0 +1,1 @@
+在 PhysX 與 Newton MJWarp 之間雙向轉移 Isaac Lab 策略。於檢查 PresetCfg 解析的任務與檢查點相容性、校正跨後端關節與身體排序、處理 Franka 模仿關節驅動差異、匹配跨後端致動器行為、加入轉移導向的領域隨機化，或執行 PhysX/PhysX、PhysX/Newton、Newton/Newton 與 Newton/PhysX 評估時使用。已完整驗證的任務包括 Isaac-Lift-Franka、Isaac-Velocity-Rough-G1 與 Isaac-Velocity-Rough-AnymalD。
