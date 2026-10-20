@@ -1,0 +1,1 @@
+CAPSTONE_USE_DEFAULT_ALLOC、CS_OPT_MEM、およびツリー内の Windows/OSX カーネルヘルパーを使用して、カスタムアロケータやカーネル/ファームウェア埋め込み用に Capstone を設定します。malloc の置き換え、ドライバや kext への埋め込み、CS_ERR_MEMSETUP の修正、あるいは contrib/cs_driver、windows/winkernel_mm、CAPSTONE_OSXKERNEL_SUPPORT の下で作業する際に使用してください。

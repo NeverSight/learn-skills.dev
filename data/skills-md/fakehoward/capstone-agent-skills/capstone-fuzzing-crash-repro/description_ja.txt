@@ -1,0 +1,1 @@
+プラットフォームバイトをデコードし、パディングされた十六進数をcstoolで再生することで、Capstone OSS‑Fuzz および suite/fuzz のクラッシュを再現します。ファザーのレポートをトリアージする際や、ファザー入力をcstoolコマンドに変換する際、fuzz_disasm / fuzz_decode_platform をビルドする際、あるいは suite/fuzz ドライバーを扱う際に使用してください。

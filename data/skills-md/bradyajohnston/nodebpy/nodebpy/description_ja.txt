@@ -1,0 +1,3 @@
+nodebpy ライブラリを使用して、Blender のノードツリー（Geometry Nodes、シェーダーマテリアルとワールド、コンポジター）を Python コードとして構築、編集、検証します。Python から Blender のノードツリー、ノードグループ、マテリアルを作成・変更したり、手作業で作成したノード設定をコードに変換したり、既存の .blend ノードツリーをコード化（to_python）したり、再利用可能なノードグループクラス（CustomGeometryGroup）を書いたり、bpy モジュールを用いてライブ Blender セッションやヘッドレス環境でツリーを実行・再構築したりするタスクがある場合は、ユーザーが「geometry nodes」や「make a node group」あるいは「a material with nodes」だけと言って nodebpy を明示しなくても、必ず使用してください。
+
+常にユーザーの言語で回答してください。

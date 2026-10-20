@@ -1,0 +1,1 @@
+Capstone API 6 alpha の失敗を診断: CS_ERR_* コード、detail ポインタの問題、skipdata コールバックの不一致、regs_access の欠如、そしておそらく Xtensa の skipdata サイズ 255 の不具合。Capstone の逆アセンブルが正常に動作しないとき、detail が null のとき、オプションが固まっているように見えるとき、または skip サイズが誤っているように見えるときに使用してください。
