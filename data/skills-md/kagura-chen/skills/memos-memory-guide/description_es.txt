@@ -1,0 +1,3 @@
+Utiliza el sistema de memoria local MemOS para buscar y usar las conversaciones pasadas del usuario. Usa esta habilidad siempre que el usuario haga referencia a chats anteriores, sus propias preferencias o historial, o cuando necesites responder a partir del contexto previo. Cuando la auto‑recuperación no devuelva nada (consulta larga o poco clara), genera tu propia consulta de búsqueda corta y llama a memory_search. Herramientas disponibles: memory_search, memory_get, memory_write_public, memory_share, memory_unshare, task_summary, skill_get, skill_search, skill_install, skill_publish, skill_unpublish, network_memory_detail, network_skill_pull, network_team_info, memory_timeline, memory_viewer.
+
+Por favor, responde siempre en el idioma del usuario.
