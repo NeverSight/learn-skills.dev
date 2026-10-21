@@ -1,0 +1,3 @@
+监督其他在同一项目上工作的 Claude 线程（会话）。检查每个线程的运行情况，确认已完成的工作已合并到 main，拥有带截图的变更日志条目，并已上线；将真正完成的线程归档，对被中断的线程进行重启或标记。当用户说“check threads”“check new changes”“are the threads merged and pushed”“archive the done threads”，或询问其他会话在做什么时使用。项目细节（变更日志格式、线上站点、捕获文件夹）放在可选的本地 references/<project>.md 中，位于此技能旁边。
+
+请始终使用用户的语言回复。
