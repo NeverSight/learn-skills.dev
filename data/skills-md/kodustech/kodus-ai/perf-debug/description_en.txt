@@ -1,0 +1,1 @@
+End-to-end front→back performance debugging for the Kodus web app. Use when a screen is slow, blank, looping, or you need to trace a UI perf problem down to the API query. Drives Playwright/Chrome MCP to open + measure the screen, then reads the API use-case/repository and the DB (Postgres/Mongo indexes, explain) to find and fix the root cause, verifying live.
