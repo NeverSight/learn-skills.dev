@@ -1,0 +1,11 @@
+当用户希望在互联网上进行调查、研究、搜索或查找任何信息时，必须使用——例如，“对 X 进行全网研究”，“帮助我调查 X”，“检查 X”，“搜索 X”，“看看大家如何评价 X”，“关于 X 有哪些讨论”，或“研究这个话题”。
+
+同样，当用户提及任何平台或分享任何 URL/链接时也必须使用：小红书（Xiaohongshu/xhs）、推特（Twitter/X）、哔哩哔哩（B站/bilibili）、Reddit、V2EX、领英（LinkedIn/招聘/求职/jobs）、YouTube、GitHub 代码搜索、小宇宙播客（Xiaoyuzhou podcast）、雪球/股票行情（Snowball/stock quotes）、RSS 信息流，或任何网页链接。
+
+目前共有 13 个平台，采用多后端路由（OpenCLI / 各平台专用 CLI / API），其中六个渠道无需配置。运行 `agent-reach doctor --json` 可查看当前每个平台由哪个后端提供服务。
+
+**不适用场景**：撰写报告、数据分析、翻译或其他内容处理（此技能仅用于抓取互联网内容）；发布、评论、点赞或其他写操作；已经有专用技能的平台（请优先使用专用技能）。
+
+**路由方法**：`SKILL.md` 中包含路由表和常用指令。复杂场景请根据需要阅读 `references/*.md` 中相应的分类文件。分类包括：search（搜索）/ social（社交：小红书/推特/哔哩哔哩/V2EX/Reddit）/ career（职业：领英）/ dev（开发：GitHub）/ web（网页/文章/RSS）/ video（视频：YouTube/哔哩哔哩/播客）。
+
+请始终使用用户的语言作答。

@@ -1,0 +1,8 @@
+【设置内部技能·用户通常不需要直接调用；只需向中央控制器短剧导演提出请求，即可自动路由至此技能】  
+【漫画老李 V7.4.26 套件·子技能】  
+喂养适配引擎（交付层）：分镜稿 → 可喂入提示词的最终阶段。  
+三种输出模式 A/B/C（默认 C 导演轨纯版本）+ 输出前的六项门控检查（节奏 / 行时长 / 词数 / 可喂语义 / 图像数量 / 编号一致性 **+ 材料形式一致性**) + 材料映射与角色锚点 + **“材料接线表”** + 多段链接策略 + 工程语言清理。  
+**此套件不包含图像**——图像由用户在外部平台生成；默认 M1（占位编号），禁止请求图像，也禁止因缺少图像而阻断。  
+触发词：turn Seedance、generate prompts、feed、prompt package、@imageN、material mapping、character anchoring、multi‑segment linking、word count exceeded、clean engineering language、material form、wiring sheet。  
+此技能为套件成员；完整全流程由中央控制器短剧导演进入。  
+请始终使用用户的语言回复。
