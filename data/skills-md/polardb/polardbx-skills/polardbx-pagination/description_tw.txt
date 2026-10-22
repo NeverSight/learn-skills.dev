@@ -1,0 +1,1 @@
+針對 PolarDB‑X 2.0 企業版的高效分頁與大表遍歷。 在深度分頁情境下，建議使用 Keyset 分頁（游標分頁）取代 LIMIT M,N，針對極端情況提供每個分片的遍歷，並包含索引需求與完整的 Java 程式碼範例。 適用於實作分頁查詢、遍歷大表、批次資料匯出，或優化 PolarDB‑X 上緩慢的 LIMIT M,N 查詢。 觸發詞： "分頁查詢", "deep pagination", "Keyset pagination", "大表遍歷", "資料匯出", "LIMIT 優化", "分頁效能", "cursor pagination", "游標分頁", "翻頁慢", "深翻頁", "pagination query", "batch traversal", "LIMIT M N slow", "efficient paging"

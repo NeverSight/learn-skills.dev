@@ -1,0 +1,3 @@
+預算管理員。在任何購買之前，根據您的預算為每個部位分配規模：保留現金緩衝，對任何單一股票設上上限（多餘的部分會分配給其他股票），剔除低於您最低訂單的部份，四捨五入使每一美元都被利用，支援零碎或整股，並將擬議的買入訂單寫入 trader/orders.json，格式完全符合 Alpaca 的 place_stock_order（名義金額以字串表示）。不會實際下單。當使用者說「I have $5,000」、「size my trades」、「how much of each should I buy」、「manage my budget」、「split my money」、「keep 10% in cash」、「no stock over 25%」、「set my rules」或在 /trader-copycat 寫入目標後，請使用此功能。
+
+請始終以使用者的語言回覆。

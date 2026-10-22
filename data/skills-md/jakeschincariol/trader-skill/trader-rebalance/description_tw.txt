@@ -1,0 +1,3 @@
+重新平衡器。當投資組合偏離目標權重時將其恢復：以當前價格評估每項持有，計算每支股票相對目標的漂移（以百分點計），僅交易超出區間的股票（預設 5 點），保留現金緩衝與每支股票的上限，略過微小交易，先列出賣出再列出買入，並將交易寫入 trader/orders.json 作為提案。當使用者說「rebalance」、「my portfolio drifted」、「bring it back to the targets」、「I added money」、「the new 13F changed the weights」、「am I overweight」或在排程（每月或每季）於 /trader‑copycat 更新目標後使用。
+
+請始終以使用者的語言回覆。
