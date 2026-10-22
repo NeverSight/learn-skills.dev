@@ -1,0 +1,3 @@
+Evaluación de seguridad del DDL en línea y ejecución sin bloqueo para PolarDB‑X 2.0 Enterprise Edition. Determina si el DDL bloquea la tabla mediante EXPLAIN ONLINE_DDL, reescribe con ALGORITHM=OMC para una ejecución sin bloqueo, verifica transacciones largas antes del DDL y guía la ejecución segura del DDL con la confirmación del usuario.  
+Úselo al ejecutar DDL en PolarDB‑X y necesite evaluar el riesgo de bloqueo de tabla, cuando el DDL bloquearía la tabla y se requiera una alternativa sin bloqueo, o al comprobar transacciones largas antes del DDL.  
+Desencadenantes: "Online DDL", "DDL锁表", "lock-free DDL", "OMC", "MDL lock", "DDL安全", "EXPLAIN ONLINE_DDL", "DDL进度", "长事务检查", "无锁变更", "DDL locks table", "lock-free change", "DDL progress", "safe DDL"
