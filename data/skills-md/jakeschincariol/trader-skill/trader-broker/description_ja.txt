@@ -1,0 +1,3 @@
+Order Executor。承認された注文をブローカー接続を通じて1件ずつ配置し、ユーザーが明示的に「はい」と言わない限り決して実行しません。各注文は単純なチケットとAlpacaのplace_stock_order用の正確なJSONを表示し、ユーザーの「はい」を文字通り記録し、次にClaude独自のAllow once / Denyカードが再度問い合わせます。Alpacaの公式MCPサーバーをClaude Desktopに設定する手順（デフォルトはペーパートレーディング、キーは環境変数に保存しチャット内には絶対に記載しない）、Interactive Brokers接続（注文はユーザーのIBKRアカウントに送り、承認が必要）、および注文ツールを「Needs approval」に設定する方法をカバーします。ユーザーが「place the orders」「buy it」「execute」「send it to my broker」「connect Alpaca」「connect Interactive Brokers」「set up paper trading」などと言ったとき、または/trader-riskが通過した後に使用してください。
+
+常にユーザーの言語で回答してください。

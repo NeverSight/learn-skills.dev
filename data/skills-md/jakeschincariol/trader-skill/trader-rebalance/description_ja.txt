@@ -1,0 +1,3 @@
+リバランサー。ポートフォリオが目標比率からずれたときに目標比率に戻します：すべての保有銘柄を現在の価格で評価し、各銘柄の目標からのずれ（パーセンテージポイント）を算出し、バンド（デフォルトは5ポイント）外の銘柄のみ取引し、現金バッファと銘柄別上限を維持し、微小な取引はスキップし、売却を購入より先にリストし、取引を trader/orders.json に提案として書き出します。ユーザーが「rebalance」「my portfolio drifted」「bring it back to the targets」「I added money」「the new 13F changed the weights」「am I overweight」と言ったとき、または /trader-copycat が目標を更新した後のスケジュール（月次または四半期）で使用してください。
+
+必ずユーザーの言語で応答してください。
