@@ -1,0 +1,3 @@
+리밸런서. 포트폴리오가 목표 비중에서 벗어나면 이를 다시 목표 비중으로 되돌립니다: 모든 보유 종목을 현재 가격으로 평가하고, 각 주식이 목표에서 얼마나 벗어났는지 퍼센트 포인트로 계산하며, 기본 5포인트 밴드 밖에 있는 종목만 거래하고, 현금 버퍼와 종목당 한도를 유지하며, 작은 거래는 건너뛰고, 매도를 먼저 나열한 뒤 매수를 진행하고, 거래를 trader/orders.json에 제안 형태로 기록합니다. 사용자는 사용자가 “rebalance”, “my portfolio drifted”, “bring it back to the targets”, “I added money”, “the new 13F changed the weights”, “am I overweight” 라고 말하거나 /trader-copycat가 목표를 업데이트한 후 월간 또는 분기별 일정에 따라 사용합니다.
+
+항상 사용자의 언어로 응답하십시오.

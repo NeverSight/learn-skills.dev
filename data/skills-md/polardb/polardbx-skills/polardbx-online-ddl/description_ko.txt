@@ -1,0 +1,3 @@
+PolarDB‑X 2.0 Enterprise Edition용 온라인 DDL 안전성 평가 및 무잠금 실행. EXPLAIN ONLINE_DDL을 통해 DDL이 테이블을 잠그는지 판단하고, 무잠금 실행을 위해 ALGORITHM=OMC로 재작성하며, DDL 전 장기 트랜잭션을 점검하고, 사용자 확인을 통해 안전한 DDL 실행을 안내합니다.  
+PolarDB‑X에서 DDL을 실행하고 테이블 잠금 위험을 평가해야 할 때, DDL이 테이블을 잠그고 무잠금 대안이 필요할 때, 혹은 DDL 전에 장기 트랜잭션을 확인하고자 할 때 사용하십시오.  
+트리거: "Online DDL", "DDL锁表", "lock-free DDL", "OMC", "MDL lock", "DDL安全", "EXPLAIN ONLINE_DDL", "DDL进度", "长事务检查", "无锁变更", "DDL locks table", "lock-free change", "DDL progress", "safe DDL"
