@@ -1,0 +1,1 @@
+用 Orca 协调 supervised workers，将已授权的开发或规划工作推进到验收与自动合并。 适用于用户要求派活、监督多任务或使用 Orca worker；协调者负责规划、通信和验收， worker 负责编辑、提交并创建 PR，门禁通过后协调者自动合并，无需逐张请用户确认。 也适用于把完整票图交给 `implement-spec` 做长程实施、用集成 PR 的 Merge Danger 决定 自动合并还是人类合并，或流程错误后需要 retro 的场景。 也适用于用户提到 Orca 编排、worker 派活、worktree 隔离、门禁验收或 PR 自动合并的场景。 纯问答及阅读、审查或修改本 skill 不启动编排。

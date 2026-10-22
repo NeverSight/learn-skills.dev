@@ -1,7 +1,1 @@
-The cross‑agent shared long‑term knowledge base (Outline) is the sole authoritative read/write capability.  
-
-**Write:** When the user asks to “incorporate,” “record,” “remember,” “archive,” “summarize a post‑mortem,” “write to the knowledge base,” or when a task wraps up with verified configurations/decisions, or the user corrects outdated facts, proactively propose to consolidate.  
-
-**Read:** When the user mentions historical cues such as “last time / before / previously / why was it set that way,” or the task involves confirmed long‑term facts about project background, machine/network environment, external assets, domain knowledge, or personal rule preferences, you must consult the Outline first before answering.  
-
-Except for project‑specific engineering conventions that apply only within this project (write to the project‑root AGENTS.md) and when the user explicitly names a particular local file for writing, this capability unconditionally takes precedence over MEMORY.md or local diary rules. Temporary progress, unverified proposals, and password/keys are excluded.
+跨 Agent 共享的长期知识库（Outline）唯一权威读写技能。写入：当用户要求“沉淀”、“记下来”、“记住”、“归档”、“复盘总结”、“写入知识库”，或任务收尾出现已验证的配置/决策、用户纠正旧事实时，主动提议沉淀；读取：当用户提到“上次/之前/以前/为什么这么定”等历史线索，或任务涉及项目背景、机器网络环境、外部资产、领域知识及个人规则偏好等已确认长期事实时，必须先查 Outline 再回答。除仅在本项目生效的工程约定（写项目根 AGENTS.md）及用户当面点名写入特定本地文件外，本技能无条件优先于 MEMORY.md 或本地日记规则。排除临时进度、未验证提议及密码密钥。
