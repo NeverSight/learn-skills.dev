@@ -1,0 +1,8 @@
+脳画像データ構造（BIDS）標準を用いて、神経科学および生体医学データセットを整理、検索、検証、変換し、MRI、PET、EEG、MEG、iEEG、EMG、NIRS、顕微鏡、モーションキャプチャ、行動データを対象とします。  
+PyBIDS（BIDSLayout）、bids-validator、HeuDiConv、dcm2bids、BIDScoin、JSONサイドカ―、dataset_description.json、events.tsv、participants.tsv、.bidsignore、そして派生データをカバーします。  
+生データを BIDS ディレクトリおよびファイル名に整理する際に使用します。  
+DICOM スキャンを BIDS に変換する際に使用します。  
+OpenNeuro や DANDI への提出前にデータセットを検証する際に使用します。  
+PyBIDS を用いてファイルやサイドカ―メタデータを検索する際に使用します。  
+BIDS 派生データを書き込む際に使用します。  
+細胞外 Neuropixels 解析には、代わりに neuropixels-analysis を使用してください。

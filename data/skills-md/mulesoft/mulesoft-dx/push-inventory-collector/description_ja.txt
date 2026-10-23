@@ -1,0 +1,16 @@
+顧客がホストするコレクタースクリプトを 1 つ生成し、エージェント、MCP サーバー、または REST API を一覧表示し、各アセット ZIP を POST /push でアップロードし、最後に POST /commit で完了させます。  
+
+**トリガー条件**: ユーザーが在庫のプッシュを要求したとき、プッシュスクリプトの生成を依頼したとき、"How to Push" と尋ねたとき、セルフマネージドスキャナーについて言及したとき、またはコレクタースキルのダウンロードを求めたとき。  
+
+**トリガーフレーズ** 例:  
+- 「push inventory」  
+- 「generate a push script」  
+- 「How to Push」  
+- 「self-managed scanner」  
+- 「collector skill」  
+- 「POST /push」  
+- 「POST /commit」  
+
+**トリガーしない条件**: プルスキャナーの作成（skill setup-service-scanner）や、ホストされたスキャンの実行（skill run-service-scan-and-view-results）を行う場合。  
+
+常にユーザーの言語で応答してください。

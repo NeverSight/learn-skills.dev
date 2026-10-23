@@ -1,0 +1,3 @@
+使用目的は、ルーティング可能な sObject（Case | Incident | MessagingSession | VoiceCall）に対して、Salesforce 組織内に正確に 1 つの ServiceChannel が存在することを保証することです。既にその sObject にバインドされている標準またはカスタムチャネルを再利用し、存在しない場合にのみ標準テンプレートをデプロイします。Salesforce は RelatedEntity ごとに 1 つの ServiceChannel を強制するため、スキルはまず Tooling API で検出します。標準チャネルは Case（Cases）、MessagingSession（sfdc_livemessage）、VoiceCall（sfdc_phone）に対して提供されますが、Incident には標準チャネルがありません。トリガー：Case/Incident/Messaging/Voice のルーティング用に ServiceChannel を構成し、Omni に Incident または Voice のルーティングを追加します。以下の目的で使用しないでください：sObject ごとの容量調整（PresenceUserConfig.Capacity を使用）、誤設定されたチャネルを標準形にリセットすること、Case/Incident/MessagingSession/VoiceCall 以外の sObject 用。
+
+必ずユーザーの言語で応答してください。

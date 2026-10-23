@@ -1,0 +1,3 @@
+タスクが欠落している情報や未検証の情報（未文書化のプロトコル、未知の API 形状、実機／本番でしか確認できない値）によりブロックされた場合、現在未知に依存しないすべてを構築し、未知の部分を単一のアダプタ境界の背後に隔離する—ベストギャスのデフォルト＋検証フラグ＋適合／アダプトキット—ことで、後での適応はプロジェクト全体を書き直すのではなく、1 つのファイルを編集するだけで済むようにする。ユーザーが「làm những gì có thể trước」「build what we can now」「wrap the unknowns」「isolate/quarantine the unknown parts」「don't block on missing info」「adapter so we can swap later」「ready to adapt」と言ったとき、または /build-now-adapt-later を呼び出したときにトリガーされる。仕様に ⚠️「to be verified」項目があり、作業の大部分が実際にはそれに依存していない場合にも適用される。
+
+常にユーザーの言語で回答してください。

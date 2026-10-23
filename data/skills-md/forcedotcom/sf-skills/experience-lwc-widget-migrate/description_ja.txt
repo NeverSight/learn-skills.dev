@@ -1,0 +1,5 @@
+特定の既存 Lightning Web Component (LWC) を宣言的 HXL／Agentforce ウィジェットへエンドツーエンドで変換する。experience‑lwc‑widget‑assess でゲートし、ウィジェットが LWC の目的を果たせない場合は停止する；それ以外の場合は派生したフィールド形状を platform‑widget‑generate に渡し、ウィジェットを Lightning Type レンダラーとして配線する。  
+TRIGGER（トリガー）される条件: ユーザーが LWC を変換、移行、ポート、再構築、または名前付き LWC をウィジェットまたは宣言的 Agentforce ウィジェットにしたい、あるいは既存の LWC コンポーネントから構築されたウィジェットを要求する場合。  
+DO NOT TRIGGER（トリガーしない）条件: ユーザーが LWC がウィジェットになり得るかだけ知りたい場合（experience‑lwc‑widget‑assess を使用）、または既存の LWC がないデータ形状、エンティティ、または Lightning Type 向けのウィジェットが欲しい場合（platform‑widget‑generate または platform‑lightning‑type‑widget‑coordinate を使用）。  
+
+常にユーザーの言語で回答してください。
