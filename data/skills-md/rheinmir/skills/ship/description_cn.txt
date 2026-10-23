@@ -1,0 +1,19 @@
+工作流完成 PUSH/RELEASE/PR/MR —— 当用户提及 “release”“push”“ship”“lên release”“mở PR”“tạo MR” 时调用。  
+在推送前运行检查清单条件：  
+（1）medic --ci（健康检查端口：law bite/drift/docs/code/eval）  
+（2）UAT /fdk-uat 在真实远程上运行，如果差异包含新功能（仅用于 release/pr/mr，medic --ci 无法证明 curl 路径）  
+（3）git 干净（scratchpad/ephemeral 不被跟踪）  
+（4）自检  
+（5）版本号 x.x.x+1 来自最近的 tag（仅用于 release 级别）  
+（6）补丁说明/PR 正文真实（Added/Fixed/Removed/Known-limitations，禁止夸大）  
+
+支持 5 种模式：  
+“ship push” = 只推送不打标签；  
+“ship release” = 推送 + 打标签 vX.Y.Z + 发布说明；  
+“ship pr” = 推送分支 + gh pr create（GitHub）；  
+“ship mr” = 推送分支 + glab mr create（GitLab）；  
+“ship merge” = 列出远程仓库的待合并 PR/MR，拉取分支，运行 gate+test，仅在测试通过（绿色）时合并。  
+
+STOP：在副作用步骤前等待审批。  
+
+触发词：/ship、“release”、“push”、“ship”、“mở PR”、“tạo MR”、“ship pr”、“ship mr”、“ship merge”、“gom PR về merge”、“merge PR nếu test xanh”、“chuẩn bị push”、“lên release”、“checklist trước push”、“đủ điều条件 push chưa”。

@@ -1,0 +1,1 @@
+通过 datamol Python 库（import datamol as dm）封装 RDKit，用于分子化学信息学，返回原生的 rdkit.Chem.Mol 对象。涵盖 SMILES/SELFIES/InChI 转换、净化与标准化、描述符、指纹及相似性、Butina 聚类和多样子集选择、Bemis‑Murcko 骨架、BRICS/RECAP 片段化、3D 构象、反应、SDF/CSV/Excel 输入输出（包括云路径）以及并行批处理。适用于从外部来源解析或标准化 SMILES、为化合物库计算描述符或指纹、进行聚类或挑选多样分子、进行基于骨架的训练/测试划分，或生成构象。适用于使用 n_jobs 运行分子处理流水线的情况。如需细粒度控制或自定义参数，请直接使用 RDKit。

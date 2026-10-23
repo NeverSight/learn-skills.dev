@@ -1,0 +1,1 @@
+标准的单细胞 RNA‑seq 分析流程。用于质量控制、归一化、降维（PCA/UMAP/t‑SNE）、聚类、差异表达、可视化，以及将 R 友好的单细胞格式（如 Seurat 或 SingleCellExperiment RDS 文件）转换为 Scanpy 使用的 h5ad。适合使用成熟工作流进行探索性 scRNA‑seq 分析。深度学习模型请使用 scvi‑tools；数据格式问题请使用 anndata。

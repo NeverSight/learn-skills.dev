@@ -1,0 +1,9 @@
+在NGS比对数据上运行deepTools命令行程序：bamCoverage和bamCompare用于将BAM转换为bigWig/bedGraph，并支持RPGC、CPM、RPKM或BPM归一化；multiBamSummary配合plotCorrelation和plotPCA；plotFingerprint；computeMatrix配合plotHeatmap和plotProfile；以及带--ATACshift选项的alignmentSieve。适用于：
+
+- 将BAM文件转换为归一化的覆盖轨迹。  
+- 检查ChIP‑seq质量或比较重复样本。  
+- 绘制TSS或峰区周围的信号。  
+- 比较处理组与对照组样本。  
+- 构建ChIP‑seq、RNA‑seq或ATAC‑seq覆盖率工作流。
+
+不用于峰调用或差异表达分析。

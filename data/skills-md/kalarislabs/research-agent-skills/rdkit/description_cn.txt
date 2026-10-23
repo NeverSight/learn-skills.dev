@@ -1,0 +1,1 @@
+本指南介绍了使用 RDKit（Python）进行 SMILES、MOL/SDF 和 InChI 的读取与写入，计算描述符（分子量、LogP、TPSA），生成 Morgan、MACCS、原子对指纹，执行 SMARTS 子结构搜索，应用反应 SMARTS，以及使用 ETKDG 构建 2D/3D 坐标。适用于在默认消毒失败时解析或消毒分子，计算 Tanimoto 相似度或对化合物进行聚类，按子结构筛选库，嵌入并优化构象，或计算 Murcko 骨架和分子哈希值的场景。当需要对消毒或算法进行细粒度控制时使用。本指南适用于这些高级需求；若是更简单的标准工作流，请使用 datamol（它对 RDKit 进行了封装）。

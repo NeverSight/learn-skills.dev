@@ -1,0 +1,1 @@
+使用 PyTDC 包（import tdc，Therapeutics Data Commons）从 tdc.metadata 中发现治疗机器学习任务，规划并加载已批准的数据集，应用任务感知的划分（random、scaffold、cold_split、combination、time），运行评估指标，评估基准组（如 admet_group），并进行有界分子 Oracle 评分。适用于选择 TDC 任务或数据集、规划无需下载的划分、使用 TDC 评估器对预测进行打分、执行基准组评估，或在下载前检查数据集许可证和缓存影响的情况。也可在使用 TDC Oracle（如 QED）对分子打分时使用。不适用于通用 RDKit 化学信息学或训练分子生成器。

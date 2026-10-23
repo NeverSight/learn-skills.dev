@@ -1,0 +1,1 @@
+检查并规划使用 Gtars（Rust/Python/CLI 工具包）进行基因组区间的工作：BED RegionSet 集合代数（reduce、setdiff、intersect、closest、cluster、gaps）、重叠计数、共识峰集、覆盖度、标记化、片段处理以及 refget/BEDbase 存储。适用于合并或比较 BED 区间集合、从峰中构建共识或全域、为机器学习模型标记化区域、处理片段文件或规划 refget 序列集合和 BEDbase 缓存使用的情况。在运行 gtars 之前检查 BED 坐标、染色体或链。不是用于通用的 BAM/VCF 处理；请使用 samtools 或 bedtools。

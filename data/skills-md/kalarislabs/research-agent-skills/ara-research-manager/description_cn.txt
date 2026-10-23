@@ -1,0 +1,1 @@
+在编码或研究会话结束时，通过扫描对话并将决策、实验、死路、转折、声明和启发式写入 ara/ 目录（exploration_tree.yaml、claims.md、heuristics.md、observations.yaml、session records），并为每条记录标记为 user、ai-suggested、ai-executed 或 user-revised，以记录研究溯源。任务完成且需要会话结语时使用。需要可审计的项目演变追踪时使用。需要对决策和死路进行带溯源的日志记录时使用。初始化 ara/ 目录时使用。不要在任务执行期间使用，因为它必须在请求完成后才运行。

@@ -1,0 +1,1 @@
+对具有剪接和未剪接层（来自 velocyto、STARsolo、kallisto|bustools 或 alevin-fry）的单细胞 RNA‑seq AnnData 对象执行 scVelo 的 RNA 速度分析。涵盖随机（stochastic）和动力学（dynamical）速度模型、速度图和嵌入箭头、潜在时间、PAGA 轨迹图以及驱动基因排名。适用于从快照数据推断分化方向、依据剪接动力学估计潜在时间、寻找轨迹的驱动基因，或在 Scanpy UMAP 上添加速度箭头。不用于命运概率建模（请使用 CellRank）或没有未剪接计数的数据集。

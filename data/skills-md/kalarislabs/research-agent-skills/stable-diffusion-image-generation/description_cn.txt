@@ -1,0 +1,1 @@
+通过 HuggingFace Diffusers 库使用 Stable Diffusion 模型（SD 1.5、SDXL、SD 3.0、Flux）生成图像，涵盖文本到图像、图像到图像、inpainting、outpainting、ControlNet 条件、LoRA 适配器、调度器切换以及 GPU 内存优化。在以下情况下使用：从文本提示生成图像、对已有图像进行转换或重新风格化、填补图像的遮罩区域、从边缘、姿势或深度图添加空间控制、加载 LoRA 风格适配器，或在 Diffusers 流程中修复内存不足和黑图像错误。不适用于仅通过 API、无 GPU 的生成场景，此时 DALL‑E 3 更为合适。
