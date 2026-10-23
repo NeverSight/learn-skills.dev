@@ -1,0 +1,6 @@
+Estrai il sistema di design ATTUALE di un progetto — dal codice (token di colore, scala di dimensioni, componenti) o dall’URL del sito in esecuzione, trasformandolo in UNA pagina HTML di riferimento in stile Figma UI kit: fondamenta + componenti raggruppati + layout di esempio mobile/desktop, modifica palette/illuminazione/formato, copia token/HTML/hex.  
+I valori vengono ottenuti ESEGUENDO la funzione dei token reali (o leggendo gli stili reali con Playwright) anziché inserirli manualmente;  
+effettua un CICLO di ESPLORAZIONE automatico seguendo i link + clicca per aprire le sezioni nascoste, elimina i duplicati secondo la firma, fermandosi quando tutto è armonizzato, e il GATE di COPERTURA garantisce che tutti i pattern trovati siano presenti nel kit (non fermarsi solo allo scheletro).  
+Esempio di output standard: references/ui-kit-reference.html.  
+ALTRO hallmark (creare/modificare un nuovo design): questa competenza si limita a COPIARE il sistema esistente, non a creare.  
+Attiva quando l’utente dice “ui kit”, “figma ui kit in html”, “estrai design system”, “pagina di riferimento componenti”, “design token page”, “component gallery”, “style guide dal codice”, “estrai questa pagina in html kit”, “arricchisci il kit”, o /ui-kit-from-code.
