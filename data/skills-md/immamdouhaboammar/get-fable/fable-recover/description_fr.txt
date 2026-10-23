@@ -1,0 +1,3 @@
+Diagnostiquez les échecs répétés de commandes, les caches de compilation obsolètes, la dérive de branche ou les preuves contradictoires avant d'essayer d'autres modifications de code. Utilisez-le lorsque les commandes échouent de manière récurrente, que les tests restent rouges après des tentatives de correction, que la sortie de construction contredit le code source ou que le chemin d'exécution est confus — même si l'utilisateur ne dit pas explicitement « fable-recover » (par ex. « toujours en échec », « pourquoi cela a encore échoué », « coincé dans une boucle d'échec », « diagnostiquez cette erreur »). N'UTILISEZ PAS pour les échecs de tests routiniers lors d'un premier test TDD (utilisez fable-tdd).
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
