@@ -1,0 +1,1 @@
+生成單行指令以追蹤 DMS 在後端（docker）日誌與前端代理上的 approve/return/reject 操作，並將指令寫入 .sh 檔案，供使用者複製貼上至正式伺服器。適用於使用者說「寫檢查 approve 的指令」、「檢查審核 request <CODE>」、「approve 卡住 / 看不到審核指令」或「/check-approve」等情況。

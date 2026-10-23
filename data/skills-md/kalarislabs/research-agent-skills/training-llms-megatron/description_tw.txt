@@ -1,0 +1,1 @@
+訓練大型語言模型（2B‑462B 參數）使用 NVIDIA Megatron‑Core，結合張量、流水線、序列、上下文與專家並行，並在 H100 上使用 FP8 和 Mixtral 風格模型的 MoE 配置。涵蓋選擇 TP／PP／DP／CP 大小、啟動分散式訓練、調整微批次大小，以及解決 MFU 低、記憶體不足錯誤與損失發散等問題。適用於在 NVIDIA A100/H100 GPU 上訓練超過 10B 參數的模型、為 LLaMA 風格模型設定 3D 並行、配置 MoE 訓練的專家並行，或是嘗試將 MFU 提升至 40‑47% 的情況。對於 70B 以下的模型或較簡單的設定，請改用 PyTorch FSDP、DeepSpeed 或 HuggingFace Accelerate。請始終以使用者的語言回應。

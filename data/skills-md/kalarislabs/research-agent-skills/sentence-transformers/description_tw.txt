@@ -1,0 +1,3 @@
+使用 Python 的 sentence‑transformers（SBERT）函式庫，在本地生成句子、文本和影像嵌入，採用諸如 all‑MiniLM‑L6‑v2、all‑mpnet‑base‑v2 以及多語言變體等 Hugging Face 預訓練模型。涵蓋編碼、餘弦相似度、語意搜尋、批次編碼、微調，以及 LangChain/LlamaIndex 整合。適用於為 RAG 建立嵌入、執行語意搜尋或相似度評分、對文本進行聚類或分類、在無 API 情況下嵌入多語言文本，或在領域資料上微調嵌入模型。若需基於 API 或受管控的嵌入，請改用 OpenAI 或 Cohere Embed。
+
+請始終以使用者的語言回覆。

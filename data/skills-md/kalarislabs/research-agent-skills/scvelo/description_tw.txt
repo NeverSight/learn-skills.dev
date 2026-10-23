@@ -1,0 +1,1 @@
+使用 scVelo 在具有已剪接與未剪接層（來自 velocyto、STARsolo、kallisto|bustools 或 alevin‑fry）的單細胞 RNA‑seq AnnData 物件上執行 RNA velocity 分析。涵蓋隨機與動態 velocity 模型、velocity 圖與嵌入箭頭、latent time、PAGA 軌跡圖以及驅動基因排序。適用於從快照資料推斷分化方向、根據剪接動力學估計 latent time、找出軌跡的驅動基因，或在 Scanpy UMAP 上加入 velocity 箭頭的情境。不是用於命運概率建模（請使用 CellRank）或沒有未剪接計數的資料集。

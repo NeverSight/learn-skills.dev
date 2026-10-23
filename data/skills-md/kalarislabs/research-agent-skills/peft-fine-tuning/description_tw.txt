@@ -1,0 +1,3 @@
+使用 Hugging Face PEFT 微調大型語言模型（LLM），採用 LoRA、QLoRA、IA3、AdaLoRA、前綴調整（prefix tuning）與提示調整（prompt tuning），使訓練的參數比例低於 1%。內容涵蓋秩（rank）、alpha 與目標模組選擇、適配器的載入與合併、多適配器服務，以及與 TRL SFTTrainer、Axolotl 與 vLLM 的整合。適用情境包括：在 GPU 記憶體受限的情況下微調 7B‑70B 參數模型、在單張 24GB GPU 上執行 QLoRA、選擇 LoRA 的秩與 alpha、對同一基礎模型進行適配器合併或切換，或在除錯 CUDA 記憶體不足（OOM）或適配器未生效時使用。**不適用**於對參數少於 1B 的小模型進行完整微調，或需要更新全部權重的情況。
+
+（請始終以使用者的語言回覆。）

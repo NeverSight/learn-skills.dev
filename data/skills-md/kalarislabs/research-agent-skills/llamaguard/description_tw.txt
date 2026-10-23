@@ -1,0 +1,3 @@
+使用 Meta 的 LlamaGuard（7B v1、8B v2 與 v3）對 LLM 提示與回應進行安全與非安全分類，涵蓋六大類別：暴力與仇恨、性內容、槍支與非法武器、管制物質、自殺與自我傷害，以及犯罪策劃。支援 HuggingFace Transformers 與 vLLM 推理、FastAPI 內容審查端點、Sagemaker 部署以及 NeMo Guardrails 整合。適用於在 LLM 呼叫前過濾使用者提示、在顯示前審查模型輸出、提供自建審查 API，或使用 vLLM 或量化技術降低審查模型的延遲與 GPU 記憶體占用。亦可於調整門檻值以減少誤報時使用。若需要更簡易的託管方案，可改用 OpenAI Moderation API。  
+
+請始終以使用者的語言回應。

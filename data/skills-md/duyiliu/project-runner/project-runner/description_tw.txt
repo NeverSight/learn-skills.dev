@@ -1,0 +1,1 @@
+代理驅動的本地項目啟動助理：能識別並啟動 Java/Spring Boot（包括獨立的 JRebel）、Python、Vue/React/Vite 以及其他 Node 前端，亦支援其他主流技術棧的項目，啟動它們、檢視日誌並驗證熱重載。當使用者想要啟動本地服務/項目、配置或排除 JRebel 故障、檢視執行時日誌，或開啟本地 Web 管理控制台（manager UI，預設固定於 http://127.0.0.1:8199）時使用；已實作跨項目運行管理與唯讀管理控制台（manager.mjs list/status/start/stop/restart/remove/prune/logs/ui），用法請參見第 8 章（見 references/manager.md）。

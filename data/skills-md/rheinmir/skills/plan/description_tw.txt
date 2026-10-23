@@ -1,0 +1,1 @@
+將已獲批准的草案 SPEC 擴展為可執行的計畫 — 檔案 `DDMMYY-<名稱>-PLAN.md`，即使一個毫無上下文的 agent（以低成本的 headless CLI 執行，無法再次詢問）仍能正確完成：正確的檔案路徑、Interfaces（Consumes/Produces）區塊為相鄰任務聲明簽名、全面的原文複制約束，以及每一步 2–5 分鐘的 TDD 風格，包含實際程式碼 + 執行指令 + 預期輸出。於 `/propose` 之後、使用者在入口審核後，**在**分派任務給 agent 之前呼叫。觸發詞 — 「寫 plan」、「將 proposal 擴展為 plan」、「執行 plan」、「為 agent 準備簡報」或「/plan」。不可用於設計或詢問需求（那是 `/propose` 的功能），亦不可在未取得批准的 SPEC 時使用。

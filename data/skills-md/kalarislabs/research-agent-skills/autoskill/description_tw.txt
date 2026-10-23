@@ -1,0 +1,3 @@
+透過 screenpipe 觀察使用者的螢幕，偵測重複的研究工作流程，將其與現有的 research‑agent‑skills 進行比對，並為尚未涵蓋的模式草擬新技能（或串接既有技能的組合配方）。當使用者要求分析近期的工作並根據實際操作提出技能建議時使用。需要在本機的 3030 埠上執行 screenpipe daemon（https://github.com/screenpipe/screenpipe）——此技能沒有其他資料來源，若無法連線到 screenpipe 將會拒絕執行。所有偵測皆在本地端完成；只有經過遮蔽的叢集摘要會傳送給 LLM。
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,1 @@
+使用 PyTDC 套件（import tdc，Therapeutics Data Commons）從 tdc.metadata 發掘治療領域的機器學習任務，規劃並載入已批准的資料集，套用任務感知的切分方式（random、scaffold、cold_split、combination、time），執行評估指標，評估如 admet_group 等基準群組，並執行受限的分子 Oracle 計分。適用於選取 TDC 任務或資料集、規劃無需下載的切分、使用 TDC 評估器對預測進行計分、執行基準群組評估、或在下載前檢查資料集授權與快取影響。適用於使用 TDC Oracle（如 QED）為分子計分。非用於一般的 RDKit 化學資訊學或訓練分子生成器。

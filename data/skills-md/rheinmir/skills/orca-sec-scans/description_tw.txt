@@ -1,0 +1,1 @@
+使用 Trivy 進行程式碼安全掃描 — 若未安裝則自行檢查/安裝 Trivy，掃描後端/前端的漏洞、錯誤設定與機密資訊，輸出 JSON+HTML 報告，摘要 HIGH/CRITICAL，並提出/套用修正（升級相依、使用非 root 的 USER）。除 static Trivy 掃描外，還驗證開發者常見的錯誤預設假設（認證只在 UI、"內部應安全"、CORS、預設設定、部署分支錯位）透過真實請求。當使用者說「掃描安全性」、「trivy」、「scan vuln」、「security scan」、「check CVE」、「有漏洞嗎」、「安全嗎」或「/orca-sec-scans」時使用。

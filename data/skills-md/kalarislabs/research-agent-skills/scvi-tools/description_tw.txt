@@ -1,0 +1,1 @@
+使用 PyTorch 在 AnnData 或 MuData 單細胞資料上訓練與應用 scvi-tools 的機率深度生成模型（scVI、scANVI、totalVI、MultiVI、PeakVI、DestVI、Solo、CellAssign、MrVI 等）。涵蓋批次校正、資料整合、細胞類型註釋、機率差異表達，以及 scRNA‑seq、ATAC‑seq、CITE‑seq、空間與甲基化資料。於使用 scVI 整合批次或資料集、利用 scANVI 註釋細胞、共同建模 RNA 與蛋白質或 ATAC、去卷積空間斑點，或以不確定性測試差異表達時使用。若僅進行標準前處理與聚類流程，請改用 scanpy。
