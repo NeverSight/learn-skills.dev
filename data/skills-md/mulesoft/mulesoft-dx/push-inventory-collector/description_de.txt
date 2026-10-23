@@ -1,0 +1,3 @@
+Erstelle ein kundengehostetes Collector‑Skript, das Agenten, MCP‑Server oder REST‑APIs auflistet, jedes Asset‑ZIP mit POST /push hochlädt und anschließend mit POST /commit abschließt. AUSLÖSEN, wenn: der Benutzer nach dem Push von Inventar fragt, ein Push‑Skript generieren lässt, „How to Push“, einen selbstverwalteten Scanner verwendet oder die Collector‑Skill herunterlädt. Auslöserphrasen sind u. a. „push inventory“, „generate a push script“, „How to Push“, „self-managed scanner“, „collector skill“, „POST /push“, „POST /commit“. NICHT AUSLÖSEN, wenn: ein Pull‑Scanner erstellt wird (Skill setup-service-scanner) oder ein gehosteter Scan durchgeführt wird (Skill run-service-scan-and-view-results).
+
+Bitte immer in der Sprache des Benutzers antworten.
