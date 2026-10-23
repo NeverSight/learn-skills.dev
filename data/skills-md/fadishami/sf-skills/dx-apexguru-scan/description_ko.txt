@@ -1,0 +1,3 @@
+Salesforce Apex 프로젝트에 대해 ApexGuru SFAP Scan API를 사용하여 ApexGuru 성능 스캔을 실행합니다. 프로젝트의 Apex(구조와 무관)를 압축(zip)하고 제출한 뒤 완료될 때까지 폴링(poll)하고, base64 보고서를 디코딩하여 성능 반패턴 위반 사항(SOQL in loop, DML in loop, Schema.getGlobalDescribe(), WHERE/LIMIT 없이 사용된 SOQL, 사용되지 않는 SOQL 필드)을 규칙별, 심각도, 파일:라인, 제안된 수정 사항과 함께 표시합니다 — ‘Static only’ 또는 ‘Production insights’로 명확히 구분됩니다. 사용자가 ‘run ApexGuru’, ‘ApexGuru scan’, ‘check Apex performance’, ‘find governor-limit / performance antipatterns’, ‘SOQL in loop’, ‘scan my Apex for performance’, 또는 ‘ApexGuru performance insights’ 라고 말할 때 TRIGGER합니다. 일반 정적 분석이나 보안 스캔(dx-code-analyzer-run 사용), 스캔 없이 코드 수정, 혹은 ApexGuru에 조직을 온보딩하는 경우에는 DO NOT TRIGGER합니다.
+
+항상 사용자의 언어로 응답하십시오.
