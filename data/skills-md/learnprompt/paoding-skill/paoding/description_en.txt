@@ -1,7 +1,5 @@
-Paoding — evidence‑driven blogger strategy distillation. It takes any blogger’s (including the user’s own) hit strategy, deconstructs it from real samples into a four‑layer structure (topic selection/structure/expression/cognition), and finally distills it into a screenshot‑able “Strategy Sheet” and an installable content‑coach skill.
-
-Defaults to zero API, zero key: users can feed pasted text / exported files / screenshots / links, or use yt‑dlp + local Whisper to fetch a public piece of content. When the user explicitly requests it or a locally configured key is available, it can enter “blade” mode: using TikHub to collect public metadata, text, comments, and video streams from Xiaohongshu/Douyin, then transcribe with local Whisper; TikHub imposes no hard caps on manual requests or fees, but retains balance checks, platform rate limits, limited retries, checkpointing, and sample‑quality gates.
-
-Trigger phrases include but are not limited to: “deconstruct this blogger”, “distill blogger XX”, “analyze why he went viral”, “load this blogger’s strategy into AI”, “learn from benchmark bloggers”, “help me see why my own content isn’t viral”, “content coach”, “viral strategy”, “deconstruct an account”, “break down this video account / spoken‑word blogger”, “the blogger has new content, help me update the strategy sheet (re‑cook)”. Even if the user just drops a bunch of screenshots or links of a blogger’s notes and says “help me see how he writes”, it should still trigger.
-
-Do not use for: crawling content that requires login to view, bypassing platform risk controls, bulk data collection for resale; do not use to generate content impersonating the blogger themselves (the distillation is about the strategy, not the identity); ordinary rewriting or polishing of a single article (that does not require deconstruction).
+庖丁(Paoding)——证据驱动的博主打法蒸馏。把任何博主(包括用户自己)的爆款打法,从真实样本里解牛成四层结构(选题/结构/表达/认知),最终蒸馏成一份可截图的《打法谱》和一个可安装的内容教练Skill。
+默认零API、零Key:用户可喂粘贴文本/导出文件/截图/链接,也可用 yt-dlp+本地whisper 代下一条公开内容。用户明确要求或本地已配置 key 时可进入开刃模式:用 TikHub 采集小红书/抖音公开元数据、正文、评论和视频流,再用本地 Whisper 转写;TikHub 不设人工请求/费用硬上限,但保留余额检查、平台限速、有限重试、断点和样本质量门。
+触发词包括但不限于:拆解这个博主、蒸馏博主XX、分析他为什么爆、把这个博主的打法装进AI、学对标博主、帮我看我自己的内容为什么不爆、内容教练、爆款打法、解牛一个账号、拆这个视频号/口播博主、博主有新内容了帮我更新打法谱(回锅)。
+即使用户只是丢来一堆某博主的笔记截图或链接说"帮我看看他怎么写的",也应该触发。
+不要用于:爬取需要登录才能看到的内容、绕过平台风控、批量采集数据转售;不要用于生成冒充博主本人的内容(蒸馏的是打法,不是身份);单篇文章的普通改写润色(那不需要解牛)。

@@ -1,0 +1,1 @@
+Quét biên giới agent-framework 30 ngày qua và đối chiếu overstack theo 8 trục (frontier-gap-scan runbook) — gọi INSTANT, không phải cron. Chạy 5 WebSearch, chấm Ngang/Chớm/Thua, diff kỳ trước, raise-issue cho gap mới / cập nhật gap đã có, cập nhật report. Trigger: 'frontier scan', 'quét đối thủ', 'scout tuần', 'chúng ta thua gì', '/frontier-scan'.
