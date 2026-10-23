@@ -1,0 +1,1 @@
+當捲動到時固定一個區段，然後透過 GSAP ScrollTrigger（pin + scrub + track 的 xPercent tween）將垂直捲動轉換為水平捲動。當使用者說「gsap scrolltrigger」「pin section」「cuộn ngang」「horizontal scroll section」「scroll‑driven horizontal」「pinned horizontal scroll」或輸入 /gsap‑scrolltrigger‑pin 時呼叫。不同於 `scroll‑effects`（7 種輕量 vanilla 效果，無相依性，未固定）以及 `lenis‑smooth‑scroll`（全頁平滑捲動，未固定/不改變捲動方向）——此技能需要 GSAP，且只套用於單一特定的固定區段。
