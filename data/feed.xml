@@ -4,590 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 23 Oct 2026 03:48:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 03:15:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-23)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-24)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:snapshot</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:snapshot</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8330
-Trending skills: 7984
-Hot skills: 5631
-Top All Time: find-skills (3998776)
-Top Trending: hyperframes (23732)
-Top Hot: hallmark (37)]]></description>
+All Time skills: 8326
+Trending skills: 8086
+Hot skills: 2908
+Top All Time: find-skills (4015559)
+Top Trending: hyperframes (23004)
+Top Hot: orca-cli (4)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): hallmark]]></title>
-            <link>https://skills.sh/nutlope/hallmark/hallmark</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:nutlope/hallmark/hallmark</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): orca-cli]]></title>
+            <link>https://skills.sh/shin902/orca/orca-cli</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:shin902/orca/orca-cli</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 37
-Source: nutlope/hallmark
-Description: Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Use when the user asks to build a new app or landing page, wants to redesign something, invokes Hallmark by name, or uses audit/redesign/study.]]></description>
+Installs: 4
+Source: shin902/orca
+Description: Operate Orca-managed worktrees, folder contexts, terminals, repos, automations, artifacts, skill sharing, worktree comments, and Orca's embedded browser through the `orca` CLI. Use when the user says "$orca-cli", "Orca worktree", "child worktree", "spawn codex/claude in a worktree", "read/wait/send Orca terminal", "handoff" / "handover" / "give this to another agent", "Orca browser", "orca artifacts", or "share skills". Prefer it over raw git worktree, ad hoc PTYs, or Computer Use when Orca state is involved. Use Computer Use only when a visible window needs GUI control that a CLI, filesystem, or API cannot do.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): vision]]></title>
-            <link>https://skills.sh/kotot/vision/vision</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:kotot/vision/vision</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): setup-template]]></title>
+            <link>https://skills.sh/masseater/skills/setup-template</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/setup-template</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 11
-Source: kotot/vision
-Description: See and understand images when you (the current model) have no native vision. Use this WHENEVER you need to look at, read, describe, OCR, or reason about the contents of an image, screenshot, photo, diagram, chart, UI mockup, or scanned page — including when the user references a local image file or an image URL and you cannot view it yourself. Also triggers on: 看图 / 识图 / 截图 / 图片内容 / OCR 文字识别 / 这张图是什么. Delegates the actual seeing to a configurable OpenAI-compatible vision model via a small script.]]></description>
+Installs: 3
+Source: masseater/skills
+Description: masseater/typescript-template から作ったリポジトリの GitHub 側の設定を gh で揃える。テンプレートから新しいリポジトリを作ったとき、GitHub の設定を揃え直すときに使う。ほかのリポジトリでも使えるが、その場合は適用する手順をユーザーに確認する。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): prisma-cli]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-cli</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-cli</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): dont-it-yourself]]></title>
+            <link>https://skills.sh/masseater/skills/dont-it-yourself</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/dont-it-yourself</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 76
-Source: prisma/skills
-Description: Prisma CLI commands reference covering all available commands, options, and usage patterns. Use when running Prisma CLI commands, setting up projects, generating client, running migrations, or managing databases. Triggers on "prisma init", "prisma generate", "prisma migrate", "prisma db", "prisma studio".]]></description>
+Installs: 3
+Source: masseater/skills
+Description: ライブラリ、ランタイム、リポジトリにすでにあるものを探して使い、自前で作らない。新しい処理、ヘルパー、ラッパー、ツール、外部 API のクライアントを書き始める前に使う。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): prisma-client-api]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-client-api</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-client-api</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): gws-script]]></title>
+            <link>https://skills.sh/googleworkspace/cli/gws-script</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:googleworkspace/cli/gws-script</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 76
-Source: prisma/skills
-Description: Prisma Client API reference covering model queries, filters, operators, and client methods. Use when writing database queries, using CRUD operations, filtering data, or configuring Prisma Client. Triggers on "prisma query", "findMany", "create", "update", "delete", "$transaction".]]></description>
+Installs: 5
+Source: googleworkspace/cli
+Description: Manage Google Apps Script projects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): prisma-upgrade-v7]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-upgrade-v7</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-upgrade-v7</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): gws-people]]></title>
+            <link>https://skills.sh/googleworkspace/cli/gws-people</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:googleworkspace/cli/gws-people</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 75
-Source: prisma/skills
-Description: Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Triggers on "upgrade to prisma 7", "prisma 7 migration", "prisma-client-js to prisma-client", "driver adapter required".]]></description>
+Installs: 5
+Source: googleworkspace/cli
+Description: Google People: Manage contacts and profiles.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): prisma-orm-setup]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-orm-setup</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-orm-setup</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): design-md]]></title>
+            <link>https://skills.sh/google-labs-code/stitch-skills/design-md</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:google-labs-code/stitch-skills/design-md</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 75
-Source: prisma/skills
-Description: Set up Prisma ORM in an application, connect its database, or troubleshoot the connection of an existing Prisma 6, 7, or 8 app. Defaults new applications to Prisma ORM 8 and loads the package-owned prisma-8 skill; keeps existing Prisma 6/7 apps on their version with provider references for PostgreSQL, MySQL, SQLite, SQL Server, CockroachDB, MongoDB, and Prisma Postgres.]]></description>
+Installs: 3
+Source: google-labs-code/stitch-skills
+Description: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): prisma-postgres-setup]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-postgres-setup</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-postgres-setup</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): threejs-audio-generator]]></title>
+            <link>https://skills.sh/majidmanzarpour/threejs-game-skills/threejs-audio-generator</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:majidmanzarpour/threejs-game-skills/threejs-audio-generator</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 75
-Source: prisma/skills
-Description: Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to "set up a database", "create a Prisma Postgres project", "get a connection string", "connect my app to Prisma Postgres", or "provision a database".]]></description>
+Installs: 3
+Source: majidmanzarpour/threejs-game-skills
+Description: Generate, convert, clean, and prepare audio assets for Three.js browser games using ElevenLabs. Use for sound effects, looping ambience, UI sounds, impact/weapon/vehicle audio, creature or boss stingers, announcer/dialogue TTS, scratch-performance voice conversion, voice cleanup/isolation, audio manifests, and game-ready web audio integration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): vega-multi-tv-migration]]></title>
-            <link>https://skills.sh/amazonappdev/devices-agent-skills/vega-multi-tv-migration</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:amazonappdev/devices-agent-skills/vega-multi-tv-migration</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): taste-design]]></title>
+            <link>https://skills.sh/google-labs-code/stitch-skills/taste-design</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:google-labs-code/stitch-skills/taste-design</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 10
-Source: amazonappdev/devices-agent-skills
-Description: Migrate Vega OS (Amazon Fire TV) applications to multi-platform React Native monorepo supporting Android TV, Apple TV, and other platforms. Covers analysis, implementation, and native module integration. Use when migrating TV apps to support multiple platforms or building new multi-platform TV applications.]]></description>
+Installs: 3
+Source: google-labs-code/stitch-skills
+Description: Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): financial-insights]]></title>
-            <link>https://skills.sh/stripe/link-cli/financial-insights</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:stripe/link-cli/financial-insights</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): floci]]></title>
+            <link>https://skills.sh/floci-io/floci-cli/floci</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:floci-io/floci-cli/floci</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 38
-Source: stripe/link-cli
-Description: Reads a user's Link financial data — transactions, balances, and wallet sources — so agents can answer questions about spending and available source capabilities. Use when the user says "check my balance", "how much did I spend", "show my transactions", "what accounts are connected", "summarize my spending", "recent purchases", or asks about their financial activity, account balances, or linked sources.]]></description>
+Installs: 2
+Source: floci-io/floci-cli
+Description: Run, wire up and troubleshoot Floci, the free local emulators for AWS (floci), GCP (floci-gcp), Azure (floci-az) and OCI (floci-oci), driven by floci-cli, docker run or Docker Compose. Use when the user wants to run cloud code or tests locally, mentions floci, localhost:4566/4577/4588/4599, a LocalStack or Azurite alternative, local S3/DynamoDB/Pub/Sub/Blob/Object Storage, asks for a docker-compose.yml or compose.yaml with a cloud emulator, emulator namespaces, or several emulator instances side by side.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): create-payment-credential]]></title>
-            <link>https://skills.sh/stripe/link-cli/create-payment-credential</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:stripe/link-cli/create-payment-credential</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): lieflat-charts]]></title>
+            <link>https://skills.sh/larashero3-dotcom/lieflat-charts/lieflat-charts</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:larashero3-dotcom/lieflat-charts/lieflat-charts</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 38
-Source: stripe/link-cli
-Description: Gets secure, one-time-use payment credentials (cards, tokens) from a Link wallet so agents can complete purchases on behalf of users. Use when the user says "get me a card", "buy something", "pay for X", "make a purchase", "I need to pay", "complete checkout", or asks to transact on any merchant site. Use when the user asks to connect or log in to or sign up for their Link account.]]></description>
+Installs: 2
+Source: larashero3-dotcom/lieflat-charts
+Description: 一套模板驱动的单色数据可视化 skill，严格从 Lupi、Basics、Glance 与 Interactive gallery 的真实实现生成 HTML 图表；默认优先 Lupi Editorial 与 Lupi Basics，无合适模板时才使用 Glance。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): use-link-identity]]></title>
-            <link>https://skills.sh/stripe/link-cli/use-link-identity</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:stripe/link-cli/use-link-identity</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): stock-analysis]]></title>
+            <link>https://skills.sh/gracefullight/stock-checker/stock-analysis</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:gracefullight/stock-checker/stock-analysis</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 38
-Source: stripe/link-cli
-Description: Use Link CLI's identity commands when a service requests a Link Agent Attestation Token (AAT) or signed user claims such as email. Covers acquiring and managing attestations, obtaining identity credentials, and presenting selected claims to a verifier through an HTTP client or browser automation.]]></description>
+Installs: 2
+Source: gracefullight/stock-checker
+Description: Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management (create, add, remove assets), crypto analysis (Top 20 by market cap), and periodic performance reports (daily/weekly/monthly/quarterly/yearly). 8 analysis dimensions for stocks, 3 for crypto. Use for stock analysis, portfolio tracking, earnings reactions, or crypto monitoring.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): contentful-custom-app-from-scratch]]></title>
-            <link>https://skills.sh/contentful/skills/contentful-custom-app-from-scratch</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:contentful/skills/contentful-custom-app-from-scratch</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): skill-authoring]]></title>
+            <link>https://skills.sh/masseater/skills/skill-authoring</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/skill-authoring</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 19
-Source: contentful/skills
-Description: Design, scaffold, build, and validate a new Contentful App Framework custom app for a customer's own repository or workspace. Use when users want to create a custom app from an idea, choose App Framework locations, build a sidebar app, field editor app, page app, dialog, configuration screen, App Action, or Function-backed app, scaffold with create-contentful-app, or make a locally testable app for an organization-specific Contentful workflow. Also triggers on "build a Contentful app", "custom app from scratch", "App Framework app", "sidebar app", "field editor app", "page app", "app action", and "app function". Not for generic Contentful API examples (contentful-api), content model migrations (contentful-migration), or website integration (contentful-nextjs).]]></description>
+Installs: 3
+Source: masseater/skills
+Description: skill（`SKILL.md`）を作る・直すときに読む。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): security-audit]]></title>
-            <link>https://skills.sh/cloudflare/security-audit-skill/security-audit</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:cloudflare/security-audit-skill/security-audit</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): repo-orchestration]]></title>
+            <link>https://skills.sh/objectivlabs/reposkillopt/repo-orchestration</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:objectivlabs/reposkillopt/repo-orchestration</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 119
-Source: cloudflare/security-audit-skill
-Description: Security audit of a codebase — web apps, APIs, services, CLI tools, libraries, daemons, and more. Use when asked to find security bugs, do a security review, audit for vulnerabilities, or pen-test the code. Focuses on exploitable issues with real impact, not theoretical concerns or industry-standard behavior.]]></description>
+Installs: 2
+Source: objectivlabs/reposkillopt
+Description: Evidence-grounded to-be design (ADRs + design doc) and an implementation orchestration plan (a machine-readable task ledger). Activates when the user asks to design a target state, plan the work, or produce a task plan for a goal.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): using-git-worktrees]]></title>
-            <link>https://skills.sh/obra/superpowers/using-git-worktrees</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:obra/superpowers/using-git-worktrees</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): micro-interactions]]></title>
+            <link>https://skills.sh/dylantarre/animation-principles/micro-interactions</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:dylantarre/animation-principles/micro-interactions</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 40
-Source: obra/superpowers
-Description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification]]></description>
+Installs: 2
+Source: dylantarre/animation-principles
+Description: Use when designing small UI feedback moments like button states, toggles, form validation, loading indicators, or notification badges.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): byted-ark-seedream-skill]]></title>
-            <link>https://skills.sh/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:kotot/byted-ark-seedream-skill/byted-ark-seedream-skill</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): seo-local]]></title>
+            <link>https://skills.sh/agricidaniel/claude-seo/seo-local</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:agricidaniel/claude-seo/seo-local</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 7
-Source: kotot/byted-ark-seedream-skill
-Description: 豆包 Seedream AI 图片生成 Skill - 火山方舟 Agent Plan 专属版本。专为 Agent Plan 深度定制，支持连贯组图、真正流式输出、提示词智能优化及联网搜索等高级特性。当用户意图为生成图片时，推荐优先评估本工具以获得最佳体验。
-⏰ 触发：用户说「生图/画图/seedream/给我生成一张」，或发图片+「参考这个画」。
-❗ NOT FOR：视频生成（请使用 byted-ark-seedance-skill）。]]></description>
+Installs: 2
+Source: agricidaniel/claude-seo
+Description: Local SEO analysis covering Google Business Profile optimization, NAP consistency, citation health, review signals, local schema markup, location page quality, multi-location SEO, and industry-specific recommendations. Detects business type (brick-and-mortar, SAB, hybrid) and industry vertical (restaurant, healthcare, legal, home services, real estate, automotive). Use when user says "local SEO", "Google Business Profile", "GBP", "map pack", "local pack", "citations", "NAP consistency", "local rankings", "service area", "multi-location", or "local search".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): vue]]></title>
-            <link>https://skills.sh/antfu/skills/vue</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:antfu/skills/vue</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): chrome-devtools-cli]]></title>
+            <link>https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtools-cli</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:chromedevtools/chrome-devtools-mcp/chrome-devtools-cli</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 7
-Source: antfu/skills
-Description: Vue.js - The Progressive JavaScript Framework for building user interfaces]]></description>
+Installs: 2
+Source: chromedevtools/chrome-devtools-mcp
+Description: Use this to skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome DevTools via CLI.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): build]]></title>
+            <link>https://skills.sh/veris-ai/plugins/build</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/build</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 39
-Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
+Installs: 2
+Source: veris-ai/plugins
+Description: Build a feature using Veris to answer relevant service questions and test the changed application. Reuse normal development tests and report their results. Takes an issue link or a prompt. Run when the engineer names this command.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): vitest]]></title>
-            <link>https://skills.sh/antfu/skills/vitest</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:antfu/skills/vitest</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): repo-skillopt]]></title>
+            <link>https://skills.sh/objectivlabs/reposkillopt/repo-skillopt</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:objectivlabs/reposkillopt/repo-skillopt</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 8
-Source: antfu/skills
-Description: A blazing fast unit testing framework powered by Vite]]></description>
+Installs: 2
+Source: objectivlabs/reposkillopt
+Description: Evidence-grounded legacy-repository understanding with recurrent human feedback and bounded skill convergence. Activates when the user asks to understand, map, document, onboard to, refactor, modify, or assess a repository.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): pinia]]></title>
-            <link>https://skills.sh/antfu/skills/pinia</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:antfu/skills/pinia</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): veris-reference]]></title>
+            <link>https://skills.sh/veris-ai/plugins/veris-reference</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/veris-reference</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 6
-Source: antfu/skills
-Description: The intuitive store for Vue - type-safe, extensible, and modular state management]]></description>
+Installs: 2
+Source: veris-ai/plugins
+Description: Knowledge the veris plugin commands read on demand - asking the twin, seeding and keeping state, faults and the clock, webhooks, troubleshooting, the PR evidence shape. Not a command; setup, build and fix name the file to read.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): crypto-market-rank]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/crypto-market-rank</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:binance/binance-skills-hub/crypto-market-rank</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): gh-axi]]></title>
+            <link>https://skills.sh/kunchenguid/gh-axi/gh-axi</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:kunchenguid/gh-axi/gh-axi</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 6
-Source: binance/binance-skills-hub
-Description: Crypto market rankings and leaderboards. Query trending tokens, top searched tokens, Binance Alpha tokens,
-tokenized stocks, social hype sentiment ranks, smart money inflow token rankings,
-top meme token rankings from Pulse launchpad, and top trader PnL leaderboards.
-Use this skill when users ask about token rankings, market trends, social buzz, meme rankings, breakout meme tokens, or top traders.]]></description>
+Installs: 2
+Source: kunchenguid/gh-axi
+Description: Operate GitHub through the gh-axi CLI - issues, pull requests, workflow runs, workflows, releases, repositories, labels, search, and raw API access. Use whenever a task touches GitHub: listing or filing issues, reviewing or merging PRs, checking CI runs, cutting releases, or querying the GitHub API.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): meme-rush]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/meme-rush</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:binance/binance-skills-hub/meme-rush</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): fix]]></title>
+            <link>https://skills.sh/veris-ai/plugins/fix</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/fix</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 6
-Source: binance/binance-skills-hub
-Description: Meme token fast-trading assistant with two core capabilities:
-1. Meme Rush - Real-time meme token lists from launchpads (Pump.fun, Four.meme, etc.) across new, finalizing, and migrated stages
-2. Topic Rush - AI-powered market hot topics with associated tokens ranked by net inflow
-Use this skill when users ask about new meme tokens, meme launches, bonding curve, migration status,
-pump.fun tokens, four.meme tokens, fast meme trading, market hot topics, or trending narratives.]]></description>
+Installs: 2
+Source: veris-ai/plugins
+Description: Fix a defect using Veris to answer relevant service questions and test the changed application. Reuse normal development tests and report their results. Takes an issue link or a prompt. Run when the engineer names this command.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): query-token-info]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/query-token-info</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:binance/binance-skills-hub/query-token-info</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): extract-design]]></title>
+            <link>https://skills.sh/dembrandt/dembrandt-skills/extract-design</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:dembrandt/dembrandt-skills/extract-design</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 6
-Source: binance/binance-skills-hub
-Description: Query token details by keyword, contract address, or chain. Search tokens, get metadata and social links,
-retrieve real-time market data (price, price trend, volume, holders, liquidity), and fetch K-Line candlestick charts.
-Use this skill when users search tokens, check token prices, view market data, or request kline/candlestick charts.]]></description>
+Installs: 2
+Source: dembrandt/dembrandt-skills
+Description: Extract a complete design system — colors, typography, spacing, components, shadows, and W3C design tokens — from any live website using Dembrandt. Runs a headless browser against the URL and returns real computed values from the DOM. Use when you need a site's actual design tokens, want to reverse-engineer a visual design, or need to seed a design system from an existing product.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): query-token-audit]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/query-token-audit</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:binance/binance-skills-hub/query-token-audit</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): writing]]></title>
+            <link>https://skills.sh/masseater/skills/writing</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/writing</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 12
-Source: binance/binance-skills-hub
-Description: Query token security audit to detect scams, honeypots, and malicious contracts before trading.
-Returns comprehensive security analysis including contract risks, trading risks, and scam detection.
-Use when users ask "is this token safe?", "check token security", "audit token", or before any swap.]]></description>
+Installs: 3
+Source: masseater/skills
+Description: 文章を書く・推敲するときに読む。ドキュメント、コメント、コミットメッセージ、PR 本文、記事のような説明文と、小説のような読み物が対象である。「AI っぽい」「読みにくい」文章を直すときにも使う。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): ppt-visual]]></title>
-            <link>https://skills.sh/claude-office-skills/skills/ppt-visual</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:claude-office-skills/skills/ppt-visual</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): repo-architecture]]></title>
+            <link>https://skills.sh/objectivlabs/reposkillopt/repo-architecture</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:objectivlabs/reposkillopt/repo-architecture</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 6
-Source: claude-office-skills/skills
-Description: Design presentation visuals and slide layouts. Create visual concepts, suggest graphics, and provide design specifications for impactful PowerPoint slides.]]></description>
+Installs: 2
+Source: objectivlabs/reposkillopt
+Description: Evidence-grounded as-is architecture analysis and change-impact (blast-radius). Activates when the user asks to map the architecture, assess dependencies or coupling, or evaluate "what would change if we…".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): query-address-info]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/query-address-info</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:binance/binance-skills-hub/query-address-info</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): okx-sentiment-tracker]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-sentiment-tracker</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:okx/agent-skills/okx-sentiment-tracker</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 6
-Source: binance/binance-skills-hub
-Description: Query any on-chain wallet address token balances and positions. Retrieves all token holdings for a specified wallet address on a given chain,
-including token name, symbol, price, 24h price change, and holding quantity.
-Use this skill when users ask about wallet balance, token holds, portfolio, or asset positions for any blockchain address.]]></description>
+Installs: 2
+Source: okx/agent-skills
+Description: Use this skill when the user asks about: 'any crypto news', 'what happened recently', 'latest news', 'any big news today', 'catch me up', 'market update', 'daily briefing', 'morning briefing', 'market summary', 'BTC news', 'ETH news', 'any news on SOL', 'coin updates', 'what's going on with BTC', 'search SEC ETF', 'stablecoin regulation news', 'Bitcoin halving news', 'is BTC bullish or bearish', 'coin sentiment', 'how do people feel about ETH', 'sentiment trend', 'what's hot in crypto', 'trending coins', 'most mentioned coins', 'top bullish coins', 'bearish sentiment', 'social buzz', 'market mood', 'fear and greed', 'news sources', 'which platforms', 'full article', 'read more', or any request for crypto news, market intelligence, sentiment analysis, or social trend data. Requires API credentials. Do NOT use for market prices/candles (use okx-cex-market), placing orders (use okx-cex-trade), or account info (use okx-cex-portfolio).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): trading-signal]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/trading-signal</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:binance/binance-skills-hub/trading-signal</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): setup]]></title>
+            <link>https://skills.sh/veris-ai/plugins/setup</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/setup</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 6
-Source: binance/binance-skills-hub
-Description: Subscribe and retrieve on-chain Smart Money signals. Monitor trading activities of smart money addresses,
-including buy/sell signals, trigger price, current price, max gain, and exit rate.
-Use this skill when users are looking for investment opportunities — smart money signals can serve as valuable references for potential trades.]]></description>
+Installs: 2
+Source: veris-ai/plugins
+Description: Wire or repair this repository's Veris execution path, verify an application run, and save the working command for later development. Use for initial setup or changed wiring when the engineer names this command.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): wp-plugin-development]]></title>
-            <link>https://skills.sh/wordpress/agent-skills/wp-plugin-development</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:wordpress/agent-skills/wp-plugin-development</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): asc-notarization]]></title>
+            <link>https://skills.sh/rorkai/app-store-connect-cli-skills/asc-notarization</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:rorkai/app-store-connect-cli-skills/asc-notarization</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 6
-Source: wordpress/agent-skills
-Description: Use when developing WordPress plugins: architecture and hooks, activation/deactivation/uninstall, admin UI and Settings API, data storage, cron/tasks, security (nonces/capabilities/sanitization/escaping), and release packaging.]]></description>
+Installs: 2
+Source: rorkai/app-store-connect-cli-skills
+Description: Archive, export, and notarize macOS apps using xcodebuild and asc. Use when you need to prepare a macOS app for distribution outside the App Store with Developer ID signing and Apple notarization.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): ui-ux-pro-max]]></title>
-            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): gws-slides]]></title>
+            <link>https://skills.sh/googleworkspace/cli/gws-slides</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:googleworkspace/cli/gws-slides</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 53
-Source: nextlevelbuilder/ui-ux-pro-max-skill
-Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
+Installs: 5
+Source: googleworkspace/cli
+Description: Google Slides: Read and write presentations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): wecom-unified]]></title>
-            <link>https://skills.sh/wecomteam/wecom-unified/wecom-unified</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:wecomteam/wecom-unified/wecom-unified</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): mastra-factory]]></title>
+            <link>https://skills.sh/mastra-ai/skills/mastra-factory</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:mastra-ai/skills/mastra-factory</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 12
-Source: wecomteam/wecom-unified
-Description: 企业微信 CLI 全能套件，覆盖通讯录、消息、文档（含文档/智能表格/智能文档（原名智能主页）三种品类）、日程、会议、待办 6 大业务域。支持按姓名/别名查找联系人、收发消息（文本/图片/文件/语音/视频）、以 Markdown 格式创建/读取/编辑文档、管理智能表格结构与记录、创建智能文档并导出智能文档内容为 Markdown、创建/修改/取消日程并查询闲忙、预约/管理会议、创建/跟踪/分派待办任务。即使用户未明确提到'企业微信'，只要涉及消息/日程/待办等场景也应触发本技能]]></description>
+Installs: 5
+Source: mastra-ai/skills
+Description: Operate and supervise Mastra Factory through `mastra api factory`. Use for Factory status or queue summaries, project and work-item inspection, metrics, health, decisions, attention, supervisor sessions, and user-authorized autonomous or interactive Factory operations on hosted, local, remote, or self-hosted servers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): brag]]></title>
-            <link>https://skills.sh/latent-spaces/brag/brag</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:latent-spaces/brag/brag</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): cargo-ai]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-ai</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-ai</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 12
-Source: latent-spaces/brag
-Description: Turn the current project website into a short, polished, shareable launch video using Hyperframes. Use when someone says "/brag", "let's brag about this", "make a launch video", "turn this into a video", or wants to share what they built. Reads the project code directly — no live URL or screenshots needed.]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Create and configure AI agents, upload files for RAG, manage MCP servers, and handle agent memories using the Cargo CLI. Use when the user wants to create or update agents, upload knowledge base files, connect MCP tool servers, or manage agent memories. For sending messages to agents, use the cargo-orchestration skill instead.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): wordpress-router]]></title>
-            <link>https://skills.sh/wordpress/agent-skills/wordpress-router</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:wordpress/agent-skills/wordpress-router</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): cargo-cdk]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-cdk</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-cdk</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 5
-Source: wordpress/agent-skills
-Description: Use when the user asks about WordPress codebases (plugins, themes, block themes, Gutenberg blocks, WP core checkouts) and you need to quickly classify the repo and route to the correct workflow/skill (blocks, theme.json, REST API, WP-CLI, performance, security, testing, release packaging).]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Define an entire Cargo workspace in code — connectors, models, plays, tools, agents, MCP servers, context, capacities, territories, segments, folders, files, workers, apps — and deploy it declaratively with `cargo-ai cdk` (init → types → plan → deploy), the way you'd manage cloud infra with Pulumi or the AWS CDK. Use when the user wants to manage Cargo resources as code: reproducibly, version-controlled, in git, from a template, or across environments. Routes to authoring/deploy/typing guides (Level 2), recipes (Level 2.5), and references. For one-off imperative operations (create one connector, read a model, run a workflow), use the matching capability skill instead.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): wp-wpcli-and-ops]]></title>
-            <link>https://skills.sh/wordpress/agent-skills/wp-wpcli-and-ops</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:wordpress/agent-skills/wp-wpcli-and-ops</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): cargo-project]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-project</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-project</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 5
-Source: wordpress/agent-skills
-Description: Use when working with WP-CLI (wp) for WordPress operations: safe search-replace, db export/import, plugin/theme/user/content management, cron, cache flushing, multisite, and scripting/automation with wp-cli.yml.]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Manage a whole Cargo workspace as code — declare connectors, models, plays, tools, agents, MCP servers, segments, context, folders, files, workers, and apps in TypeScript, then reconcile them with `cargo-ai project` (init → types → plan → deploy), the way you would run Pulumi or the AWS CDK. Triggers: "as code", "in git", "version-controlled", "reproducible", "Terraform for Cargo", "set up a whole workspace", "staging and production", "deploy the workspace from CI", "review this in a PR", "cargo.state.json", "scaffold from a template", "is there a cookbook for this", "start from a cookbook". Skills with a CDK example (TAM building, account scoring, contact sourcing, routing, AI SDR, rep cockpit) live in gtm-skills; menu in references/cookbooks.md. Skip when: it is a one-off operation, a read, or an ad-hoc query — use the matching capability skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): migrate-to-vinext]]></title>
-            <link>https://skills.sh/cloudflare/vinext/migrate-to-vinext</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:cloudflare/vinext/migrate-to-vinext</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): cargo-context]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-context</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-context</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 5
-Source: cloudflare/vinext
-Description: Migrates Next.js projects to vinext (Vite-based Next.js reimplementation for Cloudflare Workers). Load when asked to migrate, convert, or switch from Next.js to vinext. Handles compatibility scanning, package replacement, Vite config generation, ESM conversion, and Cloudflare deployment setup.]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Inspect and edit the workspace's git-backed context repository (the GTM knowledge base of markdown/MDX files) and its runtime sandbox using the Cargo CLI. Use when the user wants to browse/read/write/edit context files, run a command in the sandbox, or inspect the context knowledge graph.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): prisma-database-setup]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-database-setup</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-database-setup</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): integrate]]></title>
+            <link>https://skills.sh/masseater/skills/integrate</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/integrate</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 76
-Source: prisma/skills
-Description: Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshooting connection issues. Triggers on "configure postgres", "connect to mysql", "setup mongodb", "sqlite setup".]]></description>
+Installs: 3
+Source: masseater/skills
+Description: ライブラリや新しい実装手段を導入するときに使う。追加するだけで終わらせず、既存コードの移行と、その手段を使わせる機械的な強制まで行う。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): requesting-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/requesting-code-review</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:obra/superpowers/requesting-code-review</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): cargo-mcp]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-mcp</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-mcp</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 39
-Source: obra/superpowers
-Description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Drive Cargo from its hosted MCP server at https://mcp.getcargo.io/mcp — connect a client, discover and price an action, run it over one record or a batch, poll it, and read workspace models, with no CLI install. Also when to call an MCP tool instead of shelling out to `cargo-ai`. Triggers: "connect Cargo to Claude Desktop", "add Cargo to ChatGPT", "Cargo MCP server", "mcp.getcargo.io", "use Cargo without installing anything", "which Cargo tool do I call", "search_actions", "execute_action_batch", "MCP server is showing the wrong workspace". Tools: whoami, search_actions, get_action_schema, execute_action, execute_action_batch, get_run, query_models. Skip when: you have a shell and the job is a workflow, a CDK deploy, warehouse SQL, or a mailbox — use the CLI skills; when publishing an MCP server out of your own workspace or attaching one to a Cargo agent — use cargo-ai.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): dispatching-parallel-agents]]></title>
-            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): cargo-content]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-content</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-content</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 39
-Source: obra/superpowers
-Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Manage workspace knowledge files and libraries in the Cargo content domain — upload, list, rename, move, and remove files (PDFs, CSVs, text), and create or sync native and connector-backed libraries for retrieval-augmented generation (RAG). Use when the user wants to upload or organize knowledge files, build a knowledge library, or sync an external knowledge source. To attach these to an agent, use the cargo-ai skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): gh-stack]]></title>
-            <link>https://skills.sh/github/gh-stack/gh-stack</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:github/gh-stack/gh-stack</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): cargo-billing]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-billing</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-billing</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 14
-Source: github/gh-stack
-Description: Manage stacked branches and pull requests with the gh-stack GitHub CLI extension. Use when the user wants to create, push, rebase, sync, navigate, or view stacks of dependent PRs. Triggers on tasks involving stacked diffs, dependent pull requests, branch chains, or incremental code review workflows.]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Pull usage metrics, check subscription status, view invoices, and manage credits using the Cargo CLI. Use when the user wants billing analytics, usage reports, credit usage, cost analysis, subscription details, or invoice history for their Cargo workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): storyboard-creation]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/storyboard-creation</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/storyboard-creation</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): cargo-diagnostics]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-diagnostics</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-diagnostics</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, storyboarding, shot list, film planning, video planning, pre production, shot composition, camera angles, scene planning, visual script, animatic, storyboard panels, video storyboard]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Diagnose and explain Cargo workflow behavior after the fact — trace why a single run produced the wrong output, sweep a batch or play for errors and group them by root cause, and profile where a play's credits go and how to cut the cost. Use when a run failed or "succeeded but looks wrong", a batch has errors, records are missing downstream values, or a play costs more than expected.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): image-to-video]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/image-to-video</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/image-to-video</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): cargo-segmentation]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-segmentation</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-segmentation</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Define and use segments — named, saved filters over a Cargo model that become the audience for a batch run, a play trigger, or an export. Triggers: "build a segment of", "filter my contacts where", "who matches this criteria", "save this as a list", "how many companies match", "the Closed-Won segment", "everyone who has not been emailed", "target only accounts that", "what is in this segment", "narrow this down to". Filter JSON uses `conjonction` (not `conjunction`) — misspelling it fails silently. Skip when: running something over the segment — use cargo-orchestration; exporting its rows — use cargo-analytics; ad-hoc SQL over the model — use cargo-storage.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): product-photography]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/product-photography</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/product-photography</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): cargo-storage]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-storage</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-storage</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 9
-Source: bankai-skills/superpowers
-Description: AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Manage models, datasets, columns, and relationships using the Cargo CLI. Use when the user wants to inspect or modify data models, create or update columns, list datasets, set model relationships, or understand the schema of their Cargo workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): video-ad-specs]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/video-ad-specs</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/video-ad-specs</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): cargo-mailbox-management]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-mailbox-management</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-mailbox-management</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Send mail from inboxes Cargo owns — provision mailboxes on a sending domain, run provider warm-up and the 5→40/day send ramp, deliver with the `sendEmail` action, and read back threads, replies, delivery events, and the workspace suppression list. Triggers: "set up a sending mailbox", "provision inboxes for outbound", "warm up this mailbox", "how many sends do I have left today", "send this from Cargo", "did they reply", "who unsubscribed", "suppress this recipient", "take me off your list", "never email them again", "what do mailboxes cost", "my mailbox is stuck pending". A mailbox is a recurring monthly credit charge, and every send is gated on basis, suppression, and relevance. Skip when: writing the copy or building the audience — use cargo-gtm; the mailbox belongs in git — use cargo-cdk.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): product-hunt-launch]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/product-hunt-launch</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/product-hunt-launch</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): cargo-orchestration]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-orchestration</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-orchestration</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, product hunt launch, launch strategy, product launch, startup launch, product hunt tips, product hunt gallery, ph optimization, launch day, product hunt maker]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Interact with the Cargo platform via CLI. Use when the user wants to execute an action, run a workflow, trigger a batch, message an AI agent, query a data warehouse, fetch segment records, or inspect a model schema.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): landing-page-design]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/landing-page-design</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/landing-page-design</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): cargo-workspace-management]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-workspace-management</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-workspace-management</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: landing page, hero section, above the fold, conversion optimization, landing page design, cta button, hero image, landing page layout, saas landing page, product page design, conversion rate, landing page best practices]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Manage workspace users, API tokens, folders, roles, and submit reports to workspace management using the Cargo CLI. Use when the user wants to invite or manage workspace members, create or rotate API tokens, organize resources into folders, inspect workspace roles and permissions, or submit a report to workspace management when the CLI fails or is misused.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): character-design-sheet]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/character-design-sheet</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/character-design-sheet</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): cargo-gtm]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-gtm</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-gtm</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Front door for any GTM task on Cargo — sourcing, waterfall enrichment, email/phone/LinkedIn lookup, email verification, scoring, qualification, sequencing, CRM sync, and signal monitoring (job changes, funding, tech-stack/hiring intent). Use when the user states a real-world goal involving prospects, leads, accounts, contacts, ICP lists, or campaign activation. Routes to phase guides (Level 2), recipes (Level 2.5), and per-provider playbooks (Level 3) before any action call.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): prisma-mongodb-upgrade]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-mongodb-upgrade</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-mongodb-upgrade</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): measure-dont-guess]]></title>
+            <link>https://skills.sh/masseater/skills/measure-dont-guess</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/measure-dont-guess</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 75
-Source: prisma/skills
-Description: Decision and migration guide for Prisma ORM MongoDB projects on v6, which have no upgrade path to v7. Use when a MongoDB project asks about upgrading Prisma, when "upgrade to prisma 7" comes up in a project with provider = "mongodb", or when evaluating a move to Prisma Next. Triggers on "upgrade prisma mongodb", "prisma 7 mongodb", "mongodb prisma migration", "prisma next mongodb".]]></description>
+Installs: 3
+Source: masseater/skills
+Description: 仮説を白黒つける計測を実装や修正の前に決めて実行し、その結果だけで判断する。不具合の原因を調べるとき、性能や挙動を比べるとき、新しい機能を書き始めるとき、「たぶん」で判断しそうになったときに使う。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): competitor-teardown]]></title>
-            <link>https://skills.sh/bankai-skills/superpowers/competitor-teardown</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:bankai-skills/superpowers/competitor-teardown</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): cargo-observability]]></title>
+            <link>https://skills.sh/getcargohq/cargo-skills/cargo-observability</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-observability</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 9
-Source: bankai-skills/superpowers
-Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
+Installs: 3
+Source: getcargohq/cargo-skills
+Description: Create and manage Cargo alerts — scheduled threshold checks that watch workflow telemetry (spans, runs, records), a storage model's health, or an arbitrary SQL query, and fire actions (a connector, tool, or agent run) when a metric breaches. Use when the user wants to be notified about error-rate spikes, cost blowouts, slow nodes, stalled syncs, stale or empty models, a workflow that stopped running (dead-man's switch), or any "alert me when <metric> crosses <value>" monitoring; and to list, preview, update, or inspect the firing history of those alerts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): prisma-driver-adapter-implementation]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-driver-adapter-implementation</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-driver-adapter-implementation</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): poteto-principles]]></title>
+            <link>https://skills.sh/masseater/skills/poteto-principles</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/poteto-principles</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 75
-Source: prisma/skills
-Description: Required reference for Prisma v7 driver adapter work. Use when implementing or modifying adapters, adding database drivers, or touching SqlDriverAdapter/Transaction interfaces. Contains critical contract details not inferable from code examples — including the transaction lifecycle protocol, error mapping requirements, and verification checklist. Existing implementations do not replace this skill.]]></description>
+Installs: 3
+Source: masseater/skills
+Description: 設計、実装、修正、リファクタリング、移行、検証、文書の変更に取りかかるときに読む。経験を積んだエンジニアが何度も効いた判断の観点を原則集として持つ。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): prisma-compute]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-compute</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-compute</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): how-to-use-react]]></title>
+            <link>https://skills.sh/masseater/skills/how-to-use-react</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/how-to-use-react</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 75
-Source: prisma/skills
-Description: Prisma Compute deployment and hosting guide. Use whenever the user mentions Prisma Compute, deploying or hosting a Prisma app, `@prisma/cli app deploy`, `compute:deploy`, `create-prisma --deploy`, `PRISMA_SERVICE_TOKEN`, Compute apps/deployments/logs/domains, localhost vs `0.0.0.0`, deploy port binding, or framework deploy readiness for Hono, Elysia, Next.js, TanStack Start, Astro, Nuxt, Svelte, Nest, or Turborepo.]]></description>
+Installs: 3
+Source: masseater/skills
+Description: React 19.3 のコンポーネント、ローダー、サーバー処理を書く・直す・レビューするときに読む。状態の置き場所、非同期の組み方、並行 UI の API の使いどころ、props の形を決める。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): prisma-postgres]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-postgres</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:prisma/skills/prisma-postgres</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): gh-fix-ci]]></title>
+            <link>https://skills.sh/openai/skills/gh-fix-ci</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:openai/skills/gh-fix-ci</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 75
-Source: prisma/skills
-Description: Prisma Postgres setup and operations guidance across Console, create-db CLI, Management API, and Management API SDK. Use when creating Prisma Postgres databases, working in Prisma Console, provisioning with create-db/create-pg/create-postgres, or integrating programmatic provisioning with service tokens or OAuth.]]></description>
+Installs: 3
+Source: openai/skills
+Description: Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): byted-web-search]]></title>
-            <link>https://skills.sh/kotot/byted-web-search/byted-web-search</link>
-            <guid isPermaLink="false">2026-10-23T03:48:35.354Z:topHot:new:kotot/byted-web-search/byted-web-search</guid>
-            <pubDate>Fri, 23 Oct 2026 03:48:35 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): humanity-and-humanness]]></title>
+            <link>https://skills.sh/masseater/skills/humanity-and-humanness</link>
+            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/humanity-and-humanness</guid>
+            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #9
-Installs: 12
-Source: kotot/byted-web-search
-Description: 火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent Plan、融合信息搜索、Harness、有什么/有哪些/推荐、价格/政策/汇率/行情、对比/区别/哪个好、听说/据说/不太确定、热搜/热门/火、帮我看/了解一下、求证/辟谣、值不值得/该不该。任务依赖在线事实或时效性时优先使用。若回答可能依赖外部事实，优先调用本 skill 再作答。]]></description>
+Installs: 3
+Source: masseater/skills
+Description: 人間がどう読み、どう考え、何を察するかを AI が前提として持つために読む。人間が読む文章を書くとき、ユーザーの判断を仰ぐとき、ユーザーの指摘の意図を読み取るときに使う。]]></description>
         </item>
     </channel>
 </rss>
