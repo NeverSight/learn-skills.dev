@@ -1,0 +1,3 @@
+離線調查 Netdata 支援套件——即 `netdata-support-bundle` 產生的壓縮檔——以說明單一主機的警報、資料遺失、收集器失敗、崩潰、高 CPU 或記憶體、串流、雲端申請、保留、儀表板可達性、權限、安裝與更新、容器與 Windows 問題。用於「分析此支援套件」、『客戶傳送了套件』、『這個套件說了什麼』、『為何此代理程式崩潰』、『為何此收集器沒有資料』、『為何警報未觸發』，或在閱讀 `MANIFEST.json`、`summary.txt`、`status-file.json`，或 `01-system` 至 `09-permissions` 目錄下的任何檔案時。**不**用於 `06-state/snmp-diagnostics` 內的 SNMP 證據（triage‑snmp‑diagnostics），不用於全 fleet 的崩潰或回歸叢集（triage‑agent‑events），不用於對代理或雲端的即時查詢（query‑netdata‑agents、query‑netdata‑cloud），也不用於變更套件的收集器本身。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,1 @@
+當使用者請求從其他代理獲得第二意見審核時使用（例如「取得第二意見」、「使用 pi 進行審核」、「使用 gpt-6-astra 進行審核」、/second‑opinion），或在 review‑code 使用 `--second‑opinion` 時使用。於 review‑code 功能啟動全新的 pi 工作階段（若已在 pi 中則使用 Claude Code），並轉傳其審核結果。請始終以使用者的語言回覆。

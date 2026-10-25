@@ -1,0 +1,1 @@
+在使用 genesis 建立的專案 (services/<app>-server Go API、services/<app>-web pnpm React 應用) 加入 GitHub Actions CI/CD 時使用。會詢問 CD 目標 (Railway、Kubernetes、VM + Overwatcher) 與分支模型 (main = production，或 main = staging + release = production)，然後產生一個使用 needs 連結的 ci.yml，使 GitHub 顯示單一的管線圖。請始終以使用者的語言回覆。
