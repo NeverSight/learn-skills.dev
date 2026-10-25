@@ -1,0 +1,1 @@
+用于在 iOS 27.1 上构建、迁移或审查 iPhone Duo（具有外部和内部显示屏的可折叠 iPhone）应用的入口点。当 SwiftUI、UIKit 或 AVFoundation 应用需要处理设备的打开、关闭、折叠或旋转；折叠分区和相机遮挡（保留区域）；ArrangementView 或 UIArrangementViewController；垂直方向上的导航栏、工具栏和标签栏；铰链状态；Split View 和多场景；相机方向；或 CameraCaptureAccessory 时使用。建立 Xcode 27.1 工具链基线，然后将工作各部分路由到针对性的 iphone‑duo‑* 技能。

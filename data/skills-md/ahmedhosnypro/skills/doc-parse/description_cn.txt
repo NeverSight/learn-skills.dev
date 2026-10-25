@@ -1,0 +1,3 @@
+通过已配置的 document-parse 接口，将文档图像（幻灯片、扫描件、表单、表格、图表、渲染页面）解析为结构化的 Markdown，使用 nemotron-parse 模型家族。用户要求从文档图像或渲染页面提取、OCR 或解析文本时使用；批量解析页面图像目录时使用；通过网关或解析 API 运行文档解析时使用；或需要审计/验证解析输出相对于源图像的忠实度时使用。触发词：“parse this document/slide/image/page”（解析此文档/幻灯片/图像/页面）、“extract text from this image”（从此图像提取文本）、“OCR these pages”（对这些页面进行 OCR）、“document parsing”（文档解析）、“nemotron-parse”（nemotron-parse）、“parse through the router”（通过路由器解析）、“audit this parse output”（审计此解析输出）、“transcribe this slide”（转录此幻灯片）。请勿用于审计渲染的 UI 视图或艺术作品构图（该任务由 visual-judge / image-analysis 通道负责），也不要用于音视频转录，或用于 PDF 直接二进制摄取——该模型家族每次调用仅处理一张渲染的页面图像，故 PDF 必须先渲染为页面图像。  
+
+请始终使用用户的语言回复。
