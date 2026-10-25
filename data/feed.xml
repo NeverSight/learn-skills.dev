@@ -4,573 +4,579 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 24 Oct 2026 03:15:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 03:11:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-24)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-25)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:snapshot</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:snapshot</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8326
-Trending skills: 8086
-Hot skills: 2908
-Top All Time: find-skills (4015559)
-Top Trending: hyperframes (23004)
-Top Hot: orca-cli (4)]]></description>
+All Time skills: 8330
+Trending skills: 8113
+Hot skills: 5499
+Top All Time: find-skills (4029541)
+Top Trending: ai-image-generation (19638)
+Top Hot: remotion-to-hyperframes (267)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): orca-cli]]></title>
-            <link>https://skills.sh/shin902/orca/orca-cli</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:shin902/orca/orca-cli</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): remotion-to-hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/remotion-to-hyperframes</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:heygen-com/hyperframes/remotion-to-hyperframes</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 4
-Source: shin902/orca
-Description: Operate Orca-managed worktrees, folder contexts, terminals, repos, automations, artifacts, skill sharing, worktree comments, and Orca's embedded browser through the `orca` CLI. Use when the user says "$orca-cli", "Orca worktree", "child worktree", "spawn codex/claude in a worktree", "read/wait/send Orca terminal", "handoff" / "handover" / "give this to another agent", "Orca browser", "orca artifacts", or "share skills". Prefer it over raw git worktree, ad hoc PTYs, or Computer Use when Orca state is involved. Use Computer Use only when a visible window needs GUI control that a CLI, filesystem, or API cannot do.]]></description>
+Installs: 267
+Source: heygen-com/hyperframes
+Description: Translate a Remotion (React-based) video composition into a HyperFrames HTML composition. Use when (1) the user provides Remotion source (`.tsx` files using `useCurrentFrame`, `Sequence`, `AbsoluteFill`, `interpolate`, `spring`, `staticFile`, etc.) and asks to port, convert, or migrate it to HyperFrames; (2) the user pastes a Remotion entry point (`Root.tsx`, `Composition`) and wants HTML; (3) the user links a Remotion repo and asks for the HyperFrames equivalent; (4) the user says "port my Remotion project", "translate this Remotion code", "rewrite as HTML", or "I have a Remotion comp, make it HyperFrames". Skill detects unsupported patterns (useState, useEffect with side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda` features) and recommends the runtime interop escape hatch instead of attempting a lossy translation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): setup-template]]></title>
-            <link>https://skills.sh/masseater/skills/setup-template</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/setup-template</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): ai-music]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/ai-music</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:gencraft-labs/skills/ai-music</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 3
-Source: masseater/skills
-Description: masseater/typescript-template から作ったリポジトリの GitHub 側の設定を gh で揃える。テンプレートから新しいリポジトリを作ったとき、GitHub の設定を揃え直すときに使う。ほかのリポジトリでも使えるが、その場合は適用する手順をユーザーに確認する。]]></description>
+Installs: 613
+Source: gencraft-labs/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): dont-it-yourself]]></title>
-            <link>https://skills.sh/masseater/skills/dont-it-yourself</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/dont-it-yourself</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): hyperframes-registry]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:heygen-com/hyperframes/hyperframes-registry</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 3
-Source: masseater/skills
-Description: ライブラリ、ランタイム、リポジトリにすでにあるものを探して使い、自前で作らない。新しい処理、ヘルパー、ラッパー、ツール、外部 API のクライアントを書き始める前に使う。]]></description>
+Installs: 528
+Source: heygen-com/hyperframes
+Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): gws-script]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-script</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:googleworkspace/cli/gws-script</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #12
-Installs: 5
-Source: googleworkspace/cli
-Description: Manage Google Apps Script projects.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#13): gws-people]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-people</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:googleworkspace/cli/gws-people</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 5
-Source: googleworkspace/cli
-Description: Google People: Manage contacts and profiles.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#14): design-md]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/design-md</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:google-labs-code/stitch-skills/design-md</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 3
-Source: google-labs-code/stitch-skills
-Description: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#15): threejs-audio-generator]]></title>
-            <link>https://skills.sh/majidmanzarpour/threejs-game-skills/threejs-audio-generator</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:majidmanzarpour/threejs-game-skills/threejs-audio-generator</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #15
-Installs: 3
-Source: majidmanzarpour/threejs-game-skills
-Description: Generate, convert, clean, and prepare audio assets for Three.js browser games using ElevenLabs. Use for sound effects, looping ambience, UI sounds, impact/weapon/vehicle audio, creature or boss stingers, announcer/dialogue TTS, scratch-performance voice conversion, voice cleanup/isolation, audio manifests, and game-ready web audio integration.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#16): taste-design]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/taste-design</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:google-labs-code/stitch-skills/taste-design</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): impeccable]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/impeccable</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:pbakaus/impeccable/impeccable</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 3
-Source: google-labs-code/stitch-skills
-Description: Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.]]></description>
+Installs: 81
+Source: pbakaus/impeccable
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics. Use when the user asks to build web components, pages, artifacts, posters, or applications, or when any design skill requires project context. Call with 'craft' to run the full shape-then-build flow, or 'teach' for design context setup.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): floci]]></title>
-            <link>https://skills.sh/floci-io/floci-cli/floci</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:floci-io/floci-cli/floci</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #17
-Installs: 2
-Source: floci-io/floci-cli
-Description: Run, wire up and troubleshoot Floci, the free local emulators for AWS (floci), GCP (floci-gcp), Azure (floci-az) and OCI (floci-oci), driven by floci-cli, docker run or Docker Compose. Use when the user wants to run cloud code or tests locally, mentions floci, localhost:4566/4577/4588/4599, a LocalStack or Azurite alternative, local S3/DynamoDB/Pub/Sub/Blob/Object Storage, asks for a docker-compose.yml or compose.yaml with a cloud emulator, emulator namespaces, or several emulator instances side by side.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#18): lieflat-charts]]></title>
-            <link>https://skills.sh/larashero3-dotcom/lieflat-charts/lieflat-charts</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:larashero3-dotcom/lieflat-charts/lieflat-charts</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 2
-Source: larashero3-dotcom/lieflat-charts
-Description: 一套模板驱动的单色数据可视化 skill，严格从 Lupi、Basics、Glance 与 Interactive gallery 的真实实现生成 HTML 图表；默认优先 Lupi Editorial 与 Lupi Basics，无合适模板时才使用 Glance。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#19): stock-analysis]]></title>
-            <link>https://skills.sh/gracefullight/stock-checker/stock-analysis</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:gracefullight/stock-checker/stock-analysis</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
-Installs: 2
-Source: gracefullight/stock-checker
-Description: Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management (create, add, remove assets), crypto analysis (Top 20 by market cap), and periodic performance reports (daily/weekly/monthly/quarterly/yearly). 8 analysis dimensions for stocks, 3 for crypto. Use for stock analysis, portfolio tracking, earnings reactions, or crypto monitoring.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): skill-authoring]]></title>
-            <link>https://skills.sh/masseater/skills/skill-authoring</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/skill-authoring</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): figma]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/figma</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:heygen-com/hyperframes/figma</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 3
-Source: masseater/skills
-Description: skill（`SKILL.md`）を作る・直すときに読む。]]></description>
+Installs: 228
+Source: heygen-com/hyperframes
+Description: Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → animatics (REST/CLI), and Figma Motion animations + shaders (MCP). Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): repo-orchestration]]></title>
-            <link>https://skills.sh/objectivlabs/reposkillopt/repo-orchestration</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:objectivlabs/reposkillopt/repo-orchestration</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 2
-Source: objectivlabs/reposkillopt
-Description: Evidence-grounded to-be design (ADRs + design doc) and an implementation orchestration plan (a machine-readable task ledger). Activates when the user asks to design a target state, plan the work, or produce a task plan for a goal.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): micro-interactions]]></title>
-            <link>https://skills.sh/dylantarre/animation-principles/micro-interactions</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:dylantarre/animation-principles/micro-interactions</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 2
-Source: dylantarre/animation-principles
-Description: Use when designing small UI feedback moments like button states, toggles, form validation, loading indicators, or notification badges.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): seo-local]]></title>
-            <link>https://skills.sh/agricidaniel/claude-seo/seo-local</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:agricidaniel/claude-seo/seo-local</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): remotion-best-practices]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 2
-Source: agricidaniel/claude-seo
-Description: Local SEO analysis covering Google Business Profile optimization, NAP consistency, citation health, review signals, local schema markup, location page quality, multi-location SEO, and industry-specific recommendations. Detects business type (brick-and-mortar, SAB, hybrid) and industry vertical (restaurant, healthcare, legal, home services, real estate, automotive). Use when user says "local SEO", "Google Business Profile", "GBP", "map pack", "local pack", "citations", "NAP consistency", "local rankings", "service area", "multi-location", or "local search".]]></description>
+Installs: 190
+Source: remotion-dev/skills
+Description: Best practices for Remotion - Video creation in React]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): chrome-devtools-cli]]></title>
-            <link>https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtools-cli</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:chromedevtools/chrome-devtools-mcp/chrome-devtools-cli</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): remotion-captions]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-captions</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-captions</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 2
-Source: chromedevtools/chrome-devtools-mcp
-Description: Use this to skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome DevTools via CLI.]]></description>
+Installs: 175
+Source: remotion-dev/skills
+Description: Dealing with captions in Remotion]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): build]]></title>
-            <link>https://skills.sh/veris-ai/plugins/build</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/build</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): ask-sonner]]></title>
+            <link>https://skills.sh/emilkowalski/skills/ask-sonner</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/ask-sonner</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 2
-Source: veris-ai/plugins
-Description: Build a feature using Veris to answer relevant service questions and test the changed application. Reuse normal development tests and report their results. Takes an issue link or a prompt. Run when the engineer names this command.]]></description>
+Installs: 72
+Source: emilkowalski/skills
+Description: Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts that don't appear, appear twice, lose their styles, ignore Tailwind classes, sit behind a modal, or don't follow dark mode.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): repo-skillopt]]></title>
-            <link>https://skills.sh/objectivlabs/reposkillopt/repo-skillopt</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:objectivlabs/reposkillopt/repo-skillopt</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): python-executor]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/python-executor</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/python-executor</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 2
-Source: objectivlabs/reposkillopt
-Description: Evidence-grounded legacy-repository understanding with recurrent human feedback and bounded skill convergence. Activates when the user asks to understand, map, document, onboard to, refactor, modify, or assess a repository.]]></description>
+Installs: 62
+Source: skills-shell/superpowers
+Description: Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): veris-reference]]></title>
-            <link>https://skills.sh/veris-ai/plugins/veris-reference</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/veris-reference</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): web-search]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/web-search</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/web-search</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 2
-Source: veris-ai/plugins
-Description: Knowledge the veris plugin commands read on demand - asking the twin, seeding and keeping state, faults and the clock, webhooks, troubleshooting, the PR evidence shape. Not a command; setup, build and fix name the file to read.]]></description>
+Installs: 62
+Source: skills-shell/superpowers
+Description: Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): gh-axi]]></title>
-            <link>https://skills.sh/kunchenguid/gh-axi/gh-axi</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:kunchenguid/gh-axi/gh-axi</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): agent-tools]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/agent-tools</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/agent-tools</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 2
-Source: kunchenguid/gh-axi
-Description: Operate GitHub through the gh-axi CLI - issues, pull requests, workflow runs, workflows, releases, repositories, labels, search, and raw API access. Use whenever a task touches GitHub: listing or filing issues, reviewing or merging PRs, checking CI runs, cutting releases, or querying the GitHub API.]]></description>
+Installs: 62
+Source: skills-shell/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): fix]]></title>
-            <link>https://skills.sh/veris-ai/plugins/fix</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/fix</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): infsh-cli]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/infsh-cli</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/infsh-cli</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 2
-Source: veris-ai/plugins
-Description: Fix a defect using Veris to answer relevant service questions and test the changed application. Reuse normal development tests and report their results. Takes an issue link or a prompt. Run when the engineer names this command.]]></description>
+Installs: 62
+Source: skills-shell/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): extract-design]]></title>
-            <link>https://skills.sh/dembrandt/dembrandt-skills/extract-design</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:dembrandt/dembrandt-skills/extract-design</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): remotion-render]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/remotion-render</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/remotion-render</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 2
-Source: dembrandt/dembrandt-skills
-Description: Extract a complete design system — colors, typography, spacing, components, shadows, and W3C design tokens — from any live website using Dembrandt. Runs a headless browser against the URL and returns real computed values from the DOM. Use when you need a site's actual design tokens, want to reverse-engineer a visual design, or need to seed a design system from an existing product.]]></description>
+Installs: 62
+Source: skills-shell/superpowers
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): writing]]></title>
-            <link>https://skills.sh/masseater/skills/writing</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/writing</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): slideshow]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/slideshow</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:heygen-com/hyperframes/slideshow</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 3
-Source: masseater/skills
-Description: 文章を書く・推敲するときに読む。ドキュメント、コメント、コミットメッセージ、PR 本文、記事のような説明文と、小説のような読み物が対象である。「AI っぽい」「読みにくい」文章を直すときにも使う。]]></description>
+Installs: 235
+Source: heygen-com/hyperframes
+Description: Author a HyperFrames slideshow composition — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching sequences, and hotspot navigation. Read when the request is to build or edit a slideshow, presentation, or pitch deck as a HyperFrames composition.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): repo-architecture]]></title>
-            <link>https://skills.sh/objectivlabs/reposkillopt/repo-architecture</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:objectivlabs/reposkillopt/repo-architecture</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): remotion-markup]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-markup</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-markup</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 2
-Source: objectivlabs/reposkillopt
-Description: Evidence-grounded as-is architecture analysis and change-impact (blast-radius). Activates when the user asks to map the architecture, assess dependencies or coupling, or evaluate "what would change if we…".]]></description>
+Installs: 172
+Source: remotion-dev/skills
+Description: Best practices for writing Remotion React Markup]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): okx-sentiment-tracker]]></title>
-            <link>https://skills.sh/okx/agent-skills/okx-sentiment-tracker</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:okx/agent-skills/okx-sentiment-tracker</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): remotion-create]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-create</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-create</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 2
-Source: okx/agent-skills
-Description: Use this skill when the user asks about: 'any crypto news', 'what happened recently', 'latest news', 'any big news today', 'catch me up', 'market update', 'daily briefing', 'morning briefing', 'market summary', 'BTC news', 'ETH news', 'any news on SOL', 'coin updates', 'what's going on with BTC', 'search SEC ETF', 'stablecoin regulation news', 'Bitcoin halving news', 'is BTC bullish or bearish', 'coin sentiment', 'how do people feel about ETH', 'sentiment trend', 'what's hot in crypto', 'trending coins', 'most mentioned coins', 'top bullish coins', 'bearish sentiment', 'social buzz', 'market mood', 'fear and greed', 'news sources', 'which platforms', 'full article', 'read more', or any request for crypto news, market intelligence, sentiment analysis, or social trend data. Requires API credentials. Do NOT use for market prices/candles (use okx-cex-market), placing orders (use okx-cex-trade), or account info (use okx-cex-portfolio).]]></description>
+Installs: 172
+Source: remotion-dev/skills
+Description: Creating a new Remotion video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): setup]]></title>
-            <link>https://skills.sh/veris-ai/plugins/setup</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:veris-ai/plugins/setup</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): remotion-docs]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-docs</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-docs</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 2
-Source: veris-ai/plugins
-Description: Wire or repair this repository's Veris execution path, verify an application run, and save the working command for later development. Use for initial setup or changed wiring when the engineer names this command.]]></description>
+Installs: 170
+Source: remotion-dev/skills
+Description: Search and fetch Remotion documentation pages]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): asc-notarization]]></title>
-            <link>https://skills.sh/rorkai/app-store-connect-cli-skills/asc-notarization</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:rorkai/app-store-connect-cli-skills/asc-notarization</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): remotion-multimedia]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-multimedia</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-multimedia</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 2
-Source: rorkai/app-store-connect-cli-skills
-Description: Archive, export, and notarize macOS apps using xcodebuild and asc. Use when you need to prepare a macOS app for distribution outside the App Store with Developer ID signing and Apple notarization.]]></description>
+Installs: 169
+Source: remotion-dev/skills
+Description: Interacting with Mediabunny]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): gws-slides]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-slides</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:googleworkspace/cli/gws-slides</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): animate-expo]]></title>
+            <link>https://skills.sh/emilkowalski/skills/animate-expo</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/animate-expo</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 5
-Source: googleworkspace/cli
-Description: Google Slides: Read and write presentations.]]></description>
+Installs: 73
+Source: emilkowalski/skills
+Description: Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): mastra-factory]]></title>
-            <link>https://skills.sh/mastra-ai/skills/mastra-factory</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:mastra-ai/skills/mastra-factory</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): remotion-render]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-render</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-render</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 5
-Source: mastra-ai/skills
-Description: Operate and supervise Mastra Factory through `mastra api factory`. Use for Factory status or queue summaries, project and work-item inspection, metrics, health, decisions, attention, supervisor sessions, and user-authorized autonomous or interactive Factory operations on hosted, local, remote, or self-hosted servers.]]></description>
+Installs: 172
+Source: remotion-dev/skills
+Description: Best practices for rendering videos]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): cargo-ai]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-ai</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-ai</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): remotion-maps]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-maps</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-maps</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Create and configure AI agents, upload files for RAG, manage MCP servers, and handle agent memories using the Cargo CLI. Use when the user wants to create or update agents, upload knowledge base files, connect MCP tool servers, or manage agent memories. For sending messages to agents, use the cargo-orchestration skill instead.]]></description>
+Installs: 170
+Source: remotion-dev/skills
+Description: Best practices for animating Maps in Remotion]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): cargo-cdk]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-cdk</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-cdk</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): review-animations]]></title>
+            <link>https://skills.sh/emilkowalski/skills/review-animations</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/review-animations</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Define an entire Cargo workspace in code — connectors, models, plays, tools, agents, MCP servers, context, capacities, territories, segments, folders, files, workers, apps — and deploy it declaratively with `cargo-ai cdk` (init → types → plan → deploy), the way you'd manage cloud infra with Pulumi or the AWS CDK. Use when the user wants to manage Cargo resources as code: reproducibly, version-controlled, in git, from a template, or across environments. Routes to authoring/deploy/typing guides (Level 2), recipes (Level 2.5), and references. For one-off imperative operations (create one connector, read a model, run a workflow), use the matching capability skill instead.]]></description>
+Installs: 81
+Source: emilkowalski/skills
+Description: Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): cargo-project]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-project</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-project</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): write-swift]]></title>
+            <link>https://skills.sh/emilkowalski/skills/write-swift</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/write-swift</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Manage a whole Cargo workspace as code — declare connectors, models, plays, tools, agents, MCP servers, segments, context, folders, files, workers, and apps in TypeScript, then reconcile them with `cargo-ai project` (init → types → plan → deploy), the way you would run Pulumi or the AWS CDK. Triggers: "as code", "in git", "version-controlled", "reproducible", "Terraform for Cargo", "set up a whole workspace", "staging and production", "deploy the workspace from CI", "review this in a PR", "cargo.state.json", "scaffold from a template", "is there a cookbook for this", "start from a cookbook". Skills with a CDK example (TAM building, account scoring, contact sourcing, routing, AI SDR, rep cockpit) live in gtm-skills; menu in references/cookbooks.md. Skip when: it is a one-off operation, a read, or an ad-hoc query — use the matching capability skill.]]></description>
+Installs: 70
+Source: emilkowalski/skills
+Description: How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): cargo-context]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-context</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-context</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): transitions-dev]]></title>
+            <link>https://skills.sh/jakubantalik/transitions.dev/transitions-dev</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:jakubantalik/transitions.dev/transitions-dev</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Inspect and edit the workspace's git-backed context repository (the GTM knowledge base of markdown/MDX files) and its runtime sandbox using the Cargo CLI. Use when the user wants to browse/read/write/edit context files, run a command in the sandbox, or inspect the context knowledge graph.]]></description>
+Installs: 17
+Source: jakubantalik/transitions.dev
+Description: Production-ready CSS transitions for web apps. Use when implementing notification badges, dropdowns, modals, panel reveals, page transitions, card resizes, number pop-ins, text swaps, icon swaps, success checks, avatar group hovers, or error state shakes. Triggers on "add a transition", "animate the dropdown", "make the modal open smoothly", "swap icon", "page slide", "stagger animation", "open / close transition", "make it animate", "tween the size", "fade between", "smooth open", "smooth close", "success animation", "checkmark animation", "confirmation animation", "form error", "shake on invalid", "validation feedback", "hover lift", "avatar stack hover", "chip group hover".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): integrate]]></title>
-            <link>https://skills.sh/masseater/skills/integrate</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/integrate</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): ai-image-generation]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:gencraft-labs/skills/ai-image-generation</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 3
-Source: masseater/skills
-Description: ライブラリや新しい実装手段を導入するときに使う。追加するだけで終わらせず、既存コードの移行と、その手段を使わせる機械的な強制まで行う。]]></description>
+Installs: 648
+Source: gencraft-labs/skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): cargo-mcp]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-mcp</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-mcp</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): emil-design-eng]]></title>
+            <link>https://skills.sh/emilkowalski/skills/emil-design-eng</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/emil-design-eng</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Drive Cargo from its hosted MCP server at https://mcp.getcargo.io/mcp — connect a client, discover and price an action, run it over one record or a batch, poll it, and read workspace models, with no CLI install. Also when to call an MCP tool instead of shelling out to `cargo-ai`. Triggers: "connect Cargo to Claude Desktop", "add Cargo to ChatGPT", "Cargo MCP server", "mcp.getcargo.io", "use Cargo without installing anything", "which Cargo tool do I call", "search_actions", "execute_action_batch", "MCP server is showing the wrong workspace". Tools: whoami, search_actions, get_action_schema, execute_action, execute_action_batch, get_run, query_models. Skip when: you have a shell and the job is a workflow, a CDK deploy, warehouse SQL, or a mailbox — use the CLI skills; when publishing an MCP server out of your own workspace or attaching one to a Cargo agent — use cargo-ai.]]></description>
+Installs: 89
+Source: emilkowalski/skills
+Description: This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): cargo-content]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-content</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-content</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): neon-postgres]]></title>
+            <link>https://skills.sh/neondatabase/agent-skills/neon-postgres</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:neondatabase/agent-skills/neon-postgres</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Manage workspace knowledge files and libraries in the Cargo content domain — upload, list, rename, move, and remove files (PDFs, CSVs, text), and create or sync native and connector-backed libraries for retrieval-augmented generation (RAG). Use when the user wants to upload or organize knowledge files, build a knowledge library, or sync an external knowledge source. To attach these to an agent, use the cargo-ai skill.]]></description>
+Installs: 78
+Source: neondatabase/agent-skills
+Description: Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js), Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): cargo-billing]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-billing</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-billing</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): pick-ui-library]]></title>
+            <link>https://skills.sh/emilkowalski/skills/pick-ui-library</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/pick-ui-library</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Pull usage metrics, check subscription status, view invoices, and manage credits using the Cargo CLI. Use when the user wants billing analytics, usage reports, credit usage, cost analysis, subscription details, or invoice history for their Cargo workspace.]]></description>
+Installs: 72
+Source: emilkowalski/skills
+Description: Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): cargo-diagnostics]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-diagnostics</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-diagnostics</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): tiktok-scraper]]></title>
+            <link>https://skills.sh/apidojo-io/social-media-skills/tiktok-scraper</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:apidojo-io/social-media-skills/tiktok-scraper</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Diagnose and explain Cargo workflow behavior after the fact — trace why a single run produced the wrong output, sweep a batch or play for errors and group them by root cause, and profile where a play's credits go and how to cut the cost. Use when a run failed or "succeeded but looks wrong", a batch has errors, records are missing downstream values, or a play costs more than expected.]]></description>
+Installs: 14
+Source: apidojo-io/social-media-skills
+Description: The best, fastest, and cheapest way to scrape TikTok — battle-tested by tens of thousands of customers including enterprise teams. Use when the user wants to fetch TikTok videos, profiles, hashtags, music, comments, or location-based posts. Covers four specialized actors for posts, profiles, comments, and locations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): cargo-segmentation]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-segmentation</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-segmentation</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): remotion-studio]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-studio</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:remotion-dev/skills/remotion-studio</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Define and use segments — named, saved filters over a Cargo model that become the audience for a batch run, a play trigger, or an export. Triggers: "build a segment of", "filter my contacts where", "who matches this criteria", "save this as a list", "how many companies match", "the Closed-Won segment", "everyone who has not been emailed", "target only accounts that", "what is in this segment", "narrow this down to". Filter JSON uses `conjonction` (not `conjunction`) — misspelling it fails silently. Skip when: running something over the segment — use cargo-orchestration; exporting its rows — use cargo-analytics; ad-hoc SQL over the model — use cargo-storage.]]></description>
+Installs: 171
+Source: remotion-dev/skills
+Description: Preview a Remotion video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): cargo-storage]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-storage</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-storage</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): improve-animations]]></title>
+            <link>https://skills.sh/emilkowalski/skills/improve-animations</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/improve-animations</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Manage models, datasets, columns, and relationships using the Cargo CLI. Use when the user wants to inspect or modify data models, create or update columns, list datasets, set model relationships, or understand the schema of their Cargo workspace.]]></description>
+Installs: 77
+Source: emilkowalski/skills
+Description: Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to "improve the animations", "audit the motion", "make this app feel better", or wants a roadmap of animation fixes rather than a review of a single diff.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): cargo-mailbox-management]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-mailbox-management</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-mailbox-management</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): neon]]></title>
+            <link>https://skills.sh/neondatabase/agent-skills/neon</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:neondatabase/agent-skills/neon</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Send mail from inboxes Cargo owns — provision mailboxes on a sending domain, run provider warm-up and the 5→40/day send ramp, deliver with the `sendEmail` action, and read back threads, replies, delivery events, and the workspace suppression list. Triggers: "set up a sending mailbox", "provision inboxes for outbound", "warm up this mailbox", "how many sends do I have left today", "send this from Cargo", "did they reply", "who unsubscribed", "suppress this recipient", "take me off your list", "never email them again", "what do mailboxes cost", "my mailbox is stuck pending". A mailbox is a recurring monthly credit charge, and every send is gated on basis, suppression, and relevance. Skip when: writing the copy or building the audience — use cargo-gtm; the mailbox belongs in git — use cargo-cdk.]]></description>
+Installs: 76
+Source: neondatabase/agent-skills
+Description: Overview of the Neon platform for apps and agents, spanning Postgres, Auth, Data API, and the new services: Object Storage, Compute Functions, and AI Gateway. Use whenever "Neon" is mentioned for an overview of how to work with Neon and how to get started. Otherwise, the individual capabilities are the triggers: "object storage" or "S3-compatible storage", "serverless functions", "background jobs", or "run code near my database", "AI gateway", "LLM proxy", "model routing", or "call an LLM" → AI Gateway; "database", "Postgres", or "authentication" → Postgres and Auth.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): cargo-orchestration]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-orchestration</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-orchestration</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): mobile-native]]></title>
+            <link>https://skills.sh/emilkowalski/skills/mobile-native</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:emilkowalski/skills/mobile-native</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Interact with the Cargo platform via CLI. Use when the user wants to execute an action, run a workflow, trigger a batch, message an AI agent, query a data warehouse, fetch segment records, or inspect a model schema.]]></description>
+Installs: 72
+Source: emilkowalski/skills
+Description: Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate "a website in a browser" from something that feels installed. Covers sticky hover states, tap highlight flashes, the 100vh bug, inputs that zoom the page, laggy taps, pull-to-refresh hijacking scroll, content under the notch, long-press selecting button text, carousels that scroll the wrong way, mismatched status bars, and the rule that you test on real hardware. Use when a web app is being built for or reviewed on mobile, when something "works in Chrome but feels wrong on my phone", when building a PWA, a bottom sheet, a carousel, a full-screen layout, or any touch interaction. For motion itself use animate; for React Native use animate-expo.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): cargo-workspace-management]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-workspace-management</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-workspace-management</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): ui-ux-pro-max]]></title>
+            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Manage workspace users, API tokens, folders, roles, and submit reports to workspace management using the Cargo CLI. Use when the user wants to invite or manage workspace members, create or rotate API tokens, organize resources into folders, inspect workspace roles and permissions, or submit a report to workspace management when the CLI fails or is misused.]]></description>
+Installs: 55
+Source: nextlevelbuilder/ui-ux-pro-max-skill
+Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): cargo-gtm]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-gtm</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-gtm</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): youtube-thumbnail-design]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/youtube-thumbnail-design</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/youtube-thumbnail-design</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Front door for any GTM task on Cargo — sourcing, waterfall enrichment, email/phone/LinkedIn lookup, email verification, scoring, qualification, sequencing, CRM sync, and signal monitoring (job changes, funding, tech-stack/hiring intent). Use when the user states a real-world goal involving prospects, leads, accounts, contacts, ICP lists, or campaign activation. Routes to phase guides (Level 2), recipes (Level 2.5), and per-provider playbooks (Level 3) before any action call.]]></description>
+Installs: 20
+Source: skills-shell/superpowers
+Description: YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimization. Triggers: youtube thumbnail, thumbnail design, video thumbnail, click through rate, ctr optimization, youtube cover, video cover image, thumbnail maker, thumbnail tips, youtube design, video preview image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): measure-dont-guess]]></title>
-            <link>https://skills.sh/masseater/skills/measure-dont-guess</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/measure-dont-guess</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): video-edit]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/video-edit</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:gencraft-labs/skills/video-edit</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 3
-Source: masseater/skills
-Description: 仮説を白黒つける計測を実装や修正の前に決めて実行し、その結果だけで判断する。不具合の原因を調べるとき、性能や挙動を比べるとき、新しい機能を書き始めるとき、「たぶん」で判断しそうになったときに使う。]]></description>
+Installs: 712
+Source: gencraft-labs/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): cargo-observability]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-observability</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:getcargohq/cargo-skills/cargo-observability</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): product-photography]]></title>
+            <link>https://skills.sh/skills-shell/superpowers/product-photography</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:skills-shell/superpowers/product-photography</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 3
-Source: getcargohq/cargo-skills
-Description: Create and manage Cargo alerts — scheduled threshold checks that watch workflow telemetry (spans, runs, records), a storage model's health, or an arbitrary SQL query, and fire actions (a connector, tool, or agent run) when a metric breaches. Use when the user wants to be notified about error-rate spikes, cost blowouts, slow nodes, stalled syncs, stale or empty models, a workflow that stopped running (dead-man's switch), or any "alert me when <metric> crosses <value>" monitoring; and to list, preview, update, or inspect the firing history of those alerts.]]></description>
+Installs: 20
+Source: skills-shell/superpowers
+Description: AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): poteto-principles]]></title>
-            <link>https://skills.sh/masseater/skills/poteto-principles</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/poteto-principles</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): ai-video-generation]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:gencraft-labs/skills/ai-video-generation</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 3
-Source: masseater/skills
-Description: 設計、実装、修正、リファクタリング、移行、検証、文書の変更に取りかかるときに読む。経験を積んだエンジニアが何度も効いた判断の観点を原則集として持つ。]]></description>
+Installs: 642
+Source: gencraft-labs/skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): how-to-use-react]]></title>
-            <link>https://skills.sh/masseater/skills/how-to-use-react</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/how-to-use-react</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): image-to-video]]></title>
+            <link>https://skills.sh/gencraft-labs/skills/image-to-video</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:gencraft-labs/skills/image-to-video</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 3
-Source: masseater/skills
-Description: React 19.3 のコンポーネント、ローダー、サーバー処理を書く・直す・レビューするときに読む。状態の置き場所、非同期の組み方、並行 UI の API の使いどころ、props の形を決める。]]></description>
+Installs: 569
+Source: gencraft-labs/skills
+Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): gh-fix-ci]]></title>
-            <link>https://skills.sh/openai/skills/gh-fix-ci</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:openai/skills/gh-fix-ci</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): reddit-automation]]></title>
+            <link>https://skills.sh/flowkit-labs/skills/reddit-automation</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:flowkit-labs/skills/reddit-automation</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 3
-Source: openai/skills
-Description: Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.]]></description>
+Installs: 671
+Source: flowkit-labs/skills
+Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): humanity-and-humanness]]></title>
-            <link>https://skills.sh/masseater/skills/humanity-and-humanness</link>
-            <guid isPermaLink="false">2026-10-24T03:15:56.390Z:topHot:new:masseater/skills/humanity-and-humanness</guid>
-            <pubDate>Sat, 24 Oct 2026 03:15:56 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): design-taste-frontend]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/design-taste-frontend</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:new:leonxlnx/taste-skill/design-taste-frontend</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #9
-Installs: 3
+Installs: 182
+Source: leonxlnx/taste-skill
+Description: Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#44): remotion-markup]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-markup</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topTrending:new:remotion-dev/skills/remotion-markup</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #44
+Installs: 5003
+Source: remotion-dev/skills
+Description: Best practices for writing Remotion React Markup]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#45): remotion-studio]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-studio</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topTrending:new:remotion-dev/skills/remotion-studio</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #45
+Installs: 5000
+Source: remotion-dev/skills
+Description: Preview a Remotion video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#47): remotion-docs]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-docs</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topTrending:new:remotion-dev/skills/remotion-docs</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #47
+Installs: 4948
+Source: remotion-dev/skills
+Description: Search and fetch Remotion documentation pages]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#48): remotion-multimedia]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-multimedia</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topTrending:new:remotion-dev/skills/remotion-multimedia</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #48
+Installs: 4935
+Source: remotion-dev/skills
+Description: Interacting with Mediabunny]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#49): remotion-upgrade]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-upgrade</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topTrending:new:remotion-dev/skills/remotion-upgrade</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #49
+Installs: 4918
+Source: remotion-dev/skills
+Description: Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills. Use when asked to upgrade or update a Remotion project.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): remotion-maps]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-maps</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topTrending:new:remotion-dev/skills/remotion-maps</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 4883
+Source: remotion-dev/skills
+Description: Best practices for animating Maps in Remotion]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank down (4 → 5): grill-with-docs]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topAllTime:rank:mattpocock/skills/grill-with-docs</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #4
+Current rank: #5
+Delta: -1
+Installs: 1223574 (prev 1218971)
+Source: mattpocock/skills
+Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank up (5 → 4): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topAllTime:rank:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #5
+Current rank: #4
+Delta: +1
+Installs: 1231062 (prev 1213518)
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (10 → 21): setup-template]]></title>
+            <link>https://skills.sh/masseater/skills/setup-template</link>
+            <guid isPermaLink="false">2026-10-25T03:11:33.949Z:topHot:rank:masseater/skills/setup-template</guid>
+            <pubDate>Sun, 25 Oct 2026 03:11:33 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #10
+Current rank: #21
+Delta: -11
+Installs: 31 (prev 3)
 Source: masseater/skills
-Description: 人間がどう読み、どう考え、何を察するかを AI が前提として持つために読む。人間が読む文章を書くとき、ユーザーの判断を仰ぐとき、ユーザーの指摘の意図を読み取るときに使う。]]></description>
+Description: masseater/typescript-template から作ったリポジトリの GitHub 側の設定を gh で揃える。テンプレートから新しいリポジトリを作ったとき、GitHub の設定を揃え直すときに使う。ほかのリポジトリでも使えるが、その場合は適用する手順をユーザーに確認する。]]></description>
         </item>
     </channel>
 </rss>
