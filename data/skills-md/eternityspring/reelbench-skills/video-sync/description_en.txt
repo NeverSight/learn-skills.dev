@@ -1,1 +1,12 @@
-Combine the clip‑analysis data with the original footage into a **viewable video**: one side shows the picture, the other side shows the storyboard information for that shot (shot number, start/end, duration, shot type, category, camera movement, visual description, dialogue), and **when the shot cuts, the information cuts together**; the shot list automatically scrolls and highlights the current shot. The layout depends only on the aspect ratio of the original footage: **landscape / square → picture on top, information below; portrait → picture on the left, information on the right**, and the picture is always scaled as‑is, without cropping or stretching. The shot list **scrolls with playback**: at each cut point it scrolls a short distance to bring the current shot to an anchor point, then stops, and the highlight bar slides synchronously past it. The implementation captures only three images (background + two unfolded long images); scrolling and highlighting are performed by ffmpeg using time‑based cropping, **the layout is entirely in scripts/panel.css, change it to modify the layout** without touching any scripts. It consumes the shots.json produced by video‑shots (if there are frames/, use keyframes as thumbnails). Zero npm dependencies, using ffmpeg for composition and a headless browser to render the panel. Use when asked to export video, compose video, storyboard video, video with shot information, narrated version, video with shot info, annotated shot video.
+把拉片数据和原片合成一条**能直接看的视频**：一边是画面，一边是这一镜的分镜信息
+（镜号、起止、时长、景别、类别、运镜、画面描述、台词），**镜头切了信息跟着切**，
+镜头表自动滚动并高亮当前这一镜。
+版式只看原片的宽高比：**横版 / 方版 → 画面在上、信息在下；竖版 → 画面在左、信息在右**，
+画面永远原样缩放，不裁不拉。
+镜头表**随播放滚动**：切点处滚一小段把当前镜头带到锚点、随后停住，高亮条同步滑过去。
+实现上只截三张图（底板 + 铺开的长图 ×2），滚动与高亮由 ffmpeg 按时间裁窗，
+**布局全在 scripts/panel.css 里，改它就能改版式**，不用碰脚本。
+吃 video-shots 产出的 shots.json（有 frames/ 就把关键帧当缩略图用）。
+零 npm 依赖，用 ffmpeg 合成、无头浏览器渲面板。
+Use when asked to 导出视频、合成视频、分镜视频、带分镜信息的视频、解说版视频、
+video with shot info、annotated shot video。

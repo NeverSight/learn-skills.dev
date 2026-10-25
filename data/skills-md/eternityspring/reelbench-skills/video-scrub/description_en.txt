@@ -1,13 +1,14 @@
-Rebuild a video into a clean file that contains only picture and sound — **no source metadata is transferred**:
-GPS, device model, account ID, creation time, chapters, GoPro telemetry tracks, all stay where they are.  
-We use a whitelist instead of a blacklist: we don’t list what to delete, we only specify what to bring over (one video stream, one audio stream).  
-Privacy guarantees come from the structure, not from enumeration.  
-The difficulty is not in the container tags, but in **the invisible layers**: x264 writes the full encoding parameters as SEI and stuffs them into the bitstream,  
-AAC writes the version number into DSE, avc1’s compressorname also contains a copy — `ffprobe` sees none of them.  
-The five hiding places are blocked one by one, each verified by tests.  
-Default `--mode copy`: **video is copied byte‑by‑byte** (verified with cmp), only audio is re‑encoded; a 53‑second clip finishes in 1.3 seconds;  
-`--mode encode` does a full re‑encode, removing even more bitstream‑level data.  
-Acceptance is not based on claims: we treat every metadata string from the source as a “needle” and perform a **byte‑level scan** in the output file,  
-as soon as we find one, it fails. All 12 checks are deterministically performed by scripts.  
-Zero dependencies, zero API key, only node and ffmpeg are needed.  
-Use when asked to clean metadata, remove metadata, erase video information, video privacy, remove watermark information, strip video metadata, remove exif from video, scrub video.
+把一条视频重建成「只有画面和声音」的干净文件——**源片的元数据一概不搬**：
+GPS、设备型号、账号 ID、创建时间、章节、GoPro 的遥测轨，全部留在原地。
+走的是白名单而不是黑名单：不列要删什么，只说带什么过去（画面一条流、声音一条流），
+隐私保证来自结构，不来自枚举。
+难点不在容器 tag，在**看不见的那几层**：x264 把完整编码参数写成 SEI 塞在码流里、
+AAC 把版本号写进 DSE、avc1 的 compressorname 里还有一份——`ffprobe` 一个都看不见。
+五个藏身处逐一堵死，每一处都有实测。
+默认 `--mode copy`：**画面逐字节照搬**（cmp 验证过），只重编音频，53 秒的片子 1.3 秒跑完；
+`--mode encode` 完整重编码，多杀掉码流域的东西。
+验收不靠声称：把源片所有元数据字符串当「针」，在输出文件里做**字节级扫描**，
+扎到一根就红。12 道门全部由脚本确定性检查。
+零依赖、零 API key，只要 node 和 ffmpeg。
+Use when asked to 清元数据、去元数据、抹掉视频信息、视频隐私、去水印信息、
+strip video metadata、remove exif from video、scrub video。
