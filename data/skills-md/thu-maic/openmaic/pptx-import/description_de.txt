@@ -1,0 +1,3 @@
+Es gibt eine hochgeladene .pptx-Datei in der Sitzung, und der Benutzer möchte dieses Folienset in eine bereits erstellte Lektion einfügen (zuerst create_stage verwenden, um die Lektion zu erstellen, dann import_pptx, um die Folien zu dieser Lektion hinzuzufügen, wobei das ursprüngliche Layout beibehalten wird; der Lektionstitel folgt create_stage, die PPT übernimmt ihn nicht). Anschließend jede Seite überprüfen (mit render_scene_preview rendern, falls verfügbar) und fehlerhafte Fälle korrigieren, die gesamte Lektion verstehen, bevor Narration/Spotlight geschrieben wird, und schließlich TTS generieren. Quizze oder interaktive Elemente nur einfügen, wenn der Benutzer sie anfordert. Die gesamte Lektion nicht neu planen.
+
+Bitte immer in der Sprache des Benutzers antworten.

@@ -1,0 +1,3 @@
+Verwenden, wenn GitHub‑Actions‑CI/CD zu einem mit Genesis scaffolgenden Projekt hinzugefügt wird (services/<app>-server Go‑API, services/<app>-web pnpm React‑App). Fragt nach dem CD‑Ziel (Railway, Kubernetes, VM + Overwatcher) und nach dem Branch‑Modell (main = Production oder main = Staging + release = Production) und erstellt anschließend eine `ci.yml`, die mittels `needs` verkabelt ist, sodass GitHub einen einzigen Pipeline‑Graphen anzeigt.  
+
+Bitte immer in der Sprache des Benutzers antworten.
