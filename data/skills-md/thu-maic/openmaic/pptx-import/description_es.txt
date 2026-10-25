@@ -1,0 +1,3 @@
+Hay un archivo .pptx cargado en la conversación y el usuario quiere insertar esta presentación en una lección ya creada (primero use create_stage para construir la lección, luego import_pptx para agregar las diapositivas a esa lección, conservando el diseño original; el título de la lección sigue a create_stage, y el PPT no la reemplaza). Después revise cada página (genere una vista previa si render_scene_preview está disponible) y corrija cualquier caso problemático, comprenda plenamente la lección antes de escribir la narración/enfoque, y finalmente genere TTS. Inserte un cuestionario o elemento interactivo solo cuando el usuario lo solicite. No replantee toda la lección.
+
+Por favor, responda siempre en el idioma del usuario.
