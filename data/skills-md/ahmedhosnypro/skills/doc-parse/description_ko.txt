@@ -1,0 +1,3 @@
+구성된 document-parse 엔드포인트를 통해 문서 이미지(슬라이드, 스캔, 양식, 표, 차트, 렌더링된 페이지)를 구조화된 마크다운으로 파싱합니다. 이는 nemotron-parse 모델 패밀리를 제공합니다. 사용자는 문서 이미지나 렌더링된 페이지에서 텍스트를 추출하거나 OCR을 수행하거나 파싱을 요청할 때, 페이지 이미지 디렉터리를 배치 파싱할 때, 게이트웨이나 파싱 API를 통해 문서 파싱을 실행할 때, 혹은 파싱 출력의 정확성을 원본 이미지와 대조하여 감사·검증하고자 할 때 이 기능을 사용합니다. 트리거: “parse this document/slide/image/page”, “extract text from this image”, “OCR these pages”, “document parsing”, “nemotron-parse”, “parse through the router”, “audit this parse output”, “transcribe this slide”. 렌더링된 UI 뷰나 아트워크 구성을 감사하는 경우(visual‑judge / image‑analysis 라인이 담당)나 오디오·비디오 전사, PDF를 바이너리 형태로 직접 입력하는 경우에는 사용하지 마세요 — 이 패밀리는 한 번에 하나의 렌더링된 페이지 이미지만 처리하므로 PDF는 먼저 페이지 이미지로 렌더링해야 합니다.
+
+항상 사용자의 언어로 응답하십시오.
