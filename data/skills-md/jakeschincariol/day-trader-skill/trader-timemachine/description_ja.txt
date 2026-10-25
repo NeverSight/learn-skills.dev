@@ -1,0 +1,3 @@
+タイムマシン。取引で1ドルもリスクを取る前に、あらゆる可能な結果を再生します：10,000回のシミュレーションセッションに加えて、過去に設定が発火したすべてのケース。trader‑exit（エントリー、ストップ、ターゲット）からプランを取得し、過去60日間の銘柄の5分足データを用いてその日の残りを10,000回再構築し、各過去セッションで同じルールを再実行します。ターゲットが先に達する確率、ストップが先に達する確率、またはクローズ時にどちらも達しなかった確率、クローズ時の価格、平均R、履歴、そして正直な評価を表示し、最後に /trader‑budget に引き渡します。ユーザーが「run the time machine」「replay this trade」「what are the odds」「simulate this trade」「monte carlo」「backtest this setup」「how often does this hit the target」「is this a coin flip」と言ったとき、または /trader‑exit がプランを書いた直後、/trader‑budget の前に使用してください。
+
+必ずユーザーの言語で応答してください。

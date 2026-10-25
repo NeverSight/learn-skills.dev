@@ -1,0 +1,3 @@
+RunComfy の `runcomfy` CLI を使用して、AI アバター、トーキングヘッド、リップシンク動画を作成します。ByteDance OmniHuman（音声駆動型フルボディアバター）、Wan‑AI Wan 2‑7（ポートレート上で `audio_url` による音声駆動口パク）、HappyHorse 1.0（Arena #1 の t2v / i2v、インパス音声付き）、および Seedance v2 Pro（リファレンス音声＋リファレンス対象によるマルチモーダルシネマティック）に対応。ユーザーの実際の意図―UGC ボイスオーバー、バーチャルプレゼンター、吹き替え製品デモ、リップシンクキャラクター、対話シーン―に合わせて適切なモデルを選択し、各モデルのドキュメント化されたプロンプトパターンと最小限の `runcomfy run` 呼び出しを提供します。「talking head」「lip sync」「avatar video」「make X speak」「audio to video」「audio driven avatar」「virtual presenter」「AI spokesperson」「dubbed video」「UGC avatar」「HeyGen alternative」「Synthesia alternative」「digital human」「make this portrait talk」「video from voiceover」または「顔に言葉を入れて」などの明示的な依頼があった場合にトリガーします。
+
+常にユーザーの言語で回答してください。
