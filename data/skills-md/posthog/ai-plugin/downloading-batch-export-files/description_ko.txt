@@ -1,1 +1,1 @@
-PostHog 이벤트, 사용자, 세션 또는 HogQL 쿼리 결과를 필요에 따라 내보내고 결과 파일을 다운로드하십시오. 사용자가 원시 PostHog 데이터를 다운로드/내보내 달라고 요청하거나, HogQL 쿼리 결과를 내보내거나, 일회성 파일 내보내기를 만들거나, Parquet 또는 JSONLines 내보내기를 가져오거나, file_download_batch_exports API를 사용할 때 사용합니다. 여기에는 MCP로 내보내기를 시작하고, 완료를 폴링하며, 기존 REST 리다이렉트 엔드포인트를 통해 다운로드하는 과정이 포함됩니다.
+필요에 따라 PostHog 이벤트, 사람, 세션 또는 HogQL 쿼리의 결과를 내보내고 결과 파일을 다운로드합니다. 사용자가 원시 PostHog 데이터를 다운로드/내보내거나, HogQL 쿼리 결과를 내보내거나, 일회성 파일 내보내기를 생성하거나, Parquet 또는 JSONLines 내보내기를 가져오거나, file_download_batch_exports API를 사용하도록 요청할 때 사용합니다. MCP로 내보내기 시작, 폴링 완료 및 기존 REST 리디렉션 엔드포인트를 통한 다운로드를 다룹니다.
