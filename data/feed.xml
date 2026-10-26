@@ -4,581 +4,580 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:52:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 03:06:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-25)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-26)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:snapshot</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:snapshot</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8332
-Trending skills: 8162
-Hot skills: 5255
-Top All Time: find-skills (4037468)
-Top Trending: ai-image-generation (19533)
-Top Hot: env-and-assets-bootstrap (255)]]></description>
+All Time skills: 8330
+Trending skills: 8152
+Hot skills: 1089
+Top All Time: find-skills (4042901)
+Top Trending: ai-image-generation (19428)
+Top Hot: skill-security (3)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): env-and-assets-bootstrap]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/env-and-assets-bootstrap</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/env-and-assets-bootstrap</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): skill-security]]></title>
+            <link>https://skills.sh/superagent-ai/skills/skill-security</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:superagent-ai/skills/skill-security</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 255
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.]]></description>
+Installs: 3
+Source: superagent-ai/skills
+Description: Audit an AI agent skill for security risks before installing or trusting it. Runs a deterministic scanner (regex patterns, Python AST analysis, source-to-sink taint tracking, and YARA signatures) and then reasons about intent — catching prompt injection, credential exfiltration, persistence, memory poisoning, malicious code, supply-chain risks, and description-vs-behavior mismatch. Make sure to use this skill whenever the user wants to scan, audit, vet, review, or check the safety of a skill, plugin, SKILL.md, or agent tool — whether it is a local folder, a zip/.skill file, or a cloned repo — and whenever someone asks "is this skill safe to install?".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): paper-context-resolver]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/paper-context-resolver</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/paper-context-resolver</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): n8n-validation-expert]]></title>
+            <link>https://skills.sh/czlonkowski/n8n-skills/n8n-validation-expert</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:czlonkowski/n8n-skills/n8n-validation-expert</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.]]></description>
+Installs: 1
+Source: czlonkowski/n8n-skills
+Description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation profiles, error types, or the validation loop process.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): explore-run]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/explore-run</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/explore-run</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): addresses]]></title>
+            <link>https://skills.sh/therealharpaljadeja/monskills/addresses</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:therealharpaljadeja/monskills/addresses</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Improve / Rigor Explore run leaf skill for bounded exploratory evidence in deep learning research repositories. Use when the researcher explicitly authorizes exploratory runs such as small-subset validation, short-cycle guess-and-check, batch sweeps, idle-GPU search, or quick transfer-learning trials, with fair-comparison caveats and no-overclaim summaries in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline execution, conservative training verification, default routing, verified SOTA claims, or implicit experimentation.]]></description>
+Installs: 1
+Source: therealharpaljadeja/monskills
+Description: Smart contract address for well known protocols on Monad. The addresses include testnet and mainnet smart contract addresses.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): cloudflare]]></title>
-            <link>https://skills.sh/cloudflare/skills/cloudflare</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:cloudflare/skills/cloudflare</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): cw-voice-check]]></title>
+            <link>https://skills.sh/everyinc/compound-writing/cw-voice-check</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:everyinc/compound-writing/cw-voice-check</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 59
-Source: cloudflare/skills
-Description: Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task.]]></description>
+Installs: 1
+Source: everyinc/compound-writing
+Description: Diagnose whether writing matches the active writer, project, publication, and platform voice context, then offer a closer revision. Use when the user asks whether text sounds like them, feels generic, or has drifted from an established voice.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): typescript-pro]]></title>
-            <link>https://skills.sh/jeffallan/claude-skills/typescript-pro</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:jeffallan/claude-skills/typescript-pro</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): cw-ai-check]]></title>
+            <link>https://skills.sh/everyinc/compound-writing/cw-ai-check</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:everyinc/compound-writing/cw-ai-check</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 16
-Source: jeffallan/claude-skills
-Description: Use when building TypeScript applications requiring advanced type systems, generics, or full-stack type safety. Invoke for type guards, utility types, tRPC integration, monorepo setup.]]></description>
+Installs: 1
+Source: everyinc/compound-writing
+Description: Scan or clean prose for AI-generated residue, including unsupported connective tissue, epistemic inflation, over-completed arguments, performed voice, formulaic structure, empty figurative language, stock phrasing, corporate abstraction, hedging, and false enthusiasm. Use for AI-smell cleanup, humanizing model-assisted prose, source-faithful drafting validation, writing polish, or pre-publication checks; enforce silently when composed into drafting or line editing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): workers-best-practices]]></title>
-            <link>https://skills.sh/cloudflare/skills/workers-best-practices</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:cloudflare/skills/workers-best-practices</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): n8n-subworkflows]]></title>
+            <link>https://skills.sh/czlonkowski/n8n-skills/n8n-subworkflows</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:czlonkowski/n8n-skills/n8n-subworkflows</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 57
-Source: cloudflare/skills
-Description: Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge.]]></description>
+Installs: 1
+Source: czlonkowski/n8n-skills
+Description: Build reusable, composable n8n sub-workflows. Use when extracting shared logic, building anything multi-step or reused across workflows, or any workflow over ~10 nodes — and whenever the user mentions sub-workflows, Execute Workflow, reuse, shared/common logic, modular workflows, "Define Below" inputs, waitForSubWorkflow, mode each vs all, or exposing a workflow as an agent tool. Covers typed sub-workflow inputs, all-vs-each execution, verb-first naming for discovery, stateless vs stateful design, and splitting by input shape.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): better-auth-security-best-practices]]></title>
-            <link>https://skills.sh/better-auth/skills/better-auth-security-best-practices</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:better-auth/skills/better-auth-security-best-practices</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): gsd-review-backlog]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-review-backlog</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-review-backlog</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 15
-Source: better-auth/skills
-Description: Configure rate limiting, manage auth secrets, set up CSRF protection, define trusted origins, secure sessions and cookies, encrypt OAuth tokens, track IP addresses, and implement audit logging for Better Auth. Use when users need to secure their auth setup, prevent brute force attacks, or harden a Better Auth deployment.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Review and promote backlog items to active milestone]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): email-and-password-best-practices]]></title>
-            <link>https://skills.sh/better-auth/skills/email-and-password-best-practices</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:better-auth/skills/email-and-password-best-practices</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): notion-spec-to-implementation]]></title>
+            <link>https://skills.sh/openai/skills/notion-spec-to-implementation</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:openai/skills/notion-spec-to-implementation</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 15
-Source: better-auth/skills
-Description: This skill provides guidance and enforcement rules for implementing secure email and password authentication using Better Auth.]]></description>
+Installs: 1
+Source: openai/skills
+Description: Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): meme-rush]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/meme-rush</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:binance/binance-skills-hub/meme-rush</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): gsd-execute-phase]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-execute-phase</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-execute-phase</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 15
-Source: binance/binance-skills-hub
-Description: Meme token fast-trading assistant with two core capabilities:
-1. Meme Rush - Real-time meme token lists from launchpads (Pump.fun, Four.meme, etc.) across new, finalizing, and migrated stages
-2. Topic Rush - AI-powered market hot topics with associated tokens ranked by net inflow
-Use this skill when users ask about new meme tokens, meme launches, bonding curve, migration status,
-pump.fun tokens, four.meme tokens, fast meme trading, market hot topics, or trending narratives.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Execute all plans in a phase with wave-based parallelization]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): alethe]]></title>
-            <link>https://skills.sh/kc1t/alethe-orchestrate-skill/alethe</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:kc1t/alethe-orchestrate-skill/alethe</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): mojo-syntax]]></title>
+            <link>https://skills.sh/modular/skills/mojo-syntax</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:modular/skills/mojo-syntax</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 10
-Source: kc1t/alethe-orchestrate-skill
-Description: Orchestrate bounded Codex, Claude Code, Agy, Kimi, or custom CLI workers to finish work with the least lead context and provider usage, following playbooks such as plan big, execute small. Use when the user asks to orchestrate, delegate, compare agents, conserve agent tokens or quota, recover a worker, report what an orchestration did and cost, or work without MCP or Python, when the user types /alethe or a short command such as "alethe report" or "alethe stop", and when they want it on from now on, at any point of a task and alongside other skills. Also use it proactively, without being asked, when a request is large enough to split into bounded independent units, such as a multi-file refactor, a migration, an audit or research across many files. Do not use for a small mechanical task unless explicitly requested.]]></description>
+Installs: 1
+Source: modular/skills
+Description: Help to write Mojo code using current syntax and conventions. Always use this skill when writing any Mojo code, including when other Mojo-specific skills (e.g., mojo-gpu-fundamentals) also apply. Use when writing Mojo code, translating projects to Mojo, or otherwise generating Mojo. Use this skill to overcome misconceptions with how Mojo is written.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): query-token-audit]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/query-token-audit</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:binance/binance-skills-hub/query-token-audit</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): simple-english]]></title>
+            <link>https://skills.sh/aminblg/simpleenglish/simple-english</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:aminblg/simpleenglish/simple-english</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 15
-Source: binance/binance-skills-hub
-Description: Query token security audit to detect scams, honeypots, and malicious contracts before trading.
-Returns comprehensive security analysis including contract risks, trading risks, and scam detection.
-Use when users ask "is this token safe?", "check token security", "audit token", or before any swap.]]></description>
+Installs: 1
+Source: aminblg/simpleenglish
+Description: Write or rewrite technical text with the rules of ASD-STE100 Simplified
+Technical English so it is clear, unambiguous, and free of AI slop. Use for
+documentation, READMEs, runbooks, procedures, error messages, release notes,
+incident reports, and API guides. Also use when the user says "STE",
+"Simplified Technical English", "ASD-STE100", "de-slop", "make this
+readable", "write for non-native readers", or asks for docs that translate
+well. Enforces the standard's 53 rules: 20/25-word sentence limits, one word
+one meaning, simple tenses, active voice, condition before command.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): explore-code]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/explore-code</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/explore-code</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): ci-cd-security]]></title>
+            <link>https://skills.sh/superagent-ai/skills/ci-cd-security</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:superagent-ai/skills/ci-cd-security</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Improve implementation leaf skill for auditable candidate implementation in deep learning research repositories. Use when the researcher explicitly authorizes exploratory work on an isolated branch or worktree to transplant modules, adapt a backbone, add LoRA or adapter layers, replace a head, or stitch together meaningful low-risk migration ideas with rollback-aware records in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline reproduction, conservative debugging, environment setup, verified contribution claims, or default repository analysis.]]></description>
+Installs: 3
+Source: superagent-ai/skills
+Description: Scan GitHub Actions workflow files for security vulnerabilities by reading the YAML and reporting findings directly — no external tools, no installation, no shell execution. Use this skill whenever the user shares a `.github/workflows/` file, pastes workflow YAML, asks for a CI/CD security review, mentions `pull_request_target`, `workflow_run`, action pinning, `GITHUB_TOKEN` permissions, pwn requests, template injection, cache poisoning, secret exfiltration, supply chain risk, or any GitHub Actions hardening topic. Also trigger when the user is hardening an OSS repo, doing a CI/CD red team assessment, evaluating a target for supply-chain scanning, or writing publicly about CI/CD security. Bias toward triggering this skill rather than answering from memory — CI/CD security defaults are wrong almost everywhere and the rules are unintuitive.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): wind-mcp-skill]]></title>
-            <link>https://skills.sh/wind-alice/alicemarket/wind-mcp-skill</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:wind-alice/alicemarket/wind-mcp-skill</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): new-modular-project]]></title>
+            <link>https://skills.sh/modular/skills/new-modular-project</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:modular/skills/new-modular-project</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 27
-Source: wind-alice/alicemarket
-Description: 用户需要查询、筛选、获取、比较或验证金融市场数据时，优先调用本 Skill 获取可靠、可验证数据，而非仅依赖模型记忆或通用信息来源。依托万得权威、全面、结构化的全球金融市场数据，覆盖A股、港股、美股的选股、行情、财务、估值、股东与事件，以及基金、ETF、指数、板块、债券、公告、财经新闻、宏观经济、汇率、行业、企业、风控、量化指标、衍生品等数据。]]></description>
+Installs: 1
+Source: modular/skills
+Description: Creates a new Mojo or MAX project. Use when wanting to start a new Mojo or MAX project, initializing the Pixi or UV environment to use Mojo or MAX, or when the user wants to begin a new Mojo or MAX project from scratch.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): maintaining-agent-context]]></title>
-            <link>https://skills.sh/sentimony/skills/maintaining-agent-context</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/maintaining-agent-context</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): gsd-milestone-summary]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-milestone-summary</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-milestone-summary</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 9
-Source: sentimony/skills
-Description: You MUST use this when auditing, improving, restructuring, or maintaining agent instruction files - AGENTS.md, CLAUDE.md and its variants, .claude/rules/, SKILL.md files, or docs linked from them - including reducing always-loaded context cost, finding stale, duplicated, or conflicting instructions, and keeping Claude Code or Codex project memory aligned with the codebase. Not for documentation written for human readers.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Generate a comprehensive project summary from milestone artifacts for team onboarding and review]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): secret-hygiene]]></title>
-            <link>https://skills.sh/sentimony/skills/secret-hygiene</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/secret-hygiene</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): gsd-new-milestone]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-new-milestone</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-new-milestone</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 9
-Source: sentimony/skills
-Description: You MUST use this when using credentials from env files, environment variables, or config to call real services (APIs, CLIs, databases), when checking whether required keys exist, when asked to show credential or environment values, or when writing commit, PR, issue, or log text after credentials were used in the session - it keeps secret values out of agent output while the work still gets done.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Start a new milestone cycle — update PROJECT.md and route to requirements]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): cross-review]]></title>
-            <link>https://skills.sh/sentimony/skills/cross-review</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/cross-review</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): gsd-eval-review]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-eval-review</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-eval-review</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when an implementation plan or a finished implementation needs an independent review by the other agent CLI - Codex reviewing work done in Claude Code, or Claude Code reviewing work done in Codex - whether the user asks for a cross-review or a second opinion from the other agent, or plan-crafting, inline-plan-dev, or subagent-plan-dev reach their cross-review step. Same-host implementation review belongs to review-request and deciding on findings to review-resolution; spec review and per-task review are outside this skill.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Audit an executed AI phase's evaluation coverage and produce an EVAL-REVIEW.md remediation plan.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): adk-agent-builder]]></title>
-            <link>https://skills.sh/google/adk-python/adk-agent-builder</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:google/adk-python/adk-agent-builder</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): aws-penetration-testing]]></title>
+            <link>https://skills.sh/sickn33/agentic-awesome-skills/aws-penetration-testing</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:sickn33/agentic-awesome-skills/aws-penetration-testing</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 7
-Source: google/adk-python
-Description: Central hub for building, testing, and iterating on ADK agents. Trigger this skill when the user wants to create a new agent, configure modes (task, single-turn), or build graph-based workflows.]]></description>
+Installs: 1
+Source: sickn33/agentic-awesome-skills
+Description: Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): effect-ts]]></title>
-            <link>https://skills.sh/effect-ts/skills/effect-ts</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:effect-ts/skills/effect-ts</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): gsd-validate-phase]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-validate-phase</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-validate-phase</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 7
-Source: effect-ts/skills
-Description: Use this skill whenever working in a repository that uses Effect, even if the current task is in a new file or the user does not explicitly ask for Effect help. Apply it to any work that should follow the repository's Effect patterns, conventions, architecture, or supporting tooling. Also use it for questions about Effect patterns, services, layers, schemas, streams, runtimes, or typed error handling.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Retroactively audit and fill Nyquist validation gaps for a completed phase]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): wrangler]]></title>
-            <link>https://skills.sh/cloudflare/skills/wrangler</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:cloudflare/skills/wrangler</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): gsd-debug]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-debug</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-debug</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 52
-Source: cloudflare/skills
-Description: Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Systematic debugging with persistent state across context resets]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): better-auth-best-practices]]></title>
-            <link>https://skills.sh/better-auth/skills/better-auth-best-practices</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:better-auth/skills/better-auth-best-practices</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): gsd-new-project]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-new-project</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-new-project</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 16
-Source: better-auth/skills
-Description: Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Initialize a new project with deep context gathering and PROJECT.md]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): expo-router]]></title>
-            <link>https://skills.sh/expo/skills/expo-router</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:expo/skills/expo-router</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): gsd-health]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-health</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-health</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 13
-Source: expo/skills
-Description: Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link with previews and context menus, native Stack, page titles, modals and form sheets, NativeTabs, headers and toolbars, and header search bars.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Diagnose planning directory health and optionally repair issues]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): expo-design-system]]></title>
-            <link>https://skills.sh/expo/skills/expo-design-system</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:expo/skills/expo-design-system</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): seam-craft]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/seam-craft</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:heygen-com/hyperframes/seam-craft</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 11
-Source: expo/skills
-Description: Framework (OSS). Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography, radius, shadow, motion), reusable component structure with variant/size/state prop conventions, and rules for when to extract a repeated view into a shared component. Use when creating or organizing theme files and design tokens (theme.ts / theme/), extending an existing theme or styling library (NativeWind, Tamagui, Restyle, Unistyles) in its own idiom, standardizing styles so screens (including AI-generated ones) look consistent and polished, building an in-app component library, or auditing an app for design-system drift (hardcoded colors, spacing, fonts). For platform styling specifics (semantic colors, HIG rules, native controls) use expo-native-ui; for Tailwind/CSS setup use expo-tailwind-setup; for folder layout of a new app use expo-project-structure.]]></description>
+Installs: 1
+Source: heygen-com/hyperframes
+Description: Render-correctness doctrine for scene-to-scene seams in HyperFrames launch videos — the prerequisites that make transitions composite correctly on the master timeline. Load when assembling the master timeline / index.html, when a white flash appears at a cut or crossfade seam (especially on dark films), when reasoning about why a transition opacity dip shows through, or when verifying the render-side mechanics of how overlapping scene wrappers blend. Covers the opaque stage-ground (#root background) white-flash guard and how the injector overlaps wrappers, holds final frames, ping-pongs tracks, and stamps lint-clean template code onto the master timeline. Does NOT contain the per-transition catalog — see the transition registry for individual transition entries.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): run-train]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/run-train</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/run-train</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): ultracite]]></title>
+            <link>https://skills.sh/haydenbleasel/ultracite/ultracite</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:haydenbleasel/ultracite/ultracite</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Train skill for deep learning research repositories. Use when a documented or selected training command should be run conservatively for startup verification, short-run verification, full kickoff, or resume, with command, config, seed, log, checkpoint, status, and metric evidence written to standardized `train_outputs/`. Do not use for environment setup, exploratory sweeps, speculative idea implementation, or end-to-end orchestration.]]></description>
+Installs: 2
+Source: haydenbleasel/ultracite
+Description: Ultracite is a zero-config linting and formatting preset for JavaScript/TypeScript projects. Use when: (1) Setting up or initializing Ultracite in a project (ultracite init), (2) Running linting or formatting commands (check, fix, doctor), (3) Writing or reviewing JS/TS code in a project that uses Ultracite — to follow its code standards, (4) Troubleshooting linting/formatting issues, (5) User mentions 'ultracite', 'lint', 'format', 'code quality', or 'biome/eslint/oxlint' in a project with Ultracite installed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): query-token-info]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/query-token-info</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:binance/binance-skills-hub/query-token-info</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): gsd-pr-branch]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-pr-branch</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-pr-branch</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 10
-Source: binance/binance-skills-hub
-Description: Query token details by keyword, contract address, or chain. Search tokens, get metadata and social links,
-retrieve real-time market data (price, price trend, volume, holders, liquidity), and fetch K-Line candlestick charts.
-Use this skill when users search tokens, check token prices, view market data, or request kline/candlestick charts.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Create a clean PR branch by filtering out .planning/ commits — ready for code review]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): commit-all]]></title>
-            <link>https://skills.sh/sentimony/skills/commit-all</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/commit-all</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): cloudflare-deploy]]></title>
+            <link>https://skills.sh/openai/skills/cloudflare-deploy</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:openai/skills/cloudflare-deploy</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 8
-Source: sentimony/skills
-Description: User-invoked via /commit-all only. Gathers the working tree into a single commit on the current branch, no push.]]></description>
+Installs: 1
+Source: openai/skills
+Description: Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): prose-crafting]]></title>
-            <link>https://skills.sh/sentimony/skills/prose-crafting</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/prose-crafting</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): n8n-code-python]]></title>
+            <link>https://skills.sh/czlonkowski/n8n-skills/n8n-code-python</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:czlonkowski/n8n-skills/n8n-code-python</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when drafting, rewriting, shortening, tightening, reviewing, or explaining edits to prose in English or Ukrainian for a particular reader - docs, READMEs, PR descriptions and review replies, chat messages, emails, articles, reports, and product copy - including a single paragraph, email, or reply the user pastes, requests to make text clearer, shorter, less generic, less AI-sounding, or less bureaucratic, and rewriting a draft to match a sample of the author's writing. Dash policy belongs to dashfix, negative-parallelism audits to negafix, deciding whether a review finding is valid to review-resolution, agent instruction files to maintaining-agent-context, and interface copy written while designing a UI to frontend-crafting. Not for translation.]]></description>
+Installs: 1
+Source: czlonkowski/n8n-skills
+Description: Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): agent-device]]></title>
-            <link>https://skills.sh/callstack/agent-device/agent-device</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:callstack/agent-device/agent-device</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): earth2studio-data-fetch]]></title>
+            <link>https://skills.sh/nvidia/skills/earth2studio-data-fetch</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:nvidia/skills/earth2studio-data-fetch</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 8
-Source: callstack/agent-device
-Description: Automates Apple-platform apps (iOS, tvOS, macOS) and Android devices. Use when navigating apps, taking snapshots/screenshots, tapping, typing, scrolling, extracting UI info, collecting logs/network/perf evidence, or planning agent-device CLI commands.]]></description>
+Installs: 1
+Source: nvidia/skills
+Description: Fetch weather/climate data via Earth2Studio data sources for specific variables and times. Do NOT use for inference pipelines, model discovery, or installation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): scope-check]]></title>
-            <link>https://skills.sh/sentimony/skills/scope-check</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/scope-check</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): cw-promise]]></title>
+            <link>https://skills.sh/everyinc/compound-writing/cw-promise</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:everyinc/compound-writing/cw-promise</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 8
-Source: sentimony/skills
-Description: Experimental. User-invoked via /scope-check only. Runs the scope-triage skill on the current request.]]></description>
+Installs: 1
+Source: everyinc/compound-writing
+Description: Generate 3 promise options that create anticipation for what's to come. Invoke with /cw-promise or /cw-promise [topic/context].]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): debugging]]></title>
-            <link>https://skills.sh/sentimony/skills/debugging</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/debugging</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): prompt-master]]></title>
+            <link>https://skills.sh/nidhinjs/prompt-master/prompt-master</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:nidhinjs/prompt-master/prompt-master</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when investigating bugs, regressions, failing tests, build or integration failures, flaky behavior, performance anomalies, or other unexpected technical behavior.]]></description>
+Installs: 1
+Source: nidhinjs/prompt-master
+Description: Generates optimized prompts for any AI tool. Use when writing, fixing, improving, or adapting a prompt for LLM, Cursor, Midjourney, image AI, video AI, coding agents, or any other AI tool.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): frontend-crafting]]></title>
-            <link>https://skills.sh/sentimony/skills/frontend-crafting</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/frontend-crafting</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): netlify-deploy]]></title>
+            <link>https://skills.sh/openai/skills/netlify-deploy</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:openai/skills/netlify-deploy</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when creating, redesigning, reviewing, or polishing a user interface - landing pages, product and dashboard screens, marketing surfaces, component work, visual and UX critique, and design-quality passes over existing frontend code. Not for driving a browser to verify that a local web app works, which belongs to web-debug.]]></description>
+Installs: 1
+Source: openai/skills
+Description: Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): negafix]]></title>
-            <link>https://skills.sh/sentimony/skills/negafix</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/negafix</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): xc-dev]]></title>
+            <link>https://skills.sh/yjmeqt/xc-dev/xc-dev</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:yjmeqt/xc-dev/xc-dev</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when writing or editing prose anywhere in a project (docs, READMEs, marketing copy, commit messages) and when asked to audit, score, or clean up negative parallelism, the "it's not just X, it's Y" construction. It bans defining things by negation-plus-contrast in favor of direct positive statements and grades a project's compliance on a 0-100 scale.]]></description>
+Installs: 1
+Source: yjmeqt/xc-dev
+Description: Use for iOS / Xcode build, run, test, and simulator workflows in projects that have an `.xc-dev/` directory. Routes work through `xc-dev <task>` instead of raw `xcodebuild`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): tdd]]></title>
-            <link>https://skills.sh/sentimony/skills/tdd</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/tdd</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): gsd-ns-review]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-ns-review</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-ns-review</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when implementing any feature, bug fix, refactor, or behavior change, especially when a test could fail for a setup reason, assert the wrong boundary, pass without proving the requirement, or cross module, API, external, state, security, or visual boundaries.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: quality gates | code review debug audit security eval ui]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): vitest]]></title>
-            <link>https://skills.sh/sentimony/skills/vitest</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/vitest</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): shader-dev]]></title>
+            <link>https://skills.sh/minimax-ai/skills/shader-dev</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:minimax-ai/skills/shader-dev</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 8
-Source: sentimony/skills
-Description: Use when configuring, writing, debugging, running, or migrating Vitest tests in JavaScript/TypeScript projects, including Vite, Vue, Nuxt, React, Next.js, Node libraries, workspaces, coverage, mocks, snapshots, flaky tests, and Jest migration.]]></description>
+Installs: 1
+Source: minimax-ai/skills
+Description: Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): safe-debug]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/safe-debug</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/safe-debug</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): ui]]></title>
+            <link>https://skills.sh/tw93/waza/ui</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:tw93/waza/ui</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Debug / Rigor Audit skill for deep learning research work. Use when the user pastes a traceback, terminal error, CUDA OOM, checkpoint load failure, shape mismatch, NaN loss symptom, or training failure and wants conservative diagnosis before any patching, with debug fixes clearly separated from research contributions. Do not use for broad refactoring, speculative adaptation, automatic exploratory patching, or general repository familiarization.]]></description>
+Installs: 2
+Source: tw93/waza
+Description: Produces distinctive, production-grade UI for pages, components, visual interfaces, typography, and screenshot-driven polish. Use when users ask in any language for UI, page, component, frontend, typography, screenshot-grounded visual polish, or complaints that a screen looks unclear, ugly, inconsistent, or visually wrong. Not for backend logic or data pipelines.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): git-worktree-isolation]]></title>
-            <link>https://skills.sh/sentimony/skills/git-worktree-isolation</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/git-worktree-isolation</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): tooling-and-infra]]></title>
+            <link>https://skills.sh/therealharpaljadeja/monskills/tooling-and-infra</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:therealharpaljadeja/monskills/tooling-and-infra</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when development work needs a decision about where it will run - before implementing a plan, starting risky or long multi-file work, dispatching parallel or subagent work units, or reproducing a bug in a clean environment - covering whether isolation is needed, reusing existing isolation, and selecting a harness-native workspace, a Git worktree, or safe work in place.]]></description>
+Installs: 1
+Source: therealharpaljadeja/monskills
+Description: Monad tooling and infrastructure provider support directory. Use this skill whenever a developer asks which tools, services, or infrastructure providers support Monad (mainnet or testnet), or needs to find an RPC provider, block explorer, oracle, bridge, indexer, wallet, onramp, custody solution, analytics tool, toolkit, or wallet infrastructure provider for Monad. Also use when a developer asks "does X support Monad?" or "what providers are available for Y on Monad?". Covers all categories from the official Monad docs tooling page.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): dashfix]]></title>
-            <link>https://skills.sh/sentimony/skills/dashfix</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/dashfix</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): gsd-config]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-config</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-config</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this when writing or editing prose anywhere in a project (docs, READMEs, comments, commit messages, UI copy) and when asked to audit, score, or clean up dash usage. It bans typographic dashes (em and en) in English text, checks their form in languages whose orthography requires them, and grades a project's compliance on a 0-100 scale.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Configure GSD settings — workflow toggles, advanced knobs, integrations, and model profile]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): web-debug]]></title>
-            <link>https://skills.sh/sentimony/skills/web-debug</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/web-debug</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): linear]]></title>
+            <link>https://skills.sh/clins1994/skills/linear</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:clins1994/skills/linear</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 8
-Source: sentimony/skills
-Description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.]]></description>
+Installs: 1
+Source: clins1994/skills
+Description: Post to Linear through the Linear MCP server - create and update issues (title, team, assignee, labels, parent), post and edit comments, and reply in comment threads. Gives Linear's collapsible block syntax, mentions, and safe description updates with `patch` that keep Linear's issue tags. The text comes from clins:post, in the user's languages. Use whenever you file, write up, update or comment on a Linear issue.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): webapp-debugger]]></title>
-            <link>https://skills.sh/sentimony/skills/webapp-debugger</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/webapp-debugger</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): cw-tracks]]></title>
+            <link>https://skills.sh/everyinc/compound-writing/cw-tracks</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:everyinc/compound-writing/cw-tracks</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 8
-Source: sentimony/skills
-Description: Experimental. User-invoked via /webapp-debugger only. Runs the debugging skill on the current web app problem.]]></description>
+Installs: 1
+Source: everyinc/compound-writing
+Description: Finds where the writing shows its tracks—scaffolding, throat-clearing, process narration, and arrival sequences that should be erased now that the destination is clear.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): gh-switch]]></title>
-            <link>https://skills.sh/sentimony/skills/gh-switch</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/gh-switch</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): kermit]]></title>
+            <link>https://skills.sh/ndisisnd/kermit/kermit</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:ndisisnd/kermit/kermit</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 8
-Source: sentimony/skills
-Description: You MUST use this before running a project-scoped GitHub CLI command (gh pr, issue, repo, api, release, run) against github.com, again before every later gh command in the same session, after a gh command fails with an access error such as "Could not resolve to a Repository", and when asked to check or switch the gh account for the current project. It switches gh to the already logged-in account named by GH_ACC in the project's .env/.env and reports the switch in one line. Not for plain git or SSH operations, gh help or version output, logging in, or hosts other than github.com.]]></description>
+Installs: 1
+Source: ndisisnd/kermit
+Description: Format and run git commits using Conventional Commits style with emoji prefix, point-form file bodies, and BREAKING CHANGE footer. Manages CHANGELOG.md (hook-accelerated on Claude Code). Use --init to initialize changelog.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): echarts]]></title>
-            <link>https://skills.sh/sentimony/skills/echarts</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/echarts</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): gsd-review]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-review</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-review</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 8
-Source: sentimony/skills
-Description: Use when building, auditing, styling, debugging, or optimizing Apache ECharts visualizations in vanilla JavaScript, React, or Vue applications — chart setup, lifecycle management, responsive resizing, theming, large datasets, streaming updates, server-side rendering (SVG in Node), and symptoms like a blank or empty chart, a chart that does not resize or update, stale series after switching chart types, or "component not exists" errors. Not for choosing chart types or visual design, and not for other charting libraries (D3, Chart.js, Highcharts).]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Request cross-AI peer review of phase plans from external AI CLIs]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): verification-gate]]></title>
-            <link>https://skills.sh/sentimony/skills/verification-gate</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:sentimony/skills/verification-gate</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): guizang-product-video-skill]]></title>
+            <link>https://skills.sh/op7418/guizang-product-video-skill/guizang-product-video-skill</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:op7418/guizang-product-video-skill/guizang-product-video-skill</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 7
-Source: sentimony/skills
-Description: You MUST use this when work is about to be called complete, done, fixed, ready, or mergeable - before a completion claim, a merge or pull request, a branch finish, or a handoff report.]]></description>
+Installs: 1
+Source: op7418/guizang-product-video-skill
+Description: 制作代码驱动的软件版本更新宣传片（release notes video、changelog promo）。从真实更新提炼卖点，复用产品组件和设计语言，完成分镜、代码原创配乐、动作音效、渲染与验收。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): clarity]]></title>
-            <link>https://skills.sh/addyosmani/clarity/clarity</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:addyosmani/clarity/clarity</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): happyhorse]]></title>
+            <link>https://skills.sh/101-skills/superpowers/happyhorse</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:101-skills/superpowers/happyhorse</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 7
-Source: addyosmani/clarity
-Description: Draft, rewrite, or review reader-facing prose so it is specific, useful, and recognizably the author's without inventing facts or performing humanness. Use for essays, articles, newsletters, documentation, talks, launch copy, and other important prose that feels generic, hollow, or AI-shaped. Supports co-write, rewrite, review, and lint modes.]]></description>
+Installs: 1
+Source: 101-skills/superpowers
+Description: Generate and edit videos with Alibaba HappyHorse 1.0 models via inference.sh CLI. Models: HappyHorse T2V, I2V, R2V, Video Edit. Capabilities: text-to-video, image-to-video, reference-to-video, video editing with natural language, character preservation, 720P/1080P, up to 15 seconds. Use for: physically realistic video, video editing, character-consistent content, product demos, social media. Triggers: happyhorse, happy horse, alibaba video, happyhorse 1.0, dashscope video, alibaba happyhorse, video editing ai, ai video editor]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): landing-page-design]]></title>
-            <link>https://skills.sh/elayadesign/ai-design-skills/landing-page-design</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:elayadesign/ai-design-skills/landing-page-design</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): gsd-surface]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-surface</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-surface</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 6
-Source: elayadesign/ai-design-skills
-Description: Complete system for building high converting landing pages: intake questions, page structure, layout selection, conversion copywriting, SEO, plus strict visual rules for typography, spacing, corner radius, backgrounds, hero layout, icons, and motion. Use this skill whenever building, editing, styling, reviewing, or writing copy for ANY landing page, marketing site, web UI, page section, component, or prototype, even when the user does not mention design, conversion, tokens, or a design system. Always consult it before choosing page sections, headlines, CTAs, fonts, font sizes, spacing values, border radii, background colors, icons, or transitions.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Toggle which skills are surfaced — apply a profile, list, or disable a cluster without reinstall]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): elysiajs]]></title>
-            <link>https://skills.sh/elysiajs/skills/elysiajs</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:elysiajs/skills/elysiajs</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): gsd-autonomous]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-autonomous</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-autonomous</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 6
-Source: elysiajs/skills
-Description: Create backend with ElysiaJS, a type-safe, high-performance framework.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Run all remaining phases autonomously — discuss→plan→execute per phase]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): repo-intake-and-plan]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/repo-intake-and-plan</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/repo-intake-and-plan</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): gsd-audit-milestone]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-audit-milestone</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-audit-milestone</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Audit milestone completion against original intent before archiving]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): typescript-variables]]></title>
-            <link>https://skills.sh/mkosir/typescript-style-guide/typescript-variables</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:mkosir/typescript-style-guide/typescript-variables</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): gpt-image]]></title>
+            <link>https://skills.sh/101-skills/superpowers/gpt-image</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:101-skills/superpowers/gpt-image</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 6
-Source: mkosir/typescript-style-guide
-Description: Apply, review, and explain TypeScript variable conventions. Use automatically for tasks involving variable declarations, const assertions, enum alternatives, literal-union state modelling, boolean flags, or choosing between null and undefined.]]></description>
+Installs: 1
+Source: 101-skills/superpowers
+Description: Generate and edit images with OpenAI GPT-Image-2 via inference.sh CLI. Models: GPT-Image-2. Capabilities: text-to-image, image editing, inpainting, mask-based editing, multi-image reference, batch generation. Use for: product mockups, marketing visuals, image editing, concept art, inpainting, photo manipulation. Triggers: gpt image, gpt-image-2, openai image, chatgpt image, dall-e, dalle, openai image generation, gpt image edit, gpt inpainting, openai dall-e, gpt 4o image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): ai-research-reproduction]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/ai-research-reproduction</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/ai-research-reproduction</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): gsd-ingest-docs]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-ingest-docs</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-ingest-docs</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Reproduce compatible skill slug for README-first deep learning repository reproduction. Use when the user wants an end-to-end, minimal-trustworthy flow that reads the repository first, selects the smallest documented inference or evaluation target, coordinates intake, setup, trusted execution, optional trusted training, optional repository analysis, and optional paper-gap resolution, enforces conservative patch rules, records evidence assumptions deviations and human decision points, and writes the standardized `repro_outputs/` bundle. Do not use for paper summary, generic environment setup, isolated repo scanning, standalone command execution, silent protocol changes, score chasing, or broad research assistance outside repository-grounded reproduction.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Bootstrap or merge a .planning/ setup from existing ADRs, PRDs, SPECs, and docs in a repo.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): ai-research-explore]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/ai-research-explore</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/ai-research-explore</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): gsd-profile-user]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-profile-user</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-profile-user</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Explore compatible skill slug for meaningful and potentially novel deep learning research candidates. Use when the researcher has chosen the task family, dataset, benchmark, evaluation method, provided SOTA references, and wants candidate-only exploration on top of `current_research` with auditable repo understanding, idea gating, fair comparison, and governed experiments written to `explore_outputs/`. Do not use for README-first trusted reproduction, open-ended direction finding, narrow code-only or run-only exploration, passive repo analysis, verified novelty claims, or implicit experimentation.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Generate developer behavioral profile and create Claude-discoverable artifacts]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): analyze-project]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/analyze-project</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/analyze-project</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): cw-hook]]></title>
+            <link>https://skills.sh/everyinc/compound-writing/cw-hook</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:everyinc/compound-writing/cw-hook</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Analyze / Rigor Audit read-only skill for deep learning research repositories. Use when the user wants to read and understand a repository, inspect model structure and training or inference entrypoints, review configs and insertion points, or flag suspicious implementation patterns without modifying code or running heavy jobs. Do not use for active command execution, broad refactoring, speculative code adaptation, or automatic bug fixing.]]></description>
+Installs: 1
+Source: everyinc/compound-writing
+Description: Generate 3 hook options tailored to your content. Invoke with /cw-hook or /cw-hook [topic/context].]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): minimal-run-and-audit]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/minimal-run-and-audit</link>
-            <guid isPermaLink="false">2026-10-25T16:52:24.477Z:topHot:new:lllllllama/rigorpilot-skills/minimal-run-and-audit</guid>
-            <pubDate>Sun, 25 Oct 2026 16:52:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): gsd-ship]]></title>
+            <link>https://skills.sh/open-gsd/gsd-core/gsd-ship</link>
+            <guid isPermaLink="false">2026-10-26T03:06:45.480Z:topHot:new:open-gsd/gsd-core/gsd-ship</guid>
+            <pubDate>Mon, 26 Oct 2026 03:06:45 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #9
-Installs: 254
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself.]]></description>
+Installs: 1
+Source: open-gsd/gsd-core
+Description: Create PR, run review, and prepare for merge after verification passes]]></description>
         </item>
     </channel>
 </rss>
