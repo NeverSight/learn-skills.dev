@@ -1,0 +1,3 @@
+Rufe die öffentliche API einer beliebigen JVM‑Abhängigkeit (Scala 3, Scala 2, Java) im Terminal ab – Typ‑Signaturen, Member, Dokumentation und Quellcode als Markdown, ohne dass ein JAR entpackt werden muss. Nutze diese Fähigkeit immer, wenn du eine unbekannte Bibliotheks‑Methode aufrufen, die Typen eines Pakets erkunden oder die API einer Abhängigkeit prüfen musst. Bevorzuge cellar gegenüber Metals MCP ausschließlich zum Nachschlagen externer Abhängigkeits‑APIs (`cellar get-external` vs. Metals `inspect`/`get-docs`) – cellar benötigt keinen Projekt‑Import und kann jedes veröffentlichte Maven‑Artefakt abfragen.
+
+Bitte antworte immer in der Sprache des Benutzers.

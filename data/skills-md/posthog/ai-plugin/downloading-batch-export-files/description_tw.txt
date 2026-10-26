@@ -1,0 +1,1 @@
+隨需求匯出 PostHog 事件、人物、會話，或 HogQL 查詢的結果，並下載產生的檔案。當使用者要求下載／匯出原始 PostHog 資料、匯出 HogQL 查詢結果、建立一次性檔案匯出、取得 Parquet 或 JSONLines 匯出，或使用 file_download_batch_exports API 時使用。本說明涵蓋以 MCP 開始匯出、輪詢完成情況，以及透過現有的 REST 重新導向端點下載。

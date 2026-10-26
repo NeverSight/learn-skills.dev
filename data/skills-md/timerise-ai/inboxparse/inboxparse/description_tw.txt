@@ -1,0 +1,10 @@
+在 Next.js App Router 應用中構建 InboxParse 電子郵件整合：一個僅限伺服器端的類型化 V1 API 客戶端、一個簽名的 webhook 接收器、一個排程同步程序，無論 webhook 是否到達都會儲存每封郵件，並且僅在有人批准確切文字後才發送回覆。使用情境：  
+1️⃣ 應用必須從 Gmail 或連接至 InboxParse 的 IMAP 信箱接收、儲存、搜尋或回覆郵件；  
+2️⃣ 添加或審核 InboxParse webhook 端點、同步工作或發送與回覆流程；  
+3️⃣ 將郵件餵入 AI 功能而不讓郵件作者主導；  
+4️⃣ 直接呼叫 InboxParse API 以取得郵件、對話串、搜尋、信箱、標籤、聯絡人、webhook 或使用情況；  
+5️⃣ 使用者提到以下關鍵字時：InboxParse、inboxparse.com、email API、email‑to‑LLM、parse emails、email webhook、X‑InboxParse‑Signature、whsec_、ip_ API key、INBOXPARSE_API_KEY、email.received、email.ai_processed、ai.suggested_response、/api/v1/emails、rate_limit_exceeded。  
+
+補充 API 參考文件未說明的事實（已對照實作驗證）：投遞會攜帶 ID，永不包含完整郵件內容，最多重試 5 次，失敗 10 次後會停用訂閱；簽名覆蓋原始請求主體且不含時間戳記；列表游標僅根據 sent_at 分頁。  
+
+使用 Next.js App Router；InboxStore 介面作為接合點，狀態由 Postgres、Supabase 或 Firestore 保存。此方案不是郵件伺服器、不是電子郵件客戶端 UI，也不是 InboxParse MCP 伺服器。

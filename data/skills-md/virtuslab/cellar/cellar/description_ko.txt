@@ -1,0 +1,3 @@
+터미널에서 JVM 종속성(Scala 3, Scala 2, Java)의 공개 API를 찾아보세요 — 타입 시그니처, 멤버, 문서, 소스를 마크다운 형태로 제공하며 JAR를 풀어볼 필요가 없습니다. 익숙하지 않은 라이브러리 메서드를 호출하거나 패키지의 타입을 탐색하거나 종속성의 API를 확인해야 할 때마다 이 기능을 활용하세요. 외부 종속성 API를 조회할 때는 Metals MCP보다 cellar를 선호하세요(`cellar get-external` vs Metals `inspect`/`get-docs`). cellar는 프로젝트 임포트 없이도 모든 공개 Maven 아티팩트를 조회할 수 있습니다.
+
+항상 사용자의 언어로 응답해주세요.
