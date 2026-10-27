@@ -1,0 +1,2 @@
+Prima di correggere un avviso di lentezza/scadenza/timeout, misura il passaggio tu stesso.  
+Elimina la teoria con un cronometro, non con una modifica al codice. Operazioni di triage basate sulla misurazione per avvisi temporali (scaduto, timeout, freschezza, bloccato, N ore di ritardo) da gbrain doctor, autopilot, sync e monitor cron — vengono eseguite PRIMA di qualsiasi aumento di timeout, cambiamento di soglia o riscrittura del pipeline.
