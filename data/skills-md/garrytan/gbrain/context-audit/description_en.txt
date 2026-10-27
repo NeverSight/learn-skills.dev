@@ -1,0 +1,10 @@
+Token-hygiene audit of the always-loaded context stack — CLAUDE.md,
+AGENTS.md, auto-memory MEMORY.md, and the bootstrap-rendered identity files
+(SOUL.md, USER.md, ACCESS_POLICY.md, HEARTBEAT.md) or their harness
+equivalents. Finds redundancy, contradictions, stale content, compression
+candidates, and skill-extraction candidates; produces a ranked action list
+sorted by token savings with a risk class per finding. REPORT-ONLY: this
+skill never edits any audited file. Recommendations for bootstrap-rendered
+files target the interview answer bank / templates, never the rendered
+output. Judging routes through `gbrain eval cross-modal` (single cheap
+model by default; full multi-model panel is explicit opt-in).

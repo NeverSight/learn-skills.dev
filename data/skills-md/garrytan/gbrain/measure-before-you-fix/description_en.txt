@@ -1,0 +1,5 @@
+Before fixing a slow/stale/timeout alert, measure the step yourself.
+Kill the theory with a stopwatch, not a code change. Measure-first ops
+triage for temporal alerts (stale, timeout, freshness, wedged, N hours
+behind) from gbrain doctor, autopilot, sync, and cron monitors — runs
+BEFORE any timeout raise, threshold change, or pipeline rewrite.
