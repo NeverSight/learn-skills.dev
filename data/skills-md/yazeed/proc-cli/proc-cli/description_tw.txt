@@ -1,0 +1,11 @@
+找出、檢查並控制進程與埠口，使用 proc CLI（macOS、Linux、Windows），並支援 JSON 輸出供代理程式使用。當你需要以下操作時，請使用它來取代 lsof、ps、pgrep、pkill、kill、netstat、pstree 或 top：
+
+- 查看埠口上有什麼或釋放埠口（EADDRINUSE、"address already in use"，開不啟的開發伺服器）；
+- 依名稱、PID、檔案或專案目錄尋找進程；
+- 檢視進程的詳細資訊（指令、工作目錄、父進程、執行時間、CPU、記憶體）；
+- 停止、終止、暫停、恢復或等待進程結束；
+- 追蹤埠口為何被佔用；
+- 找出孤兒、卡住或遺留的進程，如你或其他代理程式啟動的開發伺服器、檔案監控程式與無頭瀏覽器；
+- 在完成任務前清理背景工作。
+
+亦可在使用者提及 proc、埠口、PID、訊號（SIGTERM、SIGKILL、SIGSTOP）或機器緩慢時使用。
