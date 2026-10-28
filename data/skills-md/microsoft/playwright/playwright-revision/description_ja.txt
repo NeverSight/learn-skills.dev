@@ -1,0 +1,1 @@
+Issue triage ワークフローが作成したドラフト PR のメンテナのレビューコメントに対応し、PR リビジョン用 GitHub Actions ワークフロー（.github/workflows/revision.yml）内で未処理のまま放置された状態から、PR に needs-revision、needs-revision-mac、または needs-revision-win ラベルが付いたときに開始します。コメント通りにコードを変更し、ランナー上で検証し、同じ PR にプッシュするためのコミットを 1 つ残します。このワークフローに対してのみ適用します。

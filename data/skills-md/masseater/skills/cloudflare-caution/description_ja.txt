@@ -1,0 +1,1 @@
+Cloudflare（Workers、静的アセット、KV、D1、R2、Durable Objects、Queues、Workers Logs）で料金が急増するような設計は避け、コスト効果の高いアプローチを選びましょう。これらは、Cloudflare にデプロイするものを設計する際、Workers やバインディングを追加する際、ページやデータの配信方法を決める際、ループやリトライを書き込む際に活用してください。
