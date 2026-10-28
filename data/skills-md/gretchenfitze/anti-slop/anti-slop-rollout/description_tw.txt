@@ -1,0 +1,3 @@
+執行反 AI 低效程式碼推展計畫的下一步（anti‑slop/todo.md，計畫推理位於 anti‑slop/plan.md）並以單一 Pull Request 完成：在計畫所記錄的任一技術棧中加入單一檢查（嚴格的 TypeScript 旗標、sonarjs、unnecessary‑effect、測試 lint 規則、層界限、過去錯誤留下的自訂 lint 規則、agent hook、Stryker 變異測試、knip 與 dead‑file 腳本、jscpd、react‑doctor、CI 閘門、排程報告，或最終精簡 agent rules 檔案），修正或建立基準，於 agent rules 檔案中記錄其指令，驗證無誤後開啟 PR。當使用者說「next anti‑slop step」或「do step N of the plan」時、詢問 AGENTS.md 或 CLAUDE.md 中目前 linters 覆蓋的規則、或要求逐步設定 knip、jscpd、react‑doctor、Stryker、sonarjs、或層界限（先以警告方式，最後再設為 CI 閘門），且該 repo 已有 anti‑slop 計畫時，請依此使用。必須先取得 anti‑slop‑audit 中的計畫；若無計畫，先執行稽核。 
+
+請始終以使用者的語言回覆。

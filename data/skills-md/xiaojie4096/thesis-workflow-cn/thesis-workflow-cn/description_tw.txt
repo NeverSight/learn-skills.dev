@@ -1,0 +1,4 @@
+中文本科畢業論文工作流程的主要入口技能。  
+在使用者要求選題、文獻檢索、文獻回顧、開題報告撰寫、論文大綱與字數預算、項目資料分析、正文章節寫作（正文）、圖表製作（圖表）、論文質量檢查或模擬盲審、Word 轉換、「完整流程」、「從選題到綜述/開題/成稿」、「寫完整篇論文」或任何可能涉及論文相關模組的任務時，首先使用此入口。  
+這是唯一的公共工作流程入口點；它在內部會將請求路由至 modules/undergraduate-thesis-topic、modules/cnki-cssci-search、modules/workbuddy-cnki-webbridge-search、modules/literature-review-cn、modules/thesis-proposal-cn、modules/thesis-outline-cn、modules/thesis-materials-cn、modules/thesis-body-cn、modules/thesis-figures-cn、modules/thesis-qc-cn 以及 modules/docx-editor-cn，於每個階段完成後詢問是否繼續，且預設會為文獻回顧、開題報告以及完整論文生成 Word 文件。  
+請始終以使用者的語言回應。

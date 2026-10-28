@@ -1,0 +1,3 @@
+將 C、C++、Python、Go、JavaScript 或 TypeScript 的程式碼移植為慣用的 Rust，保留原始行為：使用所有權取代手動記憶體管理，使用 Result 取代錯誤碼與例外，使用 enum 取代旗標整數與魔法字串，並撰寫測試證明移植結果相符。每當使用者要求將程式碼移植、翻譯、轉換、遷移或重寫成 Rust（例如「rewrite this in Rust」、「what would this look like in Rust」、「move this module to Rust」），即使未提及「port」，也請使用此規則。此規則搭配 rust-best-practices 技能，以符合目標程式碼的風格。  
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,1 @@
+指導 Versal 分段配置 PL 重新載入工作流程，以在保持 `boot.pdi` 不變的同時，建立和驗證多個獨立編譯的 `pld.pdi` 變體。當使用者詢問如何設定金鑰 PL 重新載入設計、產生新的 PL 變體專案、使用 `write_noc_solution` 保留 NoC 開機路徑、調整位址孔徑以符合重新載入相容性、執行 `pr_verify -segcfg_only`，或偵錯因 PLM 拒絕而產生的 `unique_id` / `parent_unique_id` 不匹配時使用本指南。
