@@ -1,0 +1,3 @@
+Conecta y autentica el servidor MCP de UptimeRobot (OAuth a través de mcp-remote), o diagnostica por qué las herramientas MCP `uptimerobot:*` no son visibles en la sesión actual. Invoca esta habilidad cada vez que no puedas ver las herramientas de UptimeRobot, antes de decir al usuario que el MCP está mal configurado — el Paso 0 detecta el caso más común (servidor ya conectado, herramientas cargadas después de iniciar la sesión) y lo resuelve sin volver a autenticarse. También invoca en errores de autenticación `-31001` o en la configuración inicial.
+
+Por favor, responde siempre en el idioma del usuario.
