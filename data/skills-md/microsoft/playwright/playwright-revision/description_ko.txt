@@ -1,0 +1,1 @@
+이슈 트라이애지 워크플로가 열어 놓은 초안 PR에 대한 유지관리자 리뷰 코멘트를 처리합니다. 이는 PR 리비전 GitHub Actions 워크플로(.github/workflows/revision.yml) 내부에서 unattended 상태이며, PR에 `needs-revision`, `needs-revision-mac` 또는 `needs-revision-win` 라벨이 붙으면 시작됩니다. 코멘트에 따라 코드를 수정하고, 러너에서 검증한 뒤, 워크플로가 동일한 PR에 푸시할 하나의 커밋을 남깁니다. 해당 워크플로에만 적용됩니다.

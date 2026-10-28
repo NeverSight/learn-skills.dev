@@ -1,0 +1,3 @@
+TypeScript 또는 React 프런트엔드 레포(선택한 린터, 테스트 러너 또는 CI)를 10가지 anti‑AI‑slop 검사(API 계약 코드 생성, 엄격한 TypeScript, sonarjs 및 unnecessary‑effect 린트 규칙, 레이어 경계, 과거 버그에서 만든 맞춤 규칙, 에이전트 규칙 및 훅, Stryker 변이 테스트, knip 죽은 코드, jscpd 중복, CI 게이트, 그리고 react‑doctor)와 대조하여 감사합니다: 각 검사가 여기서 무엇을 찾는지 측정하고, 어느 것이 가치 있는지 결정한 뒤, anti‑slop/plan.md와 anti‑slop/todo.md에 PR‑별 롤아웃 계획을 작성하세요. 사용자는 레포를 AI‑생성 코드나 vibe‑코드에서 강하게 보호하고 싶을 때, 프로토타입·MVP·vibe‑코드 앱을 제품으로 전환할 때, 프로젝트를 시작하면서 첫날부터 가드레일을 원할 때, 프로젝트에 필요한 린터나 죽은 코드·중복 탐지기가 무엇인지 물을 때, 코드베이스에 얼마나 많은 슬롭이 있는지 알고 싶을 때, 혹은 Evil Martians의 anti‑slop 포스트를 언급할 때 사용합니다. 변경되는 파일은 위 두 파일뿐입니다. 기존 계획의 한 단계를 실행하려면 anti‑slop‑rollout을 사용하세요.
+
+항상 사용자의 언어로 답변하십시오.
