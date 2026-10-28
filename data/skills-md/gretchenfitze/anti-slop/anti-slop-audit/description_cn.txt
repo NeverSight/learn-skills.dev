@@ -1,0 +1,3 @@
+审计一个 TypeScript 或 React 前端仓库（使用任意 linter、测试运行器或 CI），针对十项 anti‑AI‑slop 检查（API 合约代码生成、严格的 TypeScript、sonarjs 与 unnecessary‑effect lint 规则、层级边界、来自过去错误的自定义规则、agent 规则和 hooks、Stryker 变异测试、knip 死代码、jscpd 重复代码、CI 门禁，以及 react‑doctor）：在此测量每项检查的发现，决定哪些值得实施，并将 PR 级别的 rollout 计划写入 anti‑slop/plan.md 和 anti‑slop/todo.md。适用于用户希望对抗 AI 生成或“vibe‑coded”代码进行加固、把原型、MVP 或 “vibe‑coded” 应用转化为产品、从项目起步即需要防护栏、询问项目需要哪些 linter 或死代码/重复检测工具、想了解代码库的 slop 有多少，或提及 Evil Martians 的 anti‑slop 帖子时。仅更改这两个文件。若要执行已有计划的某一步，请使用 anti‑slop‑rollout。
+
+请始终使用用户的语言回复。

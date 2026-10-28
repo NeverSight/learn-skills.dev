@@ -1,0 +1,1 @@
+使用 rocprofv3 对 GPU kernel 进行分析，收集 ATT 指令级跟踪，然后使用 hotspot_analyzer.py 分析跟踪数据，识别前 K 个停滞热点（VMEM‑load、VMEM‑wait、LDS/SMEM‑wait、屏障、MFMA 停滞），映射回源代码行，并制定可操作的优化方案。还会分析 rocprofv3 的 PMC 计数器 CSV（L2 命中率、部分读取、过度获取）。用法：/kernel-trace-analysis <cmd> 也可以直接分析已有的调度目录：/kernel-trace-analysis --dir <path>

@@ -1,0 +1,3 @@
+在包管理器上配置最小发布时间（冷却期），使新发布的版本在 N 天内不被安装——这是一种廉价且高效的防御供应链攻击的措施（npm shai‑hulud、axios 拼写错误攻击、恶意的安装后钩子）。当用户请求加强项目或其机器的供应链防护时使用，设置“冷却期”“烘焙期”“最小发布年龄”“排除更新”，阻止过于新鲜的包，或采用 Datadog 的“dependency cooldowns”或 Matteo Collina gist 中的建议。涵盖 npm、pnpm、yarn、uv 和 pip。请勿用于：锁文件固定、SCA 扫描（Snyk/Dependabot）、Poetry（无原生支持）或审计工具。
+
+请始终使用用户的语言回复。

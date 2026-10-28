@@ -1,0 +1,1 @@
+全面的 AIE 内核开发指南，涵盖架构层面的优化技术、结果分析和与编译器无关的模式。包括针对寄存器压力的循环拆分、就地更新、符号位优化、VLIW 槽感知、结果分析（反汇编、DM 图、调用树、性能分析）以及通用内核编码实践。随附 aie_api_references.md，详细的 AIE API 原语目录（按数据类型支持、向量化、累加器类型、数学模式到 API 的映射）。关于 Peano 编译器特定的 pragma、循环提示、软件流水线细节和优化说明，请参见 vai-aie-compiler-oriented-optimizations 技能。
