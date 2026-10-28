@@ -4,600 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 27 Oct 2026 03:43:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 03:57:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-27)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-10-28)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:snapshot</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:snapshot</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8345
-Trending skills: 8265
-Hot skills: 5382
-Top All Time: find-skills (4061922)
-Top Trending: design-mobile-apps (22587)
-Top Hot: uizze-ui (250)]]></description>
+All Time skills: 8343
+Trending skills: 8226
+Hot skills: 6910
+Top All Time: find-skills (4080408)
+Top Trending: design-mobile-apps (20935)
+Top Hot: google-agents-cli-observability (390)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): uizze-ui]]></title>
-            <link>https://skills.sh/uizze/uizze/uizze-ui</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:uizze/uizze/uizze-ui</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): ai-avatar-video]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topAllTime:new:qu-skills/superpowers/ai-avatar-video</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 573370
+Source: qu-skills/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): google-agents-cli-observability]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 250
-Source: uizze/uizze
-Description: The official Uizze skill for building and improving UI/UX. Work with your project's code and assets, and use uizze.com for real app examples, design systems, licensed fonts, icons and interaction resources.]]></description>
+Installs: 390
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): modern-web-guidance]]></title>
-            <link>https://skills.sh/googlechrome/modern-web-guidance/modern-web-guidance</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:googlechrome/modern-web-guidance/modern-web-guidance</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): solana-mobile]]></title>
+            <link>https://skills.sh/solana-mobile/solana-mobile-skills/solana-mobile</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-mobile/solana-mobile-skills/solana-mobile</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 25
-Source: googlechrome/modern-web-guidance
-Description: Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and training weights contain obsolete patterns.
-
-Trigger immediately for:
-- UI/Layout: Modals, dialogs, popovers, Glassmorphism/backdrop-filters, anchor positioning, container queries, `:has()`, `:user-valid`.
-- Scroll/Motion: View Transitions, Scroll-driven animations, scroll parallax/reveals.
-- Performance: CWV (LCP, INP), content-visibility, Fetch Priority, image optimization.
-- System/APIs: Local filesystem access, WebUSB, WebSockets sync, WebAssembly widgets.
-- Frameworks: Adapting layout/styles in React, Vue, Angular.
-- General Frontend: Forms, autofill, advanced inputs, custom scrollbars, modern component states, etc.
-
-DO NOT trigger for:
-- Backend: Database SQL, ORMs, Express API routes.
-- Pipelines: CI/CD deployment, Docker, Actions.
-- Generic: Local scripts (Python/Go tools), ESLint, Git.]]></description>
+Installs: 304
+Source: solana-mobile/solana-mobile-skills
+Description: Scaffold, configure, and troubleshoot Solana Mobile apps for Android using the solana-mobile CLI, Expo, and React Native. Use when creating a new Solana mobile app, picking a template, adding Solana to an existing Expo app, checking the Android toolchain, managing Android emulators, or producing a development build.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): verification-before-completion]]></title>
-            <link>https://skills.sh/obra/superpowers/verification-before-completion</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:obra/superpowers/verification-before-completion</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): solana-mobile-publishing]]></title>
+            <link>https://skills.sh/solana-mobile/solana-mobile-skills/solana-mobile-publishing</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-mobile/solana-mobile-skills/solana-mobile-publishing</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 53
-Source: obra/superpowers
-Description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always]]></description>
+Installs: 304
+Source: solana-mobile/solana-mobile-skills
+Description: Build, sign, and publish an Android APK to the Solana dApp Store with the dapp-store CLI. Use when shipping a Solana mobile app to the dApp Store for the first time, releasing an update, signing a release APK, setting up a publisher account and App NFT, or debugging a release build that works fine in debug.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): byted-web-search]]></title>
-            <link>https://skills.sh/kotot/byted-web-search/byted-web-search</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:kotot/byted-web-search/byted-web-search</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): solana-mobile-wallet]]></title>
+            <link>https://skills.sh/solana-mobile/solana-mobile-skills/solana-mobile-wallet</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-mobile/solana-mobile-skills/solana-mobile-wallet</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 16
-Source: kotot/byted-web-search
-Description: 火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent Plan、融合信息搜索、Harness、有什么/有哪些/推荐、价格/政策/汇率/行情、对比/区别/哪个好、听说/据说/不太确定、热搜/热门/火、帮我看/了解一下、求证/辟谣、值不值得/该不该。任务依赖在线事实或时效性时优先使用。若回答可能依赖外部事实，优先调用本 skill 再作答。]]></description>
+Installs: 304
+Source: solana-mobile/solana-mobile-skills
+Description: Connect Solana wallets and sign or send transactions in React Native Expo apps using Mobile Wallet Adapter and Wallet UI. Use when adding a connect wallet button, showing a connected address, disconnecting, signing messages, sign-in with Solana, transferring SOL, or sending any transaction from a Solana mobile app.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): systematic-debugging]]></title>
-            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:obra/superpowers/systematic-debugging</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): seeker-connect]]></title>
+            <link>https://skills.sh/solana-mobile/solana-mobile-skills/seeker-connect</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-mobile/solana-mobile-skills/seeker-connect</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 62
-Source: obra/superpowers
-Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
+Installs: 304
+Source: solana-mobile/solana-mobile-skills
+Description: Connect a web dapp to the Seeker device's built-in wallet with Seeker Connect. Use when adding wallet connection, sign-in with Solana, message signing, or transaction signing to a website that runs in the browser on a Seeker phone, registering the "Seeker Connect" Wallet Standard wallet, choosing the Nostr relay for relayDomain, using the seeker-connect-button element, or debugging SeekerConnectError codes like association-failed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): writing-changelogs]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/writing-changelogs</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/writing-changelogs</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): seeker-genesis-token]]></title>
+            <link>https://skills.sh/solana-mobile/solana-mobile-skills/seeker-genesis-token</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-mobile/solana-mobile-skills/seeker-genesis-token</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when writing a changelog entry, release notes, or a "what shipped" summary after completing work. Encodes the entry shape, the handover template, and the honesty conventions. Use after shipping meaningful work, even if the user just says "summarize what we did".]]></description>
+Installs: 304
+Source: solana-mobile/solana-mobile-skills
+Description: Verify Seeker device ownership by checking for the Seeker Genesis Token (SGT) with Sign-in-with-Solana and server-side token verification. Use when gating content or rewards to Seeker owners, verifying a user holds an SGT, adding anti-Sybil checks to a Solana mobile app, or implementing one-claim-per-device logic.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): writing-runbooks]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/writing-runbooks</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/writing-runbooks</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): integration-privy]]></title>
+            <link>https://skills.sh/solana-mobile/solana-mobile-skills/integration-privy</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-mobile/solana-mobile-skills/integration-privy</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when writing operational documentation - runbooks, setup guides, release procedures, migration guides, deprecation guides, troubleshooting entries, or any ordered procedure someone will execute under time pressure. Encodes the runbook skeleton, the risk legend, the symptom-first troubleshooting format, and the migration-guide rules (mapping table, mandatory rollback, deprecation dates, built-in expiry). Use whenever someone will execute the text, even if it is called a "guide" or "setup notes".]]></description>
+Installs: 304
+Source: solana-mobile/solana-mobile-skills
+Description: Add Privy authentication to a Solana Expo Android app on top of Mobile Wallet Adapter, using Sign-In-With-Solana. Use when installing @privy-io/expo, mounting PrivyProvider, logging a user in with useLoginWithSiws, linking a wallet to an existing Privy account, reading the Privy access token from a backend, or debugging a Privy plus MWA setup.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): documenting-legacy-codebases]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/documenting-legacy-codebases</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/documenting-legacy-codebases</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when documenting an existing codebase whose documentation is missing, stale, or untrusted - an inherited system, a legacy application, a repo where the docs lie - or when regrounding a documentation tree against the code, or when someone asks what a system actually does. Encodes the survey-first inventory, the writer-side evidence hierarchy, depth-per-surface rules, the refactor test, dead-or-alive proofs, the quirks-and-findings split, the coverage ledger, the parallel campaign, and the docs-tree skeleton. Use whenever documentation must be reconstructed from the code rather than written alongside a change.]]></description>
+Installs: 153
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): documenting-contracts]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/documenting-contracts</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/documenting-contracts</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): vercel-composition-patterns]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when documenting an HTTP API, message payloads, queue contracts, DTOs, file formats, or webhooks - or when writing the api-reference of a legacy campaign, or when callers keep asking what a field means or which errors an endpoint returns. Encodes the four detail levels, the DTO-first catalog, wire types with source anchors, the generated-spec one-home rule, and omitted-versus-null semantics. Use whenever a machine interface needs documenting for its callers, even if nobody says "API docs".]]></description>
+Installs: 84
+Source: vercel-labs/agent-skills
+Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): diagramming-processes]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/diagramming-processes</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/diagramming-processes</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): vercel-react-view-transitions]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-view-transitions</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/vercel-react-view-transitions</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when a business process, workflow, lifecycle, or interaction between systems needs a diagram - a flow that prose serializes badly, a state machine, a message sequence, an enterprise process map - or when drawing the process documentation of a legacy campaign. Encodes diagrams-as-source, the notation ladder from ArchiMate to PlantUML, the kind-per-question table, behavior-level participants, the diagram index, and the same-change maintenance rule. Use whenever a document needs a graph rather than more paragraphs, even if nobody says "PlantUML".]]></description>
+Installs: 72
+Source: vercel-labs/agent-skills
+Description: Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): writing-issues]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/writing-issues</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/writing-issues</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): deploy-to-vercel]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/deploy-to-vercel</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/deploy-to-vercel</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when writing or refining tracker items - epics, stories, tasks, bug reports, spikes, or acceptance criteria - or when turning a discussion, review finding, or plan into tickets. Encodes the survives-without-you test, the issue-type glossary, and the story and bug skeletons. Use whenever work is written into a tracker, even from a rough verbal dump.]]></description>
+Installs: 70
+Source: vercel-labs/agent-skills
+Description: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): image-to-ui]]></title>
-            <link>https://skills.sh/uizze/uizze/image-to-ui</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:uizze/uizze/image-to-ui</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): google-agents-cli-eval]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 91
-Source: uizze/uizze
-Description: Recreate an image, screenshot, or mockup as a 1:1 UI implementation. Match the reference rather than redesigning it, then render and compare the result to correct visible differences.]]></description>
+Installs: 390
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): writing-postmortems]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/writing-postmortems</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/writing-postmortems</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): setup-matt-pocock-skills]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-matt-pocock-skills</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:mattpocock/skills/setup-matt-pocock-skills</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when writing a postmortem, incident report, or root-cause analysis after an outage, a defect that reached users, a data issue, or a near miss - or when turning an incident channel, alert log, or war-room thread into a durable document. Encodes the blameless framing, the evidence-only timeline, contributing factors, and owned action items. Use whenever something broke and the write-up must outlive the incident.]]></description>
+Installs: 244
+Source: mattpocock/skills
+Description: Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): recording-decisions]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/recording-decisions</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/recording-decisions</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): security-audit]]></title>
+            <link>https://skills.sh/cloudflare/security-audit-skill/security-audit</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:cloudflare/security-audit-skill/security-audit</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when a decision needs recording - an ADR, a decision log entry, or when someone asks to write down why something was chosen, rejected, or superseded. Encodes the ADR and decision-log formats. Use whenever a choice was made that would otherwise live only in chat, even if nobody says "ADR".]]></description>
+Installs: 139
+Source: cloudflare/security-audit-skill
+Description: Security audit of a codebase — web apps, APIs, services, CLI tools, libraries, daemons, and more. Use when asked to find security bugs, do a security review, audit for vulnerabilities, or pen-test the code. Focuses on exploitable issues with real impact, not theoretical concerns or industry-standard behavior.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): workers-best-practices]]></title>
-            <link>https://skills.sh/cloudflare/skills/workers-best-practices</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:cloudflare/skills/workers-best-practices</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): writing-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/writing-guidelines</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/writing-guidelines</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 34
-Source: cloudflare/skills
-Description: Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge.]]></description>
+Installs: 59
+Source: vercel-labs/agent-skills
+Description: Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and tone", or "check this page against the writing handbook".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): technical-writing]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/technical-writing</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/technical-writing</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): vercel-optimize]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-optimize</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/vercel-optimize</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when writing, restructuring, or revising any technical document - specs, design docs, READMEs, reference documentation, plans, reports - or any prose that must survive being read twice by someone in a hurry. Encodes the house style, the truth and sourcing rules, and the banned-constructions list. Use whenever you produce repository-bound text longer than a paragraph, even if nobody says "document". Foundation for the sibling document-type skills.]]></description>
+Installs: 58
+Source: vercel-labs/agent-skills
+Description: Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): writing-design-docs]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/writing-design-docs</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/writing-design-docs</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): vercel-cli-with-tokens]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-cli-with-tokens</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/vercel-cli-with-tokens</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when writing a proposal, RFC, design document, spec, or migration plan - anything that argues for a change, records a design, or asks readers for input on one. Encodes the proposal skeleton, the Why & What decision box, and the completeness checks. Use whenever a change needs arguing or scoping in writing, even if the user just says "write up the approach".]]></description>
+Installs: 57
+Source: vercel-labs/agent-skills
+Description: Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up vercel", "add environment variables to vercel".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): reviewing-technical-prose]]></title>
-            <link>https://skills.sh/riekelt/technical-writer/reviewing-technical-prose</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:riekelt/technical-writer/reviewing-technical-prose</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): council]]></title>
+            <link>https://skills.sh/t3dotgg/tstack/council</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:t3dotgg/tstack/council</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 13
-Source: riekelt/technical-writer
-Description: Use when reviewing, rewriting, or editing someone else's technical text, when writing a review report on a document, or as the final check before delivering any document. Encodes the severity mapping, the findings format, the what-not-to-flag list, and the delivery checklist. Use before any document ships, even when it looks fine.]]></description>
+Installs: 34
+Source: t3dotgg/tstack
+Description: Trigger this if the user says 'council'.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): cloudflare]]></title>
-            <link>https://skills.sh/cloudflare/skills/cloudflare</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:cloudflare/skills/cloudflare</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): full-stop]]></title>
+            <link>https://skills.sh/t3dotgg/tstack/full-stop</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:t3dotgg/tstack/full-stop</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 35
-Source: cloudflare/skills
-Description: Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task.]]></description>
+Installs: 33
+Source: t3dotgg/tstack
+Description: Trigger this if the user says 'full stop', even as a closing "Full stop." that reads like emphasis.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): instrument-events]]></title>
-            <link>https://skills.sh/amplitude/mcp-marketplace/instrument-events</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:amplitude/mcp-marketplace/instrument-events</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): sol-loop]]></title>
+            <link>https://skills.sh/t3dotgg/tstack/sol-loop</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:t3dotgg/tstack/sol-loop</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 15
-Source: amplitude/mcp-marketplace
-Description: Given event_candidates YAML (output from discover-event-surfaces), generates a concrete instrumentation plan for priority-3 (critical) events. Acts as a Software Architect: discovers existing analytics patterns in the codebase, reads the hinted files to determine what variables are in scope, designs minimal chart-useful properties, and identifies the exact insertion point for each tracking call. Outputs a structured JSON trackingPlan. Use this as step 3 of the analytics instrumentation workflow, after discover-event-surfaces. Trigger whenever a user has event_candidates and wants to generate tracking code, asks "instrument these events", "generate tracking plan", "add analytics for these events", "where should I put the tracking calls", or any request to turn event candidates into concrete implementation guidance.]]></description>
+Installs: 33
+Source: t3dotgg/tstack
+Description: Use when the user says "sol loop".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): taxonomy]]></title>
-            <link>https://skills.sh/amplitude/mcp-marketplace/taxonomy</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:amplitude/mcp-marketplace/taxonomy</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): takeover]]></title>
+            <link>https://skills.sh/t3dotgg/tstack/takeover</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:t3dotgg/tstack/takeover</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 15
-Source: amplitude/mcp-marketplace
-Description: Source of truth for event taxonomy generation, data auditing, and governance best practices in Amplitude. Use when an agent needs to create, validate, audit, score, or recommend improvements to event tracking plans, naming conventions, property standards, data quality, or deprecation workflows. Covers naming rules, property standards, scoring frameworks, safe metadata operations, deprecation procedures, and AI readiness guidance.]]></description>
+Installs: 33
+Source: t3dotgg/tstack
+Description: Take over existing work. Use when the user asks to take over a PR, branch, or agent thread, or requests a takeover.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): discover-event-surfaces]]></title>
-            <link>https://skills.sh/amplitude/mcp-marketplace/discover-event-surfaces</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:amplitude/mcp-marketplace/discover-event-surfaces</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): ultracite]]></title>
+            <link>https://skills.sh/haydenbleasel/ultracite/ultracite</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:haydenbleasel/ultracite/ultracite</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 15
-Source: amplitude/mcp-marketplace
-Description: Given a change_brief YAML (output from diff-intake), generates an exhaustive list of candidate analytics events to instrument. Takes the perspective of an engineer with a PM mindset — surfaces everything worth considering so a PM can decide what actually matters. Use this as step 2 of the analytics instrumentation workflow, immediately after diff-intake produces a change_brief. Trigger whenever a user has a change_brief YAML and wants to know what analytics events to add, or asks "what should I track for this PR", "what events should I instrument", "generate event candidates", or any request to surface analytics coverage gaps for a code change.]]></description>
+Installs: 33
+Source: haydenbleasel/ultracite
+Description: Ultracite is a zero-config linting and formatting preset for JavaScript/TypeScript projects. Use when: (1) Setting up or initializing Ultracite in a project (ultracite init), (2) Running linting or formatting commands (check, fix, doctor), (3) Writing or reviewing JS/TS code in a project that uses Ultracite — to follow its code standards, (4) Troubleshooting linting/formatting issues, (5) User mentions 'ultracite', 'lint', 'format', 'code quality', or 'biome/eslint/oxlint' in a project with Ultracite installed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): binance-agentic-wallet]]></title>
-            <link>https://skills.sh/binance/binance-skills-hub/binance-agentic-wallet</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:binance/binance-skills-hub/binance-agentic-wallet</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): google-agents-cli-adk-code]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 107
-Source: binance/binance-skills-hub
-Description: Use when the user mentions wallet connect/sign in/sign out, check balance, send/transfer tokens,
-swap/buy/sell tokens, DEX trade, limit/market order, cancel order, get a quote, transaction history,
-wallet settings, daily limit, slippage, MEV protection, supported chains,
-send to ENS domain, send to .eth or .bnb name, resolve domain name to address, domain-based transfer,
-send to .ai Agent ID name,
-Agent ID claim status, whether I claimed my .ai space id / Agent ID, get my .ai domain,
-prediction market, place prediction, redeem winnings, prediction PnL,
-x402 payment, HTTP 402 Payment Required,
-check/revoke/manage token approvals,
-DeFi protocols, staking, liquidity pool, LP, yield farming, deposit, redeem, stake, unstake,
-claim rewards/fees, health factor, APY, TVL,
-sign external transaction, contract call, sign message, EIP-712, developer mode,
-speed up/cancel/replace transaction, pending/stuck transactions,
-gas price, gas fee, network fee, fee levels, gas tiers,
-or any on-chain wallet operation.]]></description>
+Installs: 390
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): nx-workspace]]></title>
-            <link>https://skills.sh/nrwl/nx-ai-agents-config/nx-workspace</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:nrwl/nx-ai-agents-config/nx-workspace</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): create-verification-skill]]></title>
+            <link>https://skills.sh/backnotprop/pstack/create-verification-skill</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/create-verification-skill</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 15
-Source: nrwl/nx-ai-agents-config
-Description: Explore and understand Nx workspaces. USE WHEN answering questions about the workspace, projects, or tasks. ALSO USE WHEN an nx command fails or you need to check available targets/configuration before running a task. EXAMPLES: 'What projects are in this workspace?', 'How is project X configured?', 'What depends on library Y?', 'What targets can I run?', 'Cannot find configuration for task', 'debug nx task failure'.]]></description>
+Installs: 37
+Source: backnotprop/pstack
+Description: Generate a project-local verification skill that drives your app the way a user does — any language, framework, or platform. Use for /create-verification-skill, "make a control skill for this repo", or when a project has no scripted way to prove UI/CLI/service behavior.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): fastify-best-practices]]></title>
-            <link>https://skills.sh/mcollina/skills/fastify-best-practices</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:mcollina/skills/fastify-best-practices</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): vercel-react-native-skills]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 15
-Source: mcollina/skills
-Description: Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts.]]></description>
+Installs: 63
+Source: vercel-labs/agent-skills
+Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): add-analytics-instrumentation]]></title>
-            <link>https://skills.sh/amplitude/mcp-marketplace/add-analytics-instrumentation</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:amplitude/mcp-marketplace/add-analytics-instrumentation</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): correct]]></title>
+            <link>https://skills.sh/backnotprop/pstack/correct</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/correct</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 15
-Source: amplitude/mcp-marketplace
-Description: End-to-end analytics instrumentation workflow for a PR, branch, file, directory, or feature. Reads the code, discovers what events should be tracked, and produces a concrete instrumentation plan — all in one shot. Use this skill whenever a user wants to add analytics to a PR, asks "instrument this PR", "add tracking to this branch", "what analytics does this file need", "instrument the checkout flow", "run the full instrumentation workflow", or any request that implies going from code changes to a tracking plan. Also trigger when the user gives you a PR link, branch name, file path, or feature description and mentions analytics, events, or instrumentation. This is the main entry point for the analytics workflow — prefer it over calling the individual steps (diff-intake, discover-event-surfaces, instrument-events) separately.]]></description>
+Installs: 37
+Source: backnotprop/pstack
+Description: Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types, then a lint whose error names the fix, then a test, and write docs last. Prove each check fails on a real past mistake. Repeat this each time the operator corrects you. Use for /correct.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): diff-intake]]></title>
-            <link>https://skills.sh/amplitude/mcp-marketplace/diff-intake</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:amplitude/mcp-marketplace/diff-intake</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): show-me-your-work]]></title>
+            <link>https://skills.sh/backnotprop/pstack/show-me-your-work</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/show-me-your-work</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 15
-Source: amplitude/mcp-marketplace
-Description: Reads a PR or branch diff and produces a structured YAML change brief for downstream analytics instrumentation skills. Use this as the first step whenever a user shares a PR link, branch comparison, or raw diff and wants to understand what changed, what needs tracking, or how to instrument a feature. Trigger on phrases like "review this PR", "what changed in this branch", "help me instrument this diff", "check analytics coverage for this change", or any request to start the analytics review workflow.]]></description>
+Installs: 37
+Source: backnotprop/pstack
+Description: Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, evidence, result). Local by default; commit it when a reviewer needs the trail to trust the result. Use for /show-me-your-work, autonomous or multi-phase runs, or work a human reviews after stepping away.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): discover-analytics-patterns]]></title>
-            <link>https://skills.sh/amplitude/mcp-marketplace/discover-analytics-patterns</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:amplitude/mcp-marketplace/discover-analytics-patterns</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): maintain-formal-verification-skill]]></title>
+            <link>https://skills.sh/backnotprop/pstack/maintain-formal-verification-skill</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/maintain-formal-verification-skill</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 15
-Source: amplitude/mcp-marketplace
-Description: Discovers how analytics tracking calls are actually written in this codebase — the concrete SDK calls, function signatures, and import patterns used to send events. Use this skill whenever you need to understand the existing analytics instrumentation patterns before adding new tracking, when someone asks "how do we track events here?", "show me the analytics setup", "what's the analytics pattern in this codebase?", or any time the instrument-events or discover-event-surfaces skills are about to run and you need to know the correct coding style to follow. Outputs a deduplicated list of patterns with generalized examples and the file paths where each pattern appears, plus the dominant event and property naming conventions inferred from those call sites. Always use this skill before writing any analytics instrumentation code.]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Bring a project's formal verification back in line with the code after the code changes: find the commits that touched verified code, update the model, harness, or properties to describe the code as it is now, rerun, and say whether each failure is drift in the verification or a bug in the code. Use for /maintain-formal-verification-skill, "is the model still true to the code", or after merges and refactors that touched verified code without rechecking it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): skill-authoring]]></title>
-            <link>https://skills.sh/masseater/skills/skill-authoring</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:masseater/skills/skill-authoring</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): principle-experience-first]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-experience-first</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-experience-first</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 11
-Source: masseater/skills
-Description: skill（`SKILL.md`）を作る・直すときに読む。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when product, UX, or feature-scope tradeoffs come up. Choose user delight over implementation convenience; ship fewer polished features over more rough ones.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): e2e-testing]]></title>
-            <link>https://skills.sh/philtzjp/skills/e2e-testing</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/e2e-testing</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): principle-boundary-discipline]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-boundary-discipline</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-boundary-discipline</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 11
-Source: philtzjp/skills
-Description: 新しいユーザー向け主要フロー、重要な UI 変更、既存フローの成功条件を変更したときに参照する。このスキルは e2etest スキルに統合した。内容は e2etest スキルを使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when wiring validation, error handling, or framework adapters. Concentrate guards at system boundaries (CLI, config, network, external APIs); trust internal types and keep business logic in pure functions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): e2etest]]></title>
-            <link>https://skills.sh/philtzjp/skills/e2etest</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/e2etest</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): principle-foundational-thinking]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-foundational-thinking</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-foundational-thinking</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 11
-Source: philtzjp/skills
-Description: E2E テストを作成・実行する。agent-browser を主に使い、対応できないインタラクションに限って Playwright にフォールバックする。テストを書く条件と書かない条件、sleep によるタイミング依存の禁止、明示的な待機条件。ユーザー向け主要フローの追加、重要な UI 変更、既存フローの成功条件を変えたときに使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply before writing logic: choosing core types and data structures, sequencing scaffold-vs-feature work, asking what concurrent actors share. Get the data structures right so downstream code becomes obvious.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): measure-dont-guess]]></title>
-            <link>https://skills.sh/masseater/skills/measure-dont-guess</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:masseater/skills/measure-dont-guess</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): principle-test-behavior-not-implementation]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-test-behavior-not-implementation</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-test-behavior-not-implementation</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 11
-Source: masseater/skills
-Description: 仮説を白黒つける計測を実装や修正の前に決めて実行し、その結果だけで判断する。不具合の原因を調べるとき、性能や挙動を比べるとき、新しい機能を書き始めるとき、「たぶん」で判断しそうになったときに使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when you write, change, or keep a test. Call the code the way its users do and assert the result they observe against a literal expected value. If the test would still pass when every imported function returns undefined, rewrite the assertion or delete the test.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): db]]></title>
-            <link>https://skills.sh/philtzjp/skills/db</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/db</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): principle-separate-before-serializing-shared-state]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-separate-before-serializing-shared-state</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-separate-before-serializing-shared-state</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 11
-Source: philtzjp/skills
-Description: データベースの選定、スキーマ定義、接続、マイグレーション。Postgres なら Neon、SQLite なら Cloudflare D1、ORM は Drizzle。app_migrations と app_application で接続先とロールを分ける。データ移行は件数取得、ドライラン、検証、本番実行、API 削除の順で行う。スキーマ変更、マイグレーション、既存レコードの一括変換、DB 接続設定の追加・修正・レビューを求められたときに使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when concurrent actors might write to the same file, branch, key, or state object. Eliminate the sharing first; serialize structurally only when one shared writer is a real invariant.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): gh-issue-sync]]></title>
-            <link>https://skills.sh/mitsuhiko/gh-issue-sync/gh-issue-sync</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:mitsuhiko/gh-issue-sync/gh-issue-sync</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): google-agents-cli-deploy]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 20
-Source: mitsuhiko/gh-issue-sync
-Description: Manage GitHub issues locally as Markdown files. Use for triaging, searching, editing, and creating issues without leaving your editor or terminal.]]></description>
+Installs: 391
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): integrate]]></title>
-            <link>https://skills.sh/masseater/skills/integrate</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:masseater/skills/integrate</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): principle-explain-the-number]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-explain-the-number</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-explain-the-number</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 11
-Source: masseater/skills
-Description: ライブラリや新しい実装手段を導入するときに使う。追加するだけで終わらせず、既存コードの移行と、その手段を使わせる機械的な強制まで行う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or an eval result. Find what limits it, and rule out that it measured something other than the work you think.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): how-to-use-react]]></title>
-            <link>https://skills.sh/masseater/skills/how-to-use-react</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:masseater/skills/how-to-use-react</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): principle-prove-it-works]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-prove-it-works</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-prove-it-works</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 11
-Source: masseater/skills
-Description: React 19.3 のコンポーネント、ローダー、サーバー処理を書く・直す・レビューするときに読む。状態の置き場所、非同期の組み方、並行 UI の API の使いどころ、props の形を決める。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply after completing a task, before declaring done. Verify against the real artifact (run the feature, read the actual value, inspect the diff), not a proxy, self-report, or 'it compiles.']]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): cursor-hook-authoring]]></title>
-            <link>https://skills.sh/philtzjp/skills/cursor-hook-authoring</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/cursor-hook-authoring</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): principle-make-operations-idempotent]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-make-operations-idempotent</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-make-operations-idempotent</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 11
-Source: philtzjp/skills
-Description: Cursor Cloud Agent 環境で Git hook 連鎖（特に commit-msg と Co-authored-by 付与・除去）を設計・実装・検証するときに参照する。Cursor 管理 hook の実行順、`commit-msg.cursor.co-author-strip` の命名規則、install スクリプト、lefthook 多層防御、テスト手順を定義する。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when designing commands, lifecycle steps, or processing loops that run amid crashes, restarts, and retries. Converge to the same end state regardless of partial prior runs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): analytics]]></title>
-            <link>https://skills.sh/philtzjp/skills/analytics</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/analytics</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): maintain-verification-skill]]></title>
+            <link>https://skills.sh/backnotprop/pstack/maintain-verification-skill</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/maintain-verification-skill</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 11
-Source: philtzjp/skills
-Description: アクセス解析を組み込む。Google Analytics と Consent Mode の同意シグナル、Cookie バナー、Cloudflare Web Analytics による Cookie なし計測、Workers Analytics Engine、GraphQL Analytics API。計測タグの追加、同意管理、analytics_storage や ad_storage の設定、アクセス解析の選定や移行を求められたときに使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Periodic pass that keeps a project's verification skill and feature map honest: parallel source readers per feature, one live session driving every feature, at most one PR of proven corrections. Use for /maintain-verification-skill or "audit the verify skill".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): data-migration]]></title>
-            <link>https://skills.sh/philtzjp/skills/data-migration</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/data-migration</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): principle-never-block-on-the-human]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-never-block-on-the-human</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-never-block-on-the-human</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 11
-Source: philtzjp/skills
-Description: データベースの一括変換、スキーマ移行、既存レコードの修正など、データマイグレーションを実装・実行するときに参照する。このスキルは db スキルに統合した。内容は db スキルを使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when tempted to ask 'should I do X?' on reversible work. Proceed, present the result, let the human course-correct after the fact; reserve confirmation for irreversible actions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): api-design]]></title>
-            <link>https://skills.sh/philtzjp/skills/api-design</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/api-design</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): principle-build-the-lever]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-build-the-lever</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-build-the-lever</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 11
-Source: philtzjp/skills
-Description: API エンドポイントの設計・実装・変更を行うとき（OpenAPI スキーマ、ヘルスチェック、ルーティング、認証方式の追加など）に参照する。このスキルは hono スキルに統合した。内容は hono スキルを使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply to any non-trivial work, not just bulk work: edits, migrations, analyses, checks. Build the tool that does it or proves it (codemod, script, generator, or a skill your subagents follow) instead of working by hand. The tool is the artifact a reviewer can rerun.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): setup-template]]></title>
-            <link>https://skills.sh/masseater/skills/setup-template</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:masseater/skills/setup-template</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): principle-attack-the-premise]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-attack-the-premise</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-attack-the-premise</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 11
-Source: masseater/skills
-Description: masseater/typescript-template から作ったリポジトリの GitHub 側の設定を gh で揃える。テンプレートから新しいリポジトリを作ったとき、GitHub の設定を揃え直すときに使う。ほかのリポジトリでも使えるが、その場合は適用する手順をユーザーに確認する。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the imbalance before the next fix, then question the premise instead of writing another fix that assumes it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): conventions]]></title>
-            <link>https://skills.sh/philtzjp/skills/conventions</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/conventions</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): principle-encode-lessons-in-structure]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-encode-lessons-in-structure</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-encode-lessons-in-structure</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 11
-Source: philtzjp/skills
-Description: git の commit-msg hook から呼ぶ、コミットメッセージの書式の検査器。規約の正本は philtzjp/.github の conventions.yml。hook が「書式の検査器がありません」と止めたとき、検査の結果に納得できないとき、hook を設定するときに使う。書式そのものの書き方は github スキルに従う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when you catch yourself writing the same instruction a second time, or notice a recurring correction. Encode the rule as a lint, metadata flag, runtime check, or script instead of more text.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): commit-and-git]]></title>
-            <link>https://skills.sh/philtzjp/skills/commit-and-git</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/commit-and-git</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): poteto-help]]></title>
+            <link>https://skills.sh/backnotprop/pstack/poteto-help</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/poteto-help</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 11
-Source: philtzjp/skills
-Description: コミット、プッシュ、ブランチ作成や切り替え、マージ、リベース、gh pr merge など Git / GitHub の操作を行うときに参照する。このスキルは github スキルに統合した。内容は github スキルを使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Type /poteto-help with a question.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): errorpage]]></title>
-            <link>https://skills.sh/philtzjp/skills/errorpage</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:philtzjp/skills/errorpage</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): setup-pstack]]></title>
+            <link>https://skills.sh/backnotprop/pstack/setup-pstack</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/setup-pstack</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 11
-Source: philtzjp/skills
-Description: エラー応答を設計する。404 と 410 と 301 の使い分け、soft 404 の回避、Accept に応じた HTML と Markdown と application/problem+json の出し分け、RFC 9457 Problem Details、キャッシュ方針、内部情報の漏えい防止、curl での検証。404 ページ、エラーページ、Not Found、エラーハンドリング、API のエラーレスポンスの実装・修正・レビューを求められたときに使う。]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Configure which models pstack uses per role. Detects your available models and writes an always-applied rule that overrides the skill defaults. Use for /setup-pstack, "configure pstack models", or changing pstack's model choices.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): effect-ts]]></title>
-            <link>https://skills.sh/effect-ts/skills/effect-ts</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:effect-ts/skills/effect-ts</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): google-agents-cli-publish]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 19
-Source: effect-ts/skills
-Description: Use this skill whenever working in a repository that uses Effect, even if the current task is in a new file or the user does not explicitly ask for Effect help. Apply it to any work that should follow the repository's Effect patterns, conventions, architecture, or supporting tooling. Also use it for questions about Effect patterns, services, layers, schemas, streams, runtimes, or typed error handling.]]></description>
+Installs: 390
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): better-auth-security-best-practices]]></title>
-            <link>https://skills.sh/better-auth/skills/better-auth-security-best-practices</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:better-auth/skills/better-auth-security-best-practices</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): principle-exhaust-the-design-space]]></title>
+            <link>https://skills.sh/backnotprop/pstack/principle-exhaust-the-design-space</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:backnotprop/pstack/principle-exhaust-the-design-space</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 23
-Source: better-auth/skills
-Description: Configure rate limiting, manage auth secrets, set up CSRF protection, define trusted origins, secure sessions and cookies, encrypt OAuth tokens, track IP addresses, and implement audit logging for Better Auth. Use when users need to secure their auth setup, prevent brute force attacks, or harden a Better Auth deployment.]]></description>
+Installs: 36
+Source: backnotprop/pstack
+Description: Apply when facing a novel UI interaction or architectural decision with no precedent in the codebase. Build 2-3 competing prototypes and compare side by side before committing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): typescript-variables]]></title>
-            <link>https://skills.sh/mkosir/typescript-style-guide/typescript-variables</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:mkosir/typescript-style-guide/typescript-variables</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-scaffold]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 18
-Source: mkosir/typescript-style-guide
-Description: Apply, review, and explain TypeScript variable conventions. Use automatically for tasks involving variable declarations, const assertions, enum alternatives, literal-union state modelling, boolean flags, or choosing between null and undefined.]]></description>
+Installs: 389
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): typescript-discriminated-unions]]></title>
-            <link>https://skills.sh/mkosir/typescript-style-guide/typescript-discriminated-unions</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:mkosir/typescript-style-guide/typescript-discriminated-unions</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-workflow]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 18
-Source: mkosir/typescript-style-guide
-Description: Apply, review, and explain discriminated unions in TypeScript. Use automatically for tasks involving mutually exclusive variants, invalid state prevention, exhaustiveness checking, variant-specific object properties, application state, function arguments, or React props.]]></description>
+Installs: 389
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): elysiajs]]></title>
-            <link>https://skills.sh/elysiajs/skills/elysiajs</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:elysiajs/skills/elysiajs</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): solana-dev]]></title>
+            <link>https://skills.sh/solana-foundation/solana-dev-skill/solana-dev</link>
+            <guid isPermaLink="false">2026-10-28T03:57:37.847Z:topHot:new:solana-foundation/solana-dev-skill/solana-dev</guid>
+            <pubDate>Wed, 28 Oct 2026 03:57:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 19
-Source: elysiajs/skills
-Description: Create backend with ElysiaJS, a type-safe, high-performance framework.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): feature-sliced-design]]></title>
-            <link>https://skills.sh/feature-sliced/skills/feature-sliced-design</link>
-            <guid isPermaLink="false">2026-10-27T03:43:37.310Z:topHot:new:feature-sliced/skills/feature-sliced-design</guid>
-            <pubDate>Tue, 27 Oct 2026 03:43:37 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 18
-Source: feature-sliced/skills
-Description: Official Feature-Sliced Design (FSD) v2.1 skill for applying the methodology to frontend projects. Use when the task involves organizing project structure with FSD layers, deciding where code belongs, defining public APIs and import boundaries, resolving cross-imports or evaluating the @x pattern, deciding whether logic should remain local or be extracted, migrating from FSD v2.0 or a non-FSD codebase, integrating FSD with frameworks, or implementing common patterns such as auth, API handling, Redux, and React Query within FSD.]]></description>
+Installs: 330
+Source: solana-foundation/solana-dev-skill
+Description: End-to-end Solana development playbook (Jan 2026). Prefer Solana Foundation framework-kit (@solana/client + @solana/react-hooks) for React/Next.js UI. Prefer @solana/kit for all new client/RPC/transaction code. When legacy dependencies require web3.js, isolate it behind @solana/web3-compat (or @solana/web3.js as a true legacy fallback). Covers wallet-standard-first connection (incl. ConnectorKit), Anchor/Pinocchio programs, Codama-based client generation, LiteSVM/Mollusk/Surfpool testing, and security checklists.]]></description>
         </item>
     </channel>
 </rss>

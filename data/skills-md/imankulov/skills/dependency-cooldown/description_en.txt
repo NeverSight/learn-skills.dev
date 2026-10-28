@@ -1,0 +1,9 @@
+Configure a minimum release age (cooldown) on package managers so freshly published
+versions are not installed for N days — a cheap, high-leverage defense against
+supply chain attacks (npm shai-hulud, axios typosquats, malicious post-install hooks).
+Use when the user asks to harden a project or their machine against supply chain
+attacks, set a "cooldown" / "bake period" / "min-release-age" / "exclude-newer",
+block too-fresh packages, or apply the recommendations from the Datadog "dependency
+cooldowns" or Matteo Collina gist. Covers npm, pnpm, yarn, uv, and pip.
+Do NOT use for: lockfile pinning, SCA scanning (Snyk/Dependabot), Poetry (no native
+support), or audit tooling.
