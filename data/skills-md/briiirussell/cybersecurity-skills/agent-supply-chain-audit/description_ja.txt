@@ -1,0 +1,3 @@
+Claude Code、Cursor、Codex、Gemini CLI、GitHub Copilot で、AI コーディングエージェントが読み込み・信頼する拡張機能（スキル、プラグイン、マーケットプレイス、フック、設定、MCP サーバー、CLAUDE.md、AGENTS.md、GEMINI.md、.cursor/rules、copilot-instructions.md などの指示ファイル）を監査します。読み取り専用で、各項目の出所とピンを一覧化し、隠された指示、情報流出、認証情報の読み取り、永続化、curl|bash や過度に広いツール権限付与を grep で検出し、フックや MCP ピン留め、ツール汚染をレビューし、各項目に SAFE / CAUTION / DO‑NOT‑INSTALL の判定を付けます。ユーザーが「audit my skills」「is this skill malicious」「is this skill safe」「is this MCP server safe」「review CLAUDE.md」「review AGENTS.md」「plugin security」「check my hooks」「audit my MCP servers」「agent supply chain」「SkillSpector」「tool poisoning」「rug pull」などと言及したり、スキル、プラグイン、MCP サーバーのインストールを試みる際に使用してください。
+
+常にユーザーの言語で回答してください。

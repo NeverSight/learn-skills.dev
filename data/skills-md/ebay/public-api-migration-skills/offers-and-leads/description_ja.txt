@@ -1,0 +1,9 @@
+従来のベストオファーおよび分類広告リードフローを Offer API（GraphQL）と Leads API へ移行するためのガイダンス。
+
+ユーザーが次のいずれかを言及したときにトリガーします：GetBestOffers → sellerNegotiationHistory、RespondToBestOffer → acceptOffer／counterOffer／declineOffer、GetAdFormatLeads → getAllClassifiedLeads／getClassifiedLeadsByItemId、または「ベストオファーを確認する方法」や「分類リードを取得する方法」を尋ねた場合。
+
+ベストオファー取得、ベストオファーへの応答、分類広告リード取得の 3 つの従来操作をカバーしています。
+
+出品作成、注文管理、または購入者側のオファーフローには使用しないでください。
+
+常にユーザーの言語で回答してください。
