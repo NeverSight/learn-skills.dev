@@ -1,0 +1,8 @@
+Migrationsleitfaden für traditionelle Best‑Offer‑ und Kleinanzeigen‑Lead‑Flows zur Offer‑API (GraphQL) und Leads‑API.
+
+Auslösen, wenn der Benutzer erwähnt: GetBestOffers → sellerNegotiationHistory; RespondToBestOffer → acceptOffer/counterOffer/declineOffer; GetAdFormatLeads → getAllClassifiedLeads/getClassifiedLeadsByItemId; oder fragt „wie prüfe ich Best Offers“ bzw. „wie rufe ich Kleinanzeigen‑Leads ab“.
+
+Umfasst 3 traditionelle Vorgänge: Abruf von Best Offers, Reaktion auf Best Offers und Abruf von Kleinanzeigen‑Leads.  
+NICHT verwenden für die Angebotserstellung, Auftragsverwaltung oder Käufer‑seitige Offer‑Flows.
+
+Bitte immer in der Sprache des Benutzers antworten.
