@@ -1,0 +1,6 @@
+Guida alla migrazione per le operazioni tradizionali VeRO e utility residuali verso l'API VeRO o decisioni esplicite di pulizia senza sostituzione.
+
+Attivare quando l'utente menziona: GetVeROReasonCodeDetails → getVeroReasonCode/getVeroReasonCodes; GetVeROReportStatus/VeROReportItems → getVeroReport/getVeroReportItems; rimozione o riprogettazione di GeteBayOfficialTime; o chiede “come migro le chiamate di stato VeRO o dei codici motivo”.
+
+Copre 4 operazioni tradizionali, inclusa la ricerca dei codici motivo VeRO, il tracciamento dei rapporti VeRO e la riga GeteBayOfficialTime senza sostituzione.  
+NON utilizzare per flussi di lavoro relativi a account, inserzioni, messaggistica o gestione ordini.
