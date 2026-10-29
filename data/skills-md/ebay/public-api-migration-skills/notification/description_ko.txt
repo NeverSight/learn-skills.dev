@@ -1,0 +1,9 @@
+전통적인 Notification API 호출 및 전통적인 플랫폼 알림 이벤트를 Notification API 토픽 및 구독 리소스로 마이그레이션하는 가이드.
+
+사용자가 GetNotificationPreferences, SetNotificationPreferences, GetNotificationsUsage 를 언급하거나 BestOffer, BidPlaced, FeedbackReceived, EndOfAuction, My Messages 알림, 관심 목록 알림과 같은 플랫폼 이벤트를 언급하거나, 거래 플랫폼 알림을 Notification API 토픽으로 어떻게 마이그레이션할지 물어볼 때 트리거됩니다.
+
+전통적인 Notification API 호출 3가지, 구체적으로 매핑된 플랫폼 이벤트와 번들된 증거, 그리고 남은 알림 행에 대한 명시적인 미해결 상태 인벤토리를 포함합니다.
+
+주문 조회, 목록 생성, 또는 알림이 아닌 마이그레이션 작업에 사용하지 마십시오.
+
+항상 사용자의 언어로 응답하십시오.
