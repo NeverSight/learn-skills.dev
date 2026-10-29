@@ -1,0 +1,1 @@
+将此机器上每个代理（Claude、Codex、Gemini、Kiro、Kilo、Crush 等）中已安装的 baselinedocs 技能本身（而不是包）升级到最新的 GitHub 发布版。查找最新的版本标签，定位每个已安装的 baselinedocs 技能，比较语义化版本号，报告哪些代理已过时，并在确认后升级它们。当用户请求更新、升级或刷新 baselinedocs，询问是否有更新版本，或怀疑已安装的技能已过期时，请明确使用此功能。若要将包的文档同步到代码，请改用 `baselinedocs-sync-codebase`。请始终使用用户的语言回复。

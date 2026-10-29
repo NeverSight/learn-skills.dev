@@ -1,0 +1,1 @@
+双盲文献交叉核对：一个代理程序逐字提取本地 .bib 中的每个引用条目，第二个代理在不查看 .bib 的情况下独立地从网络重新获取同一篇论文的记录，第三个提取器生成机械化的逐字段差异，以捕获遗漏/重新排序的作者、错误的年份、错误的会议/期刊以及无效的 DOI/arXiv 标识。主代理（永不分片）对每个参考文献分配 MATCH/MINOR/MISMATCH 判定，并导出并排的电子表格。用户说“citation crosscheck”“double-blind citation check”“verify bib against scholar”“bib field audit”“引用交叉核对”，或在提交前需要确保参考文献 FIELD 精确度（不仅仅是存在）时使用。

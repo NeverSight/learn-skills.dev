@@ -1,0 +1,7 @@
+针对传统最佳报价和分类广告潜在客户流程迁移至 Offer API（GraphQL）和 Leads API 的指南。
+
+当用户提及以下内容时触发：GetBestOffers → sellerNegotiationHistory；RespondToBestOffer → acceptOffer / counterOffer / declineOffer；GetAdFormatLeads → getAllClassifiedLeads / getClassifiedLeadsByItemId；或询问“如何查看最佳报价”或“如何获取分类潜在客户”。
+
+涵盖最佳报价检索、最佳报价响应以及分类广告潜在客户检索这三项传统操作。请勿用于列表创建、订单管理或买方报价流程。
+
+请始终使用用户的语言进行回复。

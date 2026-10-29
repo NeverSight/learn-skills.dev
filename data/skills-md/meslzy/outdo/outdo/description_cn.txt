@@ -1,0 +1,1 @@
+使用 outdo，Bun 的 TypeScript 任务运行器。当仓库中有 do.ts（或用户说 outdo、"bunx outdo"、"run the gate"、"add a task"）时使用，并在运行、列出、添加或更改任务之前，接入 CI（`outdo ci`、`outdo affected`）、git 钩子、后台服务（`outdo bg`）、模式（--mode prod）、环境文件、替换 package.json 脚本、turbo、Makefile 或 .githooks 时使用 outdo，或清理未使用、失效或重复的任务（`outdo usage`）。
