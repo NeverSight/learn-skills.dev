@@ -1,0 +1,6 @@
+Migration guidance for traditional Best Offer and classified-ad lead flows to Offer API (GraphQL) and Leads API.
+
+Trigger when user mentions: GetBestOffers -> sellerNegotiationHistory; RespondToBestOffer -> acceptOffer/counterOffer/declineOffer; GetAdFormatLeads -> getAllClassifiedLeads/getClassifiedLeadsByItemId; or asks "how do I review best offers" or "how do I fetch classified leads".
+
+Covers 3 traditional operations across best-offer retrieval, best-offer responses, and classified-ad lead retrieval.
+Do NOT use for listing creation, order management, or buyer-side offer flows.

@@ -1,0 +1,1 @@
+Conventions every gplay command shares: credential and package resolution, output formats, exit codes, `--dry-run`/`--confirm`/`GPLAY_READONLY` gates, the Edit lifecycle. Use when running any gplay command, wiring gplay into CI, branching on an exit code, or introspecting the Android Publisher API offline with `gplay schema`.
