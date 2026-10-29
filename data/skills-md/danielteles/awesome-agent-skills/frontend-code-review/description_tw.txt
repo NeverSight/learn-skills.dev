@@ -1,0 +1,3 @@
+一個協調前端程式碼審查的元技能：給定 diff 後，它會挑選適用的其他技能，依合理順序執行，將它們的發現合併成有序列表，並去除兩個技能報告的重複問題。它本身不包含任何工程規則——它會導向 `core-typescript`、`architecture-and-design`、框架相關技能以及 lenses。當使用者要求完整的 pull request 或 diff 程式碼審查、說「review this change」「run all the skills」「which skills apply here」或希望取得多個技能的合併結果且不重複時，請使用它。
+
+請始終以使用者的語言回覆。
