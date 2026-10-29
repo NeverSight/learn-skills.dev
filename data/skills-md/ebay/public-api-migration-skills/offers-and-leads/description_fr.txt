@@ -1,0 +1,8 @@
+Orientation de migration pour les flux traditionnels d'Offre au Meilleur Prix et de prospects d'annonces classées vers l'Offer API (GraphQL) et la Leads API.
+
+Déclencher lorsque l'utilisateur mentionne : GetBestOffers → sellerNegotiationHistory ; RespondToBestOffer → acceptOffer/counterOffer/declineOffer ; GetAdFormatLeads → getAllClassifiedLeads/getClassifiedLeadsByItemId ; ou demande « how do I review best offers » ou « how do I fetch classified leads ».
+
+Couvre 3 opérations traditionnelles : récupération d'offres au meilleur prix, réponses aux offres au meilleur prix et récupération de prospects d'annonces classées.  
+Ne PAS utiliser pour la création d'annonces, la gestion des commandes ou les flux d'offres côté acheteur.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
