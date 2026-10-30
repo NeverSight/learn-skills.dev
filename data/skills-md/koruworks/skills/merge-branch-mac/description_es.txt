@@ -1,0 +1,3 @@
+Fusiona una rama de trabajo centrado en Windows (y Android) en la rama mac, asegurándote de que cada cambio se traduzca a macOS o se anote como aún no traducido. Usa esto cuando el usuario solicite fusionar en mac, fusiona la rama mac, pon al día a mac, o lleva el trabajo de Windows a mac. Sigue íntegramente la puerta de revisión de merge-branch, luego añade una pasada de traducción a mac cuyo veredicto para cada cambio — traducido, necesita trabajo en mac o diferido — se registra en el rastreador de puesta al día de plataformas del proyecto (CATCHUP.md a menos que el proyecto lo mantenga en otro lugar), de modo que ningún comportamiento de Windows desaparezca silenciosamente en un Mac.
+
+Por favor, responde siempre en el idioma del usuario.

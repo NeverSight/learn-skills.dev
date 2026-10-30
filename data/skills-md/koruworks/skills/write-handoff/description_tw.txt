@@ -1,0 +1,1 @@
+寫 docs/<feature>/HANDOFF.md — 讓全新代理會話在沒有對話紀錄的情況下接手未完成工作的簡報，內容包括分支與 checkout 所在位置、已推送的內容、先合併哪個、已建置了什麼以及哪些文件具有權威性、從哪裡繼續，以及會浪費本次會話時間的陷阱。於執行實作 (execute‑plan、execute‑roadmap、build‑feature) 中止且仍有工作未完成、或情境即將耗盡、或使用者呼叫 /write‑handoff <feature> 或要求將工作交給其他代理或會話時使用。若是將完成的工作交給人測試與驗收，請改用 write‑acceptance。

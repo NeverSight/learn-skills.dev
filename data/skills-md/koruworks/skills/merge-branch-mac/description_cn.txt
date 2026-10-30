@@ -1,1 +1,1 @@
-将 Windows（以及 Android）优先的分支合并到 mac 分支，确保每项更改都转换为 macOS，或者注明尚未完成。用户请求合并到 mac 时，进行 mac 分支的合并，跟进 mac 的进度，或将 Windows 的工作迁移到 mac。完整遵循 merge‑branch 的评审门槛，然后添加 mac 翻译步骤，对每项更改的裁定——已翻译、需要 mac 工作或已推迟——记录在项目的跨平台跟进跟踪器中（CATCHUP.md，除非项目另有存放位置），以防 Windows 行为在 Mac 上无声缺失。
+将 Windows‑first（以及 Android）工作分支合并到 mac 分支，确保每一个更改都能转化为 macOS，或记录为尚未完成。用户请求合并到 mac 时使用，合并 mac 分支，使 mac 赶上进度，或将 Windows 工作迁移到 mac。完整遵循 merge‑branch 的审查门，然后添加 mac 翻译阶段，对每项更改给出“已翻译、需要 mac 工作或已推迟”的判定，并将结果记录在项目的平台跟进追踪器中（CATCHUP.md，除非项目另有存放位置），从而避免 Windows 行为在 Mac 上无声缺失。

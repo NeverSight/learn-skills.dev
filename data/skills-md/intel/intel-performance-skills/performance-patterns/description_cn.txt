@@ -1,3 +1,1 @@
-检测并修复源代码或性能分析输出（perf、VTune、火焰图）中的 x86/C/C++ 性能模式。用户请求优化、进行性能审查或编写新的 SIMD/向量化代码时即调用——即使没有分析数据。触发条件包括：串行累加循环、宽度不足的 SIMD（xmm/ymm 本可以是 ymm/zmm）、_mm* 内在函数、HITM/cmpxchg 集群、伪共享、缺少 restrict 或 vzeroupper、futex_wake/notify_all 触发的雷鸣羊群、系统库（.so）中带版本差异的热点符号，或任何请求编写快速归约、点积或 CPU 分发函数的情况。模式：串行累加器、TTAS 自旋锁、SIMD 升级（zipper）、伪共享、每 CPU 统计、缺少 vzeroupper、缺少 restrict、cv‑雷鸣羊群、互斥锁转读写锁、CPU 分发、库版本升级、快速 CRC32C、已知算法（余弦相似度、海明距离、Jaccard 距离）、SIMD 排序（x86-simd-sort）。
-
-请始终使用用户的语言回复。
+检测并修复来自源代码或性能分析输出（perf、VTune、火焰图）的 x86/C/C++ 性能模式。当用户请求优化、进行性能审查或编写新的 SIMD/向量化代码时调用——即使没有性能分析数据。触发条件包括：串行累加循环、窄 SIMD（本可以使用 ymm/zmm 的 xmm/ymm）、_mm* 内在函数、HITM/cmpxchg 群集、伪共享、缺少 restrict 或 vzeroupper、futex_wake/notify_all 产生的惊群、系统库（.so）中热点符号且版本存在差距，或任何要求编写快速归约、点积或 CPU 调度函数的请求。模式：串行累加、TTAS 自旋锁、SIMD 升级（zipper）、伪共享、每 CPU 统计、缺少 vzeroupper、缺少 restrict、cv‑惊群、互斥锁转读写锁、CPU 分派、库版本升级、快速 CRC32C、已知算法（余弦相似度、汉明距离、Jaccard 距离）、SIMD 排序（x86‑simd‑sort）。

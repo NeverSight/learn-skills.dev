@@ -1,1 +1,3 @@
-通过项目自己的 nightly 过程发布下一个 nightly 构建——检查主分支是否为绿色且 nightly 标签是最新的，编写构建所需的 notes 文件（通过 write-release-notes），提交它，在用户提供 notes 后移动并推送标签，然后监视构建并检查其发布的内容。当用户请求发布、切割、发布或更新 nightly，或移动或更新 nightly 标签，或调用 /release-nightly 时使用。遇到主分支为红色或缺少指令时停止，而不是猜测；永不强制推送除 nightly 标签之外的任何内容。
+通过项目自己的 nightly 进程发布下一个 nightly 构建——检查主分支是否通过且 nightly 标签是否为最新，编写构建所需的唯一注释文件（通过 write-release-notes），提交它，在用户提供注释后移动并推送标签，然后监视构建并检查它发布的内容。当用户要求发布、切割、发布或更新 nightly，移动或更新 nightly 标签，或调用 /release-nightly 时使用。遇到主分支出现红灯或缺少指令时停止，而不是猜测；永不强制推送除 nightly 标签之外的任何内容。
+
+请始终用用户的语言回复。
