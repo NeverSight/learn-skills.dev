@@ -1,0 +1,1 @@
+Replit 沙盒工具包：平台细节（重新创建时 $HOME 被清空，REPL_HOME/XDG/环境通道，rc 与 git 持久化），从 /nix/store 拉取库（.replit [nix] 包 vs replit.nix vs nix‑env，传递性的 LD_LIBRARY_PATH 闭包），在 Replit 捆绑的 Chromium 上使用 Playwright（无需下载浏览器），以及 Camoufox 反检测 Firefox 服务器（针对 Cloudflare/Turnstile/WAF 网站，Cookie 持久化，会话保持活跃）。用于在 Replit/Nix 工作空间上运行的任何内容。请始终使用用户的语言作答。

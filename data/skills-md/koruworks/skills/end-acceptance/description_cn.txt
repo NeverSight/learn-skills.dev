@@ -1,0 +1,1 @@
+结束验收测试。查找仍然打开的 `docs/acceptances/ATTENTION.<feature>.md` 候选文件（即 start‑acceptance 剩余的），将每个候选文件与 `docs/acceptances/ATTENTION.md` 比较，对每个尚未存在的文件，逐一询问用户它是否是系统性的，并在移动之前与用户一起确定准确的措辞；随后退役该特性文件。首先运行项目的完整测试套件、lint 和类型检查，因为验收会话跳过了这些。 在用户表示验收已完成、请求提升或审查验收课程，或调用 `/end-acceptance [feature]` 时使用。 永不在其自身的措辞中提升课程。
