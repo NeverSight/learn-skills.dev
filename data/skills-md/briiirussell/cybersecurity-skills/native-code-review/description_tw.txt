@@ -1,0 +1,3 @@
+審查 C、C++ 與 Rust 程式碼中的記憶體安全漏洞：越界讀寫、整數溢位或截斷導致尺寸錯誤、使用後釋放與雙重釋放、格式字串、未初始化記憶體、Rust unsafe 的正確性、FFI 邊界、不可信輸入的解析器，以及記憶體中遺留的機密。也會檢查編譯器硬化旗標並建議使用 sanitizer，並以共享的 findings.json 格式產出報告。當使用者提及「native code review」、「C code review」、「C++ security review」、「memory safety review」、「buffer overflow」、「use-after-free」、「double free」、「format string bug」、「integer overflow」、「uninitialized memory」、「unsafe Rust」、「is this unsafe block sound」、「FFI boundary」、「Miri」、「AddressSanitizer」、「checksec」、「FORTIFY_SOURCE」、「hardening flags」、「explicit_bzero」或「zeroize」時使用本功能。
+
+請始終以使用者的語言回覆。

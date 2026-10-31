@@ -1,0 +1,1 @@
+Atlas（亦包含 Azure SQL 與 MSSQL）的 SQL Server 具體資訊：登入、開發資料庫與 URL 範圍（mode=schema 與 mode=database、database 查詢參數）、相容等級與排序規則、系統自動產生的約束名稱、聚集索引預設值與 HCL 中 datetime2 的精度、GO 批次與分隔符指令、交易與無法在同一批次執行的語句、identity、計算欄位與時間序列欄位、別名與表類型、以 drop 加 add 方式規劃的變更、Atlas 未涵蓋的項目（DENY、同義字、列級安全性、稀疏欄位）、資料庫角色、使用者與授權、模式與遷移測試，以及自訂 lint 規則。每當 Atlas 管理 SQL Server 或 Azure SQL 資料庫時，請使用 atlas skill。

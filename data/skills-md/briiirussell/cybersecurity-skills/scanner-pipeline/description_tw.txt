@@ -1,0 +1,3 @@
+在單個代碼庫或整個代碼庫群組上設置並執行確定性的安全掃描工具——gitleaks、trufflehog、semgrep、osv‑scanner、trivy、checkov、Brakeman、govulncheck、Supabase 顧問，以及（受保護的）nuclei/ZAP——然後將它們的輸出正規化為 findings.json 或 SARIF，去除重複、以過期方式抑制、在 CI 中排程，並將發現交給修復代理。當使用者提到「run scanners」或「security scanning pipeline」或「set up gitleaks」或「betterleaks in CI」或「semgrep in CI」或「osv‑scanner」或「trivy fs」或「SARIF」或「code scanning」或「scan all my repos」或「security‑scan workflow」或「weekly security scan」或「Supabase RLS advisor」或「dedupe scanner findings」或「suppression file」或「stop asking Claude to hack my app」，或想要工具（而非代理）來找出錯誤時，就使用本功能。
+
+請始終以使用者的語言回應。

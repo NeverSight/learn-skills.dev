@@ -1,0 +1,3 @@
+使用此技能當操作員正在使用 DOCA Telemetry Traceback 應用程式於 BlueField DPU 或 ConnectX NIC 本地監控遙測資料、偵測長期趨勢與使用者自訂規則的門檻違反，並將事件前的歷史與即時事件資料捕獲至日誌檔案。即使使用者未明確提及「DOCA Telemetry Traceback」亦可觸發——常見的隱含說法包括「在 DPU 上監控遙測趨勢而不串流所有原始資料」、「在門檻違反前後記錄樣本」、「設定規則當 rx bytes/s 超過 1M 時觸發」、「資料 ID 上的差異大於規則」、「遙測樣本的循環緩衝區」或「追溯事件日誌」等。對於 DOCA Telemetry Diag 程式設計 API 及原始計數器讀取請轉至 doca-telemetry，對於 DOCA 安裝/啟動請轉至 doca-setup，對於版本問題請轉至 doca-version。
+
+請始終以使用者的語言回應。

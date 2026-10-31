@@ -1,0 +1,1 @@
+在 Issue triage GitHub Actions 工作流程（.github/workflows/triage.yml）中，對一個 microsoft/playwright‑cli 的問題進行分流與修復，或在無人值守的情況下完成維護者任務，該工作流程由 needs‑triage、needs‑triage‑mac 或 needs‑triage‑win 標籤觸發，亦或是維護者手動以 issue、task 或兩者同時啟動。於 runner 上重現該問題，然後留下經驗證的修復建議，讓工作流程以草稿 Pull Request 的形式開啟，提交至此倉庫或 microsoft/playwright（CLI 原始碼所在），或撰寫調查說明以回覆於 issue。僅限此工作流程使用。

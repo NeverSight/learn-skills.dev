@@ -1,0 +1,1 @@
+透過專案自有的穩定流程發佈下一個穩定版——檢查 main branch 是否為綠色，選擇版本並撰寫其說明（透過 write-release-notes），對仍需手動發佈的平台執行發佈，然後在使用者取得說明後推送版本標籤，監控建置過程並檢查實際發佈的內容以及哪個 release 被標示為 latest。當使用者要求 release、cut、ship 或 publish 穩定版本、推送版本標籤，或呼叫 /release-stable 時使用此流程。若 main branch 為紅色或缺少指示則停止，而不會猜測；永不移動、刪除或強制推送版本標籤。
