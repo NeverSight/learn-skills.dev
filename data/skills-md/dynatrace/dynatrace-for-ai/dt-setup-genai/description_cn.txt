@@ -1,0 +1,1 @@
+框架无关的决策流程，用于对 GenAI/LLM 应用（Python 或 TypeScript，任意供应商/代理 SDK）进行仪器化，使其发出符合 OTel GenAI 语义约定（gen_ai.*）的跨度，可在 Dynatrace 中查询。四个步骤：检测、仪器化、丰富、验证。决定给定 SDK 需要采用哪种方法；不替代 dynatrace-oss/dynatrace-ai-agent-instrumentation-examples 中的具体框架配方。触发词：“为这个 GenAI 应用仪器化”“为这个 LLM 应用添加追踪”“如何将 gen_ai 跨度导入 Dynatrace”“将此代理应用纳入 AI 可观测性”。不要用于分析已仪器化应用的遥测（请使用 dt-obs-genai）或用于 Python/TypeScript 之外的语言。

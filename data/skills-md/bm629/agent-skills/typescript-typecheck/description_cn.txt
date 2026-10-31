@@ -1,0 +1,1 @@
+在设置或运行 TypeScript 类型检查作为独立质量关卡时使用——编写或收紧 strict tsconfig.json，添加一个在构建之外单独运行的 `tsc --noEmit`（或 `tsc -b --noEmit`）检查，将该检查接入 CI，或为多包（pnpm/Turborepo）单体仓库配置 TypeScript 项目引用。内容包括为何必须使用专门的类型检查关卡（打包工具和转译器会在不检查的情况下剥离类型），除 `strict: true` 之外值得启用的严格编译选项集，Vite 的拆分配置布局，以及通过复合项目引用实现跨包的类型解析。TypeScript 5.x。
