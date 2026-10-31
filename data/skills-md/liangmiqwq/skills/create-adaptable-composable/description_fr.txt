@@ -1,0 +1,3 @@
+Créez un composable Vue de niveau bibliothèque qui accepte des entrées éventuellement réactives (MaybeRef / MaybeRefOrGetter) afin que les appelants puissent fournir une valeur simple, un ref ou un getter. Normalisez les entrées avec toValue() / toRef() à l'intérieur des effets réactifs (watch / watchEffect) pour maintenir un comportement prévisible et réactif. Utilisez cette compétence lorsque l'utilisateur demande la création de composables adaptables ou réutilisables.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
