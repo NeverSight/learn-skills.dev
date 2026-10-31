@@ -1,0 +1,3 @@
+CI/CD パイプラインを監査します。まず GitHub Actions を、次に GitLab CI と CircleCI を簡潔にチェックし、外部者にコード実行、シークレット、または書き込みトークンを与える経路を特定します。対象は pull_request_target や workflow_run が信頼できないコードを実行するケース、run ステップへの式インジェクション、欠如または過剰なワークフローパーミッション、サードパーティアクションがコミット SHA に固定されていないこと、ワイルドカードサブジェクトを使用した OIDC 信頼ポリシー、パブリックリポジトリ上のセルフホストランナー、シークレットがフォークに流出するケース、ワークフロー間のキャッシュ・アーティファクトの信頼性、そして書き込みトークンを保持したまま Issue や PR のテキストを読む AI エージェントです。zizmor と actionlint を読み取り専用で実行し、findings.json に結果を書き出します。ユーザーが「pull_request_target」「pwn request」「workflow injection」「zizmor」「actionlint」「pin actions to SHA」「GITHUB_TOKEN permissions」「self-hosted runner」「claude-code-action」「AI agent in CI」「GitLab CI security」「CircleCI security」「is this workflow safe」などに言及したとき、またはビルドパイプラインの安全確保が必要なときに使用します。
+
+常にユーザーの言語で回答してください。

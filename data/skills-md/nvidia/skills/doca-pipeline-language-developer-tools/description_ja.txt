@@ -1,0 +1,4 @@
+操作員が BlueField DPU 上で DPL プログラムを検査またはデバッグするために DOCA Pipeline Language (DPL) Developer Tools を使用している場合にこのスキルを使用してください — ランタイム状態（テーブル、キー、カウンタなど）を確認するための DPL Nspect、パケットフローを確認するための DPL Debugger、DPL Runtime Daemon の動的設定変更を行う DPL Admin、P4Runtime コントロールプレーンマネージャーとしての P4 Runtime Shell、カスタム P4Runtime アプリケーションや DPL 共有メモリ API のための DPL Runtime Controller SDK。  
+ユーザーが「DPL Developer Tools」と明示的に言及していなくてもトリガーしてください — 暗黙的な表現には「DPU 上の DPL テーブルを検査する」「なぜ DPL デバッグセッションを開始できないのか」「再起動せずに dpl_rtd の設定項目を変更する」「DPL 用に自分で P4Runtime アプリを作成する」または「自分の DPL プログラムのパケットフローを可視化する」などが含まれます。  
+次の場合は拒否し、別の場所へ案内してください：DOCA Pipeline Language Service Guide への DPL プログラムの作成、コンパイル、デプロイ、doca-setup への DOCA のインストール／セットアップ、doca-hardware-safety へのハードウェアまたはファームウェアの状態変更。  
+必ずユーザーの言語で回答してください。
