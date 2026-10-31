@@ -1,0 +1,3 @@
+Crea un composable Vue di livello libreria che accetti input eventualmente reattivi (MaybeRef / MaybeRefOrGetter) in modo che chi lo chiama possa passare un valore semplice, un ref o un getter. Normalizza gli input con toValue()/toRef() all’interno degli effetti reattivi (watch/watchEffect) per mantenere un comportamento prevedibile e reattivo. Usa questa abilità quando l’utente richiede la creazione di composable adattabili o riutilizzabili.  
+
+Rispondi sempre nella lingua dell’utente.
