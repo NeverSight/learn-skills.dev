@@ -1,0 +1,3 @@
+사용자가 DOCA Perftest(doca_perftest)를 실행하고 있을 때 이 기능을 사용하십시오. DOCA Perftest는 RDMA verb의 대역폭, 메시지 속도 및 지연 시간을 측정하는 RDMA 벤치마크로, 포인트‑투‑포인트 또는 클러스터 전체에서 동작하며, 선택적인 DOCA Verbs 백엔드(-r dv) 또는 GPUNetIO 엔진(--engine gpunetio)을 사용할 수 있습니다. 사용자가 “DOCA Perftest”라고 명시적으로 언급하지 않아도 트리거하십시오—묵시적인 표현으로는 “DOCA로 RDMA 쓰기 대역폭을 어떻게 벤치마크하나요”, “8노드에서 ib_write_bw 실행”, “perftest가 장치가 바쁘다고 말한다”, “클라이언트와 서버 사이의 지연 시간 수치가 다르다”, “SSH를 통해 서버를 시작한다”, 혹은 “JSON 시나리오에서 전체‑전체 RDMA 테스트를 실행한다” 등이 있습니다. DOCA 설치(doca-setup), DOCA Bench(doca-bench), 그리고 애플리케이션 수준의 처리량에 대해서는 거절하고 다른 곳으로 안내하십시오.
+
+항상 사용자의 언어로 응답하십시오.

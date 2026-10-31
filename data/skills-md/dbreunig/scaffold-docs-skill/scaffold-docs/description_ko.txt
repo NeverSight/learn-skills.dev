@@ -1,0 +1,3 @@
+코드 라이브러리에 대한 문서를 반복적인 하향식 워크플로우로 작성하고 각 단계마다 사용자의 검토를 거칩니다. 사용자가 코드베이스, 라이브러리 또는 패키지에 대한 문서 작성을 요청할 때마다 사용하세요 — 예: “write docs for…”, “document this library”, “write technical docs”와 같이 인라인 코드 주석이 아닌 지속적인 문서 작성을 요구하는 모든 경우. 이 기능은 출력물을 Getting Started, Diving Deeper, Reference 섹션으로 구성하고, 구조 → 헤더 → 주제 문장 → 단락 순으로 점진적으로 구축하며, 각 단계마다 사용자 검토를 위해 일시 중지합니다. 모든 문장 단계에 Strunk & White 스타일의 내장된 prose‑style 가이드를 적용합니다. 또한 코드 변경 후 기존 문서를 업데이트하거나 새로 고칠 때도 사용합니다 — 예: “update the docs”, “the docs are stale”, “sync the docs with the code”와 같은 표현 — 이는 Phase 5에서 업데이트 워크플로를 실행합니다.  
+
+항상 사용자의 언어로 답변하십시오.

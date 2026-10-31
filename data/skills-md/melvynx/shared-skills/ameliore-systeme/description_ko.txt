@@ -1,0 +1,3 @@
+Claude Code가 사용자의 기록을 기반으로 스스로 개선하도록 합니다. 컴퓨터에 저장된 최근 며칠간의 모든 Claude Code 세션(~/.claude/projects/**/*.jsonl)을 읽고, Claude가 계속 실수하는 부분, 사용자가 반복하는 수정 사항, 만들어야 할 스킬, 매일 반복하는 자동화 가능한 작업들을 보고하고, 선택한 스킬이나 자동화를 작성합니다. 사용자가 /ameliore-systeme를 입력하거나 “qu'est-ce que je fais mal”, “quels skills je devrais créer”라고 물을 때, 혹은 Claude가 과거 세션으로부터 학습하기를 원할 때 사용하십시오.
+
+항상 사용자의 언어로 답변하십시오.
