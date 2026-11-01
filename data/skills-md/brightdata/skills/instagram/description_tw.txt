@@ -1,0 +1,1 @@
+透過 Bright Data Scraper API 以 JSON 格式爬取 Instagram 個人檔案、貼文、Reels 與留言。當使用者要求任何 Instagram 資料──帳號的追蹤者或簡介、貼文的讚與留言、帳號最近的貼文或 Reels、貼文的留言──或提到「instagram scraper」、「instagram api」或「instagram data」時使用。於 CLI（`bdata pipelines run` 搭配 Instagram 資料集 ID）、Python SDK（`client.search.instagram.*` 與 `client.scrape.instagram.*`）以及 MCP 爬蟲工具之間進行路由。包含信用額度成本、Reels 超時時間、可用的 `post_type` 值，以及 API 以成功回傳的錯誤列情況。

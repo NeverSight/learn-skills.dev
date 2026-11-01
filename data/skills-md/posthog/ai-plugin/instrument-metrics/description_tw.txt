@@ -1,0 +1,1 @@
+新增 PostHog 指標捕獲，以追蹤計數器、儀表和直方圖。於實作功能或審查 PR 後使用，確保關鍵操作得到測量，或在被要求加入指標、計數器或追蹤隨時間變化的數值時使用。同時支援將現有的 Prometheus、StatsD、OpenTelemetry 指標鏡像至 PostHog，並完成初始 OTLP 匯出器的設定。

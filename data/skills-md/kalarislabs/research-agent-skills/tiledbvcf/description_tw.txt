@@ -1,0 +1,1 @@
+使用 tiledbvcf Python API 與 CLI（create、store、export、list、stat）在 TileDB-VCF 資料集中儲存與查詢基因組變異資料。涵蓋匯入具 .csi 或 .tbi 索引的單樣本 VCF/BCF 檔案、逐步新增樣本、平行查詢區域與樣本，以及匯出為 VCF/BCF 或 TSV，可儲存於本機磁碟或 S3、Azure、GCS。適用於建立族群變異資料庫、向現有資料集新增樣本、在大量樣本中查詢特定區域、匯出大型 VCF 集合的子集，或準備族群基因組學資料（如等位基因頻率或 GWAS 輸入）。不支援多樣本 VCF，也不適用於一次性解析單一 VCF 檔案。
