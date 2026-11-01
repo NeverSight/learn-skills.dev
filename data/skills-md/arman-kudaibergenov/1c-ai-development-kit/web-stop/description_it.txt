@@ -1,0 +1,3 @@
+Questa funzione DEVE essere invocata quando l'utente chiede di fermare il server web, Apache, cessare la pubblicazione web. DOVREBBE essere invocata anche quando la pubblicazione web non è più necessaria. NON usarla per eliminare le pubblicazioni — usa web-unpublish; per verificare lo stato — usa web-info.
+
+Rispondi sempre nella lingua dell'utente.

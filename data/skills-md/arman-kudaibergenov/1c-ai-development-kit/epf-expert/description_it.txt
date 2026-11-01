@@ -1,0 +1,3 @@
+Questa funzionalità DEVE essere richiamata per tutte le operazioni con i processi esterni 1C (EPF): creazione (init), compilazione (build), smontaggio (dump), aggiunta di un modulo (add‑form), registrazione in BSP (bsp‑init), aggiunta di un comando BSP (bsp‑add‑command). DOVREBBE essere chiamata anche per qualsiasi lavoro con i file EPF e il loro codice sorgente. NON usarla per i report esterni (ERF) — usa erf‑expert; per aggiungere un modulo a un oggetto di configurazione — usa form‑add.
+
+Rispondi sempre nella lingua dell'utente.
