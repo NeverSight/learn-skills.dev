@@ -1,0 +1,1 @@
+使用 tiledbvcf Python API 和 CLI（create、store、export、list、stat）在 TileDB‑VCF 数据集中存储和查询基因组变体数据。涵盖对带有 .csi 或 .tbi 索引的单样本 VCF/BCF 文件的导入、增量添加样本、并行查询区域和样本，以及导出为 VCF/BCF 或 TSV，支持本地磁盘或 S3、Azure、GCS。适用于为一个队列构建变体数据库、向已有数据集添加新样本、在大量样本中查询特定区域、导出大型 VCF 集合的子集，或准备人口基因组学数据（如等位基因频率或 GWAS 输入）。不适用于多样本 VCF（不受支持），也不适用于一次性解析单个 VCF 文件。

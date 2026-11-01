@@ -1,0 +1,1 @@
+使用 HuggingFace Accelerate（Accelerator 类、accelerate 配置、accelerate launch）包装现有的 PyTorch 训练脚本，使相同代码能够在 CPU、单 GPU、多 GPU、多节点、TPU 或 Apple MPS 上运行。涵盖设备放置、FP16/BF16/FP8 混合精度、梯度累积、分布式检查点以及在 DDP、DeepSpeed ZeRO、FSDP 和 Megatron 后端之间切换。适用于将单 GPU 脚本转换为多 GPU、启用混合精度、配置 DeepSpeed ZeRO 或 FSDP，或设置梯度累积的情况。当同一个脚本需要在不同硬件上运行时使用。不适用于回调函数繁重的训练循环（请使用 PyTorch Lightning）或带超参数调优的多节点编排（请使用 Ray Train）。
