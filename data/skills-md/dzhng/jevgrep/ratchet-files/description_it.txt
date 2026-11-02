@@ -1,0 +1,3 @@
+Regola la dimensione dei file sorgente in modo che ogni file rimanga sufficientemente piccolo da permettere a un agente di leggerlo interamente: individua ogni file che supera il budget di token, suddividi i file sovradimensionati per concetto e configura il ratchet pre‑commit che impedisce loro di crescere. Usalo quando un commit è bloccato perché un file eccede il budget di dimensione, quando ti viene chiesto di trovare o suddividere file sovradimensionati/lunghi/god, quando un file che devi modificare è troppo grande per leggerlo in un’unica passata, o quando ti viene chiesto di aggiungere un limite di dimensione del file o un hook a un repository o di riparare la copertura del commit‑hook tra i worktree.
+
+Rispondi sempre nella lingua dell'utente.
