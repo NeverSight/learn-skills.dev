@@ -1,0 +1,1 @@
+面向 TypeScript 的单个自动化测试质量的框架无关标准：断言行为而非实现、意义明确的断言、每个测试仅包含一个以结果命名的场景、使用构建器而非共享装置、仅在必要时使用测试替身、确定性的无序依赖测试、将覆盖率视为未验证的映射。 在编写新代码或改动代码的测试、审查拉取请求中的测试，或修复弱、脆弱或不稳定的测试时使用——或当用户提到“test quality”“unit test review”“these tests are brittle”“flaky test”“over-mocking”“testing implementation details”“AAA”“arrange act assert”或“assert on behavior”时使用。

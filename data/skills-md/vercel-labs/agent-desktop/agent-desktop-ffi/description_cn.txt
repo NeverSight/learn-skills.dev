@@ -1,0 +1,1 @@
+C-ABI 绑定在 agent-desktop 的 PlatformAdapter 之上。消费者（Python ctypes、Swift、Node ffi-napi、Go cgo、C++、Ruby fiddle）链接 libagent_desktop_ffi.{dylib,so,dll}，直接调用 `ad_*` 函数，而不是每次调用时生成 CLI 二进制。标准的观察‑执行工作流是：ad_init → ad_adapter_create[_with_session] → ad_snapshot → 读取合格的引用（@s8f3k2p9:e5） → ad_execute_by_ref → ad_free_string → ad_adapter_destroy。请始终使用用户的语言作答。

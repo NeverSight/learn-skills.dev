@@ -1,0 +1,1 @@
+使用原生 Codex 或 Claude Code 跨会话消息启动独立的 Leader 与 Worker 会话，或在 Owner 选择加入时，通过 herdr 代理提示，使任意组合的代理类型（Claude Code、Codex、Gemini、opencode 等）能够组成一个团队。用于启动一个严格的仅协调、基于回执的 Leader，明确 Owner 的目标，在团队账本中规划工作包并推动其完成；手动加入 Worker；委派工作；处理原生的加入/指派/审查确认；或调试对等消息，包括直接的 Worker 对 Worker P2P 和独立审查。Leader 绝不能编写代码、运行测试、进行审查、轮询、倾听或接管 Worker 的工作。需要真实的原生会话工具或 Owner 选择的 herdr 传输方式，不能使用文件收件箱或替代子代理。
