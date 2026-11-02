@@ -1,0 +1,3 @@
+Python Google ADK 도구 및 도구와 유사한 서브 에이전트의 모델 대면 인터페이스를 설계, 진단 또는 검토하십시오. 여기에는 FunctionTool 문서 문자열 및 매개변수 스키마, 명명 및 네임스페이스, 통합 대 분할, 도구 수 예산 및 동적 도구 세트, 결과 형태와 크기, 실행 가능한 오류 반환, 그리고 AgentTool, sub_agents 및 single_turn 모드 간 선택이 포함됩니다. 모델이 잘못된 도구나 인수를 선택했거나, 도구 결과가 컨텍스트를 부풀리거나, 새 도구 혹은 도구 세트에 스키마가 필요할 때 사용하십시오. 외부 호출의 재시도, 마감시간 또는 멱등성(safe‑api‑tool‑calls), 자격 증명 및 신원(adk‑tool‑auth‑and‑secrets), 예산 및 승인 정책(adk‑operational‑guardrails), 사례 집합에 대한 측정(adk‑agent‑evaluation), 에이전트 지시문 텍스트(adk‑agent‑instructions) 또는 출력 스키마(adk‑model‑and‑output‑contracts)에는 활성화하지 마십시오.
+
+항상 사용자의 언어로 응답하십시오.

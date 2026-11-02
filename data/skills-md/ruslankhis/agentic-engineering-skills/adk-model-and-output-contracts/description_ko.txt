@@ -1,0 +1,3 @@
+Python Google ADK 에이전트가 모델에 출력하도록 요구하는 내용과 해당 모델 및 설정을 설계, 강화 또는 검토합니다: output_schema 계약 및 검증, 복구 루프, 도구와 결합된 output_schema, Gemini 모델 선택 및 수명 주기, 사고 및 샘플링 설정, 그리고 모델 장애 조치. 구조화된 출력이 prose, fenced JSON 또는 잘못된 데이터 형태로 도착할 때, response-schema 설계, Gemini 모델 선택 또는 에스컬레이션, 모델 자체의 429 또는 할당량 오류 재시도, 혹은 FallbackModel 결정에 사용합니다. 라벨링된 데이터 집합(adk-agent-evaluation)에서 품질 측정, SQL 와이어 스키마(adk-sql-agent-engineering), 프롬프트 문구(adk-agent-instructions), 도구 파라미터 스키마(adk-tool-interface-design), 호스팅 레벨 지연 시간(optimize-adk-on-google-cloud), 예산 및 성능 저하 정책(adk-operational-guardrails), 도구 API 재시도(safe-api-tool-calls) 또는 릴리스 모델 마이그레이션(adk-release-engineering)에는 활성화하지 않습니다.
+
+항상 사용자의 언어로 답변하십시오.

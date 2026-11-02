@@ -1,0 +1,3 @@
+Apache Flink 사용자 정의 함수(UDF)를 Java로 빌드하고 배포하여 Kafka 위에서 스트림 처리합니다. 사용자가 Java로 스칼라 UDF, 사용자 정의 테이블 함수(UDTF), 또는 프로세스 테이블 함수(PTF)를 생성하고, 이를 Confluent Cloud 또는 로컬 Docker 환경에 배포한 뒤 Flink SQL 또는 Table API에서 호출하고자 할 때 이 기술을 사용하십시오. 트리거 조건: Flink UDF, 맞춤형 Flink 함수, 프로세스 테이블 함수, PTF, UDTF, Flink 사용자 정의, Flink SQL 확장, Flink를 이용한 상태ful 스트림 처리. 트리거하지 않을 경우: Kafka Streams UDF(이 경우 kafka-streams-programming 기술 사용), 사용자 정의 함수 없이 일반 Flink 작업 개발, Flink가 포함된 CDC 스트리밍 데이터 파이프라인(이 경우 confluent‑cloud‑cdc‑tableflow 기술 사용), Flink 커넥터 설정, Kafka 프로듀서/컨슈머 코드.
+
+항상 사용자의 언어로 응답하십시오.
