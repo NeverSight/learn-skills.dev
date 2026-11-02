@@ -1,0 +1,4 @@
+Kafka上でのストリーム処理のために、JavaでApache Flinkのユーザー定義関数（UDF）を構築しデプロイします。このスキルは、ユーザーがJavaでスカラーUDF、ユーザー定義テーブル関数（UDTF）、またはプロセステーブル関数（PTF）を作成し、Confluent CloudまたはローカルのDocker環境にデプロイし、Flink SQLまたはTable APIから呼び出したい場合に使用します。  
+トリガー対象: Flink UDF、カスタムFlink関数、プロセステーブル関数、PTF、UDTF、Flinkユーザー定義、Flink SQL拡張、Flinkによるステートフルストリーム処理。  
+トリガーしないケース: Kafka StreamsのUDF（kafka-streams-programmingスキルを使用）、カスタム関数を含まない一般的なFlinkジョブ開発、Flinkを含むCDCストリーミングデータパイプライン（confluent-cloud-cdc-tableflowスキルを推奨）、Flinkコネクタ設定、Kafkaのプロデューサ/コンシューマコード。  
+常にユーザーの言語で応答してください。

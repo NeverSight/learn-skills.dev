@@ -1,0 +1,3 @@
+Python Google ADK エージェントがモデルに出力させる内容と、どのモデル・設定がそれを生成するかを設計、強化、またはレビューする：output_schema の契約とその検証、修復ループ、ツールと組み合わせた output_schema、Gemini のモデル選択とライフサイクル、思考およびサンプリング設定、そしてモデルのフェイルオーバー。プローズ、フェンスされた JSON、あるいは無効データとして到着する構造化出力、レスポンススキーマ設計、Gemini モデルの選択またはエスカレーション、モデル自身の 429 やクォータエラーのリトライ、または FallbackModel の決定に使用する。ラベル付きセットでの品質測定（adk-agent-evaluation）、SQL ワイヤースキーマ（adk-sql-agent-engineering）、プロンプト文言（adk-agent-instructions）、ツールパラメータスキーマ（adk-tool-interface-design）、ホスティングレベルのレイテンシ（optimise-adk-on-google-cloud）、予算と劣化ポリシー（adk-operational-guardrails）、ツール API のリトライ（safe-api-tool-calls）またはリリースのモデルマイグレーション（adk-release-engineering）には有効にしないでください。
+
+常にユーザーの言語で応答してください。
