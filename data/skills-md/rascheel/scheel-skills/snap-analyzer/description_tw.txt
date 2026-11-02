@@ -1,0 +1,1 @@
+掃描現有的應用程式程式碼庫，產生 snap‑analysis.json 檔案，該檔案會捕捉將應用程式打包為 snap 所需的所有資訊：語言/執行環境、建置系統、入口點、系統資源需求、snap 插件建議、介面清單、掛鉤需求、限制類型以及佈局需求。**不**會寫入 snapcraft.yaml —— 其輸出會被 snapcraft‑author 技能使用。時機：分析 snap 需求、snap 分析、掃描 snap 介面、識別 snap 插件、snap 專案分析、預打包掃描、snap 依賴發現、snap 限制分析、snap 介面映射、準備 snap 打包。請始終以使用者的語言回覆。

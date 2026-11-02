@@ -1,0 +1,1 @@
+C‑ABI 綁定於 agent‑desktop 的 PlatformAdapter。消費者（Python ctypes、Swift、Node ffi‑napi、Go cgo、C++、Ruby fiddle）連結 libagent_desktop_ffi.{dylib,so,dll}，直接呼叫 `ad_*` 函式，而非每次呼叫都啟動 CLI 二進位檔。典型的觀察‑執行工作流程為：ad_init → ad_adapter_create[_with_session] → ad_snapshot → 讀取合格的 refs（@s8f3k2p9:e5） → ad_execute_by_ref → ad_free_string → ad_adapter_destroy。

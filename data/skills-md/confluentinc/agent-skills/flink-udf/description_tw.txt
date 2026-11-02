@@ -1,0 +1,2 @@
+建立並部署以 Java 撰寫、針對 Kafka 串流處理的 Apache Flink 使用者自訂函數（UDF）。當使用者希望以 Java 建立標量 UDF、使用者自訂表函數（UDTF）或處理表函數（PTF），並將其部署到 Confluent Cloud 或本機 Docker 環境，透過 Flink SQL 或 Table API 呼叫時，使用此技能。觸發條件：Flink UDF、客製化 Flink 函式、處理表函數、PTF、UDTF、Flink 使用者自訂、擴充 Flink SQL、使用 Flink 進行有狀態的串流處理。**不要**觸發的情況：Kafka Streams UDF（請使用 kafka-streams-programming 技能）、一般不含自訂函數的 Flink 作業開發、包含 Flink 的 CDC 串流資料管道（建議使用 confluent-cloud-cdc-tableflow 技能）、Flink 連接器設定，或 Kafka 生產者/消費者程式碼。  
+請始終以使用者的語言回覆。

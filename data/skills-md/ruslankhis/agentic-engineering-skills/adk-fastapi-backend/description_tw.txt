@@ -1,0 +1,4 @@
+建立、調整或審查圍繞 Python Google ADK 代理的 FastAPI 應用程式——包括內部執行的 Runner 或閘道拓撲、IAP 或 Identity Platform 的 verified‑principal 依賴、所有者過濾的域路由、應用程式資料與遷移（除了 ADK 的會話表格）、公開的 OpenAPI 合約與生成的客戶端、錯誤處理、CORS 與安全標頭，以及 Cloud Run 的執行形態。  
+用於 ADK 網頁應用程式中的後端路由、資料或 API 合約相關工作，包含返回其他使用者記錄的域路由。  
+不要在以下情況啟用：代理的 run、stream 與 session 端點（adk-frontend-integration）、工具憑證、委派 OAuth 或工具以錯誤使用者身份執行（adk-tool-auth-and-secrets）、託管與 IAM（deploy-adk-on-google-cloud），以及與 ADK 應用程式無關的 FastAPI 工作。  
+請始終使用使用者的語言回覆。

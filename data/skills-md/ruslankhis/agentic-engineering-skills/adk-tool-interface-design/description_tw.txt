@@ -1,0 +1,3 @@
+設計、診斷或審查 Python Google ADK 工具與類工具子代理面向模型的介面，內容包括 FunctionTool 的 docstring 與參數結構、命名與命名空間、合併或分割、工具數量預算與動態工具集、結果形狀與大小、可操作的錯誤回傳，以及在 AgentTool、sub_agents 與 single_turn 模式之間的選擇。當模型選錯工具或參數、工具結果導致上下文膨脹，或是新工具或工具集需要結構時使用。不要在以下情況下啟用：重試、截止時間或外部呼叫的冪等性（safe-api-tool-calls）、憑證與身份（adk-tool-auth-and-secrets）、預算與批准政策（adk-operational-guardrails）、針對案例集的測量（adk-agent-evaluation）、代理指示文字（adk-agent-instructions）或輸出結構（adk-model-and-output-contracts）。
+
+請始終以使用者的語言回覆。
