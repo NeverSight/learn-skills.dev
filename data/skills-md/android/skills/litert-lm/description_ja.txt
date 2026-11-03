@@ -1,0 +1,3 @@
+LiteRT‑LM Kotlin API（com.google.ai.edge.litertlm:litertlm-android）を使用して、CPU または GPU 上でデバイス内のオープンテキスト LLM を実行する Android アプリを構築します。このスキルは、Hugging Face litert‑community（Gemma、Qwen、Llama、Phi）からの .litertlm モデルを用いたチャット、要約、抽出機能を作成する際に使用し、Gradle 依存関係、GPU マニフェストエントリ、モデルファイルをデバイスに配置する方法、メインスレッド外でのエンジン初期化、sendMessageAsync を用いたストリーミングのマルチターン会話、AndroidViewModel と Compose 画面を含みます。.tflite ビジョン、オーディオ、埋め込みモデルを CompiledModel API で実行する用途、画像や音声入力、ツール呼び出し、NPU バックエンド、またはモデル変換には使用しないでください。
+
+常にユーザーの言語で応答してください。
