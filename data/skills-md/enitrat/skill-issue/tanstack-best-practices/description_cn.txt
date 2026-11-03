@@ -1,0 +1,1 @@
+使用 TanStack Query 构建 Hook 库的最佳实践。适用场景包括：(1) 编写包装异步数据获取函数的 useQuery/useMutation Hook，(2) 设计查询键 schema 和缓存标识系统，(3) 构建框架无关的查询选项工厂，(4) 实现缓存失效模式（invalidate 与 remove 与 setQueryData 的区别），(5) 将 TanStack Query 包裹在多层库中（从核心操作到查询选项再到框架 Hook），(6) 在查询键中处理不可序列化的值（bigint、类实例），(7) 将外部存储（zustand、signals）与 TanStack Query 响应性桥接。内容来源于 wagmi 的生产架构（React/Vue/Solid 以太坊 Hook）。
