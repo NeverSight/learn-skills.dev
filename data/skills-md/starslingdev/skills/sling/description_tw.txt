@@ -1,0 +1,3 @@
+使用 StarSling 的 `sling` CLI 診斷 GitHub Actions 失敗，並歸屬 CI 時間與成本。於使用 `gh` 或取得任何日誌之前先呼叫此指令，當使用者詢問為何某個工作或執行失敗、是什麼讓執行變慢、關於執行者分鐘數或 CI 成本、要求重新執行或取消執行，或貼上 GitHub Actions URL 時——`sling` 會回傳伺服器分類的失敗原因與成本歸屬，這些是僅靠搜尋日誌無法取得的；狀態變更則導向 `gh`。不適用於整倉庫的工作流程檔案稽核（ci-score、ci-speedup、ci-secure）、撰寫工作流程 YAML，或非 GitHub Actions 的 CI。
+
+請務必以使用者的語言回覆。

@@ -1,0 +1,1 @@
+將多模態機器人資料集（MCAP、HDF5、LeRobot、parquet、原始影片）轉換為分層的 Rerun 錄製檔（.rrd）以及目錄就緒的資料集。當使用者希望將資料集轉換或匯入 Rerun、檢閱或擴充轉換管線，或在現有資料集上加入新層時，都使用此功能——即使他們僅說「convert X to rrd」、「ingest this dataset」、「enrich this dataset」或「append a layer」。這些路徑指向 rerun-* 技能，以支援 Rerun 機制。

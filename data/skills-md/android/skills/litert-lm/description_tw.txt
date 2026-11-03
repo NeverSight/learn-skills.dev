@@ -1,0 +1,3 @@
+建立一個 Android 應用程式，於裝置上以 CPU 或 GPU 執行開放文本 LLM，使用 LiteRT‑LM Kotlin API（com.google.ai.edge.litertlm:litertlm-android）。在使用 Hugging Face litert‑community（Gemma、Qwen、Llama、Phi）提供的 .litertlm 模型製作聊天、摘要或抽取功能時，請使用此技能，內容包含 Gradle 相依性、GPU manifest 條目、將模型檔案放入裝置、在主執行緒之外初始化 Engine、使用 sendMessageAsync 的串流多回合會話，以及 AndroidViewModel 與 Compose 畫面。不要將其用於執行 .tflite 視覺、音訊或嵌入模型（CompiledModel API），亦不要用於圖像或音訊輸入、工具呼叫、NPU 後端，或模型轉換。
+
+請始終以使用者的語言回覆。
