@@ -1,0 +1,3 @@
+Worker di coda senza supervisione per PR etichettate da un umano come `automerge`. In una finestra di tempo (predefinita 2 h), lavora fino al numero configurato di PR concorrenti per ottenere tre segnali, ognuno registrato come etichetta — revisione del codice, QA, CI. Un segnale mancante viene indirizzato a om-auto-review-pr, om-auto-qa-pr o om-auto-fix-pr in modalità orchestrata. Non attende mai CI lenta. Il comportamento predefinito è squash‑merge protetto; la configurazione/CLI può scegliere solo preparazione e revisione nativa indipendente.
+
+Per favore rispondi sempre nella lingua dell'utente.
