@@ -1,0 +1,1 @@
+StarSling의 `sling` CLI를 사용하여 GitHub Actions 실패를 진단하고 CI 시간 및 비용을 할당합니다. 사용자가 작업이나 런이 왜 실패했는지, 런이 왜 느렸는지, 러너 분이나 CI 비용에 대해 물어보거나, 재실행·취소를 요청하거나, GitHub Actions URL을 붙여넣을 때마다 `gh`를 사용하거나 로그를 가져오기 전에 이를 호출하십시오 — `sling`은 로그 검색으로 놓치는 서버 분류 실패 원인과 비용 할당을 반환하고, 상태 변경은 `gh`로 라우팅됩니다. 레포 전체 워크플로 파일 감사(ci-score, ci-speedup, ci-secure), 워크플로 YAML 작성, 또는 GitHub Actions가 아닌 CI에는 사용되지 않습니다.
