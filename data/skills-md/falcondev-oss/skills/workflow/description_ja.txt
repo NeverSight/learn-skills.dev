@@ -1,0 +1,1 @@
+Redis 上で @falcondev-oss/workflow を使用した、耐久性があり型安全なキュー ワーカーです。WorkflowNamespace / createWorkflow / defineWorkflow、handle() と returns<T>()、step.do / step.wait / step.waitUntil、workflow.run / runIn / runAt / work()、job.wait()、upsertSchedule の cron スケジュール、groupId の順序付けと数値優先度、または createRedis 接続設定を使用する際に利用してください。

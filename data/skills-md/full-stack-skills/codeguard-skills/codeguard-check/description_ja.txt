@@ -1,0 +1,1 @@
+Codeguard がサポートするリポジトリに対して読み取り専用のリントゲートを実行し、結果を説明してください。ユーザーが「check」「run check」「lint report」「pre‑commit check」と言ったとき、または CI で Codeguard のチェックが失敗したときに使用します。結果は PASS、FAIL、UNVERIFIED、INCOMPLETE、PLANNED を区別し、結果がレガシーエンジンによるものか Rust エンジンによるものかを明示してください。
