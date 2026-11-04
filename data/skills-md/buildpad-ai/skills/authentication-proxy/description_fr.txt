@@ -1,0 +1,1 @@
+Référence du modèle de proxy d'authentification. Toutes les communications de navigateur à backend DOIVENT passer par les routes proxy de l'API Next.js. N'appelez jamais Supabase auth ou DaaS backend directement à partir des composants du client. Chargé automatiquement comme contexte d'arrière-plan.

@@ -1,0 +1,3 @@
+Accordez des indicateurs de capacité au niveau de l'application aux utilisateurs via les clés d'accès de module DaaS. Des clés telles que `workflow:approve` ou `system:logs` sont enregistrées dans `daas_module_access_keys`, activées dans les politiques, et vérifiées dans React avec `usePermissions().hasModuleAccess(key)` ou dans les routes API grâce à la logique de fusion OR déjà intégrée à la plateforme. Utilisez-les lorsqu'une application doit restreindre une fonctionnalité, une page ou une commande de workflow qui n'est pas liée à une opération CRUD de collection.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.
