@@ -1,0 +1,3 @@
+Diseña un sistema de fuente de alimentación aislada de múltiples canales y verifica el margen. Utilízalo cuando el usuario quiera “diseñar fuente de alimentación”, “calcular presupuesto de corriente”, “seleccionar regulador de voltaje/DCDC” o “dividir los rieles de alimentación”. Calcula la carga de cada riel basada en la corriente de bloqueo del motor (no en la clasificación nominal), genera design/power.yaml y power.md, y ejecuta tools/power_budget.py para una verificación determinista, la cual requiere aprobación manual.
+
+Por favor, responde siempre en el idioma del usuario.

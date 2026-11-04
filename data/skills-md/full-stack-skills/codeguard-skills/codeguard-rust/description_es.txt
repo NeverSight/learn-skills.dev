@@ -1,0 +1,3 @@
+Utiliza Codeguard para ejecutar y diagnosticar la revisión de estilo de código en proyectos Rust; úsalo cuando un usuario solicite linting, verificación de formato, correcciones automáticas, verificación de calidad antes del commit, o cuando ocurran fallos relacionados con `cargo clippy --all-targets -- -D warnings`. Primero confirma la configuración del repositorio y la disponibilidad de la herramienta, clasifica los resultados como aprobados, fallidos, no verificables o planificados, y después de corregir los problemas, las comprobaciones deben volver a ejecutarse.
+
+Por favor, responde siempre en el idioma del usuario.

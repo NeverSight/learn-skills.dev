@@ -1,0 +1,3 @@
+Genera un esqueleto de proyecto de firmware para la vía de control (arquitectura de 4 capas + planificación por rebanadas de tiempo + FSM + PID + VOFA + protocolo K230). Úsalo cuando el usuario quiera “generar esqueleto de firmware/proyecto”, “construir marco de firmware” o “producir un proyecto MSPM0/STM32”. Reutiliza el apilamiento y la planificación de la Base de Conocimientos 08, los datos de pines de contracts/pinmap.yaml y la recepción de tramas K230 usando contracts/protocol.h. Los parámetros de control son marcadores de posición pendientes de afinación; la inicialización de periféricos requiere verificación manual.
+
+Por favor, responde siempre en el idioma del usuario.
