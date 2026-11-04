@@ -1,0 +1,1 @@
+DaaS 모듈 수준 액세스 키를 통해 사용자에게 애플리케이션 수준 기능 플래그를 부여합니다. `workflow:approve` 또는 `system:logs`와 같은 키는 `daas_module_access_keys`에 등록되고 정책에서 토글되며, React에서는 `usePermissions().hasModuleAccess(key)`로, API 라우트에서는 플랫폼에 이미 내장된 OR‑merge 로직으로 확인됩니다. 컬렉션 CRUD 작업과 연결되지 않은 기능, 페이지, 또는 워크플로 명령을 제어해야 할 때 사용하세요.

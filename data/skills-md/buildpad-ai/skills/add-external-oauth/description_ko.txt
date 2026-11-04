@@ -1,0 +1,1 @@
+외부 OAuth/OIDC ID 공급자 로그인을 추가합니다. 여기서 Next.js는 OAuth 클라이언트 역할을 합니다. Supabase 프로젝트에서는 PKCE, 기본 DaaS 역할 할당이 있는 Supabase Admin API를 통한 사용자 프로비저닝 및 세션 관리를 사용하여 OAuth 프록시 흐름을 생성합니다 (배포 액세스 권한이 없는 독립 호스트 Supabase에 필요). 엔진 프로젝트에서는 엔진의 ID 토큰 로그인 (signInWithIdToken) 을 통해 XAppHub 로그인만 사용할 수 있습니다. 다른 공급자는 중지합니다.

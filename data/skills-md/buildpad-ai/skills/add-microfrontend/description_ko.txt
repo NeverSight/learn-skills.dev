@@ -1,0 +1,1 @@
+독립적인 Next.js 마이크로 앱들을 샌드박스된 iframe과 postMessage 브리지를 사용해 하나의 메인 앱으로 구성합니다. 현재는 Supabase 프로젝트만 지원하며, Engine 프로젝트에서는 아직 사용할 수 없습니다. 호스트 컴포넌트, 메시지 계약, 인증 토큰 브리징, URL 및 스코프 동기화, 샌드박스 플래그, CSP를 다룹니다. 먼저 add-microapp을 로드하여 도메인 경계를 결정하고 저장소를 부트스트랩한 후, 이 스킬을 로드하여 구성을 연결합니다. 사용자가 “add-microfrontend”, “micro-frontend”, “iframe composition”이라고 말하거나 독립 앱을 다른 앱에 임베드해야 할 때 사용합니다.

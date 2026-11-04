@@ -1,0 +1,3 @@
+Next.js App Router 가이드가 권장하는 방식대로 Buildpad 앱에 국제화를 추가합니다 — locale 접두사가 붙은 라우트(app/[lang]), 기존 인증 미들웨어 내부에서 Accept-Language 협상, 서버에서 로드된 사전을 I18nProvider를 통해 클라이언트 페이지에 전달, SelectDropdown을 기반으로 만든 LanguageSwitcher, VForm의 locale prop을 통한 DaaS 필드 레이블 번역, 그리고 Directus 스타일의 콘텐츠 번역(언어 컬렉션과 <collection>_translations 조인 테이블 및 선택적인 로케일별 워크플로 포함). 사용자가 “add i18n”, “internationalization”, “internationalisation”, “localization”, “translations”, “multilingual”, “multi‑language”, “bilingual”, “locale”, “language switcher”, “RTL”이라고 말하거나 하나 이상의 언어로 된 콘텐츠 또는 UI를 원할 때 사용합니다.
+
+항상 사용자의 언어로 응답해 주세요.
