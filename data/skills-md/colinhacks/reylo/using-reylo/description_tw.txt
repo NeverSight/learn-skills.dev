@@ -1,0 +1,1 @@
+在使用 Reylo 匯入 .sql 檔案的專案中，若 tsconfig.json 的 contentMappers 指定為 reylo，或有 .reylo.yaml 檔案或 reylo 依賴時，可執行以下操作：編寫或修改 .sql 查詢，呼叫其 .run()、.runSync() 或 .with()，傳入資料庫客戶端，追蹤或記錄其查詢，修正類型檢查在 .sql 檔案中報告的錯誤，或評估、規劃或執行將專案的查詢從 Prisma Client 移植至 Reylo。

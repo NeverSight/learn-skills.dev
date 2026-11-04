@@ -1,0 +1,1 @@
+將獨立的 Next.js 微應用組合成一個主應用，使用沙盒化的 iframe 與 postMessage 橋接。目前僅支援 Supabase 專案：尚未在 Engine 專案中提供。涵蓋主機元件、訊息協議、驗證 token 橋接、URL 與範圍同步、沙盒旗標以及 CSP。首先載入 add-microapp 以決定域名界限並啟動倉庫，之後再載入此技能來完成組合的連接。當使用者說「add-microfrontend」、「micro-frontend」或「iframe composition」或需要在另一個應用中嵌入獨立應用時使用。請始終使用使用者的語言回覆。

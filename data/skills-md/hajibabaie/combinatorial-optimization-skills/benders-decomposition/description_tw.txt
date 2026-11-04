@@ -1,0 +1,1 @@
+當使用者想透過 Benders 分解來解決結構化的 MILP 或兩階段隨機規劃——將其分割為整數主問題與 LP 子問題，從子問題的對偶式衍生最適性與可行性割，並在 Gurobi 中實作經典的迭代迴圈或結合 lazy‑constraint 回呼的分支與 Benders 割。也適用於使用者提到「Benders decomposition」、「Benders cuts」、「L‑shaped method」、「feasibility cut」、「optimality cut」、「master problem」，或在固定少數複雜變數後留下容易或可分解的子問題時。欲了解情境生成與 SAA，請參見 stochastic‑optimization；欲了解回呼機制與參數，請參見 gurobi‑advanced‑features。

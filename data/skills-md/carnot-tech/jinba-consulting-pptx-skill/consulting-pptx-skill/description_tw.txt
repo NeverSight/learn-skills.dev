@@ -1,0 +1,1 @@
+根據投影片設計規範 slide-rules.md，這是一項製作高階會議品質投影片的技能。規範會透過 scripts/rules.py 於每個階段僅抓取所需的章節，然後根據已驗證符合規範的元件（由 new_deck.py --list 列出的 20 種型別）組裝成投影片稿，最後使用自動檢查 check_deck.py 與 check_layout.mjs 完成，達成 FAIL 0。當收到既有的 PowerPoint 檔案並要求在 PPTX 格式中插入頁面時，該頁面會直接建立於該檔案的母片之上（slide‑rules §8.7）。觸發範例：「建立諮詢品質的投影片」、「使用符合規範的投影片稿」、「以相同風格在此 pptx 中新增頁面」。

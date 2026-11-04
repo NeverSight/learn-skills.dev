@@ -1,0 +1,3 @@
+產生一個伺服器端的 Next.js API 路由。在 Engine 專案中，路由會將已登入使用者的會話轉發至 Engine（items、workflow transition、users me、files、permissions、versions）以及登入相關路由。在 Supabase 專案中，Supabase 認證路由（login、logout、callback、session）負責管理 Supabase SSR Cookie 並在伺服器端執行——請勿在此使用此技能來建立 DaaS 資料的代理路由，UI 會直接使用 Authorization Bearer Token 呼叫 DaaS。當使用者需要新的認證端點或伺服器端路由時使用。
+
+請始終以使用者的語言回覆。

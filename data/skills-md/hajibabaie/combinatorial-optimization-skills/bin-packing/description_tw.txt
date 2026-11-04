@@ -1,0 +1,1 @@
+當使用者想將物品裝入最少的有容量限制的箱子時，請將 FFD/BFD 启发式方法與 L1/L2 下界比較，或構建精確的緊湊 MIP 與弧流模型，並加入變動箱尺寸與物品衝突的變體。當使用者提及「bin packing」「first fit decreasing」「minimize bins」「packing items」「lower bound L2」或當不可分割的物品必須被分配到相同容量限制的容器時，也請使用此方法。對於具有大量需求且有裁切損失的重複物品尺寸，請參閱切割庫存（cutting‑stock）；若使用模式集合覆蓋的路徑，請參閱列生成（column‑generation）。

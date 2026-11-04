@@ -1,0 +1,1 @@
+添加外部OAuth/OIDC身份提供程序登錄，其中Next.js充當OAuth客戶端。在Supabase專案上，它使用PKCE建立OAuth Proxy流程、透過Supabase Admin API使用預設的DaaS角色指派進行使用者佈建，以及階段作業管理（無部署存取的自託管Supabase所需）。在引擎專案中，只有XAppHub登入可用，透過引擎使用signInWithIdToken的ID token登入；其他提供者停止。
