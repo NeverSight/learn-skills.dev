@@ -1,0 +1,3 @@
+Seleziona i componenti dall'elenco parti dell'organizzatore in base ai requisiti e genera un BOM/ordine di acquisto unificato. Quando un utente inserisce l'elenco parti in inputs/partslist/ e richiede “seleziona componenti/scegli modello/genera BOM/genera lista di acquisto”, usa questo. Prima analizza l'elenco parti (multimodale), quindi abbina la selezione dei componenti in base ai requisiti in design/solution.md più le specifiche dei pin del knowledge base/esperienza premiata; per gli elementi mancanti nell'elenco parti, esegui una ricerca in tempo reale con jlc_search. Produci design/bom.csv, che richiede approvazione manuale.
+
+Rispondi sempre nella lingua dell'utente.

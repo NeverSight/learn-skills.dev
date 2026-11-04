@@ -1,0 +1,3 @@
+Genera schemi di cablaggio dei moduli, mappature dei pin e tabelle di cablaggio (consegna principale dello scopo‑A, liberando le linee hardware). Usa questo quando l'utente vuole “produrre uno schema di cablaggio/connessione”, “assegnare pin/pinmap”, “come cablare” o “fascio di cavi/cablatura”. Mappa i pin MCU per ciascun modulo nella distinta base ai pin disponibili sul controller principale, producendo contracts/pinmap.yaml (dopo aver superato il controllo pinmux_check) + design/wiring.svg + harness.md, che devono essere verificati manualmente pin per pin.
+
+Rispondi sempre nella lingua dell'utente.

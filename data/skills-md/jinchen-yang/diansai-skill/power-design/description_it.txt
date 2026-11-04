@@ -1,0 +1,3 @@
+Progetta un sistema di alimentazione isolato a più canali e verifica il margine. Usalo quando l'utente vuole “design power/supply”, “calculate current budget”, “select regulation/DCDC”, “divide power rails”. Calcola il carico di ciascuna rail utilizzando la corrente di rotore bloccato del motore (non il valore nominale), genera design/power.yaml e power.md, ed esegui una validazione deterministica con tools/power_budget.py, che richiede l'approvazione manuale.
+
+Rispondi sempre nella lingua dell'utente.
