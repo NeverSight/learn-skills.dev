@@ -1,0 +1,3 @@
+Gewähren Sie Benutzern Anwendungs‑Level‑Capability‑Flags über DaaS‑Modul‑Level‑Access‑Keys. Schlüssel wie `workflow:approve` oder `system:logs` werden in `daas_module_access_keys` registriert, über Richtlinien aktiviert und in React mit `usePermissions().hasModuleAccess(key)` oder in API‑Routen mit der bereits in die Plattform integrierten OR‑Merge‑Logik geprüft. Verwenden Sie dies, wenn eine Anwendung ein Feature, eine Seite oder einen Workflow‑Befehl sperren muss, die nicht an eine Collection‑CRUD‑Operation gebunden sind.
+
+Bitte immer in der Sprache des Benutzers antworten.
