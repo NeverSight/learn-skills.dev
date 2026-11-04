@@ -1,0 +1,1 @@
+从主办方配件表里按需求选器件，出 BOM/统一采购单。当用户把配件表放进 inputs/partslist/ 并要"选器件/选型/出BOM/出采购清单"时使用。先解析配件表（多模态），再按 design/solution.md 的需求 + 知识库引脚说明/金奖经验匹配选型，配件表缺的用 jlc_search 现查。产出 design/bom.csv，需人工批准。
