@@ -1,0 +1,3 @@
+当用户想要诊断并修复 MIP 求解缓慢时——现代求解器内部的分支限界机制、LP 松弛的强度、MIP 间隙的解释、模型紧化、对称性破除、大 M 与指示约束的比较以及预处理的影响。用户提及 “branch and bound”（分支限界）、“MIP gap”（MIP 间隙）、“LP relaxation”（LP 松弛）、“symmetry breaking”（对称性破除）、“tighten formulation”（紧化模型）或“大 M”，或者当对偶界停滞而 incumbent（当前可行解）不再改进时，也请使用这些信息。若要从头构建 gurobipy 模型，请参阅 milp‑modeling‑gurobi；若要实现自定义搜索树，请参阅 branch‑and‑bound。
+
+请始终使用用户的语言作答。

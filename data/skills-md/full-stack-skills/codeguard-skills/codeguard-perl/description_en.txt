@@ -1,1 +1,1 @@
-使用 Codeguard 对 Perl 项目执行并诊断代码规范门禁；当用户要求 lint、格式检查、自动修复、提交前质量验证，或出现 perlcritic '{file}' 相关失败时使用。先确认仓库配置和工具可用性，区分通过、失败、无法验证与 planned，修复后必须复跑。
+Use Codeguard to enforce and diagnose coding standards for Perl projects; employ it when users request linting, formatting checks, automatic fixes, pre‑commit quality verification, or when perlcritic '{file}'–related failures occur. First confirm repository configuration and tool availability, categorize outcomes as passed, failed, unable to verify, or planned, and re‑run after fixing.

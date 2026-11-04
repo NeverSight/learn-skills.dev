@@ -1,0 +1,5 @@
+将 Buildpad 应用的自身数据和操作公开为 MCP 服务器，以便 Claude、Copilot、Kiro 或 Antigravity 将其作为工具调用。  
+添加一个基于官方 MCP TypeScript SDK 的 Next.js 路由（`/api/mcp`，流式 HTTP，无状态），每个工具都会将调用者的访问令牌转发至数据 API，从而使用调用者的权限且不使用提升的密钥。  
+涵盖工具设计、输入验证、响应结构、客户端配置以及使用 MCP Inspector 的测试。  
+当用户要求添加 MCP 服务器、将我的应用公开给 AI 代理、为代理创建工具或在应用中构建 MCP 端点时使用。不是用于将代理连接到 Buildpad 平台自身的 MCP。  
+请始终使用用户的语言作答。

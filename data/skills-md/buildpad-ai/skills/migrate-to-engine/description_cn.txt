@@ -1,0 +1,1 @@
+仅限引擎项目：完成将 Buildpad 项目从 Supabase 迁移到 Buildpad 引擎的工作。重写引擎无法直接运行的钩子、定时任务和自定义服务（engine‑plan/automation‑to‑review.json），使其适用于引擎运行时，并迁移应用的代码：环境、登录、数据调用、文件、管理员代码、模式和访问规则、数据库函数。应在项目已经迁移后使用，当 .buildpad/project.json 表示后端为 engine，或在被要求将应用或自动化迁移到引擎时使用。在 Supabase 项目中，它会解释迁移过程并停止。请始终使用用户的语言作答。

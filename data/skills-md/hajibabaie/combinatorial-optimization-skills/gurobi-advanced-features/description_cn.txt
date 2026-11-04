@@ -1,0 +1,1 @@
+当用户希望在纯模型构建之外使用 Gurobi 时——回调用于惰性约束、用户切割、启发式解注入以及提前终止；用于诊断不可行模型的 IIS 计算；解池；多目标 API；矩阵 API（addMVar/addMConstr）；MIP 起始解；以及使用内置调优工具进行参数调优。当用户提到 “Gurobi callback”、 “lazy constraints”、 “IIS”、 “solution pool”、 “Gurobi parameters”、 “infeasible model” 或 “MIP start” 时也使用。核心模型构建请参见 milp-modeling-gurobi；关于切割族和分离理论，请参见 cutting-planes-valid-inequalities。

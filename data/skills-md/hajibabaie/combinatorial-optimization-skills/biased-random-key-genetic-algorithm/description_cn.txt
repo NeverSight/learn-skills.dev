@@ -1,0 +1,4 @@
+当用户想要设计、实现或调优偏置随机键遗传算法（BRKGA）时，其中染色体是 [0,1) 范围内的随机键向量，进化使用精英/突变体划分并采用偏置均匀交叉，且解码器是唯一的特定问题组件。  
+当用户提及 “BRKGA”“random keys”“random-key encoding”“biased crossover”“decoder”，或当遗传算子必须永不产生不可行解时，也应使用。  
+关于解码器设计模式，请参阅 decoder-based-representations；关于通用遗传算法算子和选择，请参阅 genetic-algorithms。  
+请始终使用用户的语言进行回应。

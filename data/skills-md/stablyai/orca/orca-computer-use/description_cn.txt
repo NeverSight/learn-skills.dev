@@ -1,0 +1,1 @@
+通过 `orca computer` 驱动可见本地应用窗口的 GUI：访问可访问性树、点击、输入、菜单、对话框以及在原生应用和外部浏览器窗口（Chrome、Edge、Safari）或 Webview 中的截图。尽可能在能够完成任务时优先使用编程方式（shell、文件系统、git、HTTP、现有 CLI）。仅在需要对可见窗口进行 GUI 控制且其他方式无法实现时使用。不要用于 Orca 的嵌入式浏览器（`orca-cli`）。

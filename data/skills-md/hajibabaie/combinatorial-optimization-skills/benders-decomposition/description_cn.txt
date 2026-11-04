@@ -1,0 +1,1 @@
+当用户想通过 Benders 分解求解结构化的 MILP 或两阶段随机规划——将其分解为整数主问题和 LP 子问题，从子问题对偶中导出最优性切割和可行性切割，并在 Gurobi 中实现经典的迭代循环或带懒约束回调的分支‑Benders‑cut。也在用户提到 “Benders decomposition”、 “Benders cuts”、 “L-shaped method”、 “feasibility cut”、 “optimality cut”、 “master problem”，或在固定少数复杂变量后留下一个容易或可分离的子问题时使用。情景生成和 SAA，参见 stochastic-optimization；回调机制和参数，参见 gurobi-advanced-features。请始终使用用户的语言回复。

@@ -1,0 +1,3 @@
+通过 DaaS 模块级访问密钥向用户授予应用级别的能力标识。诸如 `workflow:approve` 或 `system:logs` 的密钥在 `daas_module_access_keys` 中注册，通过策略进行切换，并在 React 中使用 `usePermissions().hasModuleAccess(key)` 检查，或在 API 路由中使用平台已内置的 OR 合并逻辑进行检查。当应用需要对某个功能、页面或工作流命令进行权限控制且该功能不属于集合的 CRUD 操作时使用。
+
+请始终以用户的语言作答。

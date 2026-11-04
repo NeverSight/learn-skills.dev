@@ -1,1 +1,1 @@
-对 Codeguard 支持的仓库执行只读 lint 门禁并解释结果；当用户说 check、跑检查、lint 报告、提交前检查，或 CI 的 Codeguard 检查失败时使用。必须区分 PASS、FAIL、UNVERIFIED、INCOMPLETE 与 PLANNED，并写明结果由 legacy 还是 rust 引擎签发。
+Perform a read‑only lint gate on repositories supported by Codeguard and explain the result; use it when the user says check, run check, lint report, pre‑commit check, or when the CI Codeguard check fails. It must distinguish PASS, FAIL, UNVERIFIED, INCOMPLETE, and PLANNED, and specify whether the result is issued by the legacy or the Rust engine.

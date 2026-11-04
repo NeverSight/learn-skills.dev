@@ -1,0 +1,3 @@
+根据需求从组织者的零件清单中选择元件并生成物料清单（BOM）/统一采购单。当用户将零件清单放入 inputs/partslist/ 并请求 “select components/choose parts/generate BOM/generate purchase list” 时，使用此流程。首先解析零件清单（多模态），随后根据 design/solution.md 中的需求，结合知识库的引脚规格和获奖经验进行元件匹配；对于清单中缺失的项目，使用 jlc_search 进行实时搜索。输出 design/bom.csv，需人工批准。
+
+请始终使用用户的语言回复。
