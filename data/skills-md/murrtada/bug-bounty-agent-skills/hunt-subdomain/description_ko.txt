@@ -1,0 +1,1 @@
+서브도메인 탈취 취약점 탐색 기술. 최신 제공자 지문을 포함합니다 — Microsoft Azure DevOps `cloudapp.azure.com` 지역 풀 재발급 (와일드카드 `reply_to`를 통한 1클릭 OAuth ATO, Binary Security), Zendesk 헬프데스크 탈취 → 이메일 가로채기 → 비밀번호 재설정 체인 (0xprial 글), Vercel `cname.vercel-dns.com` 삭제된 프로젝트 탈취, 그리고 일반적인 Fastly CDN 서비스 재연결 및 S3 남은 버킷 쿠키 범위 기법. 서브도메인 탈취를 탐색할 때 사용하세요 — ATO 체인 원시 요소(OAuth `redirect_uri`, 쿠키 도메인, 이메일 DNS)에 중점.

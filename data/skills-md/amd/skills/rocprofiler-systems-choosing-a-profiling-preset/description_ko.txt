@@ -1,0 +1,3 @@
+사용자의 워크로드와 프로파일링 목표에 따라 `rocprof-sys-run --preset=<name>` 또는 `rocprof-sys-sample --preset=<name>`에 전달할 rocprofiler-systems 런타임 프로파일링 프리셋(예: balanced, trace-gpu, trace-hpc, sys-trace, workload-trace 등)을 추천하고, 실행 준비가 된 커맨드를 반환합니다. 사용자가 “어떤 프리셋을 사용해야 하나요”라고 물거나, GPU 커널, MPI, OpenMP, AI/ML 학습, 생산 환경 개요와 같은 워크로드를 설명하면서 프로파일링 안내를 원할 때, 혹은 프리셋을 선택하지 않고 `rocprof-sys-run`/`rocprof-sys-sample`을 호출할 때 사용하십시오. rocprofiler-systems 자체를 구성/컴파일하기 위한 CMake 빌드 프리셋(`cmake --preset debug|release|ci`)에는 사용하지 마세요—이는 빌드 설정 문제이며 프로파일링 실행과는 관련이 없습니다.
+
+항상 사용자의 언어로 답변하십시오.

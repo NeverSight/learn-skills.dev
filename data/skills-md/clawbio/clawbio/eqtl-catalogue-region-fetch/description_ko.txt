@@ -1,0 +1,1 @@
+EBI eQTL 카탈로그 v7+에서 tabix‑on‑FTP를 이용해 cis‑eQTL 요약 통계 영역을 가져옵니다. 특정 데이터셋(연구 × 조직 × 정량화 방법) 하나에 대해 유전자의 TSS 주변 윈도우 내 모든 변이의 eQTL 베타 / SE / p‑값이 필요할 때 사용합니다. 입력: dataset_id, chromosome, start, end, 선택적 molecular_trait_id. 출력: 정규화된 TSV 슬라이스.

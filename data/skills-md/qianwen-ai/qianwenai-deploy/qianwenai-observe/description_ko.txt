@@ -1,0 +1,8 @@
+콘솔에 접속할 필요 없이, qianwenai-deploy가 Alibaba Cloud 국내 사이트(aliyun.com)에 배포한 애플리케이션의 건강 상태, 성능, 자원 상태 및 실제 비용을 자연어로 보고합니다.  
+.qianwenai-deploy 상태 파일을 프로젝트 디렉터리에서 읽어 애플리케이션과 해당 ECS(및 선택적인 RDS MySQL) 자원을 식별한 후, 읽기 전용 클라우드 API를 호출해 애플리케이션 가용성, ECS/RDS 성능 및 비용(RMB)을 요약합니다.  
+
+사용 사례: 사용자가 배포된 애플리케이션의 실행 상태를 묻거나, 건강/성능/비용에 대한 개요를 원하거나, CPU/메모리/연결 수/느린 SQL 위험에 관심이 있거나, qianwenai가 배포한 애플리케이션의 월별 비용을 문의할 때.  
+
+비사용 사례: .qianwenai-deploy 상태 파일이 없는 경우; 대상이 Alibaba Cloud 국제 사이트인 경우(qwencloud-observe 사용); 사용자가 자원을 수정하거나 복구하려는 경우(qianwenai-operate 사용).  
+
+항상 사용자의 언어로 응답해 주세요.

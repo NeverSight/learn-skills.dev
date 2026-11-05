@@ -1,0 +1,1 @@
+bpy API를 사용하여 Blender Python 애드온을 작성할 때의 모범 사례로, 연산자, 패널, 속성, 등록 및 API 안전 스크립팅을 다룹니다. Blender 애드온을 만들고, bpy.types.Operator 또는 Panel 클래스를 정의하고, PropertyGroup 설정을 등록하며, register()/unregister() 함수를 작성하고, bmesh를 사용하거나, Blender의 Python 콘솔에서 애드온을 디버깅할 때 활용하세요.

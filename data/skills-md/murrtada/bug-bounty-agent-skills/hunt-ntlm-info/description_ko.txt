@@ -1,0 +1,1 @@
+인터넷에 노출된 IIS/SharePoint/Exchange에서 NTLM/Negotiate 정보 누출을 탐색합니다. 익명 NTLM Type‑2 챌린지 캡처는 AV_PAIRS 구조를 통해 NetBIOS 도메인, 내부 DNS 포리스트, 컴퓨터 이름, AD 타임스탬프를 유출합니다. 기본 Windows 설치자 호스트명(WIN-XXXXXXXXXXX 패턴)은 느슨한 프로비저닝을 나타냅니다. 대상이 `WWW-Authenticate: NTLM` 또는 `Negotiate` 헤더를 익명으로 광고할 때 사용하십시오.

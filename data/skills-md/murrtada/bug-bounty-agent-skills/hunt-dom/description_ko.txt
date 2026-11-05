@@ -1,0 +1,3 @@
+클라이언트 측 DOM 취약점 사냥 — DOM 클러버링(HTML 인젝션을 통한 JS 전역 변수 덮어쓰기), PostMessage 탈취(Origin 검사 누락), Service Worker 악용(동일 출처 스크립트 요청 가로채기), CSS 인젝션/탈출(속성 선택자를 이용해 토큰을 문자 단위로 OOB 추출), 클라이언트 측 템플릿 인젝션, dangerouslySetInnerHTML. 다음과 같은 명시된 공개 연구에 기반함: Gareth Heyes / PortSwigger DOM‑clobbering + DOM‑Invader, Michał Bentkowski의 DOMPurify 클러버링 우회, jQuery htmlPrefilter XSS(CVE‑2020‑11022 / CVE‑2020‑11023), d0nut CSS‑exfil 연구. DOM‑XSS, 클라이언트 측 인증 우회, 서버와의 상호작용 없이 토큰 탈출을 탐색할 때 사용하세요. 
+
+항상 사용자의 언어로 응답해 주세요.

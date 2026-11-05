@@ -1,0 +1,1 @@
+Postgres 프로젝트에서 PostgREST와 함께 행 수준 보안(RLS)을 구성합니다. 사용자가 사용자 범위 데이터 접근, PostgREST를 통한 JWT 인증, 사용자별 데이터 격리 설정이 필요하거나, 전달된 JWT를 사용해 PostgREST에 요청을 프록시하는 백엔드를 원할 때 사용합니다. “RLS”, “row-level security”, “PostgREST auth”, “multi-tenant Postgres”, “user isolation in Postgres” 같은 용어에 트리거됩니다.

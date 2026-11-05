@@ -1,0 +1,1 @@
+하나의 (주요 변이, 노출 연구, 결과 연구) 튜플에 대해 4패널 지역 LocusCompare 진단을 생성합니다 – GWAS Manhattan, QTL Manhattan, GENCODE 유전자 트랙, 그리고 LD r²로 색칠된 교차 특성 산점도를 겹칩니다. 두 GWAS/QTL 신호가 동일한 인과 변이를 공유한다는 시각적 확인이 필요할 때 사용합니다 (Liu 2019 LocusCompare 관행). 입력: 주요 변이 + 사전에 가져온 조화된 sumstats 슬라이스 두 개(또는 번들 가져오기를 위한 eQTL Catalogue / GWAS Catalog 식별자). 출력: PNG + JSON 매니페스트.

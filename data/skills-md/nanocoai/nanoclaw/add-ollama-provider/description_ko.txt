@@ -1,0 +1,1 @@
+NanoClaw 에이전트 그룹을 Anthropic API 대신 로컬 Ollama 모델로 라우팅합니다. Ollama는 Anthropic API(v1/messages)를 네이티브하게 지원하므로 제공자 코드 변경이 필요하지 않으며, 환경 변수 재정의와 모델 설정만 하면 됩니다. 사용자가 에이전트를 로컬에서 실행하고 싶거나 API 비용을 절감하거나 오픈 웨이트 모델을 실험하고 싶을 때 사용합니다. 배경은 docs/ollama.md를 참고하십시오.

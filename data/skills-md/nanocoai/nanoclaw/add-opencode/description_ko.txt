@@ -1,0 +1,3 @@
+OpenCode를 에이전트 제공자로 사용하십시오. OpenRouter, OpenAI, Google, DeepSeek 등은 OpenCode 구성으로 사용하고, Anthropic Agent SDK는 사용하지 않습니다. 그룹별로 `ncl groups config update --provider opencode` 명령을 사용하십시오; 호스트는 컨테이너를 시작할 때 OPENCODE_*와 XDG 마운트를 전달합니다.
+
+항상 사용자의 언어로 응답하십시오.

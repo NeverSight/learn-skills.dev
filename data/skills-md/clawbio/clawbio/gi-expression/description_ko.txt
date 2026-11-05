@@ -1,0 +1,1 @@
+TSS 주변 9,198–500,000 bp(각 측면 최소 4,599 bp)의 DNA에서 조직/세포 유형 발현(log TPM + TPM)을 예측합니다(정확히 9,198 bp가 아닌 경우 --tss-index가 필요합니다). Genomic Intelligence G0 Expression 모델을 사용하고, 호스팅된 /v1/tasks/expression/predict API를 통해 수행합니다. 모델은 자유 텍스트 형태의 세포 유형/ assay 설명에 따라 조건이 부여됩니다.
