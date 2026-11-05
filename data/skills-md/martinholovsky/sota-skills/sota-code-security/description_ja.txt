@@ -1,0 +1,3 @@
+セキュアコーディングとセキュリティ監査のルール。信頼境界を越えるコードを構築または変更する際は常に使用してください — エンドポイント、ハンドラ、認証/ログイン/サインアップ、セッション、JWT/OAuth、ファイルアップロード、決済、マルチテナント機能、暗号/シークレットの取り扱い、パーサ、CLI/exec ラッパー、LLM エージェントやツール呼び出し — さらに、コードをセキュリティ観点で監査する際（セキュリティレビュー、脆弱性ハンティング、ハードニング、OWASP、CWE、シークレット漏洩、「このコードは安全か」）にも使用してください — さらに、すでに制御が存在し、その制御が何らかの制約を課しているかどうかを確認する必要がある場合（決して失敗しないゲートや空の比較対象など）、シェルスクリプト、CI ステップ、設定ファイルに制御が記述されている場合でも適用してください。トリガーキーワード：secure、security、vulnerability、audit、authn、authz、authentication、authorization、crypto、TLS、sanitize、validate、injection、SQLi、XSS、CSRF、SSRF、IDOR、JWT、OAuth、upload、rate limit、prompt injection、feed、parser、decompression bomb、webhook、deserialization、silent failure、fail-open、no‑op control、business logic。
+
+常にユーザーの言語で回答してください。

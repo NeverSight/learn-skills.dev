@@ -1,0 +1,3 @@
+Genomic Intelligence G0 Expressionモデルを使用し、ホストされた /v1/tasks/expression/predict API を介して、転写開始点（TSS）周辺の9,198〜500,000 bpのDNA（各方向少なくとも4,599 bp、正確に9,198 bp以外は --tss-index が必要）から組織／細胞タイプの発現（log TPM + TPM）を予測します。モデルは自由記述の細胞タイプ／アッセイ説明に条件付けされます。
+
+常にユーザーの言語で回答してください。

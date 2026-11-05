@@ -1,0 +1,1 @@
+bpy API を使用した Blender Python アドオン作成のベストプラクティス。オペレーター、パネル、プロパティ、登録、そして API セーフなスクリプト作成をカバーします。Blender アドオンを作成する際、bpy.types.Operator や Panel クラスを定義する時、PropertyGroup の設定を登録する時、register()／unregister() 関数を書く時、bmesh を扱う時、または Blender の Python コンソールでアドオンをデバッグする時に使用してください。

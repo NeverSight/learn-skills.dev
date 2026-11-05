@@ -1,0 +1,1 @@
+Manusスタイルの永続的な計画メモリを、3つのファイルシステムファイル（task_plan.md（段階的実行計画）、findings.md（調査・決定ログ）、progress.md（セッションタイムラインとエラーログ））を使用してセッション間で提供します。/plan を有効化する場合、5 回以上のツール呼び出しが必要な GSD タスクを開始する場合、またはコンテキストが失われた後に再開する場合に使用してください。フックは自動的に作動し、通常の GSD 実行中に手動で呼び出す必要はありません。トリガーワード：/plan、task_plan、persistent planning、session recovery、plan resume、goal drift、context loss。

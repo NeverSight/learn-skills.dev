@@ -1,0 +1,8 @@
+Hunt API のセキュリティミスコンフィギュレーション — 大量割り当て、プロトタイプ汚染、HTTP 動詞の改ざん。  
+大量割り当て: profile / account / reset エンドポイントに `{is_admin:true, role:admin, verified:true}` を送信すると、サーバーが盲目的に適用する。  
+JWT 署名/暗号の偽造（alg:none、キー混乱、kid/jku）は hunt‑jwt‑crypto が担当し、このスキルは暗号処理を除く JWT の取り扱いのみをカバーする。  
+プロトタイプ汚染: JSON マージ / `Object.assign` / lodash の `_.merge` で `__proto__` インジェクションを行い、汚染されたプロトタイプがシンクに達すると（Node で RCE、ブラウザで XSS）になる。  
+HTTP 動詞: GET による CSRF バイパス、X‑HTTP‑Method‑Override、TRACE の有効化。  
+検知方法: 余分なフィールドが含まれる API 応答、ヘッダー内の JWT（jwt.io でデコード）。  
+CORS のミスコンフィギュレーション（任意オリジン反射、null オリジン、サブドメイン正規表現バイパス、postMessage）は hunt‑cors が担当する。  
+API のミスコンフィギュレーション、特に大量割り当てやプロトタイプ汚染をハンティングする際に使用する（JWT 暗号は hunt‑jwt‑crypto が担当）。

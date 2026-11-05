@@ -1,0 +1,1 @@
+エージェント間 Slack ルーム — 人間と 2 つ以上の NanoClaw 兄弟ボットが参加するグループ DM（MPIM）で、各ボットは自分の Socket Mode 接続を通じてルームのメッセージを受信します。Slack チャンネルの bot‑inbound ガードに入室ポリシーを登録し、bot が生成したインバウンドは SLACK_A2A_ROOMS にホワイトリストされたルーム（slack:bot:<botId> として再属性付与、SLACK_A2A_MAX_HOPS によるホップ制限）に対してのみ許可されます。また、scripts/open-a2a-room.ts を使用してルームを作成し、登録します。

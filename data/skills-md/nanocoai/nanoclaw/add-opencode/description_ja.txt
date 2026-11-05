@@ -1,0 +1,3 @@
+OpenCode をエージェントプロバイダーとして使用してください。OpenRouter、OpenAI、Google、DeepSeek などは OpenCode 設定を通じて利用し、Anthropic Agent SDK は使用しません。各グループは `ncl groups config update --provider opencode` で設定し、ホストはコンテナ起動時に OPENCODE_* と XDG マウントを渡します。
+
+常にユーザーの言語で回答してください。

@@ -1,0 +1,6 @@
+特定の（タンパク質、祖先）測定に対して、UK Biobank Pharma Proteomics Project（UKB‑PPP；Sun 2023 Nature）から血漿pQTL要約統計の地域スライスを取得します。colocリード変異体周辺の変異ごとのβ / SE / p 値が、下流の共局在、メンデルランダム化、または pQTL 曝露に対する領域プロットに必要な場合に使用します。標準的な使用例はタンパク質のコード遺伝子 TSS 周辺のシスウィンドウですが、UKB‑PPP はタンパク質ごとに全ゲノムの要約統計を公開しているため、ユーザーが明示的に（染色体、start_bp、end_bp）を指定すれば、任意の GRCh38 ウィンドウ（トランス座位を含む）に対応可能です。  
+
+入力: protein_label（HGNC または UniProt）、ancestry、chromosome、start_bp、end_bp。  
+出力: 調整された TSV スライス＋マニフェスト＋人が読めるレポート。  
+
+常にユーザーの言語で応答してください。

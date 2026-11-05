@@ -1,0 +1,1 @@
+Docker Compose スタック用の Telegram ログ転送サイドカーコンテナを作成・設定します。Docker ソケットを介して兄弟サービスのログを tail し、フィルタリングした行を Bot API を通じて Telegram チャットに転送します。コンテナログからの Telegram アラート／通知が必要な場合、ログ配送サイドカーとして、Telegram による可観測性を実現するために、または「Telegram ログを設定」「Telegram サイドカー」「コンテナログを Telegram に転送」「ログアラートを Telegram に送信」などの要望がある時に使用します。
