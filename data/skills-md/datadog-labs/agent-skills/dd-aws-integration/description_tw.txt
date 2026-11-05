@@ -1,0 +1,3 @@
+使用 Terraform 設定 Datadog 的 AWS 整合——建立 Datadog 會假設的跨帳號 IAM 角色（外部 ID，無需儲存憑證），附加 Datadog 所發布的權限政策，並透過 datadog_integration_aws_account 註冊帳號，使 AWS 指標、資源目錄與 CSPM 發現開始流入。當使用者擁有想要監控的 AWS 資源、想將 AWS 帳號連接至 Datadog、要求設定或修復 AWS 整合，或需要建立 Datadog IAM 角色與外部 ID 時使用。本指令不會設定日誌轉送。
+
+請始終使用使用者的語言回覆。

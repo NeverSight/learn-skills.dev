@@ -1,0 +1,1 @@
+搜尋 JWT 加密失敗 — alg:none 簽名剝除與 RS256→HS256 金鑰混淆，使攻擊者可在不知道密鑰的情況下偽造任意身份（例如管理員）的 Token。當應用程式使用 JSON Web Token（Authorization 標頭中的 `eyJ…` Bearer token、Cookie 或登入回應）進行驗證時使用此方法。此技能掌握 JWT 簽名/加密偽造（alg:none、金鑰混淆、kid/jku 標頭注入）；hunt-ato 涵蓋 JWT 作為一種 ATO 路徑，hunt-auth-bypass 涵蓋 SSO/SAML Token 信任，hunt-api-misconfig 涵蓋非加密 JWT 處理。當偽造的 Token 可存取其他使用者資料或僅限管理員的端點時，此情況尤為關鍵。

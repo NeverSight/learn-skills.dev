@@ -1,0 +1,1 @@
+從頭到尾的全基因組測序（WGS）到多基因風險分數流程。將成對的 FASTQ 檔案（或現有的 VCF）導入 nf-core/sarek 進行變異呼叫，套用 VCF 質控（正規化、硬性過濾、Ti/Tv 與雜合/純合檢查），然後透過 PGS Catalog 計算多基因風險分數。填補在 gwas-prs 技能之前的 FASTQ 至 VCF 的缺口。

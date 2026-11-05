@@ -1,0 +1,1 @@
+針對 XXE 漏洞的偵測技巧。此技巧根據 10 份公開的賞金計畫報告建構，包括 SVG 上傳 XXE、Office 文件（PPTX/DOCX）XXE、SOAP XXE、SAML AssertionConsumer XXE、透過 DTD 回呼的盲式 OOB XXE、參數實體 XXE、XXE 轉 LFI、XXE 轉 SSRF，以及 XXE 轉 RCE 鏈（Adobe Commerce CosmicSting CVE-2024-34102）。在對任何目標進行 XXE 偵測時使用——特別強調盲測情況下的 OOB‑Or‑It‑Didn’t‑Happen 檢查點。

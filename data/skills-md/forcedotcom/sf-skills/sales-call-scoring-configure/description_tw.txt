@@ -1,0 +1,3 @@
+在啟用 ECI 的 Salesforce 組織上，配置、設置或修復 AI 通話評分（亦稱通話教練／教練能力）。透過 SOAP Metadata API 切換 ECICallScoringEnabled，若 Einstein Generative AI Platform 為關閉狀態則將其啟用，並管理 Coaching Competency 記錄（使用 EnablementCompetencyDef Tooling API）：安裝 6 個 OOTB 組合、7 個 Momentum 最佳實踐提示，或以對話方式撰寫/編輯/啟用/停用自訂能力（8 個啟用上限＋16000/255 字元上限）。  
+觸發條件：使用者想開啟 AI 通話評分或通話教練、安裝 OOTB 或最佳實踐能力、建立/編輯自訂能力、在 sandbox 重新整理後重新啟用，或驗證/修復在 68+ ECI 組織中部分通話教練的設定。  
+不要觸發的情況：沒有 ECI 授權（直接使用 Agentforce for Sales）、使用者自行想啟用 ECI/Momentum（超出範圍——設定）、管線管理（使用 sales-agentforce-pipeline-management-configure），或自訂代理人（使用 agentforce-generate）。

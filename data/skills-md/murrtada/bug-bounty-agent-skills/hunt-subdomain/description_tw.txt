@@ -1,0 +1,1 @@
+子域名接管漏洞的偵測技巧。包括現代供應商指紋 — Microsoft Azure DevOps `cloudapp.azure.com` 地區池重新簽發（一次點擊 OAuth ATO 透過通配符 `reply_to`，Binary Security），Zendesk 幫助台接管 → 電子郵件攔截 → 密碼重設鏈（0xprial 撰寫），Vercel `cname.vercel-dns.com` 已刪除專案接管，另外一般 Fastly CDN 服務重新附加與 S3 懸掛桶 cookie 範圍技術。於偵測子域名接管時使用 — 強調 ATO 鏈原語（OAuth `redirect_uri`、cookie-domain、email DNS）。

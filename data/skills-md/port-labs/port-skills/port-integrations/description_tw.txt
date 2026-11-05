@@ -1,0 +1,1 @@
+配置與排除 Port 整合問題：映射 YAML、資源、選擇器、基於 JQ 的實體映射、關係，以及像 createMissingRelatedEntities 與 itemsToParse 之類的進階選項。當被要求「撰寫 Port 映射」、「將 API 或工具資料映射至 Port 藍圖」、「設定 Ocean 整合映射」、「為 Port 映射新增關係」、「將陣列解析為個別 Port 實體」、「修正 Port 映射 JQ 錯誤」或「為什麼我的 Port 整合未同步正確的實體或屬性」時使用此技能。若要從頭安裝新整合並首次填充目錄，請改用嵌套的 `port-install-integration` 技能。若要測試整合連線或在同步前驗證憑證，請改用嵌套的 `port-integration-test-connection` 技能。

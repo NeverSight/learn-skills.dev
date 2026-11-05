@@ -1,0 +1,5 @@
+報告由 qianwenai-deploy 部署至阿里雲國內站點（aliyun.com）的應用程式健康、效能、資源狀態與實際成本，使用自然語言且不需進入控制台。先讀取專案目錄中的 .qianwenai-deploy 狀態檔，以識別應用程式及其 ECS（以及可選的 RDS MySQL）資源，然後呼叫唯讀雲端 API，彙總應用可用性、ECS/RDS 效能及以人民幣計算的費用。  
+使用情境：使用者詢問部署的應用程式運行情形，想要健康／效能／成本的概覽，關心 CPU、記憶體、連線數、慢 SQL 風險，或查詢使用 qianwenai 部署的應用程式每月成本。  
+非使用情境：沒有 .qianwenai-deploy 狀態檔；目標是阿里雲國際站點（使用 qwencloud‑observe）；使用者希望修改或還原資源（使用 qianwenai‑operate）。  
+
+請始終以使用者的語言回應。

@@ -1,0 +1,1 @@
+Agent-to-agent Slack房間 — 一個包含人類以及兩個或更多NanoClaw兄弟機器人的群組DM（MPIM），每個機器人透過自己的Socket Mode連線接收房間訊息。於Slack頻道的機器人輸入守衛上註冊准入政策，讓機器人發出的入站訊息僅在SLACK_A2A_ROOMS白名單中的房間被允許（重新歸屬為 slack:bot:<botId>，並透過SLACK_A2A_MAX_HOPS限制跳躍次數），以及 scripts/open-a2a-room.ts 用於開啟房間並註冊它。

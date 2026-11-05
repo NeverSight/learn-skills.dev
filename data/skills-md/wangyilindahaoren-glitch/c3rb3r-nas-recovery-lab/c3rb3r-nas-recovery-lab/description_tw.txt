@@ -1,0 +1,11 @@
+在 Synology (DSM)、ext4（舊 QNAP 磁碟卷、手動安裝的 Linux 等）或 Btrfs NAS 上恢復已被 C3RB3R / Cerber 勒索軟件加密（檔案副檔名 .L0CK3D、勒索說明 read‑me3.txt）且沒有金鑰的資料：利用 Btrfs copy‑on‑write 所遺留的舊 extent，以位元組逐一重建原始檔案並以 Btrfs 檢驗碼驗證每個區塊；對於已被完全覆寫且舊 extent 已被釋放的檔案，依照 C3RB3R 加密模式（588 位元組的尾部標記）切除未加密的純文字部分，並從損毀的 xlsx / docx / zip 檔案中恢復元件、重新組裝 PDF；若無法復原，則在區塊裝置上執行檔案 carving 以取回已釋放的舊 extent。  
+
+每當使用者提到 NAS / Synology / 「黑 Synology」被勒索、.L0CK3D、read‑me3.txt、C3RB3R、Cerber，或出現「檔案被加密想要恢復」、「沒有備份沒有快照如何拯救」、「檔案無法開啟但想查看內容」、「檔案已刪除想要恢復」、「磁碟仍有遺留檔案」、「檔案 carving」等字句，即使未提及 Btrfs 或 extent，也應使用此技巧。  
+
+此技巧涵蓋 CoW / NoCOW 判斷、子卷快照代數（lastsnap）效應、extent 樹的精確重組、大檔案的跨 extent 推斷、檔案 carving、統計、匯出、驗證與報告。  
+
+同時也包括高效能技術「以容器 ID 逆向查找 carving 索引」（容器標頭的 ID 等於 Synology Drive 儲存庫目錄名稱；依該 ID 列出磁碟上所有歷史版本並以 orig_len 篩選——測試恢復了 74 個 .osheet 檔案中的 65 個），以及從 Synology 回收筒的 /@sharesnap 快照中取得勒索前純文字的方式。  
+
+用於在無金鑰情況下復原 Synology / Btrfs / ext4 磁碟卷上的 .L0CK3D 勒索檔案。  
+
+亦說明最快的情境：檔案位於 Synology Drive 同步資料夾中（Drive 的 Git 儲存庫保留了勒索前的純文字，得以在分鐘等級重建試算表資料；參見 references/synology-drive.md）。

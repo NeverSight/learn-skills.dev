@@ -1,0 +1,1 @@
+將影片/音訊媒體上傳至 BytePlus VOD（Video on Demand）儲存，回傳 Vid 與播放參考；支援本機檔案上傳（ApplyUploadInfo + TOS + CommitUploadInfo）與 URL 抓取上傳（UploadMediaByUrl）；同時可對已匯入的媒體提交精準抹除作業（StartExecution / Operation.Task.Erase）：僅自動 OCR — 預設僅抹除字幕，亦可選擇抹除全部螢幕文字，亦可使用 EraseOption ClipFilter（跳過/選取）；NewVid 總是 true；可選 WithEraseInfo。觸發關鍵字：精準抹除、精確抹除、VOD 上傳、字幕移除、OCR 字幕、移除螢幕文字、抹除文字、StartExecution Erase。

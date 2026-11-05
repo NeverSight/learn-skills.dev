@@ -1,0 +1,1 @@
+建立並配置一個用於 Docker Compose 堆疊的 Telegram 日誌轉發 sidecar 容器。透過 Docker socket 追蹤同層服務的日誌，並將過濾後的行透過 Bot API 轉發至 Telegram 聊天。適用於使用者希望從容器日誌獲得 Telegram 警報/通知、作為日誌傳輸 sidecar、透過 Telegram 進行可觀測，或要求「設定 Telegram 日誌」、「Telegram sidecar」、「將容器日誌轉發至 Telegram」或「日誌警報傳送至 Telegram」的情況。

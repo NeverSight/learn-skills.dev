@@ -1,0 +1,3 @@
+根據使用者的工作負載與分析目標，建議使用哪個 rocprofiler-systems 執行時分析預設（balanced、trace-gpu、trace-hpc、sys-trace、workload-trace 等），並把它傳遞給 `rocprof-sys-run --preset=<name>` 或 `rocprof-sys-sample --preset=<name>`，最後回傳可直接執行的指令。當使用者詢問「我應該使用哪個 preset」、描述工作負載（GPU kernel、MPI、OpenMP、AI/ML 訓練、產品概覽等）且需要分析指導，或在未指定 preset 的情況下呼叫 `rocprof-sys-run`/`rocprof-sys-sample` 時使用。切勿用於 CMake 建置預設（`cmake --preset debug|release|ci`），該預設用於配置/編譯 rocprofiler-systems 本身——屬於建置設定，而非分析執行的考量。
+
+請始終以使用者的語言回覆。

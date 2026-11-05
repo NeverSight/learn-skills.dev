@@ -1,0 +1,4 @@
+搜尋 Clickjacking — 缺少 X-Frame-Options / CSP frame-ancestors 允許攻擊者將目標頁面嵌入隱形 iframe，並欺騙受害者點擊他們看不見的按鈕（UI 重整）。  
+目標：登入流程、資金轉帳、帳戶設定、OAuth 確認頁面。  
+先取得該頁面進行確認，然後在真實瀏覽器中證明它能被嵌框，且敏感的狀態變更操作在跨站情境下仍能執行（SameSite Cookie / 防止嵌框的 JavaScript 可阻止此攻擊）——僅因缺少標頭並不構成問題。  
+請始終使用使用者的語言回覆。

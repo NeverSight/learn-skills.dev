@@ -1,0 +1,1 @@
+將現有代理人手寫的路由（關鍵字 if/else 鏈、正規表達式，或僅選擇路由的 LLM 呼叫）替換為透過 redis-iris 的 Redis Iris Intent Router，使訊息依範例語句與分數門檻對映到已定義的意圖及其分發目標。提問五個問題（目前的路由有哪些、每個路由的幾個實際語句、每個路由分發至何處、若未匹配時會發生什麼、使用哪個嵌入模型），將答案寫入 intents.yaml，使用 `iris intent-router service create` 從終端機佈署 Router，使用 `iris intent-router intents add` 載入意圖，然後在目前代理人決策的地方接上 `router.match()`。當代理人以關鍵字或額外的 LLM 呼叫進行路由，或使用者要求意圖偵測、意圖路由或語意路由時，請使用此方式。

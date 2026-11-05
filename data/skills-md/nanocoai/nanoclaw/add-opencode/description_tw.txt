@@ -1,0 +1,3 @@
+使用 OpenCode 作為代理提供者。透過 OpenCode 設定使用 OpenRouter、OpenAI、Google、DeepSeek 等——而非 Anthropic Agent SDK。每個群組可使用 `ncl groups config update --provider opencode`；主機在生成容器時傳遞 OPENCODE_* 和 XDG 掛載。
+
+請始終以使用者的語言回應。

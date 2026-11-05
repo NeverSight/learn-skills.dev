@@ -1,0 +1,1 @@
+透過 redis-iris 為現有的 AI 代理加入 Redis Iris Lens 追蹤，使每一次代理的回合都成為 Lens UI 中的一個追蹤，顯示其 LLM 呼叫、代幣、工具呼叫、記憶體與文件檢索，以及哪些項目被填入提示。檢測代理的執行方式（LangGraph 或 ADK attach、workflows.turn、其他框架，或純循環），安裝 redis-iris[llm-tracing]，呼叫 lens.init(agent_id=…)，在 Iris 尚未開啟的情況下於每個回合開啟一次 lens.turn()，並處理與已存在的 OpenTelemetry 設定或應用程式已具備的 LLM 計量工具的共存問題。於使用者要求為其代理加入 Lens、追蹤、可觀測性或每回合追蹤，或詢問為何其 Lens 追蹤遺失時使用。請始終以使用者的語言回應。

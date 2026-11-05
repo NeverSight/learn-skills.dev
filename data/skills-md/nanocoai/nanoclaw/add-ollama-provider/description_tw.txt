@@ -1,0 +1,3 @@
+將 NanoClaw 代理群組導向本機的 Ollama 模型，而非 Anthropic API。Ollama 原生支援 Anthropic API（v1/messages），因此無需修改提供者程式碼——只需覆寫環境變數並設定模型。適用於使用者希望在本機執行代理、削減 API 成本，或測試開源權重模型的情境。詳情請參閱 docs/ollama.md。
+
+請始終以使用者的語言回覆。

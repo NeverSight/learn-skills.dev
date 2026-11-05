@@ -1,0 +1,14 @@
+本地工具伴隨 bug‑bounty orchestrator ── 具備完全相同的漏洞賞金工作流程，但當你還需要確定工具、字典與 clone 在本機的安裝位置（jhaddix、SecLists、trufflehog、ffuf、dalfox、ghauri）時，請使用此變體；若僅需純粹的編排／路由，請使用 bug‑bounty 技能。它涵蓋的工作流程包括：
+
+- 偵測（子域名列舉、資產發掘、指紋辨識、HackerOne 範圍、原始碼稽核）
+- 前期學習（已公開報告、技術堆疊研究、心智圖、威脅建模）
+- 漏洞狩獵（IDOR、SSRF、XSS、認證繞過、CSRF、競爭條件、SQLi、XXE、檔案上傳、業務邏輯、GraphQL、HTTP smuggling、快取投毒、OAuth、時間側通道、OIDC、SSTI、子域名劫持、雲端配置錯誤、ATO 連鎖、Agentic AI）
+- LLM／AI 安全測試（聊天機器人 IDOR、提示注入、間接注入、ASCII smuggling、資料外洩通道、透過程式碼工具的 RCE、系統提示抽取、ASI01‑ASI10）
+- A 到 B 漏洞串聯（IDOR→認證繞過、SSRF→雲端 metadata、XSS→ATO、開放重定向→OAuth 竊取、S3→bundle→secret→OAuth）
+- 繞過表（SSRF IP 繞過、開放重定向繞過、檔案上傳繞過）
+- 語言特定 grep（JS prototype pollution、Python pickle、PHP type juggling、Go template.HTML、Ruby YAML.load、Rust unwrap）
+- 報告（7 問題門檻、4 條驗證門檻、人性化寫作、依漏洞類別的模板、CVSS 3.1、PoC 產生、永遠拒絕清單、條件串聯表、提交清單）
+
+在需要取得工具、字典或 clone 的本機安裝路徑以進行獵殺，或在本地工具套件中執行完整工作流程時使用此變體；一般路由則使用 bug‑bounty 技能。
+
+中文觸發詞：漏洞賞金、安全測試、滲透測試、漏洞挖掘、資訊蒐集、子域名枚舉、XSS測試、SQL注入、SSRF、安全稽核、漏洞報告

@@ -1,0 +1,1 @@
+在可從網際網路存取的 IIS/SharePoint/Exchange 上搜尋 NTLM/Negotiate 資訊洩漏。匿名捕獲 NTLM Type‑2 挑戰會洩漏 NetBIOS 網域、內部 DNS 森林、電腦名稱，以及透過 AV_PAIRS 結構的 AD 時間戳。預設的 Windows 安裝程式主機名稱（WIN‑XXXXXXXXXXX 格式）顯示懶散的佈署。於目標匿名宣告 `WWW-Authenticate: NTLM` 或 `Negotiate` 標頭時使用。

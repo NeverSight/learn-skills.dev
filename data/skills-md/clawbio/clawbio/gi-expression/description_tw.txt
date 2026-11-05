@@ -1,0 +1,3 @@
+使用 Genomic Intelligence G0 Expression 模型，透過託管的 /v1/tasks/expression/predict API，從 TSS 附近 9,198–500,000 bp 的 DNA（每側至少 4,599 bp，若不是恰好 9,198 bp 則需使用 --tss-index）預測組織/細胞類型的表達（log TPM + TPM）。模型以自由文字的細胞類型/實驗描述作為條件。
+
+請始終以使用者的語言回覆。

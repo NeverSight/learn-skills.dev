@@ -1,0 +1,1 @@
+搜尋 Spring Boot 特定漏洞 — Actuator 端點（heapdump、env、loggers、mappings、shutdown）、Spring 表達式語言（SpEL）注入 → 遠端程式碼執行 (RCE)、H2 console RCE、Jolokia JMX 暴露、Spring4Shell（CVE-2022-22965）、Spring Cloud Function SPEL（CVE-2022-22963）、heap dump 憑證提取。當目標運行 Spring Boot 時使用 — 可透過 X-Application-Context 標頭、/actuator、Whitelabel 錯誤頁面或 Java 堆疊追蹤偵測。
