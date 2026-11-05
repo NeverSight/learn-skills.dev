@@ -1,0 +1,3 @@
+يوصي بأي إعداد مسبق لتصوير الأداء في وقت تشغيل rocprofiler-systems (balanced، trace-gpu، trace-hpc، sys-trace، workload-trace، إلخ) يجب تمريره إلى `rocprof-sys-run --preset=<name>` أو `rocprof-sys-sample --preset=<name>` بناءً على عبء عمل المستخدم وهدف التصوير، ويعيد الأمر الجاهز للتنفيذ. يُستخدم عندما يسأل المستخدم "any preset should I use"، أو يصف عبء عمل (نواة GPU، MPI، OpenMP، تدريب AI/ML، نظرة عامة على الإنتاج) ويريد إرشادات للتصوير، أو يستدعي `rocprof-sys-run`/`rocprof-sys-sample` دون اختيار إعداد مسبق. لا تُستخدم لإعدادات بناء CMake (`cmake --preset debug|release|ci`) المستخدمة لتكوين/تجميع rocprofiler-systems نفسها — فهذه مسألة إعداد بناء، ليست مسألة تشغيل تصوير.
+
+يرجى دائمًا الرد بلغة المستخدم.
