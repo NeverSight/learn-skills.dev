@@ -1,0 +1,1 @@
+Implements the approved plan from the same Claude Code session, executing per the plan's declared Approach (RGR or direct). Runs the project's typecheck and test commands with a self-fix loop capped at 5 attempts. Never commits, never changes branches. Use when user types /do-work after approving a /plan-work plan in the same session.

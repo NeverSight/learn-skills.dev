@@ -1,0 +1,5 @@
+Fetch a region of cis-eQTL summary statistics from EBI eQTL Catalogue v7+
+via tabix-on-FTP. Use when an agent needs eQTL beta / SE / p-value for
+every variant in a window around a gene's TSS for one specific dataset
+(study × tissue × quantification method). Input: dataset_id, chromosome,
+start, end, optional molecular_trait_id. Output: harmonised TSV slice.

@@ -1,0 +1,1 @@
+Rules for code that writes to the database where two requests, retries or jobs can run at once. Use for anything that changes money, stock, balances, counters or statuses, creates rows that must be unique, or calls a payment provider, email or other outside service. Applies in endpoints, webhooks and background jobs.

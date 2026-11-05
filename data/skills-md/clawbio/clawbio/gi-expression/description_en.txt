@@ -1,0 +1,1 @@
+Predict tissue / cell-type expression (log TPM + TPM) from 9,198–500,000 bp of DNA around a TSS, at least 4,599 bp each side (anything but exactly 9,198 bp needs --tss-index) using the Genomic Intelligence G0 Expression model, via the hosted /v1/tasks/expression/predict API. The model is conditioned on a free-text cell-type / assay description.
