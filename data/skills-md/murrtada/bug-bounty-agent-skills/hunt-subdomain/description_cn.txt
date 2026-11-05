@@ -1,0 +1,1 @@
+用于子域接管漏洞的猎取技巧。包括现代提供商指纹——Microsoft Azure DevOps `cloudapp.azure.com` 区域池重新发行（通过通配符 `reply_to` 实现一键 OAuth ATO，Binary Security），Zendesk 帮助台接管 → 邮件拦截 → 密码重置链（0xprial 写作），Vercel `cname.vercel-dns.com` 删除项目接管，以及通用的 Fastly CDN 服务重新绑定和 S3 悬挂桶 cookie 域范围技术。用于子域接管猎取时——强调 ATO 链原语（OAuth `redirect_uri`、cookie 域、邮件 DNS）。

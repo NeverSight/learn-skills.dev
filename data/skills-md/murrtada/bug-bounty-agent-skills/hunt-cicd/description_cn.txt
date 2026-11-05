@@ -1,0 +1,1 @@
+检测 CI/CD 流水线漏洞 — GitHub Actions 工作流注入（pull_request_target Pwnrequest + ${{ }} 注入 shell）、自托管 Runner 投毒、OIDC 信任策略滥用、Jenkins 脚本控制台远程代码执行及 CVE-2024-23897 文件读取、GitLab CI Runner Token 注册、Terraform 状态文件泄漏、制品/日志 密钥泄漏、流水线环境变量泄露。当目标拥有公开的 GitHub/GitLab 组织、公开的 CI 仪表盘（Jenkins/TeamCity/Drone/Argo），或可访问构建制品/镜像时使用。

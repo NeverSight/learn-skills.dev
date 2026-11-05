@@ -1,0 +1,1 @@
+提供类似Manus风格的跨会话持久化规划记忆，使用三个文件系统文件：task_plan.md（分阶段执行计划）、findings.md（研究和决策日志）、progress.md（会话时间线和错误日志）。在激活 /plan、启动需要 5 次以上工具调用的 GSD 任务或在上下文丢失后恢复时使用。钩子自动触发——在正常 GSD 执行过程中无需手动调用。触发词：/plan、task_plan、persistent planning、session recovery、plan resume、goal drift、context loss。

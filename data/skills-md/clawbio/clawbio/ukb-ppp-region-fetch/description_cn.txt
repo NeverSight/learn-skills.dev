@@ -1,0 +1,3 @@
+获取 UK Biobank Pharma Proteomics Project（UKB‑PPP；Sun 2023 Nature）中血浆 pQTL 汇总统计的区域切片，以针对特定的（蛋白质、族裔）测量。当需要在共定位主导变异周围获取每个变异的 beta / 标准误 / p 值，以进行后续共定位、孟德尔随机化或相对于 pQTL 曝露的区域绘图时使用。典型的使用场景是围绕该蛋白质编码基因 TSS 的顺式窗口，但 UKB‑PPP 为每个蛋白质发布全基因组汇总统计，任何 GRCh38 窗口（包括跨位点）只要用户提供明确的（染色体、start_bp、end_bp）均受支持。输入：protein_label（HGNC 或 UniProt）、ancestry、chromosome、start_bp、end_bp。输出：已标准化的 TSV 切片 + 清单 + 人类可读报告。
+
+请始终使用用户的语言作答。

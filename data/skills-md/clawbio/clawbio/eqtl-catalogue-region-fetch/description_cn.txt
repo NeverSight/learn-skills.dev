@@ -1,0 +1,1 @@
+通过 FTP 上的 tabix 获取 EBI eQTL Catalogue v7+ 的顺式 eQTL 汇总统计区域。当需要为某一特定数据集（研究 × 组织 × 定量方法）在基因 TSS 附近窗口内的每个变异获取 eQTL β / SE / p 值时使用。输入：dataset_id、染色体、起始位置、结束位置，可选的 molecular_trait_id。输出：统一的 TSV 切片。

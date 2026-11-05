@@ -1,0 +1,1 @@
+在查询或调用按标记付费的基础模型时，或在创建、更新、列出或查询 Unity Gateway（亦称 Unity AI Gateway）服务时使用，包括模型提供者服务、MCP 服务、system.ai 服务以及三段式 Unity Catalog 服务名称（catalog.schema.service）。也用于管理 Unity Gateway 的支出预算和使用警报，以及从旧版 AI Gateway 迁移时使用。当具有模型服务端点权限的工作负载（例如 CAN_QUERY）在查询三段式模型名称时收到 PERMISSION_DENIED 时也使用，因为服务端点访问并不授予对 Unity Gateway 服务的访问权限。不要用于在模型服务端点上配置旧版 AI Gateway；应使用 databricks-model-serving。

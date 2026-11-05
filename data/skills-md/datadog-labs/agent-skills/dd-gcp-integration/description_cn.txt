@@ -1,0 +1,1 @@
+使用 Terraform 设置 Datadog Google Cloud 集成——在宿主项目中创建服务账号，允许 Datadog 的委托主体通过 roles/iam.serviceAccountTokenCreator 进行冒充（不使用服务账号密钥），启用所需的 API，在选定的项目和文件夹中授予监控角色，并通过 datadog_integration_gcp_sts 注册该账号。适用于用户希望监控 Compute Engine、Cloud SQL、GKE、Cloud Run 或 Pub/Sub 等 GCP 资源、希望将 GCP 项目、文件夹或组织连接到 Datadog，或要求设置或修复 GCP 集成的情况。不涉及日志转发的设置。

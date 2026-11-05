@@ -1,0 +1,1 @@
+端到端 Android APK 红队流水线——自动获取 APK（Play Store + apkpure + apkmirror 备用），jadx 反编译，密钥/URL/JWT/Firebase 搜索，固定证书提取，导出组件枚举，Frida 运行时注入模板，Intent 注入探针。基于一次授权的外部红队任务构建，期间手动获取了 7 个 APK，4 次下载尝试被截断，并从其中一个应用中恢复了硬编码的 JWT 和 30 条内部 API 端点。适用于目标拥有移动应用目录（Play Store 开发者页面）、发现网页服务器上托管的 APK URL，或后期侦察中提到“移动应用”列入范围的情况。

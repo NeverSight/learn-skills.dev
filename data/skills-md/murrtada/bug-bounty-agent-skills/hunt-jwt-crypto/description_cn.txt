@@ -1,0 +1,1 @@
+搜寻 JWT 加密失败 — alg:none 签名剥离和 RS256→HS256 键混淆，使攻击者在不知晓密钥的情况下伪造任意身份（如管理员）的令牌。适用于应用使用 JSON Web Token 进行身份验证的场景（在 Authorization 头中的 `eyJ...` Bearer 令牌、Cookie 或登录响应中）。此技能掌握 JWT 签名/加密伪造（alg:none、键混淆、kid/jku 头注入）；hunt-ato 将 JWT 视为一种 ATO 路径，hunt-auth-bypass 处理 SSO/SAML 令牌信任，hunt-api-misconfig 处理非加密 JWT 的处理。若伪造的令牌能够访问其他用户的数据或仅管理员可用的端点，则风险尤为关键。

@@ -1,0 +1,1 @@
+Okta 作为 IdP 的红队攻击链——租户发现、用户枚举（多种向量）、身份验证流程分析（因素枚举、推送通知疲劳、短信绕过）、带锁定策略的密码喷射、Okta 特有的钓鱼原语（套件、FastPass 滥用、OIDC redirect_uri 篡改）、MFA 枚举、妥协后管理员 API 表面。许多企业组织使用 Okta 替代（或与）Entra ID。独立的端点、独立的速率限制、独立的因素流程。当侦察显示 `<tenant>.okta.com`、`<tenant>.okta-emea.com`、`<tenant>.oktapreview.com`，或 autodiscover 样式的记录指向 Okta IdP 时使用。

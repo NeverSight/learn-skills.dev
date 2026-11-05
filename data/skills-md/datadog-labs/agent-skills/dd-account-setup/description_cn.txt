@@ -1,0 +1,1 @@
+确保用户在任何 Datadog 设置或仪表化之前拥有经过身份验证的 Datadog 账户，并在正确的地区拥有有效的 DD_API_KEY。检测现有的 DD_API_KEY / DD_APP_KEY / DD_SITE，向 Datadog API 验证它们，并修复常见的错误地区导致的 403 错误。如果没有可用的密钥，则通过 OAuth 登录用户或创建新账户，然后获取并验证密钥。每当用户需要 Datadog 账户或 API 密钥、遇到 403 / 错误地区错误，或即将运行任何 Datadog *-setup 或仪表化技能时，都应使用此方法。

@@ -1,0 +1,3 @@
+使用 Codex（OpenAI 的 codex app‑server）作为完整的代理提供者——规划、工具编排、MCP 工具、服务器端历史、会话恢复——可以与 Claude 并行使用或代替 Claude。ChatGPT 订阅或 OpenAI API 密钥，仅通过所选网关访问金库。可通过 `ncl groups config update --provider codex` 按组设置。区别于将 OpenAI 用作 MCP 工具的情况（此时 Claude 仍然是规划者）。
+
+请始终使用用户的语言作答。
