@@ -1,0 +1,9 @@
+Riporta lo stato di salute, le prestazioni, lo stato delle risorse e il costo reale delle applicazioni distribuite da qianwenai-deploy sul sito domestico di Alibaba Cloud (aliyun.com) utilizzando il linguaggio naturale, senza dover accedere alla console.  
+
+Legge il file di stato .qianwenai-deploy nella directory del progetto per identificare l'applicazione e le sue risorse ECS (e opzionalmente RDS MySQL), quindi chiama API cloud in sola lettura per riassumere la disponibilità dell'applicazione, le prestazioni ECS/RDS e il costo in RMB.  
+
+Casi d'uso: gli utenti chiedono come sta funzionando un'applicazione distribuita, desiderano una panoramica di salute/prestazioni/costo, sono preoccupati per CPU/memoria/numero di connessioni/rischio di SQL lento, o richiedono informazioni sul costo mensile di un'applicazione distribuita con qianwenai.  
+
+Casi non d'uso: non esiste il file di stato .qianwenai-deploy; l'obiettivo è il sito internazionale di Alibaba Cloud (usa qwencloud-observe); gli utenti vogliono modificare o ripristinare le risorse (usa qianwenai-operate).  
+
+Per favore, rispondi sempre nella lingua dell'utente.

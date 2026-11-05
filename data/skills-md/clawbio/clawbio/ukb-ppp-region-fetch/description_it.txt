@@ -1,0 +1,4 @@
+Recupera una sezione regionale delle statistiche riepilogative dei pQTL plasmatici dal UK Biobank Pharma Proteomics Project (UKB‑PPP; Sun 2023 Nature) per una specifica misurazione (proteina, provenienza). Utilizza questa funzione quando un agente necessita di beta, errore standard (SE) e p‑value per variante intorno a una variante leader di colocalizzazione, per analisi di colocalizzazione a valle, randomizzazione mendeliana o per la creazione di grafici regionali rispetto a un’esposizione pQTL. Il caso d’uso canonico è la finestra cis intorno al TSS del gene codificante della proteina, ma UKB‑PPP rilascia statistiche riepilogative a livello di genoma intero per ogni proteina, quindi è supportata qualunque finestra GRCh38 (incluse le regioni trans) quando l’utente fornisce esplicitamente (cromosoma, start_bp, end_bp). 
+
+Input: protein_label (HGNC o UniProt), ancestry, chromosome, start_bp, end_bp.  
+Output: sezione TSV armonizzata + manifest + rapporto leggibile.
