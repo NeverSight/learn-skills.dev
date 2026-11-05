@@ -1,0 +1,3 @@
+Responde preguntas sobre qué opciones de configuración de rocprofiler‑systems existen y cómo usarlas — por ejemplo, “qué contadores de hardware están disponibles en mi sistema”, “qué API de ROCm puedo rastrear”, “qué ajustes controlan el muestreo/salida”, “cómo persisto mi configuración” — asignando la pregunta al comando adecuado `rocprof‑sys‑avail` o `rocprof‑sys‑run --help=<topic>`. Úsalo cuando el usuario quiera descubrir o explorar los ajustes ROCPROFSYS_*, componentes de Timemory, contadores de hardware, dominios de rastreo de API de ROCm o métricas de GPU, en lugar de aplicarlos. NO lo uses para elegir un --preset inicial para una carga de trabajo — eso es `choosing-a-profiling-preset`.
+
+Por favor, siempre responde en el idioma del usuario.

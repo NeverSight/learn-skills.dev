@@ -1,0 +1,7 @@
+Configurar, instalar o reparar AI Call Scoring (también llamado Call Coaching / Coaching Competencies) en una organización de Salesforce con ECI habilitado. Cambia ECICallScoringEnabled mediante la API SOAP Metadata, habilita Einstein Generative AI Platform si está desactivado y gestiona los registros de Coaching Competency (API Tooling EnablementCompetencyDef): instala el conjunto OOTB de 6, los 7 prompts de mejores prácticas de Momentum o, de forma conversacional, crea/edita/activa/desactiva competencias personalizadas (8 activas + límites de 16 000/255 caracteres).  
+
+DISPARAR cuando: el usuario desea activar AI Call Scoring o Call Coaching, instalar competencias OOTB o de mejores prácticas, crear/editar competencias personalizadas, volver a habilitar tras una actualización de sandbox o verificar/reparar una configuración parcial de Call Coaching en una organización ECI de 68 + .  
+
+NO DISPARAR cuando: no hay licencia ECI (redirigir a Agentforce for Sales), el usuario quiere habilitar ECI/Momentum por sí mismo (fuera de alcance — Configuración), gestión de pipeline (usar sales‑agentforce‑pipeline‑management‑configure) o agente personalizado (usar agentforce‑generate).  
+
+Por favor, responde siempre en el idioma del usuario.
