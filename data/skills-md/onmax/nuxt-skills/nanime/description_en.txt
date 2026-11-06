@@ -1,0 +1,7 @@
+Build animations in a Nuxt app with nanime, the Nuxt module wrapping Anime.js v4.
+Use when animating elements, text, SVG or scroll in Nuxt: useAnimate, useWaapiAnimate,
+useAnimatable, useAnimeTimeline, useDraggable, useSplitText, useScrambleText,
+useAnimeScroll, useAnimeLayout, <AnimeTransition>, <AnimeTransitionGroup>,
+<AnimeLayoutGroup>, transition styles, component defaults, provideAnimeDefaults and
+the #nanime/* aliases. Also use when an effect seems to need raw animejs, GSAP or CSS
+transition classes. Most mistakes here do not throw; they animate the wrong thing.
