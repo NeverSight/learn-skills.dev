@@ -1,0 +1,1 @@
+참조 사이트에서 다중 섹션 페이지를 재현하거나 재구축할 때 사용 — 한 번에 전체를 만들지 않고 섹션별로 구축합니다. 루프 맵( analyze_page_structure 밴드 → 섹션별 capture_component → build → 캡처된 기하와 스크린샷으로부터 섹션 게이트 → lock → next ), 실제 캡처에서 학습한 셀렉터 폴백 규칙, 페이지를 하나의 단위(공유 WebGL 캔버스)로 다뤄야 할 경우, 그리고 복합적인 드리프트를 방지하는 lock‑before‑next 원칙을 가르칩니다. awwwards‑motion‑study(섹션별 모션 레시피)와 verify_build(섹션별 점수가 아닌 전체 증거 집계)와 쌍을 이룹니다.
