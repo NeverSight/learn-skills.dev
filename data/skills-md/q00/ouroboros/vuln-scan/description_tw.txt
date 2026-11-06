@@ -1,0 +1,1 @@
+靜態原始碼漏洞掃描。讀取目標目錄（以及若存在的 THREAT_MODEL.md），根據焦點領域啟動平行審查子代理，並產生 VULN-FINDINGS.json 與 .md 供 /triage 使用。唯讀──不會進行建置、執行或網路連線。若需驗證執行時的崩潰，請改用 vuln-pipeline。當被要求「掃描漏洞」、「審查此程式碼的安全問題」、「在 <dir> 中尋找錯誤」或作為 /threat-model 與 /triage 之間的步驟時使用。
