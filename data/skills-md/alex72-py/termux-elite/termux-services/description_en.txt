@@ -1,0 +1,1 @@
+Choose how to keep a program running on Termux (tmux or nohup, Termux:Boot, or termux-services with runit) and set it up with supervision and logs. Use when a server must restart after a crash, start at boot or app launch, or survive closing the terminal. Do NOT use when the process is being killed by Android (see background-processes first) or for one-off foreground commands.
