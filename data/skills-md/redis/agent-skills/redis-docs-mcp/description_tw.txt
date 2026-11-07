@@ -1,0 +1,1 @@
+使用 redis-docs MCP 伺服器（在 redis.io/mcp 上的 search / fetch / ask）——了解其索引的結構以及如何解讀其回傳結果。當這些工具可用且你即將在 Redis 文件中查找資訊，或當結果令人困惑時使用——例如 fetch 回傳的是一小段而非整頁、數個命中共享同一 URL、ID 看起來像 #sec:w1、metadata.version 為 1.0.0、搜索結果為空，或 ask 被限速或顯示文件未涵蓋該內容。亦說明了 redis.io 所索引與未索引的範圍。

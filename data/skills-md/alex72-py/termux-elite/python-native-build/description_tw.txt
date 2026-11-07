@@ -1,0 +1,1 @@
+診斷在 Termux 或 Android 上失敗的 Python 安裝（編譯器或標頭錯誤、Rust 或 maturin 建置、此平台無對應 wheel、glibc wheel 在匯入時失敗、externally‑managed‑environment），並選取最小的修正方案，優先使用 Termux 打包的函式庫（先從主倉庫，必要時再同意使用 tur‑repo）而非自行編譯。於 pip 或 uv 失敗、建置錯誤提及 clang、cc、cargo、rustc 或缺少 .h 檔案，或安裝成功後立即匯入失敗時使用。不要用於下載速度慢、純 Python 套件安裝正常，或 Node 的問題（請參閱 node‑native‑build）。

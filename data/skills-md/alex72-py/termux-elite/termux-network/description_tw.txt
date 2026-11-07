@@ -1,0 +1,1 @@
+根據Android對介面和低端口的限制，診斷Termux內部的網路問題（ DNS、TLS憑證錯誤、時鐘偏差、代理、繫結端口、從手機或LAN到達Termux伺服器）。在curl、pip、git或本機伺服器無法連線、ifconfig或netstat未顯示任何內容，或TLS回報憑證尚未生效時使用。請勿用於裝置外部的Wi-Fi或載波故障，或sshd細節（請參閱termux-sshd ）。

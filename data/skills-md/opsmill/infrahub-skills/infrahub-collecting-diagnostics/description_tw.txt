@@ -1,0 +1,5 @@
+收集已刪除敏感資訊的本地診斷套件（日誌、設定、版本、狀態），以交給 OpsMill 專家。  
+**觸發條件**：Infrahub 出現故障／失敗／錯誤、使用者請求除錯協助、想收集日誌／診斷資訊、準備交接給 OpsMill 支援，或回報崩潰／逾時／連線問題（升級失敗、分支卡住、容器 CrashLoopBackOff、500 錯誤、OOM）。  
+**不觸發的情況**：除錯儲存庫中的檢查、轉換、產生器、選單或結構（使用 infrahub-managing-* 技能）、已收集過套件且使用者想要分析（使用 infrahub-analyzing-diagnostics）、提交公共 GitHub 問題（使用 infrahub-reporting-issues）、執行作業查詢（使用 infrahub-analyzing-data），或規劃尚未執行的升級（使用 infrahub-planning-upgrades）。  
+
+請始終以使用者的語言回應。

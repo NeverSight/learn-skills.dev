@@ -1,0 +1,3 @@
+Infisical 證書管理（PKI）指南 — 簽發、續期、撤銷與分發 X.509 證書。涵蓋 9 種證書授權機構類型（內部根/中繼 CA、包含 Let’s Encrypt 的 ACME、AWS Private CA、AWS ACM 公共 CA、Microsoft ADCS、Azure ADCS、DigiCert、Venafi TPP、GoDaddy）、應用程式與證書設定檔、4 種註冊方法（API、ACME、EST、SCEP）、12 種 PKI 同步，用於將證書推送至 AWS ACM、Azure Key Vault、Cloudflare、負載平衡器，證書生命週期與警示、使用 PKCS#11 與 Windows KSP 的程式碼簽署、證書偵測、HSM 連接器、CRL 分發，以及後量子 ML‑DSA 與 SLH‑DSA 金鑰演算法。當有人詢問以下主題時使用此技能：Infisical PKI、證書授權機構、簽發 TLS 證書、mTLS 證書、使用 Infisical 的 ACME 或 Let’s Encrypt、EST 或 SCEP 註冊、證書續期、撤銷、CRL、程式碼簽署證書，或「如何使用 Infisical 管理證書」。適用於 X.509/TLS 證書與程式碼簽署。不適用於 SSH 證書（infisical-dynamic-secrets），也不適用於使用受管理金鑰加密資料（infisical-kms）。
+
+請始終以使用者的語言回應。

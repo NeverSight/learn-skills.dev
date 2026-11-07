@@ -1,0 +1,3 @@
+審查 VST3 插件實作以確保符合規範、主機相容性與正確性。當使用者請求審查 VST3 插件、檢查總線配置、稽核參數處理，或驗證其 process() 回呼是否安全時使用。觸發條件包括「review my VST3 plugin」(審查我的 VST3 插件)、「check VST3 bus arrangement」(檢查 VST3 總線配置)、「is my VST3 process safe」(我的 VST3 處理安全嗎)、「audit my IAudioProcessor」(稽核我的 IAudioProcessor)，或在程式碼中看到 IComponent、IAudioProcessor、IEditController、ProcessData，或 Vst:: 命名空間的類型時。
+
+請始終以使用者的語言回應。

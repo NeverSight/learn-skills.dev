@@ -1,0 +1,1 @@
+將 CSV/TSV 輸入轉換為 Infrahub 物件的 YAML，並載入到全新分支。支援單一檔案、檔案資料夾、明確的路徑清單，以及單一大型去正規化表格的匯出。觸發時機：匯入 CSV、將 CSV/TSV 載入 Infrahub、攝取試算表資料、將 CSV 轉換為 Infrahub 物件、將去正規化的 CSV 分割成多種物件類型、在更改欄位映射後重新執行匯入、除錯某列無法轉換或載入的原因。不要觸發的情況：對 LDJSON 傾印執行 `infrahubctl load`（格式與工具不同）、設計或修改 schema（此功能僅對 schema 具備唯讀權限，且對未映射的欄位會直接失敗）、從 Infrahub 匯出資料（單一類型匯出請使用 `infrahubctl object get -o csv`），或攝取 JSON/XLSX（v1 僅支援 CSV+TSV）。

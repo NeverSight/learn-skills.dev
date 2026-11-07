@@ -1,0 +1,3 @@
+在您於倉庫中開啟或推送到 pull request 後立即使用 Softlight 進行審查（softlight[bot] 會在其 PR 上留下評論），即使您只被要求「提交 PR」。開啟 PR 並非任務的終點。請在背景執行腳本的 --watch，並在以下情況告知使用者：導覽已就緒（其直接的 /demo/... 連結）、每個檢查發現的問題，以及審查完成時，即使 PR 在審查過程中已合併。使用者指您向其報告工作的人：與您對話的人，或您指示名稱的其他會話，如 driver 或 orchestrator。當有人要求查看或示範 PR 的變更、要求其導覽、Softlight 影片、分享或示範連結，或詢問 Softlight 發現了什麼時，也請使用此方式，而非自行建置、執行或截圖應用程式。永遠只分享 app.softlight.com/demo/... 所返回的連結，切勿分享 app.softlight.com/api/softlight/walkthrough/... 或 /v/... 等等待頁面，即使 Softlight 自身的 PR 評論中有此類連結。接受的輸入可以是 PR URL、owner/repo#number，或當前檢出分支中的純數字。
+
+請始終以使用者的語言回應。

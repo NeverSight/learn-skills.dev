@@ -1,0 +1,1 @@
+診斷在Termux上失敗的npm和節點安裝（節點gyp錯誤，如android_ndk_path、缺少編譯器、沒有android二進位檔案的套件、可選的平臺相依性、記憶體不足組建） ，並選擇最小的修正程式，包括WASM遞補。在npm install、yarn、pnpm或node-gyp失敗，或套件報告不支援的平臺android時使用。請勿用於Python組建（請參閱python-native-build ）或JavaScript邏輯錯誤。
