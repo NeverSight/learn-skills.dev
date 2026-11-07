@@ -1,0 +1,7 @@
+Convierte la fricción de una sesión de habilidad de Infrahub en un issue revisado en GitHub sobre la orientación de una habilidad de Infrahub. Las habilidades de Infrahub fallan silenciosamente: una regla faltante o poco clara no produce un bloqueo, sino que genera viajes de ida y vuelta adicionales y empujones repetidos al usuario. Esta habilidad recopila evidencia de esa fricción, verifica el rastreador para ver si ya existe un informe, determina si la culpa es de la habilidad o del producto subyacente, y redacta una propuesta de cambio de regla. Nunca presenta nada por sí misma: entrega el borrador redactado a **infrahub-reporting-issues**, que lo muestra al usuario y obtiene su aprobación explícita antes de cualquier envío.  
+
+**DISPARAR** cuando: se acepta una oferta de fricción, el usuario dice “report skill friction”, pregunta por qué una habilidad de Infrahub sigue fallando o necesitó tantos reintentos, o desea que se informe una brecha en la guía de una habilidad de Infrahub.  
+
+**NO DISPARAR** cuando: se informa un error en el propio Infrahub o en cualquier otro producto **opsmill/infrahub-*** (usar **infrahub-reporting-issues** en su lugar), o para trabajo ordinario de Infrahub donde nada salió mal.  
+
+Por favor, siempre responda en el idioma del usuario.
