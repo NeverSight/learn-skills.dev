@@ -1,0 +1,3 @@
+Diagnostiquez les échecs de pkg et apt sur Termux (impossible de localiser le paquet, miroirs obsolètes ou incorrects, dérive de l’horloge, discordance de hachage, dpkg interrompu, bibliothèques qui ne se lient pas après une mise à jour partielle) et séparez‑les des échecs de compilation. Utilisez‑les lorsque pkg ou apt affiche une erreur, lorsqu’un nom de paquet Debian ou Ubuntu est manquant, ou lorsqu’une commande se termine avec CANNOT LINK EXECUTABLE. NE les utilisez PAS pour exécuter des mises à jour globales, changer les miroirs ou vider les caches avant de capturer l’erreur exacte, et n’en faites pas usage pour les erreurs de compilation (voir python‑native‑build).
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
