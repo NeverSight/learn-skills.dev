@@ -1,0 +1,3 @@
+诊断在 Termux 或 Android 上的 Python 安装失败（编译器或头文件错误、Rust 或 maturin 构建、平台缺少 wheel、glibc wheel 在导入时失败、externally‑managed‑environment），并选择最小的修复方案，优先使用 Termux 打包的库（主仓库优先，取得同意后使用 tur‑repo），而非源码构建。当 pip 或 uv 失败、构建错误提到 clang、cc、cargo、rustc 或缺失 .h 文件，或在成功安装后立即出现导入错误时使用。不要用于下载慢、纯 Python 包安装正常或 Node 问题（见 node‑native‑build）。
+
+请始终使用用户的语言作答。

@@ -1,0 +1,1 @@
+挑选用户的一个进行中的 Jira 问题，并创建/检出一个以其命名的 Git 分支。当用户说类似“jira 이슈로 브랜치 만들어”、 “내 지라 이슈 기반으로 브랜치 파줘”、 “jira issue branch”或 `/jira-git-checkout-branch` 时使用。如果工作树脏了，询问用户是否继续；如果 Atlassian MCP 服务器不可用，则停止。请始终使用用户的语言作答。

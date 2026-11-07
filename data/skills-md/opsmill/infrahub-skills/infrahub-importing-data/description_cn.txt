@@ -1,0 +1,5 @@
+将 CSV/TSV 输入转换为 Infrahub 对象的 YAML 并加载到新分支。支持单个文件、文件夹、显式路径列表以及单个大型去规范化表的导出。
+
+触发条件：导入 CSV、将 CSV/TSV 加载到 Infrahub、摄取电子表格数据、将 CSV 转换为 Infrahub 对象、将去规范化的 CSV 拆分为多个类型、在更改列映射后重新运行导入、调试某行为何转换或加载失败。
+
+不触发的情况：对 LDJSON 转储运行 `infrahubctl load`（格式和工具不同）、设计或修改模式（此功能对模式为只读，并在未映射列时直接失败）、从 Infrahub 导出数据（使用 `infrahubctl object get -o csv` 进行单类型导出），或摄取 JSON/XLSX（v1 仅支持 CSV+TSV）。

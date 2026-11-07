@@ -1,0 +1,5 @@
+将 Infrahub 技能会话中的摩擦转化为关于 Infrahub 技能指导的审阅过的 GitHub Issue。Infrahub 技能会悄悄失败：缺失或不明确的规则不会导致崩溃，而是产生额外的往返以及重复的用户提醒。此技能收集该摩擦的证据，检查跟踪器中是否已有报告，判断是技能本身还是底层产品出现问题，并起草一项规则更改提案。它从不自行提交任何内容：它将已编辑的草稿交给 infrahub-reporting-issues，由其展示给用户并在提交前获得明确批准。  
+**触发条件**：接受摩擦提议时，用户说 “report skill friction”，询问为何 Infrahub 技能一直失败或需要多次重试，或想报告 Infrahub 技能指导中的缺口。  
+**不触发条件**：报告 Infrahub 本身或其他 opsmill/infrahub-* 产品的 bug（请使用 infrahub-reporting-issues），或在普通的 Infrahub 工作中没有出现问题时。  
+
+请始终使用用户的语言回复。

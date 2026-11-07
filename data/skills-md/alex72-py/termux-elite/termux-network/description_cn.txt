@@ -1,0 +1,1 @@
+鉴于Android对接口和低端口的限制，诊断Termux内部的网络问题（ DNS、TLS证书错误、时钟偏差、代理、绑定端口、从电话或LAN到达Termux服务器）。当curl、pip、git或本地服务器无法连接、ifconfig或netstat未显示任何内容或TLS报告证书无效时使用。请勿用于设备外部的Wi-Fi或运营商故障，或用于sshd细节（请参阅termux-sshd ）。

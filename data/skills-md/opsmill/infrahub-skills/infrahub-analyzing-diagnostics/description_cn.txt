@@ -1,0 +1,5 @@
+分析已收集的 infrahub-collect 诊断包——在服务日志中进行堆栈追踪和故障分诊、事件关联，以及与 opsmill/infrahub GitHub 问题的已知问题匹配。  
+触发条件：用户表示他们已收集诊断包，提供包路径或粘贴包内容——并询问出了什么问题、希望分析日志或堆栈追踪、询问“这个包说明了什么”、希望对错误进行分诊/关联，或询问崩溃是否为已知问题。  
+不要触发的情况：尚未存在诊断包——请先收集（使用 infrahub-collecting-diagnostics）、报告问题本身（使用 infrahub-reporting-issues），或查询实时数据（使用 infrahub-analyzing-data）。  
+
+请始终使用用户的语言回复。

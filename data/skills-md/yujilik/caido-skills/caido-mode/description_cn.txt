@@ -1,0 +1,1 @@
+完整的 Caido SDK 集成用于 Claude Code。使用 HTTPQL 搜索 HTTP 历史记录，通过 Caido 代理的 curl 进行测试（在可重用的静态 curl 配置文件中缓存身份验证），添加匹配与替换规则，并将交接组织成具名的回放会话和集合——全部通过官方的 @caido/sdk-client 实现。推荐使用 PAT 身份验证。

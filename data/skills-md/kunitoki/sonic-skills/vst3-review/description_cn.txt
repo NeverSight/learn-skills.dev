@@ -1,0 +1,1 @@
+审查 VST3 插件实现的规范符合性、主机兼容性和正确性。当用户请求审查 VST3 插件、检查总线布局、审计参数处理或验证其 process() 回调的安全性时使用。触发词包括 “review my VST3 plugin”、 “check VST3 bus arrangement”、 “is my VST3 process safe”、 “audit my IAudioProcessor”，或代码中出现 IComponent、IAudioProcessor、IEditController、ProcessData 或 Vst:: 命名空间类型时。
