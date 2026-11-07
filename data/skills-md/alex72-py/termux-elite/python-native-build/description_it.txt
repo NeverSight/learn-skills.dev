@@ -1,0 +1,3 @@
+Diagnosi di un'installazione Python fallita su Termux o Android (errori di compilatore o di header, build Rust o maturin, nessuna wheel per questa piattaforma, wheel glibc che falliscono all'import, ambiente gestito esternamente) e scelta della correzione più piccola, preferendo le librerie confezionate per Termux (il repository principale, poi tur‑repo con consenso) rispetto alle compilazioni da sorgente. Da usare quando pip o uv falliscono, quando un errore di build cita clang, cc, cargo, rustc o un file .h mancante, o quando un'import fallisce subito dopo un'installazione riuscita. NON utilizzare per download lenti, pacchetti pure‑Python che si installano correttamente, o problemi Node (vedi node-native-build).
+
+Rispondi sempre nella lingua dell'utente.

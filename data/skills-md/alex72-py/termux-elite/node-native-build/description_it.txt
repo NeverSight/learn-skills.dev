@@ -1,0 +1,3 @@
+Diagnostica le installazioni di npm e Node che falliscono su Termux (errori di node-gyp come android_ndk_path, compilatori mancanti, pacchetti senza binario Android, dipendenze opzionali di piattaforma, build fuori memoria) e scegli la correzione più piccola, includendo fallback WASM. Usa questa procedura quando npm install, yarn, pnpm o node-gyp falliscono, o quando un pacchetto segnala una piattaforma Android non supportata. NON utilizzare per build Python (vedi python-native-build) né per errori di logica JavaScript.  
+
+Rispondi sempre nella lingua dell'utente.

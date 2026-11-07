@@ -1,0 +1,3 @@
+Diagnostica i fallimenti di pkg e apt su Termux (impossibile trovare il pacchetto, mirror obsoleti o errati, discrepanza dell’orologio, mismatch dell’hash, dpkg interrotto, librerie che non si collegano dopo un aggiornamento parziale) e separali dai fallimenti di compilazione. Usalo quando pkg o apt stampa un errore, quando manca il nome di un pacchetto Debian o Ubuntu, o quando un comando termina con CANNOT LINK EXECUTABLE. NON usarlo per eseguire aggiornamenti generali, modificare i mirror o cancellare le cache prima di catturare l'errore esatto, e non usarlo per errori di compilazione (vedi python-native-build).
+
+Rispondi sempre nella lingua dell'utente.
