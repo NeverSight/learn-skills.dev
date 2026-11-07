@@ -1,0 +1,5 @@
+Konvertiert CSV/TSV‑Eingaben in Infrahub‑Objekt‑YAML und lädt sie in einen frischen Branch. Unterstützt eine einzelne Datei, einen Ordner mit Dateien, eine explizite Liste von Pfaden und den Export eines großen denormalisierten Blatts.  
+
+AUSLÖSEN, wenn: Importieren von CSV, Laden von CSV/TSV in Infrahub, Einlesen von Tabellendaten, Konvertieren von CSV zu Infrahub‑Objekten, Aufteilen einer denormalisierten CSV über mehrere Arten, erneutes Ausführen eines Imports nach Änderung einer Spaltenzuordnung, Fehlersuche, warum eine Zeile nicht konvertiert oder geladen werden kann.  
+
+NICHT AUSLÖSEN, wenn: `infrahubctl load` gegen ein LDJSON‑Dump ausgeführt wird (anderes Format und anderes Werkzeug), Entwerfen oder Ändern von Schemas (diese Fähigkeit ist schreibgeschützt gegenüber dem Schema und schlägt bei nicht zugeordneten Spalten fehl), Exportieren von Daten aus Infrahub (verwende `infrahubctl object get -o csv` für den Export einer einzelnen Art) oder Einlesen von JSON/XLSX (Version 1 unterstützt nur CSV+TSV).
