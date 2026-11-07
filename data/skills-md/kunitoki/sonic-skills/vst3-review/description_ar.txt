@@ -1,0 +1,3 @@
+يقوم بمراجعة تطبيقات إضافات VST3 للتحقق من التوافق مع المواصفات، توافقها مع المستضيف، وصحتها. يُستَخدم عندما يطلب المستخدم مراجعة إضافة VST3، أو فحص ترتيب الحافلات، أو تدقيق التعامل مع المعاملات، أو التحقق من أن استدعاء process() آمن. يتم التفعيل عند عبارات مثل "review my VST3 plugin"، "check VST3 bus arrangement"، "is my VST3 process safe"، "audit my IAudioProcessor"، أو عندما ترى IComponent، IAudioProcessor، IEditController، ProcessData، أو الأنواع المضمنة في مساحة الاسم Vst:: في الشيفرة.
+
+يرجى دائمًا الرد بلغة المستخدم.
