@@ -1,0 +1,1 @@
+Termuxで失敗するnpmとNodeのインストールを診断し（ android_ndk_pathなどのnode - gypエラー、コンパイラの欠落、androidバイナリのないパッケージ、オプションのプラットフォーム依存関係、メモリ不足のビルド）、WASMフォールバックを含む最小の修正を選択します。npm install、yarn、pnpm、またはnode - gypが失敗した場合、またはサポートされていないプラットフォームandroidがパッケージから報告された場合に使用します。Pythonビルド(python - native - buildを参照)やJavaScriptロジックエラーには使用しないでください。

@@ -1,0 +1,8 @@
+ソフトウェアリポジトリの永続的かつ根拠に基づくマップを docs/codebase-map/ 内に作成します。要約すると、Mermaid を使ったアーキテクチャ図と依存関係図、アーキタイプ固有の戦略で追跡した実際のデータフロー、最も重要なファイル（「スパイン」）、読む順序、必要に応じて AI 補助コード、主要概念、未解決の質問を含みます。5 つのモードがあります：  
+- 「codebase-map init」：マップ全体を構築  
+- 「codebase-map update」：変更後にマップを更新  
+- 「codebase-map explain [topic]」：特定の機能またはドメインを説明  
+- 「codebase-map trace [flow]」：特定のリクエストパスを追跡  
+- 「codebase-map check」：書き込みなしでドリフトを報告  
+
+ユーザーが不慣れなコードベースや AI 生成コードベースを理解、ドキュメント化、オンボーディングしたいときに使用します（例："map this repo"、"explain the architecture"、"how does this app work"、"trace this feature"、"which files matter"、"update the codebase map"）。

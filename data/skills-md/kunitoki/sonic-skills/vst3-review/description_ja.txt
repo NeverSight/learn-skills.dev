@@ -1,0 +1,3 @@
+VST3プラグイン実装を仕様準拠、ホスト互換性、正確性の観点でレビューします。ユーザーがVST3プラグインのレビューを依頼したり、バス配置のチェック、パラメータ処理の監査、process()コールバックの安全性確認を求めたときに使用します。「review my VST3 plugin」や「check VST3 bus arrangement」などのフレーズ、あるいはコード内に IComponent、IAudioProcessor、IEditController、ProcessData、Vst:: 名前空間の型が見られたときにトリガーします。
+
+常にユーザーの言語で応答してください。
