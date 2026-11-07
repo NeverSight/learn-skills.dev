@@ -1,0 +1,3 @@
+VST3 플러그인 구현을 사양 준수, 호스트 호환성 및 정확성을 검토합니다. 사용자는 VST3 플러그인을 검토 요청하거나, 버스 배열을 확인하고, 매개변수 처리를 감사하거나, process() 콜백이 안전한지 확인할 때 사용합니다. “review my VST3 plugin”, “check VST3 bus arrangement”, “is my VST3 process safe”, “audit my IAudioProcessor”와 같은 구문이 있거나 코드에서 IComponent, IAudioProcessor, IEditController, ProcessData, Vst:: 네임스페이스 타입이 보일 때 트리거됩니다.
+
+항상 사용자의 언어로 답변하십시오.

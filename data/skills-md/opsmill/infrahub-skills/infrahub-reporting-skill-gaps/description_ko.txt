@@ -1,0 +1,5 @@
+Infrahub 스킬 세션에서 발생한 마찰을 Infrahub 스킬 가이드에 대한 검토된 GitHub 이슈로 전환합니다. Infrahub 스킬은 조용히 실패합니다: 누락되었거나 명확하지 않은 규칙이 충돌을 일으키지는 않으며, 추가 라운드 트립과 반복적인 사용자 알림을 발생시킵니다. 이 스킬은 그 마찰에 대한 증거를 수집하고, 트래커에서 기존 보고서를 확인하며, 스킬 자체가 문제인지 기본 제품이 문제인지 판단하고, 제안된 규칙 변경 초안을 작성합니다. 자체적으로 아무 것도 제출하지 않습니다: redact된 초안을 infrahub-reporting-issues에 전달하고, 이는 사용자에게 보여주어 명시적인 승인 후에야 제출됩니다.  
+**TRIGGER when:** 마찰 제안을 수락하거나, 사용자가 “report skill friction”(스킬 마찰 보고)이라고 말하거나, Infrahub 스킬이 계속 실패하거나 여러 번 재시도가 필요했는지 질문하거나, Infrahub 스킬 가이드의 틈을 보고하고 싶을 때.  
+**DO NOT TRIGGER when:** Infrahub 자체 또는 다른 opsmill/infrahub‑* 제품의 버그를 보고할 때(대신 infrahub-reporting-issues 사용), 또는 문제가 전혀 발생하지 않은 일반적인 Infrahub 작업을 할 때.  
+
+항상 사용자의 언어로 응답하십시오.

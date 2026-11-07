@@ -1,0 +1,6 @@
+OpsMill 전문가에게 넘기기 위해 편집된 로컬 진단 번들(로그, 구성, 버전, 상태)을 수집합니다.  
+TRIGGER when: Infrahub가 손상되었거나/실패했거나/오류가 발생한 경우, 사용자가 디버깅 도움을 요청하거나 로그/진단을 수집하고자 할 때, OpsMill 지원을 위한 핸드오프를 준비할 때, 혹은 충돌/시간 초과/연결 문제(업그레이드 실패, 멈춘 브랜치, 컨테이너 CrashLoopBackOff, 500 오류, OOM)를 보고할 때.  
+
+DO NOT TRIGGER when: 저장소에서 체크, 변환, 생성기, 메뉴, 또는 스키마를 디버깅할 때(Infrahub-managing-* 스킬 사용), 이미 번들을 수집했으며 사용자가 분석을 원할 때(Infrahub-analyzing-diagnostics 사용), 공개 GitHub 이슈를 제출할 때(Infrahub-reporting-issues 사용), 운영 쿼리를 실행할 때(Infrahub-analyzing-data 사용), 아직 실행되지 않은 업그레이드를 계획할 때(Infrahub-planning-upgrades 사용).  
+
+항상 사용자의 언어로 응답하십시오.

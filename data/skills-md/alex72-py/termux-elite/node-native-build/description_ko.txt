@@ -1,0 +1,1 @@
+Termux에서 실패하는 npm 및 노드 설치 (android_ndk_path와 같은 노드 키프 오류, 누락된 컴파일러, Android 바이너리가 없는 패키지, 선택적 플랫폼 종속성, 메모리 부족 빌드) 를 진단하고 WASM 폴백을 포함하여 가장 작은 수정 사항을 선택합니다. npm install, yarn, pnpm 또는 node-gyp가 실패하거나 패키지가 지원되지 않는 플랫폼 안드로이드를 보고할 때 사용하십시오. 파이썬 빌드 (python-native-build 참조) 또는 자바스크립트 로직 오류에 사용하지 마십시오.

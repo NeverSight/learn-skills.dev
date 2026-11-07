@@ -1,0 +1,5 @@
+CSV/TSV 입력을 Infrahub 객체 YAML로 변환하고 새 브랜치에 로드합니다. 단일 파일, 파일 폴더, 명시적 경로 목록, 그리고 하나의 큰 비정규화 시트 내보내기를 처리합니다.  
+
+**TRIGGER 될 때**: CSV를 가져올 때, CSV/TSV를 Infrahub에 로드할 때, 스프레드시트 데이터를 ingest 할 때, CSV를 Infrahub 객체로 변환할 때, 비정규화 CSV를 여러 종류로 분할할 때, 열 매핑을 변경한 뒤 가져오기를 다시 실행할 때, 행이 변환·로드되지 않는 이유를 디버깅할 때.  
+
+**TRIGGER 되지 않을 때**: LDJSON 덤프에 대해 `infrahubctl load`를 실행할 때(형식·도구가 다름), 스키마를 설계·수정할 때(이 스킬은 스키마에 대해 읽기 전용이며 매핑되지 않은 열에 대해 닫힌 상태로 실패함), Infrahub에서 데이터를 내보낼 때(단일 종류 내보내기에는 `infrahubctl object get -o csv` 활용), JSON/XLSX를 ingest 할 때(v1은 CSV+TSV 전용).
