@@ -1,0 +1,5 @@
+複数の要素を同時にアニメーションさせるように調整する — 何が動くか、どの順序で、どれだけ重ね合わせるか、どれが静止したままかを決める — ことで、個別のアニメーションが散らばった集合ではなく、グループ全体が一つの意図的な動きとして捉えられるようにする。  
+
+ステガードリストの構築や修正、ヒーローエントランス、コンテナ内のビュー切替、マルチステップフロー、要素が離脱する際に兄弟要素が隙間を埋めるような操作、リッチな状態間のモーフ、あるいはアイコン＋背景＋ライン、パネル＋コンテンツ、ターゲットへ飛んでいくアイテムなど、複数の可動部品が関わるインタラクション全般で使用する。  
+
+トリガー例 — stagger、staggerChildren、delayChildren、animation-delay、sequence、sequencing、orchestration、choreography、cascade、wave、timeline、"one after another"（ひとつずつ順に）、"at the same time"（同時に）、crossfade、popLayout、mode="wait"、AnimatePresence の mode、ヒーローエントランス、リストエントランス、マルチステップ、ステップトランジション、モーフ、useAnimate、Promise.all アニメーション、"機械的に感じる"、"ロボット的に感じる"、"要素が多すぎる"、"開くのが遅く感じる" など。

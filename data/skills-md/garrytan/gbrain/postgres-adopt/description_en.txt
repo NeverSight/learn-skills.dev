@@ -1,0 +1,5 @@
+Detect which gbrain engine is in use (PGLite vs Postgres), prefer Postgres
+for agent-harness installs, install/provision Postgres (Supabase discovery
+via SUPABASE_ACCESS_TOKEN, local Postgres, opt-in Docker), and move an
+existing PGLite brain to Postgres with its history (plan, ask, run).
+Detection is one engine-free command; the install ladder is one flag.

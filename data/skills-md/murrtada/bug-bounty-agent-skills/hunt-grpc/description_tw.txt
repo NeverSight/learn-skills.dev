@@ -1,0 +1,1 @@
+搜尋 gRPC 漏洞 ── 伺服器啟用 reflection（列舉所有服務/方法）、內部端點缺少驗證/未剝除 metadata、明文 gRPC over HTTP/2、內部端點資訊洩漏、proto 檔案外洩、gRPC-Web / grpc-gateway 轉碼注入，以及 HTTP/2 Rapid Reset DoS（CVE-2023-44487）。當目標於使用 HTTP/2 的 50051、443、8443、9090 埠開放時、grpcurl/grpcui 偵測到 reflection 時、Envoy 或 grpc-gateway 代理位於微服務前端時，或偵測結果顯示微服務架構時使用。

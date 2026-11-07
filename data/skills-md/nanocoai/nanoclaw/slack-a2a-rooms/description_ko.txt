@@ -1,0 +1,1 @@
+에이전트 간 Slack 방 — 인간과 두 개 이상의 NanoClaw 형제 봇을 포함하는 그룹 DM(MPIM)으로, 각 봇은 자체 Socket Mode 연결을 통해 방을 청취합니다. Slack 채널의 bot-inbound 가드에 입장 정책을 등록하여 봇이 작성한 인바운드가 SLACK_A2A_ROOMS에 허용된 방(재귀적으로 slack:bot:<botId> 로 재지정되고 SLACK_A2A_MAX_HOPS 로 홉 수 제한)에서만 허용되도록 하며, scripts/open-a2a-room.ts 로 방을 열고 등록합니다.

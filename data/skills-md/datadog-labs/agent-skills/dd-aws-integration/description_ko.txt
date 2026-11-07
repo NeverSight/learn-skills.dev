@@ -1,0 +1,1 @@
+Terraform를 사용하여 Datadog AWS 통합을 설정합니다 – Datadog이 가정하는 교차 계정 IAM 역할(외부 ID, 저장된 자격 증명 없음)을 생성하고, Datadog이 게시하는 권한 정책을 연결하며, datadog_integration_aws_account를 통해 계정을 등록하여 AWS 메트릭, 리소스 카탈로그 및 CSPM 결과가 흐르기 시작합니다. 사용자가 모니터링하려는 AWS 리소스가 있거나, AWS 계정을 Datadog에 연결하고 싶을 때, AWS 통합을 설정하거나 복구하려 할 때, 또는 Datadog IAM 역할과 외부 ID가 필요할 때 사용합니다. 로그 포워딩은 설정하지 않습니다.

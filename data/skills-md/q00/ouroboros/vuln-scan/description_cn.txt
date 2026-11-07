@@ -1,0 +1,1 @@
+静态源代码漏洞扫描。读取目标目录（若存在则读取 THREAT_MODEL.md），为每个关注区域生成并行审查子代理，并写入 VULN-FINDINGS.json 与 .md，供 /triage 使用。只读——不进行构建、运行或网络操作。对于已验证的执行崩溃，请改用 vuln-pipeline。请在被要求“扫描漏洞”“审查此代码的安全问题”“在 <dir> 中查找错误”时使用，或作为 /threat-model 与 /triage 之间的步骤。

@@ -1,0 +1,1 @@
+使用 Splunk 和 KQL 查詢對域控制器事件日誌進行分析，以偵測 Active Directory 中的 Golden Ticket 攻擊，尋找 Kerberos TGT 異常，例如加密類型不匹配、票證生命週期不可能、帳號不存在以及偽造的 PAC 簽名。當在 AD 環境中搜尋 Kerberos 票證偽造或基於 krbtgt 的持久化（MITRE T1558.001）時使用此方法。

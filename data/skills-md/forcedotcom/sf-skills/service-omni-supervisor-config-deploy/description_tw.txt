@@ -1,0 +1,1 @@
+使用此方式可在不顯示介面的 Omni‑Channel 監督員配置，透過一次原子性的 Metadata API 部署 Classic OmniSupervisorConfig（包括父項、監督員使用者與佇列伴隨項），以部署狀態保持冪等。需具備已啟用的監督員使用者、Omni 基本設定以及被監控的佇列。觸發條件：設定 Omni 監督員、配置 Classic 監督員指揮中心。請勿用於建立監督員使用者、指派 ContactCenterSupervisor 權限集，或部署佇列、服務頻道或在席狀態。

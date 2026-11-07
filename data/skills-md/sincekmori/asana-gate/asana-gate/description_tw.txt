@@ -1,0 +1,3 @@
+透過 asana-gate 操作 Asana，該政策閘道會在 Asana REST API 前放置宣告式 YAML 政策，供 AI 代理人、MCP 工具 (asana_*) 以及 asana-gate 命令列使用。任何任務以任何方式觸及 asana-gate 時，都應使用此方式：編寫或修正政策（where/allow/deny 範圍、必須的成員、標題前綴、速率限制與確認等約束）、執行 asana-gate 指令、呼叫其 MCP 工具、閱讀其拒絕訊息（404 未識別的 ID、403 asana-gate:、400 不符合政策、428 需要確認、429 限制）、設定 .asana-gate 設定或快取，或決定代理人在 Asana 中的允許操作。當使用者提及 allowed_actions、Asana 政策、閘道或 Asana 的 MCP 伺服器但未提及 asana-gate 時，也同樣適用。
+
+請始終以使用者的語言回應。

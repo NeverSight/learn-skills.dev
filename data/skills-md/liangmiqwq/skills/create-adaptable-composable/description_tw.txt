@@ -1,0 +1,3 @@
+建立一個符合庫級別的 Vue 可組合函式，接受可能是響應式的輸入（MaybeRef / MaybeRefOrGetter），讓呼叫者可以傳入普通值、ref 或 getter。於 reactive effect（watch / watchEffect）內使用 toValue() / toRef() 正規化輸入，以保持行為可預測且具響應性。當使用者要求建立可適應或可重複使用的 composable 時，請運用此技巧。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,5 @@
+Fetch a region of GWAS summary statistics from the NHGRI-EBI GWAS Catalog
+harmonised collection via tabix-on-FTP. Use when an agent needs GWAS beta /
+SE / p-value for every variant in a window for one specific study (GCST
+accession). Input: accession, chromosome, start, end. Output: harmonised
+TSV slice in canonical format.

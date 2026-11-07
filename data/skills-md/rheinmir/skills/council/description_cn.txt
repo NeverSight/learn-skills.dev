@@ -1,0 +1,3 @@
+在现有的 orca 编排之上运行 Karpathy 风格的 LLM 委员会（3 阶段多代理评估）：N 个席位独立回答一个问题，答案进行盲目同行排名（剥离身份，使模型不能偏袒自己），随后由主席合成最终答案。编排负责模型调用；harness/scripts/council.py 完成确定性协议运算（匿名化、均值排名聚合、异议、锚点守卫、记录）。当用户说“run a council”“llm-council”“panel of models”“blind peer-rank these answers”“ensemble + chairman”，或调用 /council 时使用。第 4 阶段是强制性的 HTML 报告，直接在 council.py 内渲染（离线，无 CDN，无外部技能）：每次 `rank` 都会生成一个全新的版本化自包含报告（llmwiki/html/council/council-report-NNN-seed<seed>.html）——包括观点卡（人格名称 + 视角）、盲投表和仪表盘。该过程置于 try/except 中，以防渲染错误导致核心记录被终止。
+
+请始终使用用户的语言回复。

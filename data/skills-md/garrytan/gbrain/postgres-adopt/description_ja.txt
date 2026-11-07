@@ -1,0 +1,1 @@
+使用中の gbrain エンジン（PGLite と Postgres のどちらか）を検出し、agent‑harness のインストールでは Postgres を優先し、Postgres をインストール／プロビジョンする（SUPABASE_ACCESS_TOKEN による Supabase 発見、ローカル Postgres、オプトイン Docker）。既存の PGLite ブレインをその履歴（plan、ask、run）と共に Postgres に移行する。検出はエンジン不要の単一コマンドで行え、インストールはフラグ一つで実行できる。

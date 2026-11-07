@@ -1,0 +1,3 @@
+设计、强化或审查 Python Google ADK 代理要求模型输出的内容以及使用的模型和设置：output_schema 合约及其验证、修复循环、将 output_schema 与工具结合、Gemini 模型选择与生命周期、思考和采样设置，以及模型故障转移。用于结构化输出，可能以散文、封闭的 JSON 或无效数据形式出现，响应模式设计，选择或升级 Gemini 模型，重试模型自身的 429 或配额错误，或 FallbackModel 决策。不要在以下情况下激活：测量标记集的质量（adk-agent-evaluation）、SQL 线架构（adk-sql-agent-engineering）、提示词措辞（adk-agent-instructions）、工具参数模式（adk-tool-interface-design）、托管层延迟（optimise-adk-on-google-cloud）、预算和降级策略（adk-operational-guardrails）、工具 API 重试（safe-api-tool-calls）或发布的模型迁移（adk-release-engineering）。
+
+请始终使用用户的语言作答。

@@ -1,0 +1,1 @@
+Add PostHog metric capture to track counters, gauges, and histograms. Use after implementing features or reviewing PRs to ensure key operations are measured, or when asked to add metrics, counters, or track a value over time. Also handles mirroring existing Prometheus/StatsD/OpenTelemetry metrics into PostHog and initial OTLP exporter setup.

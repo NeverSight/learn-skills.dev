@@ -1,0 +1,13 @@
+Kombiniere die extrahierten Footage‑Daten mit dem Originalclip zu einem **direkt anschaubaren Video**: Auf einer Seite wird das Video‑Bild angezeigt, auf der anderen Seite die Storyboard‑Informationen für diesen Shot (Shot‑Nummer, Start‑Ende, Dauer, Shot‑Größe, Kategorie, Kamerabewegung, visuelle Beschreibung, Dialog). **Wenn der Shot wechselt, ändern sich die Informationen mit ihm**, und die Shot‑Liste scrollt automatisch und hebt den aktuellen Shot hervor.
+
+Das Layout berücksichtigt ausschließlich das Seitenverhältnis des Originalclips: **Landscape / Quadrat → Bild oben, Information unten; Porträt → Bild links, Information rechts**. Das Bild wird stets proportional skaliert, niemals beschnitten oder gestreckt.
+
+Die Shot‑Liste **scrollt mit der Wiedergabe**: Bei jedem Schnittpunkt scrollt sie ein kurzes Stück, um den aktuellen Shot zu einem Ankerpunkt zu bringen, stoppt dann und die Hervorhebungsleiste gleitet synchron darüber.
+
+Die Implementierung erfasst nur drei Bilder (ein Hintergrund‑Board + zwei ausgefaltete lange Bilder). Scrolling und Hervorhebung werden durch ffmpeg‑Zeitfenster‑Cropping umgesetzt. **Das gesamte Layout ist in scripts/panel.css definiert; das Ändern dieser Datei ändert das Layout**, ohne dass Skripte angepasst werden müssen.
+
+Sie nutzt die `shots.json`‑Ausgabe von video‑shots (wenn `frames/` existieren, werden Schlüssel‑Frames als Thumbnails verwendet). Keine npm‑Abhängigkeiten; ffmpeg komponiert das Video und ein headless Browser rendert das Panel.
+
+Verwenden, wenn nach **Video exportieren, Video zusammensetzen, Storyboard‑Video, Video mit Shot‑Informationen, Version mit Sprechertext, Video mit Shot‑Info, annotiertes Shot‑Video** gefragt wird.
+
+Bitte immer in der Sprache des Benutzers antworten.

@@ -1,0 +1,1 @@
+耐用且類型安全的佇列工作者，使用 @falcondev-oss/workflow 在 Redis 上。當使用 WorkflowNamespace / createWorkflow / defineWorkflow、handle() 與 returns<T>()、step.do / step.wait / step.waitUntil、workflow.run / runIn / runAt / work()、job.wait()、upsertSchedule cron 排程、groupId 排序與數值優先順序，或是建立 Redis 連線設定時，請使用此套件。

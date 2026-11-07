@@ -1,0 +1,3 @@
+Agentforce Contact Center 음성 채널의 종단 간 설정을 조정합니다: 국가 및 전화번호 유형 선택을 수집하고, 선택된 번호를 확보하며, 해당 CommunicationChannelLine을 확인하고, 번호가 활성 상태인지 검증한 뒤, 활성 PstnVoice MessagingChannel을 생성합니다. 사용자는 라우팅 모델을 선택합니다: Omni Queue(연락 센터 큐로 라우팅) 또는 Omni Flow(Agentforce 에이전트로 라우팅, 에이전트를 생성하거나 재사용하고 라우팅 흐름을 포함). 사용자가 Agentforce Contact Center를 설정하고, 연락 센터 전화 번호와 음성 채널을 함께 프로비저닝하거나, Agentforce 에이전트를 네이티브 음성에 배치하려는 경우에 사용합니다. 사용자가 “set up agentforce contact center”, “configure contact center voice”, 또는 “omni flow와 agentforce 에이전트가 있는 음성 채널 생성”이라고 말할 때 트리거합니다. 번호를 확보하지 않고 기존 채널을 기존 에이전트에 연결하거나, 비음성 메시징 채널을 생성하는 경우에는 트리거하지 않습니다.
+
+항상 사용자의 언어로 답변하십시오.

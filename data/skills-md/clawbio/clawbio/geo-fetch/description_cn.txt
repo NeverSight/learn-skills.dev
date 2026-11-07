@@ -1,0 +1,1 @@
+查询元数据并下载 NCBI 基因表达汇编（GEO）的数据。支持 GEO 访问号（GSE 系列、GSM 样本、GPL 平台、GDS 数据集），用于搜索 GEO DataSets，获取系列和样本的元数据，列出并下载 series matrix、SOFT、MINiML 和补充文件，获取 SRA Run Selector 文件，并生成标准化的 metadata.tsv 以及可直接用于管道的 nf-core/rnaseq 或 nf-core/scrnaseq samplesheet.csv。

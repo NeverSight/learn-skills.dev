@@ -1,0 +1,1 @@
+Codeguard이 지원하는 저장소에 대해 읽기 전용 lint 게이트를 수행하고 결과를 설명합니다; 사용자가 “check”, “run check”, “lint report”, “pre‑commit check”라고 말하거나 CI Codeguard 검사가 실패할 때 사용합니다. 결과는 PASS, FAIL, UNVERIFIED, INCOMPLETE, PLANNED를 구분하고, 해당 결과가 레거시 엔진에 의해 발행되었는지 Rust 엔진에 의해 발행되었는지 표시해야 합니다.

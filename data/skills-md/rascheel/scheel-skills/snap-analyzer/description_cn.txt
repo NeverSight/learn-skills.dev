@@ -1,0 +1,1 @@
+扫描现有的应用程序代码库，并生成一个 snap‑analysis.json 文件，捕获打包为 snap 所需的全部信息：语言/运行时、构建系统、入口点、系统资源需求、snap 插件推荐、接口列表、hook 要求、约束类型和布局需求。不会生成 snapcraft.yaml —— 其输出供 snapcraft‑author 技能使用。何时使用：分析 snap 需求、进行 snap 分析、扫描 snap 接口、识别 snap 插件、snap 项目分析、预打包扫描、snap 依赖发现、snap 约束分析、snap 接口映射、准备 snap 打包。

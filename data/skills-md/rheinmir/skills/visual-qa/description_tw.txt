@@ -1,0 +1,1 @@
+WORKFLOW 自動檢測視覺封閉給本地 SPA（由 /br 生成的應用，或任何 Web 應用）：對每個路由進行 headless 截圖 → BASELINE pixel‑diff（捕捉不期望的變更） → 不變機器檢測（設計一致性） → 代理依 rubric 完整閱讀圖片 → FINDINGS.md → 修正 → 重新截圖 → 只有機器與肉眼皆清潔時才通過。於更換主題/UI/重新品牌、MCP 擴充無法截取 localhost，或需要為框架把關 UI 時使用。觸發詞：「qa 視覺」「visual qa」「route‑shots」「每個路由的截圖」「檢查介面」「baseline diff」「UI 有回歸嗎」「headless 介面測試」「/visual-qa」。

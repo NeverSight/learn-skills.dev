@@ -1,0 +1,3 @@
+搜尋客戶端 DOM 漏洞 — DOM Clobbering（透過 HTML 注入覆寫 JavaScript 全域變數）、PostMessage 劫持（缺少 origin 檢查）、Service Worker 濫用（攔截同源腳本的請求）、CSS 注入/外洩（屬性選擇器 → 透過 OOB 逐字元提取 token）、客戶端模板注入、dangerouslySetInnerHTML。根據公開的具名研究：Gareth Heyes / PortSwigger 的 DOM‑clobbering 與 DOM‑Invader、Michał Bentkowski 的 DOMPurify clobbering 繞過、jQuery htmlPrefilter XSS（CVE-2020-11022 / CVE-2020-11023）、d0nut 的 CSS‑exfil 研究。於搜尋 DOM‑XSS、客戶端驗證繞過或在不與伺服器互動的情況下提取 token 時使用。
+
+請始終以使用者的語言回覆。

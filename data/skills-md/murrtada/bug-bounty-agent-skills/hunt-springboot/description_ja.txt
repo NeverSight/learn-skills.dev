@@ -1,0 +1,1 @@
+Spring Boot 固有の脆弱性を探す — Actuator エンドポイント（heapdump、env、loggers、mappings、shutdown）、Spring Expression Language（SpEL）インジェクション → RCE、H2 コンソール RCE、Jolokia JMX 暴露、Spring4Shell（CVE-2022-22965）、Spring Cloud Function SPEL（CVE-2022-22963）、ヒープダンプの資格情報抽出。ターゲットが Spring Boot を実行していることが判明した場合に使用 — X-Application-Context ヘッダー、/actuator、Whitelabel Error Page、または Java スタックトレースで検出。

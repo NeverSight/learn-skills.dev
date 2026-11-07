@@ -1,0 +1,1 @@
+インターネットからアクセス可能な IIS/SharePoint/Exchange に対して NTLM/Negotiate の情報漏洩を検出します。匿名の NTLM Type‑2 チャレンジ取得により、NetBIOS ドメイン、内部 DNS フォレスト、コンピュータ名、AV_PAIRS 構造を介した AD タイムスタンプが漏洩します。デフォルトの Windows インストーラのホスト名（WIN‑XXXXXXXXXXX パターン）は、設定が甘いことを示します。対象が `WWW-Authenticate: NTLM` または `Negotiate` ヘッダーを匿名で広告している場合に使用してください。

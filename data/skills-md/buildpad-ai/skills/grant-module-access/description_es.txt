@@ -1,0 +1,3 @@
+Conceda banderas de capacidad a nivel de aplicación a los usuarios mediante Claves de Acceso a Módulos DaaS. Claves como `workflow:approve` o `system:logs` se registran en `daas_module_access_keys`, se activan en las políticas y se verifican en React con `usePermissions().hasModuleAccess(key)` o en rutas API con la lógica de combinación OR ya integrada en la plataforma. Úselo cuando una aplicación necesita restringir una característica, página o comando de flujo de trabajo que no está vinculado a una operación CRUD de colección.
+
+Por favor, responda siempre en el idioma del usuario.

@@ -1,0 +1,13 @@
+Combinez les données de coupe et les séquences originales dans une **vidéo directement visualisable** : un côté montre l’image, l’autre côté montre les informations de storyboard de cette prise (numéro de prise, début‑fin, durée, taille du plan, catégorie, mouvement de caméra, description visuelle, dialogue), et **les informations sont découpées avec la prise** ; la liste des plans défile automatiquement et met en surbrillance le plan actuel.  
+
+La mise en page dépend uniquement du rapport d’aspect des séquences originales : **paysage / carré → image en haut, informations en dessous ; portrait → image à gauche, informations à droite**, et l’image est toujours redimensionnée proportionnellement—sans rognage ni étirement.  
+
+La liste des plans **défile avec la lecture** : à un point de coupe elle défile légèrement pour amener le plan actuel à une ancre, puis s’arrête, et la barre de mise en surbrillance glisse en synchronisation.  
+
+L’implémentation ne capture que trois images (arrière‑plan + deux images longues dépliées) ; le défilement et la mise en surbrillance sont réalisés par recadrage temporel de la fenêtre avec ffmpeg, **la mise en page se trouve entièrement dans `scripts/panel.css` ; modifiez‑la pour changer la disposition**, sans toucher aux scripts.  
+
+Il consomme le fichier `shots.json` produit par video‑shots (si `frames/` existe, utilisez les images‑clés comme vignettes). Zéro dépendance npm, en utilisant ffmpeg pour la composition et un navigateur sans tête pour rendre le panneau.  
+
+Utilisez‑le lorsqu’on demande d’exporter une vidéo, de composer une vidéo, de créer une vidéo storyboard, une vidéo avec les informations de plan, une version narrée, une vidéo avec les informations de plan, une vidéo de plan annotée.  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

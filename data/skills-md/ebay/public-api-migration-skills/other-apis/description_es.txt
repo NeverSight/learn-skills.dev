@@ -1,0 +1,8 @@
+Guía de migración para operaciones tradicionales de VeRO y utilidades residuales a la API de VeRO o decisiones explícitas de limpieza sin reemplazo.
+
+Disparar cuando el usuario mencione: GetVeROReasonCodeDetails -> getVeroReasonCode/getVeroReasonCodes; GetVeROReportStatus/VeROReportItems -> getVeroReport/getVeroReportItems; eliminación o rediseño de GeteBayOfficialTime; o pregunte "¿cómo migrar las llamadas de estado o código de razón de VeRO?".
+
+Cubre 4 operaciones tradicionales, incluyendo la búsqueda de códigos de razón de VeRO, el seguimiento de informes de VeRO y la fila de GeteBayOfficialTime sin reemplazo.
+NO usar para flujos de trabajo de cuenta, listado, mensajería o gestión de pedidos.
+
+Responda siempre en el idioma del usuario.

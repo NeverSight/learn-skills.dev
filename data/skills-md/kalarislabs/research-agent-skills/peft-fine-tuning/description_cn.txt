@@ -1,0 +1,1 @@
+使用 Hugging Face PEFT 对大型语言模型进行微调，采用 LoRA、QLoRA、IA3、AdaLoRA、前缀调优和提示调优，使训练参数占比低于 1%。涵盖 rank、alpha 以及目标模块的选择，适配器的加载与合并，多适配器服务，以及与 TRL SFTTrainer、Axolotl 和 vLLM 的集成。适用于在 GPU 显存受限的情况下微调 7B‑70B 模型，在单块 24GB GPU 上运行 QLoRA，选择 LoRA 的 rank 和 alpha，在同一基模型上合并或替换适配器，或调试 CUDA OOM 或适配器未生效的情况。不适用于对参数少于 1B 的小模型进行全参数微调或需要更新全部权重的场景。

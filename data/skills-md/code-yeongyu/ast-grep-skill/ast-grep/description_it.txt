@@ -1,0 +1,3 @@
+Usa ast-grep (sg) per la ricerca e la riscrittura di codice consapevole dell'AST su 25 linguaggi. Attiva la corrispondenza strutturale del codice o codemod deterministici: trova ogni funzione/chiamata/classe/import con la forma X, riscrivi console.log in logger.info, rimuovi `as any`, migra require() in import, individua blocchi catch vuoti o await mancanti, e scansiona/applica regole YAML. Preferiscilo rispetto a rg/grep quando l’obiettivo è la forma sintattica piuttosto che il testo; usa rg per contenuti di stringa, commenti, nomi di file o ricerche di byte in stile regex.
+
+Rispondi sempre nella lingua dell’utente.

@@ -1,0 +1,3 @@
+Deterministischer, gesicherter Agentenschleifen‑Treiber — jede Stufe mit vorschlagen → deterministisch‑verifizieren → (kritik → überarbeiten) umhüllen und harte Abbruch‑Schutzmechanismen (max_iter, Echtzeit‑Budget, kein Fortschritt via Zustands‑Hash, Eskalation an Mensch) durchsetzen. Die Kontrollschleife + Schutzmechanismen + Fortschrittserkennung sind deterministisch; der LLM‑Kritik/Überarbeits‑Schritt ist der quarantänisierte Adapter. Auslösen, wenn eine Agenten‑Fix‑Schleife nicht unendlich laufen darf und nicht um einen fehlschlagenden Test herum argumentieren darf.
+
+Bitte immer in der Sprache des Benutzers antworten.

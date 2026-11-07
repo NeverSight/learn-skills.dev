@@ -1,0 +1,1 @@
+協調 Volcengine Cloud Detect（雲撥測）對失效的定時任務撥號點的誤報減少。用於排程任務掃描、重新嘗試失敗節點、控制測試節點健康、區分真實目標故障與破損撥號點，並建議同類型的 LastMile/IDC/Private 替代節點。僅執行 byted-util-volcengine-cloud-detect 的 volc_detect.py CLI；需要此技能且不提供 API/腳本實作。

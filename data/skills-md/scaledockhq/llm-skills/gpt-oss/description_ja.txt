@@ -1,0 +1,3 @@
+OpenAI の gpt-oss-120b と gpt-oss-20b（および gpt-oss-safeguard、NVIDIA の gpt-oss-puzzle-88B）を harmony フォーマット、reasoning_effort、MXFP4 重み、プラットフォームごとの vLLM/SGLang/llama.cpp/Ollama/TensorRT-LLM パーサーと量子化で提供・設定します。DGX Spark、RTX、Apple Silicon、または H100/B200 上で gpt-oss を実行する際に、量子化を選択したり、harmony エラー、空コンテンツ、ツールループでの推論喪失、HarmonyError の語彙ダウンロード、解析・最終テキストが返信に漏れる問題を修正するために使用してください。エンジンの選択（self‑hosted‑llms、local‑llms）には使用しません。
+
+常にユーザーの言語で回答してください。

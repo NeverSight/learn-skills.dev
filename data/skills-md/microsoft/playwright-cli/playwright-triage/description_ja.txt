@@ -1,0 +1,1 @@
+Issue triage GitHub Actions ワークフロー（.github/workflows/triage.yml）内で、needs‑triage、needs‑triage‑mac、または needs‑triage‑win ラベルが付いたもの、またはメンテナーが手動で開始した issue やタスク、あるいはその両方から、microsoft/playwright‑cli の issue を 1 件トリアージして修正するか、メンテナーのタスクを実行します。ランナー上で問題を再現し、検証済みの修正提案を残します。この提案は、当リポジトリまたは CLI のソースがある microsoft/playwright リポジトリでドラフト PR として開かれるか、issue に投稿する調査メモとして残されます。対象はそのワークフローのみです。

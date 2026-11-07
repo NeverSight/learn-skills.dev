@@ -1,0 +1,3 @@
+ユーザーが構造化された MILP や二段階確率的プログラムをベンダーズ分解で解きたい場合 — 整数マスター問題と LP サブ問題に分割し、サブ問題の双対から最適性カットと実現性カットを導出し、Gurobi の lazy‑constraint コールバックを用いた古典的な反復ループまたはブランチ・アンド・ベンダーズ・カットを実装する場合。ユーザーが「Benders decomposition」「Benders cuts」「L‑shaped method」「feasibility cut」「optimality cut」「master problem」と言及したとき、あるいはいくつかの複雑変数を固定すると容易または分離可能なサブ問題が残る場合にも使用する。シナリオ生成と SAA については stochastic‑optimization を参照。コールバックの仕組みとパラメータについては gurobi‑advanced‑features を参照。
+
+常にユーザーの言語で回答してください。

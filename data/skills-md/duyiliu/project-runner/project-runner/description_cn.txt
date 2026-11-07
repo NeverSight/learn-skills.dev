@@ -1,0 +1,1 @@
+基于 Agent 的本地项目启动助手：能够识别并启动 Java/Spring Boot（包括独立的 JRebel）、Python、Vue/React/Vite 以及其他 Node 前端和主流技术栈项目，启动后可查看日志并验证热重载。用户在需要启动本地服务/项目、配置或排查 JRebel、查看运行时日志或打开本地 Web 管理控制台（manager UI，默认固定在 http://127.0.0.1:8199）时使用；已实现跨项目运行时管理和只读管理控制台（manager.mjs list/status/start/stop/restart/remove/prune/logs/ui），用法请参见第 8 章（见 references/manager.md）。

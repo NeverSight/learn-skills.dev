@@ -1,0 +1,1 @@
+Authentication proxy pattern reference. All browser-to-backend communication MUST go through Next.js API proxy routes. Never call Supabase auth or DaaS backend directly from client components. Automatically loaded as background context.

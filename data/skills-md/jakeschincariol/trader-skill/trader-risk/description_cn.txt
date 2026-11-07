@@ -1,0 +1,1 @@
+风险管理器。检查每个拟议订单是否符合您的限制，在其到达经纪商之前阻止任何超出限制的订单：被阻止的代码、最大订单规模、最小订单、成交后最大持仓比例、现金缓冲、保证金、卖空、期权和加密货币（除非允许，否则关闭）、格式错误的订单、重复订单以及每日订单限额。为每个订单打印“PASS”或“BLOCK”并给出原因，并记录判决，以便 trader‑broker 只显示通过的订单。用户说“check my orders”“is this safe”“risk check”“does this break my rules”“can I place this”或在 /trader‑broker 之前时使用，始终如此。请始终用用户的语言作答。

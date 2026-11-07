@@ -1,0 +1,1 @@
+為 Buildpad 工作流程模組搭建骨架 — 提供現成的 /workflows、/workflow-assignments、以及 /workflow-instances 管理頁面（WorkflowsManager/WorkflowDetail 含狀態圖編輯器、WorkflowAssignmentsManager/WorkflowAssignmentDetail、WorkflowInstancesManager/WorkflowInstanceDetail）。當使用者需要管理介面來設計工作流程狀態機、將其指派給集合，或檢視工作流程實例及其轉換歷史時使用。如需透過 DaaS（定義、指派、欄位、WorkflowButton）為集合建立工作流程，請改用 create-workflow。

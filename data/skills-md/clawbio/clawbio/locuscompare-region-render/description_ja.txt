@@ -1,0 +1,1 @@
+1つの（リードバリアント、曝露研究、アウトカム研究）タプルに対して、4パネルの領域LocusCompare診断を描画します。GWAS Manhattan、QTL Manhattan、GENCODE遺伝子トラック、LD r²で色付けされたクロストレイト散布図を重ね合わせます。2つのGWAS/QTLシグナルが同一の因果バリアントを共有していることを視覚的に確認する必要があるエージェントが使用します（Liu 2019 LocusCompare の慣例）。入力：リードバリアント＋事前取得された調和済みサムスタットスライス2つ（またはバンドル取得用のeQTL Catalogue / GWAS Catalog 識別子）。出力：PNG + JSON マニフェスト。

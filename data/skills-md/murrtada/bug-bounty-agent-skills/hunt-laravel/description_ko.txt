@@ -1,0 +1,1 @@
+Laravel 특정 취약점 탐색 — 디버그 모드 누수 (APP_DEBUG=true 로 전체 스택 트레이스와 환경 변수 노출), Laravel Telescope/Horizon 대시보드 무단 접근, Ignition RCE (CVE-2021-3129), 서명된 URL 조작, 큐 워커 악용, Eloquent 를 통한 대량 할당, 쿠키를 통한 역직렬화, .env 파일 노출. 대상이 Laravel(PHP)을 실행할 때 사용 — X-Powered-By 헤더, Laravel 세션 쿠키, 또는 /storage/ 경로를 통해 감지.

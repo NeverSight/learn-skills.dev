@@ -1,0 +1,1 @@
+用于寻找SQL注入漏洞的狩猎技能。基于12份公开的漏洞赏金报告构建，包括现代NoSQL注入（Rocket.Chat CVE-2021-22911 MongoDB $regex，Mongoose ORM CVE-2024-53900 $where 绕过）、现代ORM原始片段SQLi（Django CVE-2024-42005，Sequelize GHSA-wrh9-cjv3-2hpw）、二次SOQL注入（HackerOne Salesforce）、GraphQL解析器中的基于时间的盲注SQLi，以及OIDC代理后端的SQLi。可在对任何目标进行SQLi狩猎时使用。专用的NoSQL运算符注入（MongoDB/CouchDB $where/$regex/$ne）归属于hunt-nosqli——此处出现的NoSQL仅作为相邻的ORM/WAF上下文。

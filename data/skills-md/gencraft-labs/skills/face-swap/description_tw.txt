@@ -1,0 +1,5 @@
+透過 `runcomfy` CLI 在 RunComfy 上將臉部/角色置換到影片或圖像中。  
+支援多種模型，包括社群的 Wan 2‑2 Animate（音訊驅動的角色動畫與身份置換）、GPT Image 2 Edit（透過參考合成在靜態圖像上進行單次精準臉部置換）、Nano Banana Edit（批次保持身份的置換）、Flux Kontext（單參考高保真局部臉部編輯），以及 Kling 2‑6 Motion Control Pro（將一段表演的動作轉移至目標角色）。  
+根據使用者的實際需求自動選擇合適的模型──單張靜態圖 vs 影片、完整角色 vs 只換臉、對話場景 vs 靜默動作。  
+當偵測到「face swap」「swap face」「deepfake」「face replacement」「character swap」「head swap」「put X's face on Y」「make this video star X」「replace the actor in this video」「swap the character in the photo」「deepfake video」「ReActor alternative」或任何明確要求將一個身份替換為另一個身份的語句時即會啟動。  
+請始終以使用者的語言回覆。

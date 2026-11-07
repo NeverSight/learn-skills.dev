@@ -1,0 +1,3 @@
+Rebalancer. Lleva la cartera de vuelta a sus pesos objetivo cuando se desvía: valora cada posición a precios actuales, calcula el desvío de cada acción respecto a su objetivo en puntos porcentuales, negocia solo las acciones fuera de una banda (por defecto 5 puntos), mantiene el colchón de efectivo y el límite por acción, omite operaciones pequeñas, lista las ventas antes de las compras y escribe las operaciones en trader/orders.json como propuestas. Úsalo cuando el usuario diga "rebalance", "my portfolio drifted", "bring it back to the targets", "I added money", "the new 13F changed the weights", "am I overweight", o según un horario (mensual o trimestral) después de que /trader-copycat actualice los objetivos.
+
+Por favor, responde siempre en el idioma del usuario.

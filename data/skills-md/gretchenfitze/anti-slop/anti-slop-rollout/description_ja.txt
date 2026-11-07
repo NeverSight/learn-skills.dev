@@ -1,0 +1,3 @@
+次の anti‑AI‑slop ロールアウト計画（anti‑slop/todo.md、理由は anti‑slop/plan.md に記載）を 1 つのプルリクエストとして実行してください。計画が記録しているスタック（厳格な TypeScript フラグ、sonarjs、unnecessary‑effect、テスト lint ルール、レイヤー境界、過去のバグからのカスタム lint ルール、エージェントフック、Stryker ミューテーションテスト、knip と dead‑file スクリプト、jscpd、react‑doctor、CI ゲート、定期レポート、エージェントルールファイルの最終トリム）のいずれかに単一のチェックを追加し、見つかった問題を修正またはベースライン化し、エージェントルールファイルにコマンドを記録し、検証した上で PR をオープンしてください。ユーザーが「next anti‑slop step」や「do step N of the plan」と言ったとき、AGENTS.md や CLAUDE.md のどのルールが現在リンターでカバーされているか尋ねたとき、または knip、jscpd、react‑doctor、Stryker、sonarjs、あるいは境界を段階的に設定（最初は警告、最後に CI ゲート）したいとリポジトリで要求したときに使用します。anti‑slop‑audit から計画が必要です。計画がない場合は、まず監査を実行してください。
+
+必ずユーザーの言語で回答してください。

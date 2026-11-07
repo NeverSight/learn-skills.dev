@@ -1,0 +1,3 @@
+Diese Fähigkeit MUSS bei expliziter Validierung eines beliebigen 1C‑Objekts auf Anforderung des Benutzers aufgerufen werden: Konfiguration (CF), Erweiterung (CFE), Metadatenobjekt (meta), verwaltetes Formular (form), Subsystem (subsystem), Befehlsinterface (interface), Rolle (role), SKD (skd), MXL‑Layout (mxl), externe Verarbeitung (epf), externer Bericht (erf). Sie SOLLTE auch nach Kompilieren/Bearbeiten/Initialisieren/Ausleihen‑Operationen aufgerufen werden, wenn eine manuelle Prüfung erforderlich ist. NICHT manuell nach automatischen Vorgängen aufrufen — die Validierung wird in den entsprechenden Fähigkeiten durchgeführt.
+
+Bitte immer in der Sprache des Benutzers antworten.

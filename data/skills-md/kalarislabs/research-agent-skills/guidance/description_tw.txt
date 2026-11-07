@@ -1,0 +1,3 @@
+在生成過程中使用 Guidance（Microsoft Research）透過正則表達式、select() 選項、上下文無關文法、token 修復以及 @guidance 函數，對 LLM 輸出加以限制，支援 Anthropic、OpenAI、Transformers 與 llama.cpp 後端。當你需要產生的文字符合正則表達式或固定格式（如日期、電子郵件、ID）時使用。當你需要模型產生保證有效的 JSON、XML 或程式碼時使用。當你在構建多步驟生成工作流或具 Python 控制流程的 ReAct 風格代理時使用。當你需要使用 select() 將文字分類到固定類別時使用。當你在本地執行模型且想要語法限制時使用。此功能不適用於具自動重試的 Pydantic 驗證；此情況請使用 Instructor。
+
+請始終以使用者的語言回覆。

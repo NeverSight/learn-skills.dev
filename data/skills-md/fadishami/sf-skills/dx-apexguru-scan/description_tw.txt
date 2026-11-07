@@ -1,0 +1,3 @@
+透過 ApexGuru SFAP Scan API 對 Salesforce Apex 專案執行 ApexGuru 效能掃描。將專案的 Apex（任何版面配置）壓縮為 zip，提交後輪詢直至完成，解碼 base64 報告，並呈現效能反模式違規（迴圈中的 SOQL、迴圈中的 DML、Schema.getGlobalDescribe()、缺少 WHERE/LIMIT 的 SOQL、未使用的 SOQL 欄位），依規則分組，顯示嚴重程度、檔案:行號，並提供建議修正——明確標示為「Static only」或「Production insights」。當使用者說「run ApexGuru」「ApexGuru scan」「check Apex performance」「find governor-limit / performance antipatterns」「SOQL in loop」「scan my Apex for performance」或「ApexGuru performance insights」時觸發。不要對一般靜態分析或安全掃描（使用 dx-code-analyzer-run）、僅修正程式碼而未掃描，或將組織加入 ApexGuru 的情況觸發。
+
+請始終以使用者的語言回覆。

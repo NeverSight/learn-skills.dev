@@ -1,0 +1,1 @@
+PostHog 오류 발생 또는 세션의 오류를 OpenTelemetry 추적, 동일한 트레이스 ID를 가진 로그, 그리고 Session Replay와 연결합니다. 사용자는 오류에 대한 트레이스 또는 스팬 ID, 동일 트레이스 로그, 혹은 세션 내 오류에 대한 백엔드 추적을 요청할 때 사용합니다. 발생 UUID, 세션 ID, 또는 오류 추적 이슈 URL에서 시작합니다. 일반적인 이슈 진단이나 재생 요약을 위해서는 investigating-error-issue 또는 investigating-replay를 사용하세요.

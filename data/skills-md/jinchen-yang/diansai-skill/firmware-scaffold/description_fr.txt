@@ -1,0 +1,3 @@
+Générez une structure d'ingénierie du firmware pour la voie de contrôle (architecture à 4 couches + planification par tranche de temps + FSM + PID + VOFA + protocole K230). Utilisez‑la lorsque l'utilisateur souhaite « générer firmware/engineering skeleton », « build a firmware framework » ou « produce an MSPM0/STM32 project ». Réutilisez le découpage en couches et la planification de la Knowledge Base 08 ; les données des broches proviennent de contracts/pinmap.yaml, et la réception des trames K230 utilise contracts/protocol.h. Les paramètres de contrôle sont des espaces réservés en attente d’ajustement, et l’initialisation des périphériques doit être vérifiée manuellement.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

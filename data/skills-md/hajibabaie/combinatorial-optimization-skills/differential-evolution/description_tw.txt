@@ -1,0 +1,1 @@
+當使用者想要使用差分進化（differential evolution）解決連續或混合黑箱優化問題時，請在 DE 策略中選擇（rand/1/bin、best/1/bin、current‑to‑best），調整 F 與 CR，或透過 random keys 將 DE 套用於排列問題。當使用者提及「differential evolution」「DE/rand/1」「mutation factor」「crossover rate CR」「SHADE」「jDE」，或需要在盒形限制的連續空間中使用無導數的族群方法時，也應使用此方式。欲了解協方差矩陣適應與 (mu+lambda) 選擇，請參閱 evolution‑strategies；欲了解基於速度的群體搜尋，請參閱 particle‑swarm‑optimization。

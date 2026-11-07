@@ -1,0 +1,9 @@
+必須在使用者想要在互聯網上進行研究/搜尋/查找任何資訊時使用——例如「全網研究 X」、 「幫我研究 X」 、 「檢查 X」 、 「搜尋 X」 、 「看看大家對 X 的看法」 、 「X 有哪些討論」 、 「研究這個主題」。同時，當使用者提及任何平台或分享任何 URL/連結時也必須使用：小紅書（小红书/xiaohongshu/xhs）、推特（Twitter/X）、B 站（Bilibili）、Reddit、V2EX、領英（LinkedIn/招聘/求職/jobs）、YouTube、GitHub 程式碼搜尋、XiaoYuZhou podcast、雪球/股票報價、RSS 訂閱，或任何網頁 URL。
+
+共 13 個平台，支援多後端路由（OpenCLI / 各平台 CLI / API）。6 個頻道零配置。執行 `agent-reach doctor --json` 可查看目前每個平台由哪個後端服務。
+
+非使用情境：撰寫報告、資料分析、翻譯或其他內容處理（此技能僅取得網路內容）；發文、留言、按讚或其他寫入操作；已有專屬技能的平台（請先使用該技能）。
+
+【路由方式】SKILL.md 包含路由表與常用指令；複雜情境請依需求閱讀 references/*.md 中相應類別檔案。類別：search / social（小紅書/推特/B 站/V2EX/Reddit） / career（領英） / dev（GitHub） / web（網頁/文章/RSS） / video（YouTube/B 站/Podcast）。
+
+請始終以使用者的語言回應。

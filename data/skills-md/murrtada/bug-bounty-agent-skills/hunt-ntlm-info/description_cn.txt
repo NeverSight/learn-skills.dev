@@ -1,0 +1,1 @@
+在可通过互联网访问的 IIS/SharePoint/Exchange 上搜寻 NTLM/Negotiate 信息泄露。匿名 NTLM Type‑2 挑战的捕获会泄露 NetBIOS 域、内部 DNS 森林、计算机名称以及通过 AV_PAIRS 结构的 AD 时间戳。默认的 Windows 安装程序主机名（WIN-XXXXXXXXXXX 模式）表明懒惰的供应。仅当目标匿名提供 `WWW-Authenticate: NTLM` 或 `Negotiate` 头时使用。

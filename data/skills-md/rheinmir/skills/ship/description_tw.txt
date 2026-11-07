@@ -1,0 +1,19 @@
+工作流程 確認 PUSH/RELEASE/PR/MR — 在使用者提及 “release” / “push” / “ship” / “lên release” / “mở PR” / “tạo MR” 時觸發。  
+執行推送前的條件檢查清單：  
+1. medic --ci（健康檢查端點：law bite / drift / docs / code / eval），  
+2. 若差異包含新功能，則透過真實遠端執行 UAT /fdk-uat（僅限 release / pr / mr，medic --ci 無法驗證 curl 路徑），  
+3. Git 狀態乾淨（scratchpad / ephemeral 不被追蹤），  
+4. selftest，  
+5. 從最近的 tag 推算 version 為 x.x.x+1（僅適用於 release 級別），  
+6. patch note / PR 內容須實事求是（Added / Fixed / Removed / Known‑limitations，絕不誇大）。  
+
+支援 5 種模式：  
+- “ship push” = 僅 push 不打 tag；  
+- “ship release” = push + 標記 vX.Y.Z + release notes；  
+- “ship pr” = push 分支 + 使用 GitHub 建立 PR（gh pr create）；  
+- “ship mr” = push 分支 + 使用 GitLab 建立 MR（glab mr create）；  
+- “ship merge” = 列出遠端 repo 的 PR/MR，拉下分支，執行 gate+測試，僅在測試綠燈時合併。  
+
+STOP 於 side‑effect 前等待批准。  
+
+觸發詞：/ship、“release”、“push”、“ship”、“mở PR”、“tạo MR”、“ship pr”、“ship mr”、“ship merge”、“gom PR về merge”、“merge PR nếu test xanh”、“chuẩn bị push”、“lên release”、“checklist trước push”、“đủ điều條件 push chưa”。

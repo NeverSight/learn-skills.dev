@@ -1,0 +1,3 @@
+Confluent Cloud上で実行されるFlink SQLを書き、デバッグし、CCとApache Flink（OSS）の方言境界を強制してください。作業ディレクトリがConfluent Cloud Flinkワークスペースである場合、Flink SQLステートメントがCCコンピュートプール上で実行される前にチェックが必要な場合、またはユーザーがCC Flink、Confluent Cloud Flink SQL、`confluent flink` CLI、CFUコンピュートプール、`CREATE CONNECTION`に言及する場合、あるいは実行環境がConfluent CloudのFlink SQLのチェックやデバッグを求める場合に使用してください。また、Flink SQLに関する質問が提示され、Apache Flink OSSの実行環境が何も示されていないときにもトリガーしてください。以下の場合はトリガーしないでください：JavaでのFlink UDFの構築またはデプロイ（UDF/UDTF/PTF — use flink-udf）；データベースからFlinkを経由してTableflow/Iceberg/Delta Lakeへ全体CDCパイプラインを構築する（use confluent-cloud-cdc-tableflow）；Kafka Streamsのトポロジー作業（use kafka-streams-programming）；またはFlink SQLがApache Flink OSSで実行されることが確認されている場合。
+
+必ずユーザーの言語で回答してください。

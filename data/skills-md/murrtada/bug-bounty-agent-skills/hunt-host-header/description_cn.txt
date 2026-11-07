@@ -1,0 +1,1 @@
+猎取 Host Header 注入 — 密码重置投毒 → ATO，通过未加钥匙的 Host/X-Forwarded-Host 实施网页缓存投毒，基于路由的 SSRF（Host 选择上游 → 云元数据/内部服务），路径覆盖 SSRF/ACL 绕过（X-Original-URL/X-Rewrite-URL），OAuth redirect_uri/issuer 投毒，以及邮件中的绝对 URL 链接投毒。当导致 ATO 或大规模缓存投毒时，风险从高到致命。基于公开的 Host‑header 研究（PortSwigger《Practical web cache poisoning》+ James Kettle，以及经典的密码重置投毒课程）。适用于任何忘记密码流程、CDN/反向代理前置的应用、OAuth/OIDC 端点或邮件中的绝对 URL 功能。

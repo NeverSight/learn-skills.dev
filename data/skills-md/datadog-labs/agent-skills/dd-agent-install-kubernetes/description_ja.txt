@@ -1,0 +1,3 @@
+Datadog エージェントを Kubernetes クラスタにインストールする ― Amazon EKS（標準または Fargate プロファイル）、Azure AKS、Google GKE（標準または Autopilot）、OpenShift、Oracle OKE、VMware Tanzu（TKG）、Rancher（RKE2/K3s）または自己管理クラスタ向けに、Datadog Operator（kubectl/Helm）、Datadog Helm chart、または Terraform を通じて実行します。デフォルトでメトリクス、ログ、APM トレースの取り込みが有効になり、ユーザーが要求しない限り Single Step Instrumentation はオフとなります。オプションのプロダクトも利用可能です。SSI‑first のインストールの場合は `dd‑apm/k8s-ssi` の `agent‑install` を使用します。  
+GKE、EKS、AKS、OpenShift、OKE、または TKG 上で Kubernetes クラスタを運用しているユーザーが、Kubernetes に Datadog エージェントのインストールまたは設定を求めている、Terraform でエージェントをインストールしたい、あるいは Kubernetes ポッドを監視したい場合に利用します。クラウドプロバイダー統合を接続したり、スタンドアロンホストや単体 Docker にエージェントをインストールしたりすることはありません。  
+有効な API キーとアプリケーションキーを持つ Datadog アカウントが必要です。キーが不足している場合は、まず `dd‑account‑setup` を実行してください。

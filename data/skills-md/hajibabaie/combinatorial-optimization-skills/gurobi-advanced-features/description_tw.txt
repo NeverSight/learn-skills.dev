@@ -1,0 +1,1 @@
+當使用者想要在 Gurobi 超出純粹模型構建的情況下使用 — 用於 lazy constraints、使用者切割、啟發式解注入與提前終止的 callback；用於診斷不可行模型的 IIS 計算；解集合；多目標 API；矩陣 API（addMVar / addMConstr）；MIP 起始解；以及內建調校工具的參數調校。當使用者提及「Gurobi callback」、「lazy constraints」、「IIS」、「solution pool」、「Gurobi parameters」、「infeasible model」或「MIP start」時亦請使用。核心模型構建請參閱 milp‑modeling‑gurobi；有關切割族與分離理論，請參閱 cutting‑planes‑valid‑inequalities。

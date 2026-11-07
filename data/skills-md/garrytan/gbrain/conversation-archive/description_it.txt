@@ -1,0 +1,3 @@
+Importa le esportazioni delle chat di assistenti IA (ChatGPT, Claude, Perplexity) e le trascrizioni delle sessioni dell'agente nel cervello come una pagina datata per conversazione sotto conversations/, valida ogni pagina rispetto al parser nativo della conversazione, estrai i fatti tramite il flusso nativo conversation‑facts e mantieni l’archivio senza gap con un ciclo di rilevamento e back‑fill. Quindi rispondi alle domande sull’archivio: “quando ho discusso per la prima volta X”, traccia come un’idea è evoluta attraverso le conversazioni passate, estrai un thread specifico.
+
+Rispondi sempre nella lingua dell’utente.

@@ -1,0 +1,1 @@
+将应用的图表从 Recharts 迁移到 Bklit UI。检测 Recharts 使用情况——直接 `recharts` 导入或 shadcn/ui 的 `components/ui/chart.tsx` 包装器（ChartContainer、ChartConfig、ChartTooltipContent、ChartLegendContent）——列出所有图表，将每个图表分类为干净 / 需要变通 / 保留在 Recharts，安装匹配的 `@bklit/*` shadcn 注册项，并在保留数据、颜色和标签的同时，用等效的 bklit 组件重写每个图表。当用户请求替换、迁移、转换或移植 Recharts 或 shadcn 图表到 bklit，以移除 recharts 依赖，或询问切换图表库需要什么时使用。请始终使用用户的语言回复。

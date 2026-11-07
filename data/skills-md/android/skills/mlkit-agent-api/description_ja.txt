@@ -1,0 +1,3 @@
+ML Kit GenAI Agent API（Gemini Nano と AICore によって駆動）を使用して、Android アプリ内で自律的なオンデバイスエージェントワークフローを構築します。このスキルは、会話エージェントの実装、ViewModel 内の AgentSession を用いたマルチターンチャット、Android AppFunctions（@AppFunctionDeclaration と AppFunctionAgentTools.discover）による自律的なツール呼び出し、runner.runSingleTurnAsync を用いたエフェメラルなシングルターン実行、または GenAiException のエラー耐性処理に使用してください。ローカルでの推論ループのオーケストレーション、型付きツールディスパッチ、オンデバイスでのセッション永続化を、クラウド遅延ゼロとプライバシー保護で実現する問題を解決します。クラウドベースの Gemini モデルや Vertex AI、エージェントループを伴わないシングルターンのテキスト生成（Prompt API 推奨）や Android 以外のプラットフォームでは使用しないでください。
+
+常にユーザーの言語で回答してください。

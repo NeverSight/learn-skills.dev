@@ -1,0 +1,1 @@
+使用 DeepSpeed 或 HuggingFace 訓練混合專家（Mixture of Experts，MoE）模型。適用於在計算資源受限的情況下訓練大規模模型（相較於密集模型可降低 5 倍成本），實施如 Mixtral 8x7B 或 DeepSeek-V3 等稀疏架構，或在不同比例提升計算的情況下擴大模型容量。內容涵蓋 MoE 架構、路由機制、負載平衡、專家並行以及推論最佳化。

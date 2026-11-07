@@ -1,0 +1,1 @@
+提供关于使用 Unsloth 对大型语言模型进行微调的指导，Unsloth 是一个利用 LoRA 和 QLoRA 实现更快、更低内存训练的库，基于其官方文档（references/llms-txt.md）。在以下情况下使用：设置 LoRA 或 QLoRA 对 LLM 进行微调、在训练期间降低 GPU 内存占用、查询 Unsloth 的功能或 API、调试 Unsloth 训练代码，或学习 Unsloth 的最佳实践。不适用于仅使用普通 Hugging Face Transformers 或 PEFT 且未使用 Unsloth 的通用模型训练。

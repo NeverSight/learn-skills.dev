@@ -1,0 +1,1 @@
+针对 Google Apps Script 内置服务和运行时的惯用、配额安全模式——批量 SpreadsheetApp 读取/写入、用于状态的 PropertiesService/CacheService、用于并发安全的 LockService、带重试/退避的 UrlFetchApp、V8 运行时 API 缺口以及自定义电子表格函数限制。当 Apps Script 代码运行缓慢、触及配额或速率限制错误、因并发触发器执行产生竞争条件，或需要在 Apps Script 中不存在的浏览器/Node API 时使用。框架无关——适用于有或没有 bootgs 的情况。不适用于菜单、侧边栏或对话框（`apps-script-ui`），也不适用于触发器注册以及 simple 与 installable 的区别问题（`apps-script-triggers`）。

@@ -1,0 +1,1 @@
+使用 Cursor（本地代理 SDK）作為完整的代理提供者──規劃、工具協調、MCP 工具、會話恢復──可與 Claude 同時使用或取代 Claude。使用 Cursor 帳號登入或 API 金鑰，由憑證閘道保存。每個群組可透過 `ncl groups config update --provider cursor` 設定。此方式不同於將 Cursor 作為雲端代理（後者在 Cursor 虛擬機上執行，並非此提供者）。

@@ -1,0 +1,3 @@
+Use whenever an agent considers or prepares to commit changes, including grouping hunks, composing or revising messages, commit-related staging, and commit creation. Also use for prospective planning before implementation, requested history updates or rebases, cherry-picks or merges that create commits, and scripts or tests that create commits.
+
+Don’t use for read-only inspection of existing history when no commit or history update is being prepared.

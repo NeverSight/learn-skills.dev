@@ -1,0 +1,1 @@
+Use when a session needs events from any polled system delivered as messages instead of polls, or when writing the source that polls it, so one daemon the session owns carries each poll's alerts in the peer envelope, keeps its notes in the log, and quotes nothing from the polled system.

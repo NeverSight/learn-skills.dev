@@ -1,0 +1,9 @@
+フレームワークに依存しない、GenAI/LLM アプリ（Python または TypeScript、任意のプロバイダー/エージェント SDK）を計測し、OTel GenAI セマンティックコンベンション（gen_ai.*）スパンを生成して Dynatrace でクエリ可能にする意思決定プロセス。4 つのステップ：detect（検出）、instrument（計測）、enrich（強化）、validate（検証）。対象 SDK が必要とするアプローチを判断し、dynatrace-oss/dynatrace-ai-agent-instrumentation-examples にあるフレームワーク別の具体的なレシピを置き換えるものではありません。トリガー例：  
+「instrument this GenAI app」  
+「add tracing to this LLM app」  
+「how do I get gen_ai spans into Dynatrace」  
+「onboard this agent app to AI Observability」  
+
+既に計測済みのアプリからテレメトリを分析する目的（dt-obs-genai を使用）や、Python/TypeScript 以外の言語には使用しないでください。
+
+常にユーザーの言語で応答してください。

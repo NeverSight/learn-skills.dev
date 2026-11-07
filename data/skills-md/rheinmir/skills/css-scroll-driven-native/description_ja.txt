@@ -1,0 +1,3 @@
+ネイティブ CSS Scroll-Driven Animations API（animation-timeline、scroll()/view()、animation-range）を使用した純粋な CSS のスクロールエフェクト — JavaScript は一切使用しません。  
+ユーザーが「css scroll driven animation」や「animation-timeline」「scroll animation không js」「css thuần cuộn trang」「scroll-driven CSS」あるいは /css-scroll-driven-native と言ったときに呼び出されます。  
+`skills/scroll-effects` とは異なります（こちらは IntersectionObserver の JavaScript を使用し、すべてのモダンブラウザで動作します）。このスキルは JavaScript を使用せず、しかしブラウザのサポートが十分ではありません（Firefox や Safari はフラグやロールアウト段階にあります）。scroll‑effects の上にプログレッシブエンハンスメントとして使用し、すべてのブラウザで確実に動作させる必要があるときの代替にはなりません。

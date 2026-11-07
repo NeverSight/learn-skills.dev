@@ -1,0 +1,1 @@
+透過 DaaS 模組層級存取金鑰，向使用者授予應用程式層級的功能旗標。像 `workflow:approve` 或 `system:logs` 這樣的金鑰會在 `daas_module_access_keys` 中註冊，於政策中切換，並在 React 中使用 `usePermissions().hasModuleAccess(key)` 進行檢查，或在 API 路由中以平台已內建的 OR 合併邏輯檢查。當應用程式需要為非集合 CRUD 操作的功能、頁面或工作流程指令設置門檻時使用。

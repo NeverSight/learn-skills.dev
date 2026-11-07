@@ -1,0 +1,1 @@
+每个 gplay 命令共享的约定：凭证和包解析、输出格式、退出码、`--dry-run`/`--confirm`/`GPLAY_READONLY` 门限、编辑生命周期。在运行任何 gplay 命令、将 gplay 集成到 CI、根据退出码进行分支判断，或使用 `gplay schema` 在离线状态下检查 Android Publisher API 时，请遵循这些约定。

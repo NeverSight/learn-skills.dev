@@ -1,0 +1,3 @@
+マルチチャネルの絶縁電源システムを設計し、マージンを検証してください。ユーザーが「design power/supply」「calculate current budget」「select voltage regulation/DCDC」または「allocate power rails」を希望する場合に使用します。各レールの負荷は、定格電流ではなくモーターのロックロータ電流に基づいて計算し、design/power.yaml と power.md を生成し、手動承認が必要な tools/power_budget.py で決定的な検証を実行してください。
+
+常にユーザーの言語で回答してください。

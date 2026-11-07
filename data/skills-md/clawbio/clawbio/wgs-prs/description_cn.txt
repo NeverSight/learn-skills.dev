@@ -1,0 +1,1 @@
+端到端全基因组测序（WGS）到多基因风险评分的流水线。将配对末端的 FASTQ 文件（或已有的 VCF）通过 nf-core/sarek 进行变异检测，进行 VCF 质量控制（标准化、硬过滤、Ti/Tv 比率以及杂合/同合检查），随后通过 PGS Catalog 计算多基因风险评分。填补在 gwas-prs 技能之前的 FASTQ 到 VCF 的空白。

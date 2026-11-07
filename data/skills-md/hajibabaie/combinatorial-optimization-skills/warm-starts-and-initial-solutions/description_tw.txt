@@ -1,0 +1,3 @@
+當使用者想要構建初始解並將其輸入求解器時──根據問題類別的構造啟發式、Gurobi 中的 MIP 起始與變數提示、部分固定，以及從精確解池中為元啟發式種群提供種子。當使用者提及「warm start」、「MIP start」、「initial solution」、「construction heuristic」、「seed the population」或「variable hints」，或求解器難以找到任何可行解時，也請使用此方式。關於回呼注入與解池，請參閱 gurobi-advanced‑features；關於基於部分固定的 fix‑and‑optimize 混合方法，請參閱 matheuristics。  
+
+請始終以使用者的語言回覆。

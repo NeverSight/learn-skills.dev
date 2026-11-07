@@ -1,0 +1,1 @@
+在使用 Reylo 导入 .sql 文件的项目中，项目的 tsconfig.json 中的 contentMappers 指定为 reylo，或者包含 .reylo.yaml 文件或 Reylo 依赖时，适用于以下场景：编写或修改 .sql 查询，调用其 .run()、.runSync() 或 .with() 方法，传入数据库客户端，对查询进行追踪或记录日志，修复类型检查在 .sql 文件中报告的错误，或评估、规划、执行将项目的查询从 Prisma Client 迁移到 Reylo 的工作。

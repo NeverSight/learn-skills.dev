@@ -1,0 +1,1 @@
+使用 molfeat (0.11.0) 将 SMILES 字符串或 RDKit/datamol 分子转换为数值特征，molfeat 提供计算器、兼容 scikit-learn 的转换器和预训练嵌入模型。涵盖指纹（ECFP、MACCS、MAP4）、RDKit 和 Mordred 描述符、药效团描述符，以及 ChemBERTa、GIN 等预训练模型，支持并行处理和缓存。适用于以下场景：从 SMILES 构建 QSAR 或 QSPR 模型；在属性预测任务中选择分子特征提取器；为虚拟筛选、相似性搜索或化学空间聚类生成嵌入；将特征提取器加入 scikit-learn 流水线。**不用于**一般化学信息学任务，如读取或编辑结构，这类功能属于 RDKit 本身。

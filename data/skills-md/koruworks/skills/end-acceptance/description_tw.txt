@@ -1,0 +1,1 @@
+關閉驗收測試。搜尋仍開放的 `docs/acceptances/ATTENTION.<feature>.md` 候選檔（即尚未完成的 start‑acceptance），將每個候選檔與 `docs/acceptances/ATTENTION.md` 進行比較，對於尚未出現在目標檔案中的每一項，逐一詢問使用者是否為系統性內容，並在搬移前與使用者確定最終用語；之後撤銷該 feature 檔案。先執行一次專案的完整測試套件、lint 與型別檢查，因為驗收階段已跳過這些步驟。於使用者表示驗收已完成、要求推廣或審閱驗收教訓，或呼叫 `/end-acceptance [feature]` 時使用。切勿以自身的用語直接推廣教訓。

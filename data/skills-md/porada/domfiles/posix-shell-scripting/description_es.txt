@@ -1,0 +1,7 @@
+Escribe, revisa, audita, refactoriza y diagnostica código y configuración POSIX `sh`. Úsalo siempre que el código esté destinado a ejecutarse bajo un shell POSIX o una migración apunte a POSIX `sh`.
+
+Úsalo en archivos `.sh`, puntos de entrada `#!/bin/sh`, comandos sin extensión, bibliotecas importadas, hooks, fragmentos de inicio, fragmentos de shell generados y otro código de shell sin un dialecto de shell identificable.
+
+No lo uses cuando la salida solicitada sea solo código para un shell que no sea POSIX.
+
+Por favor, responde siempre en el idioma del usuario.

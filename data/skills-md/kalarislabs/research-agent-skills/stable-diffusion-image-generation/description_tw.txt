@@ -1,0 +1,1 @@
+使用 HuggingFace Diffusers 套件，透過 Stable Diffusion 模型（SD 1.5、SDXL、SD 3.0、Flux）產生影像，支援文字生成影像、影像轉影像、修補（inpainting）、延伸繪製（outpainting）、ControlNet 條件化、LoRA 適配器、排程器切換與 GPU 記憶體最佳化。適用於以文字提示產生影像、轉換或重新風格化既有影像、填補影像中被遮罩的區域、加入來自邊緣、姿勢或深度圖的空間控制、載入 LoRA 風格適配器，或在 Diffusers 管線中解決記憶體不足與黑影像錯誤的情況。非僅用 API 且無 GPU 的生成情境（此時更適合使用 DALL‑E 3）。

@@ -1,0 +1,1 @@
+Use when the user asks for a second-opinion review from another agent (e.g., "get a second opinion", "review with pi", "review using gpt-6-astra", "/second-opinion"), or when review-code runs with `--second-opinion`. Runs a fresh pi session (or Claude Code, when already inside pi) on the review-code skill and relays its review.

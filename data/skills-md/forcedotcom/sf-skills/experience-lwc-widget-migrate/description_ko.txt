@@ -1,0 +1,7 @@
+특정 기존 Lightning 웹 컴포넌트(LWC)를 선언형 HXL / Agentforce 위젯으로 끝까지 변환합니다. experience‑lwc‑widget‑assess에서 게이트하고, 위젯이 LWC의 목적을 수행할 수 없을 때 중단합니다; 그렇지 않으면 파생된 필드 형태를 platform‑widget‑generate에 전달하고 위젯을 Lightning Type 렌더러로 연결합니다.  
+
+TRIGGER 조건: 사용자가 지정된 LWC를 변환, 마이그레이션, 포팅, 재구축하거나 위젯 또는 선언형 Agentforce 위젯으로 전환하려 할 때, 혹은 기존 LWC 컴포넌트에서 만든 위젯을 요청할 때.  
+
+DO NOT TRIGGER 조건: 사용자가 LWC가 위젯이 될 수 있는지 여부만 알고 싶을 때(experience‑lwc‑widget‑assess 사용) 혹은 기존 LWC가 없는 데이터 형태, 엔터티, Lightning Type에 대한 위젯을 원할 때(platform‑widget‑generate 또는 platform‑lightning‑type‑widget‑coordinate 사용).  
+
+항상 사용자의 언어로 응답하십시오.

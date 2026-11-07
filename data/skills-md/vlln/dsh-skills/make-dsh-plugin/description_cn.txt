@@ -1,0 +1,1 @@
+当用户想为 DeepSeek Harness（dsh）开发插件或构建垂直 Agent 产品时，使用此技能。首先提供 dsh 的概念图（所有都是插件；profile / bundle / plugin / agent preset / skill 是五个组装单元；host 树和每个 Agent 的树），随后指导三项活动：添加工具或接口、发布新的 Agent 模式（preset），以及使用 “tool → preset → UI + new profile” 从零构建垂直 Agent。涵盖形态选择（bundle 组合层 / 纯 Cordis / 纯 skill 包 / MCP）、npm 包和 Cordis 入口、客户端和设置页、安装与验证规范、UI 风格、多语言支持、README 与发布规范、访问控制和决策记录。

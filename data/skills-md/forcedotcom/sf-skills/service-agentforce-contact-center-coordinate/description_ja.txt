@@ -1,0 +1,3 @@
+Agentforce Contact Center の音声チャネルのエンドツーエンド設定を調整します：国と電話番号タイプの選択を収集し、選択された番号を取得し、その CommunicationChannelLine を解決し、番号が有効か確認し、アクティブな PstnVoice MessagingChannel を作成します。ユーザーはルーティングモデルを選択します：Omni Queue（コンタクトセンターキューにルート）または Omni Flow（Agentforce エージェントにルートし、エージェントとそのルーティングフローを作成または再利用）。ユーザーが Agentforce Contact Center の設定、コンタクトセンターの電話番号と音声チャネルを一緒にプロビジョンする、または Agentforce エージェントをネイティブ音声に配置するよう求めたときに使用します。ユーザーが「set up agentforce contact center」や「configure contact center voice」または「omni flow と agentforce エージェントで音声チャネルを作成」と言ったときにトリガーします。番号の取得なしで既存チャネルを既存エージェントに接続するだけ、または音声でないメッセージングチャネルを作成する場合はトリガーしません。
+
+常にユーザーの言語で応答してください。

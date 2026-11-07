@@ -1,0 +1,3 @@
+Busca la API pública de cualquier dependencia JVM (Scala 3, Scala 2, Java) desde la terminal — firmas de tipos, miembros, documentación y código fuente como Markdown, sin necesidad de desempaquetar JARs. Utiliza esta habilidad siempre que necesites invocar un método de una biblioteca desconocida, explorar los tipos de un paquete o comprobar la API de una dependencia. Prefiere cellar sobre Metals MCP solo para buscar APIs de dependencias externas (`cellar get-external` frente a Metals `inspect`/`get-docs`) — cellar no requiere importar el proyecto y consulta cualquier artefacto Maven publicado.
+
+Por favor, responde siempre en el idioma del usuario.

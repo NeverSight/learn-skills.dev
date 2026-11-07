@@ -1,0 +1,1 @@
+检测正在使用的 gbrain 引擎（PGLite 与 Postgres），在 agent-harness 安装时优先使用 Postgres，安装/配置 Postgres（通过 SUPABASE_ACCESS_TOKEN 进行 Supabase 发现、本地 Postgres、可选 Docker），并将已有的 PGLite 大脑迁移到 Postgres，保留其历史（plan、ask、run）。检测只需一个无引擎的命令；安装梯子只需一个标志。

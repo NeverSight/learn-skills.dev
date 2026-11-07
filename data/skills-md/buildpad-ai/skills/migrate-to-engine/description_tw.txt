@@ -1,0 +1,1 @@
+僅限引擎專案：完成將 Buildpad 專案從 Supabase 移至 Buildpad 引擎的工作。為引擎的執行環境重新編寫掛鉤、排程工作與自訂服務（engine‑plan/automation‑to‑review.json）無法直接執行的部分，並移植應用程式的程式碼：環境、登入、資料呼叫、檔案、管理員程式碼、資料表結構與存取規則、資料庫函式。於專案已搬遷、.buildpad/project.json 表示後端為 engine，或在要求將應用或自動化移植至引擎時使用。在 Supabase 專案上會說明搬遷過程並停止。

@@ -1,0 +1,3 @@
+Concedi flag di capacità a livello di applicazione agli utenti tramite le DaaS Module-Level Access Keys. Chiavi come `workflow:approve` o `system:logs` sono registrate in `daas_module_access_keys`, attivate nelle policy e verificate in React con `usePermissions().hasModuleAccess(key)` o nelle route API con la logica di merge OR già integrata nella piattaforma. Usa quando un'applicazione deve limitare una funzionalità, una pagina o un comando di workflow che non è legato a un'operazione CRUD di una collection.
+
+Per favore, rispondi sempre nella lingua dell'utente.

@@ -1,0 +1,3 @@
+Python Google ADK ツールおよびツールのようなサブエージェントのモデル向けインターフェースを設計、診断、またはレビューします。対象は FunctionTool の docstring とパラメータスキーマ、命名と名前空間、統合 vs 分割、ツール数の予算と動的ツールセット、結果の形状とサイズ、実行可能なエラー返却、そして AgentTool、sub_agents、single_turn モードの選択です。モデルが誤ったツールや引数を選択したとき、ツールの結果がコンテキストを肥大化させたとき、または新しいツールやツールセットにスキーマが必要なときに使用してください。外部呼び出しのリトライ、期限、冪等性（safe‑api‑tool‑calls）、認証情報とアイデンティティ（adk‑tool‑auth‑and‑secrets）、予算と承認ポリシー（adk‑operational‑guardrails）、ケースセット上の測定（adk‑agent‑evaluation）、エージェント指示テキスト（adk‑agent‑instructions）または出力スキーマ（adk‑model‑and‑output‑contracts）には適用しないでください。
+
+常にユーザーの言語で回答してください。

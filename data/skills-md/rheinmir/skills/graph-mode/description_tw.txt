@@ -1,0 +1,1 @@
+啟用證據鏈規則（R19）於聊天部分——強制所有推理鏈在可見證據（observed/tool-record/graph-edge/web/parametric/absence）處終止，與 fable5（一般推理規範，無引用限制）不同。當使用者說「graph‑mode」、「啟用 graph mode」、「evidence mode」或呼叫 /graph‑mode 時使用。因代幣負擔較重（必須引用/開啟檔案比每個回答都多），所以不要在每個會話自動啟用——僅在手動呼叫時開啟。一次啟用後會在整個會話期間保持活躍（可透過「關閉 graph mode」/「graph‑mode off」/「normal mode」關閉）。請始終以使用者的語言回覆。

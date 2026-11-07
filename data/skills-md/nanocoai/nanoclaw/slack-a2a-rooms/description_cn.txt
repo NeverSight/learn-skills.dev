@@ -1,0 +1,1 @@
+代理对代理 Slack 房间——一种群组直接消息（MPIM），包含一名人类以及两个或更多 NanoClaw 兄弟机器人，每个机器人通过各自的 Socket Mode 连接监听该房间。 在 Slack 频道的 bot 入站守卫上注册接纳策略，使得仅对在 SLACK_A2A_ROOMS 白名单中的房间接受机器人生成的入站消息（重新归属为 slack:bot:<botId>，并通过 SLACK_A2A_MAX_HOPS 限制跳数），以及使用 scripts/open-a2a-room.ts 脚本来打开房间并注册它。

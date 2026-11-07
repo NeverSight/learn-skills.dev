@@ -1,0 +1,1 @@
+ヘッドレスの Omni-Channel スーパーバイザー構成を立ち上げるために、classic OmniSupervisorConfig（親とスーパーバイザー ユーザーおよびキューのコンパニオン）を 1 回のアトミックな Metadata API デプロイでデプロイし、デプロイ状態により冪等性を確保します。アクティブなスーパーバイザー ユーザー、Omni の基本設定、監視対象キューが必要です。トリガー: Omni Supervisor のセットアップ、classic Supervisor Command Center の構成。スーパーバイザー ユーザーの作成、ContactCenterSupervisor 権限セットの割り当て、キュー・サービスチャネル・プレゼンスステータスのデプロイには使用しないでください。

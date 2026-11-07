@@ -1,0 +1,5 @@
+在 RunComfy 上通过 `runcomfy` CLI 为静止图像重新照明——更改灯光设置、色温、方向或情绪。  
+路由到 Qwen Edit 2509 的专用 `relight` LoRA 接口，用于专门的重新照明；当仅使用文字描述灯光即可时，若需保留身份特征，则回退到身份保持编辑接口（Nano Banana 2 Edit、GPT Image 2 Edit、FLUX Kontext Pro）。  
+可用于产品重新照明（工作室柔光箱 → 窗光）、人像情绪转换（阴天 → 金色时光）或色彩分级调整。  
+当出现 “relight”、 “relighting”、 “change the lighting”、 “make it golden hour”、 “studio lighting”、 “rim light”、 “blue hour”、 “soft window light”、 “change light direction”、 “color temperature” 或任何明确要求改变静止画面光照的表述时触发。  
+请始终使用用户的语言回复。

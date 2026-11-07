@@ -1,0 +1,3 @@
+Pipeline complet du séquençage complet du génome (WGS) au score de risque polygénique. Prend en entrée des fichiers FASTQ appariés (ou un VCF préexistant) et les fait passer par nf‑core/sarek pour l’appel de variantes, applique un contrôle qualité VCF (normalisation, filtrage strict, vérifications Ti/Tv et Het/Hom), puis calcule les scores de risque polygénique via le catalogue PGS. Comble le vide entre FASTQ et VCF en amont de la compétence gwas‑prs.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

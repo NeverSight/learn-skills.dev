@@ -1,0 +1,1 @@
+PostHog KEA 논리 파일 (`* Logic.ts'/`* Logic.tsx`) 을 작성하거나 검토하기 위한 가이드. 새 로직을 생성하거나, 액션/리듀서/셀렉터/리스너/로더/폼/라우터 바인딩을 추가하거나, 리듀서 대 셀렉터 대 캐시 중에서 선택하거나, 리스너와 'kea-subscriptions` 사이에서 결정하거나, `useValues'/`useActions`/`BindLogic` 으로 React를 배선하거나, kea 규칙에 온보딩할 때 사용합니다. 업스트림 API에 대한 keajs.org를 읽으십시오. 이 기술은 PostHog 관련 규칙과 관용구를 캡처합니다.

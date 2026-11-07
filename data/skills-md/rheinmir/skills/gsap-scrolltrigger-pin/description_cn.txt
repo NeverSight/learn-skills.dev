@@ -1,0 +1,1 @@
+当滚动到时固定一个区段，然后通过 GSAP ScrollTrigger 将垂直滚动转换为水平滚动（pin + scrub + 对轨道的 xPercent 动画）。当用户说 “gsap scrolltrigger”、 “pin section”、 “cuộn ngang”、 “horizontal scroll section”、 “scroll-driven horizontal”、 “pinned horizontal scroll” 或 /gsap-scrolltrigger-pin 时调用。不同于 `scroll-effects`（7 种轻量 vanilla 效果，无依赖，不固定）和 `lenis-smooth-scroll`（全页面平滑滚动，无固定/不改变滚动方向）——此技巧需要 GSAP，并且仅适用于单个特定的固定区段。

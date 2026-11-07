@@ -1,0 +1,1 @@
+Django를 django-storages와 함께 AWS S3에 정적 및 미디어 파일을 저장하도록 구성할 때 사용합니다. STORAGES 설정, S3 버킷, 프리사인드 URL, CloudFront 또는 boto3 기반 파일 저장소를 settings.py에서 사용할 때 호출합니다. Django 4.2+ STORAGES 딕셔너리, 공개/비공개 커스텀 백엔드, 프리사인드 GET/POST URL, IAM 정책, 테스트를 위한 S3 모킹을 구성합니다. 트리거 용어: django-storages, S3, boto3, S3Boto3Storage, STORAGES, 프리사인드 URL, CloudFront, 미디어 파일, collectstatic, AWS_STORAGE_BUCKET_NAME.

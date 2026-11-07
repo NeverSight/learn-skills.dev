@@ -1,0 +1,5 @@
+在本仓库中审查 Confluent 代理技能时，需要依据 Agent Skills 规范（agentskills.io）、CLAUDE.md 中的 Confluent 约定、PR 模板的门槛以及 evals-as-contract 规则。每当用户要求审查、审计、验证或 lint 某个技能；打开或检查针对 `skills/` 目录下新增或修改内容的 PR；询问规范符合性、懒加载、frontmatter 结构、触发器重叠或评估覆盖情况；或希望对技能更改进行合并前的健全性检查时，都使用此技能。
+
+请勿在以下情形触发：对应用代码进行一般代码审查；安全审查；审计模式、生产者/消费者配置、PII 标记或 Schema Registry 的 Terraform 生成（由 `kafka-schema-registry` 处理）；对技能行为的运行时/日志分析（使用 `tools/skill_review_dashboard.py`）；或任何未涉及 `skills/` 树的更改。
+
+请始终使用用户的语言进行回复。

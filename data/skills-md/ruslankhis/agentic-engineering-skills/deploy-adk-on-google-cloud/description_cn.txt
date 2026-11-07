@@ -1,0 +1,1 @@
+选择、实施、改编或审计在 Cloud Run、Agent Runtime 或 GKE 上部署 Python Google ADK 代理，包括身份、打包、浏览器验证、恢复和拥有资源的清理。用于 ADK 托管决策和部署生命周期工作。不要在以下场景中激活：通用 Kubernetes 管理、非 ADK 应用、金丝雀、回滚或后续版本的评估门（adk-release-engineering）、测量性能调优（optimise-adk-on-google-cloud）、遥测和警报（adk-agent-observability）、FastAPI 路由和进程形状（adk-fastapi-backend）、仅提示的更改（adk-agent-instructions 拥有提示措辞），以及没有部署任务的 RAG 和记忆设计。

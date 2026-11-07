@@ -1,0 +1,11 @@
+MUSS VERWENDET WERDEN, wenn der Benutzer im Internet recherchieren/suchen/nachschlagen möchte – z. B. „eine vollständige Web‑Umfrage zu X durchführen“, „hilf mir, X zu recherchieren“, „X überprüfen“, „nach X suchen“, „sehen, was jeder über X denkt“, „welche Diskussionen es zu X gibt“ oder „dieses Thema recherchieren“.  
+Ebenfalls MUSS VERWENDET WERDEN, wenn der Benutzer irgendeine Plattform erwähnt oder irgendeinen URL/Link teilt: Xiaohongshu (小红书/xhs), Twitter (推特/X), Bilibili (B站), Reddit, V2EX, LinkedIn (领英/招聘/求职/jobs), YouTube, GitHub‑Code‑Suche, Xiaoyuzhou‑Podcast (小宇宙播客), Snowball/Aktienkurse (雪球), RSS‑Feeds oder irgendeine Web‑URL.  
+
+Unterstützt 13 Plattformen mit Multi‑Backend‑Routing (OpenCLI / plattformspezifische CLIs / APIs). Null‑Konfiguration für sechs Kanäle. Führe `agent-reach doctor --json` aus, um zu sehen, welches Backend derzeit jede Plattform bedient.  
+
+NICHT geeignet für: das Schreiben von Berichten, Datenanalyse, Übersetzung oder andere Inhaltsverarbeitung (diese Fähigkeit ruft nur Inhalte aus dem Internet ab); das Posten, Kommentieren, Liken oder andere Schreibaktionen; Plattformen, die bereits eine dedizierte Fähigkeit besitzen (verwende zuerst die dedizierte Fähigkeit).  
+
+**Routing‑Methode**: SKILL.md enthält die Routing‑Tabelle und gängige Befehle; bei komplexen Szenarien die entsprechenden references/*.md‑Dateien nach Bedarf lesen. Kategorien: Suche / Social (Xiaohongshu, Twitter, Bilibili, V2EX, Reddit) / Karriere (LinkedIn) / Entwicklung (GitHub) / Web (Webseiten/Artikel/RSS) / Video (YouTube, Bilibili, Podcasts).  
+
+Bitte immer in der Sprache des Benutzers antworten.  
+Bitte immer in der Sprache des Benutzers antworten.

@@ -1,0 +1,3 @@
+anti-AI-slop 롤아웃 계획(anti‑slop/todo.md, 이유는 anti‑slop/plan.md에 있음)의 다음 단계를 하나의 풀 리퀘스트로 수행하십시오: 계획에 기록된 스택(엄격한 TypeScript 플래그, sonarjs, unnecessary‑effect, 테스트 린트 규칙, 레이어 경계, 과거 버그에서 만든 커스텀 린트 규칙, 에이전트 훅, Stryker 변이 테스트, knip 및 dead‑file 스크립트, jscpd, react‑doctor, CI 게이트, 예약 보고서, 그리고 에이전트 규칙 파일의 최종 정리) 중 하나에 단일 검사를 추가하고, 찾은 문제를 수정하거나 기준점을 설정하고, 해당 명령을 에이전트 규칙 파일에 문서화하고, 검증한 뒤 PR을 열어주세요. 사용자가 “next anti‑slop step”, “do step N of the plan”이라고 말하거나, AGENTS.md 또는 CLAUDE.md의 린터가 현재 커버하는 규칙을 물어보거나, knip, jscpd, react‑doctor, Stryker, sonarjs 또는 경계를 단계적으로 설정(경고 먼저, 마지막에 CI 게이트)하고 싶을 때 이 작업을 수행하십시오. anti‑slop‑audit에서 계획이 필요합니다; 계획이 없으면 먼저 감사를 실행하십시오.
+
+항상 사용자의 언어로 답변하십시오.

@@ -1,0 +1,1 @@
+在 Kubernetes 或 OSMO 上运行 CDF 编排事件视频生成 DAG——图像转视频的异常生成、自动标注和异常数据集生成。用于处理关于事件视频生成、异常视频生成、图像转视频合成、Cosmos3 image2video、异常数据集创建、安全/监控 SDG，或从种子图像生成跌倒、爬升、跑步、打架、吸烟/电子烟、火灾/烟雾、或盗窃视频片段的请求。覆盖 event_video_generation_dag_k8s 与仅外部端点的 event_video_generation_dag_osmo。当控制器就绪状态未知时，先进行环境设置。此功能不用于人物裁剪衣物/属性增强（即 cdf-image-attribute-augmentation），也不用于视频风格迁移。

@@ -1,0 +1,1 @@
+檢查並規劃與 Gtars 的工作，Gtars 是一套使用 Rust、Python 與 CLI 實作的基因組區間工具套件，提供 BED RegionSet 的集合代數（reduce、setdiff、intersect、closest、cluster、gaps）、重疊計數、共識峰集合、覆蓋率、分詞器、片段處理以及 refget/BEDbase 儲存。適用於合併或比較 BED 區間集合、從峰值建立共識或全集、為機器學習模型分詞區域、處理片段檔案，或規劃 refget 序列收集與 BEDbase 快取的使用。在執行 gtars 前，用於檢查 BED 座標、contig 或鏈向。並非用於一般的 BAM/VCF 處理；此類需求請使用 samtools 或 bedtools。

@@ -1,0 +1,1 @@
+使用 Codeguard 对 PowerShell 项目执行和诊断代码风格把关；当用户请求 linting、格式检查、自动修复、预提交质量验证，或遇到与 `pwsh -NoProfile -Command 'Invoke-ScriptAnalyzer -Path . -Severity Error'` 相关的失败时使用它。首先验证仓库配置和工具可用性，将结果分类为通过、失败、无法验证或计划中，并在进行任何修复后重新运行。请始终使用用户的语言作答。

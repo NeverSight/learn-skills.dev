@@ -1,0 +1,3 @@
+Genere diagramas de cableado de módulos, asignaciones de pines y tablas de cableado (entrega central de Scope‑A, liberando la vía de hardware). Utilice esto cuando el usuario necesite un "diagrama de cableado/diagrama de conexión", "asignación de pines/pinmap", "cómo cablear" o un "arnés/arnés de cableado". Mapee los módulos listados en la BOM a los pines del MCU en los pines disponibles del controlador principal, produciendo contracts/pinmap.yaml (pasado a través de la puerta pinmux_check) + design/wiring.svg + harness.md, con verificación manual para cada red.
+
+Por favor, responda siempre en el idioma del usuario.

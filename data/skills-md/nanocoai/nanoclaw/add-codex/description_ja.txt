@@ -1,0 +1,1 @@
+Codex（OpenAI の codex アプリサーバー）をフルエージェントプロバイダーとして使用し、計画、ツールのオーケストレーション、MCP ツール、サーバー側履歴、セッション再開を行います—Claude と併用または置き換えて使用できます。ChatGPT のサブスクリプションまたは OpenAI API キーは、選択したゲートウェイ経由でボールトのみで使用します。`ncl groups config update --provider codex` によるグループ単位の設定です。Claude がプランナーのまま、OpenAI を MCP ツールとして使用する場合とは区別されます。

@@ -1,0 +1,3 @@
+PolarDB‑X 2.0 企業版的線上 DDL 安全評估與無鎖執行。透過 EXPLAIN ONLINE_DDL 判斷 DDL 是否會鎖定資料表，若會則以 ALGORITHM=OMC 重寫以實現無鎖執行，於 DDL 前檢查長交易，並在使用者確認後指導安全的 DDL 執行。  
+適用於在 PolarDB‑X 上執行 DDL 並需要評估表格鎖定風險、當 DDL 可能鎖定表格且需要無鎖替代方案，或在 DDL 前檢查長交易的情況。  
+觸發詞：「Online DDL」、 「DDL鎖表」、 「lock‑free DDL」、 「OMC」、 「MDL lock」、 「DDL安全」、 「EXPLAIN ONLINE_DDL」、 「DDL進度」、 「長交易檢查」、 「無鎖變更」、 「DDL locks table」、 「lock‑free change」、 「DDL progress」、 「safe DDL」。

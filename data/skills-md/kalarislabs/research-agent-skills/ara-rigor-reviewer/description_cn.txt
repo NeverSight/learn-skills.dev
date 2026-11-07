@@ -1,0 +1,3 @@
+对 Agent‑Native Research Artifact 目录执行 ARA Seal Level 2 语义认知审查，读取 PAPER.md、logic/claims.md、logic/experiments.md 和 trace/exploration_tree.yaml。对六个维度（证据相关性、可证伪性、范围校准、论证连贯性、探索完整性、方法严谨性）进行 1‑5 评分，并生成按严重程度排序的 level2_report.json，给出从强接受到拒绝的评级。适用于 Level 1 结构验证已通过且 ARA 在发布前需要批评的情形；适用于检查主张是否得到其引用实验的支持；适用于审计可证伪性标准或范围夸大；适用于判断探索树是否记录了真实的死路。非结构或引用验证的场景请使用 Level 1。
+
+请始终使用用户的语言回复。

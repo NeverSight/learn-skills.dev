@@ -1,0 +1,3 @@
+RunComfy の `runcomfy` CLI を使った画像アウトペインティング — 静止画を元のキャンバスの外へ拡張し、カメラが捉えられなかった部分を埋め、元の内容を維持しながらアスペクト比（正方形 → 16:9、ポートレート → ランドスケープ）を変更します。Nano Banana 2 Edit（デフォルト、空間言語駆動）、GPT Image 2 Edit（参照スタイルマッチングを伴うマルチリファレンス）、FLUX Kontext Pro（単発最大保存）、およびブランド編集エンドポイント（Seedream / Dreamina / Qwen / FLUX 2）にルーティングします。アウトペイントが文章駆動、参照駆動、またはブランドロックかに応じて最適なルートを選択します。「outpaint」「outpainting」「extend image canvas」「expand the image」「fill in around the photo」「uncrop」「change aspect ratio」「extend frame」「wide‑screen from square」など、既存の静止画の周囲にキャンバスを追加する明示的な要求があったときにトリガーされます。
+
+常にユーザーの言語で返信してください。

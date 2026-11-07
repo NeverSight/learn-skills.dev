@@ -1,0 +1,1 @@
+搜寻 gRPC 漏洞——服务器反射已启用（枚举所有服务/方法）、内部端点缺少身份验证/元数据剥离、明文 gRPC over HTTP/2、内部端点泄露、proto 文件泄漏、gRPC-Web / grpc-gateway 转码注入，以及 HTTP/2 Rapid Reset DoS（CVE-2023-44487）。当目标在端口 50051 / 443 / 8443 / 9090 上暴露 HTTP/2、grpcurl/grpcui 检测到反射、Envoy 或 grpc-gateway 代理前置微服务，或侦察显示微服务架构时使用。

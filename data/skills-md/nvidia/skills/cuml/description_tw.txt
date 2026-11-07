@@ -1,0 +1,1 @@
+在撰寫、執行、除錯或升級使用 NVIDIA cuML（GPU 機器學習）、cuml.accel（零程式碼變更的 scikit-learn、umap‑learn 與 hdbscan GPU 加速）或 GPU UMAP/HDBSCAN/RandomForest/KMeans/SVC 的 Python 程式碼時使用，亦包括透過封裝 cuML 的函式庫（如 BERTopic、rapids‑singlecell）。涵蓋 2025‑2026 版中移除或重新命名的 API、驗證程式碼確實在 GPU 上執行、大規模資料 UMAP/HDBSCAN 記憶體處理方式，以及匯出已訓練模型。不適用於僅使用 cuDF 資料框、PyTorch 或 XGBoost 的情境。

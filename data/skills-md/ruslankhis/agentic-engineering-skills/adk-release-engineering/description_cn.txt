@@ -1,0 +1,1 @@
+设计、实现或审计 Python Google ADK 代理的发布生命周期：提示和配置版本控制、固定模型和评审 ID、CI 中带阈值的评估门、重复和成本策略、带重新基准的模型版本迁移、分阶段提升以及提示、模型、工具模式和密钥的联合回滚，并从生产样本刷新评估集。当关注发布、CI 门、模型停用通知、金丝雀、回滚或陈旧评估集时使用。不要在首次部署或打包（deploy‑adk‑on‑google‑cloud）、编写评估用例或迭代循环（adk‑agent‑evaluation）、选择模型设置（adk‑model‑and‑output‑contracts）、提示措辞（adk‑agent‑instructions）或生产监控（adk‑agent‑observability）时激活。

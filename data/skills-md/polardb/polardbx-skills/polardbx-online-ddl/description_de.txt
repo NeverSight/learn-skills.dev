@@ -1,0 +1,3 @@
+Online‑DDL‑Sicherheitsbewertung und sperrfreie Ausführung für PolarDB‑X 2.0 Enterprise Edition. Ermittelt mithilfe von EXPLAIN ONLINE_DDL, ob DDL die Tabelle sperrt, rewritet mit ALGORITHM=OMC für sperrfreie Ausführung, prüft lange Transaktionen vor dem DDL und leitet die sichere DDL‑Ausführung mit Benutzerbestätigung an.  
+Verwendung beim Ausführen von DDL auf PolarDB‑X, wenn das Risiko einer Tabellensperrung beurteilt werden muss, wenn DDL die Tabelle sperren würde und eine sperrfreie Alternative nötig ist, oder wenn lange Transaktionen vor DDL geprüft werden sollen.  
+Trigger: „Online DDL“, „DDL锁表“, „lock‑free DDL“, „OMC“, „MDL lock“, „DDL安全“, „EXPLAIN ONLINE_DDL“, „DDL进度“, „长事务检查“, „无锁变更“, „DDL locks table“, „lock‑free change“, „DDL progress“, „safe DDL“

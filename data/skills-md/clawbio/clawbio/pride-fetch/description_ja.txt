@@ -1,0 +1,1 @@
+PRIDE Archive（EMBL‑EBI のプロテオミクス同定データベース）からメタデータを照会し、データをダウンロードするために、PRIDE Archive REST API v3 を使用します。PRIDE/ProteomeXchange のアクセッション（PXD、PRD）に対応し、プロジェクトメタデータの取得、ファイル（RAW、mzIdentML、mzML、mzTab、MGF、SDRF）の一覧表示とダウンロード、プロジェクト検索、標準化された metadata.tsv の出力、quantms 用の最小限の SDRF サンプルシートの作成、そして bash + SLURM のダウンロードスクリプトを生成します。

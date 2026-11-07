@@ -1,0 +1,12 @@
+Copilot dejó 14 comentarios de revisión en tu PR — la mitad son trivialidades.  
+Horas de corrección → respuesta → resolución → nueva solicitud, y cada ronda genera MÁS comentarios.  
+
+Esta habilidad ejecuta ingeniería en bucle: dispara automáticamente la revisión de código de Copilot vía GraphQL (sin mencionar @copilot), triagea cada hilo abierto (Copilot, humanos, seguridad avanzada) con una rúbrica de arreglar / rechazar / escalar, despliega sub‑agentes de corrección paralelos que siguen las convenciones de build/test/lint del repositorio, realiza commits por iteración, responde + resuelve citando el SHA enviado, y luego vuelve a dispararse hasta que HEAD esté revisado sin hilos pendientes de respuesta del agente (los hilos abiertos restantes son entregas explícitas al humano — rechazos escalados, compensaciones de diseño).  
+
+Fusionas un PR limpio; el bot lo ejecuta.  
+
+Frases de activación: "address copilot comments", "run a copilot review loop", "fix this PR", "iterate on copilot feedback".  
+
+Independiente del repositorio, gh CLI + PowerShell.  
+
+El modo autopiloto completo requiere permisos de Triage/Write en el repositorio; los autores externos de PR obtienen un modo de iteración única más reactivación manual (UI 🔄 o push de commit sustantivo).

@@ -1,0 +1,2 @@
+使用 Microsoft MarkItDown（Python API、markitdown CLI、markitdown‑ocr 插件、markitdown‑mcp 伺服器）將文件轉換為 Markdown，支援 PDF、Word、PowerPoint、Excel、HTML、CSV、EPUB、ZIP 以及串流，並支援 Azure 抽取。適用於為 LLM/RAG 吞入準備論文或報告；將文獻資料夾批次轉換為帶有來源資訊的 Markdown；轉換上傳的位元組或檔案串流；需要對掃描的 PDF 或影像文字進行 OCR 時；以及透過 MCP 向本地代理暴露轉換功能時。不要用於取得邊界框或頁面座標（請使用 LiteParse）或 PDF 合併／分割／表單（請使用 pdf skill）。  
+請始終以使用者的語言回覆。

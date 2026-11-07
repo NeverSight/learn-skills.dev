@@ -1,0 +1,1 @@
+Configure permissions on junction and child collections so that nested relational writes (M2M, O2M, M2A) are enforced at every level — not just the parent. Use when setting up write access for collections that participate in relational fields, or when debugging silent no-ops on nested mutations.

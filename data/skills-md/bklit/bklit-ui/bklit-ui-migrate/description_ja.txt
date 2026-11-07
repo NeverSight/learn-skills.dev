@@ -1,0 +1,3 @@
+アプリのチャートを Recharts から Bklit UI に移行します。Recharts の使用を検出します — 直接の `recharts` インポートや shadcn/ui の `components/ui/chart.tsx` ラッパー（ChartContainer、ChartConfig、ChartTooltipContent、ChartLegendContent） — すべてのチャートをインベントリ化し、各チャートをクリーン／回避策が必要／Recharts のまま維持のいずれかに分類し、対応する `@bklit/*` shadcn レジストリ項目をインストールし、データ、色、ラベルを保持しながら各チャートを同等の bklit コンポーネントに書き換えます。ユーザーが Recharts または shadcn のチャートを bklit に置き換える、移行する、変換する、ポートする、Recharts の依存関係を削除する、またはチャートライブラリの切り替えに何が必要か尋ねたときに使用してください。
+
+常にユーザーの言語で回答してください。

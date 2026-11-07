@@ -1,0 +1,1 @@
+使用 Trivy 进行源码安全扫描——如果未安装 Trivy，则自行检查/安装，扫描后端/前端的漏洞、配置错误和密钥，输出 JSON + HTML 报告，摘要 HIGH/CRITICAL 级别，并提出/应用修复（升级依赖、使用非 root 用户）。除了 Trivy 静态扫描外，还要通过真实请求验证开发者的默认假设是否错误（认证仅在 UI、“内部应安全”、CORS、默认配置、分支部署错位）。在用户说 “安全扫描”、“trivy”、“scan vuln”、“security scan”、“check CVE”、“有漏洞吗”、“安全吗”、“/orca-sec-scans” 时使用。

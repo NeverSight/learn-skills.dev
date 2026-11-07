@@ -1,0 +1,1 @@
+构建、评估和审计右删失生存分析工作流，使用 scikit-survival（sksurv）：Cox PH、Coxnet、IPC ridge、生存树、森林、提升和 SVM，以及竞争风险的非参数累计发生率。涵盖防泄漏的 scikit-learn 管道、嵌套交叉验证和考虑删失的指标。当在时间‑事件数据上拟合生存模型、构建结构化结果数组、计算 IPCW 一致性、动态 AUC 或 Brier 分数、估计特定原因的累计发生率，或在无泄漏的情况下调参时使用。不适用于 Fine‑Gray 回归，scikit-survival 并未提供此功能。

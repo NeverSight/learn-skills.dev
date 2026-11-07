@@ -1,0 +1,1 @@
+使用 Terraform 设置 Datadog AWS 集成——创建 Datadog 使用的跨账户 IAM 角色（外部 ID，无存储凭证），附加 Datadog 发布的权限策略，并通过 datadog_integration_aws_account 注册账户，使 AWS 指标、资源目录和 CSPM 发现开始流入。适用于用户拥有需要监控的 AWS 资源、希望将 AWS 账户连接到 Datadog、请求设置或修复 AWS 集成，或需要提供 Datadog IAM 角色和外部 ID 的情况。不包含日志转发设置。

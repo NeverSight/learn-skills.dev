@@ -1,0 +1,3 @@
+Genera lo scheletro del progetto firmware per la corsia di controllo (architettura a 4 strati + pianificazione a fette temporali + FSM + PID + VOFA + protocollo K230). Usalo quando l'utente vuole “generare scheletro firmware/progetto”, “costruire un framework firmware” o “produrre un progetto MSPM0/STM32”. Riutilizza il layering e la pianificazione dalla knowledge base 08, con le definizioni dei pin da contracts/pinmap.yaml e la ricezione dei frame K230 usando contracts/protocol.h. I parametri di controllo sono segnaposti in attesa di taratura, e l'inizializzazione dei periferici deve essere verificata manualmente.
+
+Rispondi sempre nella lingua dell'utente.

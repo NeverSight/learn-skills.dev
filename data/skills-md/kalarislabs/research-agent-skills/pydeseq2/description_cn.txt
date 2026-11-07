@@ -1,0 +1,1 @@
+使用 PyDESeq2（DESeq2 的 Python 移植版）对大规模 RNA‑seq 计数数据进行差异表达分析。支持基于公式的单因素和多因素设计、对比、Wald 检验、Benjamini‑Hochberg FDR 校正、可选的 apeGLM LFC 收缩、pandas 与 AnnData（H5AD）集成、CSV 导出、火山图和 MA 图以及命令行脚本。适用于比较处理组与控制组等条件下的基因表达，或在考虑批次或协变量时使用，亦可将 R 版 DESeq2 工作流迁移至 Python，或构建基于原始整数计数的 Python 差异表达流水线。**不适用于单细胞数据或 R 版 DESeq2 本身**。

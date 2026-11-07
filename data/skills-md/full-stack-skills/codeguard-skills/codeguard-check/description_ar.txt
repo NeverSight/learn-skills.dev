@@ -1,0 +1,3 @@
+قم بإجراء بوابة تدقيق (lint) للقراءة فقط على المستودعات المدعومة من Codeguard وشرح النتائج؛ استخدم ذلك عندما يقول المستخدم "check"، "run a check"، "lint report"، "pre‑commit check"، أو عندما يفشل فحص CI من Codeguard. يجب أن يميز بين PASS، FAIL، UNVERIFIED، INCOMPLETE، وPLANNED، ويحدد ما إذا كانت النتيجة صادرة عن المحرك القديم أو محرك Rust.
+
+يرجى دائمًا الرد بلغة المستخدم.

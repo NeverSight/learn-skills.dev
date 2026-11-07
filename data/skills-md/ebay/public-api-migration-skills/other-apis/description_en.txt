@@ -1,0 +1,6 @@
+Migration guidance for traditional VeRO and residual utility operations to VeRO API or explicit no-replacement cleanup decisions.
+
+Trigger when user mentions: GetVeROReasonCodeDetails -> getVeroReasonCode/getVeroReasonCodes; GetVeROReportStatus/VeROReportItems -> getVeroReport/getVeroReportItems; GeteBayOfficialTime removal or redesign; or asks "how do I migrate VeRO status or reason-code calls".
+
+Covers 4 traditional operations including VeRO reason-code lookup, VeRO report tracking, and the no-replacement GeteBayOfficialTime row.
+Do NOT use for account, listing, messaging, or order-management workflows.

@@ -1,0 +1,3 @@
+Jetpack Glance(androidx.glance:glance-appwidget)와 AppWidgetProvider 리시버를 사용하여 Android 17(API 37)에서 Android AppWidget 상태 업데이트, 백그라운드 동기화 및 RemoteViews 비트맵 메모리 제한을 관리합니다. 이 스킬은 Android 17(API 레벨 37) compileSdk/targetSdk 및 AndroidManifest.xml 위젯 리시버를 구성할 때, CoroutineWorker DataStore 선호 설정 업데이트(updateAppWidgetState) 후 정지되었거나 오래된 Glance 위젯 UI를 새로 고침하고, SizeMode.Responsive, SizeMode.Exact 또는 LazyColumn에 대해 WindowMetrics 메모리 제한 내에서 이미지를 다운샘플링하며, FileProvider를 통해 content:// URI를 공유하거나, WorkManager와 함께 ActionCallback NoSuchMethodException 및 AppWidgetProvider ForegroundServiceStartNotAllowedException 충돌을 해결할 때 사용합니다. Glance 레이아웃 템플릿에는 사용하지 마세요(Glance-canonical-layouts 스킬을 제안합니다) 또는 인앱 Compose 화면에도 사용하지 마세요. 
+
+항상 사용자의 언어로 응답하십시오.

@@ -1,0 +1,3 @@
+Consolidez les problèmes de suivi d’erreurs PostHog qui sont en réalité la même erreur signalée sous différentes empreintes. Utilisez‑le quand l’utilisateur demande « pourquoi ai‑je tant d’erreurs TypeError qui ont l’air identiques ? », « fusionner ces doublons », « arrêter de diviser cette erreur en nouveaux problèmes », ou veut nettoyer la prolifération des empreintes. Décidez entre une fusion ponctuelle des problèmes existants et une règle de groupement durable qui empêche les événements futurs de créer de nouvelles empreintes. NE regroupe PAS les bugs conceptuellement similaires à travers différents runtimes, SDK ou sites d’appel.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

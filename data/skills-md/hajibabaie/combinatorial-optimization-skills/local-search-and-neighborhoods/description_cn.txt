@@ -1,0 +1,1 @@
+当用户想要设计或实现基于邻域的局部搜索——选择移动（swap、insertion、2-opt、Or-opt、exchange），编写 O(1)/O(n) 增量评估，首改与最佳改进，扫描顺序以及移动数据结构。也在用户提到“local search”“2-opt”“neighborhood”“delta evaluation”“hill climbing”“first improvement”或启发式每次移动后重新计算完整目标时使用。若要接受劣化移动以逃离局部最优，请参见 simulated-annealing；若要使用扰动并重新启动的包装，请参见 iterated-local-search。

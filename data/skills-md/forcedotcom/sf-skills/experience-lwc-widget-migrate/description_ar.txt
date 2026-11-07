@@ -1,0 +1,3 @@
+تحويل مكوّن Lightning web component (LWC) موجود محدد إلى عنصر واجهة HXL / Agentforce إعلاني، من البداية إلى النهاية. يتحقق عبر experience-lwc-widget-assess ويتوقف عندما لا يستطيع العنصر تلبية هدف الـ LWC؛ وإلا يسلم الشكل المستمد للحقول إلى platform-widget-generate ويربط العنصر كمُعرض Lightning Type. يُفَعَّل عندما: يرغب المستخدم في تحويل، أو ترحيل، أو نقل، أو إعادة بناء، أو تحويل LWC مسمى إلى عنصر واجهة أو عنصر Agentforce إعلاني، أو يطلب عنصرًا تم بناؤه من مكوّن LWC موجود. لا يُفَعَّل عندما: يريد المستخدم فقط معرفة ما إذا كان بإمكان LWC أن يصبح عنصرًا (استخدم experience-lwc-widget-assess)، أو يريد عنصرًا لشكل بيانات، كيان، أو Lightning Type دون وجود LWC (استخدم platform-widget-generate أو platform-lightning-type-widget-coordinate).
+
+يرجى دائمًا الرد بلغة المستخدم.

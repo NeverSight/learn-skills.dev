@@ -1,0 +1,9 @@
+従来の Notification API 呼び出しと従来のプラットフォーム通知イベントを Notification API のトピックおよびサブスクリプションリソースに移行するためのガイダンス。
+
+ユーザーが GetNotificationPreferences、SetNotificationPreferences、GetNotificationsUsage、または BestOffer、BidPlaced、FeedbackReceived、EndOfAuction、My Messages 通知、ウォッチリスト通知などのプラットフォームイベントを言及したとき、あるいは Trading プラットフォームの通知を Notification API のトピックに移行する方法を尋ねたときにトリガーされます。
+
+3 つの従来の Notification API 呼び出し、具体的にマッピングされたプラットフォームイベント（証拠をバンドル）、および残りの通知行に対する明示的な未解決ステータスのインベントリをカバーしています。
+
+注文の取得、出品作成、または通知以外の移行作業には使用しないでください。
+
+常にユーザーの言語で回答してください。

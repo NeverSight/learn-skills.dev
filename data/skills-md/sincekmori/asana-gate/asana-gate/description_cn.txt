@@ -1,0 +1,3 @@
+通过 asana-gate 操作 Asana，asana-gate 是一个策略网关，它在 Asana REST API 前放置声明式 YAML 策略，以供 AI 代理、MCP 工具（asana_*）和 asana-gate 命令行使用。只要任务以任何方式接触 asana-gate，都应使用它：编写或修复策略（where/allow/deny 范围、约束如必需成员、标题前缀、速率限制和确认）、运行 asana-gate 命令、调用其 MCP 工具、读取其拒绝信息（404 未识别的 ID，403 asana-gate:，400 不满足策略，428 确认，429 限制），配置 .asana-gate 设置或缓存，或决定代理在 Asana 中可以执行的操作。用户在提及 allowed_actions、Asana 策略、gate 或 Asana 的 MCP 服务器而未提及 asana-gate 时，同样适用。
+
+请始终使用用户的语言回复。

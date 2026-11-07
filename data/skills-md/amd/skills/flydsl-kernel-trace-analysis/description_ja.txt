@@ -1,0 +1,1 @@
+rocprofv3 を使用して GPU カーネルをプロファイルし、ATT 命令レベルのトレースを収集します。その後、hotspot_analyzer.py でトレースデータを解析し、上位 K 個のストールホットスポット（VMEM‑load、VMEM‑wait、LDS/SMEM‑wait、バリア、MFMA ストール）をソース行にマッピングして、実行可能な最適化プランを作成します。また、rocprofv3 の PMC カウンタ CSV（L2 ヒット率、部分読み取り、オーバーフェッチ）も解析します。使用方法: /kernel-trace-analysis <cmd> 既存のディスパッチディレクトリを直接解析することもできます: /kernel-trace-analysis --dir <path>

@@ -1,0 +1,1 @@
+實作或審查已驗證使用者/會話所有權的 Google ADK 認證工具，涵蓋工具跳轉時、無金鑰 GCP 存取、Secret Manager 以及委派式 OAuth 生命週期控制。用於工具憑證選取、透過工具的跨使用者存取、同意/重新整理/斷開流程，或在代理事件中顯示憑證。請勿於一般登入介面、已驗證主體依賴或所有者過濾的 HTTP 路由（adk‑fastapi‑backend）、代理的會話端點（adk‑frontend‑integration）、MCP 或 A2A 連線配置（adk‑agent‑interoperability）、完整代理威脅模型（adk‑agent‑security）、篩選 PII 或貼上機密資料內容（protect‑adk‑sensitive‑data）、一般 IAM 管理或模型金鑰計費疑難排解時啟用。

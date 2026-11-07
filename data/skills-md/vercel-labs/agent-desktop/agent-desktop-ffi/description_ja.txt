@@ -1,0 +1,1 @@
+agent-desktop の PlatformAdapter に対する C-ABI バインディング。利用者（Python ctypes、Swift、Node ffi-napi、Go cgo、C++、Ruby fiddle）は libagent_desktop_ffi.{dylib,so,dll} をリンクし、呼び出しごとに CLI バイナリを起動する代わりに `ad_*` 関数を直接呼び出す。標準的な observe‑act ワークフローは次の通りです：ad_init → ad_adapter_create[_with_session] → ad_snapshot → 資格のあるリファレンスを読み取る（@s8f3k2p9:e5） → ad_execute_by_ref → ad_free_string → ad_adapter_destroy。

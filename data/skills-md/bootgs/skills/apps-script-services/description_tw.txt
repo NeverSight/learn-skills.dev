@@ -1,0 +1,1 @@
+適用於 Google Apps Script 內建服務與執行環境的慣用且配額安全的模式——批次處理 SpreadsheetApp 的讀寫、使用 PropertiesService/CacheService 保存狀態、LockService 確保併發安全、UrlFetchApp 實作重試/退避、填補 V8 執行環境 API 的缺口，以及自訂試算表函式的限制。適用於腳本執行緩慢、觸發配額或速率限制錯誤、因同時觸發執行而產生競爭條件，或需要在 Apps Script 中不存在的瀏覽器/Node API 時。框架無關——可在有或沒有 bootgs 的情況下使用。不適用於功能表、側邊欄或對話框（`apps-script-ui`），亦不適用於觸發器註冊及 simple 與 installable 的問題（`apps-script-triggers`）。

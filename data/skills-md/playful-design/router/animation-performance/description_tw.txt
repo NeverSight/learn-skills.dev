@@ -1,0 +1,3 @@
+將網頁動畫控制在每幀預算內——僅對可複合的屬性進行動畫，頁面繁忙時讓動畫遠離主執行緒，並在動畫掉幀時找出原因。涵蓋 layout/paint/composite 流程、較廉價的屬性切換、CSS、WAAPI 與 requestAnimationFrame 的比較、Motion 的硬體加速路徑、React 每幀重新渲染、繼承的 CSS 變數重新計算、模糊效果的成本，以及 `will-change` 真正有效的時機。  
+適用於動畫卡頓、斷斷續續、卡頓或掉幀時；選擇要動畫的屬性時；在性能考量下決定使用 CSS 或 JS 動畫時；或在考慮使用 `will-change` 或 GPU 圖層時。  
+若要選擇緩動、持續時間或是否要執行動畫，請使用 **animate**；若要整體檢視動作，請使用 **review-animations**。

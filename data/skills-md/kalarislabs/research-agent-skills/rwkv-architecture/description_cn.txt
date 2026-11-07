@@ -1,0 +1,1 @@
+涵盖 RWKV（Receptance Weighted Key Value）架构，这是一种 RNN/Transformer 混合模型，具备 O(n) 推理且无需 KV 缓存，包括 RWKV-7、其并行 GPT 模式训练和顺序 RNN 模式推理、状态传递、使用 DeepSpeed 的微调以及 CUDA 内核设置。适用于在常量内存下逐 token 生成文本、处理 10 万以上 token 的超长上下文、微调 RWKV 模型、比较 RWKV 与 Transformer 在内存和速度上的表现，或调试 RWKV 状态处理、加载或内存溢出错误时使用。当峰值精度比内存更重要时，推荐使用标准 Transformer；若需状态空间模型，则选择 Mamba。

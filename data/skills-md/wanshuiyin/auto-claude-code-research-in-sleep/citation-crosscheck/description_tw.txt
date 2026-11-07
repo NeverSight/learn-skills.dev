@@ -1,0 +1,1 @@
+雙盲書目交叉檢查：一個代理從本地 .bib 中逐字提取每個引用條目，第二個代理在不看 .bib 的情況下獨立重新從網路抓取同一篇論文的記錄，第三個提取器產生機械化的逐欄位差異，以捕捉遺漏/重新排序的作者、錯誤的年份、錯誤的會議或期刊、以及不良的 DOI / arXiv 編號。主要代理（永不作為分片）為每條參考文獻分配 MATCH / MINOR / MISMATCH 判定，並匯出並排的試算表。當使用者說「citation crosscheck」、「double-blind citation check」、「verify bib against scholar」、「bib field audit」、「引用交叉核对」或在提交前需要認證書目欄位的精確性（不僅僅是存在）時使用。

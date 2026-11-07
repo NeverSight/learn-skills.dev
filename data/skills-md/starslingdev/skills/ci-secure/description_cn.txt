@@ -1,0 +1,3 @@
+扫描仓库的 GitHub Actions 工作流，检查十种关键的 CI/CD 攻击向量——模板注入、以特权执行的 fork 代码（pwn 请求）、缓存投毒、冒名行动 SHA、密钥泄露、GITHUB_ENV 劫持、write‑token 不可信触发、缓存/制品中的凭证、未验证的远程代码执行（curl|bash 及可变的 fetch‑and‑run），以及在持有密钥的任务中运行的依赖安装脚本——对每个发现提供通俗的攻击者情景说明，并进行通过/失败的配置卫生检查，且可通过针对每个发现的子代理修复选中的问题。刻意不做全覆盖——仅检查关键的 exploit‑chain（参见 references/why‑these‑ten.md）。使用场景：用户请求审计或评估 CI/CD 或 GitHub Actions 的安全状态，如“我的 CI 安全吗”“审计我的 CI 安全”或使用 ci-secure / /ci-secure。不要在以下情况下触发：CI 速度、成本或实际耗时审计（例如“为什么 CI 这么慢”）——使用 ci‑speedup；CI 配置最佳实践评分（例如“给我的 CI 打分”“CI 分数”）——使用 ci‑score。
+
+请始终使用用户的语言回复。

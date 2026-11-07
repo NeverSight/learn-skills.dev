@@ -1,0 +1,1 @@
+构建 Port 工作流：基于节点的自动化，由触发器（自助表单、上下文湖事件）、操作节点（Webhook、upsert 实体、GitHub/GitLab/Azure DevOps/Claude 管理的代理集成操作、Kafka、Cursor Agent、AI）、条件节点和输入节点、节点间的 JQ 模板，以及自助触发器权限组成，以针对 Port API 的工作流 JSON 形式编写。使用场景包括在请求创建 Port 工作流、向工作流添加触发器、添加操作节点、连线自助工作流、使用条件节点进行分支、向工作流添加审批步骤、在 Port 中构建事件驱动的自动化，或编写工作流 JSON 时使用。Port 工作流是 Port 自己的节点‑边缘自动化图谱，而不是类似 GitHub Actions 的 CI/CD 流水线文件。

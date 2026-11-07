@@ -1,0 +1,5 @@
+PolarDB-X 2.0 Enterprise Edition 用の効率的なページングと大規模テーブルの走査。深いページングシナリオでは LIMIT M,N よりも Keyset ページング（カーソルページング）を推奨し、極端なケース向けにシャード単位の走査を提供し、インデックス要件と完全な Java コード例を含みます。
+
+PolarDB-X でページングクエリを実装する際、大規模テーブルを走査する際、データをバッチでエクスポートする際、または遅い LIMIT M,N クエリを最適化する際に使用してください。
+
+トリガー: 「分页查询」「deep pagination」「Keyset pagination」「大表遍历」「数据导出」「LIMIT优化」「分页性能」「cursor pagination」「游标分页」「翻页慢」「深翻页」「pagination query」「batch traversal」「LIMIT M N slow」「efficient paging」

@@ -1,0 +1,1 @@
+在 Kubernetes 上使用 CDF Orchestration 中的 SMT 缺陷圖像生成 (DIG) DAG 生成合成 PCB 檢測圖像。該 DAG 在模擬中渲染元件，將渲染結果轉換為逼真的金色圖像（sim2real），並使用 AnomalyGen 添加焊點橋接、過量焊料或缺失元件等紋理缺陷。模擬還可渲染位移、墓碑式與側翻姿態缺陷。利用它建立 DIG 負載，選擇管線模式（full、simulation、sim2real 或 defect-only），檢查 GPU 是否就緒，跟蹤執行過程，並將每張缺陷圖像與其金色圖像和模擬來源對應。本功能不適用於單獨執行 Simulation、Augmentation 或 AnomalyGen。

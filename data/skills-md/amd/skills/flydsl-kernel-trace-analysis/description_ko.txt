@@ -1,0 +1,1 @@
+rocprofv3를 사용하여 GPU 커널을 프로파일링하고 ATT 명령어 수준 트레이스를 수집한 다음, hotspot_analyzer.py로 트레이스 데이터를 분석하여 상위 K개의 스톨 핫스팟(VMEM‑load, VMEM‑wait, LDS/SMEM‑wait, barrier, MFMA 스톨)을 소스 라인에 매핑하고 실행 가능한 최적화 방안을 도출합니다. 또한 rocprofv3 PMC 카운터 CSV(L2 히트 비율, 부분읽기, 오버‑패치)를 분석합니다. 사용법: /kernel-trace-analysis <cmd> 기존 디스패치 디렉터리를 직접 분석할 수도 있습니다: /kernel-trace-analysis --dir <path>

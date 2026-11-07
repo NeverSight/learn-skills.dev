@@ -1,0 +1,3 @@
+從英國生物庫藥物蛋白質組計畫（UKB-PPP；Sun 2023 Nature）取得特定（蛋白質、族群）測量的血漿 pQTL 匯總統計的區域切片。當需要在共定位主導變異體附近取得每個變異體的 beta / SE / p 值，以進行後續共定位、孟德爾隨機化或針對 pQTL 暴露的區域繪圖時使用。典型的使用情境是圍繞蛋白質編碼基因 TSS 的順式窗口，但 UKB-PPP 會釋出每個蛋白質的全基因組匯總統計，因此只要使用者提供明確的（染色體、start_bp、end_bp），任何 GRCh38 視窗（包含遠端位點）皆受到支援。輸入：protein_label（HGNC 或 UniProt）、ancestry、chromosome、start_bp、end_bp。輸出：已協調的 TSV 切片 + 清單檔 + 人類可讀報告。
+
+請始終以使用者語言回覆。

@@ -1,0 +1,1 @@
+設計、實作或稽核 Python Google ADK 代理的發布生命週期：提示與配置版本管理、固定模型與評審者 ID、在 CI 中設定閾值的評估門、重複與成本策略、模型版本遷移並重新基準化、分階段提升與聯合回滾提示、模型、工具結構與機密，以及從生產樣本刷新評估集。當關注發布、CI 門、模型淘汰通知、金絲雀、回滾或過時的評估集時使用。不要在首次部署或打包（deploy-adk-on-google-cloud）、編寫評估案例或迭代循環（adk-agent-evaluation）、選擇模型設定（adk-model-and-output-contracts）、提示措辭（adk-agent-instructions）或生產監控（adk-agent-observability）時啟動。

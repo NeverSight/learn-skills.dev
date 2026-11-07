@@ -1,0 +1,1 @@
+모든 생태계에서 알려진 보안 자문에 대한 서드파티 의존성을 감사합니다 — 모든 lockfile을 읽고, 해당 도구가 있으면 기본 감사 도구를 사용하고, 없으면 OSV 데이터베이스를 활용하며, 취약한 패키지마다 업그레이드 경로와 함께 중복되지 않은 하나의 이슈를 생성합니다. 코드 수준 보안 검토는 om-auto-sec-report를 사용하세요. “audit dependencies”, “check for vulnerable packages”, “security advisories”에 사용합니다.

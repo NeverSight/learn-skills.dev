@@ -1,0 +1,3 @@
+每日管線會從資料夾中挑選一部長影片，使用 Whisper 進行轉錄，利用 Gemini 3 Flash 多模態尋找所有病毒式短片時刻，使用 FFmpeg 剪輯每個候選片段，加入勾子文字覆蓋層，向使用者展示候選片段供批准，並透過 Upload-Post API 將批准的剪輯發佈至 TikTok、Instagram Reels、YouTube Shorts。當使用者想要從較長影片中製作 Shorts／Reels／Clips、提及 autoshorts、病毒剪輯或內容再利用，或要求每日剪輯批次時使用此管線。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,3 @@
+Genere un script de colector alojado por el cliente que enumere agentes, servidores MCP o APIs REST, suba cada archivo ZIP de activo con POST /push y luego finalice con POST /commit. DISPARAR cuando: el usuario solicite impulsar el inventario, generar un script de impulso, How to Push, escáner autogestionado o descargar la habilidad del colector. Las frases disparadoras incluyen “push inventory”, “generate a push script”, “How to Push”, “self-managed scanner”, “collector skill”, “POST /push”, “POST /commit”. NO DISPARAR cuando: se cree un escáner de extracción (habilidad setup-service-scanner) o se ejecute un escaneo alojado (habilidad run-service-scan-and-view-results).
+
+Por favor, responda siempre en el idioma del usuario.

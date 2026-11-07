@@ -1,0 +1,3 @@
+通过 `runcomfy` CLI 在 RunComfy 上创建 AI 头像、演讲者和口型同步视频。支持 ByteDance OmniHuman（音频驱动的全身头像）、Wan‑AI Wan 2‑7（通过 `audio_url` 在肖像上进行音频驱动的嘴部同步）、HappyHorse 1.0（Arena #1 的 t2v / i2v，支持中间音频）以及 Seedance v2 Pro（多模态电影风格，使用参考音频 + 参考主体）。根据用户的实际需求——UGC 配音、虚拟主持人、配音产品演示、口型同步角色、对话场景——自动选择合适的模型，并提供每个模型的官方提示模板及最简的 `runcomfy run` 调用方式。触发关键词包括 “talking head”“lip sync”“avatar video”“make X speak”“audio to video”“audio driven avatar”“virtual presenter”“AI spokesperson”“dubbed video”“UGC avatar”“HeyGen alternative”“Synthesia alternative”“digital human”“make this portrait talk”“video from voiceover” 或任何明确要求将文字放在脸上的请求。
+
+请始终使用用户的语言回复。

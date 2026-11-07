@@ -1,0 +1,1 @@
+修復在 Sanity Studio 中自訂表單元件（components.input、components.field、components.item，或外掛的 form.components）因未設置自身的 Suspense 邊界而懸停的問題，使其在載入時不會產生版面變動，且不會阻塞新文件的載入。當控制台顯示「自訂 input/field/item 元件 … 懸停且未擁有自己的 <Suspense> 邊界」或「表單元件 … 懸停且未擁有自己的 <Suspense> 邊界」時使用此方法；亦適用於自訂表單元件使用 React.lazy、use()、App SDK 鉤子（useDocumentProjection、useQuery、useDocument）或其他會造成懸停的資料函式庫，或當欄位或陣列項目的骨架畫面在新文件上永遠不會消失時。

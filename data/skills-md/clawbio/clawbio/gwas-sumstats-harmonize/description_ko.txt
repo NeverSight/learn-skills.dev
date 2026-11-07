@@ -1,0 +1,1 @@
+GWAS 요약 통계 데이터를 모든 일반 형식(GWAS-Catalog SSF, PLINK 1.9/2, REGENIE, METAL, BOLT, SAIGE)에서 하나의 정규화된 테이블(SNP CHR BP EA NEA EAF BETA SE P N)로 조화시킵니다: 열 감지, BETA/SE/P 파생, 드롭 사유를 포함한 QC, 그리고 레퍼런스 패널에 대한 대립유전자 정렬을 수행하며, Snakemake 워크플로우로 실행합니다.

@@ -1,0 +1,1 @@
+在浏览器内置下载 YouTube 视频——无需 `yt-dlp`、无需客户端冒充、无需 n‑签名解算器。浏览器播放视频（auth、poToken、n‑求解、SABR 解复用均由页面自行完成）；ytdl 记录播放器通过 `SourceBuffer.appendBuffer` 钩子送入 MediaSource 的已解复用媒体，并使用 ffmpeg 合并为 MP4。如果用户能够观看该视频，就可以下载——只要已登录的标签页能够播放，儿童专用、年龄限制和会员专属内容同样适用。适用于用户想要下载、保存或获取 YouTube 视频（音频或视频）到磁盘的情况。

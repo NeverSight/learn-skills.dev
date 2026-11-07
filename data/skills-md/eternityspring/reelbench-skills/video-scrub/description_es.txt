@@ -1,0 +1,13 @@
+Reconstruye un video en un archivo limpio que contenga solo imagen y sonido — **no se transfiere ningún metadato de origen**:  
+GPS, modelo del dispositivo, ID de cuenta, hora de creación, capítulos, pistas de telemetría de GoPro, todo permanece donde estaba.  
+Usamos una lista blanca en lugar de una lista negra: no enumeramos lo que hay que eliminar, solo especificamos lo que se debe conservar (un flujo de video, un flujo de audio).  
+Las garantías de privacidad provienen de la estructura, no de la enumeración.  
+La dificultad no está en las etiquetas del contenedor, sino en **las capas invisibles**: x264 escribe todos los parámetros de codificación como SEI y los incrusta en el flujo de bits,  
+AAC escribe el número de versión en DSE, el nombre del compresor de avc1 también contiene una copia — `ffprobe` no ve ninguno de ellos.  
+Los cinco lugares de ocultación se bloquean uno a uno, cada uno verificado con pruebas.  
+`--mode copy` por defecto: **el video se copia byte‑a‑byte** (verificado con cmp), solo el audio se vuelve a codificar; un clip de 53 segundos termina en 1,3 segundos;  
+`--mode encode` hace una recodificación completa, eliminando aún más datos a nivel de flujo de bits.  
+La aceptación no se basa en promesas: tratamos cada cadena de metadatos del origen como una “aguja” y realizamos un **escaneo a nivel de byte** en el archivo de salida,  
+tan pronto como encontramos una, falla. Las 12 comprobaciones se realizan de forma determinista mediante scripts.  
+Cero dependencias, cero clave API, solo se necesitan node y ffmpeg.  
+Úsalo cuando se solicite limpiar metadatos, eliminar metadatos, borrar información del video, privacidad del video, eliminar información de marcas de agua, eliminar metadatos del video, remover exif de video, depurar el video.

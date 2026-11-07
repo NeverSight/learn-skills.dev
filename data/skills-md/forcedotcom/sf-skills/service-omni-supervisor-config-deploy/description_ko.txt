@@ -1,0 +1,1 @@
+헤드리스 Omni-Channel Supervisor 구성을 구축하려면 클래식 OmniSupervisorConfig(부모와 supervisor‑user 및 큐 동반자를 포함)를 하나의 원자적 Metadata API 배포로 배포하고 배포 상태를 통해 멱등성을 유지하십시오. 활성 supervisor 사용자, Omni 기본 설정 및 모니터링되는 큐가 필요합니다. 트리거: Omni Supervisor 설정, 클래식 Supervisor Command Center 구성. supervisor 사용자를 생성하거나 ContactCenterSupervisor 권한 세트를 할당하거나 큐, 서비스 채널, 존재 상태를 배포하는 데 사용하지 마십시오.

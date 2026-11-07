@@ -1,0 +1,1 @@
+Spring Boot 특정 취약점 탐색 — Actuator 엔드포인트(heapdump, env, loggers, mappings, shutdown), Spring Expression Language(SpEL) 인젝션 → RCE, H2 콘솔 RCE, Jolokia JMX 노출, Spring4Shell(CVE-2022-22965), Spring Cloud Function SPEL(CVE-2022-22963), heap dump 자격 증명 추출. 대상이 Spring Boot를 실행하는 경우에 사용 — X-Application-Context 헤더, /actuator, Whitelabel Error Page, 또는 Java 스택 트레이스로 감지.

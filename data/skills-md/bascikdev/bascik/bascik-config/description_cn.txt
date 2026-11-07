@@ -1,0 +1,1 @@
+配置、构建和部署 Bascik 站点。用于决定是否需要 bascik.config.ts、编辑配置（directory、components.external、scoping、minify、assets、generate、pipeline.exec、pipeline.watchPaths、scripts、http、base）、设置 BASCIK_SITE_URL、部署到静态主机、在生产环境运行 bascik --server、使用 --target 构建 Cloudflare 或 Netlify 包、放置静态资源、404 和 500 页面，或在 monorepo 中组织多个站点、共享组件、工作区和 CI。包括一个审计脚本，用于标记冗余或无效的配置，以及一个用于多站点仓库的工作区检查器。

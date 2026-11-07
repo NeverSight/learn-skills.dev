@@ -1,0 +1,5 @@
+Write, review, audit, refactor, and diagnose POSIX `sh` code and configuration. Use it whenever code is intended to run under a POSIX shell or a migration targets POSIX `sh`.
+
+Use it across `.sh` files, `#!/bin/sh` entrypoints, extensionless commands, sourced libraries, hooks, startup fragments, generated shell fragments, and other shell code with no identifiable shell dialect.
+
+Don’t use when the requested output is only code for a non-POSIX shell.

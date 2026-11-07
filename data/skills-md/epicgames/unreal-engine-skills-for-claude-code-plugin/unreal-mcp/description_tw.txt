@@ -1,0 +1,3 @@
+使用此技能透過 live‑editor MCP 連線在 Unreal Engine 專案內執行操作。當使用者想要修改、查詢或執行其 Unreal Engine 專案中的內容時觸發，而非概念性或文件類問題。具體觸發情境包括：在關卡中生成/移動/複製/變換 Actor、開啟 `.uproject`、在 PlayerStart 附近新增物件、建立或編輯 Blueprint / Widget / Material / Niagara / Control Rig / Sequencer / Behavior Tree / GAS Ability、讀寫 Actor 的屬性（例如 `BP_DoorActor` 上的 `bIsLocked`）、在編輯 C++ 後進行 Live Coding 重新編譯（如 `AActor`、`UMyComponent::Method`、`UPROPERTY`），或是修改 Static / Skeletal Mesh 資產。即使未出現「Unreal」字樣，也應視為 Unreal 相關情境：資產前綴 `BP_`、`WBP_`、`M_`、`MI_`、`NS_`、`CR_`、`SK_`、`SM_`、`ABP_`；UE C++ 類型/巨集；`.uproject`；Content Browser；Outliner；PlayerStart；「in my game」以及其他 UE 訊號。請忽略純概念/文件問題、Unity、Godot，或與「blueprint」/「sequencer」/「widget」無關的使用情境。 
+
+請始終以使用者的語言回覆。

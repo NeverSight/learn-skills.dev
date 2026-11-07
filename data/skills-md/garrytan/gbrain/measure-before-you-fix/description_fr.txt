@@ -1,0 +1,2 @@
+Avant de corriger une alerte lente/obsolète/de dépassement de délai, mesurez vous‑même l’étape.  
+Éliminez la théorie avec un chronomètre, pas avec un changement de code. Priorisez la mesure dans les opérations de triage des alertes temporelles (obsolète, dépassement de délai, fraîcheur, bloquée, retard de N heures) provenant de gbrain doctor, autopilot, sync et des moniteurs cron — s’exécutent AVANT toute augmentation de délai, tout changement de seuil ou toute réécriture du pipeline.

@@ -1,0 +1,3 @@
+在用户运行 DOCA Perftest（doca_perftest）时使用此技能，该 RDMA 基准测试用于测量 RDMA verbs 的带宽、消息速率和延迟，可用于点对点或跨集群，并可选使用 DOCA Verbs 后端（-r dv）或 GPUNetIO 引擎（--engine gpunetio）。即使用户未明确提到 “DOCA Perftest”，也要触发——隐含的表达包括 “如何使用 DOCA 对 RDMA 写带宽进行基准测试”、 “在 8 台节点上运行 ib_write_bw”、 “perftest 显示设备繁忙”、 “我的延迟数据在客户端和服务器之间不一致”、 “通过 SSH 启动服务器”、 或 “从 JSON 场景运行全互连 RDMA 测试”。 对于 DOCA 安装（doca-setup）、DOCA Bench（doca-bench）以及应用层吞吐量的请求，请拒绝并转向其他渠道。
+
+请始终使用用户的语言进行回复。

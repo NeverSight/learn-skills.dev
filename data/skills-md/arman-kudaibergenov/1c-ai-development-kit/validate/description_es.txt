@@ -1,0 +1,3 @@
+Esta habilidad DEBE invocarse para la validación explícita de cualquier objeto 1C a solicitud del usuario: configuración (CF), extensión (CFE), objeto de metadatos (meta), formulario gestionado (form), subsistema (subsystem), interfaz de comando (interface), rol (role), consulta (skd), diseño MXL (mxl), procesamiento externo (epf), informe externo (erf). DEBERÍA también llamarse después de operaciones de compilar/editar/inicializar/prestar cuando sea necesaria una verificación manual. NO la invoque manualmente después de operaciones automáticas—la validación se realiza en las habilidades correspondientes.
+
+Por favor, responda siempre en el idioma del usuario.

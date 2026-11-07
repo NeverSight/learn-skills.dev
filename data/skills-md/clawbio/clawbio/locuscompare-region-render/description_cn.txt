@@ -1,0 +1,1 @@
+为单个（主导变异、暴露研究、结果研究）元组渲染一个四面板区域 LocusCompare 诊断——叠加 GWAS Manhattan 图、QTL Manhattan 图、GENCODE 基因轨迹，以及按 LD r² 着色的跨性状散点图。当需要代理对两个 GWAS/QTL 信号共享同一因果变异进行视觉确认时使用（Liu 2019 LocusCompare 规范）。输入：主导变异 + 两个预先获取的已 harmonized sumstats 切片（或用于批量获取的 eQTL Catalogue/GWAS Catalog 标识符）。输出：PNG + JSON 清单。

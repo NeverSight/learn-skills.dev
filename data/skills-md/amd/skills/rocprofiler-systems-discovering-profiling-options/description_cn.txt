@@ -1,0 +1,1 @@
+回答有关 rocprofiler‑systems 配置选项存在哪以及如何使用的问题，例如 “我的系统上有哪些硬件计数器可用”、 “我可以跟踪哪些 ROCm API”、 “哪些设置控制采样/输出”、 “如何持久化我的配置”——通过将问题映射到相应的 `rocprof-sys-avail` 或 `rocprof-sys-run --help=<topic>` 命令来实现。当用户想要发现或探索 ROCPROFSYS_* 设置、Timemory 组件、硬件计数器、ROCm API 跟踪域或 GPU 指标，而不是实际应用它们时，请使用此方式。不要将其用于为工作负载选择初始 `--preset`——那属于 `choosing-a-profiling-preset`。

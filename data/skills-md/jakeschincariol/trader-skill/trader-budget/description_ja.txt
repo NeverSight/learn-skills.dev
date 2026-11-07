@@ -1,0 +1,3 @@
+予算マネージャー。購入前にすべてのポジションを予算に合わせてサイズ調整します：現金バッファを保持し、任意の銘柄の上限を設定（余剰は他の銘柄に分配）、最小注文額未満のスライスは除外し、すべてのドルが使われるように端数処理し、部分株式または整数株式に対応し、提案された買い注文を trader/orders.json にAlpaca の place_stock_order（notional を文字列として）の形式で書き込みます。実際の注文は出しません。ユーザーが「I have $5,000」、「size my trades」、「how much of each should I buy」、「manage my budget」、「split my money」、「keep 10% in cash」、「no stock over 25%」、「set my rules」などと言ったとき、または /trader-copycat がターゲットを書き込んだ後に使用します。
+
+常にユーザーの言語で回答してください。

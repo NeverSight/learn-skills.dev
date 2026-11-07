@@ -1,0 +1,7 @@
+Convertir un componente web Lightning (LWC) existente específico en un widget declarativo HXL / Agentforce, de extremo a extremo. Se basa en **experience-lwc-widget-assess** y se detiene cuando un widget no puede cumplir con el propósito del LWC; de lo contrario, entrega la forma de campo derivada a **platform-widget-generate** y conecta el widget como el renderizador del Lightning Type.  
+
+**TRIGGER** cuando: el usuario quiere convertir, migrar, portar, reconstruir o transformar un LWC nombrado en un widget o en un widget declarativo Agentforce, o solicita un widget creado a partir de un componente LWC existente.  
+
+**DO NOT TRIGGER** cuando: el usuario solo desea saber si un LWC puede convertirse en un widget (use **experience-lwc-widget-assess**), o quiere un widget para una forma de datos, entidad o Lightning Type sin LWC existente (use **platform-widget-generate** o **platform-lightning-type-widget-coordinate**).  
+
+Por favor, siempre responda en el idioma del usuario.

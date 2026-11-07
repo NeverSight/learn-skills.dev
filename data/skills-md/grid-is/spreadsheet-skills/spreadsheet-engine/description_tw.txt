@@ -1,0 +1,1 @@
+Excel 相容的試算表計算引擎，適用於 JavaScript 與 TypeScript（@grid-is/spreadsheet-engine）。可載入 .xlsx 工作簿或自行從零建立，評估 Excel 與 Google Sheets 的公式，讀取計算後的儲存格值，寫入儲存格並自動依賴圖重新計算，編輯公式與工作表，並匯出 .xlsx，全部在 Node、Deno、Bun 或瀏覽器中以無頭模式執行，無需安裝 Excel。適用於程式碼中需要讀取 Excel 檔案的公式結果、重新計算試算表、對工作簿執行公式字串、"SheetJS doesn't calculate formulas"、建置計算後端，或以程式方式編輯工作簿的情境。亦涵蓋 CSV 轉工作簿的示範與 Excel 與 Google Sheets 函數模式的差異。

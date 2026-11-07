@@ -1,0 +1,11 @@
+DEBE USARSE cuando el usuario quiera investigar/buscar/consultar cualquier cosa en Internet — por ejemplo, investigación completa de X / ayúdame a investigar X / buscar X / buscar X / ver cómo todos evalúan X / ver qué discusiones hay sobre X / investigar este tema.
+
+También DEBE USARSE cuando el usuario mencione cualquier plataforma o comparta cualquier URL/enlace: Xiaohongshu/xiaohongshu/xhs, Twitter/X, Bilibili, Reddit, V2EX, LinkedIn/Recruitment/Job hunting, YouTube, búsqueda de código en GitHub, podcast Xiaoyuzhou, Snowball/cotizaciones de acciones, fuentes RSS o cualquier URL web.
+
+13 plataformas, enrutamiento multi‑backend (OpenCLI / CLIs por plataforma / APIs). Configuración cero para seis canales. Ejecute `agent-reach doctor --json` para ver qué backend sirve cada plataforma en este momento.
+
+NO es para: redactar informes/análisis de datos/traducción y otros procesamientos de contenido (esta habilidad solo recupera contenido de Internet); publicar/comentar/ dar "me gusta" y otras acciones de escritura; plataformas que ya tienen habilidades dedicadas (use primero la habilidad dedicada).
+
+[Método de enrutamiento] SKILL.md contiene la tabla de enrutamiento y los comandos comunes; para escenarios complejos, lea las referencias/*.md de la categoría correspondiente según sea necesario. Categorías: búsqueda / social (Xiaohongshu/Twitter/Bilibili/V2EX/Reddit) / carrera (LinkedIn) / desarrollo (GitHub) / web (páginas web/artículos/RSS) / vídeo (YouTube/Bilibili/podcasts).
+
+Por favor, responda siempre en el idioma del usuario.

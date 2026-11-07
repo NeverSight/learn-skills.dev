@@ -1,0 +1,3 @@
+在 RunComfy 上編輯圖像 — 這項技能是一個智慧路由器，能將使用者的意圖對應到 RunComfy 目錄中的正確編輯模型。可選擇 Nano Banana Edit（批次上限 20，預設保留身份）、OpenAI GPT Image 2 Edit（多語言圖內文字重寫、多參考構圖、版面精準）、Flux Kontext Pro（單參考高保真局部編輯）或 Z-Image Turbo Inpaint（基於遮罩的精準區域編輯）。將每個模型的文件化提示模式整合，讓技能在不浪費迭代於錯誤模型的情況下產生更銳利的編輯。透過本機 RunComfy CLI 呼叫 `runcomfy run <vendor>/<model>/edit`。在「image edit」、「edit image」、「image-to-image」、「i2i」、「swap background」、「remove object」、「rewrite headline」或任何明確要求編輯單張或批次圖像的情況下觸發。  
+
+請始終以使用者的語言回覆。

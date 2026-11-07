@@ -1,0 +1,8 @@
+전통적인 VeRO 및 잔여 유틸리티 작업을 VeRO API로 마이그레이션하거나 명시적인 교체 없음 정리 결정을 위한 가이드.
+
+사용자가 다음을 언급할 때 트리거: GetVeROReasonCodeDetails → getVeroReasonCode/getVeroReasonCodes; GetVeROReportStatus/VeROReportItems → getVeroReport/getVeroReportItems; GeteBayOfficialTime 제거 또는 재설계; 혹은 “VeRO 상태 또는 사유 코드 호출을 어떻게 마이그레이션합니까”라고 물을 때.
+
+VeRO 사유 코드 조회, VeRO 보고서 추적, 교체되지 않는 GeteBayOfficialTime 행을 포함한 4가지 전통적 작업을 다룹니다.  
+계정, 리스팅, 메시징 또는 주문 관리 워크플로에는 사용하지 마세요.
+
+항상 사용자의 언어로 응답하십시오.

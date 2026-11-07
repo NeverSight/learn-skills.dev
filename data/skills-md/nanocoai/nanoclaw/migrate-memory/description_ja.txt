@@ -1,0 +1,1 @@
+レガシーの NanoClaw と Claude ネイティブのメモリを、共有メモリツリーとプロバイダーに依存しない常駐指示へ移行します。共有メモリの破壊的変更が更新で報告された後、またはグループに .seed.md、レガシー CLAUDE.md／CLAUDE.local.md、Claude の自動メモリ、あるいはインデックス未済みの imported‑agent‑memory.md が残っている場合に実行します。「migrate memory」「legacy memory」「the agent forgot everything after the switch」のいずれかがトリガーです。

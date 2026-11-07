@@ -1,0 +1,5 @@
+编写、验证并强制执行 CODEOWNERS 文件：检测已有文件，从目录结构和 Git 历史中收集所有权证据，使用正确的 CODEOWNERS 语法写入或更新规则，通过 GitHub API 验证文件，并连接需要代码所有者在拉取请求上审查的规则集规则。  
+当用户说 “add CODEOWNERS”、 “who owns this path”、 “require owner review”、 “validate CODEOWNERS”，或调用 /codeowners 时使用。  
+幂等 — 可安全重复运行；在覆盖前先显示差异，并且从不在未确认的情况下自动分配所有者。  
+不要用于一般的分支规则集（使用 /gh-bootstrap）或社区健康文件，如 README、LICENSE、CODE_OF_CONDUCT 和 SECURITY（使用 /oss-hygiene）——此技能仅涵盖 CODEOWNERS 文件及其关联的审查规则。  
+请始终使用用户的语言回复。

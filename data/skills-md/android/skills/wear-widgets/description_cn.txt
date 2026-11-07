@@ -1,0 +1,13 @@
+在 Android 项目中使用 Glance Wear 和 Remote Compose 创建、迁移、更新和验证 Wear OS 小部件。以下情况请使用此技能：
+
+- 实现 GlanceWearWidget、GlanceWearWidgetService、WearWidgetDocument；
+- Remote Compose UI 基元（RemoteColumn、RemoteRow、RemoteBox、RemoteText、RemoteImage、RemoteButton）；
+- 使用 rememberMutableRemoteInt 和 valueChange 的本地状态；
+- 使用 pendingIntentAction 的点击操作；
+- 小部件提供者 XML 容器（SMALL 和 LARGE）；
+- 矩形小部件选择器 PNG 预览；
+- 或将传统的 ProtoLayout TileService 磁贴迁移为 Wear OS 小部件。
+
+请勿用于移动端主屏幕的 AppWidgetProvider 或 GlanceAppWidget 实现、表盘复杂组件或全屏 Wear OS 活动。
+
+请始终使用用户的语言回复。

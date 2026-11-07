@@ -1,0 +1,3 @@
+Passaggio di revisione solo refactoring su un commit recente. Il valore predefinito è HEAD~1...HEAD; accetta un hash di commit opzionale per ampliare l'intervallo. Applica euristiche di refactoring generiche più gli standard di codifica del progetto, refactorizza in loco per migliorare la chiarezza senza cambiare il comportamento, esegue i comandi di typecheck e test del progetto con un limite di auto‑correzioni di 5. Non esegue commit. Usa quando l'utente digita /review-work dopo aver committato l'implementazione.
+
+Rispondi sempre nella lingua dell'utente.

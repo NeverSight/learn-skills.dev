@@ -1,0 +1,15 @@
+Reconstruire une vidéo dans un fichier propre contenant uniquement l’image et le son—**aucune des métadonnées de la vidéo source n’est reportée** :  
+GPS, modèle d’appareil, ID de compte, heure de création, chapitres, traces de télémétrie GoPro—tout reste à sa place.  
+Il suit une liste blanche plutôt qu’une liste noire : au lieu d’énumérer ce qu’il faut supprimer, il indique ce qu’il faut conserver (un flux vidéo, un flux audio), les garanties de confidentialité proviennent de la structure, pas de l’énumération.  
+
+La difficulté ne réside pas dans les tags du conteneur, mais dans **ces couches invisibles** : x264 écrit les paramètres complets d’encodage en SEI dans le flux binaire,  
+AAC écrit le numéro de version dans le DSE, et le compressorname d’avc1 contient également une copie—`ffprobe` ne peut voir aucune d’elles.  
+
+Cinq refuges de données sont bloqués un à un, chacun vérifié expérimentalement.  
+Par défaut `--mode copy` : **la vidéo est copiée octet par octet** (vérifié avec cmp), seul l’audio est ré‑encodé ; un extrait de 53 secondes se termine en 1,3 seconde ;  
+`--mode encode` effectue un ré‑encodage complet, supprimant encore davantage les données propres au flux.  
+
+La vérification ne repose pas sur des affirmations : chaque chaîne de métadonnées de la vidéo source est traitée comme une « aiguille » et on effectue un **scan au niveau octet** dans le fichier de sortie—dès qu’une est trouvée, elle est signalée. Les 12 points de contrôle sont vérifiés de façon déterministe par des scripts.  
+Zéro dépendance, zéro clé API—seuls node et ffmpeg sont nécessaires.  
+
+À utiliser lorsqu’on demande à nettoyer les métadonnées, supprimer les métadonnées, effacer les informations vidéo, protéger la vie privée d’une vidéo, enlever les informations de filigrane, dépouiller les métadonnées d’une vidéo, supprimer l’EXIF d’une vidéo, nettoyer une vidéo.

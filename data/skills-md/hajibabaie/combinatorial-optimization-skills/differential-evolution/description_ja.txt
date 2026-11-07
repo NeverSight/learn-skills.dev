@@ -1,0 +1,1 @@
+ユーザーが連続または混合ブラックボックス最適化問題を微分進化で解きたい場合は、DE ストラテジー（rand/1/bin、best/1/bin、current‑to‑best）から選択し、F と CR を調整するか、ランダムキーを用いて置換問題に DE を適用してください。また、ユーザーが「differential evolution」「DE/rand/1」「mutation factor」「crossover rate CR」「SHADE」「jDE」と言及したときや、箱で制限された連続空間上で導関数不要の集団手法が必要なときにも使用します。共分散行列適応と (mu+lambda) 選択については evolution‑strategies を、速度ベースの群探索については particle‑swarm‑optimization を参照してください。

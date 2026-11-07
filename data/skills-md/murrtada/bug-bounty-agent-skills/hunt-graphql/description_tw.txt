@@ -1,0 +1,1 @@
+GraphQL 漏洞獵捕技能。基於 12 份公開漏洞懸賞報告構建，涵蓋透過 node() / GID 的 IDOR、包含 AI/LLM 功能的 mutation IDOR、跨租戶 IDOR、透過參數的 SSRF、批次處理 DoS、查詢成本繞過、透過參數的 SQL 注入、破損的物件層級授權、透過未範圍化 mutation 的授權繞過，以及因缺乏欄位層級授權而導致的個人資訊洩漏。於對任何目標進行 GraphQL 測試時使用。

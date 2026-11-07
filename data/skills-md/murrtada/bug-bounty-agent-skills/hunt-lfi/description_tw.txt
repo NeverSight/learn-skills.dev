@@ -1,0 +1,1 @@
+搜尋本地檔案包含（LFI）、遠端檔案包含（RFI）及路徑遍歷——讀取 /etc/passwd、日誌投毒 → RCE、PHP 過濾器鏈 RCE（無需上傳），php://、data://、zip://、phar:// 包裝器，透過 allow_url_include 的 RFI，目錄遍歷讀寫刪除。涵蓋 OOB/盲 LFI 確認與誤報處理。於任何目標上搜尋檔案包含或路徑遍歷漏洞時使用。請始終以使用者的語言回應。

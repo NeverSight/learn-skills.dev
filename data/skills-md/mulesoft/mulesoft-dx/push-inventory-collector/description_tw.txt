@@ -1,0 +1,5 @@
+產生一個由客戶自行託管的收集器腳本，列出代理程式、MCP 伺服器或 REST API，將每個資產 ZIP 以 POST /push 上傳，最後以 POST /commit 完成。  
+觸發條件：使用者要求推送清單、產生推送腳本、詢問「How to Push」、提及自主管理掃描器或下載收集器技能時。觸發關鍵字包括「push inventory」、「generate a push script」、「How to Push」、「self-managed scanner」、「collector skill」、「POST /push」、「POST /commit」。  
+不要在以下情況觸發：建立 pull 掃描器（skill setup-service-scanner）或執行託管掃描（skill run-service-scan-and-view-results）。  
+
+請始終以使用者的語言回應。

@@ -1,0 +1,3 @@
+عملية اتخاذ قرار مستقلة عن الإطار لت instrument تطبيق GenAI/LLM (Python أو TypeScript، أي مزود/SDK للوكيل) بحيث يصدر spans وفق اتفاقية OTel GenAI السيمانتيكية (gen_ai.*) القابلة للاستعلام في Dynatrace. أربع خطوات: الكشف، instrument، الإثراء، التحقق. تقرر أي نهج يحتاجه SDK معين؛ لا تحل محل الوصفات المحددة لكل إطار في dynatrace-oss/dynatrace-ai-agent-instrumentation-examples. المشغلات: "instrument this GenAI app"، "add tracing to this LLM app"، "how do I get gen_ai spans into Dynatrace"، "onboard this agent app to AI Observability". لا تُستخدم لتحليل telemetry من تطبيق مُ instrument مسبقًا (استخدم dt-obs-genai) أو للغات غير Python/TypeScript.  
+
+الرجاء دائمًا الرد بلغة المستخدم.

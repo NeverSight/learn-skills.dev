@@ -1,0 +1,1 @@
+Harmoniser les statistiques récapitulatives GWAS de n’importe quel format commun (SSF du GWAS‑Catalog, PLINK 1.9/2, REGENIE, METAL, BOLT, SAIGE) en une table canonique (SNP CHR BP EA NEA EAF BETA SE P N) : détection des colonnes, dérivation BETA/SE/P, contrôle qualité avec raisons de rejet, et alignement des allèles à un panel de référence, exécuté comme un workflow Snakemake.

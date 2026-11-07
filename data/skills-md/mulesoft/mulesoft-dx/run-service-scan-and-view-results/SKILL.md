@@ -1,0 +1,268 @@
+---
+name: run-service-scan-and-view-results
+description: |
+  Executes a scanner and views discovered services (such as AI agents, MCP servers, and API metadata). Use when running a scan, checking scan status, viewing scan history, reviewing discovered services from external platforms, or importing services into Anypoint Exchange.
+---
+
+# Run Scan and View Results
+
+## Overview
+
+Executes a scanner configuration to discover services from an external platform, then retrieves the scan results including all discovered services. This is useful for manually triggering scans or reviewing what was found.
+
+**What you'll build:** A complete scan execution with visibility into discovered services ready for publication to Exchange.
+
+## Prerequisites
+
+Before starting, ensure you have:
+
+1. **Existing Scanner Configuration**
+  - A scanner configuration already set up (see "Set Up a Scanner" skill)
+  - Valid connection credentials that haven't expired
+2. **Anypoint Platform Access**
+  - Valid authorization token
+  - Permission to execute scans in your organization
+
+## Step 1: Execute the Scanner
+
+Trigger the scanner to start discovering services from the configured external platform.
+
+**What you'll need:**
+
+- Your organization ID
+- Scanner configuration ID
+
+**Action:** Start the scan execution.
+
+```yaml
+api: urn:api:agent-scanner-configuration-service
+operationId: executeWorkflowFromConfiguration
+inputs:
+  organizationId:
+    from:
+      api: urn:api:access-management
+      operation: getOrganizations
+      field: $.id
+      name: currentOrganization
+    description: Your organization's Business Group GUID
+  scannerConfigurationId:
+    from:
+      api: urn:api:agent-scanner-configuration-service
+      operation: getScanConfigurations
+      field: $.content[*].id
+    description: The scanner configuration to execute
+outputs: []
+```
+
+**What happens next:** The scan starts asynchronously. You'll receive a 202 Accepted response. The scan runs in the background, discovering services from the external platform.
+
+**Common issues:**
+
+- **409 Conflict**: A scan is already running for this configuration. Wait for it to complete.
+- **404 Not Found**: Scanner configuration doesn't exist or was deleted
+- **503 Service Unavailable**: Scan service is temporarily unavailable
+
+## Step 2: Get Scanner Run History
+
+Check the status of your scan by retrieving the run history.
+
+**What you'll need:**
+
+- Organization ID
+- Scanner ID (same as scanner configuration ID)
+
+**Action:** Retrieve the list of scan runs to find your execution.
+
+```yaml
+api: urn:api:agent-scanner-configuration-service
+operationId: getScannerRunHistory
+inputs:
+  organizationId:
+    from:
+      variable: organizationId
+    description: Same organization ID as Step 1
+  scannerId:
+    from:
+      variable: scannerConfigurationId
+    description: The scanner configuration ID (used as scanner ID)
+  page:
+    value: "0"
+    description: Page number (0-indexed)
+  size:
+    value: "20"
+    description: Number of results per page
+outputs:
+  - name: scanRunId
+    path: $.content[0].id
+    description: The most recent scan run ID
+  - name: scanStatus
+    path: $.content[0].status
+    description: Current status (RUNNING, COMPLETED, FAILED, ABORTED)
+  - name: startedAt
+    path: $.content[0].startedAt
+    description: When the scan started
+  - name: endedAt
+    path: $.content[0].endedAt
+    description: When the scan completed (null if still running)
+```
+
+**What happens next:** You receive a paginated list of scan runs sorted by most recent. Check the status field to see if your scan is still RUNNING or has COMPLETED.
+
+**Common issues:**
+
+- **Empty results**: No scans have been run yet for this scanner
+- **Status shows FAILED**: Check the scanner configuration's lastRunStatusDetail for error information
+
+## Step 3: View Discovered Services
+
+Once the scan completes, retrieve the list of discovered services (staging assets).
+
+**What you'll need:**
+
+- Scanner ID
+- Scan run ID from Step 2
+
+**Action:** Get the staging assets discovered during the scan.
+
+```yaml
+api: urn:api:agent-scanner-configuration-service
+operationId: getStagingAssetsByScanRunId
+inputs:
+  scannerId:
+    from:
+      variable: scannerId
+    description: The scanner ID
+  scanRunId:
+    from:
+      variable: scanRunId
+    description: The scan run ID from Step 2
+  page:
+    value: "0"
+    description: Page number (0-indexed)
+  size:
+    value: "0"
+    description: Use 0 to get all results without pagination
+outputs:
+  - name: assetId
+    path: $.content[*].assetId
+    description: The asset ID in Exchange (if published)
+  - name: assetName
+    path: $.content[*].name
+    description: Name of the discovered service
+  - name: stagingStatus
+    path: $.content[*].stagingStatus
+    description: Status (NEW, EXISTING, PUBLISHED, FAILED)
+  - name: operationPerformed
+    path: $.content[*].operationPerformed
+    description: What action was taken (CREATE, UPDATE, DELETE, SKIP)
+```
+
+**What happens next:** You receive a list of all services discovered during the scan, including their names, descriptions, and publication status.
+
+## Completion Checklist
+
+After completing all steps, verify:
+
+- Scan was triggered (202 Accepted)
+- Scan run appears in history with status COMPLETED
+- Staging assets list shows discovered services
+- Review service details for accuracy before publication
+
+## What You've Built
+
+Your scan execution has produced:
+
+**Scan Run Record**
+
+- Timestamped execution record
+- Status tracking (RUNNING -> COMPLETED)
+- Summary of discovered services
+
+**Discovered Services**
+
+- List of services from the external platform
+- Service metadata (name, description, capabilities)
+- Staging status for Exchange publication
+
+## Next Steps
+
+Now that you've seen the discovered services:
+
+1. **Review service details**
+  - Check the service payload for each discovered service
+2. **Monitor publication**
+  - Agents with stagingStatus PUBLISHED are live in Exchange
+3. **Handle failures**
+  - Review services with stagingStatus FAILED for issues
+4. **Schedule regular scans**
+  - Configure automatic scheduled scans for continuous discovery
+
+## Tips and Best Practices
+
+### Monitoring Scans
+
+- **Poll status**: For long-running scans, poll getScannerRunHistory every 30-60 seconds
+- **Check summary**: The scan run summary field contains counts of discovered/updated/failed services
+
+### Understanding Staging Status
+
+- **NEW**: Service discovered for the first time
+- **EXISTING**: Service already known, checked for updates
+- **PUBLISHED**: Successfully published to Exchange
+- **FAILED**: Publication failed (check summary for details)
+- **PENDING_UPDATE**: Service has changes pending publication
+
+## Troubleshooting
+
+### Scan Stuck in RUNNING State
+
+**Symptoms:** Scan status remains RUNNING for an extended period
+
+**Possible causes:**
+
+- Large number of services to discover
+- Network issues with external platform
+- Processing delays
+
+**Solutions:**
+
+- Wait longer for large environments (can take 10-30 minutes)
+- Check external platform connectivity
+- Use abort endpoint if scan appears stuck
+
+### No Services Discovered
+
+**Symptoms:** Scan completes but staging assets list is empty
+
+**Possible causes:**
+
+- No services exist in the external platform
+- Connection credentials lack read permissions
+- Platform-specific filters exclude all services
+
+**Solutions:**
+
+- Verify services exist in the source platform
+- Check connection credentials have appropriate permissions
+- Review scanner configuration parameters
+
+### Scan Fails Immediately
+
+**Symptoms:** Scan status shows FAILED shortly after starting
+
+**Possible causes:**
+
+- Invalid or expired credentials
+- External platform API unavailable
+- Configuration error
+
+**Solutions:**
+
+- Test the connection using the connectivity test endpoint
+- Verify external platform is accessible
+- Check lastRunStatusDetail on the scanner configuration
+
+## Related Jobs
+
+- **setup-service-scanner**: Create a new scanner configuration
+

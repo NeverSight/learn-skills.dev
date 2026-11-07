@@ -1,0 +1,6 @@
+針對網路服務與行動應用程式的 TLS/SSL 實作與配置錯誤，提供完整的稽核與利用方法論。  
+包含協定降級攻擊，例如針對 SSLv3 CBC 塊填充的 POODLE (CVE-2014-3566)、利用 SSLv2 匯出密碼套件破解 TLS 會話的 DROWN (CVE-2016-0800)、以及強迫使用 RSA 匯出等級金鑰交換的 FREAK (CVE-2015-0204)。  
+針對 BEAST (CVE-2011-3389) 利用 TLS 1.0 中 CBC IV 可預測性的漏洞、CRIME (CVE-2012-4929) 與 BREACH 分別針對 TLS 層與 HTTP 層壓縮 oracle 的攻擊，以及 OpenSSL 記憶體資訊外洩的 Heartbleed (CVE-2014-0160) 進行說明。  
+包含針對主機名稱驗證或憑證鏈驗證不當的應用程式之憑證驗證繞過技術、利用 Frida 與 Objection 進行行動應用程式截取的憑證釘扎繞過、透過 NTP 操控與子域名利用繞過 HSTS、對非冪等端點發動 TLS 1.3 0-RTT 重放攻擊、以及針對雙向 TLS（mTLS）認證的攻擊手法，如客戶端憑證竊取與中繼，此外亦涵蓋憑證透明性（Certificate Transparency）日誌監控以進行偵查。  
+主要工具包括用於完整 TLS 稽核的 testssl.sh、支援 Python 整合的 sslyze、快速密碼套件列舉的 sslscan，以及可大規模高速探測 TLS 的 tlsx。  
+對應 CWE-295（憑證驗證不當）、CWE-319（敏感資訊明文傳輸）與 CWE-757（協商過程中選擇較不安全的演算法）。

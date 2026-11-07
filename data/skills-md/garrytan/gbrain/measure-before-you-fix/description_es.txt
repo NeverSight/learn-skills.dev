@@ -1,0 +1,7 @@
+Antes de arreglar una alerta de lentitud/obsolescencia/tiempo de espera, mide el paso tú mismo.  
+Elimina la teoría con un cronómetro, no con un cambio de código. Operaciones de medida primero  
+triage para alertas temporales (obsoleta, tiempo de espera, frescura, bloqueada, N horas  
+atrasada) de gbrain doctor, autopilot, sync y monitores cron — se ejecutan  
+ANTES de cualquier aumento de tiempo de espera, cambio de umbral o reescritura del pipeline.  
+
+Por favor, siempre responde en el idioma del usuario.

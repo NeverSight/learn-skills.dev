@@ -1,0 +1,1 @@
+查詢ArrayExpress（EMBL‑EBI的功能基因組學收藏）中的元資料並下載資料，該收藏目前已位於BioStudies中。透過E‑MTAB存取號取得研究元資料，列出並分類檔案（IDF/SDRF MAGE‑TAB、原始、已處理），印出SDRF實驗設計，依類別下載資料，寫入統一的metadata.tsv，並從SDRF建立 nf‑core/rnaseq 或 nf‑core/scrnaseq 的samplesheet.csv。

@@ -1,0 +1,3 @@
+執行 git commit，使用 Conventional Commits 規範產生中文提交訊息。當使用者請求提交程式碼、建立 git commit，或提到「commit」時觸發。支援： (1) 自動從程式碼變更偵測 type 與 scope， (2) 基於 diff 產生中文 Conventional Commit 訊息，且每一行正文對應此變更， (3) 支援互動式提交與自訂 type / scope / description， (4) 智慧地暫存檔案以達成邏輯分組， (5) 與此儲存庫近期的提交保持正文格式一致；當多種風格共存或現有資訊非標準時，列出每點並以「-」標示。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,3 @@
+使用 rocprofv3 進行 GPU 核心的效能分析，以收集 ATT 指令層級追蹤，然後利用 hotspot_analyzer.py 分析追蹤資料，找出前 K 名的停滯熱點（VMEM‑load、VMEM‑wait、LDS/SMEM‑wait、barrier、MFMA 停滯），並對應回原始程式碼行，生成可執行的最佳化方案。同時分析 rocprofv3 的 PMC 計數器 CSV（L2 命中率、部分讀取、過度抓取）。用法：/kernel-trace-analysis <cmd> 也可以直接分析已有的 dispatch 目錄：/kernel-trace-analysis --dir <path>
+
+請始終以使用者的語言回覆。

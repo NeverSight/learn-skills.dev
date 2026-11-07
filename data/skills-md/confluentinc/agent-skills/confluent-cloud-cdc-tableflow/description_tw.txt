@@ -1,0 +1,3 @@
+在 Confluent Cloud 上使用 Debezium 來源連接器、Flink 進行轉換，以及 Tableflow 進行資料湖整合，建立端到端的變更資料捕獲（CDC）管線。支援 JSON_SR、Avro 與 Protobuf 格式。能處理無結構主題（純 JSON、無 SR）與多事件主題。本技能負責從資料庫到 Iceberg/Delta 表的完整工作流程。當使用者希望捕獲資料庫變更並透過 Confluent Cloud Tableflow 將其具現化為 Iceberg 或 Delta Lake 表時，請使用此技能。觸發短語包括「CDC to Tableflow」、「database to Iceberg」、「database to Delta Lake」、「stream database changes to data lake」、「set up Tableflow pipeline」、「schemaless topic to Tableflow」或「multi-event topic to Iceberg」。請勿對僅一般 CDC、Debezium 或資料庫複製且不涉及 Tableflow 或 Iceberg/Delta Lake 作為目的地的請求觸發。
+
+請始終以使用者的語言回覆。

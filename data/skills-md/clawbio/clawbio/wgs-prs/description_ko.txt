@@ -1,0 +1,1 @@
+엔드-투-엔드 WGS에서 다인자 위험 점수 파이프라인까지. 페어 엔드 FASTQ 파일(또는 기존 VCF)을 nf-core/sarek를 사용해 변이 호출에 적용하고, VCF QC(정규화, 하드 필터링, Ti/Tv 및 Het/Hom 검사)를 수행한 뒤, PGS Catalog를 통해 다인자 위험 점수를 계산합니다. gwas-prs 스킬의 상류에 위치한 FASTQ에서 VCF까지의 공백을 메워줍니다.

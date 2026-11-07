@@ -1,0 +1,1 @@
+建立一個定期產生 AI 的 PostHog 報告 — 安排一個自由文字提示在 cron 上執行，將 LLM 合成的 markdown 在每次觸發時傳送至電子郵件、Slack 或 Microsoft Teams。適用於使用者希望以任何頻率（每日、每週、每月、每年）獲得 X 的定期 AI 摘要，而非一次性報告的情況。（若要將 AI 摘要附加到現有的洞察/儀表板訂閱，而非自由文字提示，請參閱 `managing-subscriptions` 以及其 `summary_enabled` 選項。）請始終以使用者的語言回應。

@@ -1,0 +1,5 @@
+이 스킬을 사용하여 AWS MSK(Managed Streaming for Apache Kafka)에서 Confluent Cloud로의 마이그레이션을 평가하고 계획하세요. 사용자 의도가 “migrate MSK to Confluent Cloud”, “move off MSK”, “MSK to CC cutover”, “Zero-Cut migration from MSK”, “kcp scan my MSK”와 같이 나타나거나, MSK‑to‑CC 평가, 계획, 클러스터 규모 지정, Cluster Linking 설정, 게이트웨이 기반 전환, 혹은 전환 후 검증 등에 대한 논의가 있을 때 트리거됩니다. 
+
+다음 경우에는 절대 트리거되지 않음에 유의하세요: MSK가 아닌 Kafka 소스(오픈소스 Kafka, Aiven, Confluent Platform, Redpanda) — 이 스킬은 MSK 전용입니다. 기존 Kafka 소스가 전혀 없는 그린필드 Confluent Cloud 프로젝트. 마이그레이션과 무관한 일반적인 Kafka 프로그래밍 질문(프로듀서/컨슈머 코드, Kafka Streams) 등.
+
+항상 사용자의 언어로 답변하십시오.

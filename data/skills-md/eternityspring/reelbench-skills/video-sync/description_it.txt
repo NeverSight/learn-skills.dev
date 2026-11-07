@@ -1,0 +1,15 @@
+Combina i dati del clip e il filmato originale in un unico **video riproducibile**: un lato mostra il video, l’altro lato mostra le informazioni dello storyboard per quella inquadratura (numero inquadratura, inizio/fine, durata, dimensione inquadratura, categoria, movimento della telecamera, descrizione visiva, dialogo). **Quando l’inquadratura cambia, le informazioni cambiano con essa**, e l’elenco delle inquadrature scorre automaticamente e evidenzia l’inquadratura corrente.
+
+Il layout dipende solo dal rapporto d’aspetto del filmato originale: **landscape / quadrato → video in alto, informazioni sotto; portrait → video a sinistra, informazioni a destra**, e il video è sempre scalato proporzionalmente—senza ritaglio o distorsione.
+
+L’elenco delle inquadrature **scorre con la riproduzione**: a ogni punto di taglio scorre di una breve distanza per portare l’inquadratura corrente a un punto di ancoraggio, poi si ferma; la barra di evidenziazione scivola in modo sincrono.
+
+L’implementazione cattura solo tre immagini (sfondo + due immagini lunghe espanse); lo scorrimento e l’evidenziazione vengono eseguiti da ffmpeg usando finestre di ritaglio basate sul tempo, **l’intero layout è in `scripts/panel.css`; modificalo per cambiare il layout**, senza toccare alcuno script.
+
+Utilizza il `shots.json` prodotto da video‑shots (se esiste `frames/`, usa i keyframe come miniature).
+
+Zero dipendenze npm; usa ffmpeg per la composizione e un browser headless per renderizzare il pannello.
+
+Usa quando ti viene chiesto di **esportare video, comporre video, video storyboard, video con informazioni sull’inquadratura, versione narrata del video, video con info inquadrature, video annotato delle inquadrature**.
+
+Rispondi sempre nella lingua dell'utente.

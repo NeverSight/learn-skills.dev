@@ -1,0 +1,1 @@
+NCBI Gene Expression Omnibus (GEO)에서 메타데이터를 조회하고 데이터를 다운로드합니다. GEO 접근 번호(GSE 시리즈, GSM 샘플, GPL 플랫폼, GDS 데이터셋)를 사용하여 GEO DataSets를 검색하고, 시리즈와 샘플 메타데이터를 가져오며, 시리즈 매트릭스 / SOFT / MINiML / 보조 파일을 목록화하고 다운로드하고, SRA Run Selector 파일을 가져와서 표준화된 metadata.tsv와 파이프라인에 바로 사용할 수 있는 nf-core/rnaseq 또는 nf-core/scrnaseq용 samplesheet.csv를 생성합니다.

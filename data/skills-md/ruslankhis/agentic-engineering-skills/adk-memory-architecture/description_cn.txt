@@ -1,0 +1,1 @@
+设计、实现、调整或审计 Python Google ADK 代理中的记忆和检索。选择并结合对话会话/状态、受治理的 RAG、代理平台记忆库以及受限的 BigQuery 历史记录；强制执行身份、同意、保留、重放和擦除边界。用于代理记忆、知识检索、准备检索文档（对扫描件、表格和图纸的逐页摄取分拣、OCR 或视觉路由、覆盖检查）或跨会话连续性工作。不要用于通用数据库管理、自然语言 SQL 代理（adk-sql-agent-engineering）、为降低延迟或令牌而修剪或汇总会话内历史（optimise-adk-on-google-cloud）、重试时的重复外部写入（safe-api-tool-calls）、仅部署、仅提示编辑（adk-agent-instructions 拥有提示措辞）或非代理缓存。

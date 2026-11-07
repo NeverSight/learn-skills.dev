@@ -1,0 +1,3 @@
+C, C++, Python, Go, JavaScript 또는 TypeScript 코드를 원본 동작을 유지하는 관용적인 Rust로 포팅합니다: 수동 메모리 대신 소유권, 오류 코드와 예외 대신 Result, 플래그 정수와 매직 문자열 대신 enum, 그리고 포팅이 일치함을 증명하는 테스트를 포함합니다. 사용자가 코드를 Rust로 포팅, 번역, 변환, 마이그레이션, 재작성(예: “rewrite this in Rust”, “what would this look like in Rust”, “move this module to Rust”)을 요청할 때마다 이 지침을 사용하고, “port”라는 단어가 없더라도 적용합니다. 이는 대상 코드의 스타일을 다루는 rust-best-practices 기술과 짝을 이룹니다.
+
+항상 사용자의 언어로 응답하십시오.

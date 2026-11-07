@@ -1,0 +1,3 @@
+評分一個儲存庫的 GitHub Actions 設定是否符合 CI 最佳實踐（CI 分數：根據該儲存庫自身的 workflow YAML 計算出的十一項通過/失敗配置事實），並回傳每個缺口的具體修正方案，依影響與風險排序，每項都有立即套用選項與可貼上的代理提示。使用時機：(1) 使用者請求評分或打分其 CI，或審核 CI 設定是否符合最佳實踐（「grade my CI」、「CI score」、「CI best practices audit」、「how healthy is my CI config」），(2) 工作流程變更後重新評分。需要本機檢出目標儲存庫。不要在以下情況觸發：CI 速度、成本或實際時間的審核、「why is CI slow」或優化機會分析（使用 ci-speedup）；安全審核或姿態檢查（ci-score 不是安全審核——恰好有兩項評分項目，action pinning 與 OIDC token 範圍，屬於安全相關）；從零撰寫新 workflow；非 GitHub-Actions CI。
+
+請始終以使用者的語言回覆。

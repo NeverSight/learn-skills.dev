@@ -1,0 +1,7 @@
+Diagnostiquez pourquoi une application déployée avec qianwenai-deploy sur le site national d’Alibaba Cloud (aliyun.com) est indisponible ou sensiblement lente, et, après que l’utilisateur l’ait confirmé explicitement, effectuez une récupération sécurisée et vérifiez le résultat. Lisez le fichier de statut .qianwenai-deploy dans le répertoire du projet pour identifier les ressources ECS (et éventuellement RDS MySQL), commencez par un diagnostic en lecture seule minimal, puis proposez une seule action de récupération à la fois (démarrage d’ECS, redémarrage du service de l’application, rechargement de Nginx), chaque action étant d’abord expliquée et confirmée quant à son impact.  
+
+Cas d’utilisation : l’utilisateur signale que l’application ne s’ouvre pas / renvoie un 502 / ne peut pas se connecter à la base de données, ou demande un redémarrage et une confirmation que l’application a été récupérée.  
+
+À ne pas utiliser lorsqu’il n’y a pas de fichier de statut .qianwenai-deploy ; que la cible est le site Alibaba Cloud International (utilisez qwencloud‑operate) ; ou que l’utilisateur ne souhaite qu’un aperçu du statut/coût (utilisez qianwenai‑observe).  
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

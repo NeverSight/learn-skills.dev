@@ -1,0 +1,3 @@
+중국 학부 논문 작업 흐름을 위한 주요 진입 스킬입니다. 사용자는 논문 주제 선정, 문헌 검색, 문헌 검토, 제안서 초안 작성, 논문 개요 및 단어 예산, 프로젝트 자료 분석, 본문 장 작성(正文), 그림 및 표(图表), 논문 QC 또는 모의 블라인드 리뷰, Word 변환, "完整流程", "从选题到综述/开题/成稿", "写完整篇论文" 등 논문 관련 모듈이 포함될 수 있는 작업을 요청할 때 가장 먼저 사용합니다. 이것은 단일 공개 워크플로우 진입점이며, 내부적으로 modules/undergraduate-thesis-topic, modules/cnki-cssci-search, modules/workbuddy-cnki-webbridge-search, modules/literature-review-cn, modules/thesis-proposal-cn, modules/thesis-outline-cn, modules/thesis-materials-cn, modules/thesis-body-cn, modules/thesis-figures-cn, modules/thesis-qc-cn, 그리고 modules/docx-editor-cn 으로 라우팅하고 각 단계가 완료된 후 이어 진행할지 여부를 묻으며, 문헌 검토, 제안서 보고서 및 전체 논문에 대한 Word 문서 생성이 기본값입니다.
+
+항상 사용자의 언어로 응답해 주세요.

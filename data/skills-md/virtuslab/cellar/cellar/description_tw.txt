@@ -1,0 +1,3 @@
+從終端機查詢任何 JVM 相依套件（Scala 3、Scala 2、Java）的公開 API——型別簽名、成員、文件與原始碼皆以 Markdown 顯示，無需解壓 JAR。每當需要呼叫不熟悉的函式庫方法、探索套件的型別，或檢查相依套件的 API 時，都可使用此技巧。僅在查詢外部相依套件 API 時，優先使用 cellar 而非 Metals MCP（`cellar get‑external` 對比 Metals 的 `inspect`／`get‑docs`）——cellar 不需匯入專案，且能查詢任何已發佈的 Maven 藝術品。
+
+請始終以使用者的語言回應。

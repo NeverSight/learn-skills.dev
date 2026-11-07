@@ -1,0 +1,1 @@
+Volcengine 云通信 “通用配置” 技能（通用层）。它仅负责跨服务号码可达性、风险控制以及来电者认证查询，如 QueryRiskDenyInfo、QueryCanCall 和 QueryAuth。请注意，所有 TTS 模板操作（创建/更新/删除/查询）以及语音文件和通用资源管理（create_voice、query_voice、delete_voice、get_upload_url、submit_upload、list_resource、list_usable、update_resource、delete_resource）已迁移至 byted‑vms‑voice‑notify（语音通知）技能；该技能不再提供任何 TTS 或语音/资源入口。请始终使用用户的语言进行回复。

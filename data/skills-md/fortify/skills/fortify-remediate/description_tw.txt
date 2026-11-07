@@ -1,0 +1,1 @@
+修復FoD或SSC中已由Fortify檢測到的SAST （靜態）和DAST （動態）安全漏洞—修復特定問題、類別或減少問題計數，包括應用SAST Aviator修復。對於SCA/開放原始碼相依性調查結果（易受攻擊的第三方元件， CVE ） ，請改用fortify-dependency-upgrade。不是用於發現或審查新問題（使用fortify-change-review進行當地代碼更改審查，或使用fortify-fod/fortify-ssc進行掃描和分類）。

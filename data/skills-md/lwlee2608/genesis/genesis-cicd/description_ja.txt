@@ -1,0 +1,1 @@
+Genesisで作成されたプロジェクト（services/<app>-server の Go API、services/<app>-web の pnpm React アプリ）に GitHub Actions の CI/CD を追加する際に使用します。CD のデプロイ先（Railway、Kubernetes、VM + Overwatcher）とブランチモデル（main = 本番、または main = ステージング + release = 本番）を尋ね、needs を組み込んだ単一の ci.yml を作成し、GitHub が一つのパイプライングラフとして表示できるようにします。

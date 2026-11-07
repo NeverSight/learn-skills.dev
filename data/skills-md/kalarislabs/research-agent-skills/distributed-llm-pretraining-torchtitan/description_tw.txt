@@ -1,0 +1,1 @@
+提供使用 torchtitan 以 4D 並行（FSDP2、TP、PP、CP）進行原生 PyTorch 分散式 LLM 預訓練。適用於在 8 至 512+ GPU 規模下，以 Float8、torch.compile 及分散式檢查點進行 Llama 3.1、DeepSeek V3 或自訂模型的預訓練。

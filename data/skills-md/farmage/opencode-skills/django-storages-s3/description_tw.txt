@@ -1,0 +1,1 @@
+使用於將 Django 的靜態檔案及媒體檔案儲存至 AWS S3，並透過 django‑storages 進行設定時。於設定 STORAGES、S3 Bucket、預簽名 URL、CloudFront，或在 settings.py 中使用 boto3 為後端檔案儲存時呼叫。本功能配置 Django 4.2 以上的 STORAGES dict、公開/私有自訂後端、預簽名 GET/POST URL、IAM 政策，並提供測試用的 S3 模擬。觸發詞彙：django‑storages、S3、boto3、S3Boto3Storage、STORAGES、預簽名 URL、CloudFront、媒體檔案、collectstatic、AWS_STORAGE_BUCKET_NAME。

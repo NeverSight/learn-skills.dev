@@ -1,0 +1,11 @@
+Proofread Japanese text using textlint with Japanese preset rules. Report issues clearly in Japanese.
+
+Trigger on:
+- "proofread", "check this Japanese text", "fix Japanese writing"
+- "日本語の文章を校正して" "textlintでチェックして" "文章の誤りを見つけて"
+- Requests to check ら抜き言葉, 二重否定, 読点, 文体統一, etc.
+- Quality checks on blog posts, technical docs, manuals in Japanese
+- Proofreading `.md`, `.txt`, `.mdx` files with Japanese content
+- "文章を直して" "読みやすくして" when the target text is Japanese
+
+Always report findings in Japanese regardless of the conversation language.

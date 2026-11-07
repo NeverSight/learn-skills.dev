@@ -1,0 +1,3 @@
+RunComfy의 `runcomfy` CLI를 통한 포즈 조건 생성. Kling 2-6 Motion Control Pro / Standard(레퍼런스 비디오의 움직임·블로킹을 대상 캐릭터에 전송), 커뮤니티 Wan 2-2 Animate(포즈 조건이 적용된 오디오 기반 캐릭터 애니메이션), 그리고 Z-Image Turbo ControlNet LoRA(OpenPose·DWPose·캐니·깊이 제어 이미지를 이용한 포즈 조건 이미지 생성) 사이를 라우팅합니다. 비디오와 정지 이미지, 스타일화와 포토리얼을 기준으로 올바른 경로를 선택합니다. “controlnet”, “control net”, “pose control”, “openpose”, “DWPose”, “transfer pose”, “motion control”, “pose driven”, “character pose”, “depth control”, “canny edge”, “use this pose”와 같은 단어나 포즈·스켈레톤·모션·깊이·캐니 레퍼런스를 이용해 생성 조건을 명시하는 요청이 있을 때 트리거됩니다.
+
+항상 사용자의 언어로 응답하십시오.

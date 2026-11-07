@@ -1,0 +1,3 @@
+ECI対応のSalesforce組織でAI Call Scoring（別名 Call Coaching / Coaching Competencies）の設定、セットアップ、または修復を行います。SOAP Metadata APIでECICallScoringEnabledをフリップし、オフの場合はEinstein Generative AI Platformを有効化し、Coaching Competencyレコード（EnablementCompetencyDef Tooling API）を管理します：6つのOOTBセット、7つのMomentumベストプラクティスプロンプトをインストールするか、カスタムコンピテンシー（アクティブ8件＋16000/255文字上限）を会話的に作成/編集/有効化/無効化します。  
+TRIGGERする条件：ユーザーがAI Call ScoringまたはCall Coachingをオンにしたい、OOTBまたはベストプラクティスコンピテンシーをインストールしたい、カスタムコンピテンシーを作成/編集したい、サンドボックスリフレッシュ後に再有効化したい、または68以上のECI組織で部分的なCall Coaching設定を検証/修復したい場合。  
+TRIGGERしない条件：ECIライセンスがない（Sales向けAgentforceへ直接）、ユーザーが自分でECI/Momentumを有効化したい（範囲外 — Setup）、Pipeline Management（sales-agentforce-pipeline-management-configureを使用）、またはカスタムエージェント（agentforce-generateを使用）。

@@ -1,0 +1,1 @@
+use when a completed change introduces new third-party packages, new internal shared modules, wrappers around existing libraries, or convenience helpers that broaden coupling. trigger after implementation when any import graph edge is new, when a "shared" or "common" layer has grown, or when one feature now depends on abstractions owned by another.

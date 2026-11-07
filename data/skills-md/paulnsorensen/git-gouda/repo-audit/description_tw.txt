@@ -1,0 +1,1 @@
+對每個目錄技能的檢查在儲存庫上執行唯讀稽核，並回報哪些設定缺口。從儲存庫根目錄執行捆綁的 Python 腳本，對每個目錄技能列印一行（檢查、狀態、證據、修復該問題的技能），然後提出一個按順序命名這些技能的計畫。永不寫入檔案，也不會呼叫會變更資料的 GitHub API 端點，即使使用可選的 --github 旗標（它會加入唯讀 GET 檢查）。在使用者說「audit this repo」、「what's missing in this repository」、「repo health check」、「which setup skills apply」或呼叫 /repo-audit 時使用。切勿直接套用任何修復——將每個發現導向其目錄技能——或用於應用程式邏輯的程式碼審查。

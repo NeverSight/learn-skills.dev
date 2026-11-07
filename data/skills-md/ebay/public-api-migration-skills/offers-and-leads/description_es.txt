@@ -1,0 +1,8 @@
+Guía de migración para los flujos tradicionales de Mejores Ofertas y de leads de anuncios clasificados a la API de Ofertas (GraphQL) y a la API de Leads.
+
+Activar cuando el usuario mencione: GetBestOffers → sellerNegotiationHistory; RespondToBestOffer → acceptOffer/counterOffer/declineOffer; GetAdFormatLeads → getAllClassifiedLeads/getClassifiedLeadsByItemId; o pregunte “¿cómo reviso las mejores ofertas?” o “¿cómo obtengo los leads clasificados?”.
+
+Cubre 3 operaciones tradicionales: recuperación de mejores ofertas, respuestas a mejores ofertas y recuperación de leads de anuncios clasificados.
+NO lo use para creación de listados, gestión de pedidos o flujos de ofertas del lado del comprador.
+
+Por favor, siempre responda en el idioma del usuario.

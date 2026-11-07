@@ -1,0 +1,3 @@
+編寫、驗證並強制執行 CODEOWNERS 檔案：偵測是否已有檔案，從目錄結構與 Git 歷史收集所有權證據，以正確的 CODEOWNERS 語法寫入或更新規則，透過 GitHub API 驗證檔案，並連接規則集，使 Pull Request 必須由程式碼擁有者審核。當使用者說「add CODEOWNERS」、「who owns this path」、「require owner review」、「validate CODEOWNERS」或呼叫 /codeowners 時使用。具備冪等性——可安全重新執行；在覆寫前先顯示差異，且永不在未確認的情況下自動指派擁有者。不要用於一般的分支規則集（使用 /gh‑bootstrap）或社群健康檔案，如 README、LICENSE、CODE_OF_CONDUCT、SECURITY（使用 /oss‑hygiene）——此功能僅處理 CODEOWNERS 檔案及其所觸發的審核規則。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,3 @@
+gbrain 엔진이 현재 사용 중인 것이 PGLite인지 Postgres인지 감지하고, agent-harness 설치 시에는 Postgres를 우선 선택하며, Postgres를 설치/프로비저닝합니다 (SUPABASE_ACCESS_TOKEN을 통한 Supabase 탐색, 로컬 Postgres, 선택적 Docker), 그리고 기존 PGLite 브레인을 그 히스토리(계획, 질문, 실행)와 함께 Postgres로 이동합니다. 감지는 엔진 없이 한 명령이며, 설치 단계는 하나의 플래그입니다.
+
+항상 사용자의 언어로 응답하십시오.

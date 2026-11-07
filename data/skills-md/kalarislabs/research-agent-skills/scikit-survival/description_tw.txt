@@ -1,0 +1,1 @@
+使用 scikit-survival（sksurv）構建、評估與稽核右截尾存活分析工作流程：Cox PH、Coxnet、IPC ridge、生存樹、隨機森林、提升法與 SVM，外加競爭風險的非參數累積發生率。涵蓋防止資訊泄漏的 scikit-learn 管道、巢狀交叉驗證以及考慮截尾的指標。適用於在事件時間資料上擬合存活模型、建立結構化結果陣列、計算 IPCW 一致性、動態 AUC 或 Brier 分數、估計特定原因的累積發生率，或在不產生泄漏的情況下調整模型。並非用於 Fine‑Gray 回歸，該方法 scikit-survival 未提供。

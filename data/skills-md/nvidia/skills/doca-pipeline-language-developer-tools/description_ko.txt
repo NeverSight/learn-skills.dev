@@ -1,0 +1,3 @@
+운영자가 BlueField DPU에서 DPL 프로그램을 검사하거나 디버깅하기 위해 DOCA Pipeline Language (DPL) Developer Tools를 사용할 때 이 기능을 사용하십시오 — 런타임 상태(테이블, 키, 카운터 등)를 확인하기 위한 DPL Nspect, 패킷 흐름을 확인하기 위한 DPL Debugger, DPL Runtime Daemon의 동적 구성 변경을 위한 DPL Admin, P4Runtime 제어 플레인 관리자를 위한 P4 Runtime Shell, 또는 맞춤형 P4Runtime 애플리케이션 및 DPL 공유 메모리 API를 위한 DPL Runtime Controller SDK. 사용자가 "DPL Developer Tools"를 명시적으로 언급하지 않더라도 트리거하십시오 — 암시적 표현에는 "DPU에서 DPL 테이블을 검사하고 싶다", "왜 DPL 디버그 세션을 시작할 수 없는가", "재시작 없이 dpl_rtd 구성 항목을 변경하고 싶다", "DPL을 위한 자체 P4Runtime 앱을 만들고 싶다", 또는 "내 DPL 프로그램을 통한 패킷 흐름을 시각화하고 싶다" 등이 포함됩니다. 다음 경우에는 거절하고 다른 곳으로 안내하십시오: DOCA Pipeline Language Service Guide에 DPL 프로그램을 작성·컴파일·배포하는 경우, doca-setup에 대한 DOCA 설치·시동, 그리고 doca-hardware-safety에 대한 하드웨어 또는 펌웨어 상태 변경.
+
+항상 사용자의 언어로 응답하십시오.

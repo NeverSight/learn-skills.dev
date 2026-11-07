@@ -1,0 +1,1 @@
+鑽井資料管理與層序相關（礦物地質與 3D 建模）。從 LAS（Log ASCII Standard）格式檔案讀取測井曲線與井口資訊，並結合岩性解釋結果建構 Striplog 層序剖面。LAS 是石油業界用於測井資料交換的標準。當使用者詢問礦物地質與 3D 建模任務時使用，例如：載入這五口井的 LAS 檔案並產生標準柱狀圖；利用 GR 曲線特徵協助層序相關；計算每口井的 3D 井眼軌跡。核心工具：striplog_read_las_well、striplog_read_las_well。

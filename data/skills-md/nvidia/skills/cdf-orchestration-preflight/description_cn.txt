@@ -1,0 +1,1 @@
+设置缺失的 Linux 前置条件，并审计 Cosmos 数据工厂（CDF）Orchestration 检出及其 Kubernetes 或 OSMO 环境是否已准备好安装控制器并运行所有打包的 DAG。用于前置条件、预设置、Kubernetes、GPU、RWX/NFS、凭证、控制器就绪性和快速启动检查。不用于部署控制器（使用 cdf-orchestration-setup，它会先调用此审计），也不用于编写负载或运行工作流。

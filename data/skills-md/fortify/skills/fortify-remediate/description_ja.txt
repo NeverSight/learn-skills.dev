@@ -1,0 +1,1 @@
+FoDまたはSSCで既にFortifyによって検出されたSAST （静的）およびDAST （動的）セキュリティの脆弱性を修正します。SAST Aviatorの修正を適用するなど、特定の問題、カテゴリを修正したり、問題数を減らしたりします。SCA/オープンソースの依存関係の調査結果（脆弱なサードパーティコンポーネント、CVE ）の場合は、代わりにfortify - dependency - upgradeを使用します。新しい問題を発見またはレビューするためではありません（ローカルのコード変更レビューにはfortify - change - reviewを使用し、スキャンとトリアージにはfortify - fod/fortify - sscを使用します）。

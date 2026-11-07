@@ -1,0 +1,1 @@
+在將 TypeScript 型別檢查設為獨立品質關卡時使用——編寫或加嚴 strict 的 tsconfig.json、加入在建置之外單獨執行的 `tsc --noEmit`（或 `tsc -b --noEmit`）檢查、將此檢查納入 CI，或為多套件（pnpm/Turborepo）單儲存庫配置 TypeScript 專案參照。說明為何必須有專屬的型別檢查關卡（因打包工具與轉譯器會在不檢查型別的情況下剝除型別）、超出 `strict: true` 的嚴格編譯選項組合值得啟用、Vite 的分割設定佈局，以及透過 composite 專案參照實現跨套件型別解析。TypeScript 5.x。

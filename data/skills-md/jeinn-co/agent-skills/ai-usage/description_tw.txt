@@ -1,0 +1,1 @@
+在一份統一報告中檢查 Claude、ChatGPT、Grok、Muse 與 Gemini（Antigravity CLI）的 AI 訂閱使用限制——已使用百分比、剩餘量、每個窗口重置時間、每個 CLI 最新會話的模型/耗用，以及該模型的 CursorBench 分數、成本與 CP。`setup` 會選擇要報告的提供者。它會先檢查 GitHub 是否有更新版本，並在更新前詢問是/否。當使用者執行 /ai-usage 或 /uu（有或沒有 `setup`）時，或詢問使用情況、限制、剩餘配額、重置時間、速率限制、「我已沒有 Claude」或「ChatGPT 還剩多少」等問題、Muse 使用情形、Gemini 使用情形或 Antigravity 配額時，都應使用此功能，並支援任何語言的等效請求。請始終以使用者的語言回覆。

@@ -1,0 +1,1 @@
+PostHog のエラー発生やセッションのエラーを OpenTelemetry のトレース、同じ trace ID を持つログ、そして Session Replay にリンクします。エラーの trace や span ID、同一トレースのログ、またはセッション内のエラーに対するバックエンドトレースが必要な場合に使用します。発生 UUID、セッション ID、またはエラートラッキング課題の URL から開始します。一般的な課題診断やリプレイの要約には、investigating-error-issue または investigating-replay を使用してください。

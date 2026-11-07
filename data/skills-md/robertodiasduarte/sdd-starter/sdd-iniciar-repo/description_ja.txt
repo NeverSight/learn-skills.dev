@@ -1,0 +1,3 @@
+git とプライベート GitHub に、まだ git を使っていないプロジェクトを、クライアントデータを含めずに置く：iCloud/OneDrive/Dropbox/Google Drive の外にあるフォルダを確認し、git に入れるべきものを一覧にして、パスワード（.env）、証明書 A1（.pfx）、スプレッドシート、巨大ファイルをマークし、.gitignore を提案し、最初のコミット前に sdd‑higiene‑dado のコミットアラームを提供し、各ステップの明示的な OK が出たときだけコミットして公開する。git を使ったことがない人には、1 ステップずつ、何が行われたか、次に何が来るか、各決定の選択肢を示す。中断したところから再開する（git はあるがコミットがない、コミットはあるが GitHub がない、プッシュが失敗した）。ユーザーが「pôr no git」「criar o repositório」「subir para o GitHub」「este projeto não tem git」と言ったとき、または sdd‑new‑session や sdd‑checar‑ambiente がプロジェクトがまだ git を使っていないと報告したときに使用する。既に漏れた履歴は削除せず、ユーザーの GitHub ログインは行わず、別ホスト（GitLab など）を自動化せず、コマンドだけを提示する。
+
+常にユーザーの言語で応答してください。

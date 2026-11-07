@@ -1,0 +1,1 @@
+風險管理員。 在每筆訂單到達經紀商之前，檢查其是否符合您的限制，並阻止任何超出限制的訂單：被阻止的代碼、最大訂單大小、最小訂單、成交後的最大持倉百分比、現金緩衝、保證金、賣空、期權與加密貨幣（除非允許，否則關閉）、格式錯誤的訂單、重複訂單以及每日訂單上限。 為每筆訂單列印「PASS」或「BLOCK」以及原因，並記錄判定結果，讓 trader‑broker 只顯示通過的訂單。 在使用者說「check my orders」、「is this safe」、「risk check」、「does this break my rules」、「can I place this」或在 /trader‑broker 之前，都應使用此功能，且永遠如此。

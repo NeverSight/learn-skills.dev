@@ -1,0 +1,3 @@
+Führen Sie Web‑Scraping‑Subagenten in isolierten Docker‑Sandboxen aus, jeweils eine Box pro Subagent. Jede Box verfügt über ein Terminal (curl, python), ein permanentes headless Chromium, passive Anfragelister, die jeden HTTP‑Aufruf protokollieren, und optional einen Proxy mit festem Budget und bekannten Kosten pro Anfrage. Verwenden Sie dies, wenn eine Aufgabe sich auf mehrere Subagenten verteilt, die Webseiten durchsuchen oder scrapen, versteckte API‑Endpoints hinter Seiten finden, Datenquellen validieren oder Crawler bauen müssen, und Sie jede Anfrage sowie jeden Schritt des Agenten protokolliert und prüfbar benötigen.
+
+Bitte antworten Sie stets in der Sprache des Benutzers.

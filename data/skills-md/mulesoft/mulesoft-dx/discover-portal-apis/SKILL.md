@@ -1,0 +1,277 @@
+---
+name: discover-portal-apis
+description: |
+  Discover APIs published in an API Experience Hub portal as a portal
+  consumer. Use when an end user needs to browse the catalog, search
+  assets by keyword or filter, open an API's detail page, read its terms
+  and conditions, or fetch rendered documentation pages and resources.
+---
+
+# Discover Portal APIs
+
+## Overview
+
+As a portal consumer (end user), you need to find the right API and understand what it does before requesting access. This workflow covers the discovery surface of an API Experience Hub (AEH) portal: listing and searching published assets, inspecting a specific asset's metadata, reading its terms of use, and fetching its documentation pages and downloadable resources.
+
+**What you'll build:** A short list of candidate APIs and the supporting docs you need to decide which one to request access to.
+
+## Prerequisites
+
+Before starting, ensure:
+
+1. **Authentication ready**
+   - Valid portal-consumer Bearer token
+   - Membership in the portal (see `manage-portal-members-and-prospects` for the admin flow that grants this)
+
+2. **Portal context known**
+   - `targetOrganizationId` — the Anypoint organization hosting the portal
+   - `portalId` / `targetPortalId` — the specific portal you are browsing
+
+## Step 1: List Published Assets in the Portal
+
+Start with a broad browse of everything the portal publishes.
+
+**What you'll need:**
+- `targetOrganizationId`, `targetPortalId`
+
+```yaml
+api: urn:api:api-experience-hub-consumer
+operationId: listAssetsCommunityAsset
+inputs:
+  targetOrganizationId:
+    userProvided: true
+    description: Anypoint organization ID hosting the portal
+  targetPortalId:
+    userProvided: true
+    description: Portal ID the user is browsing
+outputs:
+  - name: assets
+    path: $.assets[*]
+    labels: $.assets[*].name
+    description: Assets published in the portal
+  - name: groupId
+    path: $.assets[*].groupId
+    description: Exchange groupId of an asset, used by detail-level operations
+  - name: assetId
+    path: $.assets[*].assetId
+    description: Exchange assetId of an asset
+  - name: minorVersion
+    path: $.assets[*].minorVersion
+    description: Minor version visible to the consumer
+```
+
+## Step 2: Search for Specific Assets
+
+Narrow the list with a keyword, tag, category or asset-type filter.
+
+**What you'll need:**
+- `targetOrganizationId`, `targetPortalId`
+- Search criteria
+
+```yaml
+api: urn:api:api-experience-hub-consumer
+operationId: searchCommunityAssets
+inputs:
+  targetOrganizationId:
+    from:
+      variable: targetOrganizationId
+    description: Anypoint organization ID hosting the portal
+  targetPortalId:
+    from:
+      variable: targetPortalId
+    description: Portal ID the user is browsing
+  searchRequest:
+    userProvided: true
+    description: Search criteria (free-text query, categories, tags, paging)
+    example:
+      searchTerm: orders
+      tags:
+        - v2
+      limit: 25
+      offset: 0
+outputs:
+  - name: matchingAssets
+    path: $.assets[*]
+    labels: $.assets[*].name
+    description: Assets matching the search query
+```
+
+## Step 3: Open an Asset's Detail Page
+
+Retrieve the full metadata of one asset — summary, description, contact info, classifier, all visible minor versions.
+
+**What you'll need:**
+- `targetOrganizationId`, `targetPortalId`
+- `groupId`, `assetId`, `minorVersion` chosen from Step 1 or Step 2
+
+```yaml
+api: urn:api:api-experience-hub-consumer
+operationId: getAssetDetails
+inputs:
+  targetOrganizationId:
+    from:
+      variable: targetOrganizationId
+    description: Anypoint organization ID hosting the portal
+  targetPortalId:
+    from:
+      variable: targetPortalId
+    description: Portal ID the user is browsing
+  groupId:
+    from:
+      variable: groupId
+    description: Exchange groupId of the asset
+  assetId:
+    from:
+      variable: assetId
+    description: Exchange assetId of the asset
+  minorVersion:
+    from:
+      variable: minorVersion
+    description: Minor version to open
+outputs:
+  - name: assetDetails
+    path: $
+    description: Full asset metadata, including instances and tiers available to request
+```
+
+## Step 4: Read Terms and Conditions
+
+Before requesting access, consumers should read the terms published for the asset.
+
+**What you'll need:**
+- `targetOrganizationId`, `targetPortalId`, `groupId`, `assetId`, `minorVersion`
+
+```yaml
+api: urn:api:api-experience-hub-consumer
+operationId: getTermsAndConditions
+inputs:
+  targetOrganizationId:
+    from:
+      variable: targetOrganizationId
+    description: Anypoint organization ID hosting the portal
+  targetPortalId:
+    from:
+      variable: targetPortalId
+    description: Portal ID the user is browsing
+  groupId:
+    from:
+      variable: groupId
+    description: Exchange groupId of the asset
+  assetId:
+    from:
+      variable: assetId
+    description: Exchange assetId of the asset
+  minorVersion:
+    from:
+      variable: minorVersion
+    description: Minor version whose terms to fetch
+outputs:
+  - name: termsContent
+    path: $.content
+    description: Markdown/HTML content of the terms and conditions
+```
+
+## Step 5: Fetch Documentation Pages
+
+Each asset can publish multiple documentation pages (home, guides, changelog, etc.).
+
+**What you'll need:**
+- `targetOrganizationId`, `targetPortalId`, `groupId`, `assetId`, `minorVersion`
+- Optional page path (the API uses a wildcard — pass the specific page path to fetch a single page)
+
+```yaml
+api: urn:api:api-experience-hub-consumer
+operationId: getAssetPages
+inputs:
+  targetOrganizationId:
+    from:
+      variable: targetOrganizationId
+    description: Anypoint organization ID hosting the portal
+  targetPortalId:
+    from:
+      variable: targetPortalId
+    description: Portal ID the user is browsing
+  groupId:
+    from:
+      variable: groupId
+    description: Exchange groupId of the asset
+  assetId:
+    from:
+      variable: assetId
+    description: Exchange assetId of the asset
+  minorVersion:
+    from:
+      variable: minorVersion
+    description: Minor version to fetch pages for
+  pagePath:
+    userProvided: true
+    description: Optional documentation page path (leave empty to list all pages)
+outputs:
+  - name: pageContent
+    path: $
+    description: The requested documentation page (or list of pages)
+```
+
+## Step 6: Fetch Asset Resources (Optional)
+
+Download companion resources (diagrams, sample files, SDK bundles) attached to an asset.
+
+**What you'll need:**
+- `targetOrganizationId`, `targetPortalId`, `groupId`, `assetId`, `minorVersion`
+- `resourceId` obtained from the asset-details response in Step 3
+
+```yaml
+api: urn:api:api-experience-hub-consumer
+operationId: getAssetResource
+inputs:
+  targetOrganizationId:
+    from:
+      variable: targetOrganizationId
+    description: Anypoint organization ID hosting the portal
+  targetPortalId:
+    from:
+      variable: targetPortalId
+    description: Portal ID the user is browsing
+  groupId:
+    from:
+      variable: groupId
+    description: Exchange groupId of the asset
+  assetId:
+    from:
+      variable: assetId
+    description: Exchange assetId of the asset
+  minorVersion:
+    from:
+      variable: minorVersion
+    description: Minor version to fetch the resource from
+  resourceId:
+    userProvided: true
+    description: Resource ID obtained from the asset detail response
+outputs:
+  - name: resourceContent
+    path: $
+    description: The binary/text resource content
+```
+
+## Completion Checklist
+
+- [ ] Portal catalog browsed or searched
+- [ ] Candidate asset identified
+- [ ] Full asset details reviewed
+- [ ] Terms and conditions read
+- [ ] Documentation pages consulted
+- [ ] Companion resources downloaded (if applicable)
+
+## What You've Built
+
+✅ **Informed API Choice** — You have the metadata, terms and docs you need to decide which API to request access to.
+
+## Next Steps
+
+1. **Request access** — See `request-api-access` to create a contract against the chosen instance and tier.
+2. **Manage your applications** — See `manage-portal-applications` to create the application identity that will consume the API.
+
+## Related Jobs
+
+- **request-api-access** — Create a contract between your app and the discovered API
+- **manage-portal-applications** — Manage the applications that hold API credentials

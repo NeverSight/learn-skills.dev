@@ -1,0 +1,1 @@
+透過專案自有的 nightly 流程發布下一個 nightly build —— 檢查 main 分支是否為綠色且 nightly 標籤為最新，寫入該 build 需要的 notes 檔案（透過 write‑release‑notes），提交，當使用者取得 notes 後移動並推送標籤，然後監看 build 並檢查其發布內容。當使用者要求 release、cut、publish 或 update nightly，或需要移動或更新 nightly 標籤，或呼叫 /release‑nightly 時使用。於 main 分支為紅色或缺少指示時即停止，不會猜測；永遠只對 nightly 標籤執行 force‑push，其他情況不會強制推送。

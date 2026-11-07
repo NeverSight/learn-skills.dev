@@ -1,0 +1,1 @@
+使用 MLflow 追蹤機器學習實驗並管理模型生命周期，涵蓋 mlflow.log_param、log_metric 與 log_artifact，自動記錄 scikit-learn、PyTorch Lightning、XGBoost 與 HuggingFace Transformers，模型註冊表的版本與階段轉換、執行搜尋，以及本地或雲端模型服務。適用於記錄訓練執行的參數、指標與工件、比較不同實驗的執行、將模型版本從 Staging 推廣至 Production、提供已記錄模型進行推論，或從 MLflow 專案重現實驗。並非用於超參數掃描儀表板或一般資料版本控制；此類需求請使用專門工具。

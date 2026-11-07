@@ -1,0 +1,1 @@
+建立 Port 工作流程：由觸發器（自助表單、Context Lake 事件）、動作節點（Webhook、Upsert 實體、GitHub / GitLab / Azure DevOps / Claude 管理的代理整合動作、Kafka、Cursor Agent、AI）、條件與輸入節點、節點之間的 JQ 模板，以及自助觸發權限組成的基於節點的自動化，使用對 Port API 的工作流程 JSON 進行編寫。當被要求建立 Port 工作流程、向工作流程新增觸發器、加入動作節點、串接自助工作流程、以條件節點加入分支、加入核准步驟、在 Port 中構建事件驅動的自動化或撰寫工作流程 JSON 時使用。Port 工作流程是 Port 自有的節點與邊緣自動化圖，並非 GitHub Actions 等 CI/CD 管線檔案。

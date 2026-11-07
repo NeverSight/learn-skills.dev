@@ -1,0 +1,1 @@
+Esta habilidad DEBE invocarse para todas las operaciones con informes 1C externos (ERF): creación (init), construcción (build) y volcado (dump). También se DEBE llamar para cualquier trabajo con archivos ERF y su código fuente. NO lo use para procesamiento externo (EPF) — use epf-expert; para SKD dentro de un informe — use skd-edit; para formularios — use form-add.

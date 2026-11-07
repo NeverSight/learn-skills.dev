@@ -1,0 +1,1 @@
+为聊天部分启用证据链规则（R19）——强制所有推理链在可观察的证据处结束（observed/tool-record/graph-edge/web/parametric/absence），不同于 fable5（通用推理纪律，不绑定引用）。当用户说 “graph-mode”、 “bật graph mode”、 “evidence mode” 或调用 /graph-mode 时使用。占用较多 token（需要更多引用/打开文件），因此不要在每个会话自动开启——仅在手动调用时启用。一旦启用，它将在整个会话期间保持激活（可通过 “tắt graph mode”、 “graph-mode off” 或 “normal mode” 关闭）。

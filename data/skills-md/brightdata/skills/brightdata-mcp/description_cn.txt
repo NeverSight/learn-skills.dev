@@ -1,0 +1,1 @@
+Bright Data 的 MCP 服务器是提供 LLM 代理实时网页访问且不需要 shell 的工具层。适用于将 Bright Data 工具接入在运行时挑选工具的 AI 应用或代理框架、将 Claude、Cursor 或其他 MCP 客户端连接到 Bright Data、选择启用哪些 MCP 工具或工具组，或用户说出 “MCP” 时使用。覆盖托管在 mcp.brightdata.com 的远程服务器以及本地自托管的 @brightdata/mcp 包，并指明每个作业应路由到的工具。不是用于在 shell 中自行执行作业的代理，那是 brightdata-cli。也不是用于应用中固定重复代码的情况，那是 brightdata-sdk。也不是用于安装或认证问题，那是 agent-onboarding。

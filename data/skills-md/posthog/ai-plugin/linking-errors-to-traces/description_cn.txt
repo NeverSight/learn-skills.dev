@@ -1,0 +1,1 @@
+将 PostHog 错误发生或会话中的错误链接到 OpenTelemetry 跟踪、具有相同 trace ID 的日志以及 Session Replay。当用户请求错误的 trace 或 span ID、相同 trace 的日志，或会话中错误的后端跟踪时使用。可从 occurrence UUID、session ID 或错误追踪 issue URL 开始。对于一般的问题诊断或回放摘要，请使用 investigating-error-issue 或 investigating-replay。

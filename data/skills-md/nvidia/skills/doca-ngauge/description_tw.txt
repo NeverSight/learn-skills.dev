@@ -1,0 +1,3 @@
+使用此技能當操作員正在使用 DOCA ngauge 工具，透過探測 NIC 硬體計數器並將收集的資料以 HDF5 格式儲存，以分析、視覺化與除錯單節點的網路效能。即使用戶未明確說出「DOCA ngauge」亦可觸發——隱含語句包括「探測 NIC 硬體計數器」、「收集 HDF5 效能資料」、「繪製 ngauge 輸出」、「在 BlueField/ConnectX 上抽樣計數器」、「測量單節點的網路效能」、「使用硬體計數器除錯網路效能」、「執行 ngauge YAML 設定」、「解析 ngauge HDF5 輸出」。拒絕並轉交其他處理：DOCA 安裝/啟用交由 doca-setup，版本問題交由 doca-version，硬體/韌體狀態變更交由 doca-hardware-safety，原始封包 I/O 交由 doca-eth，主機與 DPU 訊息傳遞交由 doca-comch。
+
+請始終以使用者的語言回覆。

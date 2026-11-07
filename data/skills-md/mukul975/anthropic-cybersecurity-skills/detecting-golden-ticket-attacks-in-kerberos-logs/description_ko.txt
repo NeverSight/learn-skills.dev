@@ -1,0 +1,1 @@
+Splunk와 KQL 쿼리를 사용하여 도메인 컨트롤러 이벤트 로그에서 Active Directory의 Golden Ticket 공격을 탐지합니다. Kerberos TGT 이상 현상(암호화 유형 불일치, 불가능한 티켓 수명, 존재하지 않는 계정, 위조된 PAC 서명 등)을 찾아냅니다. Kerberos 티켓 위조 또는 krbtgt 기반 지속성(MITRE T1558.001)을 사냥할 때 AD 환경에서 사용하십시오.

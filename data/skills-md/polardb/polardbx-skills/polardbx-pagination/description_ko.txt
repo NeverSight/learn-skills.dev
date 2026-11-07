@@ -1,0 +1,4 @@
+PolarDB‑X 2.0 엔터프라이즈 에디션을 위한 효율적인 페이지네이션 및 대규모 테이블 탐색. 깊은 페이지네이션 상황에서는 LIMIT M,N보다 Keyset 페이지네이션(커서 페이지네이션)을 권장하고, 극한 경우를 위한 샤드별 탐색을 제공하며, 인덱스 요구사항과 완전한 Java 코드 예제를 포함합니다.  
+페이지네이션 쿼리를 구현하거나, 대규모 테이블을 탐색하거나, 데이터를 배치로 내보내거나, PolarDB‑X에서 느린 LIMIT M,N 쿼리를 최적화할 때 사용하십시오.  
+
+트리거: "分页查询", "deep pagination", "Keyset pagination", "大表遍历", "数据导出", "LIMIT优化", "分页性能", "cursor pagination", "游标分页", "翻页慢", "深翻页", "pagination query", "batch traversal", "LIMIT M N slow", "efficient paging"

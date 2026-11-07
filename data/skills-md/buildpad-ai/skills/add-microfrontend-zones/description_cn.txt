@@ -1,0 +1,6 @@
+使用 Next.js 多区（基于路径的单源组合）搭建微前端架构。  
+目前仅支持 Supabase 项目：尚未在 Engine 项目中提供。  
+创建一个主应用（默认区），通过重写将路径前缀路由到独立的 Next.js 微应用，使用统一的 Supabase 会话 Cookie、统一的 DaaS 后端，由 CLI 的 AuthenticatedShell 在每个区渲染，且不使用 iframe。  
+当用户请求微前端、microfrontends、多区、区、基于路径的组合，或希望在同一域名下拥有独立的 Next.js 应用时——即使用户提到“iframe”，也请使用此技能。  
+仅在微应用不是 Next.js 应用、属于第三方或不受信任代码，或必须在其他应用页面中渲染时，才使用 add-microfrontend（iframe）技能。  
+请始终使用用户的语言进行回应。

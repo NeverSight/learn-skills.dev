@@ -1,0 +1,1 @@
+Unsloth を使用した大規模言語モデルのファインチューニングに関するガイダンスを提供します。Unsloth は LoRA と QLoRA を用いた、より高速でメモリ使用量が少ないトレーニングを実現するライブラリで、公式ドキュメント（references/llms-txt.md）に基づいています。Unsloth を用いた LLM の LoRA または QLoRA ファインチューニングの設定、トレーニング時の GPU メモリ使用量削減、Unsloth の機能や API の調査、Unsloth のトレーニングコードのデバッグ、ベストプラクティスの学習に使用してください。純粋な Hugging Face Transformers や PEFT で Unsloth を使用せずに一般的なモデル訓練を行う目的では使用しないでください。

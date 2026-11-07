@@ -1,0 +1,3 @@
+使用由 Gemini Nano 和 AICore 驅動的 ML Kit GenAI Agent API，構建 Android 應用中的自主本地代理工作流。實現對話代理、多輪聊天（在 ViewModel 中使用 AgentSession）、透過 Android AppFunctions（@AppFunctionDeclaration 與 AppFunctionAgentTools.discover）進行自主工具呼叫、使用 runner.runSingleTurnAsync 進行暫時性單輪執行，或處理 GenAiException 的錯誤彈性時，可使用此技能。它解決了在本地協調推理迴圈、型別化工具分派以及設備端會話持久化的問題，實現零雲端延遲與隱私保護。不要將其用於雲端 Gemini 模型或 Vertex AI、沒有代理迴圈的單輪文本生成（建議使用 Prompt API），或非 Android 平台。
+
+請始終以使用者的語言回應。

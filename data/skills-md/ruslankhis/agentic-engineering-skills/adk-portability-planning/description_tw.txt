@@ -1,0 +1,3 @@
+評估已接受的 Google ADK 在 GCP 上的設計對 Google Cloud 與 ADK 的依賴程度，並撰寫一份面向利害關係人的可移植性計畫：供應商依賴、AWS 與 Azure 替代方案、其他代理框架的簡要比較、模型可移植性、值得保留的替換邊界、遷移風險以及相對工時的分階段替代大綱。於可移植性目標或工單指定此技能時，或利害關係人詢問供應商鎖定、退出計畫或將現有設計遷移至其他雲端或框架時使用。GCP 與 ADK 設計仍為主要建置；此技能僅寫入 docs/portability/<topic>.md，且不更改程式碼。請勿啟用以下功能：選擇在 Google Cloud 上託管 (deploy‑adk‑on‑google‑cloud)、設定模型容錯 (adk‑model‑and‑output‑contracts)、連接 MCP 或 A2A 同儕 (adk‑agent‑interoperability)，或在其他平台上建置或遷移應用程式。
+
+請始終以使用者的語言回應。

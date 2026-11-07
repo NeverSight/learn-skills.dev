@@ -1,0 +1,3 @@
+註冊一個組織範圍的外部介面應用程式（公開/PKCE Auth0 OAuth 用戶端）以用於自訂 UI，例如 Lovable、v0 或 bolt.new 建立的應用程式，使用 Port 的 MCP 工具，然後將授權碼 + PKCE 流程接入該 UI，使其能夠讓使用者登入並呼叫 Port API。當被要求「在 Port 之上構建自訂 UI」、「將我的 Lovable 應用程式連接到 Port」、「在 Port 註冊 OAuth 應用程式」、「為我的應用程式新增 Port 登入」、「取得外部應用程式的 client ID」或「修復使用 Port 登入時的 Callback URL 不匹配／找不到服務錯誤」時使用。範圍外：Port 自身的插件與自訂小工具系統（此技能永不在 Port 內部構建或安裝任何東西），以及管理 Port 的單一登入或身分提供者連接。
+
+請始終以使用者的語言回覆。

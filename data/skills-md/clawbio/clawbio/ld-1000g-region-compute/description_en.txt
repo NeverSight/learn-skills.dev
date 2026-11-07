@@ -1,0 +1,5 @@
+Compute pairwise r² between a lead variant and every variant in a window
+using the 1000 Genomes Phase 3 GRCh38 reference panel, ancestry-stratified.
+Use when an agent needs LD coloring for a regional plot or LD pruning
+around a candidate causal variant. Single client (on-demand region fetch
+from EBI 1000G FTP); no multi-GB cold-start.

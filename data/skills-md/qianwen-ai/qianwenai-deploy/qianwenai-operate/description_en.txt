@@ -1,0 +1,1 @@
+诊断由 qianwenai-deploy 部署到阿里云国内站（aliyun.com）的应用为何不可用或明显变慢，并在用户 明确确认后执行安全恢复并验证结果。读取项目目录下的 .qianwenai-deploy 状态文件识别 ECS（及可选 RDS MySQL）资源，先做最小只读诊断，再一次只提议一个恢复动作（启动 ECS、重启应用服务、重载 Nginx），每个动作都先经过说明影响的确认。 使用场景：用户说应用打不开 / 返回 502 / 连不上数据库，或要求重启并确认应用恢复。 不使用场景：没有 .qianwenai-deploy 状态文件；目标是阿里云国际站（用 qwencloud-operate）； 用户只想要状态/成本概览（用 qianwenai-observe）。

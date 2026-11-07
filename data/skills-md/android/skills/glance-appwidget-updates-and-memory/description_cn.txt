@@ -1,0 +1,3 @@
+使用 Jetpack Glance（androidx.glance:glance-appwidget）和 AppWidgetProvider 接收器在 Android 17（API 37）上管理 Android AppWidget 状态更新、后台同步以及 RemoteViews 位图内存限制。配置 Android 17（API 级别 37）的 compileSdk/targetSdk 和 AndroidManifest.xml 小部件接收器时使用此技能；在 CoroutineWorker DataStore 首选项更新（updateAppWidgetState）后刷新冻结或过时的 Glance 小部件 UI；在 WindowMetrics 内存限制范围内对 SizeMode.Responsive、SizeMode.Exact 或 LazyColumn 的图像进行下采样；通过 FileProvider 共享 content:// URI；或使用 WorkManager 修复 ActionCallback NoSuchMethodException 和 AppWidgetProvider ForegroundServiceStartNotAllowedException 崩溃。不要在 Glance 布局模板（建议使用 glance-canonical-layouts 技能）或应用内 Compose 界面中使用本技能。
+
+请始终使用用户的语言回复。

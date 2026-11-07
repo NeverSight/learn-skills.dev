@@ -1,0 +1,3 @@
+공식 Salesforce 문서 검색 스킬. developer.salesforce.com, help.salesforce.com, architect.salesforce.com, admin.salesforce.com, lightningdesignsystem.com 등에서 권위 있는 Salesforce 문서가 필요할 때 사용합니다. 특히 페이지가 JavaScript 중심이거나 쉘 렌더링되어 있어 단순한 가져오기로는 추출하기 어려운 경우에 활용합니다. 답변을 서드파티 블로그나 요약이 아닌 공식 Salesforce 출처에 근거하도록 사용합니다. TRIGGER: 사용자가 공식 Salesforce 문서, Apex 또는 API 레퍼런스, LWC 문서, Agentforce 문서, 설정 또는 도움말 기사, 또는 Salesforce 소유 도메인의 문서를 요청할 때. DO NOT TRIGGER: 사용자가 코드 변경, 배포 작업 등 문서 검색이 필요하지 않은 경우 — 해당 경우에는 적절한 sf-* 스킬을 사용합니다.  
+
+항상 사용자의 언어로 응답하십시오.

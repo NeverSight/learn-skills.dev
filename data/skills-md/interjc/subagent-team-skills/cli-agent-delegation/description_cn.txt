@@ -1,0 +1,3 @@
+通过其 CLI、插件、ACP 或 MCP 服务器，将明确规定的大批量编码工作外包给其他供应商的代理。覆盖 OpenAI Codex CLI（codex exec，或 OpenAI 为 Claude Code 提供的 Codex 插件）、Google Antigravity（agy，可带或不带 agy‑staff 插件）以及通过其代理客户端协议服务器的 OpenCode（opencode acp），并具备回退层级，同时通过 ACP 及其注册表（Grok Build、Cursor、Pi；Gemini CLI 已弃用，使用 agy）来加入其他代理。询问用户使用哪些外部团队，并在请求时重新检查它们的能力。在以下情况下使用：将翻译、机械重构、测试或快照回填、文档同步或二次意见审查交给外部代理；在无头运行 codex、agy 或 opencode 时；在它们之间进行选择或从一个回退到另一个时；当用户询问哪些外部代理可用或想要添加、删除或验证某个代理时；当联络员调度、等待、恢复或接受其任务时；或当调度插件缺失或损坏时。
+
+请始终使用用户的语言回复。

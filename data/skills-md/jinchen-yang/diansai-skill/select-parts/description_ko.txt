@@ -1,0 +1,3 @@
+필요에 따라 조직자의 부품 목록에서 구성품을 선택한 뒤, BOM/통합 구매 주문서를 생성하십시오. 사용자가 부품 목록을 inputs/partslist/에 배치하고 “select components/model selection/generate BOM/purchase list”를 요청하면 이를 사용합니다. 먼저 부품 목록을 (멀티모달로) 파싱하고, 그 다음 design/solution.md의 요구사항과 지식 베이스의 핀 설명/수상 경력 등을 토대로 구성품을 매칭합니다; 누락된 부품은 jlc_search로 실시간 조회하십시오. design/bom.csv를 출력하되, 수동 승인이 필요합니다.
+
+항상 사용자의 언어로 응답하십시오.

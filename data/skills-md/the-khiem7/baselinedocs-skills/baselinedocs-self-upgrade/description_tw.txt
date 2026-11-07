@@ -1,0 +1,3 @@
+將本機上每個代理（Claude、Codex、Gemini、Kiro、Kilo、Crush 等）中已安裝的 baselinedocs 技能本身（不包括任何套件）升級至最新的 GitHub 發行版。尋找最新的版本標籤，定位每個已安裝的 baselinedocs 技能，比較語義化版本號，報告哪些代理已過時，並在確認後升級它們。當使用者請求更新、升級或重新整理 baselinedocs，詢問是否有較新版本，或懷疑已安裝的技能過時時，請明確使用此指令。若要將套件的文件同步至程式碼，請改用 `baselinedocs-sync-codebase`。
+
+請始終以使用者的語言回覆。

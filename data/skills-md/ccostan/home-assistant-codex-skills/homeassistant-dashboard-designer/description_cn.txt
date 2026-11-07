@@ -1,0 +1,1 @@
+使用受限且机器安全的设计系统，对 Home Assistant Lovelace 仪表盘（YAML 视图/部分）进行设计、更新和重构：采用 button-card 为首的结构，最小化 card-mod 样式，可选的 flex‑horseshoe + mini‑graph 遥测，严格的 grid/vertical‑stack 布局规则，集中式模板，确定性排序，以及配置校验。在进行 Home Assistant 仪表盘工作（尤其是 config/dashboards/**）时使用，例如重构视图、添加 infra/home/energy/environment 面板，或将 Stitch 设计灵感转化为安全的 Lovelace YAML。请始终使用用户的语言回复。

@@ -1,0 +1,1 @@
+解释 Google Apps Script 的简单触发器与可安装触发器、它们的事件对象结构、授权差异，以及如何以编程方式注册/管理可安装触发器而避免重复。适用于添加 onOpen/onEdit/onChange/onFormSubmit/时间驱动行为时，或当触发器未触发、重复或出现授权错误时。框架无关——在有或没有 bootgs 的情况下均适用。不用于配额安全的服务使用或锁定（`apps-script-services`），也不用于向已安装用户推送修复（`apps-script-clasp-workflow`）。

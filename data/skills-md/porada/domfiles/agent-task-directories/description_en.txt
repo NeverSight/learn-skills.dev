@@ -1,0 +1,3 @@
+Use for tasks that require temporary files, including during another workflow. Also use before creating, inspecting, moving, removing, or reusing agent task directories such as `.agent-*`, and when they appear during repository discovery or validation.
+
+Don’t use for tasks limited to durable project outputs, programs’ internal temporary resources, or tool-managed caches.

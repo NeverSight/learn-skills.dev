@@ -1,0 +1,3 @@
+Revisión solo de refactorización sobre un commit reciente. Por defecto es HEAD~1...HEAD; acepta un hash de commit opcional para ampliar el rango. Aplica heurísticas genéricas de refactorización más los estándares de codificación del proyecto, refactoriza in situ para mejorar la claridad sin cambiar el comportamiento, ejecuta los comandos de verificación de tipos y pruebas del proyecto con un límite de autocorrección de 5. Nunca hace commit. Úsalo cuando el usuario escribe /review-work después de haber cometido la implementación.
+
+Por favor, responde siempre en el idioma del usuario.

@@ -1,0 +1,3 @@
+Volcano Cloud Communication 「一般設定」技能（一般層）。它僅負責跨業務號碼可撥打性、風險控制以及呼叫者身份驗證查詢，如 QueryRiskDenyInfo、QueryCanCall 和 QueryAuth。請注意，所有 TTS 模板操作（建立/更新/刪除/查詢）以及錄音檔與一般資源管理（create_voice、query_voice、delete_voice、get_upload_url、submit_upload、list_resource、list_usable、update_resource、delete_resource）皆已遷移至 byted‑vms‑voice‑notify（語音通知）技能，該技能不再提供任何 TTS 或錄音/資源的入口點。
+
+請始終以使用者的語言回覆。

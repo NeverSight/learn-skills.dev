@@ -1,0 +1,1 @@
+Node.js固有の脆弱性を探索 — プロトタイプ汚染 → RCEチェーン（lodash/merge/assign）、Expressのtrust proxy設定ミス、child_process/evalインジェクション、テンプレートエンジンのSSTI（EJS/Pug/Handlebars）、ファイルサーバーにおけるパストラバーサル、require()インジェクション、/proc/self/environによる環境変数情報漏洩。対象がNode.js/Express/Fastify/NestJS/Koaを実行している場合に使用。

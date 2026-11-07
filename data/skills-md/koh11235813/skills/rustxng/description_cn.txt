@@ -1,0 +1,1 @@
+通过本地 RustXNG 服务器（无密钥、自托管的 SearXNG 端口）进行网页搜索和页面文本 grounding，使用 curl 和 jq 驱动。当任务需要来自网络的最新事实且系统 PATH 中已有 `rustxng` 可执行文件时使用：搜索、提取页面文本以支撑答案、将查找限制在特定域名，或执行多查询的 `/research` 扫描。还包括使用 `rustxng-index` 将语料库爬取至本地 BM25 索引。

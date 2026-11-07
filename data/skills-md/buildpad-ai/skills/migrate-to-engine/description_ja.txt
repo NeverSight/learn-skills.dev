@@ -1,0 +1,1 @@
+エンジンプロジェクト限定：Buildpad プロジェクトを Supabase から Buildpad Engine に移行する作業を完了します。Engine がそのまま実行できなかったフック、cron ジョブ、カスタムサービス（engine‑plan/automation‑to‑review.json）を Engine のランタイム用に書き換え、アプリのコード（環境、サインイン、データ呼び出し、ファイル、管理者コード、スキーマとアクセスルール、データベース関数）をポートします。プロジェクトが移行された後、.buildpad/project.json がバックエンドを engine と示す場合、またはアプリやオートメーションを Engine に移行するよう求められた場合に使用します。Supabase プロジェクトの場合は、移行について説明して終了します。

@@ -1,0 +1,3 @@
+使用 Next.js 多區域（基於路徑的同源組合）設置微前端架構。目前僅支援 Supabase 專案：尚未在 Engine 專案上提供。建立一個主應用（預設區域），透過 rewrite 將路徑前綴導向獨立的 Next.js 微應用，並共享同一個 Supabase Session Cookie、同一個 DaaS 後端，CLI 的 AuthenticatedShell 由每個區域渲染，且不使用 iframe。當使用者詢問微前端、micro‑frontends、multi‑zones、zones、基於路徑的組合，或希望在同一域名下擁有獨立的 Next.js 應用時，請使用此技巧——即使使用者提到「iframe」。僅在微應用不是 Next.js 應用、屬於第三方或不可信代碼，或必須在其他應用的頁面內渲染時，才使用 add‑microfrontend（iframe）技巧。
+
+請始終以使用者的語言回覆。

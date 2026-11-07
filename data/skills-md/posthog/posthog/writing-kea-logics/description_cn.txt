@@ -1,0 +1,1 @@
+编写或审查 PostHog kea logic 文件（`*Logic.ts` / `*Logic.tsx`）的指南。适用于创建新 logic、添加 actions、reducers、selectors、listeners、loaders、forms、router 绑定，选择 reducer、selector 或 cache，决定使用 listeners 还是 `kea-subscriptions`，以及使用 `useValues`、`useActions`、`BindLogic` 将 React 与 kea 关联，或首次学习 kea 约定。请阅读 keajs.org 了解上游 API；本指南汇总了 PostHog 特有的约定和惯用写法。请始终使用用户的语言进行回复。

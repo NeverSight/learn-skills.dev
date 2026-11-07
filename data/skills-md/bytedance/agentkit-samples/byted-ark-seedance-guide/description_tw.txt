@@ -1,0 +1,5 @@
+Volcano Ark Seedance 模型使用指導技能。當使用者詢問 Seedance 系列模型（例如 Seedance、seedance2.0、doubao-seedance-2-0、doubao-seedance-2-0-fast、seedance2.0-mini）與 Volcano Ark 的整合——包括 API 呼叫、參數、任務建立、任務查詢、結果檢索、計費啟用、錯誤排除、SDK 以及最佳實踐——時，應首先啟動此技能。如果使用者提供 Volcengine 官方文件連結（例如 https://www.volcengine.com/docs/*）並要求對該文件進行解釋、摘要、提取、規則查詢或基於文件的答案，則同樣應啟動此技能，並透過 fetch 取得完整文件。對於一般問題，請使用 ServiceCodes: ark 來取得官方 Volcano Ark 文件。
+
+請始終以使用者的語言回覆。
+
+請始終以使用者語言回覆。

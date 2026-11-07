@@ -1,0 +1,1 @@
+使用 Terraform 設定 Datadog Google Cloud 整合——在主專案中建立服務帳戶，允許 Datadog 的委派主體透過 `roles/iam.serviceAccountTokenCreator` 進行冒充（不使用服務帳戶金鑰），啟用所需的 API，於所選的專案與資料夾中授予監控角色，並透過 `datadog_integration_gcp_sts` 註冊該帳戶。當使用者想要監控 Compute Engine、Cloud SQL、GKE、Cloud Run 或 Pub/Sub 等 GCP 資源、想將 GCP 專案、資料夾或組織連接至 Datadog，或要求設定或修復 GCP 整合時使用。本功能不會設定日誌轉發。

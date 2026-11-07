@@ -1,0 +1,1 @@
+Referencia del patrón del proxy de autenticación. Toda la comunicación del navegador al backend DEBE pasar por las rutas proxy de la API de Next.js. Nunca llame a la autenticación de Supabase o al backend de DaaS directamente desde los componentes del cliente. Cargado automáticamente como contexto de fondo.

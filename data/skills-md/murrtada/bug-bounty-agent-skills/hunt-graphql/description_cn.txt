@@ -1,0 +1,1 @@
+用于 GraphQL 漏洞的狩猎技能。基于 12 篇公开的漏洞悬赏报告，覆盖通过 node() / GID 实现的 IDOR、包括 AI/LLM 功能的 mutation IDOR、跨租户 IDOR、通过参数实现的 SSRF、批处理 DoS、查询成本绕过、通过参数的 SQL 注入、破损的对象级别授权、通过未限定的 mutation 实现的授权绕过，以及因缺失字段级授权导致的个人信息泄露。可在对任何目标进行 GraphQL 测试时使用。

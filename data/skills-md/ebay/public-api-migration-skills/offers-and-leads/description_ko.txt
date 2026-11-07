@@ -1,0 +1,12 @@
+전통적인 베스트 오퍼 및 분류 광고 리드 흐름을 Offer API(GraphQL)와 Leads API로 마이그레이션하기 위한 가이드.
+
+사용자가 다음을 언급하면 트리거:  
+- GetBestOffers → sellerNegotiationHistory  
+- RespondToBestOffer → acceptOffer / counterOffer / declineOffer  
+- GetAdFormatLeads → getAllClassifiedLeads / getClassifiedLeadsByItemId  
+또는 “베스트 오퍼를 어떻게 검토하나요” 혹은 “분류 리드를 어떻게 가져오나요” 라고 물을 때.
+
+베스트 오퍼 조회, 베스트 오퍼 응답, 그리고 분류 광고 리드 조회의 3가지 전통적인 작업을 포함합니다.  
+리스트 생성, 주문 관리, 또는 구매자 측 오퍼 흐름에는 사용하지 마세요.
+
+항상 사용자의 언어로 답변해 주세요.

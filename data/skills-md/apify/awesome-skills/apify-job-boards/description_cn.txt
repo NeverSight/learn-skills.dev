@@ -1,0 +1,1 @@
+一次运行从多个招聘平台抓取职位信息，并生成一张已验证、去重的表格。将“寻找职位/抓取职位信息/构建职位列表/监控新职位/跟踪公司招聘页面”等请求路由到多平台招聘信息抓取器（LinkedIn、Indeed、Glassdoor、The Muse 以及无钥匙平台）或仅远程职位聚合器（RemoteOK、We Work Remotely、Remotive、Jobicy、Himalayas、HN Who is hiring），并进行输出本地性检查、按平台的原始/合格/去重计数、仅新职位监控、按平台的上限以及诚实的成本估算。当用户请求跨招聘平台抓取职位、在没有 API 密钥的情况下获取 Indeed 或 Glassdoor 的职位、收集远程开发者职位、监控公司在 Greenhouse、Lever、Ashby 的招聘页面，或设置每日新职位提醒时使用。

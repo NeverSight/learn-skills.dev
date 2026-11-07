@@ -1,0 +1,1 @@
+Create and manage DaaS custom services for reusable code shared between extensions and cron jobs. Define utility libraries, API wrappers, validators, and formatters that can be injected via `services.custom('name')`. Use when the user needs shared logic across hooks/crons, wants to avoid code duplication, or needs testable service modules.

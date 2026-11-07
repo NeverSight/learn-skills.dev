@@ -1,0 +1,1 @@
+使用 Vaex（一个用于惰性、磁盘外 DataFrames 的 Python 库，可基于内存映射的 HDF5 和 Arrow 文件进行操作，并支持 CSV 和 Parquet 的导入/导出）处理和分析超出 RAM 容量的表格数据集。涵盖虚拟列、过滤、groupby 聚合、大数据热图和直方图，以及 vaex-ml 的转换器、PCA 和 K-means。适用于打开或转换多 GB 的 CSV/HDF5/Arrow/Parquet 文件、对数十亿行数据进行快速统计、可视化海量数据、构建无法放入内存的机器学习流水线，或通过惰性求值和 delay=True 加速慢速聚合。当数据能装入 RAM 时更倾向使用 polars，或在需要集群分布式计算时使用 dask。

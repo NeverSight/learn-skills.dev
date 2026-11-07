@@ -1,0 +1,1 @@
+使用 Vaex（Python 函式庫）處理與分析過大至無法放入記憶體的表格資料集，該函式庫支援 lazy、out‑of‑core DataFrames，基於記憶體映射的 HDF5 與 Arrow 檔案，並支援 CSV 與 Parquet 的匯入/匯出。內容涵蓋虛擬欄位、篩選、groupby 聚合、大規模熱圖與直方圖，以及 vaex‑ml 的 transformer、主成分分析（PCA）與 K‑means。適用於開啟或轉換多 GB 的 CSV/HDF5/Arrow/Parquet 檔案、在數十億列上快速計算統計、視覺化龐大資料集、建構無法容納於記憶體的機器學習管線，或透過 lazy evaluation 與 delay=True 加速緩慢的聚合。資料能放入記憶體時建議使用 Polars，若需叢集分散運算則使用 Dask。
