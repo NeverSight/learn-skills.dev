@@ -1,0 +1,20 @@
+Löse einen Fehlermeldungsbericht, den ein Kunde oder Mandantenmitglied über eine In‑App‑Reporting‑Bridge eingereicht hat, in einem Issue‑Tracker: lese das Issue und die Bridge‑Metadaten, entscheide, ob genügend Informationen zum Handeln vorliegen, reproduziere das Vorgehen des Meldenden ausschließlich aus Produktionsdaten, behebe die Grundursache und alle zugehörigen Fälle, beweise, dass der Fix im alten Code scheitert und im neuen Code der laufenden Anwendung funktioniert, committe mit dem Abschluss‑Keyword und antworte dem Meldenden über die Bridge in klarer Sprache mit der Bitte um Bestätigung.
+
+Verwenden, wenn:
+1. der Nutzer eine Issue‑Nummer oder URL eines von einem Kunden eingereichten Berichts übergibt,
+2. ein Bericht einen Titel und eine leere oder knappe Beschreibung hat,
+3. der Nutzer bittet zu prüfen, ob genügend Informationen zum Beheben vorliegen,
+4. der Nutzer verlangt, dem Meldenden nach der Behebung zu antworten,
+5. die Beweise zeigen, dass die App wie gebaut funktioniert und die Korrektur eine Produktentscheidung ist,
+6. der Bericht etwas verlangt, das die App bereits bietet, und die Antwort eine Anleitung ist,
+7. der Bericht ein Feature fordert, das die App nicht hat, und der Meldende sofort eine Antwort benötigt, unabhängig davon, ob es bereits gebaut ist,
+8. eine bereits gesendete Antwort war falsch und muss korrigiert werden,
+9. der Nutzer erwähnt: Issue lösen, Issue # beheben, tenant‑report‑Label, Kunden‑Bug‑Report, „prüfe, ob du alles hast“, /reply, eine Antwort für den Meldenden hinterlassen, den Meldenden um Bestätigung bitten, Audit‑Log, Produktions‑Read‑Only, Supabase‑DB‑Abfrage --remote --read‑only, PostgREST max_rows, 1000‑Zeilen‑Begrenzung, „Fixes #“, „separat statt gemeinsam gelöst“, „es existiert bereits“, „für das gesamte Salon“, „kann es erledigt werden“, Feature‑Request, Feature‑Freeze, außerhalb des Scope, „nur Kunden, die mit A beginnen“, „erkläre, wo die Liste ist“, „Ich bin an der Rezeption und kann nicht abschließen“, falsche Rolle, Berechtigung überschreiben, „Visit konnte nicht verschoben werden“.
+
+Enthält eine Sufficient‑Matrix, ein Produktions‑Read‑Only‑Protokoll mit Zustimmung des Nutzers, eine Meldenden‑Zeitlinien‑Abfrage, eine Root‑Cause‑Tabelle mit einer Prüfung, die jede Ursache voneinander unterscheidet, Varianten, die dem Nutzer präsentiert werden, wenn die Ursache im Verhalten liegt, einen Guard‑Test, der im alten Code fehlschlägt, eine Claim‑Prüfung vor jeder Antwort sowie Antwort‑Templates für einen Fix, eine Anleitung, ein derzeit nicht gebautes Feature, die Kontoeinrichtung und eine Korrektur.
+
+Jedes Git‑Repository mit dem gh‑CLI und einer PostgreSQL‑basierten Multi‑Tenant‑App; der Tracker, der Antwort‑Kanal, der Produktionszugriff und das Verifizierungs‑Verfahren der App bilden die Schnittstellen.
+
+Nicht die Bridge selbst, nicht Massen‑Triage, nicht Ausfall‑Reaktion.
+
+Bitte immer in der Sprache des Benutzers antworten.
