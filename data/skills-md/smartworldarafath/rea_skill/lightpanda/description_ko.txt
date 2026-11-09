@@ -1,0 +1,1 @@
+AI 에이전트와 자동화 워크플로를 위해 처음부터 만든 헤드리스 브라우저입니다. Chromium보다 16배 가볍고 9배 빠릅니다 — 피크 메모리 123 MB vs 2 GB, 100페이지 처리 시 5 초 vs 46 초. Zig로 작성되었으며 Chromium 포크나 WebKit 패치가 아닙니다. AI 에이전트 파이프라인에 헤드리스 브라우저 자동화를 통합하거나 대규모 웹 스크래핑, 혹은 Puppeteer/Playwright와 Chromium을 대체하는 가볍고 빠른 자동화가 필요할 때 사용하세요. CDP(Chrome DevTools Protocol)를 지원하여 바로 사용할 수 있는 호환성을 제공합니다.

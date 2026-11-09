@@ -1,0 +1,1 @@
+Docker 및 OCI 컨테이너 격리 감사에서는 `--privileged` 위험, 위험한 Linux 권한(`CAP_SYS_ADMIN`, `CAP_DAC_READ_SEARCH`), hostPath/docker.sock 마운트, seccomp/AppArmor 프로파일, 그리고 루트리스 사용자 네임스페이스를 다룹니다.

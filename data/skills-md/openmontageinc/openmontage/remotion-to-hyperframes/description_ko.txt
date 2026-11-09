@@ -1,0 +1,3 @@
+기존 Remotion (React) 컴포지션을 HyperFrames HTML로 포팅합니다. 사용자가 Remotion 소스를 포팅·변환·마이그레이션·번역하겠다고 명시적으로 요청할 때에만 사용하십시오. 다음 경우에는 사용하지 마세요: (a) 새 HyperFrames 컴포지션을 새로 작성하는 경우; (b) Remotion이 지나가듯 언급된 경우; (c) 참고용으로만 제공된 Remotion 코드인 경우; (d) 명시적인 마이그레이션 요청 없이 “내 Remotion과 같은 비디오”라고만 말한 경우 — 이 경우는 새로 구축하는 것으로 간주합니다. 의심될 경우 → `/general-video`. 일방향, Remotion 전용: HyperFrames→Remotion 또는 다른 프레임워크로의 역변환은 불가하고, After Effects, Framer Motion, 순수 React/CSS 등 Remotion이 아닌 소스는 범위 외이며 `/general-video`로 재작성합니다. 지원되지 않는 패턴(useState, useEffect, async calculateMetadata, 서드파티 React 라이브러리, `@remotion/lambda`)을 표시하고 손실이 발생할 수 있는 번역보다 런타임 인터옵을 권장합니다. 포팅이 필요한지 새로 빌드가 필요한지, 혹은 Remotion이 단순히 언급된 것인지 확실치 않을 경우 → /hyperframes.
+
+항상 사용자의 언어로 응답하십시오.

@@ -1,0 +1,7 @@
+트리거 조건: (1) 사용자가 “manimgl”, “ManimGL”, “3b1b manim”을 언급할 때, (2) 코드에 `from manimlib import *`가 포함될 때, (3) 사용자가 `manimgl` CLI 명령을 실행할 때, (4) InteractiveScene, self.frame, self.embed(), ShowCreation() 또는 ManimGL 전용 패턴을 사용할 때.
+
+ManimGL(Grant Sanderson의 3Blue1Brown 버전)을 위한 모범 사례 – 인터랙티브 개발이 가능한 OpenGL 기반 애니메이션 엔진. InteractiveScene, t2c가 적용된 Tex, 카메라 프레임 제어, 인터랙티브 모드(-se 플래그), 3D 렌더링, checkpoint_paste() 워크플로우 등을 다룹니다.
+
+Manim Community Edition( `manim` 임포트와 `manim` CLI를 사용하는 버전)에는 해당되지 않습니다.
+
+항상 사용자의 언어로 답변해 주세요.
