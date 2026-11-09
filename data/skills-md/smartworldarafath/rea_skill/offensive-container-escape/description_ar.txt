@@ -1,0 +1,1 @@
+تدقيق عزل حاويات Docker وOCI يشمل مخاطر `--privileged`، والقدرات الخطرة لنظام لينكس (`CAP_SYS_ADMIN`، `CAP_DAC_READ_SEARCH`)، وتركيبات hostPath/docker.sock، وملفات تعريف seccomp/AppArmor، ومساحات أسماء المستخدمين غير الجذرية.
