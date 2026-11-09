@@ -1,0 +1,7 @@
+Триггер, когда: (1) пользователь упоминает «manimgl» или «ManimGL» или «3b1b manim», (2) код содержит `from manimlib import *`, (3) пользователь запускает команды CLI `manimgl`, (4) работает с InteractiveScene, self.frame, self.embed(), ShowCreation() или специфическими паттернами ManimGL.
+
+Лучшие практики для ManimGL (версия Гранта Сандерсона 3Blue1Brown) — анимационный движок на основе OpenGL с интерактивной разработкой. Охватывает InteractiveScene, Tex с t2c, управление камерным кадром, интерактивный режим (флаг -se), 3D‑рендеринг и рабочий процесс checkpoint_paste().
+
+НЕ для Manim Community Edition (которая использует импорты `manim` и CLI `manim`).
+
+Пожалуйста, всегда отвечайте на языке пользователя.
