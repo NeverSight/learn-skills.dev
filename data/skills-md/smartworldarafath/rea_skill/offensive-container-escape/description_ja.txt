@@ -1,0 +1,1 @@
+Docker と OCI コンテナの分離監査では、`--privileged` のリスク、危険な Linux ケーパビリティ（`CAP_SYS_ADMIN`、`CAP_DAC_READ_SEARCH`）、hostPath/docker.sock のマウント、seccomp/AppArmor プロファイル、そして rootless ユーザー名前空間をカバーします。

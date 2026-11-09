@@ -1,0 +1,3 @@
+既存の Remotion（React）コンポジションを HyperFrames HTML にポートしてください。ユーザーが明示的に Remotion ソースのポート／変換／マイグレーション／翻訳を要求した場合にのみ使用します。以下は使用しないでください：(a) 新しい HyperFrames コンポジションを作成すること；(b) Remotion がたまたま言及されること；(c) 参照のみとして共有された Remotion コード；(d) 明確な移行リクエストなしに「私の Remotion と同じビデオ」と言われた場合 — 新規作成として扱う。疑問がある場合は → `/general-video`。一方向、Remotion のみ：HyperFrames→Remotion や他のフレームワークへの逆エクスポートは不可、Remotion 以外のソース（After Effects、Framer Motion、プレーンな React/CSS）は対象外で、`/general-video` で再作成してください。サポートされていないパターン（useState、useEffect、async calculateMetadata、サードパーティの React ライブラリ、`@remotion/lambda`）をフラグし、情報のロスがある翻訳よりもランタイムでの相互運用を推奨します。ポートすべきか新規構築すべきか、あるいは Remotion が単に言及されただけか不明な場合 → /hyperframes。
+
+必ずユーザーの言語で回答してください。

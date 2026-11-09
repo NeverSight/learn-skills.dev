@@ -1,0 +1,16 @@
+顧客またはテナントメンバーがアプリ内報告ブリッジを介して提出したバグ報告を 1 件、課題トラッカーに解決する：課題とブリッジのメタデータを読み取り、対応に十分な情報があるか判断し、プロダクションデータ（読み取り専用）からレポーターが行った操作を再現し、根本原因とそれに関連するすべての問題を修正し、修正が古いコードでは失敗し、実行中のアプリの新しいコードでは通過することを証明し、クローズキーワードを付けてコミットし、ブリッジを通じて平易な言葉でレポーターに回答し、確認を依頼する。
+
+使用例：  
+(1) ユーザーが顧客が提出した課題番号または URL を渡す場合  
+(2) 報告にタイトルはあるが説明が空または薄い場合  
+(3) ユーザーが「修正前に情報が十分かどうか」を確認してほしいと求めた場合  
+(4) ユーザーが修正後にレポーターへ返信を依頼した場合  
+(5) 証拠がアプリが設計通りに動作していることを示し、修正が製品方針の決定である場合  
+(6) 報告がアプリに既にある機能を求めていて、回答が「使い方」の場合  
+(7) 報告がアプリに存在しない機能を要求し、レポーターが今すぐ回答を必要とする場合（実装有無に関わらず）  
+(8) すでに送信した返信が誤っており、修正が必要な場合  
+(9) ユーザーが次の語句を含む場合：resolve issue、fix issue #、tenant-report ラベル、customer bug report、"check if you have everything you need"、/reply、leave a reply for the reporter、ask the reporter to confirm、audit log、production read only、supabase db query --remote --read-only、PostgREST max_rows、1000‑row cap、"Fixes #”、"settled separately instead of together"、"it already exists"、"for the whole salon"、"can it be done"、feature request、feature freeze、out of scope、"only clients starting with A"、"explain where the list is"、"I am at reception and cannot settle"、wrong role、permission override、"could not move the visit"。
+
+以下を含む：十分性マトリックス、ユーザーの承認を得た読み取り専用プロダクションプロトコル、レポーターのタイムラインクエリ、各原因を区別するチェック付き根本原因テーブル、原因が挙動である場合にユーザーへ提示するバリアント、古いコードで失敗するガードテスト、返信前のクレームチェック、修正用・使い方案内用・未実装機能用・アカウント設定用・訂正用の返信テンプレート。
+
+任意の Git リポジトリ（gh CLI 付属）と Postgres バックエンドのマルチテナントアプリを前提とし、トラッカー、返信チャンネル、プロダクションアクセス、アプリの検証手順がシームとなる。ブリッジ自体、バルクトリアージ、障害対応は対象外。

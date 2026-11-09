@@ -1,0 +1,3 @@
+AI コーディングエージェント（Claude Code、Codex、Cursor、Copilot）を、組み込みの MCP サーバーを介して実行中の Roblox Studio に接続し、安全に使用する方法：まず Roblox の公式プラグインを使用し、手動入力はそれ以外で 1 回だけ、絶対に 2 回は行わない；list_roblox_studios で接続を証明する；playtest‑and‑verify ループ（start_stop_play、execute_luau、get_console_output）を実行する；skill ツールを使って Roblox の Studio スキルにアクセスする；既知のバグ（切断、execute_luau サンドボックス、multi_edit 前の古い読み取り）を回避する。ユーザーが「Claude を Roblox Studio に接続して」「Roblox MCP を設定して」「エージェントに自分の場所を見せて」「プレイテストしてほしい」「Claude がスクリプトを挿入できないのはなぜか」などと求めたとき、Studio MCP が切断したり Studio が一覧に出ないと報告されたり、どの Roblox MCP サーバーを使うか問い合わせがあったり、「refresh roblox‑agent‑studio」と言われたときに使用する。ディスク上のコードは roblox‑agent‑project；Studio なしでのチェックは roblox‑agent‑checks。
+
+常にユーザーの言語で回答してください。

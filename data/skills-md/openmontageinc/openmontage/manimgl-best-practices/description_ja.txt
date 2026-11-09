@@ -1,0 +1,7 @@
+トリガー条件: (1) ユーザーが「manimgl」または「ManimGL」または「3b1b manim」と言及したとき、 (2) コードに `from manimlib import *` が含まれているとき、 (3) ユーザーが `manimgl` CLI コマンドを実行したとき、 (4) InteractiveScene、self.frame、self.embed()、ShowCreation()、または ManimGL 固有のパターンを使用しているとき。
+
+ManimGL（Grant Sanderson の 3Blue1Brown バージョン）に関するベストプラクティス — OpenGL ベースのアニメーションエンジンでインタラクティブな開発が可能です。InteractiveScene、t2c を使った Tex、カメラフレームの制御、インタラクティブモード（-se フラグ）、3D レンダリング、checkpoint_paste() ワークフローを取り上げます。
+
+Manim Community Edition（`manim` インポートと `manim` CLI を使用するもの）には適用されません。
+
+常にユーザーの言語で回答してください。
