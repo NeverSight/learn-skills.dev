@@ -1,0 +1,1 @@
+Audit de l'isolation des conteneurs Docker et OCI couvrant les risques liés à `--privileged`, les capacités Linux dangereuses (`CAP_SYS_ADMIN`, `CAP_DAC_READ_SEARCH`), les montages hostPath/docker.sock, les profils seccomp/AppArmor et les espaces de noms utilisateurs sans privilèges.
