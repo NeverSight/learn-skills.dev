@@ -1,0 +1,1 @@
+JSON Web Token（JWT）安全评估，涵盖对 alg:none 的拒绝、RS256 与 HS256 算法混淆、弱 HMAC 密钥熵、jwk/jku/x5u 头注入、kid 路径/SQL 注入、exp/nbf/aud/iss 声明验证以及令牌撤销架构。在审计无状态认证令牌时使用。

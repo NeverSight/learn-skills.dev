@@ -1,0 +1,1 @@
+为 ScriptCat（兼容 Tampermonkey）编写、修复和调试用户脚本：在匹配站点上运行的页面脚本（@match）、在没有页面时持续运行的后台脚本（@background）以及定时脚本（@crontab）；元数据、@grant 与 GM_* / GM.* / CAT_* API、用户配置、重试。当 sctl CLI 连接后，将脚本安装到用户的 ScriptCat 并在其真实浏览器中验证。用户想要用户脚本、油猴脚本、后台脚本、定时脚本、.user.js 文件或 ScriptCat 脚本的编写、修改或调试时使用本功能。不是用于开发 ScriptCat 扩展本身，也不是用于在不修改代码的情况下管理已安装的脚本（那是 sctl 技能）。

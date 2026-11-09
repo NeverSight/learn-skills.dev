@@ -1,0 +1,1 @@
+从零构建的无头浏览器，专为 AI 代理和自动化工作流设计。相较于 Chromium，体积轻 16 倍，速度快 9 倍——峰值内存 123 MB 对比 2 GB，100 页加载时间 5 秒 对比 46 秒。使用 Zig 编写，既不是 Chromium 的分支，也不是 WebKit 的补丁。在将无头浏览器自动化集成到 AI 代理流水线、大规模网页抓取，或任何需要轻量、快速替代 Puppeteer/Playwright 与 Chromium 的自动化场景时使用。支持 CDP（Chrome DevTools Protocol），实现即插即用兼容。

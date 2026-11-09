@@ -1,0 +1,1 @@
+同步到 dondon：读取本机上 Claude Code、Codex、WorkBuddy 和 Grok 的最近聊天记录，在本地删除敏感信息，撰写不超过 800 字的工作状态更新，并标明聊天中提及的任何文档；在用户确认后，将其推送到 dondon 机器人（如果未配置推送，则复制供用户粘贴），以便其晨报和提醒与用户的任务保持一致；如果用户同意，可启用自动每日同步（机器人生成状态更新，本机无需代理）。当用户说“sync to dondon”“send status to bot”“enable/disable automatic sync”或“sync to dondon”时使用。不会上传密钥或密码；聊天摘录仅在用户批准的自动同步中上传。请始终使用用户的语言回复。

@@ -1,0 +1,1 @@
+HyperFrames 作品的音频和媒体资源由一个共享音频引擎（`scripts/audio.mjs`）生成——支持多供应商的文本转语音（HeyGen / ElevenLabs / 本地 Kokoro）、背景音乐 + 音效（默认使用 HeyGen 音频库检索，亦可使用本地 Lyria / MusicGen 生成背景音乐，并提供一个捆绑的音效库作为无凭证回退）、Whisper 转录、背景消除以及字幕制作。可用于配音 / TTS、背景音乐、音效、转录、字幕 / 副本 / 歌词 / 卡拉OK / 按词样式、声音 + 供应商选择，以及音乐情绪提示。

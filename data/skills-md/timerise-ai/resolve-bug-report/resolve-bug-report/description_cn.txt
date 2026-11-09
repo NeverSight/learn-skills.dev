@@ -1,0 +1,12 @@
+解决一位客户或租户成员通过应用内报告桥提交的 bug 报告并将其记录到问题追踪系统中：读取问题及桥的元数据，判断信息是否足以采取行动，依据只读的生产数据重现报告者的操作，修复根本原因及其所有相关问题，证明修复在旧代码上失败而在运行中的新代码上通过，使用关闭关键字提交，并通过桥以简明语言回复报告者并请求确认。使用场景：  
+1. 用户提供了客户提交的报告的 issue 编号或 URL；  
+2. 报告只有标题而描述为空或很简略；  
+3. 用户要求在修复前检查信息是否充分；  
+4. 用户要求在修复后回复报告者；  
+5. 证据表明应用按预期工作且修复属于产品决策；  
+6. 报告请求的是应用已经具备的功能，答案为使用指南；  
+7. 报告请求的是应用未拥有的功能，且报告者需要立即得到答案（无论是否已实现）；  
+8. 已发送的回复错误，需要纠正；  
+9. 用户提及：resolve issue、fix issue #、tenant‑report 标记、customer bug report、“check if you have everything you need”、/reply、留下回复给报告者、请求报告者确认、audit log、production read only、supabase db query --remote --read-only、PostgREST max_rows、1000‑row cap、"Fixes #”、"settled separately instead of together"、"it already exists"、"for the whole salon"、"can it be done"、feature request、feature freeze、out of scope、"only clients starting with A"、"explain where the list is"、"I am at reception and cannot settle"、wrong role、permission override、"could not move the visit"。  
+包含足量矩阵、经用户批准的只读生产协议、报告者时间线查询、带有区分各原因检查的根因表、当原因是行为时提供给用户的变体、在旧代码上失败的守护测试、任何回复前的声明检查，以及针对修复、使用指南、暂未实现的功能、账户设置和纠正的回复模板。任何使用 gh CLI 的 Git 仓库以及基于 Postgres 的多租户应用均符合条件；追踪系统、回复渠道、生产访问和应用的验证流程是接合点。**不包括桥本身、批量分流或故障响应。**  
+请始终使用用户的语言回复。
