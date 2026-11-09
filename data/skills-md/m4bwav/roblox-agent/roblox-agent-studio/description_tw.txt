@@ -1,0 +1,3 @@
+將 AI 程式撰寫代理（Claude Code、Codex、Cursor、Copilot）透過內建的 MCP 伺服器連接到正在執行的 Roblox Studio，並安全使用：先使用 Roblox 官方插件，若無則僅手動輸入一次，絕不要兩次；使用 list_roblox_studios 證明連線成功；執行 playtest‑and‑verify 迴圈（start_stop_play、execute_luau、get_console_output）；透過 skill tool 取得 Roblox Studio 的技能；繞過已知的錯誤（斷線、execute_luau 沙箱、在 multi_edit 前的陳舊讀取）。在使用者提出以下需求時使用：'connect Claude to Roblox Studio'、'set up the Roblox MCP'、'let the agent see my place'、'playtest it for me'、'why can\'t Claude insert scripts'，或是回報 Studio MCP 斷線或未列出 Studio、詢問要使用哪個 Roblox MCP 伺服器，或說 'refresh roblox‑agent‑studio'。磁碟上的程式碼位於 roblox‑agent‑project；未使用 Studio 的檢查位於 roblox‑agent‑checks。
+
+請始終以使用者的語言回覆。

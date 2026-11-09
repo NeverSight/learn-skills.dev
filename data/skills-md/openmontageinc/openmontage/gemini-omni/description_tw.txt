@@ -1,0 +1,3 @@
+使用穩定版 Google Gemini Omni Flash（`gemini-omni-1.1-flash`）生成並以對話方式編輯短影片。適用情況：(1) 以自然語言編輯方式迭代影片片段，而非重新生成（例如「讓手機隱形，其他保持不變」），(2) 生成 3‑10 秒、720p 的影片，搭配合成音訊、螢幕文字或時間碼節拍，(3) 使用 <FIRST_FRAME>/<IMAGE_REF_N> 提示標籤將參考圖片綁定至角色，(4) 編輯已上傳的現有影片。透過 `gemini_omni_video` 工具，使用專案的 GEMINI_API_KEY/GOOGLE_API_KEY 取得存取權——與 Imagen 與 Google TTS 使用同一金鑰。
+
+請始終以使用者的語言回覆。

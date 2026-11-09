@@ -1,0 +1,3 @@
+設置一台無頭的 Mac（Apple silicon）、Linux 或 Windows 機器，透過 SSH，逐步從「具有密碼且已開啟 SSH 的管理員帳戶」一直到配置好的機器，僅使用金鑰 SSH、自動登入、永不休眠設定以及可選的 Tailscale——在 Mac 上使用 Determinate Nix 與 nix-darwin，在 Linux 上使用 NixOS 模組（若使用者想要則透過 nixos‑anywhere 安裝 NixOS）或針對 Debian、Ubuntu 與 Fedora 的發行版中立腳本，在 Windows 11 或 Windows Server 上使用可重新執行的 PowerShell 配置——然後重新啟動並確認它能再次啟動。當使用者想要設置、配置、更新或檢查一台只能透過 SSH 存取的無頭 Mac mini、Linux 伺服器、Windows PC 或其他機器時使用。管理員密碼保留在使用者的祕密儲存庫中（Automic Vault、1Password、Bitwarden、任何指令或私人環境變數檔案）；你只需提及儲存項目的名稱。
+
+請始終以使用者的語言回覆。

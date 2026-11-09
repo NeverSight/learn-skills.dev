@@ -1,0 +1,14 @@
+解決一份客戶或租戶成員透過應用內回報橋提交的 bug 報告，將其轉入問題追蹤系統：閱讀問題本身與回報橋的中繼資料，判斷是否已具備足夠資訊可執行，僅以唯讀的生產資料重建回報者的操作，修正根本原因及其所有相關項目，證明修改在舊版程式碼上會失敗、在新版程式碼上會通過，使用關閉關鍵字提交，並以簡潔語言透過回報橋回覆回報者，請求對方確認。使用情境：  
+1. 使用者提供客戶所提交的議題編號或報告 URL；  
+2. 報告僅有標題，說明為空或過於簡略；  
+3. 使用者要求在修復前先檢查資訊是否足夠；  
+4. 使用者要求在修復完成後回覆回報者；  
+5. 證據顯示應用程式如預期運作且修正屬於產品決策；  
+6. 報告要求的功能應用程式已具備，回覆內容為操作說明；  
+7. 報告要求的功能尚未實作，回報者需要即時回應（無論是否已建置）；  
+8. 已發出的回覆內容錯誤，需要更正；  
+9. 使用者提及以下關鍵字或情境：resolve issue、fix issue #、tenant‑report 標籤、customer bug report、「check if you have everything you need」、/reply、leave a reply for the reporter、ask the reporter to confirm、audit log、production read only、supabase db query --remote --read‑only、PostgREST max_rows、1000‑row cap、「Fixes #」、「settled separately instead of together」、「it already exists」、「for the whole salon」、「can it be done」、feature request、feature freeze、out of scope、「only clients starting with A」、「explain where the list is」、「I am at reception and cannot settle」、wrong role、permission override、「could not move the visit」。  
+
+此流程附帶一個充分性矩陣、涵蓋使用者批准的唯讀生產協議、回報者時間線查詢、根因表格（內含區分各原因的檢查）、當根因屬於行為時提供給使用者的變體說明、在舊程式碼上會失敗的防護測試、任何回覆前的聲明檢查，以及針對修復、操作說明、未建置功能、帳號設定與更正的回覆範本。  
+
+任意使用 gh CLI 的 Git 儲存庫與以 PostgreSQL 為後端的多租戶應用程式皆可；追蹤系統、回覆管道、生產環境存取與應用程式驗證程序構成「接縫」。不包括回報橋本身、不屬於大量分流、亦非服務中斷回應。

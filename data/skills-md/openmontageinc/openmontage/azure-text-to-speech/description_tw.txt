@@ -1,0 +1,3 @@
+使用 Azure AI Speech（REST 文字轉語音）生成神經敘事音訊。於在 OpenMontage 中合成旁白或敘事時使用。可選的雲端 TTS 供應者——當配置了 AZURE_SPEECH_KEY 時優先使用；本地的 piper_tts 仍為預設離線路徑。與 azure_stt 共享同一個 Speech 資源。
+
+請始終以使用者的語言回覆。

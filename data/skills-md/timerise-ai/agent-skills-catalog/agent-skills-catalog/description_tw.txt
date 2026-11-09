@@ -1,0 +1,9 @@
+建立一個在 Next.js App Router 網站中的公開 Agent Skills 目錄，於建置時從每個技能倉庫的原始檔案生成：一個同步腳本將 SKILL.md、README.md、CHANGELOG.md、provenance.md 以及 evals/ 複製至倉庫；一個載入器從這些檔案中讀取規則、版本與 provenance ledger；一個具備搜尋與類別篩選功能的目錄頁面；每個類別與每個技能各有一個頁面；展示代理評估結果（每個代理與提示的最新執行，包含失敗的執行）；支援 JSON‑LD、站點地圖條目與內容驗證。
+
+使用情境：
+1. 需要在網站上列出組織於 GitHub 發布的 Agent Skills，並顯示安裝指令、規則、版本及代理評估結果；
+2. 技能頁面在新版本發布後仍顯示舊版，或評估執行從未出現在頁面上；
+3. 為既有技能頁面加入代理評估結果、提示或 provenance ledger；
+4. 使用者提及：skills catalog、Agent Skills page、skill directory、SKILL.md、skills.sh、npx skills add、evals/prompts.md、eval results、agent evals、Claude Code、Codex CLI、Gemini CLI、skills:sync、sync.json、raw.githubusercontent.com、provenance.md、CHANGELOG.md、Keep a Changelog、TechArticle、SoftwareSourceCode。
+
+此系統具備的功能包括：一次提交時讀取技能的所有檔案並整體替換同步鏡像；載入器永不進行遠端抓取；評估解析器在遇到格式錯誤的執行時會以原因拒絕而非直接丟棄；驗證器會因錯誤而使測試失敗。使用 Next.js App Router；技能的來源是一個接合點（GitHub 或本機檢出），而其讀取的版塊布局是一張表格。這不是寫技能的方式、也不是評估執行器，更不是套件註冊表。

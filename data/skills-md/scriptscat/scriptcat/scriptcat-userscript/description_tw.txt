@@ -1,0 +1,1 @@
+為 ScriptCat（相容於 Tampermonkey）編寫、修復與除錯 userscript：於符合 @match 網站執行的頁面腳本、持續在無頁面的情況下執行的背景腳本（@background）以及排程腳本（@crontab）；包括 metadata、@grant 以及 GM_* / GM.* / CAT_* API、使用者設定、重試機制。當 sctl CLI 連線時，將腳本安裝到使用者的 ScriptCat 中，並在其實際瀏覽器中驗證。於使用者需要 userscript、油猴腳本、後台腳本、定時腳本、.user.js 檔案或 ScriptCat 腳本（撰寫、修改或除錯）時使用。不適用於開發 ScriptCat 擴充功能本身，也不適用於在不變更程式碼的情況下管理已安裝的腳本（那是 sctl 技能）。請始終以使用者的語言回應。
