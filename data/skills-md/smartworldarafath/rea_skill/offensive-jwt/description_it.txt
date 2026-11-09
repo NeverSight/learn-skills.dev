@@ -1,0 +1,1 @@
+Valutazione della sicurezza dei JSON Web Token (JWT) che include il rifiuto di alg:none, la confusione tra gli algoritmi RS256 e HS256, l'entropia debole del segreto HMAC, l'iniezione di header jwk/jku/x5u, l'iniezione di kid path/SQL, la convalida dei claim exp/nbf/aud/iss e l'architettura di revoca dei token. Da utilizzare durante l'audit di token di autenticazione senza stato.
