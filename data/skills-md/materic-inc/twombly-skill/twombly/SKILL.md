@@ -1,0 +1,6 @@
+---
+name: twombly
+description: Lay out design explorations on a shared canvas. Use when asked to "put this on Twombly", "put these on a canvas", "lay out these versions", "show me all the variations side by side", or to share explorations with real-time cursors and comments. Works with any framework in any repo.
+---
+
+Run `npx -y twombly@latest guide` and follow it.

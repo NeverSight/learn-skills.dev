@@ -1,0 +1,1 @@
+JSON Web Token (JWT) security assessment covering alg:none rejection, RS256-to-HS256 algorithm confusion, weak HMAC secret entropy, jwk/jku/x5u header injection, kid path/SQL injection, exp/nbf/aud/iss claim validation, and token revocation architecture. Use when auditing stateless authentication tokens.
