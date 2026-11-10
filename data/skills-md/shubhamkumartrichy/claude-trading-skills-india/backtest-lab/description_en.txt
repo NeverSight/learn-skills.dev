@@ -1,0 +1,11 @@
+Backtests rule-based swing ideas on NSE/BSE daily bars with Indian frictions built in: decide on
+the close and fill at the next open, gap-through stops, slippage, exact per-trade charges by
+segment and broker (STT, stamp duty, GST, DP), whole shares or lots, circuit-band no-fills,
+futures-only shorts and an optional STCG/LTCG estimate. Six built-in strategies; CAGR vs
+buy-and-hold, drawdown, Sharpe/Sortino, profit factor, expectancy in ₹ and R; parameter sweeps
+with a plateau-or-spike read, walk-forward and Monte Carlo. backtest.py, stdlib only, offline.
+
+Use when the user asks: "backtest this strategy", "would a 20/50 crossover have worked on X",
+"is this edge real or curve-fit", "optimise my parameters", "walk-forward test", "Monte Carlo my
+trades", "what drawdown should I expect", "do charges kill this idea", "does a NIFTY 200-DMA
+filter help", or before putting real money behind any mechanical rule.

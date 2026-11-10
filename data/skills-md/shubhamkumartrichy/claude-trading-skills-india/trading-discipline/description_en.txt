@@ -1,0 +1,11 @@
+Rules that protect an Indian trader from themselves: an account-level circuit breaker (daily 2%,
+weekly 5%, monthly 10% loss limits plus losing-streak cooldowns) read from the trade journal, a
+pre-trade gate (stop, rupee risk, R:R, written plan, revenge window, regime, F&O ban, ASM/GSM/T2T,
+results, circuit lock, expiry day, MIS cut-off) that returns PASS / PASS-WITH-WARNINGS / BLOCK
+before any order ticket, a performance review by setup, weekday, hour, segment and mistake, a
+weekly digest, and an opt-in decision log. discipline.py, stdlib only, offline.
+
+Use when the user asks: "should I take this trade", "can I trade today", "I've lost 3 in a row",
+"am I revenge trading", "check my trade before I place it", "daily loss limit", "review my
+journal / trades", "what's my worst setup", "weekly trading report", "why do I keep losing in F&O",
+or before any order is drafted.

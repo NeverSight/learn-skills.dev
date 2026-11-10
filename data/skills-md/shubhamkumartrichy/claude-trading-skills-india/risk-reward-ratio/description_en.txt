@@ -1,0 +1,7 @@
+Risk-reward evaluation for Indian trades after real costs: R multiples per target, weighted R for
+scale-outs, breakeven win rate, expectancy, trade-filter thresholds, and option-specific R:R
+(theta, IV, premium). risk.py rr computes everything including Indian round-trip charges.
+
+Use when the user asks: "is this trade worth it", "risk reward for entry X stop Y target Z", "R:R",
+"expected value", "what win rate do I need", "should I take this setup", or compares multiple
+trade ideas.

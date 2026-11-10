@@ -1,0 +1,8 @@
+Trailing-stop plans that lock in profit on NSE/BSE positions: the R-multiple ladder (hold → breakeven
+at 1R → ATR trail at 2R → structure trail at 3R+), plus ATR, structure, moving-average and
+chandelier trails, with GTT/SL execution realities for Indian brokers. risk.py trail computes
+the recommended ratcheted stop.
+
+Use when the user asks: "how should I trail my stop", "lock in profits on X", "when to move stop to
+breakeven", "chandelier exit", "protect my gains", "my stock is up 15%, what now", or anything about
+adjusting stops as a trade moves in their favour.

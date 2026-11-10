@@ -1,0 +1,11 @@
+Statistical pair trading (market-neutral long/short) for NSE stocks. pairs.py tests whether two
+stocks are cointegrated (Engle-Granger with an ADF on residuals, judged against MacKinnon's
+cointegration critical values), estimates the hedge ratio, half-life and current spread z-score,
+screens every same-sector pair with a Bonferroni caution, lists in-sample z-score trades with a
+hit rate, and plans Indian execution: stock futures in whole lots, residual hedge mismatch,
+margin, charges, last-Tuesday rollover, F&O ban and lot-size revisions. Stdlib only; offline CSVs.
+
+Use when the user asks: "is HDFCBANK/ICICIBANK a good pair", "are TCS and INFY cointegrated",
+"find pairs in the bank/IT sector", "what is the z-score of the BPCL-HPCL spread", "pair trade
+entry and exit", "hedge ratio between two stocks", "how many lots for a pair trade", "how do I
+short the other leg in India", or wants a market-neutral or relative-value trade.

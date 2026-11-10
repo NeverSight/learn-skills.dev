@@ -1,0 +1,10 @@
+Reads the market regime of NIFTY, BANKNIFTY, SENSEX (or any index/ETF CSV) from the index's own
+tape: distribution-day clusters with 25-session/5%-rally expiry, the correction → rally attempt →
+follow-through cycle, 50/200 DMA and 52-week drawdown context, and optional India VIX. Outputs a
+0–100 risk score, a regime label, an exposure ceiling (% of capital, max new positions) and the
+levels that would change the label. Handles Yahoo's missing index volume via ETF/futures proxy or a
+clearly flagged price-only mode. regime.py works offline from CSV.
+
+Use when the user asks: "is the market in an uptrend", "should I be buying now", "how much should
+I be invested", "is NIFTY topping", "distribution days on NIFTY", "follow-through day", "is this
+bounce real", "market regime", "should I go to cash", or before any new swing/positional entries.

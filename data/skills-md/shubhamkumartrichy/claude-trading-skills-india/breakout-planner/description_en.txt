@@ -1,0 +1,11 @@
+Stage-2 breakout setups on NSE/BSE stocks: a trend-template check (rising 200 DMA, 50>150>200
+stack, distance from 52-week high/low, relative strength vs NIFTY), base detection (volatility
+contraction with successively tighter pullbacks, or a flat base) with pivot, depth, duration,
+volume dry-up and a grade, then an order-ready plan: trigger, chase limit, capped stop, size,
+Indian charges, R targets, GTT/SL templates, circuit-band and NSE tick-size checks. breakout.py
+scans a folder of CSVs or yfinance symbols and ranks them, offline-capable.
+
+Use when the user asks: "is X in a Stage 2 uptrend", "find VCP setups", "where is the pivot on X",
+"plan a breakout trade in X", "breakout buy point and stop", "scan these stocks for breakouts",
+"Minervini trend template for NSE stocks", "how do I place a GTT for a breakout", or any question
+about buying stocks as they clear a base.

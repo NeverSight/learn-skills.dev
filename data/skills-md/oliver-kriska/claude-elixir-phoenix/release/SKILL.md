@@ -1,0 +1,151 @@
+---
+name: release
+description: |
+  CONTRIBUTOR TOOL - Cut a plugin release: bump plugin.json version, finalize
+  CHANGELOG, update README if needed, gate on make ci, commit, tag vX.Y.Z, and
+  create the GitHub release. Use when shipping a new plugin version. NOT distributed.
+argument-hint: "[patch|minor|major] | [X.Y.Z]"
+effort: medium
+---
+
+# Plugin Release
+
+Cuts a versioned release of the Elixir/Phoenix plugin. Drives the full
+checklist from `CLAUDE.md` (Release + Versioning) so every release is
+consistent. **Contributor tooling — not shipped in the plugin.**
+
+## Iron Laws — Never Violate These
+
+1. **NEVER release on a red `make ci`** — the gate runs BEFORE committing. No green, no release.
+2. **FOUR TAGS PER RELEASE** — `vX.Y.Z` plus `phx--vX.Y.Z`, `ecto--vX.Y.Z`, `lv--vX.Y.Z` from `claude plugin tag` (what dependency ranges resolve against). Tag only the release commit.
+3. **THREE NUMBERS MUST MATCH** — `plugin.json` version == CHANGELOG heading == git tag (`vX.Y.Z`). Verify before pushing.
+4. **CONFIRM BEFORE PUBLISHING** — pushing the tag and `gh release create` are outward-facing and hard to reverse. Stop and confirm with the user; show exactly what will be pushed/published first.
+5. **USERS ONLY UPDATE ON A `plugin.json` BUMP** — never ship CHANGELOG/code changes without bumping the version, or installed users get nothing (cache).
+6. **ALWAYS leave a fresh empty `## [Unreleased]`** — one `[Unreleased]` becomes one version heading; re-add an empty one on top.
+7. **NEVER force-push** — `git push --force` is hook-blocked here. If history needs rewriting, the user runs it via `!`.
+8. **EVERY release body links the docs site** — append the `https://phxagents.dev` footer. Releases are this project's one measured promotion lever (v3.0.1: 51 → 120 cloners in a day).
+9. **UPGRADE-BREAKING RELEASES LEAD WITH THE WARNING** — if users must do anything beyond `/plugin update`, the release body opens with a `> [!WARNING]` block carrying the exact commands (see #135).
+
+## Step 0: Preconditions
+
+- On `main`, working tree clean except intended release files. If feature work is uncommitted, commit it first.
+- Determine version. Run `git describe --tags --abbrev=0 --match 'v*'` FIRST (the annotated `phx--`/`ecto--`/`lv--` tags would win otherwise) — the last
+  released tag is the bump base, NOT `plugin.json` (which may carry an
+  unreleased phased bump). If `plugin.json` is already ahead of the tag,
+  apply the consolidation check below before picking a number.
+- Read current `plugins/elixir-phoenix/.claude-plugin/plugin.json`. Pick bump from `## [Unreleased]` contents:
+  - **MAJOR** — breaking change (removed command, workflow redesign)
+  - **MINOR** — new skill / agent / command / hook
+  - **PATCH** — bug fix, doc/reference update, description tweak
+- **Consolidation check** (per memory): if several phased branch bumps never released, collapse to ONE bump from the last released tag — don't stack intermediate versions.
+
+## Step 1: Bump the version — five files by hand, two generated
+
+A partial bump does not just cost users the update; it fails
+`scripts/tests/test_codex.py`, which asserts the Codex manifest matches canonical.
+
+Set `"version"` to `X.Y.Z` in:
+
+1. `plugins/elixir-phoenix/.claude-plugin/plugin.json` — canonical
+2. `plugins/ecto/.claude-plugin/plugin.json`
+3. `plugins/lv/.claude-plugin/plugin.json`
+4. `package.json` — Pi package metadata, tracks the plugin version since v3.0.0
+5. `package-lock.json` — run `npm install --package-lock-only`, never hand-edit
+   (an unrelated dependency can share the old version string)
+
+Then regenerate the two templated manifests and bless their digests:
+
+```
+make generated-skills-sync        # updates targets/codex + targets/pi manifests
+make generated-skills-snapshots   # re-bless after reviewing the diff
+```
+
+Confirm every file agrees before moving on:
+
+```
+grep -rn '"version"' plugins/*/.claude-plugin/plugin.json package.json \
+  targets/codex/.codex-plugin/plugin.json targets/pi/package.json
+```
+
+(Often already bumped during the feature work — confirm it matches the target.)
+
+## Step 2: Finalize CHANGELOG
+
+In `CHANGELOG.md`:
+
+1. Rename `## [Unreleased]` → `## [X.Y.Z] - YYYY-MM-DD` (today's date).
+2. Insert a fresh empty section on top (see `${CLAUDE_SKILL_DIR}/references/templates.md`).
+3. Optionally add a one-line summary under the new heading (past releases do).
+
+## Step 3: README + intro (only if needed)
+
+- Update `README.md` ONLY if counts/version callouts changed: skill count, agent
+  count (`grep -nE "[0-9]+ (skills|agents|specialist)" README.md`), or a version banner.
+  A pure doc/reference PATCH usually needs **no** README change — verify, don't assume.
+- Check `plugins/elixir-phoenix/skills/intro/references/tutorial-content.md` cheat sheet
+  if commands/skills/agents were added, removed, or renamed.
+
+## Step 4: Gate on `make ci`
+
+Run `make ci` (lint + test + validate + eval-all). **Must be green.** If lint trips on
+untracked non-source dirs (e.g. `social/`, `.rtk/`), that is not a code failure — exclude
+them, don't ship around real failures. See `${CLAUDE_SKILL_DIR}/references/templates.md`.
+
+## Step 5: Commit
+
+```
+git add CHANGELOG.md plugins/elixir-phoenix/.claude-plugin/plugin.json   # + README if touched
+git commit   # message below
+```
+
+Commit subject (matches history): `Release vX.Y.Z — <short summary>`
+End the message with the `Co-Authored-By` trailer (see `CLAUDE.md`).
+
+## Step 6: Tag
+
+After the release commit, tag each plugin. `claude plugin tag` validates the
+plugin, confirms `plugin.json` matches the marketplace entry, and refuses a
+dirty tree or an existing tag — so a failure here means the release commit is
+wrong, not the tag. Run it with `--dry-run` first if unsure.
+
+```
+for p in elixir-phoenix ecto lv; do claude plugin tag plugins/$p || break; done
+git tag vX.Y.Z
+git tag --list 'v*' '*--v*' --points-at HEAD   # expect 4 tags
+```
+
+## Step 7: CONFIRM, then publish (outward-facing)
+
+Show the user the pending commit, tag, and release notes. **On confirmation:**
+
+```
+git push origin main
+git push origin vX.Y.Z phx--vX.Y.Z ecto--vX.Y.Z lv--vX.Y.Z
+gh release create vX.Y.Z --title "vX.Y.Z — <summary>" --notes-file <changelog-section>
+```
+
+Use the new CHANGELOG section as release notes (extract it to a temp file or `--notes`),
+then **prepend any upgrade warning** (Iron Law 9) and **append the docs footer** before
+publishing — a release body is read at the moment someone decides whether to install:
+
+```
+---
+
+Docs, install guides, and the runtime compatibility matrix: <https://phxagents.dev>
+```
+
+See `${CLAUDE_SKILL_DIR}/references/templates.md` for the one-line `printf` that
+appends it to the extracted notes.
+
+## Step 8: Verify
+
+```
+gh release view vX.Y.Z
+git describe --tags --abbrev=0 --match 'v*'    # should print vX.Y.Z
+```
+
+Confirm to the user: released, tag pushed, GitHub release live.
+
+## Reference
+
+- `${CLAUDE_SKILL_DIR}/references/templates.md` — CHANGELOG/release-notes templates, gate snippets, gotchas

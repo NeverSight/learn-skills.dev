@@ -1,0 +1,6 @@
+Migration guidance for traditional and Post-Order order management to modern order, purchase quote, cancellation, inquiry, case, return, and fulfillment GraphQL or REST APIs.
+
+Trigger when user mentions: GetOrders/GetSellerTransactions/GetItemTransactions/AddOrder/SendInvoice/CompleteSale; SearchCancellations/ApproveCancellation/CreateCancellationRequest; GetInquiry/IssueInquiryRefund/EscalateInquiry; GetReturn/IssueReturnRefund/ProcessReturnRequest/SearchReturns; shipment tracking or return labels; or asks "how do I migrate traditional post-order flows".
+
+Covers 66 traditional operations across order retrieval, checkout completion, cancellations, inquiries, cases, returns, refunds, shipping labels, and decommissioned helper flows.
+Do NOT use for listing creation, account preferences, or authorization and OAuth tasks.
