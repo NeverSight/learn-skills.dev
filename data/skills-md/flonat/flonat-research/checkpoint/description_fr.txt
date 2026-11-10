@@ -1,0 +1,1 @@
+Enregistrez un point de contrôle de continuation compact afin que le travail en cours survive au compactage du contexte ou à une session ultérieure. À utiliser lorsque le contexte actif devient long ou que le travail doit s'arrêter sans modifier la propriété du client ou de la machine. Pour un transfert explicite entre sessions/clients, utilisez $handoff.
