@@ -1,0 +1,1 @@
+将 PostgreSQL 应用从 Prisma ORM 6 或 7 一次性直接升级到 Prisma 8，同时保留现有的 schema.prisma、数据库和数据。当使用Prisma 6或7的Postgres项目需要Prisma 8时使用，包括在将其部署到仅运行Prisma 8的Prisma Compute之前。触发条件：“将 Prisma 6 升级到 8”、“将 Prisma 7 升级到 8”、“升级到 Prisma 8 Postgres”、“prisma7Schema”、“migrations/app”、“移出 @prisma/client”、“控制台提示迁移到 Prisma 8”。
