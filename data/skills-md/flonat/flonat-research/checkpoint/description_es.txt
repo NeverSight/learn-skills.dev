@@ -1,0 +1,1 @@
+Guarde un punto de control de continuación compacto para que el trabajo actual sobreviva a la compactación del contexto o a una sesión posterior. Utilícelo cuando el contexto activo se está alargando o el trabajo debe detenerse sin cambiar la propiedad del cliente o de la máquina. Para una transferencia explícita entre sesiones/clientes, use $handoff.
