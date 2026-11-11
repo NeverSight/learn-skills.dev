@@ -1,0 +1,1 @@
+Trace what a concrete code change could break beyond direct callers, then test one or two safety-critical assumptions against the real code path. Use when the user asks for change impact, blast radius, or a bounded cross-boundary safety review; do not use for whole-repository audits or API/module design.
