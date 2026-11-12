@@ -1,0 +1,1 @@
+在將 Markdown 文件、報告或任何文字內容轉換為 Telegram Rich Message 以透過機器人傳送時使用。觸發條件：「將 Markdown 傳送至 Telegram」、「將文件轉換為豐富訊息」、「將報告發佈至機器人」、「將 Markdown 格式化以用於 sendRichMessage」、「從檔案建立 Telegram 豐富訊息」。產生一個 InputRichMessage JSON 物件，可供 Telegram Bot API 10.2 的 sendRichMessage 使用，其中包含 file_id、URL 和分段上傳媒體繫結。
