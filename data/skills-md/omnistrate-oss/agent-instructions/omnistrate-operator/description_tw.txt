@@ -1,0 +1,1 @@
+在以下情況下使用：將以 Kubernetes Operator 為基礎的服務（CRD + 控制器，例如 CloudNativePG、Strimzi、KubeAI、ECK）導入 Omnistrate 平台；撰寫或檢閱包含 systemWorkflows 的 Omnistrate ServicePlanSpec；或當 Operator/Helm + CR 部署必須成為具有建立／修改／停止／備份／還原生命週期的受管 SaaS 產品時。對於 Docker-Compose 服務，請使用 omnistrate-fde；對於偵錯失敗的執行個體，請使用 omnistrate-sre。
