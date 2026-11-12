@@ -1,0 +1,14 @@
+Add a game-ready rig to an existing 3D mesh model (.blend or .glb), whether it came from
+plz-sheet-to-model or was generated, bought, or modeled by hand. Uses a body-plan template
+(bird, or quadruped such as a cat) to build the armature, skin weights, leg IK, base-pose
+actions, and check poses, exports glTF (glb) and .blend, verifies them with pose renders,
+self-intersection counts, and a re-import round trip, and outputs a bone rotation sign
+table (+1/-1) for game code. Runs Blender in the background, so the same input gives the
+same result. Use when the user wants to rig a model, add an armature or skeleton, skin or
+weight-paint it, prepare it for animation, make wings, legs, or a tail move, or learn the
+bone rotation directions or signs, and when fixing or re-attaching an existing rig.
+Triggers: "rig this model", "add armature/skeleton", "skinning", "Blender rigging for game",
+"make it animatable", "이 모델 리깅해줘", "뼈대/아마추어/스켈레톤 붙여줘",
+"스키닝·웨이트 페인팅", "애니메이션 만들 준비", "날개·다리·꼬리 움직이게",
+"본 회전 방향/부호 알려줘", "このモデルをリギングして", "ボーンを付けて",
+"给这个模型绑定骨骼", "做骨骼绑定和蒙皮".
