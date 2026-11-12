@@ -1,0 +1,1 @@
+Kubernetesオペレーターベースのサービス（CRD +コントローラー、例：CloudNativePG、Strimzi、KubeAI、ECK）をOmnistrateプラットフォームにオンボーディングする場合、systemWorkflowsを使用してOmnistrate ServicePlanSpecを作成またはレビューする場合、またはオペレーター/Helm + CRデプロイメントが、作成/変更/停止/バックアップ/復元のライフサイクルを備えたマネージドSaaSオファリングになる必要がある場合に使用します。Docker-Composeサービスの場合はomnistrate-fdeを使用し、失敗したインスタンスのデバッグにはomnistrate-sreを使用します。
