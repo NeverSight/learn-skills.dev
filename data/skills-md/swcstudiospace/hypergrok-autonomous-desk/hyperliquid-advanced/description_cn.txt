@@ -1,0 +1,1 @@
+不常见的Hyperliquid操作及其规则 - 死人开关（scheduleCancel）、TWAP订单、现货订单、expiresAfter和nonce、通过代码进行的API钱包批准、子账户和金库地址、HIP-3 DEX，以及交易台故意不进行的操作（转账、提现、构建者费用、质押）。写入操作仅限执行交易员执行，通过scripts/desk_send.py在Gate批准的工单上执行。当工单要求执行其中一项操作，或者当用户询问交易台是否可以执行某项操作时使用。
