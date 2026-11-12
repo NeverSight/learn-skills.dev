@@ -1,0 +1,1 @@
+Kubernetes 오퍼레이터 기반 서비스(CRD + 컨트롤러, 예: CloudNativePG, Strimzi, KubeAI, ECK)를 Omnistrate 플랫폼에 온보딩할 때, systemWorkflows가 있는 Omnistrate ServicePlanSpec을 작성하거나 검토할 때, 또는 오퍼레이터/Helm+CR 배포가 생성/수정/중지/백업/복원 수명 주기를 갖는 관리형 SaaS 오퍼링이 되어야 할 때 사용합니다. Docker-Compose 서비스의 경우 omnistrate-fde를 사용하고, 실패한 인스턴스를 디버깅하려면 omnistrate-sre를 사용하세요.
