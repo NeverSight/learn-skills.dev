@@ -1,0 +1,1 @@
+Use when loading with `AssetServer::load` or `AssetServer::load_builder().with_settings(..)`, holding a `Handle<T>`, spawning a glTF scene with `WorldAssetRoot` (`Handle<WorldAsset>`), mutating through `Assets::get_mut` / `AssetMut`, polling `LoadState::is_loaded`, resolving an `AssetPath`, or replacing `AssetId::invalid()` with `Option<AssetId<T>>` in Bevy 0.20.

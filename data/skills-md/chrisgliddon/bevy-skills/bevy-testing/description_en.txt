@@ -1,0 +1,1 @@
+Use when testing Bevy 0.20 with `App::update`, `TimeUpdateStrategy`, `FixedUpdate`, `MessageCursor`, or `On<E>` observers: deterministic stepping, async-task draining with `poll_once` and no sleeps, headless worlds, and capture-based visual regression.

@@ -1,0 +1,11 @@
+Apply, list, or edit provider-native policies on API instances (Kong plugin,
+Apigee template, Azure policy, or MuleSoft/Anypoint) via the MuleSoft
+Platform MCP Server. TRIGGER when: the user asks what protection they have
+on a provider's APIs ("what protection do I have for my Apigee APIs"), wants
+to change an already-applied native policy ("improve the IP filtering to
+include 1.1.1.1"), or apply one native plugin to an already-chosen instance
+("add ip-restriction on this Kong service"). DO NOT TRIGGER when: they want
+one Universal/canonical policy across many instances or providers — use
+skill apply-universal-policy. DO NOT TRIGGER to remove, detach, enable, or
+disable a policy, or when they are driving Anypoint REST (skill
+apply-policy-to-api-instance).

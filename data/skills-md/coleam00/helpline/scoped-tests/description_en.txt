@@ -1,0 +1,1 @@
+Use after changing code, before claiming work is done — picks the correctly scoped pytest command instead of running the whole suite. Helps avoid the timeout-and-context-waste of full-suite runs on a one-service change.

@@ -1,0 +1,1 @@
+Use when generating controllers, services, repositories, or DTOs in a Symfony app. Enforces layer boundaries: HTTP in controllers, business logic in services, data access in repositories, and DTO mapping between them. Forbids entities in responses and repository access from controllers.

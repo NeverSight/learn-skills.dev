@@ -1,0 +1,1 @@
+Use when upgrading from Bevy 0.17 to Bevy 0.18, when an LLM writes `EventReader`/`EventWriter`/`Trigger<E>` instead of `MessageReader`/`MessageWriter`/`On<E>`, when `mesh.insert_attribute` fails to compile, when `AmbientLight` no longer works as a resource, or when `Camera { target: ... }` errors on the `target` field. Index of every breaking 0.17→0.18 change.

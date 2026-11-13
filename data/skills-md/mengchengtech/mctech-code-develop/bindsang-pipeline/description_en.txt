@@ -1,0 +1,1 @@
+编排子 Agent 完成 OpenSpec Change（探索→设计→审核→规划→实施→验证；含需求变更与外部 BUG）。 使用：用户要求「流水线 / 子智能体 / 多 Agent」；跨模块功能、重构、公共接口变更；只要设计+评审；已有 Spec 要实施验证； 需求变更；外部 BUG；继续/恢复某 Change；点名 explorer/designer/reviewer/planner/executor/verifier。 不要使用：单模块小功能、已定位根因的 bug 修复、样式或文案、依赖升级、纯代码解释/代码评审、概念咨询、与仓库无关问答 （直接完成请求，不建 Change、不派子 Agent）。轻量改代码可只做最小 preflight+验证，不必 full-flow。
