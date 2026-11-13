@@ -1,0 +1,1 @@
+カスタムフォーマットに`AssetLoader`を実装する場合、ローダーで`TypePath`を派生させる場合、`LoadContext::load`または`LoadContext::load_builder().with_settings(..).load(..)`を介して依存関係を読み込む場合、ハンドルフィールド`#[dependency]`をマークする場合、`Reader::read_to_end`で読み取る場合、`Reader::seekable` / `AsyncSeekExt`を介してシークする場合、またはBevy 0.20で独自のリーダーに必須の`Reader::seekable`を実装する場合に使用します。

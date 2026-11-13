@@ -1,0 +1,1 @@
+`AnimationPlayer` + `AnimationGraphHandle`の配線、glTFクリップからの`AnimationGraph`の構築、`AnimationTransitions::play`による状態駆動アニメーションのブレンド、`AnimationMask`によるボディパーツの分離、`#[derive(AnimationEvent)]` + `On<E>`オブザーバーによるゲームプレイ同期の起動、`bevy::curve`からの`AnimatableCurve` / `EaseFunction` / `CubicSegment::new_bezier_easing`によるトゥイーニング、またはBevy 0.20の3Dキャラクターへの12の基本アニメーション原則の適用時に使用します。

@@ -1,0 +1,1 @@
+`wasm32-unknown-unknown`をターゲットにし、`webgl2`または`webgpu`機能を選択し、`WgpuSettings { backends, priority: WgpuSettingsPriority::WebGPU }`を設定し、`Window { canvas, fit_canvas_to_parent }`でキャンバスにアタッチし、`wasm-bindgen`でグルーを生成し、ブラウザでアセットHTTP 404および`Task`のキャンセルをデバッグする場合に使用します。

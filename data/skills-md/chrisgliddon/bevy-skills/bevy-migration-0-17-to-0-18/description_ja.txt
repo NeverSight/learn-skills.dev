@@ -1,0 +1,1 @@
+Bevy 0.17からBevy 0.18にアップグレードする際、LLMが`MessageReader`/`MessageWriter`/`<E> On`の代わりに`EventReader`/`EventWriter`/`Trigger<E>`を書き込む場合、`mesh.insert_attribute`がコンパイルに失敗する場合、`AmbientLight`がリソースとして機能しなくなった場合、または`Camera { target: ... }`が`target`フィールドでエラーとなる場合に使用します。0.17→0.18のすべての破壊的変更のインデックス。

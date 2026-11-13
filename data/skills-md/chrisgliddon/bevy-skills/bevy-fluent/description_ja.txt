@@ -1,0 +1,1 @@
+`es-fluent-manager-bevy` 0.21を使用してBevy 0.20アプリにローカリゼーションを追加する場合、`#[derive(EsFluent)]`で型付きメッセージを定義する場合<T>、`FluentText`でUIテキストをラップする場合、`#[derive(BevyFluentText)]`でロケール更新を自動登録する場合、または`LocaleChangeMessage` / `LocaleChangedMessage`を介してロケールを切り替える場合に使用します。`I18nPlugin`、`RequestedLanguageId`、`ActiveLanguageId`、`i18n.toml`構成、および`.ftl`アセットのホットリロードを対象としています。

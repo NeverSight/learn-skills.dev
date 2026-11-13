@@ -1,0 +1,1 @@
+`AssetServer::load`または`AssetServer::load_builder().with_settings(..)`で読み込む際、`Handle<T> `を保持する際、`WorldAssetRoot`(`Handle<WorldAsset> `)でglTFシーンをスポーンする際、`Assets::get_mut` / `AssetMut`を介して変更する際、`LoadState::is_loaded`をポーリングする際、`AssetPath`を解決する際、または<AssetId<T>Bevy 0.20で`AssetId::invalid()`を`Option &gt;`に置き換える際に使用します。
