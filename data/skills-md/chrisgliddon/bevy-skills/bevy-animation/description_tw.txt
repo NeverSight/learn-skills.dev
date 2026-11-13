@@ -1,0 +1,1 @@
+在以下情況下使用：連接 `AnimationPlayer` + `AnimationGraphHandle`、從 glTF 剪輯建立 `AnimationGraph`、使用 `AnimationTransitions::play` 混合狀態驅動的動畫、使用 `AnimationMask` 分離身體部位、透過 `#[derive(AnimationEvent)]` + `On<E>` 觀察者觸發遊戲同步、使用 `bevy::curve` 中的 `AnimatableCurve` / `EaseFunction` / `CubicSegment::new_bezier_easing` 進行插值，或將 12 大動畫基本原則應用於 Bevy 0.20 中的 3D 角色。

@@ -1,0 +1,1 @@
+在從 Bevy 0.17 升級至 Bevy 0.18 時使用，當 LLM 寫入 `EventReader`/`EventWriter`/`Trigger<E>` 而非 `MessageReader`/`MessageWriter`/`On<E>` 時，當 `mesh.insert_attribute` 無法編譯時，當 `AmbientLight` 不再作為資源運作時，或當 `Camera { target: ... }` 在 `target` 欄位發生錯誤時。從 0.17 升級至 0.18 的所有重大變更索引。

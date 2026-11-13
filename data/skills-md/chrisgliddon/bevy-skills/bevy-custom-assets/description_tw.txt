@@ -1,0 +1,1 @@
+在 Bevy 0.20 中，當為自訂格式實作 `AssetLoader`、在載入器上衍生 `TypePath`、透過 `LoadContext::load` 或 `LoadContext::load_builder().with_settings(..).load(..)` 載入相依性、標記 `#[dependency]` 控制項欄位、使用 `Reader::read_to_end` 讀取、透過 `Reader::seekable` / `AsyncSeekExt` 尋找，或在您自己的讀取器上實作所需的 `Reader::seekable` 時使用。

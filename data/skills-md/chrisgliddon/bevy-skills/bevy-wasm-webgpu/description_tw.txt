@@ -1,0 +1,1 @@
+在針對 `wasm32-unknown-unknown` 的 Bevy 0.20 時使用，選擇 `webgl2` 或 `webgpu` 功能，設定 `WgpuSettings { backends, priority: WgpuSettingsPriority::WebGPU }`，使用 `Window { canvas, fit_canvas_to_parent }` 附加到畫布，使用 `wasm-bindgen` 產生黏合劑，或在瀏覽器中偵錯資產 HTTP 404 和 `Task` 取消。

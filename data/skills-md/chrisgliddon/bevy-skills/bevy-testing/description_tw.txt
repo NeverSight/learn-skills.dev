@@ -1,0 +1,1 @@
+在以下情況下使用：使用 `App::update`、`TimeUpdateStrategy`、`FixedUpdate`、`MessageCursor` 或 `On<E>` 觀察者測試 Bevy 0.20：確定性步進、使用 `poll_once` 和無睡眠的非同步任務耗盡、無頭世界以及基於擷取的視覺回歸。

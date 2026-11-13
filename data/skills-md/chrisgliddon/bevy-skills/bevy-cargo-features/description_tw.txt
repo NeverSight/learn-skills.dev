@@ -1,0 +1,1 @@
+在選擇 Bevy 0.20 Cargo 功能時使用：頂層 `2d`/`3d`/`ui`/`audio`、中層 `3d_api`/`3d_bevy_render`/`ui_api`/`common_api`、無介面 `default_app`、輸入選擇 `mouse`/`keyboard`/`gamepad`、`bevy_curve`（原為 `bevy_math/curve`）、`compressed_image_saver_universal`、`render_dev_tools`，或在 `default-features = false` 後偵錯遺漏的 UI/音訊/視窗。

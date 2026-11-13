@@ -1,0 +1,1 @@
+在以下情況下使用：使用 `es-fluent-manager-bevy` 0.21 為 Bevy 0.20 應用程式新增本地化功能；使用 `#[derive(EsFluent)]` 定義類型化訊息<T>；將 UI 文字包裝在 `FluentText` 中；使用 `#[derive(BevyFluentText)]` 自動註冊語言環境更新；或透過 `LocaleChangeMessage` / `LocaleChangedMessage` 切換語言環境。涵蓋 `I18nPlugin`、`RequestedLanguageId`、`ActiveLanguageId`、`i18n.toml` 設定，以及 `.ftl` 資產的熱重新載入。
