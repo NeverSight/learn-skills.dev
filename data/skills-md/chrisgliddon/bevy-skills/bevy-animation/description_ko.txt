@@ -1,0 +1,1 @@
+`AnimationPlayer` + `AnimationGraphHandle`을 연결하거나, glTF 클립에서 `AnimationGraph`를 빌드하거나, `AnimationTransitions::play`로 상태 기반 애니메이션을 블렌딩하거나, `AnimationMask`로 신체 부위를 분리하거나<E>, `#[derive(AnimationEvent)]` + `On` 옵저버를 통해 게임플레이 동기화를 실행하거나, `bevy::curve`의 `AnimatableCurve` / `EaseFunction` / `CubicSegment::new_bezier_easing`으로 트위닝하거나, Bevy 0.20의 3D 캐릭터에 12가지 기본 애니메이션 원칙을 적용할 때 사용합니다.

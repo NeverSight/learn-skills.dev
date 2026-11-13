@@ -1,0 +1,1 @@
+`wasm32-unknown-unknown`을 대상으로 하고, `webgl2` 또는 `webgpu` 기능을 선택하고, `WgpuSettings { backends, priority: WgpuSettingsPriority::WebGPU }`를 설정하고, `Window { canvas, fit_canvas_to_parent }`로 캔버스에 연결하고, `wasm-bindgen`으로 글루를 생성하거나, 브라우저에서 에셋 HTTP 404 및 `Task` 취소를 디버깅할 때 사용합니다.

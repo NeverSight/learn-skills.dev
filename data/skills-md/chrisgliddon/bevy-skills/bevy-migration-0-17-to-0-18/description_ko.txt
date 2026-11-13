@@ -1,0 +1,1 @@
+Bevy 0.17에서 Bevy 0.18로 업그레이드할 때, LLM이 `MessageReader`/`MessageWriter`/`<E>On` 대신 `EventReader`/`EventWriter`/`Trigger<E>`를 작성할 때, `mesh.insert_attribute`가 컴파일되지 않을 때, `AmbientLight`가 더 이상 리소스로 작동하지 않을 때, 또는 `Camera { target: ... }`가 `target` 필드에서 오류가 발생할 때 사용합니다. 0.17→0.18 버전 간의 모든 호환 중단 변경 사항의 인덱스.

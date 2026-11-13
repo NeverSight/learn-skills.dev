@@ -1,0 +1,1 @@
+`es-fluent-manager-bevy` 0.21을 사용하여 Bevy 0.20 앱에 현지화를 추가하거나, `#[derive(EsFluent)]`로 타입 지정 메시지를 정의하거나, `FluentText<T>`로 UI 텍스트를 래핑하거나, `#[derive(BevyFluentText)]`로 로케일 업데이트를 자동으로 등록하거나, `LocaleChangeMessage` / `LocaleChangedMessage`를 통해 로케일을 전환할 때 사용합니다. `I18nPlugin`, `RequestedLanguageId`, `ActiveLanguageId`, `i18n.toml` 구성 및 `.ftl` 자산의 핫 리로드를 다룹니다.

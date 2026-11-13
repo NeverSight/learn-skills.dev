@@ -1,0 +1,1 @@
+사용 시점: Bevy 0.20에서 사용자 지정 형식에 대해 `AssetLoader`를 구현할 때, 로더에서 `TypePath`를 파생할 때, `LoadContext::load` 또는 `LoadContext::load_builder().with_settings(..).load(..)`를 통해 의존성을 로드할 때, 핸들 필드를 `#[dependency]`로 표시할 때, `Reader::read_to_end`로 읽을 때, `Reader::seekable` / `AsyncSeekExt`를 통해 시크(seek)할 때, 또는 자체 리더에 필요한 `Reader::seekable`을 구현할 때.
