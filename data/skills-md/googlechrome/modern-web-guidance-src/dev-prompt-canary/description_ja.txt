@@ -1,0 +1,1 @@
+高速なインクリメンタル`task.md`および`grader.ts`カナリア再生成と、分離されたワークツリーにおけるホールドアウトされた4番目のソリューションのストレステストを実行することにより、`gd dev`のオーサリングおよび採点プロンプト（`src/authoring/dev-prompts.ts`、`src/authoring/dev.ts`、`src/grading/generate-grader.ts`、`src/grading/template.grader.ts`）への変更を実証的に検証します。`gd dev`パイプラインでプロンプトまたは生成ロジックを変更するたびに使用します。
