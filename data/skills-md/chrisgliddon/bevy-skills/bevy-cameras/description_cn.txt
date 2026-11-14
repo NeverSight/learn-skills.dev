@@ -1,0 +1,1 @@
+在生成 `Camera3d` 或 `Camera2d` 时使用，选择 `Projection`，使用 `RenderTarget` 组件渲染为图像，将 `Hdr` / `Tonemapping::Linear` / `ScreenSpaceTransmission` 添加到摄像机，连接 `bevy::camera_controller` 中的 `FreeCamera`、`PanCamera` 或新的 `PanOrbitCamera`，使用 `Camera::order` 对视图进行排序，或在 Bevy 0.20 中设置每个摄像机的 `AmbientLight`。

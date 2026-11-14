@@ -1,0 +1,1 @@
+在以下情况下使用：使用 `AssetServer::load` 或 `AssetServer::load_builder().with_settings(..)` 进行加载、持有 `Handle<T>`、使用 `WorldAssetRoot` (`Handle<WorldAsset>`) 生成 glTF 场景、通过 `Assets::get_mut` / `AssetMut` 进行变异、轮询 `LoadState::is_loaded`、解析 `AssetPath` 或<AssetId<T>在 Bevy 0.20 中将 `AssetId::invalid()` 替换为 `Option &gt;`。

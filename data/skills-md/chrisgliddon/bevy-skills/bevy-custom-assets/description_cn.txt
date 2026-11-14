@@ -1,0 +1,1 @@
+在为自定义格式实现 `AssetLoader` 时使用，在加载器上派生 `TypePath`，通过 `LoadContext::load` 或 `LoadContext::load_builder().with_settings(..).load(..)` 加载依赖项，标记句柄字段 `#[dependency]`，使用 `Reader::read_to_end` 读取，通过 `Reader::seekable` / `AsyncSeekExt` 寻道，或在 Bevy 0.20 中在您自己的读取器上实现所需的 `Reader::seekable`。

@@ -1,0 +1,1 @@
+在设计 Bevy 0.20 持久性时使用 `DynamicWorldBuilder`、`DynamicWorld::serialize`、`WorldAssetRoot`、`IoTaskPool` 或 `SettingsPlugin`：稳定 ID、带版本控制的保存 DTO/迁移、校验和与原子写入、快照加稀疏增量、原生/浏览器存储以及安全的 ECS 序列化边界。
