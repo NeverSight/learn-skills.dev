@@ -1,0 +1,1 @@
+Opt-in workflow for fixing one GitHub issue end to end. Invoked only via `/fix <github-issue-url>` (`$fix` in Codex). Reproduces the bug with our own fixtures, implements the root-cause fix, gets clean independent reviews, opens a draft pull request, makes CI green, runs the Big Bonk review loop and marks the PR ready.
