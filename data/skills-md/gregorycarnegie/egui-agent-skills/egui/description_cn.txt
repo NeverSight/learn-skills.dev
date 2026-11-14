@@ -1,0 +1,1 @@
+在编写、修复、重构或调试使用 egui 的 Rust GUI 代码时，应用 egui 和 eframe 的最佳实践。更正了在 egui 0.36 中已移除或重命名的 API（App::update、SidePanel、Frame::none）以及常见的即时模式错误：ID 冲突、缺少重绘、阻塞帧、逐帧资源创建。不适用于不涉及代码的纯对话式问题。

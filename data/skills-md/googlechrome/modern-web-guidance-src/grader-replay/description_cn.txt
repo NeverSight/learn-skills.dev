@@ -1,0 +1,1 @@
+通过重播历史评估任务中保存的代理解决方案并对差异进行前后分流，验证对评分器、评分夹具和 CSS/DOM/AST 助手的更改。在修改 grader.ts、test-fixture.ts、run-grader.ts 或评分工具使用的解析器助手时使用。请勿用于标记或调查评估任务（请使用 nightly-eval-investigation）或验证 GD 开发提示生成（dev-prompt-canary）。
