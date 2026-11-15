@@ -1,0 +1,1 @@
+共享的 om-prepare-test-env 技能（安装在 .agents/skills/ 中）的仓库本地扩展。在共享技能的工作流之上，添加了 Open Mercato 单仓环境的细节——生成的入口点脚本、临时 Runner 命令、重用 TTL 语义、所有者锁的拆除以及 env-block 合约。本地规则仅在仓库特定方面优先；此文件绝不会放宽共享技能的安全规则。

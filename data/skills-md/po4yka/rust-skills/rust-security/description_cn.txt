@@ -1,0 +1,1 @@
+在以下情况下使用：运行cargo-audit或cargo-deny、编辑deny.toml、对依赖项中的RUSTSEC公告或CVE进行分类、审查新crate或更新的crate是否存在域名仿冒、恶意crate或受损发布风险，或者强化读取不受信任文件、存档或二进制格式的Rust解析器。不适用于身份验证、密钥存储、加密设计或TLS策略（TLS属于rust-networking）。在“RUSTSEC”、“供应链”、“yanked”、“路径遍历”、“解压缩炸弹”时触发。
