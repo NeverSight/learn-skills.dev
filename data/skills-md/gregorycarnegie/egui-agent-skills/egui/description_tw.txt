@@ -1,0 +1,1 @@
+在撰寫、修正、重構或偵錯使用 egui 的 Rust GUI 程式碼時，採用 egui 和 eframe 的最佳做法。修正 egui 0.36 中已移除或已重新命名的 API (App::update、SidePanel、Frame::none) 以及常見的即時模式錯誤：ID 衝突、缺少重繪、阻塞畫面、每幀資源建立。不適用於純粹的對話式問題，且不含程式碼。

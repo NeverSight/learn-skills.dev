@@ -1,0 +1,1 @@
+透過在隔離的工作樹中執行快速的增量 `task.md` 和 `grader.ts` 測試版重新產生，以及保留的第 4 個解決方案壓力測試，以經驗方式驗證對 `gd dev` 撰寫和評分提示 (`src/authoring/dev-prompts.ts`、`src/authoring/dev.ts`、`src/grading/generate-grader.ts`、`src/grading/template.grader.ts`) 的變更。每當在 `gd dev` 管線中修改提示或產生邏輯時，請使用此功能。
