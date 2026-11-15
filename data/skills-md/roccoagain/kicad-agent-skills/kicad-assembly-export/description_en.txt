@@ -1,0 +1,1 @@
+Makes JLCPCB assembly files (BOM and CPL/pick-and-place) from a KiCad 10 board and checks the order: LCSC numbers on every placed part, BOM and CPL agree, parts clear of the edge, rotations. Use when the user wants JLC to assemble a board, asks for a BOM, CPL, centroid or pick-and-place file, or adds LCSC numbers. For Gerbers, use kicad-fab-export.

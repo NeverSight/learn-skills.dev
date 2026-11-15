@@ -1,0 +1,6 @@
+---
+name: ai-sheets
+description: "Create, improve, or analyze spreadsheets according to the user's requirements, always generating a deliverable file in the requested format. When no format is specified, asks the user to choose among a visual report (.html), spreadsheet (.xlsx), or another format — multiple formats can be selected. If HTML is chosen, produces an easy-to-understand visual insight report with professional charts. Trigger keywords: create spreadsheet, make spreadsheet, build a spreadsheet, create xlsx, make an Excel file, improve spreadsheet, analyze spreadsheet, spreadsheet report. Activate when the user asks to create, modify, or analyze spreadsheet data and wants a file output."
+---
+
+Create, improve, or analyze spreadsheets according to the user's requirements. Always generate a file. If the user specifies a file format, generate the document in the requested format. If no format is specified, ask the user which format they prefer for the final deliverable, such as a visual report (.html), spreadsheet (.xlsx), or another format. Multiple formats can be selected. If the user selects HTML (.html), analyze the user's data and generate an easy-to-understand visual insight report with professional charts, properly cited sources, and carefully verified information for accuracy and credibility.
