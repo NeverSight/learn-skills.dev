@@ -1,0 +1,1 @@
+对vLLM torch-nightly CI回归报告进行根本原因分析。从分流工件中读取预先提取的、已去除ANSI的集群日志，识别每个出现回归的集群的真正异常，按共同的根本原因对集群进行分组，将每个原因路由到pytorch/pytorch、infra或vllm-project/vllm，并写入findings.md/findings.json。输入在上游生成；它没有 Buildkite/ClickHouse 访问权限，不提交问题，也不重试任务。在 vLLM torch-nightly 分流 cron 的根本原因步骤中使用。
