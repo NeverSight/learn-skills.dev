@@ -1,0 +1,1 @@
+Set up or run the long-running-agent harness: initialize the durable state files (.agents/features.json, .agents/progress.md), then run the fixed startup and end-of-session loop. Use when the user says "/harness", "init the harness", "start a session", "hand off", or when .agents/progress.md or .agents/features.json exists and a session starts or ends.
