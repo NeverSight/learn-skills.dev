@@ -1,0 +1,1 @@
+pytorch/pytorch .github/workflows/*.ymlをEC2からOSDC（ARC）ランナーに移行するためのステップバイステップのプレイブック。ダイヤルアップパターンと100%オプトインパターンの両方をカバーし、_linux-build.yml / _linux-test.ymlを介して接続する必要がある入力を説明します。ワークフローをEC2からオンサイトデータセンター/EKSでホストされるセルフホストランナー（OSDC/ARC）に移行する場合、ARC実験を有効にする場合、または`use-arc` / `runner_prefix` / `ci-docker-hash` / `python-version` / `compiler` / `cuda-version`の入力を接続する場合に使用します。
