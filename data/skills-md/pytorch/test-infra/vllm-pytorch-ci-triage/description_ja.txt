@@ -1,0 +1,1 @@
+vLLM torch-nightly CIリグレッションレポートの根本原因を特定します。トリアージアーティファクトから事前に取得され、ANSIが削除されたクラスターログを読み取り、回帰したクラスターごとに実際の例外を特定し、共通の根本原因ごとにクラスターをグループ化し、各原因をpytorch/pytorch、infra、またはvllm-project/vllmにルーティングし、findings.md / findings.jsonに書き込みます。入力はアップストリームで生成されます。Buildkite/ClickHouseへのアクセス権はなく、イシューを登録せず、ジョブを再試行しません。vLLM torch-nightlyのトリアージcronの根本原因特定ステップで使用します。
