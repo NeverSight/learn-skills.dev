@@ -1,0 +1,1 @@
+找出 vLLM torch-nightly CI 回歸報告的根本原因。從分級成品中讀取預先擷取、已移除 ANSI 的叢集日誌，針對每個發生迴歸的叢集識別實際的例外狀況，依據共同的根本原因將叢集分組，將每個原因導向 pytorch/pytorch、infra 或 vllm-project/vllm，並寫入 findings.md / findings.json。輸入在上游產生；它沒有 Buildkite/ClickHouse 存取權限，不會回報問題，也不會重試任務。在 vLLM torch-nightly 分類 Cron 的根本原因步驟中使用。
