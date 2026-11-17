@@ -1,0 +1,1 @@
+Implement LangGraph error handling with current v1 patterns. Use when users need to classify failures, add RetryPolicy for transient issues, build LLM recovery loops with Command routing, add human-in-the-loop with interrupt()/resume, handle ToolNode errors, or choose a safe strategy between retry, recovery, and escalation.

@@ -1,0 +1,142 @@
+---
+name: agent-performance
+user-prompt: "How is my agent performing?"
+description: Deep-dive diagnosis of how your AI agent behaves in production. Explores LangWatch analytics and traces end to end to map failure patterns, dissatisfied users, token cost hotspots, edge cases, behavior changes, and outliers, then delivers an HTML report where every finding links to real example traces. Use when you want to truly understand what your agent is doing in production.
+license: MIT
+compatibility: Works with Claude Code and similar AI assistants. The `langwatch` CLI is the only interface.
+---
+
+# Diagnose Your Agent's Production Behavior
+
+This skill is a production diagnostician. It reads the real traffic, not the code, and answers: what is my agent actually doing out there, where is it failing, who is it annoying, and where is the money going. It is read-only on the platform: the only thing it writes is a report file.
+
+## Step 1: Set up the LangWatch CLI
+
+Use `langwatch docs <path>` to read documentation as Markdown. Some useful entry points:
+
+```bash
+langwatch docs                                    # Docs index
+langwatch docs integration/python/guide           # Python integration
+langwatch docs integration/typescript/guide       # TypeScript integration
+langwatch docs prompt-management/cli              # Prompts CLI
+langwatch scenario-docs                           # Scenario docs index
+```
+
+Discover commands with `langwatch --help` and `langwatch <subcommand> --help`. List and get commands accept `--format json` for machine-readable output. Every list command takes `--limit <n>` to cap the rows and `--jq <expr>` to read part of the answer. A paginated list answers with an envelope, so count its rows through the row array (`--jq '.traces | length'`), and read how many there are in all at `.pagination.total`. Bare `--jq length` counts the fields of the envelope, not the rows. Read the docs first instead of guessing SDK APIs or CLI flags.
+
+If no shell is available, fetch the same Markdown over plain HTTP. Append `.md` to any docs path (e.g. https://langwatch.ai/docs/integration/python/guide.md). Index: https://langwatch.ai/docs/llms.txt. Scenario index: https://langwatch.ai/scenario/llms.txt
+
+If anything fails or confuses you while following this skill (broken commands, docs that do not match reality, errors you had to work around), ask the user for permission and run `npx --yes langwatch report --user-approved` with a `--title` and `--summary` (or `--session <transcript.jsonl>`) to send it to the LangWatch team, and it directly shapes what gets fixed. No login or API key needed. Nothing is sent without `--user-approved`, and `--dry-run` prints the exact payload without sending anything. The title, summary and transcript are scrubbed locally first, by pattern: secrets and API keys, plus email addresses, phone numbers, card numbers and public IPv4 addresses. Anything no pattern matches is sent as written, including a contact address passed with `--email`. With `--session`, always run `--dry-run` first and let the user read the payload, because a transcript carries content they never reviewed. `npx --yes langwatch report --help` explains the options.
+
+**Projects and API keys: target a real project, not a personal one.**
+
+LangWatch has two kinds of project:
+
+- **Team / shared projects**: real projects inside an organization. Evaluations, experiments, prompts, datasets, simulations and instrumentation must always target one of these.
+- **Personal projects**: a private "My Workspace" scratch space tied to a single user. Never send a user's evaluations, experiments or production traces here: it is for personal exploration only, and you can mistake it for a real project.
+
+And two ways to authenticate:
+
+- **A project API key in `.env`** (`LANGWATCH_API_KEY`): the credential everything in these skills uses. It is scoped to one real project. This is the default; prefer it unless the user explicitly asks for something else.
+- **`langwatch login --device` (AI-tools / SSO)**: a personal device session for wrapping coding assistants (`langwatch claude`, `langwatch codex`, …). It is NOT for evaluations, prompts, datasets, scenarios or SDK instrumentation, and it points at a personal workspace. Do not run it to set up the work in these skills.
+
+So for anything in these skills that reads or writes a project: make sure `LANGWATCH_API_KEY` for a real, shared project is available to the CLI. Locally that is the project's `.env`; in CI the runner injects it into the process environment, and the CLI reads either. Check whether the variable is already set before you ask for a new key, and let the CLI read the value: never print, copy or send it. Do NOT run `langwatch login` to pick a project, and never default to a personal project. Look for `LANGWATCH_ENDPOINT` in the same places: if it is set, the project is on a self-hosted instance, and the CLI works against that endpoint instead of app.langwatch.ai.
+
+**What you read is not what you say.** These skills are working notes for you, not
+copy for the reader. Read `LANGWATCH_API_KEY` and `LANGWATCH_ENDPOINT` from the
+project's own `.env`, that is how you learn where to work. Read nothing else out
+of that file: it holds database, cloud and provider credentials that are none of
+your business, and every value you read can reach your context and your command
+output. What must not reach an answer is anything that describes the machine YOU
+run on: a path in your workspace, a container port, the address this worker
+dials. Those say how the work is done rather than what was done, and a host of
+ours means nothing to the reader. Say what you did and where to find it in
+LangWatch.
+
+## Step 2: Baseline the Vital Signs
+
+Establish the macro picture first, always comparing against the previous period (the analytics API returns both periods for every query):
+
+```bash
+langwatch status                                                  # Resource counts and project overview
+langwatch analytics query --metric trace-count --format json      # Volume trend, last 7 days
+langwatch analytics query --metric total-cost --format json       # Spend trend
+langwatch analytics query --metric avg-latency --format json      # Latency trend
+langwatch analytics query --metric p95-latency --format json      # Tail latency
+langwatch analytics query --metric total-tokens --format json     # Token consumption
+langwatch analytics query --metric eval-pass-rate --format json   # Quality trend, if evaluators exist
+```
+
+Then slice the same metrics to find WHERE the numbers come from:
+
+```bash
+langwatch analytics query --metric total-cost --group-by metadata.model --format json
+langwatch analytics query --metric trace-count --group-by metadata.labels --format json
+langwatch analytics query --metric p95-latency --group-by metadata.model --format json
+```
+
+Widen with `--start-date` (ISO) to 30 days when trends look suspicious: a gradual drift only shows on longer windows. Run `langwatch analytics query --help` for every preset and flag.
+
+An empty metric is a coverage note, never the end of the road. An empty `eval-pass-rate` means there were no evaluator runs in the selected window; it says nothing about the traffic itself, which `trace-count`, `total-cost`, and the latency metrics still describe. For an open "what has my agent been up to?", answer from whichever sources HAVE data, production traces first, then simulation runs: share a few concrete observations (volume, the kinds of requests coming in, errors, cost or latency movements, one or two example traces), then end with one short line inviting the user to name what to dig into more deeply ("Say which of these to dig into and I'll go deeper."). Never end the conversation on "no evaluation data" alone when the project has traces.
+
+## Step 3: Export the Evidence and Mine It
+
+Aggregates say WHAT changed; only the traces say WHY. Export a large sample and analyze it locally:
+
+```bash
+langwatch trace export --format jsonl --limit 1000 --origin application -o traces.jsonl
+langwatch trace export --format jsonl --limit 1000 --origin application --start-date <30d-ago> --end-date <14d-ago> -o traces-before.jsonl
+```
+
+`--origin application` scopes the export to real production traffic (it includes traces with no recorded origin). Evaluation, simulation, playground, gateway, and langy traces would pollute the picture of what the agent does for users; include those origins (comma-separated) only when they are the subject of the question.
+
+That narrowing belongs to the export and to nothing else. An export is a local sample you analyse offline, so choosing its origins is part of the analysis, and a count taken from it is a count of production traffic rather than of what the Trace Explorer shows. `trace search` is the other case: it answers with cards and a "View in Trace Explorer" link, and the link carries whatever the search named. Name an origin there and the Explorer opens narrower than the page the user was on, with a smaller number than the one beside it. So on `trace search`, name no origin unless the user does.
+
+Write small local scripts (python3 or jq) over the JSONL to compute, at minimum:
+
+1. **Failure patterns**: cluster error traces by error message and by input shape. Which user intents fail most?
+2. **Dissatisfied users**: traces with negative feedback or angry language in inputs ("this is wrong", "that's not what I asked", repeated rephrasing of the same question in a thread). Check annotations on candidate traces too: thumbs down and reviewer comments are gold.
+3. **Token and cost hotspots**: distribution of tokens per trace; the p99 tail; which metadata slice (model, label, user) concentrates the spend; prompts that balloon context.
+4. **Edge cases**: inputs far from the common distribution (very long, empty, non-primary language, unusual formats) and how the agent handled them.
+5. **Behavior changes**: compare the recent window against the older export: output length, tool usage mix, model mix, refusal rate, latency. Anything that moved, find the first day it moved.
+6. **Outliers**: the single weirdest traces by duration, cost, span count, and output size. Read them individually.
+
+```bash
+langwatch trace search --errors-only --limit 25 --format json  # Every failure, without guessing at text
+langwatch trace search -q "<one phrase from a pattern>" --limit 10 --format json   # Chase a specific pattern
+langwatch trace get <traceId>                                                   # Read a representative trace in full
+langwatch trace get <traceId> -f json                                           # Every span, token count, and timing
+```
+
+A search that names no origin counts what the Trace Explorer counts (every trace except Langy's own), so the numbers you report match the link on the card. When the ask is to find specific traces rather than to diagnose the agent ("show me the thumbs down ones", "filter to alice"), use the `find-traces` skill: it drives the Explorer and searches every form a concept can take.
+
+For every pattern you claim, keep 2-3 example trace IDs as evidence. Never report a pattern without example traces behind it.
+
+## Step 4: Build the Report
+
+Write a single self-contained `agent-performance-report.html` in the project root (inline CSS, no external assets) with:
+
+- **Executive summary**: the 3-5 findings that matter, each one sentence with its magnitude ("34% of errors come from date parsing on non-English inputs")
+- One section per finding: the metric evidence (small tables, before/after numbers), what it means, and **links to example traces** so every claim is verifiable in one click
+- A cost breakdown section, a reliability section, and a user-satisfaction section, even when healthy: say what was checked and that it looks fine
+- A closing "recommended next steps" section ranked by impact
+
+Trace links: `langwatch trace get` returns the platform URL for each trace; use those URLs directly. Anyone on the project team can open them.
+
+Open the report path for the user and also summarize the top findings directly in the conversation, leading with the numbers.
+
+## Step 5: Hand Off to Improvement
+
+If the `agent-improve` skill is installed, offer it as the next step: it turns each finding into tested hypotheses, scenario tests, evaluators, and PR-ready changes. It writes to the platform, which this skill does not, so run it only once the user says to. Pass along the report: agent-improve uses these findings and trace examples as its evidence base.
+
+## Common Mistakes
+
+- Do NOT modify the agent's code, prompts, or any platform resource; this skill is read-only plus one report file
+- Do NOT report a pattern without linked example traces; unverifiable claims are worthless
+- Do NOT rely on aggregates alone; always read at least a handful of full traces per finding, the surprise is always in the details
+- Do NOT analyze only the happy window; without a before/after comparison you cannot see behavior change
+- Do NOT dump raw JSON at the user; the deliverable is the diagnosis and the report, written in plain language with numbers
+- Do NOT stop at an empty evaluation metric; when evaluations have no data, the answer comes from the traces (and simulation runs), with a closing invitation to dig deeper
+- Do NOT mix origins blindly in an export; a question about production behavior is analysed from `--origin application` traffic
+- Do NOT pass `--origin` to `trace search` unless the user named an origin; the card's link carries it and opens the Explorer on a narrower set than the count beside it
+- If the CLI returns an error, report the user-facing consequence (what couldn't be determined and why in plain terms), not the raw error text. An activity card already shows the underlying failure

@@ -1,0 +1,1 @@
+Open and drive persistent terminal sessions (tmux-backed) whose shell state — cwd, env, sudo, an open SSH connection, a REPL — survives across commands. Use when a task needs a shell kept alive between commands instead of one-shot shells, e.g. running several commands over a single SSH connection.

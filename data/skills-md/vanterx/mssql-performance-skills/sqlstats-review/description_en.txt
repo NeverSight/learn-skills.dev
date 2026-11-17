@@ -1,0 +1,1 @@
+Parse and analyze SQL Server SET STATISTICS IO, TIME ON output. Extracts per-table IO metrics and per-statement CPU/elapsed times, computes % logical read share, detects 27 performance patterns (I1–I18 IO checks, W1–W9 time checks). Use when a user pastes SSMS statistics output or asks why a query does too much I/O.
