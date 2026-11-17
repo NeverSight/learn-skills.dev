@@ -1,0 +1,1 @@
+pytorch/pytorch .github/workflows/*.yml을 EC2에서 OSDC(ARC) 러너로 마이그레이션하기 위한 단계별 플레이북 — _linux-build.yml / _linux-test.yml을 통해 연결해야 하는 입력을 포함하여 전화 접속 및 100% 옵트인 패턴을 모두 다룹니다. 워크플로를 EC2에서 온사이트 데이터 센터/EKS에서 호스팅되는 셀프 호스팅 러너(OSDC/ARC)로 마이그레이션하거나, ARC 실험을 활성화하거나, `use-arc` / `runner_prefix` / `ci-docker-hash` / `python-version` / `compiler` / `cuda-version` 입력을 연결할 때 사용합니다.

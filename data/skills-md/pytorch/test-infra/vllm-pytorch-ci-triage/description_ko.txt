@@ -1,0 +1,1 @@
+vLLM torch-nightly CI 회귀 보고서의 근본 원인을 파악합니다. 분류 아티팩트에서 미리 가져오고 ANSI 코드가 제거된 클러스터 로그를 읽고, 회귀된 클러스터별로 실제 예외를 식별하고, 공통된 근본 원인별로 클러스터를 그룹화하고, 각 원인을 pytorch/pytorch, infra 또는 vllm-project/vllm으로 라우팅하고, findings.md/findings.json을 작성합니다. 입력은 업스트림에서 생성됩니다. Buildkite/ClickHouse에 대한 액세스 권한이 없으며, 이슈를 제출하지 않고, 작업을 재시도하지 않습니다. vLLM torch-nightly 분류 크론의 근본 원인 단계에서 사용합니다.
