@@ -1,0 +1,5 @@
+Playwright-first strategy for shared DB + shared test accounts. Use when E2E
+tests collide in QA/staging, need safe parallelism, or require deterministic
+cleanup without touching baseline data. Covers per-test ownership,
+namespacing, ID-based teardown, serial shared-state suites, and optional
+stale-data janitor jobs.

@@ -4,576 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 17 Nov 2026 06:31:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Nov 2026 05:55:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-11-17)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-11-18)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:snapshot</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:snapshot</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8330
-Trending skills: 8056
-Hot skills: 4398
-Top All Time: find-skills (4398332)
-Top Trending: design-mobile-apps (20892)
-Top Hot: cc-best-practices (30)]]></description>
+All Time skills: 8323
+Trending skills: 8079
+Hot skills: 5980
+Top All Time: find-skills (4416880)
+Top Trending: design-mobile-apps (20422)
+Top Hot: remotion-to-hyperframes (338)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): cc-best-practices]]></title>
-            <link>https://skills.sh/dboeckli/ai-agent-skills/cc-best-practices</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:dboeckli/ai-agent-skills/cc-best-practices</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): twitter-automation]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topAllTime:new:qu-skills/superpowers/twitter-automation</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 758098
+Source: qu-skills/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): remotion-to-hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/remotion-to-hyperframes</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/remotion-to-hyperframes</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 30
-Source: dboeckli/ai-agent-skills
-Description: Guidance on how to use Claude Code effectively — covering context management, verification strategies, the explore-plan-implement workflow, prompting techniques, session management, parallel sessions, and common failure patterns. Use this skill whenever the user asks how to get the most out of Claude Code, how to write better prompts, how to manage context, when to use plan mode, how to automate tasks, or when they describe a frustrating pattern like Claude repeating mistakes or losing track of instructions.]]></description>
+Installs: 338
+Source: heygen-com/hyperframes
+Description: Translate a Remotion (React-based) video composition into a HyperFrames HTML composition. Use when (1) the user provides Remotion source (`.tsx` files using `useCurrentFrame`, `Sequence`, `AbsoluteFill`, `interpolate`, `spring`, `staticFile`, etc.) and asks to port, convert, or migrate it to HyperFrames; (2) the user pastes a Remotion entry point (`Root.tsx`, `Composition`) and wants HTML; (3) the user links a Remotion repo and asks for the HyperFrames equivalent; (4) the user says "port my Remotion project", "translate this Remotion code", "rewrite as HTML", or "I have a Remotion comp, make it HyperFrames". Skill detects unsupported patterns (useState, useEffect with side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda` features) and recommends the runtime interop escape hatch instead of attempting a lossy translation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): finishing-a-development-branch]]></title>
-            <link>https://skills.sh/obra/superpowers/finishing-a-development-branch</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/finishing-a-development-branch</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): ponytail]]></title>
+            <link>https://skills.sh/dietrichgebert/ponytail/ponytail</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:dietrichgebert/ponytail/ponytail</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 48
-Source: obra/superpowers
-Description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup]]></description>
+Installs: 50
+Source: dietrichgebert/ponytail
+Description: Forces the laziest solution that actually works, simplest, shortest, most minimal. Channels a senior dev who has seen everything: question whether the task needs to exist at all (YAGNI), reach for the standard library before custom code, native platform features before dependencies, one line before fifty. Supports intensity levels: lite, full (default), ultra. Use whenever the user says "ponytail", "be lazy", "lazy mode", "simplest solution", "minimal solution", "yagni", "do less", or "shortest path", and whenever they complain about over-engineering, bloat, boilerplate, or unnecessary dependencies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): diagnosing-superpowers]]></title>
-            <link>https://skills.sh/obra/superpowers/diagnosing-superpowers</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/diagnosing-superpowers</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): video-use]]></title>
+            <link>https://skills.sh/browser-use/video-use/video-use</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:browser-use/video-use/video-use</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 44
-Source: obra/superpowers
-Description: Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, "it took too long", "why is it so expensive", "what is it doing" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.]]></description>
+Installs: 17
+Source: browser-use/video-use
+Description: Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles — for talking heads, montages, tutorials, travel, interviews. No presets, no menus. Ask questions, confirm the plan, execute, iterate, persist. Production-correctness rules are hard; everything else is artistic freedom.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): show-me]]></title>
-            <link>https://skills.sh/humanlayer/skills/show-me</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:humanlayer/skills/show-me</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): copywriting]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/copywriting</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:coreyhaines31/marketingskills/copywriting</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 14
-Source: humanlayer/skills
-Description: Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts.]]></description>
+Installs: 35
+Source: coreyhaines31/marketingskills
+Description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." For email copy, see email-sequence. For popup copy, see popup-cro.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): naver-news-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/naver-news-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/naver-news-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): tailwindcss]]></title>
+            <link>https://skills.sh/hairyf/skills/tailwindcss</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:hairyf/skills/tailwindcss</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 10
-Source: nomadamas/k-skill
-Description: 네이버 검색 Open API 뉴스 검색(news.json)을 k-skill-proxy 경유로 조회해 최신 뉴스 기사 제목·발행시각·링크·요약을 보수적으로 정리한다. 사용자는 별도 API 키 발급 없이 호출한다.]]></description>
+Installs: 18
+Source: hairyf/skills
+Description: Tailwind CSS utility-first CSS framework. Use when styling web applications with utility classes, building responsive designs, or customizing design systems with theme variables.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): korean-humanizer]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/korean-humanizer</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/korean-humanizer</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): google-agents-cli-adk-code]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 10
-Source: nomadamas/k-skill
-Description: AI가 쓴 티가 나는 한국어 글을 자연스러운 사람 글로 고친다. 번역체, AI 상투어, 과도한 명사화·피동, 3의 법칙, 과장된 의의 부여, 마무리 상투구, 챗봇 잔재, 줄표·곡선따옴표 같은 한국어 특유의 AI 흔적을 심각도(S1/S2/S3)로 분류해 잡아내고 의미는 보존하면서 다시 쓴다. 목표 글자수를 함께 주면(예: "1000자로", length=1000) 그 분량에 맞춰 늘리거나 줄인다. "AI 티 안 나게", "사람이 쓴 것처럼", "자연스럽게 다듬어줘", "번역체 고쳐줘", "어색한 거 고쳐줘", "N자로 맞춰서" 같은 요청에 사용.]]></description>
+Installs: 135
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): test-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/test-driven-development</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/test-driven-development</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): google-agents-cli-workflow]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 50
-Source: obra/superpowers
-Description: Use when implementing any feature or bugfix, before writing implementation code]]></description>
+Installs: 135
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): dispatching-parallel-agents]]></title>
-            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): google-agents-cli-observability]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 49
-Source: obra/superpowers
-Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
+Installs: 134
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): google-agents-cli-eval]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 48
-Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
+Installs: 134
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): writing-skills]]></title>
-            <link>https://skills.sh/obra/superpowers/writing-skills</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/writing-skills</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): google-agents-cli-scaffold]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 46
-Source: obra/superpowers
-Description: Use when creating new skills, editing existing skills, or verifying skills work before deployment]]></description>
+Installs: 134
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): korean-spell-check]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/korean-spell-check</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/korean-spell-check</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): google-agents-cli-publish]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 11
-Source: nomadamas/k-skill
-Description: Use Nara/PNU Korean spell-check surfaces conservatively to proofread Korean text, chunk long input, and return change-focused correction suggestions.]]></description>
+Installs: 134
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): skill-best-practices]]></title>
-            <link>https://skills.sh/dboeckli/ai-agent-skills/skill-best-practices</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:dboeckli/ai-agent-skills/skill-best-practices</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): slideshow]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/slideshow</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/slideshow</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 30
-Source: dboeckli/ai-agent-skills
-Description: Guide for creating, structuring, and improving Claude skills (SKILL.md). Use when building a new skill, reviewing an existing skill, writing SKILL.md frontmatter, defining trigger conditions, troubleshooting skill problems (not triggering, over-triggering, instructions not followed), or planning skill distribution. When working on any skill in this repository: also load the cc-best-practices skill, and always update both CLAUDE.md and README.md skill tables after any skill change. Do NOT use for general Claude Code configuration or hook setup.]]></description>
+Installs: 337
+Source: heygen-com/hyperframes
+Description: Author a HyperFrames slideshow composition — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching sequences, and hotspot navigation. Read when the request is to build or edit a slideshow, presentation, or pitch deck as a HyperFrames composition.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): heyyumi]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/heyyumi</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/heyyumi</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): google-agents-cli-deploy]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 9
-Source: nomadamas/k-skill
-Description: 헤이유미(HeyYumi)로 한국 식당·카페·바를 찾고, 그 자리에서 예약 요청을 보내 매장의 수락/거절까지 확인하는 스킬. 지역·역·랜드마크, 메뉴 이름(몸국, 소금빵 등), 분위기, 영업 시각, 주차, 채식·비건, 아이·반려동물 동반, 외국어 응대 같은 조건으로 맛집 찾기, 식당 예약, 테이블 예약, 카페 예약, 예약 가능 여부 확인, 지금 자리 있나·웨이팅 몇 분인지 매장에 물어보기가 필요할 때 사용한다. 한국어를 몰라도 되고, 외국어로 쓴 요리 이름과 지명도 알아듣는다. Use when the user wants to find a Korean restaurant, cafe, or bar by area, dish, or condition (parking, vegan, kids, pets, foreigner-friendly), book a table or send a reservation request via HeyYumi, or ask a venue about current wait time or seat availability, in any language.]]></description>
+Installs: 134
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): donation-place-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/donation-place-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/donation-place-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): prune-tests]]></title>
+            <link>https://skills.sh/caldoai/skills/prune-tests</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:caldoai/skills/prune-tests</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 9
-Source: nomadamas/k-skill
-Description: Use when the user asks where to donate, 기부처 조회, or donation place recommendations by Korean location and category. Recommend recipients with best-effort 1365 verification-assist links and never execute donations.]]></description>
+Installs: 12
+Source: caldoai/skills
+Description: Prune tests that guard no behavior.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): kleague-results]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/kleague-results</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/kleague-results</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): no-mistakes]]></title>
+            <link>https://skills.sh/kunchenguid/no-mistakes/no-mistakes</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:kunchenguid/no-mistakes/no-mistakes</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 9
-Source: nomadamas/k-skill
-Description: 케이리그 경기 결과와 현재 순위를 날짜/팀 기준으로 조회한다. 공식 JSON 엔드포인트와 kleague-results npm 패키지를 사용한다.]]></description>
+Installs: 10
+Source: kunchenguid/no-mistakes
+Description: Validate your code changes through the no-mistakes pipeline - automated code review, tests, lint, docs, push, PR, and CI - before they reach the configured push target. Use when the user asks to run no-mistakes, gate or ship or validate their changes, push safely, asks you to do a task and then validate it, or invokes /no-mistakes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): public-restroom-nearby]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/public-restroom-nearby</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/public-restroom-nearby</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): ponytail-review]]></title>
+            <link>https://skills.sh/dietrichgebert/ponytail/ponytail-review</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:dietrichgebert/ponytail/ponytail-review</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 9
-Source: nomadamas/k-skill
-Description: Use when the user asks for nearby public/open restrooms or 근처 화장실. Always ask the user's current location first, then use the official nationwide public-restroom standard dataset plus Kakao anchor resolution.]]></description>
+Installs: 28
+Source: dietrichgebert/ponytail
+Description: Code review focused exclusively on over-engineering. Finds what to delete: reinvented standard library, unneeded dependencies, speculative abstractions, dead flexibility. One line per finding: location, what to cut, what replaces it. Use when the user says "review for over-engineering", "what can we delete", "is this over-engineered", "simplify review", or invokes /ponytail-review. Complements correctness-focused review, this one only hunts complexity.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): daangn-realty-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/daangn-realty-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/daangn-realty-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): seo-audit]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/seo-audit</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:coreyhaines31/marketingskills/seo-audit</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 9
-Source: nomadamas/k-skill
-Description: 당근부동산 공개 웹 데이터 표면으로 지역 기반 부동산 매물 검색과 상세 확인을 수행한다. 문의/예약/계약 자동화는 제외한다.]]></description>
+Installs: 28
+Source: coreyhaines31/marketingskills
+Description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): geeknews-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/geeknews-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/geeknews-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): cf-cli]]></title>
+            <link>https://skills.sh/cloudflare/skills/cf-cli</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/cf-cli</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 9
-Source: nomadamas/k-skill
-Description: GeekNews public RSS/Atom feed로 긱뉴스 게시물을 조회, 검색, 상세 확인하는 읽기 전용 스킬.]]></description>
+Installs: 27
+Source: cloudflare/skills
+Description: Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal — sign-in and profiles, cf cli search, cf schema, cf deploy/dev/build, resource commands for DNS, zones, D1, KV, and R2 — and for choosing between cf and Wrangler in a project.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): assembly-bill-vote-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/assembly-bill-vote-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/assembly-bill-vote-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): workers-development]]></title>
+            <link>https://skills.sh/cloudflare/skills/workers-development</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/workers-development</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 9
-Source: nomadamas/k-skill
-Description: 열린국회정보 Open API를 k-skill-proxy 경유로 호출해 의안 검색·상세와 국회의원 본회의 표결정보를 조회한다. 조회 전용.]]></description>
+Installs: 27
+Source: cloudflare/skills
+Description: Run, inspect, and debug Cloudflare Workers during local development with cf dev, wrangler dev, or the Cloudflare Vite plugin, using Local Explorer to read and seed binding data and query local traces and logs. Also routes production debugging to Workers observability. Use for debugging requests whether or not the project uses Wrangler.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): daishin-report-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/daishin-report-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/daishin-report-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): ponytail-audit]]></title>
+            <link>https://skills.sh/dietrichgebert/ponytail/ponytail-audit</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:dietrichgebert/ponytail/ponytail-audit</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 9
-Source: nomadamas/k-skill
-Description: 대신증권 리포트 GitHub Pages 미러에서 최신 HTML 리포트 목록과 원문/설명 페이지를 조회한다.]]></description>
+Installs: 27
+Source: dietrichgebert/ponytail
+Description: Whole-repo audit for over-engineering. Like ponytail-review, but scans the entire codebase instead of a diff: a ranked list of what to delete, simplify, or replace with stdlib/native equivalents. Use when the user says "audit this codebase", "audit for over-engineering", "what can I delete from this repo", "find bloat", "ponytail-audit", or "/ponytail-audit". One-shot report, does not apply fixes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): kpic-drug-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/kpic-drug-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/kpic-drug-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): anatomy]]></title>
+            <link>https://skills.sh/wheresryan22/anatomy/anatomy</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:wheresryan22/anatomy/anatomy</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 9
-Source: nomadamas/k-skill
-Description: 약학정보원(KPIC) 공개 정보에서 의약품 이름을 검색하고 약품 코드로 효능, 용법, 주의사항 등 상세 원문을 조회하는 읽기 전용 스킬입니다.]]></description>
+Installs: 21
+Source: wheresryan22/anatomy
+Description: Build crafted, highly detailed, interactive isometric SVG figures that explain a technical idea as a real physical object (a test rig, a dial gauge, a cabinet of drawers, a plotter, a lock), with many small precise solid parts, four-tone shading, correct painter's order, a framed card with title, hint and live readout, and calm eased motion. Use this whenever someone wants an isometric illustration, an explanatory diagram or figure for docs, a blog post, a landing page or an article, a "Linear-style" or "premium" technical drawing, an interactive explainer, or an SVG that shows how a system, algorithm or component works, even if they never say "isometric". Works framework-free (TypeScript/JS that writes SVG and HTML) and in React/Next.js, and can add realistic WebGL shaders (fire, exhaust, water, caustics, lamp light) that live inside the drawing in the same isometric perspective.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): subway-lost-property]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/subway-lost-property</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/subway-lost-property</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): archify]]></title>
+            <link>https://skills.sh/tt-a1i/archify/archify</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:tt-a1i/archify/archify</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 9
-Source: nomadamas/k-skill
-Description: Use when the user asks how to look up 지하철 분실물 or 유실물 by 역명/물품명. v1 is an 안내형/하이브리드 skill that structures the official LOST112 + 서울교통공사 flow conservatively.]]></description>
+Installs: 14
+Source: tt-a1i/archify
+Description: Create professional architecture, workflow, sequence, data-flow, and lifecycle/state diagrams as standalone HTML files with SVG graphics, a built-in dark/light theme toggle, and one-click export to PNG / JPEG / WebP / SVG. Accepts plain-language descriptions or pasted Mermaid code (flowchart, sequenceDiagram, stateDiagram) and lays the diagram out from scratch in archify style. Use when the user asks for system architecture diagrams, infrastructure diagrams, cloud architecture visualizations, security diagrams, network topology, technical workflows, approval flows, runbooks, CI/CD flows, process diagrams, API call sequences, request lifecycles, data pipelines, ETL/ELT maps, PII boundaries, data lineage, state machines, lifecycle diagrams, status transitions, or asks to convert/beautify a Mermaid diagram.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): cron-schedule-planner]]></title>
-            <link>https://skills.sh/dboeckli/ai-agent-skills/cron-schedule-planner</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:dboeckli/ai-agent-skills/cron-schedule-planner</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): figma]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/figma</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/figma</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 30
-Source: dboeckli/ai-agent-skills
-Description: Builds an overview of GitHub Actions `schedule` cron expressions across multiple repositories and helps spread CPU-intensive jobs (Docker Compose, Testcontainers, Kind/k3s, matrix builds) into less contended slots. Use when the user asks 'when do my cron actions run?', 'do my scheduled builds collide?', 'when should the Testcontainers build run?', or wants a cron schedule overview/distribution report across repos. Scans via `gh` (no local checkouts required) or local checkouts, converts UTC to a local timezone, classifies job intensity, and writes a Markdown report with an hourly histogram, collisions and concrete cron redistribution suggestions.]]></description>
+Installs: 335
+Source: heygen-com/hyperframes
+Description: Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → animatics (REST/CLI), and Figma Motion animations + shaders (MCP). Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): court-payment-order-assistant]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/court-payment-order-assistant</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/court-payment-order-assistant</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): open-code-review-delegate]]></title>
+            <link>https://skills.sh/alibaba/open-code-review/open-code-review-delegate</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:alibaba/open-code-review/open-code-review-delegate</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 9
-Source: nomadamas/k-skill
-Description: 법원 전자소송 지급명령 신청을 위해 채권자·채무자·청구금액·청구원인·증빙 정보를 인터뷰하고, 신청서 초안과 공식 전자소송 브라우저 입력 handoff를 준비한다.]]></description>
+Installs: 11
+Source: alibaba/open-code-review
+Description: Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LLM capabilities.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): popbill]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/popbill</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/popbill</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): setup-api-key]]></title>
+            <link>https://skills.sh/elevenlabs/skills/setup-api-key</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:elevenlabs/skills/setup-api-key</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 9
-Source: nomadamas/k-skill
-Description: 팝빌 전자세금계산서·전자명세서·현금영수증·문자·카카오톡·팩스·휴폐업/기업정보·계좌조회·홈택스 수집을 테스트/운영 환경에서 안전하게 호출한다.]]></description>
+Installs: 10
+Source: elevenlabs/skills
+Description: Sets up an ElevenLabs API key for use with ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): housing-subscription-reference]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/housing-subscription-reference</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/housing-subscription-reference</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): mastra-factory]]></title>
+            <link>https://skills.sh/mastra-ai/skills/mastra-factory</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:mastra-ai/skills/mastra-factory</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 9
-Source: nomadamas/k-skill
-Description: 민영주택 일반공급 청약가점(무주택기간·부양가족수·청약통장 가입기간 합계 84점)과 지역·전용면적별 청약 예치금 기준을 「주택공급에 관한 규칙」 별표 1·별표 2 값으로 조회한다. 청약가점, 청약 예치금, 민영주택, 무주택기간, 부양가족 질문에 사용한다.]]></description>
+Installs: 10
+Source: mastra-ai/skills
+Description: Operate and supervise Mastra Factory through `mastra api factory`. Use for Factory status or queue summaries, project and work-item inspection, metrics, health, decisions, attention, supervisor sessions, and user-authorized autonomous or interactive Factory operations on hosted, local, remote, or self-hosted servers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): delivery-tracking]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/delivery-tracking</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/delivery-tracking</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): gh-axi]]></title>
+            <link>https://skills.sh/kunchenguid/gh-axi/gh-axi</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:kunchenguid/gh-axi/gh-axi</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 9
-Source: nomadamas/k-skill
-Description: Track CJ대한통운 and 우체국 parcels by invoice number with official carrier endpoints, and structure the workflow around a carrier adapter that can grow to more couriers later.]]></description>
+Installs: 8
+Source: kunchenguid/gh-axi
+Description: Operate GitHub through the gh-axi CLI - issues, pull requests, workflow runs, workflows, releases, repositories, labels, search, and raw API access. Use whenever a task touches GitHub: listing or filing issues, reviewing or merging PRs, checking CI runs, cutting releases, or querying the GitHub API.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): highway-traffic-status]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/highway-traffic-status</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/highway-traffic-status</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): cloudflare]]></title>
+            <link>https://skills.sh/cloudflare/skills/cloudflare</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/cloudflare</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 9
-Source: nomadamas/k-skill
-Description: 한국도로공사·국가교통정보센터 공개 API로 고속도로 실시간 소통(구간별 속도/교통량/정체 등급)과 CCTV 스트림 메타데이터를 조회한다. Use when the user asks 고속도로 정체, 교통 상황, 노선/구간 소통, 고속도로 CCTV. Not for 대중교통 길찾기 or 자동차 경로 안내.]]></description>
+Installs: 27
+Source: cloudflare/skills
+Description: Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): kbo-results]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/kbo-results</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/kbo-results</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): workers-profiling]]></title>
+            <link>https://skills.sh/cloudflare/skills/workers-profiling</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/workers-profiling</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 9
-Source: nomadamas/k-skill
-Description: Fetch KBO game schedules and results for a specific date with the kbo-game npm package. Use when the user asks for today's KBO games, yesterday's scores, or a date-specific scoreboard.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Profile or debug CPU usage and memory allocation in deployed Cloudflare Workers and Durable Objects. Then use this information to optimize your code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): korean-jangbu-for]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/korean-jangbu-for</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/korean-jangbu-for</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): ponytail-debt]]></title>
+            <link>https://skills.sh/dietrichgebert/ponytail/ponytail-debt</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:dietrichgebert/ponytail/ponytail-debt</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 9
-Source: nomadamas/k-skill
-Description: kimlawtech/korean-jangbu-for (Apache-2.0) 업스트림을 중심으로 한국 스타트업·1인 법인·프리랜서·개인사업자 장부 자동화와 사업자 세무 자료 정리, 원본 데이터 가져오기, 계정과목 태깅, 세무사 전달 CSV, 경영 리포트 생성을 안내하는 thin wrapper 스킬.]]></description>
+Installs: 24
+Source: dietrichgebert/ponytail
+Description: Harvest every `ponytail:` comment in the codebase into a debt ledger, so the deliberate shortcuts and deferrals ponytail leaves behind get tracked instead of rotting into "later means never". Use when the user says "ponytail debt", "/ponytail-debt", "what did ponytail defer", "list the shortcuts", "ponytail ledger", or "what did we mark to do later". One-shot report, changes nothing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): kakaotalk-mac]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/kakaotalk-mac</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/kakaotalk-mac</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): ponytail-gain]]></title>
+            <link>https://skills.sh/dietrichgebert/ponytail/ponytail-gain</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:dietrichgebert/ponytail/ponytail-gain</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 9
-Source: nomadamas/k-skill
-Description: Use kakaocli on macOS to read KakaoTalk chats, search messages, and send replies after explicit confirmation.]]></description>
+Installs: 23
+Source: dietrichgebert/ponytail
+Description: Show ponytail's measured impact as a compact scoreboard: less code, less cost, more speed, from the benchmark medians. One-shot display, not a persistent mode, and not a per-repo number. Trigger: /ponytail-gain, "ponytail gain", "what does ponytail save", "show ponytail impact", "ponytail scoreboard".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): boim-business-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/boim-business-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/boim-business-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): marketing-psychology]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/marketing-psychology</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:coreyhaines31/marketingskills/marketing-psychology</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 9
-Source: nomadamas/k-skill
-Description: 보임(BOIM, boim.io)의 무인증 공개 검색 주소로 한국 전국 전 업종 업체(지역×업종·상호), 공공 조달 실적이 있는 업체(품명·업종), 공공기관 진행 중 입찰 공고(나라장터·국방전자조달·LH·한국수자원공사·누리장터)를 한 번에 찾는다. '세종 보람동 미용실', '교통안전표지 납품 실적 업체', '학교 안전 입찰 공고'처럼 물을 때 사용한다. 결과는 관련도 순(평가·순위 아님)이고 출처 한 줄과 전체 목록 주소를 함께 준다. Use when the user wants to find businesses in Korea by region and industry, vendors with Korean public-procurement records, or open Korean public tenders.]]></description>
+Installs: 22
+Source: coreyhaines31/marketingskills
+Description: When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): g2b-order-plan-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/g2b-order-plan-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/g2b-order-plan-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): copy-editing]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/copy-editing</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:coreyhaines31/marketingskills/copy-editing</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 9
-Source: nomadamas/k-skill
-Description: 조달청 나라장터 발주계획현황서비스로 물품·공사·용역·외자 발주계획 목록을 검색한다.]]></description>
+Installs: 22
+Source: coreyhaines31/marketingskills
+Description: When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): camel-matrix]]></title>
-            <link>https://skills.sh/dboeckli/ai-agent-skills/camel-matrix</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:dboeckli/ai-agent-skills/camel-matrix</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 30
-Source: dboeckli/ai-agent-skills
-Description: Generates an AsciiDoc compatibility matrix for Apache Camel Spring Boot, Spring Boot, and Apache CXF versions by running the camel-springboot-matrix.sh script. Use when the user asks to generate or update the Camel compatibility matrix, check Camel Spring Boot version compatibility, or run the camel-springboot-matrix script. Supports optional version range arguments (min max).]]></description>
+Installs: 653
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): seoul-subway-arrival]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/seoul-subway-arrival</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/seoul-subway-arrival</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): chrome-devtools-axi]]></title>
+            <link>https://skills.sh/kunchenguid/chrome-devtools-axi/chrome-devtools-axi</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:kunchenguid/chrome-devtools-axi/chrome-devtools-axi</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
 Installs: 9
-Source: nomadamas/k-skill
-Description: Look up Seoul real-time subway arrival information with the official Seoul Open Data API. Use when the user asks when a train arrives, which trains are approaching a station, or how crowded Seoul subway timing looks right now.]]></description>
+Source: kunchenguid/chrome-devtools-axi
+Description: Control a Chrome browser session through the chrome-devtools-axi CLI - navigate, snapshot, click, fill forms, run JavaScript, inspect console and network, take screenshots, audit performance. Use whenever a task needs a real browser: opening or testing a web page, clicking through a flow, extracting page content, or debugging a website.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): court-auction-notice-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/court-auction-notice-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/court-auction-notice-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): onboarding]]></title>
+            <link>https://skills.sh/elevenlabs/skills/onboarding</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:elevenlabs/skills/onboarding</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
 Installs: 9
-Source: nomadamas/k-skill
-Description: Browse 대법원경매정보(courtauction.go.kr) 부동산 매각공고 by 매각기일·법원·기일/기간 입찰, expand each notice into 사건번호·용도·주소·감정평가액·최저매각가, and look up a case directly by 법원+사건번호. Read-only, slow-by-design (~2s/call) to avoid IP blocks. Use when the user asks "오늘 어디서 부동산 경매가 열려?" "이 사건번호 정보 알려줘" or wants 매각공고 데이터를 에이전트가 다룰 수 있는 JSON으로.]]></description>
+Source: elevenlabs/skills
+Description: Add ElevenLabs to a project from scratch. Use when the user wants to start using ElevenLabs, add text to speech, speech to text, voice agents, real-time voice for their own agent runtime (Speech Engine), sound effects, music, voice changing, voice isolation, or dubbing to their app, or get set up with an ElevenLabs account or API key for the first time. Handles sign-in, API key creation, SDK install and a test request end to end; the user leaves the conversation once, to approve a browser page. Not for fixing a key that stopped working or placing one an administrator issued (use setup-api-key).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): korean-scholarship-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/korean-scholarship-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/korean-scholarship-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): durable-objects]]></title>
+            <link>https://skills.sh/cloudflare/skills/durable-objects</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/durable-objects</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 9
-Source: nomadamas/k-skill
-Description: Search Korean scholarship announcements across official KOSAF, university, foundation, company, and public-sector sources, extract amount and eligibility, and filter results by school, income band, student level, and organization type. Users may invoke it with the phrase 장학금 검색 및 조회.]]></description>
+Installs: 26
+Source: cloudflare/skills
+Description: Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, SQLite storage, alarms, WebSockets, or reviewing DO code for best practices. Covers Workers integration, wrangler config, and testing with Vitest.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): multi-asset-morning-briefing]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/multi-asset-morning-briefing</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/multi-asset-morning-briefing</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): turnstile-spin]]></title>
+            <link>https://skills.sh/cloudflare/skills/turnstile-spin</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/turnstile-spin</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 9
-Source: nomadamas/k-skill
-Description: 글로벌 주식·금리·외환·원자재·변동성과 한국시장 전달 경로를 연결해 근거 링크가 있는 7개 섹션의 멀티에셋 모닝 브리핑을 작성한다. Use when the user asks 모닝 브리핑, Morning Call, 오버나이트 시황, 데일리 마켓 브리핑 또는 기존 브리핑 검수. Not for 실시간 호가, 국내 개별 종목 단독 조회(korean-stock-search), 투자 권유·매매 판단.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Set up Cloudflare Turnstile end-to-end in a project — scan the codebase, create the widget via the Cloudflare API, deploy the managed siteverify Worker, write the frontend snippets, validate, and persist the skill. Load this when a user asks to add Turnstile, set up CAPTCHA, protect a form from bots, or fix a Turnstile integration. Mirrors developers.cloudflare.com/turnstile/spin.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): nhis-care-checkup-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/nhis-care-checkup-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/nhis-care-checkup-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): sandbox-next]]></title>
+            <link>https://skills.sh/cloudflare/skills/sandbox-next</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/sandbox-next</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 9
-Source: nomadamas/k-skill
-Description: 국민건강보험공단 장기요양기관과 건강검진기관 검색 API를 k-skill-proxy 경유로 조회한다. 조회 전용.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Use when building or changing Cloudflare Sandbox apps on @cloudflare/sandbox@next (Sandbox SDK 1.0 preview)—code execution, AI runners, interpreters, CI-like jobs, terminals, files, mounts, tunnels, preview URLs, lifecycle, or errors. Not for the default stable package (use sandbox-stable) or for porting stable to @next (use sandbox-migrate-to-next).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): saramin-talent-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/saramin-talent-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/saramin-talent-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): cloudflare-one]]></title>
+            <link>https://skills.sh/cloudflare/skills/cloudflare-one</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/cloudflare-one</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 9
-Source: nomadamas/k-skill
-Description: 사람인 기업회원 인재풀 로그인 세션에서 마스킹된 후보 정보를 검색·비교해 유료 열람 전 shortlist를 만듭니다.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Guides Cloudflare One Zero Trust and SASE work across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Use when designing, configuring, troubleshooting, or reviewing Cloudflare One deployments. Retrieval-first: use current Cloudflare docs/API schemas instead of embedded product docs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): gov-overseas-trip-report]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/gov-overseas-trip-report</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/gov-overseas-trip-report</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): sandbox-stable]]></title>
+            <link>https://skills.sh/cloudflare/skills/sandbox-stable</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/sandbox-stable</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 9
-Source: nomadamas/k-skill
-Description: 선관위·권익위·정보공개포털·주요 지방의회 등 검증된 공개 표면에서 공무국외출장/국외훈련 보고서·현황을 조회하고, 첨부 원문이 있으면 kordoc으로 사실·공개성·검토 신호만 구조화한다. 부정부패 판정 도구가 아니다.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Use when building or changing Cloudflare Sandbox apps on the current stable @cloudflare/sandbox package (default npm tag)—commands, sessions, files, ports, tunnels, terminals, bridge, production, or deprecated-API cleanup while staying on stable. Not for @cloudflare/sandbox@next (use sandbox-next) or for porting to 1.0 (use sandbox-migrate-to-next).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): korean-slang-writing]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/korean-slang-writing</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/korean-slang-writing</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): sandbox-migrate-to-next]]></title>
+            <link>https://skills.sh/cloudflare/skills/sandbox-migrate-to-next</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/sandbox-migrate-to-next</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 9
-Source: nomadamas/k-skill
-Description: Use curated Korean trending-slang candidates plus best-effort Namu Wiki lookups to write witty Korean text with up-to-date slang, with conservative safety and freshness guardrails.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Use when porting a Cloudflare Sandbox app from stable @cloudflare/sandbox to @cloudflare/sandbox@next (Sandbox SDK 1.0 preview), or when the user asks to migrate or upgrade to Sandbox 1.0 / @next. Not for day-to-day stable work (sandbox-stable) or new @next apps (sandbox-next).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): ticket-availability]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/ticket-availability</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/ticket-availability</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): cloudflare-one-migrations]]></title>
+            <link>https://skills.sh/cloudflare/skills/cloudflare-one-migrations</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/cloudflare-one-migrations</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 9
-Source: nomadamas/k-skill
-Description: YES24 / 인터파크 공연의 공개 일정 + 등급별 잔여석을 단일 HTTP 호출로 조회 (조회 전용, 예매·결제 없음).]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Plans migrations from Zscaler ZIA/ZPA, Palo Alto, legacy VPN, SWG, or SASE stacks to Cloudflare One. Use for migration assessments, policy mapping, rollout plans, and parity/gap analysis.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): lotto-results]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/lotto-results</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/lotto-results</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): cloudflare-email-service]]></title>
+            <link>https://skills.sh/cloudflare/skills/cloudflare-email-service</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:cloudflare/skills/cloudflare-email-service</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 9
-Source: nomadamas/k-skill
-Description: Check Korean Lotto draw results, latest rounds, and ticket matches with the k-lotto npm package. Use when the user asks for winning numbers, payout details, or whether their numbers matched.]]></description>
+Installs: 25
+Source: cloudflare/skills
+Description: Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building email sending (Workers binding or REST API), email routing, Agents SDK email handling, or integrating email into any app — Workers, Node.js, Python, Go, etc. Also use for email deliverability, SPF/DKIM/DMARC, wrangler email setup, MCP email tools, or when a coding agent needs to send emails. Even for simple requests like "add email to my Worker" — this skill has critical config details.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): project-references]]></title>
-            <link>https://skills.sh/dboeckli/ai-agent-skills/project-references</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:dboeckli/ai-agent-skills/project-references</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): media-use]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/media-use</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 30
-Source: dboeckli/ai-agent-skills
-Description: Look up conventions, patterns, and concrete implementations from your own GitHub repositories checked out locally under ~/projects/referenzen/. Use this skill whenever there is uncertainty about how something is done in your codebase family — e.g. Helm chart structure, Kubernetes manifests, framework configuration patterns, Docker Compose conventions, CI/CD pipeline setup, or any other recurring architectural decision. Invoke it proactively before guessing at a convention; always cite the source project and path when a pattern is adopted. Also use when the user asks to check out, update, or search reference repositories.]]></description>
+Installs: 647
+Source: heygen-com/hyperframes
+Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): keris-academic-search]]></title>
-            <link>https://skills.sh/nomadamas/k-skill/keris-academic-search</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:nomadamas/k-skill/keris-academic-search</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): agent-browser]]></title>
+            <link>https://skills.sh/qu-skills/superpowers/agent-browser</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:qu-skills/superpowers/agent-browser</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 9
-Source: nomadamas/k-skill
-Description: Use when the user asks to search Korean theses, academic articles, research reports, journals, or university-library catalog metadata through KERIS RISS.]]></description>
+Installs: 24
+Source: qu-skills/superpowers
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): seo-geo]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/seo-geo</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:resciencelab/opc-skills/seo-geo</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): hyperframes-registry]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/hyperframes-registry</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 38
-Source: resciencelab/opc-skills
-Description: SEO & GEO (Generative Engine Optimization) for websites.
-Analyze keywords, generate schema markup, optimize for AI search engines
-(ChatGPT, Perplexity, Gemini, Copilot, Claude) and traditional search (Google, Bing).
-Use when user wants to improve search visibility.]]></description>
+Installs: 623
+Source: heygen-com/hyperframes
+Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): using-superpowers]]></title>
-            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/using-superpowers</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 49
-Source: obra/superpowers
-Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
+Installs: 635
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): subagent-driven-development]]></title>
-            <link>https://skills.sh/obra/superpowers/subagent-driven-development</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:obra/superpowers/subagent-driven-development</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-11-18T05:55:29.369Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Wed, 18 Nov 2026 05:55:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 51
-Source: obra/superpowers
-Description: Use when executing implementation plans with independent tasks in the current session]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): visual-pr]]></title>
-            <link>https://skills.sh/humanlayer/skills/visual-pr</link>
-            <guid isPermaLink="false">2026-11-17T06:31:42.461Z:topHot:new:humanlayer/skills/visual-pr</guid>
-            <pubDate>Tue, 17 Nov 2026 06:31:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 10
-Source: humanlayer/skills
-Description: Only use when the user explicitly invokes this skill by name.]]></description>
+Installs: 687
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
     </channel>
 </rss>

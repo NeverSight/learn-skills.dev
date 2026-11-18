@@ -1,0 +1,1 @@
+一个入口操控电脑，适用于 macOS、Windows、Linux 和各种 Agent：先判断要不要点界面，再按当前工具清单选路线（Cua Driver 优先，agent-desktop 兜底，Agent 自带的 computer use 第三），缺工具时说明装了能做到什么并给出官方安装命令，经同意再装；尽量后台操作、不抢鼠标，敏感动作先确认，操作后读回。用户说「在电脑上帮我…」「去浏览器里看看…」「操作这个 App」「computer use」时使用；不替用户输入密码或付款，不用 Claude in Chrome。触发：/dbs-computer-use。
