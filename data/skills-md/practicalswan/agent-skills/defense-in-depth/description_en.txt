@@ -1,0 +1,1 @@
+Validate at every layer data passes through to make bugs impossible
