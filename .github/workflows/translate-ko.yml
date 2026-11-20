@@ -1,9 +1,9 @@
 name: Translate Descriptions (ko)
 
 on:
-  # Run every hour
-  schedule:
-    - cron: '0 * * * *'
+  # # Run every hour
+  # schedule:
+  #   - cron: '0 * * * *'
   push:
     paths:
       - 'data/skills-md/**/description_en.txt'
