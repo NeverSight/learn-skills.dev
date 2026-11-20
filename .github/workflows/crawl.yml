@@ -1,9 +1,9 @@
 name: Skills Crawl
 
 on:
-  # Run once per day
-  schedule:
-    - cron: '0 0 * * *'
+  # # Run once per day
+  # schedule:
+  #   - cron: '0 0 * * *'
   # Support manual trigger
   workflow_dispatch:
     inputs:
